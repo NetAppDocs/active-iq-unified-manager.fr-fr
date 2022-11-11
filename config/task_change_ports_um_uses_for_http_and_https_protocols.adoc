@@ -1,0 +1,44 @@
+---
+permalink: config/task_change_ports_um_uses_for_http_and_https_protocols.html 
+sidebar: sidebar 
+keywords: change, ports, unified manager, uses, http, https, protocols 
+summary: 'Le cas échéant, les ports par défaut utilisés par Unified Manager pour les protocoles HTTP et HTTPS peuvent être modifiés après l"installation. Les ports par défaut sont 80 pour HTTP et 443 pour HTTPS.' 
+---
+= Changement des ports que Unified Manager utilise pour les protocoles HTTP et HTTPS
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Le cas échéant, les ports par défaut utilisés par Unified Manager pour les protocoles HTTP et HTTPS peuvent être modifiés après l'installation. Les ports par défaut sont 80 pour HTTP et 443 pour HTTPS.
+
+*Ce dont vous aurez besoin*
+
+Vous devez disposer d'un ID utilisateur et d'un mot de passe autorisés pour vous connecter à la console de maintenance du serveur Unified Manager.
+
+[NOTE]
+====
+Certains ports sont considérés comme dangereux lors de l'utilisation des navigateurs Mozilla Firefox ou Google Chrome. Vérifiez auprès de votre navigateur avant d'attribuer un nouveau numéro de port pour le trafic HTTP et HTTPS. La sélection d'un port non sécurisé peut rendre le système inaccessible, ce qui vous oblige à contacter le support client pour obtenir une résolution.
+
+====
+L'instance de Unified Manager est redémarrée automatiquement après avoir modifié le port. Assurez-vous donc que le système est bien arrêté pendant un court laps de temps.
+
+. Connectez-vous en utilisant SSH en tant qu'utilisateur de maintenance sur l'hôte Unified Manager.
++
+Les invites de la console de maintenance Unified Manager s'affichent.
+
+. Tapez le numéro de l'option de menu *Afficher/Modifier les ports d'application*, puis appuyez sur entrée.
+. Si vous y êtes invité, saisissez à nouveau le mot de passe utilisateur pour la maintenance.
+. Saisissez les nouveaux numéros de port pour les ports HTTP et HTTPS, puis appuyez sur entrée.
++
+Si vous laissez un numéro de port vide, le port par défaut du protocole est affecté.
+
++
+Vous êtes invité à modifier les ports et à redémarrer Unified Manager maintenant.
+
+. Tapez *y* pour modifier les ports et redémarrer Unified Manager.
+. Sortir de la console de maintenance.
+
+
+Après cette modification, les utilisateurs doivent inclure le nouveau numéro de port dans l'URL pour accéder à l'interface utilisateur Web d'Unified Manager, par exemple +https://host.company.com:1234+, +https://12.13.14.15:1122+ ou +https://[2001:db8:0:1]:2123+.

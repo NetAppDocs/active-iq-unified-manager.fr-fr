@@ -1,0 +1,40 @@
+---
+permalink: reporting/task_create_report_to_view_volumes_with_an_inaccessible_junction_path.html 
+sidebar: sidebar 
+keywords: create, report, view, volumes, inaccessible, mount, path 
+summary: Vous pouvez créer un rapport pour rechercher des volumes dont le chemin de montage est inaccessible. 
+---
+= Création d'un rapport pour afficher les volumes dont le chemin de montage est inaccessible
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez créer un rapport pour rechercher des volumes dont le chemin de montage est inaccessible.
+
+*Ce dont vous aurez besoin*
+
+* Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+
+
+Procédez comme suit pour créer une vue personnalisée pour les volumes ayant un chemin de montage inaccessible, puis planifier la génération d'un rapport pour cette vue.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage* > *NFS Shares*.
+. Sélectionnez *Afficher/Masquer* pour supprimer les colonnes que vous ne souhaitez pas inclure dans le rapport.
+. Cliquez sur l'icône de filtre, ajoutez le filtre suivant, puis cliquez sur *appliquer le filtre* :
++
+** Le chemin de montage actif est non
+
+
+. Enregistrez la vue avec un nom spécifique qui reflète ce que la vue affiche, par exemple « volumes avec un chemin de montage inaccessible », puis cochez la case (image:../media/blue_check.gif[""]).
+. Cliquez sur le bouton *Rapports planifiés* sur la page d'inventaire.
+. Cliquez sur *Ajouter un programme* pour ajouter une nouvelle ligne à la page programmes de rapports afin de définir les caractéristiques de planification du nouveau rapport.
+. Entrez un nom pour le planning du rapport et remplissez les autres champs du rapport, puis cliquez sur la coche (image:../media/blue_check.gif[""]) à la fin du rang.
++
+Le rapport est envoyé immédiatement sous forme de test. Ensuite, le rapport génère et est envoyé par e-mail aux destinataires répertoriés à l'aide de la fréquence spécifiée.
+
+
+
+En fonction des résultats affichés dans le rapport, vous pouvez corriger les chemins de montage inaccessibles.

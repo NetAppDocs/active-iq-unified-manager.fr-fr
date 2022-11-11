@@ -1,0 +1,24 @@
+---
+permalink: config/task_configure_audit_logs.html 
+sidebar: sidebar 
+keywords: configure, audit logs 
+summary: 'Vous pouvez utiliser le bouton configurer de la section journaux d"audit pour configurer la stratégie de roulement des fichiers journaux d"audit et activer la journalisation à distance des journaux d"audit.' 
+---
+= Configuration des journaux d'audit
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez utiliser le bouton *configurer* de la section journaux d'audit pour configurer la stratégie de déploiement des fichiers journaux d'audit et activer la journalisation à distance des journaux d'audit.
+
+Vous pouvez définir les valeurs dans les JOURS de RÉTENTION du JOURNAL * *MAX ET *AUDIT LOG* en fonction de la quantité et de la fréquence de données que vous souhaitez stocker dans le système. La valeur du champ *TAILLE TOTALE DU JOURNAL D'AUDIT* est la taille totale des données du journal d'audit présentes dans le système. La stratégie de reprise est déterminée par les valeurs du champ *JOURS DE RÉTENTION DU JOURNAL D'AUDIT*, *taille DU FICHIER MAX* et *TAILLE TOTALE DU JOURNAL D'AUDIT*. Lorsque la taille de la sauvegarde du journal d'audit atteint la valeur configurée dans *TAILLE TOTALE DU JOURNAL D'AUDIT*, le fichier qui a été archivé en premier est supprimé. Cela signifie que le fichier le plus ancien est supprimé. Mais l'entrée de fichier continue d'être disponible dans la base de données et est marquée comme ""Suppression de substitution"". La valeur *JOURS de CONSERVATION DU JOURNAL D'AUDIT* correspond au nombre de jours pendant lesquels les fichiers journaux d'audit sont conservés. Tout fichier antérieur à la valeur définie dans ce champ est redéployé.
+
+.Étapes
+. Cliquez sur *journaux d'audit* > *configurer*.
+. Entrez des valeurs dans les champs *MAX FILE SIZE*, *TOTAL AUDIT LOG SIZE* et *AUDIT LOG RETENTION DAYS*.
++
+Si vous souhaitez activer la journalisation à distance, sélectionnez *Activer la journalisation à distance*.
+
+

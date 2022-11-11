@@ -1,0 +1,32 @@
+---
+permalink: events/task_view_event_details.html 
+sidebar: sidebar 
+keywords: view, events, details 
+summary: 'Vous pouvez afficher les détails d"un événement déclenché par Unified Manager pour effectuer une action corrective. Par exemple, si un événement de santé est hors ligne, vous pouvez cliquer sur cet événement pour afficher les détails et effectuer les actions correctives nécessaires.' 
+---
+= Affichage des événements et des détails des événements
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez afficher les détails d'un événement déclenché par Unified Manager pour effectuer une action corrective. Par exemple, si un événement de santé est hors ligne, vous pouvez cliquer sur cet événement pour afficher les détails et effectuer les actions correctives nécessaires.
+
+*Ce dont vous aurez besoin*
+
+Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
+
+Les détails de l'événement incluent des informations telles que la source de l'événement, la cause de l'événement et toute note liée à l'événement.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Event Management*.
++
+Par défaut, la vue tous les événements actifs affiche les événements nouveaux et acquittés (actifs) qui ont été générés au cours des 7 derniers jours ayant un niveau d'impact d'incident ou de risque.
+
+. Si vous souhaitez afficher une catégorie particulière d'événements, par exemple, les événements de capacité ou les événements de performances, cliquez sur *Afficher* et sélectionnez dans le menu des types d'événements.
+. Cliquez sur le nom de l'événement dont vous souhaitez afficher les détails.
++
+Les détails de l'événement s'affichent sur la page Détails de l'événement.
+
+

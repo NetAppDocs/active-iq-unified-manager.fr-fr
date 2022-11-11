@@ -1,0 +1,28 @@
+---
+permalink: health-checker/task_send_support_bundle_to_technical_support.html 
+sidebar: sidebar 
+keywords: support bundle, technical support 
+summary: 'Pour obtenir des informations plus détaillées sur le diagnostic et le dépannage d"un problème que ne fournit un message AutoSupport, vous pouvez envoyer un pack d"assistance au support technique.' 
+---
+= Envoi d'un pack support au support technique
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Pour obtenir des informations plus détaillées sur le diagnostic et le dépannage d'un problème que ne fournit un message AutoSupport, vous pouvez envoyer un pack d'assistance au support technique.
+
+*Ce dont vous aurez besoin*
+
+Vous devez accéder au pack pour l'envoyer au support technique.
+
+Vous devez obtenir un numéro de dossier généré par le biais du site Web de support technique.
+
+.Étapes
+. Connectez-vous au site de support NetApp.
+. Téléchargez le fichier.
++
+https://kb.netapp.com/Advice_and_Troubleshooting/Miscellaneous/How_to_upload_a_file_to_NetApp["Télécharger un fichier vers NetApp"]
+
+

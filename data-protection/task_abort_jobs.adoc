@@ -1,0 +1,24 @@
+---
+permalink: data-protection/task_abort_jobs.html 
+sidebar: sidebar 
+keywords: abort, jobs 
+summary: 'Vous pouvez utiliser la page travaux pour abandonner un travail s"il prend trop de temps à terminer, qu"il rencontre trop d"erreurs ou qu"il n"est plus nécessaire. Vous ne pouvez abandonner un travail que si son état et son type l"autorisent. Vous pouvez abandonner tout travail en cours d"exécution.' 
+---
+= Abandon des travaux
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez utiliser la page travaux pour abandonner un travail s'il prend trop de temps à terminer, qu'il rencontre trop d'erreurs ou qu'il n'est plus nécessaire. Vous ne pouvez abandonner un travail que si son état et son type l'autorisent. Vous pouvez abandonner tout travail en cours d'exécution.
+
+*Ce dont vous aurez besoin*
+
+Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *protection* > *travaux*.
+. Dans la liste des travaux, sélectionnez un travail, puis cliquez sur *abandonner*.
+. À l'invite de confirmation, cliquez sur *Oui* pour abandonner le travail sélectionné.
+

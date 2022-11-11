@@ -1,0 +1,50 @@
+---
+permalink: health-checker/concept_common_unified_manager_administrative_workflows_and_tasks.html 
+sidebar: sidebar 
+keywords: Common, unified, manager, health, workflows, tasks 
+summary: 'Parmi les workflows et tâches d"administration courants associés à Unified Manager figurent la sélection des clusters de stockage à contrôler, le diagnostic des conditions qui affectent négativement la disponibilité des données, la capacité et la protection, la restauration des données perdues, la configuration et la gestion des volumes, le regroupement et l"envoi de données de diagnostic au support technique (si nécessaire).' 
+---
+= Tâches et workflows d'état de Unified Manager communs
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Parmi les workflows et tâches d'administration courants associés à Unified Manager figurent la sélection des clusters de stockage à contrôler, le diagnostic des conditions qui affectent négativement la disponibilité des données, la capacité et la protection, la restauration des données perdues, la configuration et la gestion des volumes, le regroupement et l'envoi de données de diagnostic au support technique (si nécessaire).
+
+Unified Manager permet aux administrateurs du stockage d'afficher un tableau de bord, d'évaluer la capacité globale, la disponibilité et l'état de protection des clusters de stockage gérés, puis d'identifier, de localiser, de diagnostiquer et d'attribuer rapidement la résolution de tout problème spécifique.
+
+Les problèmes les plus importants liés à un cluster, à un SVM (Storage Virtual machine), à un volume ou à un volume FlexGroup qui affectent la capacité de stockage ou la disponibilité des données des objets de stockage gérés sont affichés dans les graphiques et événements d'état du système sur la page Tableau de bord. Lorsque des problèmes critiques sont identifiés, cette page fournit des liens permettant de prendre en charge les processus de dépannage appropriés.
+
+Unified Manager peut également être inclus dans des flux de production comprenant des outils de gestion associés, tels que OnCommand Workflow Automation (WFA), pour prendre en charge la configuration directe des ressources de stockage.
+
+Ce document décrit les workflows courants relatifs aux tâches administratives suivantes :
+
+* Diagnostic et gestion des problèmes de disponibilité
++
+Si une défaillance matérielle ou des problèmes de configuration des ressources de stockage entraînent l'affichage des événements de disponibilité des données sur la page Tableau de bord, les administrateurs de stockage peuvent suivre les liens intégrés pour afficher les informations de connectivité sur la ressource de stockage affectée, consulter les conseils de dépannage et attribuer la résolution des problèmes à d'autres administrateurs.
+
+* Configuration et surveillance des incidents de performance
++
+L'administrateur peut surveiller et gérer les performances des ressources du système de stockage qui sont surveillées. Voir la link:../performance-checker/concept_introduction_to_unified_manager_performance_monitoring.html["Présentation de la surveillance des performances Active IQ Unified Manager"] pour en savoir plus.
+
+* Diagnostic et gestion des problèmes de capacité des volumes
++
+Si des problèmes de capacité de stockage de volume s'affichent sur la page Tableau de bord, les administrateurs de stockage peuvent suivre les liens intégrés pour afficher les tendances actuelles et historiques relatives à la capacité de stockage du volume affecté, consulter des conseils de dépannage et attribuer la résolution des problèmes à d'autres administrateurs.
+
+* Configuration, contrôle et diagnostic des problèmes de relation au niveau de la protection
++
+Après avoir créé et configuré des relations de protection, les administrateurs du stockage peuvent voir les problèmes potentiels liés aux relations de protection, l'état actuel des relations de protection, les informations de réussite de la tâche de protection actuelle et historique concernant les relations affectées, ainsi que des conseils de résolution de problèmes. Voir la link:../data-protection/concept_create_and_monitor_protection_relationships.html["Création, surveillance et résolution des problèmes de relations de protection"] pour en savoir plus.
+
+* Création de fichiers de sauvegarde et restauration de données à partir de fichiers de sauvegarde.
+* Association d'objets de stockage avec des annotations
++
+En associant les objets de stockage aux annotations, les administrateurs du stockage peuvent filtrer et afficher les événements associés aux objets de stockage. Ainsi, les administrateurs du stockage peuvent hiérarchiser et résoudre les problèmes associés aux événements.
+
+* Utilisation d'API REST pour vous aider à gérer les clusters en visualisant les informations d'état, de capacité et de performance collectées par Unified Manager. Voir link:../api-automation/concept_get_started_with_um_apis.html["Mise en route des API REST de Active IQ Unified Manager"] pour en savoir plus.
+* Envoi d'un pack support au support technique
++
+Les administrateurs de stockage peuvent récupérer et envoyer un pack au support technique à l'aide de la console de maintenance. Les packs de support doivent être envoyés au support technique si le problème nécessite un diagnostic et une résolution de problèmes plus détaillés que ceux communiqués par un message AutoSupport.
+
+

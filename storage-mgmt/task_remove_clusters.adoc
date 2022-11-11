@@ -1,0 +1,34 @@
+---
+permalink: storage-mgmt/task_remove_clusters.html 
+sidebar: sidebar 
+keywords: remove, cluster 
+summary: 'Vous pouvez supprimer un cluster de Unified Manager en utilisant la page Cluster Setup. Par exemple, vous pouvez supprimer un cluster si la détection d"un cluster échoue ou si vous souhaitez désaffecter un système de stockage.' 
+---
+= Supprimer les clusters
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez supprimer un cluster de Unified Manager en utilisant la page Cluster Setup. Par exemple, vous pouvez supprimer un cluster si la détection d'un cluster échoue ou si vous souhaitez désaffecter un système de stockage.
+
+*Ce dont vous aurez besoin*
+
+Vous devez disposer du rôle Administrateur d'applications ou Administrateur stockage.
+
+Cette tâche supprime le cluster sélectionné de Unified Manager. Après le retrait d'un cluster, il n'est plus surveillé. De même, l'instance de Unified Manager enregistrée avec le cluster supprimé n'est pas enregistrée du cluster.
+
+La suppression d'un cluster supprime également tous ses objets de stockage, ses données historiques, les services de stockage et tous les événements associés à partir d'Unified Manager. Ces changements sont reflétés sur les pages d'inventaire et les pages de détails après le prochain cycle de collecte des données.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage Management* > *Cluster Setup*.
+. Sur la page Cluster Setup (Configuration du cluster), sélectionnez le cluster à supprimer et cliquez sur *Remove* (Supprimer*).
+. Dans la boîte de dialogue *Supprimer la source de données*, cliquez sur *Supprimer* pour confirmer la demande de suppression.
+
+
+*Informations connexes*
+
+link:../config/task_add_users.html["Ajout d'utilisateurs"]
+
+link:../health-checker/task_view_cluster_list_and_details.html["Affichage de la liste et des détails des clusters"]

@@ -1,0 +1,49 @@
+---
+permalink: reporting/task_create_report_volumes_that_should_move_data_to_cloud_tier.html 
+sidebar: sidebar 
+keywords: create, report, identify, volumes, FabricPool, aggregates, data, cloud tier 
+summary: Vous pouvez créer un rapport contenant la liste des volumes résidant sur des agrégats FabricPool, dont les recommandations pour le cloud sont nombreuses et dont les données inactives sont importantes. Ce rapport vous aidera à décider si vous devez modifier la règle de Tiering de certains volumes en « automatique » ou « tous » pour décharger les données plus inactives vers le Tier cloud. 
+---
+= Création d'un rapport pour identifier les volumes de données stockées dans les agrégats FabricPool qui doivent être déplacées vers le Tier cloud
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez créer un rapport contenant la liste des volumes résidant sur des agrégats FabricPool, dont les recommandations pour le cloud sont nombreuses et dont les données inactives sont importantes. Ce rapport vous aidera à décider si vous devez modifier la règle de Tiering de certains volumes en « auto » ou « toutes » pour décharger des données plus inactives vers le Tier cloud.
+
+*Ce dont vous aurez besoin*
+
+* Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+* Vous devez avoir configuré des agrégats FabricPool et certains volumes sur ces agrégats.
+
+
+Suivez les étapes ci-dessous pour créer une vue personnalisée affichant les colonnes requises dans l'ordre correct, puis planifiez la génération d'un rapport pour cette vue.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage* > *volumes*.
+. Dans le menu Affichage, sélectionnez *Performance* > *tous les volumes*.
+. Dans le sélecteur de colonne, assurez-vous que la colonne "Type de disque" apparaît dans la vue.
++
+Ajoutez ou supprimez d'autres colonnes pour créer une vue importante pour votre rapport.
+
+. Glissez-déposez la colonne "Type de disque" près de la colonne "Recommandation du Cloud".
+. Cliquez sur l'icône de filtre, ajoutez les trois filtres suivants, puis cliquez sur *appliquer le filtre* :
++
+** Le type de disque contient la FabricPool
+** La recommandation cloud contient le Tier
+** Données inactives supérieures à 10 Goimage:../media/filter_cold_data.gif[""]
+
+
+. Cliquez sur la partie supérieure de la colonne données froides pour que les volumes avec les données les plus froides apparaissent en haut de la vue.
+. Enregistrez la vue avec un nom pour refléter ce que la vue est affichée, par exemple "vols change Tiering policy".image:../media/report_vol_cold_data.gif[""]
+. Cliquez sur le bouton *Rapports planifiés* sur la page d'inventaire.
+. Cliquez sur *Ajouter un calendrier* pour ajouter une nouvelle ligne à la page programmes de rapports afin de définir les caractéristiques de planification du nouveau rapport.
+. Entrez un nom pour le planning du rapport et remplissez les autres champs du rapport, puis cliquez sur la coche (image:../media/blue_check.gif[""]) à la fin du rang.
++
+Le rapport est envoyé immédiatement sous forme de test. Ensuite, le rapport génère et est envoyé par e-mail aux destinataires répertoriés à l'aide de la fréquence spécifiée.
+
+
+
+En fonction des résultats présentés dans ce rapport, vous pouvez utiliser System Manager ou l'interface de ligne de commande d'ONTAP pour modifier la règle de Tiering en « automatique » ou « toutes » pour certains volumes, afin de décharger davantage de données inactives vers le Tier cloud.

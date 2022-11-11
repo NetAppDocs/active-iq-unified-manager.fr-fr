@@ -1,0 +1,21 @@
+---
+permalink: config/concept_manage_feature_settings.html 
+sidebar: sidebar 
+keywords: uploading scripts, api gateway, slo or policy-based storage management, timeout, active iq platform events 
+summary: 'La page Paramètres des fonctions vous permet d"activer et de désactiver certaines fonctions dans Active IQ Unified Manager. Cela inclut la création et la gestion d"objets de stockage basés sur des règles, l"activation de la passerelle d"API, le téléchargement de scripts pour la gestion des alertes, le délai d"expiration d"une session d"interface utilisateur Web en fonction du délai d"inactivité et la désactivation de la réception des événements de la plateforme Active IQ.' 
+---
+= Gestion des paramètres des fonctions
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+La page Paramètres des fonctions vous permet d'activer et de désactiver certaines fonctions dans Active IQ Unified Manager. Cela inclut la création et la gestion d'objets de stockage basés sur des stratégies, l'activation de la passerelle d'API et de la bannière de connexion, le téléchargement de scripts pour la gestion des alertes, le timing d'une session d'interface utilisateur Web basée sur le temps d'inactivité et la désactivation de la réception des événements de la plateforme Active IQ.
+
+[NOTE]
+====
+La page Paramètres de la fonction n'est disponible que pour les utilisateurs ayant le rôle d'administrateur d'application.
+
+====
+Pour plus d'informations sur le téléchargement de scripts, reportez-vous à la section link:task_enable_and_disable_ability_to_upload_scripts.html["Activation et désactivation du téléchargement des scripts"].

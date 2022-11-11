@@ -1,0 +1,26 @@
+---
+permalink: events/task_view_unassigned_events.html 
+sidebar: sidebar 
+keywords: view, unassigned, events 
+summary: Vous pouvez afficher les événements non attribués, puis les affecter à un utilisateur qui peut les résoudre. 
+---
+= Affichage des événements non assignés
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez afficher les événements non attribués, puis les affecter à un utilisateur qui peut les résoudre.
+
+*Ce dont vous aurez besoin*
+
+Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Event Management*.
++
+Par défaut, les événements nouveaux et acquittés sont affichés sur la page d'inventaire gestion des événements.
+
+. Dans le volet *filtres*, sélectionnez l'option de filtre *non affecté* dans la zone *affecté à*.
+

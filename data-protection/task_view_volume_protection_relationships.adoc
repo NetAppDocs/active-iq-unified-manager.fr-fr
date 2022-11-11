@@ -1,0 +1,41 @@
+---
+permalink: data-protection/task_view_volume_protection_relationships.html 
+sidebar: sidebar 
+keywords: view, volume, protection relationships 
+summary: 'Depuis la vue relation : toutes les relations, et depuis la page Volume relations, vous pouvez afficher l"état des relations SnapMirror volume et SnapVault existantes. Vous pouvez également examiner des détails sur les relations de protection, notamment le statut de transfert et de décalage, les informations sur la source et la destination, les informations de planification et de stratégie, etc.' 
+---
+= Affichage des relations de protection des volumes
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Depuis la vue relation : toutes les relations, et depuis la page Volume relations, vous pouvez afficher l'état des relations SnapMirror volume et SnapVault existantes. Vous pouvez également examiner des détails sur les relations de protection, notamment le statut de transfert et de décalage, les informations sur la source et la destination, les informations de planification et de stratégie, etc.
+
+*Ce dont vous aurez besoin*
+
+Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+
+Vous pouvez également lancer des commandes de relation à partir de cette page.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage* > *volumes*.
+. Dans le menu Affichage, sélectionnez *relation* > *toutes les relations*.
++
+La vue relation : toutes les relations s'affiche.
+
+. Choisissez l'une des méthodes suivantes pour afficher les informations de protection des volumes :
++
+** Pour afficher les informations actuelles sur toutes les relations de volume, rester sur la page par défaut *toutes les relations*.
+** Pour afficher des informations détaillées sur les tendances de transfert de volume sur une période de temps, dans le menu Affichage, sélectionnez relation : vue État transfert du dernier mois.
+** Pour afficher des informations détaillées sur l'activité de transfert de volume jour en jour, dans le menu Affichage, sélectionnez relation : vue du dernier 1 mois du taux de transfert.
+
+
++
+[NOTE]
+====
+Les vues de transfert de volume affichent des informations sur les volumes dans les relations asynchrones uniquement - les volumes dans les relations synchrones ne sont pas affichés.
+
+====
+

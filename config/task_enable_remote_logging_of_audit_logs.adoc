@@ -1,0 +1,44 @@
+---
+permalink: config/task_enable_remote_logging_of_audit_logs.html 
+sidebar: sidebar 
+keywords: enable, remote, logging, audit, logs 
+summary: 'Vous pouvez cocher la case Activer la journalisation à distance dans la boîte de dialogue configurer les journaux d"audit pour activer la journalisation d"audit à distance. Vous pouvez utiliser cette fonction pour transférer les journaux d"audit vers un serveur Syslog distant. Cela vous permettra de gérer vos journaux d"audit lorsqu"il existe des contraintes d"espace.' 
+---
+= Activation de la journalisation à distance des journaux d'audit
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez sélectionner la case à cocher *Activer la journalisation à distance* dans la boîte de dialogue configurer les journaux d'audit pour activer la journalisation d'audit à distance. Vous pouvez utiliser cette fonction pour transférer les journaux d'audit vers un serveur Syslog distant. Cela vous permettra de gérer vos journaux d'audit lorsqu'il existe des contraintes d'espace.
+
+La journalisation à distance des journaux d'audit assure une sauvegarde inviolable si les fichiers journaux d'audit sur le serveur Active IQ Unified Manager sont falsités.
+
+.Étapes
+. Dans la boîte de dialogue *configurer les journaux d'audit*, cochez la case *Activer la journalisation à distance*.
++
+Des champs supplémentaires pour configurer la journalisation à distance sont affichés.
+
+. Saisissez le *NOM D'HÔTE* et le *PORT* du serveur distant auquel vous souhaitez vous connecter.
+. Dans le champ *SERVER CA CERTIFICATE*, cliquez sur *BROWSE* pour sélectionner un certificat public du serveur cible.
++
+Le certificat doit être téléchargé dans `.pem` format. Ce certificat doit être obtenu à partir du serveur Syslog cible et ne doit pas avoir expiré. Le certificat doit contenir le « nom d'hôte » sélectionné dans le cadre du `SubjectAltName` (SAN) attribut.
+
+. Saisissez les valeurs des champs suivants : *CHARSET*, *DÉLAI DE CONNEXION*, *DÉLAI DE RECONNEXION*.
++
+Les valeurs doivent être exprimées en millisecondes pour ces champs.
+
+. Sélectionnez le format Syslog et la version du protocole TLS requis dans les champs *FORMAT* et *PROTOCOLE*.
+. Cochez la case *Activer l'authentification client* si le serveur Syslog cible nécessite une authentification par certificat.
++
+Vous devrez télécharger le certificat d'authentification client et le télécharger sur le serveur Syslog avant d'enregistrer la configuration du journal d'audit, sinon la connexion échouera. Selon le type de serveur Syslog, vous devrez peut-être créer un hachage du certificat d'authentification client.
+
++
+Exemple : syslog-ng requiert que <hash> du certificat soit créé à l'aide de la commande `openssl x509 -noout -hash -in cert.pem`, puis, vous devez lier symboliquement le certificat d'authentification client à un fichier nommé après le <hash> .0.
+
+. Cliquez sur *Enregistrer* pour configurer la connexion avec votre serveur et activer la journalisation à distance.
++
+Vous serez redirigé vers la page journaux d'audit.
+
+

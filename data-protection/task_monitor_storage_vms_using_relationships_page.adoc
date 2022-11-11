@@ -1,0 +1,38 @@
+---
+permalink: data-protection/task_monitor_storage_vms_using_relationships_page.html 
+sidebar: sidebar 
+keywords: relationships page, monitor, storage, vm 
+summary: 'Vous pouvez surveiller vos relations de reprise après incident de machine virtuelle de stockage depuis la page relations de la section PROTECTION de l"INVENTAIRE. Par défaut, la page relations répertorie uniquement les relations de premier niveau lorsque le filtre de relations composant est appliqué.' 
+---
+= Surveillance des VM de stockage à l'aide de la page relations
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez surveiller vos relations de reprise après incident de machine virtuelle de stockage depuis la page relations de la section PROTECTION de l'INVENTAIRE. Par défaut, la page relations répertorie uniquement les relations de premier niveau lorsque le filtre de relations composant est appliqué.
+
+*Ce dont vous aurez besoin*
+
+Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+
+Vous utilisez des filtres pour afficher les relations de reprise après incident des machines virtuelles de stockage.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *PROTECTION* > *relations*.
++
+La page affiche tous les types de relations : volume, groupe de cohérence et relations Storage VM.
+
+. Cliquez sur *Filter*, puis sélectionnez *Relationship Object Type* et *Storage VM* pour afficher uniquement les relations de reprise après sinistre des VM de stockage.
+. Cliquez sur *appliquer le filtre*.
++
+[NOTE]
+====
+Vous devez effacer le filtre des relations constituant pour afficher toutes les relations de protection.
+
+====
++
+La page affiche uniquement les relations de reprise après incident des machines virtuelles de stockage.
+
+

@@ -1,0 +1,55 @@
+---
+permalink: health-checker/task_restore_mysql_database_backup_on_windows.html 
+sidebar: sidebar 
+keywords: restore, windows, mysql, database, backup 
+summary: 'En cas de perte ou de corruption des données, la fonctionnalité de restauration permet de restaurer l"état stable précédent de Unified Manager avec une perte minimale. Vous pouvez restaurer la base de données MySQL Unified Manager sur un système Windows local ou un système Windows distant en utilisant la console de maintenance Unified Manager.' 
+---
+= Restauration d'une sauvegarde de base de données MySQL sous Windows
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+En cas de perte ou de corruption des données, la fonctionnalité de restauration permet de restaurer l'état stable précédent de Unified Manager avec une perte minimale. Vous pouvez restaurer la base de données MySQL Unified Manager sur un système Windows local ou un système Windows distant en utilisant la console de maintenance Unified Manager.
+
+*Ce dont vous aurez besoin*
+
+* Vous devez disposer des privilèges d'administrateur Windows.
+* Vous devez avoir copié le fichier de sauvegarde Unified Manager et le contenu du répertoire du référentiel de base de données sur le système sur lequel vous allez effectuer l'opération de restauration.
++
+Il est recommandé de copier le fichier de sauvegarde dans le répertoire par défaut `\ProgramData\NetApp\OnCommandAppData\ocum\backup`. Les fichiers du référentiel de base de données doivent être copiés sur le système `\database_dumps_repo` sous le sous-répertoire `\backup` répertoire.
+
+* Les fichiers de sauvegarde doivent être de `.7z` type.
+
+
+La fonction de restauration est spécifique à la plate-forme et à la version. Vous ne pouvez restaurer une sauvegarde MySQL Unified Manager que sur la même version de Unified Manager, et une sauvegarde Windows ne peut être restaurée que sur une plate-forme Windows.
+
+[TIP]
+====
+Si les noms de dossier contiennent un espace, vous devez inclure le chemin absolu ou relatif du fichier de sauvegarde dans des guillemets doubles.
+
+====
+.Étapes
+. Si vous effectuez une restauration sur un nouveau serveur, une fois l'installation de Unified Manager terminée, ne lancez pas l'interface utilisateur et ne configurez pas les clusters, les utilisateurs ou les paramètres d'authentification. Le fichier de sauvegarde remplit ces informations lors du processus de restauration.
+. Connectez-vous au système Unified Manager avec les identifiants d'administrateur.
+. Lancez PowerShell en tant qu'administrateur Windows.
+. Saisissez la commande `maintenance_console` Puis appuyez sur entrée.
+. Dans la console de maintenance *Menu principal*, saisissez le numéro de l'option *Sauvegarder Restaurer*.
+. Saisissez le numéro de *Restore MySQL Backup*.
+. Lorsque vous y êtes invité, entrez le chemin absolu du fichier de sauvegarde.
++
+[listing]
+----
+Bundle to restore from: \ProgramData\NetApp\OnCommandAppData\ocum\backup\UM_9.8.N151118.2300_backup_windows_02-20-2020-02-51.7z
+----
++
+Une fois l'opération de restauration terminée, vous pouvez vous connecter à Unified Manager.
+
+
+
+Après la restauration de la sauvegarde, si le serveur OnCommand Workflow Automation ne fonctionne pas, effectuez les opérations suivantes :
+
+. Sur le serveur Workflow Automation, modifiez l'adresse IP du serveur Unified Manager pour qu'elle pointe vers la dernière machine.
+. Sur le serveur Unified Manager, réinitialisez le mot de passe de la base de données si l'acquisition échoue à l'étape 1.
+

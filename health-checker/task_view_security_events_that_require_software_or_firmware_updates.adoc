@@ -1,0 +1,31 @@
+---
+permalink: health-checker/task_view_security_events_that_require_software_or_firmware_updates.html 
+sidebar: sidebar 
+keywords: upgrade events, view, security events, software, firmware updates 
+summary: 'Certains événements de sécurité ont une zone d"impact de « mise à niveau ». Ces événements sont signalés sur la plateforme Active IQ et ils identifient les problèmes liés à la résolution lorsque vous devez mettre à niveau le logiciel ONTAP, le firmware des nœuds ou le logiciel du système d"exploitation (pour les conseils de sécurité).' 
+---
+= Affichage des événements de sécurité qui peuvent nécessiter des mises à jour logicielles ou micrologicielles
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Certains événements de sécurité ont une zone d'impact de « mise à niveau ». Ces événements sont signalés sur la plateforme Active IQ et ils identifient les problèmes liés à la résolution lorsque vous devez mettre à niveau le logiciel ONTAP, le firmware des nœuds ou le logiciel du système d'exploitation (pour les conseils de sécurité).
+
+*Ce dont vous aurez besoin*
+
+Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
+
+Vous pouvez effectuer une action corrective immédiatement pour certains de ces problèmes, alors que d'autres peuvent attendre la prochaine maintenance planifiée. Vous pouvez afficher tous ces événements et les attribuer à des utilisateurs capables de résoudre ces problèmes. En outre, si certains événements de mise à niveau de sécurité que vous ne souhaitez pas être avertis, cette liste peut vous aider à identifier ces événements afin de pouvoir les désactiver.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Event Management*.
++
+Par défaut, tous les événements actifs (nouveaux et acquittés) sont affichés sur la page d'inventaire gestion des événements.
+
+. Dans le menu Affichage, sélectionnez *mettre à niveau les événements*.
++
+La page affiche tous les événements de sécurité de mise à niveau actifs.
+
+

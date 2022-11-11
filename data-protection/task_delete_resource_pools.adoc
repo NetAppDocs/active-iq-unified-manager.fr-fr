@@ -1,0 +1,29 @@
+---
+permalink: data-protection/task_delete_resource_pools.html 
+sidebar: sidebar 
+keywords: delete, resource, pools 
+summary: 'Vous pouvez supprimer des pools de ressources lorsqu"ils ne sont plus nécessaires. Par exemple, vous pouvez vouloir redistribuer les agrégats membres d"un pool de ressources vers plusieurs autres pools de ressources, ce qui rend le pool de ressources d"origine obsolète.' 
+---
+= Suppression de pools de ressources
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez supprimer des pools de ressources lorsqu'ils ne sont plus nécessaires. Par exemple, vous pouvez vouloir redistribuer les agrégats membres d'un pool de ressources vers plusieurs autres pools de ressources, ce qui rend le pool de ressources d'origine obsolète.
+
+*Ce dont vous aurez besoin*
+
+Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+
+Le bouton *Supprimer* n'est activé que lorsqu'au moins un pool de ressources est sélectionné.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *protection* > *pools de ressources*.
+. Sélectionnez le pool de ressources à supprimer.
+. Cliquez sur *Supprimer*.
++
+Le pool de ressources est supprimé de la liste des pools de ressources et ses agrégats sont supprimés de la liste des membres.
+
+

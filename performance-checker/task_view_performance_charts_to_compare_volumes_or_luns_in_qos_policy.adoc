@@ -1,0 +1,36 @@
+---
+permalink: performance-checker/task_view_performance_charts_to_compare_volumes_or_luns_in_qos_policy.html 
+sidebar: sidebar 
+keywords: view, performance, charts, compare, volumes, luns, same, qos, policy, group 
+summary: 'Vous pouvez afficher les volumes et les LUN qui se trouvent dans les mêmes groupes de règles de QoS, puis comparer les performances d"un seul graphique Op E/S par sec, B./s ou Op E/S par sec ou par sec pour identifier tout problème.' 
+---
+= Affichage des graphiques de performances pour comparer les volumes ou les LUN qui se trouvent dans le même groupe de règles de QoS
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez afficher les volumes et les LUN qui se trouvent dans les mêmes groupes de règles de QoS, puis comparer les performances d'un seul graphique Op E/S par sec, B./s ou Op E/S par sec ou par sec pour identifier tout problème.
+
+Les étapes de comparaison des performances des volumes d'un même groupe de règles de QoS sont présentées ci-dessous. Les étapes permettant d'afficher ces informations concernant une LUN sont similaires.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage* > *volumes*.
++
+La vue Santé : tous les volumes s'affiche par défaut.
+
+. Dans le menu Affichage, sélectionnez *Performance: Volumes dans QoS Policy Group*.
+. Cliquez sur le nom du volume que vous souhaitez consulter.
++
+La page Explorateur de performances s'affiche pour le volume.
+
+. Dans le menu Affichage et comparaison, sélectionnez *volumes dans le même groupe de règles QoS*.
++
+Les autres volumes qui partagent la même politique de QoS sont répertoriés dans le tableau ci-dessous.
+
+. Cliquez sur le bouton *Ajouter* pour ajouter ces volumes aux graphiques afin de pouvoir comparer les compteurs d'IOPS, de Mo/s, d'IOPS/To et d'autres compteurs de performances pour tous les volumes sélectionnés dans les graphiques.
++
+Vous pouvez modifier la plage horaire pour afficher les performances sur des intervalles différents autres que la valeur par défaut de 72 heures.
+
+

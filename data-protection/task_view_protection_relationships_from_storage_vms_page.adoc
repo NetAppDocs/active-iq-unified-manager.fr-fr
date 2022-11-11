@@ -1,0 +1,28 @@
+---
+permalink: data-protection/task_view_protection_relationships_from_storage_vms_page.html 
+sidebar: sidebar 
+keywords: storage vm, viewing protection relationships 
+summary: 'La page Storage VM permet d"afficher l"état des relations de reprise après sinistre des machines virtuelles de stockage existantes.' 
+---
+= Affichage des relations de protection à partir de la page Storage VM
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Grâce à la page machines virtuelles de stockage, vous pouvez afficher l'état des relations de reprise sur incident des machines virtuelles de stockage existantes.
+
+*Ce dont vous aurez besoin*
+
+Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+
+Vous pouvez également examiner les détails des relations de protection, notamment l'état du transfert et du décalage, les détails source et de destination. Vous pouvez planifier des rapports ou télécharger des rapports existants au format requis. Le bouton *Afficher/Masquer* permet d'ajouter les colonnes requises aux rapports car elles ne sont pas affichées par défaut.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *STORAGE* > *Storage VM*.
+. Dans le menu *VIEW*, sélectionnez *Relationship* > *All Relationship*.
++
+La vue relation : toutes les relations s'affiche avec toutes les machines virtuelles de stockage configurées.
+
+

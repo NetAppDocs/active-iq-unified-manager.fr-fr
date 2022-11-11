@@ -1,0 +1,31 @@
+---
+permalink: health-checker/task_configure_volume_health_thresholds_for_groups.html 
+sidebar: sidebar 
+keywords: configure, volume, health, thresholds, groups 
+summary: 'Vous pouvez configurer des seuils d"état du volume au niveau du groupe pour la capacité, les copies Snapshot, les quotas qtree, la croissance et les inodes.' 
+---
+= Configuration des seuils d'intégrité des volumes pour les groupes
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez configurer des seuils d'état du volume au niveau du groupe pour la capacité, les copies Snapshot, les quotas qtree, la croissance et les inodes.
+
+*Ce dont vous aurez besoin*
+
+Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+
+Le type de seuil d'intégrité du volume de l'action de groupe est appliqué uniquement sur les volumes d'un groupe.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage Management* > *Groups*.
+. Dans l'onglet *actions de groupe*, cliquez sur *Ajouter*.
+. Entrez un nom et une description pour l'action de groupe.
+. Dans la liste déroulante *Groupe*, sélectionnez un groupe pour lequel vous souhaitez configurer l'action de groupe.
+. Sélectionnez *action Type* comme seuil de contrôle du volume.
+. Sélectionnez la catégorie pour laquelle vous souhaitez définir le seuil.
+. Saisissez les valeurs requises pour le seuil de santé.
+. Cliquez sur *Ajouter*.
+

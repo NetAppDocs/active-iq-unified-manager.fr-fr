@@ -1,0 +1,159 @@
+---
+permalink: performance-checker/reference_types_of_system_defined_performance_threshold_policies.html 
+sidebar: sidebar 
+keywords: system-defined, performance, threshold, policies, cluster, node. aggregate, qos 
+summary: 'Unified Manager fournit des règles de seuil standard qui contrôlent les performances du cluster et génèrent automatiquement des événements. Ces règles sont activées par défaut et génèrent des événements d"avertissement ou d"information lorsque les seuils de performances surveillés sont enfreintes.' 
+---
+= Types de règles de seuils de performance définies par le système
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager fournit des règles de seuil standard qui contrôlent les performances du cluster et génèrent automatiquement des événements. Ces règles sont activées par défaut et génèrent des événements d'avertissement ou d'information lorsque les seuils de performances surveillés sont enfreintes.
+
+[NOTE]
+====
+Les règles de seuil de performance définies par le système ne sont pas activées sur les systèmes Cloud Volumes ONTAP, ONTAP Edge ou ONTAP Select.
+
+====
+Si vous recevez des événements inutiles provenant de règles de seuils de performance définies par le système, vous pouvez désactiver les événements de règles individuelles à partir de la page de configuration des événements.
+
+
+
+== Règles de seuil du cluster
+
+Les règles de seuil des performances du cluster définies par le système sont attribuées, par défaut, à chaque cluster contrôlé par Unified Manager :
+
+* *Déséquilibre de charge du groupe*
++
+Identifie les situations où un nœud fonctionne à une charge bien plus élevée que les autres nœuds du cluster et peut donc affecter les latences des charges de travail.
+
++
+Pour ce faire, il compare la valeur de capacité en termes de performances utilisée pour tous les nœuds d'un cluster afin de voir si un nœud a dépassé la valeur seuil de 30 % pendant plus de 24 heures. Il s'agit d'un incident d'avertissement.
+
+* *Déséquilibre de capacité du groupe*
++
+Identifie les situations où la capacité utilisée d'un agrégat est bien plus élevée que celle des autres agrégats du cluster et affecte donc potentiellement l'espace requis pour les opérations.
+
++
+Pour ce faire, elle compare la valeur de capacité utilisée de tous les agrégats du cluster afin de voir si la différence entre 70 % d'un agrégat. Il s'agit d'un incident d'avertissement.
+
+
+
+
+
+== Règles de seuil des nœuds
+
+Les règles de seuil de performance des nœuds définies par le système sont attribuées par défaut à chaque nœud des clusters contrôlé par Unified Manager :
+
+* *Seuil de capacité utilisée de performances dépassé*
++
+Identifie les situations dans lesquelles un nœud fonctionne au-delà des limites de son efficacité opérationnelle et risque par conséquent d'affecter la latence des charges de travail.
+
++
+Pour ce faire, il recherche des nœuds qui utilisent plus de 100 % de leur capacité en performance pendant plus de 12 heures. Il s'agit d'un incident d'avertissement.
+
+* *Surutilisation de la paire HA de nœuds*
++
+Identifie les situations dans lesquelles les nœuds d'une paire haute disponibilité fonctionnent au-dessus des limites de l'efficacité opérationnelle de la paire haute disponibilité.
+
++
+Pour ce faire, le système étudie la valeur de la capacité en termes de performances utilisée pour les deux nœuds de la paire haute disponibilité. Si la capacité de performance combinée des deux nœuds dépasse 200 % pendant plus de 12 heures, un basculement de contrôleur affecte les latences des charges de travail. Il s'agit d'un événement informatif.
+
+* *Fragmentation de disque de nœud*
++
+Identifie les situations où un ou plusieurs disques d'un agrégat sont fragmentés, ralentissant les principaux services système et potentiellement affecter les latences des charges de travail sur un nœud.
+
++
+Pour ce faire, il s'agit de certains ratios d'opération de lecture et d'écriture sur tous les agrégats d'un nœud. Cette règle peut également être déclenchée lors de la resynchronisation SyncMirror ou lorsque des erreurs sont détectées lors des opérations de nettoyage du disque. Il s'agit d'un incident d'avertissement.
+
++
+[NOTE]
+====
+La règle de « fragmentation des disques des nœuds » analyse les agrégats uniquement composés de disques durs ; les agrégats Flash Pool, SSD et FabricPool ne sont pas analysés.
+
+====
+
+
+
+
+== Règles de seuil agrégées
+
+La règle de seuil de performance des agrégats définis par le système est attribuée par défaut à chaque agrégat des clusters contrôlé par Unified Manager :
+
+* *Disques agrégés sur-utilisés*
++
+Identifie les situations dans lesquelles un agrégat fonctionne au-delà des limites de son efficacité opérationnelle et peut ainsi affecter le latence des charges de travail. Ce cas est identifié par la recherche d'agrégats où les disques de l'agrégat sont utilisés à plus de 95 % pendant plus de 30 minutes. Cette règle multicondition effectue alors l'analyse suivante pour déterminer la cause du problème :
+
++
+** Un disque de l'agrégat est-il actuellement en cours d'opération de maintenance en arrière-plan ?
++
+Certaines activités de maintenance en arrière-plan qu'un disque peut être en cours de reconstruction sont : disque, nettoyage de disque, resynchronisation SyncMirror et reparité.
+
+** Existe-t-il un goulet d'étranglement au niveau des communications dans l'interconnexion Fibre Channel du tiroir disque ?
+** L'agrégat dispose-t-il trop peu d'espace libre ? Un événement d'avertissement est émis pour cette politique uniquement si une ou plusieurs des trois politiques subordonnées sont également considérées comme enfreintes. Un événement de performances n'est pas déclenché si seuls les disques de l'agrégat sont utilisés à plus de 95 %.
+
+
+
+
+[NOTE]
+====
+La politique « d'agrégation de disques sur-utilisés » analyse les agrégats de disques durs uniquement et les agrégats Flash Pool (hybrides) ; les agrégats SSD et FabricPool ne sont pas analysés.
+
+====
+
+
+== Règles de seuil de latence des workloads
+
+Les règles de seuil de latence de la charge de travail définies par le système sont attribuées à toute charge de travail dont la règle de niveau de service de performance est configurée et dont la valeur de « latence attendue » est définie :
+
+* *Seuil de latence de volume de charge de travail/LUN dépassé tel que défini par le niveau de service de performances*
++
+Identifie les volumes (partages de fichiers) et les LUN qui ont dépassé leur limite de « latence attendue » et qui ont un impact sur les performances des charges de travail. Il s'agit d'un incident d'avertissement.
+
++
+Pour ce faire, il recherche des charges de travail qui ont dépassé la valeur de latence prévue pour 30 % de l'heure précédente.
+
+
+
+
+
+== Règles de seuil de QoS
+
+Les règles de seuil de performances de QoS définies par le système sont attribuées à toute charge de travail dont la règle de débit maximal est la QoS ONTAP configurée (IOPS, IOPS/To ou Mo/s). Unified Manager déclenche un événement lorsque la valeur du débit des workloads est inférieure de 15 % à la valeur de la QoS configurée :
+
+* *QoS Max IOPS ou seuil MB/s*
++
+Identifie les volumes et les LUN qui ont dépassé leur limite maximale en termes d'IOPS ou de débit en Mo/s de qualité de service, et qui affectent la latence des charges de travail. Il s'agit d'un incident d'avertissement.
+
++
+Lorsqu'une seule charge de travail est attribuée à un groupe de règles, elle recherche les charges de travail qui ont dépassé le seuil de débit maximal défini dans le groupe de règles QoS attribué au cours de chaque période de collecte pendant l'heure précédente.
+
++
+Lorsque plusieurs charges de travail partagent une seule règle de QoS, celle-ci est ajoutée en ajoutant les IOPS ou les Mo/s de tous les workloads de la règle et en vérifiant le total dans la limite.
+
+* *QoS Peak IOPS/To ou IOPS/To avec seuil de taille de bloc*
++
+Identifie les volumes qui ont dépassé la limite de débit en IOPS/To adaptative pour la qualité de service (ou IOPS/To avec limite de taille de bloc), tout en affectant la latence de la charge de travail. Il s'agit d'un incident d'avertissement.
+
++
+Pour ce faire, la conversion du seuil maximal d'IOPS/To défini dans la règle de QoS adaptative en une valeur maximale d'IOPS basée sur la taille de chaque volume. Elle recherche les volumes qui ont dépassé la limite d'IOPS maximale de QoS au cours de chaque période de collecte de performances pendant l'heure précédente.
+
++
+[NOTE]
+====
+Cette règle s'applique aux volumes uniquement lorsque le cluster est installé avec ONTAP 9.3 et les versions ultérieures.
+
+====
++
+Lorsque l'élément « taille de bloc » a été défini dans la règle de QoS adaptative, le seuil est converti en valeur MB/s maximale basée sur la taille de chaque volume. Ensuite, il recherche les volumes qui ont dépassé la limite de qualité de service en Mo/s au cours de chaque période de collecte des performances pour l'heure précédente.
+
++
+[NOTE]
+====
+Cette règle s'applique aux volumes uniquement lorsque le cluster est installé avec ONTAP 9.5 et les versions ultérieures.
+
+====
+

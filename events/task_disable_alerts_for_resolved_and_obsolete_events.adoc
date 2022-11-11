@@ -1,0 +1,43 @@
+---
+permalink: events/task_disable_alerts_for_resolved_and_obsolete_events.html 
+sidebar: sidebar 
+keywords: enable, disable, alerts, resolved, obsolete, events 
+summary: 'Pour tous les événements que vous avez configurés pour envoyer des alertes, un message d"alerte est envoyé lorsque ces événements passent par tous les États disponibles : nouveau, validé, résolu et Obsolète. Si vous ne souhaitez pas recevoir d"alertes pour les événements lorsqu"ils passent aux États résolu et Obsolète, vous pouvez configurer un paramètre global pour supprimer ces alertes.' 
+---
+= Activation et désactivation des alertes pour les événements résolus et Obsolète
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Pour tous les événements que vous avez configurés pour envoyer des alertes, un message d'alerte est envoyé lorsque ces événements passent par tous les États disponibles : nouveau, validé, résolu et Obsolète. Si vous ne souhaitez pas recevoir d'alertes pour les événements lorsqu'ils passent aux États résolu et Obsolète, vous pouvez configurer un paramètre global pour supprimer ces alertes.
+
+*Ce dont vous aurez besoin*
+
+Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+
+Par défaut, les alertes ne sont pas envoyées pour les événements lorsqu'elles passent à l'état résolu et Obsolète.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage Management* > *Alert Setup*.
+. Dans la page *Configuration des alertes*, effectuez l'une des actions suivantes en utilisant le curseur à côté de l'élément *alertes pour les événements résolus et Obsolète* :
++
+|===
+| Pour... | Procédez comme ça... 
+
+
+ a| 
+Arrêter l'envoi d'alertes car les événements sont résolus ou obsolètes
+ a| 
+Déplacez le curseur vers la gauche
+
+
+
+ a| 
+Démarrer l'envoi d'alertes lorsque les événements sont résolus ou obsolètes
+ a| 
+Déplacez le curseur vers la droite
+
+|===
+

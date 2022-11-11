@@ -1,0 +1,25 @@
+---
+permalink: data-protection/task_view_resource_pool_inventory.html 
+sidebar: sidebar 
+keywords: view, resource pools, inventory 
+summary: 'Vous pouvez utiliser la page pools de ressources pour afficher l"inventaire des pools de ressources et surveiller la capacité restante pour chaque pool de ressources.' 
+---
+= Affichage de l'inventaire des pools de ressources
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez utiliser la page pools de ressources pour afficher l'inventaire des pools de ressources et surveiller la capacité restante pour chaque pool de ressources.
+
+*Ce dont vous aurez besoin*
+
+Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+
+.Étape
+. Dans le volet de navigation de gauche, cliquez sur *protection* > *pools de ressources*.
++
+L'inventaire du pool de ressources s'affiche.
+
+

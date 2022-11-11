@@ -1,0 +1,52 @@
+---
+permalink: reporting/task_search_for_scheduled_report.html 
+sidebar: sidebar 
+keywords: search, schedule, report 
+summary: 'Vous pouvez rechercher des rapports programmés par nom, nom d"affichage, type d"objet ou destinataires.' 
+---
+= Recherche d'un rapport planifié
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez rechercher des rapports programmés par nom, nom d'affichage, type d'objet ou destinataires.
+
+. Dans le volet de navigation de gauche, cliquez sur *Storage Management* > *Report Schedules*.
+. Utilisez le champ de texte *Rechercher les rapports programmés*.
++
+[cols="2*"]
+|===
+| Pour trouver des rapports par ... | Essayer ... 
+
+
+ a| 
+Nom du programme
+ a| 
+Saisissez une partie du nom du programme de rapport.
+
+
+
+ a| 
+Nom de la vue
+ a| 
+Saisissez une partie du nom de la vue de rapport. Les vues par défaut et les vues personnalisées apparaissent dans la liste des vues.
+
+
+
+ a| 
+Destinataire
+ a| 
+Saisissez une partie de l'adresse e-mail.
+
+
+
+ a| 
+Type de fichier
+ a| 
+Tapez « PDF », « CSV » ou « XLSX ».
+
+|===
+. Vous pouvez cliquer sur un en-tête de colonne pour trier les rapports dans l'ordre croissant ou décroissant en fonction de cette colonne, par exemple le nom ou le format du programme.
+

@@ -1,0 +1,34 @@
+---
+permalink: health-checker/task_view_list_of_snapshot_copies.html 
+sidebar: sidebar 
+keywords: view, list, Snapshot copies 
+summary: 'Vous pouvez afficher la liste des copies Snapshot d"un volume sélectionné. Vous pouvez utiliser la liste des copies Snapshot pour calculer la quantité d"espace disque pouvant être récupérée si une ou plusieurs copies Snapshot sont supprimées, et vous pouvez supprimer les copies Snapshot si nécessaire.' 
+---
+= Affichage de la liste des copies Snapshot
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez afficher la liste des copies Snapshot d'un volume sélectionné. Vous pouvez utiliser la liste des copies Snapshot pour calculer la quantité d'espace disque pouvant être récupérée si une ou plusieurs copies Snapshot sont supprimées, et vous pouvez supprimer les copies Snapshot si nécessaire.
+
+*Ce dont vous aurez besoin*
+
+* Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
+* Le volume contenant les copies Snapshot doit être en ligne.
+
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage* > *volumes*.
+. Dans la vue *Health: All volumes*, sélectionnez le volume qui contient les copies Snapshot que vous souhaitez afficher.
+. Dans la page *Volume / Santé*, cliquez sur l'onglet *capacité*.
+. Dans le volet *Détails* de l'onglet *capacité*, dans la section autres détails, cliquez sur le lien en regard de *copies snapshot*.
++
+Le nombre de copies Snapshot est un lien qui affiche la liste des copies Snapshot.
+
+
+
+*Informations connexes*
+
+link:../health-checker/reference_health_volume_details_page.html["Page Health/Volume"]

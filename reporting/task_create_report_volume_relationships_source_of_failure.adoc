@@ -1,0 +1,45 @@
+---
+permalink: reporting/task_create_report_volume_relationships_source_of_failure.html 
+sidebar: sidebar 
+keywords: create, report, group, volume, relationships, source, failure 
+summary: Vous pouvez créer un rapport qui regroupe des volumes en raison de la mauvaise santé de la relation. 
+---
+= Création d'un rapport pour regrouper les relations de volume par source d'échec
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez créer un rapport qui regroupe des volumes en raison de la mauvaise santé de la relation.
+
+*Ce dont vous aurez besoin*
+
+* Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+
+
+Procédez comme suit pour créer une vue personnalisée qui regroupe les volumes par source d'échec, puis planifier la génération d'un rapport pour cette vue.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage* > *volumes*.
+. Dans le menu Affichage, sélectionnez *relation* > *toutes les relations*.
+. Sélectionnez *Afficher/Masquer* pour vous assurer que les colonnes « Santé des relations » et « raison malsaine » apparaissent dans la vue.
++
+Ajoutez ou supprimez d'autres colonnes pour créer une vue importante pour votre rapport.
+
+. Faites glisser les colonnes « relation Health » et « mauvaise raison » près de la colonne « Enregistrer ».
+. Cliquez sur l'icône de filtre, ajoutez le filtre suivant, puis cliquez sur *appliquer le filtre* :
++
+** La santé de la relation est mauvaise
+
+
+. Cliquez sur le haut de la colonne « raison malsaine » pour regrouper les relations de volume par source d'échec.
+. Enregistrez la vue avec un nom spécifique qui reflète ce que la vue affiche, par exemple, « vol relations par échec ».
+. Cliquez sur le bouton *Rapports planifiés* sur la page d'inventaire.
+. Entrez un nom pour le planning du rapport et remplissez les autres champs du rapport, puis cliquez sur la coche (image:../media/blue_check.gif[""]) à la fin du rang.
++
+Le rapport est envoyé immédiatement sous forme de test. Ensuite, le rapport génère et est envoyé par e-mail aux destinataires répertoriés à l'aide de la fréquence spécifiée.
+
+
+
+En fonction des résultats présentés dans le rapport, vous pouvez étudier la source et l'impact de chaque type de défaillance.

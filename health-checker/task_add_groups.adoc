@@ -1,0 +1,27 @@
+---
+permalink: health-checker/task_add_groups.html 
+sidebar: sidebar 
+keywords: add, groups 
+summary: 'La création de groupes permet de combiner les clusters, les volumes et les SVM (Storage Virtual machine) pour une gestion simplifiée.' 
+---
+= Ajout de groupes
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+La création de groupes permet de combiner les clusters, les volumes et les SVM (Storage Virtual machine) pour une gestion simplifiée.
+
+*Ce dont vous aurez besoin*
+
+Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+
+Vous pouvez définir des règles de groupe pour ajouter ou supprimer des membres du groupe et modifier les actions de groupe pour ce dernier.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage Management* > *Groups*.
+. Dans l'onglet *groupes*, cliquez sur *Ajouter*.
+. Dans la boîte de dialogue *Ajouter un groupe*, entrez un nom et une description pour le groupe.
+. Cliquez sur *Ajouter*.
+

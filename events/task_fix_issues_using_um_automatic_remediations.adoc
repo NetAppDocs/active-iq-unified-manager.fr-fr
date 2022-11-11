@@ -1,0 +1,26 @@
+---
+permalink: events/task_fix_issues_using_um_automatic_remediations.html 
+sidebar: sidebar 
+keywords: fix, issues, use, unified manager, automatic, remediations 
+summary: 'Unified Manager effectue un diagnostic approfondi et fournit une résolution unique à l"aide du bouton Fix it. Lorsqu"elles sont disponibles, ces résolutions sont affichées dans le tableau de bord , à partir de la page Détails de l"événement et dans la sélection analyse de la charge de travail du menu de navigation gauche.' 
+---
+= Résolution des problèmes à l'aide de la correction automatique de Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager peut diagnostiquer en profondeur certains événements et fournir une résolution unique à l'aide du bouton *Fix it*. Lorsqu'elles sont disponibles, ces résolutions sont affichées dans le tableau de bord, à partir de la page Détails de l'événement et dans la sélection analyse de la charge de travail du menu de navigation gauche.
+
+La plupart des événements ont différentes résolutions possibles qui s'affichent sur la page des détails d'événement. Vous pouvez ainsi implémenter la solution la plus adaptée à l'aide de ONTAP System Manager ou de l'interface de ligne de commandes de ONTAP. Une action *Fix it* est disponible lorsque Unified Manager a déterminé qu'il existe une seule résolution pour résoudre le problème et qu'il peut être résolu à l'aide d'une commande CLI ONTAP.
+
+.Étapes
+. Pour afficher les événements qui peuvent être corrigés à partir du *Dashboard*, cliquez sur *Dashboard*.
++
+image::../media/management_actions.png[actions de gestion]
+
+. Pour résoudre les problèmes que Unified Manager peut résoudre, cliquez sur le bouton *Fix it*. Pour résoudre un problème qui existe sur plusieurs objets, cliquez sur le bouton *réparer tout*.
+
+
+Pour plus d'informations sur les problèmes qui peuvent être résolus par correction automatique, reportez-vous à la section link:..//storage-mgmt/reference_what_ontap_issues_can_unified_manager_fix.html["Problèmes pouvant être résolus par Unified Manager"].

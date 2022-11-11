@@ -1,0 +1,40 @@
+---
+permalink: health-checker/task_perform_diagnotstic_actions_for_volume_offline_conditions.html 
+sidebar: sidebar 
+keywords: perform, diagnostic actions, volume, offline, conditions 
+summary: 'Après avoir accédé à la page des détails du volume/de l"état d"intégrité d"un volume signalé comme étant hors ligne, vous pouvez rechercher des informations supplémentaires utiles pour diagnostiquer la condition hors ligne du volume.' 
+---
+= Exécution d'actions de diagnostic pour des conditions hors ligne de volume
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Après avoir accédé à la page des détails du volume/de l'état d'intégrité d'un volume signalé comme étant hors ligne, vous pouvez rechercher des informations supplémentaires utiles pour diagnostiquer la condition hors ligne du volume.
+
+*Ce dont vous aurez besoin*
+
+Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
+
+Si le volume signalé n'a pas été délibérément hors ligne, ce volume peut être hors ligne pour plusieurs raisons.
+
+À partir de la page d'informations sur le volume / l'intégrité du volume hors ligne, vous pouvez accéder à d'autres pages et volets afin de confirmer ou d'éliminer les causes possibles :
+
+* Cliquez sur les liens de la page *Volume / Santé* pour déterminer si le volume est hors ligne, car son nœud hôte est en panne et le basculement du stockage vers son partenaire de paire haute disponibilité a également échoué.
++
+Voir link:task_determine_if_volume_offline_condition_is_by_down_cluster_node.html["Pour déterminer si une condition de volume hors ligne est causée par un nœud défaillant"].
+
+* Cliquez sur les liens de la page de détails *Volume / Santé* pour déterminer si le volume est hors ligne et si sa machine virtuelle de stockage hôte (SVM) est arrêtée car le nœud hébergeant le volume racine de ce SVM est en panne.
++
+Voir link:task_determine_if_volume_is_offline_and_its_svm_is_stopped.html["Détermination d'un volume hors ligne et arrêt d'un SVM parce qu'un nœud est arrêté"].
+
+* Cliquez sur les liens de la page *Volume / Santé* pour déterminer si le volume est hors ligne en raison de disques cassés dans son agrégat hôte.
++
+Voir link:task_determine_if_volume_is_offline_because_of_broken_disks.html["Détermination de la disponibilité d'un volume à cause de disques rompus dans un agrégat"].
+
+
+
+*Informations connexes*
+
+link:../config/reference_unified_manager_roles_and_capabilities.html["Fonctionnalités et rôles utilisateur de Unified Manager"]

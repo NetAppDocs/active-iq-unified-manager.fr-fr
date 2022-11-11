@@ -1,0 +1,452 @@
+---
+permalink: events/reference_storage_vm_events.html 
+sidebar: sidebar 
+keywords: storage, vm events, impact area, availability, configuration, performance, security 
+summary: 'Les événements des serveurs virtuels de stockage vous fournissent des informations sur l"état de vos serveurs virtuels de stockage (SVM), ce qui vous permet de surveiller les problèmes potentiels. Les événements sont regroupés par zone d"impact et incluent le nom de l"événement et de l"interruption, le niveau d"impact, le type de source et la gravité.' 
+---
+= Événements des VM de stockage
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Les événements des machines virtuelles de stockage (SVM), également appelés SVM, vous fournissent des informations sur l'état de vos VM de stockage afin de pouvoir surveiller les problèmes potentiels. Les événements sont regroupés par zone d'impact et incluent le nom de l'événement et de l'interruption, le niveau d'impact, le type de source et la gravité.
+
+Un astérisque (*) identifie les événements EMS qui ont été convertis en événements Unified Manager.
+
+
+
+== Domaine d'impact : disponibilité
+
+|===
+| Nom de l'événement (nom de l'argument) | Niveau d'impact | Type de source | Gravité 
+
+
+ a| 
+SVM CIFS Service Down (ocumEvtVserverCifsServiceStatusDown)
+ a| 
+Gestion des
+ a| 
+SVM
+ a| 
+Primordial
+
+
+
+ a| 
+Service SVM CIFS non configuré (non applicable)
+ a| 
+Événement
+ a| 
+SVM
+ a| 
+Informations
+
+
+
+ a| 
+Tentatives de connexion sans partage CIFS * (nbladeCifsNoPrivShare)
+ a| 
+Gestion des
+ a| 
+SVM
+ a| 
+Primordial
+
+
+
+ a| 
+Conflit de nom NetBIOS CIFS *(nbladeCifsNbNameConflitt)
+ a| 
+Risques
+ a| 
+SVM
+ a| 
+Erreur
+
+
+
+ a| 
+Échec de l'opération CIFS Shadow Copy * (cifsShadowCopyFailure)
+ a| 
+Risques
+ a| 
+SVM
+ a| 
+Erreur
+
+
+
+ a| 
+Nombreuses connexions CIFS * (nbladeCifsManyAuths)
+ a| 
+Risques
+ a| 
+SVM
+ a| 
+Erreur
+
+
+
+ a| 
+Connexion CIFS max. Dépassée * (nbladeCifsMaxOpenSametiFile)
+ a| 
+Risques
+ a| 
+SVM
+ a| 
+Erreur
+
+
+
+ a| 
+Nombre maximum de connexions CIFS par utilisateur dépassé *(nbladeCifsMaxSessPerUsrConn)
+ a| 
+Risques
+ a| 
+SVM
+ a| 
+Erreur
+
+
+
+ a| 
+Panne du service SVM FC/FCoE (ocumEvtVserverFcServiceStatusDown)
+ a| 
+Gestion des
+ a| 
+SVM
+ a| 
+Primordial
+
+
+
+ a| 
+SVM iSCSI Service Down (ocumEvtVserverIscsiServiceStatusDown)
+ a| 
+Gestion des
+ a| 
+SVM
+ a| 
+Primordial
+
+
+
+ a| 
+SVM NFS Service Down (ocumEvtVserverNfsServiceStatusDown)
+ a| 
+Gestion des
+ a| 
+SVM
+ a| 
+Primordial
+
+
+
+ a| 
+Service SVM FC/FCoE non configuré (non applicable)
+ a| 
+Événement
+ a| 
+SVM
+ a| 
+Informations
+
+
+
+ a| 
+Service SVM iSCSI non configuré (non applicable)
+ a| 
+Événement
+ a| 
+SVM
+ a| 
+Informations
+
+
+
+ a| 
+Service SVM NFS non configuré (non applicable)
+ a| 
+Événement
+ a| 
+SVM
+ a| 
+Informations
+
+
+
+ a| 
+SVM stopped(ocumEvtVserverDown)
+ a| 
+Risques
+ a| 
+SVM
+ a| 
+Avertissement
+
+
+
+ a| 
+Serveur AV trop occupé pour accepter une nouvelle demande d'acquisition * (nbladeVscanConnBackPressure)
+ a| 
+Risques
+ a| 
+SVM
+ a| 
+Erreur
+
+
+
+ a| 
+Aucune connexion au serveur AV pour virus Scan *(nbladeVscanNoScannerConn)
+ a| 
+Gestion des
+ a| 
+SVM
+ a| 
+Primordial
+
+
+
+ a| 
+Aucun serveur AV enregistré *(nbladeVscanNoRegdScanner)
+ a| 
+Risques
+ a| 
+SVM
+ a| 
+Erreur
+
+
+
+ a| 
+Pas de connexion au serveur AV réactive * (nbladeVscanConninactive)
+ a| 
+Événement
+ a| 
+SVM
+ a| 
+Informations
+
+
+
+ a| 
+Tentative d'utilisateur non autorisée vers le serveur AV *(nbladeVscanBadUserPrivAccess)
+ a| 
+Risques
+ a| 
+SVM
+ a| 
+Erreur
+
+
+
+ a| 
+Virus détecté par le serveur AV *(nbladeVscanVirusDetected)
+ a| 
+Risques
+ a| 
+SVM
+ a| 
+Erreur
+
+|===
+
+
+== Zone d'impact : configuration
+
+|===
+| Nom de l'événement (nom de l'argument) | Niveau d'impact | Type de source | Gravité 
+
+
+ a| 
+SVM découvert (non applicable)
+ a| 
+Événement
+ a| 
+SVM
+ a| 
+Informations
+
+
+
+ a| 
+SVM supprimé (non applicable)
+ a| 
+Événement
+ a| 
+Cluster
+ a| 
+Informations
+
+
+
+ a| 
+SVM renommé (non applicable)
+ a| 
+Événement
+ a| 
+SVM
+ a| 
+Informations
+
+|===
+
+
+== Zone d'impact : performances
+
+|===
+| Nom de l'événement (nom de l'argument) | Niveau d'impact | Type de source | Gravité 
+
+
+ a| 
+Seuil critique d'IOPS du SVM dépassé (ocumSvmIopsincident)
+ a| 
+Gestion des
+ a| 
+SVM
+ a| 
+Primordial
+
+
+
+ a| 
+Seuil d'avertissement d'IOPS de la SVM dépassé (ocumSvmIopsWarning)
+ a| 
+Risques
+ a| 
+SVM
+ a| 
+Avertissement
+
+
+
+ a| 
+Seuil critique de la SVM Mo/s violé(ocumSmMbpsincident)
+ a| 
+Gestion des
+ a| 
+SVM
+ a| 
+Primordial
+
+
+
+ a| 
+Seuil d'avertissement de SVM Mo/s dépassé(ocumSmMbpsWarning)
+ a| 
+Risques
+ a| 
+SVM
+ a| 
+Avertissement
+
+
+
+ a| 
+Seuil critique de latence SVM dépassé(ocumSvmLatencyincident)
+ a| 
+Gestion des
+ a| 
+SVM
+ a| 
+Primordial
+
+
+
+ a| 
+Seuil d'avertissement de latence SVM dépassé(ocumSvmLatenAvertissement)
+ a| 
+Risques
+ a| 
+SVM
+ a| 
+Avertissement
+
+|===
+
+
+== Zone d'impact : sécurité
+
+|===
+| Nom de l'événement (nom de l'argument) | Niveau d'impact | Type de source | Gravité 
+
+
+ a| 
+Journal d'audit désactivé(ocumVserverAuditLogDisabled)
+ a| 
+Risques
+ a| 
+SVM
+ a| 
+Avertissement
+
+
+
+ a| 
+Bannière de connexion désactivée(ocumVserverLoginBannerDisabled)
+ a| 
+Risques
+ a| 
+SVM
+ a| 
+Avertissement
+
+
+
+ a| 
+SSH utilise des Ciphers non sécurisés (ocumVserverSSHInSecure)
+ a| 
+Risques
+ a| 
+SVM
+ a| 
+Avertissement
+
+
+
+ a| 
+Bannière de connexion modifiée(ocumVserverLoginBannerChanged)
+ a| 
+Risques
+ a| 
+SVM
+ a| 
+Avertissement
+
+
+
+ a| 
+La surveillance anti-ransomwares des VM de stockage est désactivée (antiRansomwareSvmStateDisabled)
+ a| 
+Risques
+ a| 
+SVM
+ a| 
+Avertissement
+
+
+
+ a| 
+Activation de la surveillance anti-ransomwares des VM de stockage (mode d'apprentissage) (antiRansomwareSvmStateDryrun)
+ a| 
+Événement
+ a| 
+SVM
+ a| 
+Informations
+
+
+
+ a| 
+Machine virtuelle de stockage adaptée à la surveillance anti-ransomwares (Learning mode) (ocumEvtSvmArwCandidate)
+ a| 
+Événement
+ a| 
+SVM
+ a| 
+Informations
+
+|===

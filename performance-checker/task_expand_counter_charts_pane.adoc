@@ -1,0 +1,38 @@
+---
+permalink: performance-checker/task_expand_counter_charts_pane.html 
+sidebar: sidebar 
+keywords: expand, counter, charts, pane 
+summary: Vous pouvez développer le volet diagrammes de compteur afin que les graphiques soient plus grands et plus lisibles. 
+---
+= Développement du volet compteurs
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez développer le volet diagrammes de compteur afin que les graphiques soient plus grands et plus lisibles.
+
+Une fois que vous avez défini les objets de comparaison et la plage horaire des compteurs, vous pouvez afficher un volet compteur plus grand. Utilisez le bouton *<* au milieu de la fenêtre de l'explorateur de performances pour développer le volet.
+
+.Étape
+. Développez ou réduisez le volet *Counter Charts*.
+
+
+|===
+| Pour... | Procédez comme ça... 
+
+
+ a| 
+Développez le volet graphiques des compteurs pour qu'il s'adapte à la largeur de la page
+ a| 
+Cliquez sur le bouton *<*
+
+
+
+ a| 
+Réduisez le volet compteurs à la moitié droite de la page
+ a| 
+Cliquez sur le bouton *>*
+
+|===

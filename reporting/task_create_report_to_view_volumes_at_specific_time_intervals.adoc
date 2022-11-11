@@ -1,0 +1,42 @@
+---
+permalink: reporting/task_create_report_to_view_volumes_at_specific_time_intervals.html 
+sidebar: sidebar 
+keywords: create, report, view, volume, transfer, trends, specific, time intervals 
+summary: Vous pouvez créer un rapport qui affiche les tendances de transfert de volume à des intervalles de temps spécifiques. 
+---
+= Création d'un rapport pour visualiser les tendances de transfert de volume à des intervalles de temps spécifiques
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez créer un rapport qui affiche les tendances de transfert de volume à des intervalles de temps spécifiques.
+
+*Ce dont vous aurez besoin*
+
+* Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+
+
+Procédez comme suit pour créer une vue personnalisée des volumes à des intervalles de temps spécifiques, puis planifier la génération d'un rapport pour cette vue.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage* > *volumes*.
+. Dans le menu Affichage, sélectionnez *relation* > *État transfert du dernier mois*.
+. Sélectionnez *Afficher/Masquer* pour supprimer les colonnes que vous ne souhaitez pas inclure dans le rapport.
+. Faites glisser la colonne durée du transfert près de la colonne « résultat opérationnel ».
+. Cliquez sur l'icône de filtre, ajoutez le filtre suivant, puis cliquez sur *appliquer le filtre* :
++
+** Heure de fin du transfert au cours des 7 derniers jours
+
+
+. Cliquez sur la partie supérieure de la colonne « durée du transfert » pour trier les volumes par intervalle de temps.
+. Enregistrez la vue avec un nom spécifique qui reflète ce que la vue affiche, par exemple « volumes par durée ».
+. Cliquez sur le bouton *Rapports planifiés* sur la page d'inventaire.
+. Entrez un nom pour le planning du rapport, définissez la fréquence sur *Weekly* et renseignez les autres champs du rapport, puis cochez la case (image:../media/blue_check.gif[""]) à la fin du rang.
++
+Le rapport est envoyé immédiatement sous forme de test. Ensuite, le rapport génère et est envoyé par e-mail aux destinataires répertoriés à l'aide de la fréquence spécifiée.
+
+
+
+En fonction des résultats affichés dans le rapport, vous pouvez étudier les intervalles de temps de transfert.

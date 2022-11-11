@@ -1,0 +1,18 @@
+---
+permalink: data-protection/concept_what_jobs_are.html 
+sidebar: sidebar 
+keywords: jobs 
+summary: 'Un travail est une série de tâches que vous pouvez contrôler à l"aide d"Unified Manager. L"affichage des travaux et de leurs tâches associées vous permet de déterminer s"ils ont réussi.' 
+---
+= Quels sont les emplois
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Un travail est une série de tâches que vous pouvez contrôler à l'aide d'Unified Manager. L'affichage des travaux et de leurs tâches associées vous permet de déterminer s'ils ont réussi.
+
+Les tâches sont lancées lorsque vous créez des relations SnapMirror et SnapVault lorsque vous effectuez une quelconque opération de relation (rompre, éditer, suspendre, supprimer, reprendre, resynchroniser, et resynchroniser), lorsque vous effectuez des tâches de restauration des données, lorsque vous vous connectez à un cluster, etc.
+
+Lorsque vous lancez un travail, vous pouvez utiliser la page travaux et la page Détails du travail pour surveiller le travail et la progression des tâches associées.

@@ -1,0 +1,20 @@
+---
+permalink: performance-checker/concept_analyze_events_from_dynamic_performance_thresholds.html 
+sidebar: sidebar 
+keywords: analyze, events, dynamic, performance, thresholds 
+summary: 'Les événements générés à partir de seuils dynamiques indiquent que le temps de réponse réel d"une charge de travail est trop élevé ou trop faible par rapport à la plage de temps de réponse prévue. La page Détails des événements vous permet d"analyser l"événement de performance et de prendre des mesures correctives, le cas échéant, pour rétablir les performances normales.' 
+---
+= Analyse des événements à partir de seuils de performances dynamiques
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Les événements générés à partir de seuils dynamiques indiquent que le temps de réponse réel d'une charge de travail est trop élevé ou trop faible par rapport à la plage de temps de réponse prévue. La page Détails des événements vous permet d'analyser l'événement de performance et de prendre des mesures correctives, le cas échéant, pour rétablir les performances normales.
+
+[NOTE]
+====
+Les seuils de performance dynamiques ne sont pas activés sur les systèmes Cloud Volumes ONTAP, ONTAP Edge ou ONTAP Select.
+
+====

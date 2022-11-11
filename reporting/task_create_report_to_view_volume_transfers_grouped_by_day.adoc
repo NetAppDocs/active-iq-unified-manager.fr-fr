@@ -1,0 +1,35 @@
+---
+permalink: reporting/task_create_report_to_view_volume_transfers_grouped_by_day.html 
+sidebar: sidebar 
+keywords: create, report, view, volume, transfers, day 
+summary: Vous pouvez créer un rapport pour afficher les transferts de volumes regroupés par jour. 
+---
+= Création d'un rapport pour afficher les transferts de volumes regroupés par jour
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez créer un rapport pour afficher les transferts de volumes regroupés par jour.
+
+*Ce dont vous aurez besoin*
+
+* Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+
+
+Utilisez les étapes suivantes pour créer une vue personnalisée pour les transferts de volume regroupés par jour, puis planifiez la génération d'un rapport pour cette vue.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage* > *volumes*.
+. Dans le menu Affichage, sélectionnez *relation* > *taux de transfert du dernier mois*.
+. Cliquez sur le haut de la colonne "Day" pour trier les transferts de volume par jour.
+. Enregistrez la vue avec un nom spécifique qui reflète ce que la vue affiche, par exemple « transferts de volume par jour ».
+. Cliquez sur le bouton *Rapports planifiés* sur la page d'inventaire.
+. Entrez un nom pour le planning du rapport et remplissez les autres champs du rapport, puis cliquez sur la coche (image:../media/blue_check.gif[""]) à la fin du rang.
++
+Le rapport est envoyé immédiatement sous forme de test. Ensuite, le rapport génère et est envoyé par e-mail aux destinataires répertoriés à l'aide de la fréquence spécifiée.
+
+
+
+En fonction des résultats affichés dans ce rapport, vous pouvez étudier les transferts de volume au quotidien.

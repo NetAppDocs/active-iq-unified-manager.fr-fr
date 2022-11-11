@@ -1,0 +1,60 @@
+---
+permalink: data-protection/task_update_protection_voldtls_page.html 
+sidebar: sidebar 
+keywords: initialize, update, protection, relationships, volume, health details page 
+summary: Vous pouvez effectuer un transfert de base initial sur une nouvelle relation de protection, ou mettre à jour une relation si elle est déjà initialisée et si vous souhaitez effectuer une mise à jour incrémentielle manuelle et non planifiée pour transférer immédiatement les données. 
+---
+= Initialisation ou mise à jour des relations de protection à partir de la page Détails du volume/intégrité
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez effectuer un transfert de base initial sur une nouvelle relation de protection, ou mettre à jour une relation si elle est déjà initialisée et si vous souhaitez effectuer une mise à jour incrémentielle manuelle et non planifiée pour transférer immédiatement les données.
+
+*REMARQUE* : vous ne pouvez pas initialiser ni mettre à jour des volumes protégés par des groupes de cohérence.
+
+*Ce dont vous aurez besoin*
+
+* Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+* Vous devez avoir configuré OnCommand Workflow Automation.
+
+
+.Étapes
+. Dans l'onglet *protection* de la page *Volume / Santé*, localisez dans la topologie la relation de protection que vous souhaitez initialiser ou mettre à jour, puis cliquez dessus avec le bouton droit de la souris.
+. Sélectionnez *initialiser/mettre à jour* dans le menu.
++
+Vous pouvez également sélectionner *relations* > *initialiser/mettre à jour* dans le menu *actions* pour initialiser ou mettre à jour la relation pour laquelle vous consultez actuellement les détails.
+
++
+La boîte de dialogue initialiser/mettre à jour s'affiche.
+
+. Dans l'onglet *Options de transfert*, sélectionnez une priorité de transfert et le taux de transfert maximal.
+. Cliquez sur *copies snapshot source*, puis, dans la colonne *copie snapshot*, cliquez sur *par défaut*.
++
+La boîte de dialogue Sélectionner une copie Snapshot source s'affiche.
+
+. Pour spécifier une copie Snapshot existante plutôt que de transférer la copie Snapshot par défaut, cliquez sur *copie Snapshot existante* et sélectionnez une copie Snapshot dans la liste.
+. Cliquez sur *soumettre*.
++
+Vous revenez à la boîte de dialogue initialiser/mettre à jour.
+
+. Si vous avez sélectionné plusieurs sources à initialiser ou à mettre à jour, cliquez sur *default* pour la source de lecture/écriture suivante pour laquelle vous souhaitez spécifier une copie Snapshot existante.
++
+Vous ne pouvez pas sélectionner une autre copie Snapshot pour les volumes de protection des données.
+
+. Cliquez sur *Submit* pour lancer la tâche d'initialisation ou de mise à jour.
++
+La tâche d'initialisation ou de mise à jour est démarrée, vous êtes renvoyé à la page Volume / Health details et un lien travaux s'affiche en haut de la page.
+
+. *Facultatif:* cliquez sur *Afficher les travaux* sur la page *Volume / Santé* pour suivre l'état de chaque tâche d'initialisation ou de mise à jour.
++
+Une liste filtrée des travaux s'affiche.
+
+. *Facultatif:* cliquez sur chaque travail pour en voir les détails.
+. *Facultatif:* cliquez sur la flèche Précédent de votre navigateur pour revenir à la page de détails *Volume / Santé*.
++
+L'opération d'initialisation ou de mise à jour est terminée lorsque toutes les tâches sont terminées avec succès.
+
+

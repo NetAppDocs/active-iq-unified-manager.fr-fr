@@ -1,0 +1,36 @@
+---
+permalink: health-checker/task_add_alerts_for_security_events.html 
+sidebar: sidebar 
+keywords: add, alerts, security events 
+summary: Vous pouvez configurer les alertes pour les événements de sécurité individuels comme pour tous les autres événements reçus par Unified Manager. En outre, si vous souhaitez traiter tous les événements de sécurité, et que vous avez envoyé un e-mail à la même personne, vous pouvez créer une alerte unique pour vous avertir lorsque des événements de sécurité sont déclenchés. 
+---
+= Ajout d'alertes pour les événements de sécurité
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez configurer les alertes pour les événements de sécurité individuels comme pour tous les autres événements reçus par Unified Manager. En outre, si vous souhaitez traiter tous les événements de sécurité, et que vous avez envoyé un e-mail à la même personne, vous pouvez créer une alerte unique pour vous avertir lorsque des événements de sécurité sont déclenchés.
+
+*Ce dont vous aurez besoin*
+
+Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+
+L'exemple ci-dessous montre comment créer une alerte pour l'événement de sécurité « Protocole Telnet activé ». Une alerte sera envoyée si l'accès Telnet est configuré pour l'accès administratif à distance au cluster. Vous pouvez utiliser cette même méthodologie pour créer des alertes pour tous les événements de sécurité.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage Management* > *Alert Setup*.
+. Dans la page *Configuration des alertes*, cliquez sur *Ajouter*.
+. Dans la boîte de dialogue *Ajouter une alerte*, cliquez sur *Nom*, puis entrez un nom et une description pour l'alerte.
+. Cliquez sur *Ressources* et sélectionnez le cluster ou le cluster sur lequel vous souhaitez activer cette alerte.
+. Cliquez sur *Evénements* et effectuez les opérations suivantes :
++
+.. Dans la liste gravité de l'événement, sélectionnez *Avertissement*.
+.. Dans la liste Evénements correspondants, sélectionnez *Protocole Telnet activé*.
+
+
+. Cliquez sur *actions*, puis sélectionnez le nom de l'utilisateur qui recevra l'e-mail d'alerte dans le champ *Alert thavent Users*.
+. Configurez toutes les autres options de cette page pour la fréquence de notification, l'émission de taps SNMP et l'exécution d'un script.
+. Cliquez sur *Enregistrer*.
+

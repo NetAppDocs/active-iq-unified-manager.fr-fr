@@ -1,0 +1,42 @@
+---
+permalink: reporting/task_create_report_to_view_qtrees_that_are_nearly_full.html 
+sidebar: sidebar 
+keywords: create, report, view, qtrees, full 
+summary: 'Vous pouvez créer un rapport pour analyser la capacité de stockage et l"utilisation des qtrees et afficher les qtrees presque pleins.' 
+---
+= Création d'un rapport pour afficher les qtrees presque pleins
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez créer un rapport pour analyser la capacité de stockage et l'utilisation des qtrees et afficher les qtrees presque pleins.
+
+*Ce dont vous aurez besoin*
+
+* Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+
+
+Procédez comme suit pour créer une vue personnalisée affichant les qtrees presque pleins, puis planifier la génération d'un rapport pour cette vue.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage* > *Qtrees*.
+. Sélectionnez *Afficher/Masquer* pour supprimer les colonnes que vous ne souhaitez pas inclure dans le rapport.
+. Faites glisser la colonne "disque utilisé %" près de la colonne "qtrees".
+. Cliquez sur l'icône de filtre, ajoutez les filtres suivants, puis cliquez sur *appliquer le filtre* :
++
+** Le % utilisé du disque est supérieur à 75 %
+
+
+. Cliquez sur le haut de la colonne "disque utilisé %" pour trier les résultats par pourcentage de capacité.
+. Enregistrez la vue avec un nom spécifique qui reflète ce que la vue affiche, par exemple « qtrees approchant de plein », puis cliquez sur la coche (image:../media/blue_check.gif[""]).
+. Cliquez sur le bouton *Rapports planifiés* sur la page d'inventaire.
+. Cliquez sur *Ajouter un calendrier* pour ajouter une nouvelle ligne à la page *Rapports horaires* afin de définir les caractéristiques du nouveau rapport.
+. Entrez un nom pour le planning du rapport et remplissez les autres champs du rapport, puis cliquez sur la coche (image:../media/blue_check.gif[""]) à la fin du rang.
++
+Le rapport est envoyé immédiatement sous forme de test. Ensuite, le rapport génère et est envoyé par e-mail aux destinataires répertoriés à l'aide de la fréquence spécifiée.
+
+
+
+En fonction des résultats présentés dans ce rapport, il est possible de modifier les limites matérielles et logicielles du disque (si elles sont définies) ou d'équilibrer les données sur l'ensemble des qtrees.

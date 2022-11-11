@@ -1,0 +1,160 @@
+---
+permalink: api-automation/task_modify_fileshare_to_include_cifs_and_nfs.html 
+sidebar: sidebar 
+keywords: modify, nfs, file, share, support, cifs 
+summary: 'Vous pouvez modifier un partage de fichiers NFS pour prendre en charge le protocole CIFS. Lors de la création de partages de fichiers, il est possible de spécifier à la fois les paramètres de listes de contrôle d"accès (ACL) et les règles d"export policy pour le même partage de fichiers. Toutefois, si vous souhaitez activer CIFS sur le même volume que celui sur lequel vous avez créé un partage de fichiers NFS, vous pouvez mettre à jour les paramètres ACL sur ce partage de fichiers pour prendre en charge CIFS.' 
+---
+= Modification d'un partage de fichiers NFS à l'aide d'API pour prendre en charge CIFS
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez modifier un partage de fichiers NFS pour prendre en charge le protocole CIFS. Lors de la création de partages de fichiers, il est possible de spécifier à la fois les paramètres de listes de contrôle d'accès (ACL) et les règles d'export policy pour le même partage de fichiers. Toutefois, si vous souhaitez activer CIFS sur le même volume que celui sur lequel vous avez créé un partage de fichiers NFS, vous pouvez mettre à jour les paramètres ACL sur ce partage de fichiers pour prendre en charge CIFS.
+
+*Ce dont vous aurez besoin*
+
+. Un partage de fichiers NFS doit avoir été créé avec uniquement les détails de la export policy. Pour plus d'informations, reportez-vous aux sections _gestion des partages de fichiers_ et _modification des charges de travail du stockage_.
+. Vous devez disposer de la clé de partage de fichiers pour exécuter cette opération. Pour plus d'informations sur l'affichage des détails du partage de fichiers et la récupération de la clé de partage de fichiers à l'aide de l'ID de tâche, voir _Provisioning des partages de fichiers CIFS et NFS_.
+
+
+Cette fonctionnalité s'applique à un partage de fichiers NFS que vous avez créé en ajoutant uniquement des règles d'export policy et non des paramètres ACL. Vous modifiez le partage de fichiers NFS pour inclure les paramètres ACL.
+
+.Étapes
+. Sur le partage de fichiers NFS, exécutez une `PATCH` Fonctionnement avec les détails de la liste de contrôle d'accès pour autoriser l'accès CIFS.
++
+[cols="3*"]
+|===
+| Catégorie | Verbe HTTP | Chemin 
+
+
+ a| 
+fournisseur de stockage
+ a| 
+CORRECTIF
+ a| 
+`/storage-provider/file-shares`
+
+|===
++
+*CURL d'échantillon*
+
++
+En fonction des privilèges d'accès que vous attribuez au groupe d'utilisateurs, comme indiqué dans l'exemple suivant, une liste de contrôle d'accès est créée et attribuée au partage de fichiers.
+
++
+[listing]
+----
+{
+  "access_control": {
+    "acl": [
+      {
+        "permission": "read",
+        "user_or_group": "everyone"
+      }
+    ],
+    "active_directory_mapping": {
+      "key": "3b648c1b-d965-03b7-20da-61b791a6263c"
+    }
+----
++
+*Sortie JSON échantillon*
+
++
+L'opération renvoie l'ID du travail qui exécute la mise à jour.
+
+. Vérifiez si les paramètres ont été correctement ajoutés en interrogeant les détails du partage de fichiers pour le même partage de fichiers.
++
+[cols="3*"]
+|===
+| Catégorie | Verbe HTTP | Chemin 
+
+
+ a| 
+fournisseur de stockage
+ a| 
+OBTENEZ
+ a| 
+`/storage-provider/file-shares/\{key}`
+
+|===
++
+*Sortie JSON échantillon*
+
++
+[listing]
+----
+"access_control": {
+        "acl": [
+            {
+                "user_or_group": "everyone",
+                "permission": "read"
+            }
+        ],
+        "export_policy": {
+            "id": 1460288880641,
+            "key": "7d5a59b3-953a-11e8-8857-00a098dcc959:type=export_policy,uuid=1460288880641",
+            "name": "default",
+            "rules": [
+                {
+                    "anonymous_user": "65534",
+                    "clients": [
+                        {
+                            "match": "0.0.0.0/0"
+                        }
+                    ],
+                    "index": 1,
+                    "protocols": [
+                        "nfs3",
+                        "nfs4"
+                    ],
+                    "ro_rule": [
+                        "sys"
+                    ],
+                    "rw_rule": [
+                        "sys"
+                    ],
+                    "superuser": [
+                        "none"
+                    ]
+                },
+                {
+                    "anonymous_user": "65534",
+                    "clients": [
+                        {
+                            "match": "0.0.0.0/0"
+                        }
+                    ],
+                    "index": 2,
+                    "protocols": [
+                        "cifs"
+                    ],
+                    "ro_rule": [
+                        "ntlm"
+                    ],
+                    "rw_rule": [
+                        "ntlm"
+                    ],
+                    "superuser": [
+                        "none"
+                    ]
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "/api/datacenter/protocols/nfs/export-policies/7d5a59b3-953a-11e8-8857-00a098dcc959:type=export_policy,uuid=1460288880641"
+                }
+            }
+        }
+    },
+    "_links": {
+        "self": {
+            "href": "/api/storage-provider/file-shares/7d5a59b3-953a-11e8-8857-00a098dcc959:type=volume,uuid=e581c23a-1037-11ea-ac5a-00a098dcc6b6"
+        }
+    }
+----
++
+Vous pouvez voir la liste de contrôle d’accès attribuée ainsi que l’export policy vers le même partage de fichiers.
+
+

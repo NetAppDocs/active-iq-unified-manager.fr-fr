@@ -1,0 +1,30 @@
+---
+permalink: data-protection/task_monitor_jobs.html 
+sidebar: sidebar 
+keywords: monitor, jobs 
+summary: 'Vous pouvez utiliser la page travaux pour contrôler l"état des travaux et afficher les propriétés des travaux, telles que le type de service de stockage, l"état, l"heure de soumission et l"heure de fin pour déterminer si un travail s"est terminé avec succès ou non.' 
+---
+= Surveillance des tâches
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez utiliser la page travaux pour contrôler l'état des travaux et afficher les propriétés des travaux, telles que le type de service de stockage, l'état, l'heure de soumission et l'heure de fin pour déterminer si un travail s'est terminé avec succès ou non.
+
+*Ce dont vous aurez besoin*
+
+Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *protection* > *travaux*.
++
+La page travaux s'affiche.
+
+. Affichez la colonne *State* pour déterminer l'état de ces travaux en cours d'exécution.
+. Cliquez sur le nom d'un travail pour afficher les détails de ce travail.
++
+La page Détails du travail s'affiche.
+
+

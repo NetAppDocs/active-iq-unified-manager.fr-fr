@@ -1,0 +1,16 @@
+---
+permalink: reporting/concept_customize_aggregate_capacity_reports.html 
+sidebar: sidebar 
+keywords: customize, aggregate, capacity, reports 
+summary: Ces exemples de rapports personnalisés sont utilisés pour vous aider à identifier les problèmes potentiels liés à la capacité de stockage des agrégats et à y répondre. 
+---
+= Personnalisation des rapports de capacité d'agrégats
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Ces exemples de rapports personnalisés sont utilisés pour vous aider à identifier les problèmes potentiels liés à la capacité de stockage des agrégats et à y répondre.
+
+Les rapports de cette section ne sont que des exemples pour vous aider à comprendre comment créer des rapports sur la capacité globale afin de vous aider à surveiller les ressources du système de stockage.

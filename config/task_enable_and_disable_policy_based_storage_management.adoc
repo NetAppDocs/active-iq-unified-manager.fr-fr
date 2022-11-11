@@ -1,0 +1,78 @@
+---
+permalink: config/task_enable_and_disable_policy_based_storage_management.html 
+sidebar: sidebar 
+keywords: provisioning, performance service levels, storage management, enable, disable, policy-based 
+summary: 'Depuis la version 9.7 de Unified Manager, vous pouvez provisionner les charges de travail de stockage (volumes et LUN) sur vos clusters ONTAP, et gérer ces charges de travail en fonction de niveaux de service de performances attribués. Cette fonctionnalité est similaire à la création des charges de travail dans ONTAP System Manager et à l"ajout de règles de QoS. Toutefois, lorsqu"elle est appliquée à l"aide de Unified Manager, vous pouvez provisionner et gérer les charges de travail sur l"ensemble des clusters qui surveillent votre instance Unified Manager.' 
+---
+= Activation et désactivation de la gestion du stockage basée sur des règles
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Depuis la version 9.7 de Unified Manager, vous pouvez provisionner les charges de travail de stockage (volumes et LUN) sur vos clusters ONTAP, et gérer ces charges de travail en fonction de niveaux de service de performances attribués. Cette fonctionnalité est similaire à la création des charges de travail dans ONTAP System Manager et à l'ajout de règles de QoS. Toutefois, lorsqu'elle est appliquée à l'aide de Unified Manager, vous pouvez provisionner et gérer les charges de travail sur l'ensemble des clusters qui surveillent votre instance Unified Manager.
+
+Vous devez avoir le rôle Administrateur d'applications.
+
+Activation par défaut de cette option, mais désactivation si vous ne souhaitez pas provisionner et gérer les charges de travail à l'aide d'Unified Manager.
+
+Lorsqu'elle est activée, cette option fournit de nombreux nouveaux éléments dans l'interface utilisateur :
+
+[cols="2*"]
+|===
+| Nouveau contenu | Emplacement 
+
+
+ a| 
+Une page pour provisionner de nouveaux workloads
+ a| 
+Disponible à partir de *tâches courantes* > *mise en service*
+
+
+
+ a| 
+Une page pour créer des règles de niveau de service de performances
+ a| 
+Disponible à partir de *Paramètres* > *stratégies* > *niveaux de service de performance*
+
+
+
+ a| 
+Une page pour créer des règles d'efficacité du stockage de performance
+ a| 
+Disponible à partir de *Paramètres* > *stratégies* > *efficacité du stockage*
+
+
+
+ a| 
+Des panneaux décrivent les performances de vos charges de travail et les IOPS de vos charges de travail actuelles
+ a| 
+Disponible dans le tableau de bord
+
+|===
+Pour plus d'informations sur ces pages et sur cette fonctionnalité, reportez-vous à l'aide en ligne du produit.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *général* > *Paramètres de fonction*.
+. Dans la page *Feature Settings*, désactivez ou activez la gestion du stockage basée sur des règles en choisissant l'une des options suivantes :
++
+[cols="2*"]
+|===
+| Les fonctions que vous recherchez... | Alors, procédez comme ça... 
+
+
+ a| 
+Désactiver la gestion du stockage basée sur des règles
+ a| 
+Dans le panneau gestion du stockage basée sur des règles*, déplacez le curseur vers la gauche.
+
+
+
+ a| 
+Mettez en œuvre la gestion du stockage basée sur des règles
+ a| 
+Dans le panneau gestion du stockage basée sur des règles*, déplacez le curseur vers la droite.
+
+|===
+

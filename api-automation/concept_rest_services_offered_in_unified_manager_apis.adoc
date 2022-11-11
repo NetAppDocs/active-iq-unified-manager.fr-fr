@@ -1,0 +1,59 @@
+---
+permalink: api-automation/concept_rest_services_offered_in_unified_manager_apis.html 
+sidebar: sidebar 
+keywords: rest, services, offer, active iq, unified, manager 
+summary: 'Avant d"utiliser les API Active IQ Unified Manager, vous devez connaître les services ET les opérations REST proposés.' 
+---
+= Services REST proposés en Active IQ Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Avant d'utiliser les API Active IQ Unified Manager, vous devez connaître les services ET les opérations REST proposés.
+
+Les API de provisionnement et d'administration utilisées pour configurer le serveur d'API prennent en charge les opérations de lecture (GET) ou d'écriture (POST, CORRECTIF, SUPPRESSION). Voici quelques exemples d'opérations GET, CORRECTIF, POST et DE SUPPRESSION prises en charge par les API :
+
+* Exemple pour OBTENIR : `GET /datacenter/cluster/clusters` récupère les détails du cluster dans votre centre de données. Nombre maximum d'enregistrements renvoyés par le `GET` le fonctionnement est de 1000.
++
+[NOTE]
+====
+Les API vous permettent de filtrer, trier et trier les enregistrements par attributs pris en charge.
+
+====
+* Exemple pour POST : `POST /datacenter/svm/svms` Crée un SVM (Storage Virtual machine) personnalisé.
+* Exemple de CORRECTIF : `PATCH /datacenter/svm/svms/{key}` Modifie les propriétés d'un SVM, en utilisant sa clé unique.
+* Exemple DE SUPPRESSION : `DELETE /storage-provider/access-endpoints/{key}` Supprime un noeud final d'accès d'une LUN, d'un SVM ou d'un partage de fichiers à l'aide de sa clé unique.
+
+
+Les opérations REST pouvant être effectuées à l'aide des API dépendent du rôle de l'utilisateur de l'opérateur, de l'administrateur du stockage ou de l'administrateur d'applications.
+
+[cols="2*"]
+|===
+| Rôle utilisateur | Méthode REST prise en charge 
+
+
+ a| 
+Opérateur
+ a| 
+Accès en lecture seule aux données. Les utilisateurs disposant de ce rôle peuvent exécuter toutes les demandes GET.
+
+
+
+ a| 
+Administrateur du stockage
+ a| 
+Accès en lecture à toutes les données. Les utilisateurs disposant de ce rôle peuvent exécuter toutes les demandes GET.
+
+En outre, ils ont un accès en écriture (pour exécuter DES DEMANDES DE CORRECTIF, D'POST-TRAITEMENT et DE SUPPRESSION) afin d'effectuer certaines activités, telles que la gestion, les objets de service de stockage et les options de gestion du stockage.
+
+
+
+ a| 
+Administrateur d'applications
+ a| 
+Accès en lecture et en écriture à toutes les données. Les utilisateurs disposant de ce rôle peuvent exécuter des demandes D'OBTENTION, DE CORRECTION, DE PUBLICATION et DE SUPPRESSION pour toutes les fonctions.
+
+|===
+Pour plus d'informations sur toutes les opérations DE REPOS, reportez-vous à la documentation _Online API_.

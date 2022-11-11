@@ -1,0 +1,60 @@
+---
+permalink: install-linux/task_manually_configure_mysql_repository.html 
+sidebar: sidebar 
+keywords: manually configure mysql repository, mysql key, keys update 
+summary: 'Si le système sur lequel vous installez Unified Manager n"a pas accès au référentiel MySQL Community Edition, vous devez télécharger et configurer manuellement le référentiel pour une installation réussie.' 
+---
+= Configuration manuelle du référentiel MySQL
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Si le système sur lequel vous installez Unified Manager n'a pas accès au référentiel MySQL Community Edition, vous devez télécharger et configurer manuellement le référentiel pour une installation réussie.
+
+Le référentiel MySQL permet d'accéder au logiciel MySQL requis qui doit être installé sur votre système.
+
+[NOTE]
+====
+Cette tâche peut échouer si le système ne dispose pas de la connectivité Internet. Reportez-vous à la documentation MySQL si le système sur lequel vous installez Unified Manager ne dispose pas d'un accès Internet.
+
+====
+.Étapes
+. Téléchargez le référentiel MySQL approprié pour votre installation. Pour Red Hat Enterprise Linux 7, téléchargez-le à l'adresse suivante :
++
+`+wget http://repo.mysql.com/yum/mysql-8.0-community/el/7/x86_64/mysql80-community-release-el7-3.noarch.rpm+`
+
++
+Pour la version 8, téléchargez-la à l'adresse suivante :
+
++
+`+wget http://repo.mysql.com/yum/mysql-8.0-community/el/8/x86_64/mysql80-community-release-el8-1.noarch.rpm+`
+
+. Configurez le référentiel MySQL :
++
+`yum install mysql80-community-release-<version>.noarch.rpm`
+
+
+
+Pour le système Red Hat Enterprise Linux 8, si vous disposez de référentiels internes avec Java-11-openjdk, p7zip et d'autres progiciels fournis par le référentiel AppStream, vous devez désactiver votre référentiel AppStream et installer MySQL Community Server. Exécutez la commande suivante :
+
+[listing]
+----
+# sudo yum --disablerepo=rhel-8-for-x86_64-appstream-rpms install  mysql-community-server
+----
+Si vous recevez une erreur de non-concordance de clé ou de clé manquante et que l'installation échoue, procédez comme suit :
+
+* Sur un système connecté, importez la clé MySQL mise à jour en exécutant la commande suivante :
+
+
+[listing]
+----
+rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-<xxxx>
+
+for example:
+
+rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022
+----
+* Sur un système qui n'a pas de connectivité Internet, mettez à jour votre fichier MySQL repo et désactivez `gpgcheck` par marquage `gpgcheck=0`.
+

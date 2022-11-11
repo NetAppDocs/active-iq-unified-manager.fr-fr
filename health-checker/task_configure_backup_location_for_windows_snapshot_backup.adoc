@@ -1,0 +1,49 @@
+---
+permalink: health-checker/task_configure_backup_location_for_windows_snapshot_backup.html 
+sidebar: sidebar 
+keywords: configure, backup, location, windows, snapshot copy, copies 
+summary: Il est recommandé de configurer le volume de stockage des copies Snapshot après les sauvegardes de Unified Manager sur Windows. 
+---
+= Configuration de l'emplacement de sauvegarde pour Windows
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Il est recommandé de configurer le volume de stockage des copies Snapshot après les sauvegardes de Unified Manager sur Windows.
+
+*Ce dont vous aurez besoin*
+
+Le cluster, la VM de stockage et le volume doivent satisfaire aux exigences suivantes :
+
+* Configuration requise pour le cluster :
++
+** ONTAP 9.3 ou version ultérieure doit être installé
+** Elle doit se trouver géographiquement proche du serveur Unified Manager
+** Il est surveillé par Unified Manager
+
+
+* Configuration requise pour les machines virtuelles de stockage :
++
+** Connectivité iSCSI sur le cluster ONTAP
+** Le protocole iSCSI doit être activé pour la machine configurée
+** Vous devez disposer d'un volume et d'une LUN dédiés pour la configuration de sauvegarde. Le volume sélectionné ne doit contenir qu'une seule LUN et rien d'autre.
+** La taille de la LUN doit être au moins deux fois supérieure à la taille de données prévue pour les 9.9 Active IQ Unified Manager.
++
+Cela permet également de définir la même taille pour le volume.
+
+** Assurez-vous que tous les accès en lecture/écriture sont sélectionnés
+** Assurez-vous que Superuser Access est défini sur « n'importe quel » dans la politique d'exportation
+
+
+* Configuration requise pour le volume et les LUN :
++
+** Le volume doit être au moins le double de la taille du répertoire de données MySQL Unified Manager.
+** Le style de sécurité doit être défini sur Windows
+** La stratégie de snapshot local doit être désactivée
+** La taille automatique du volume doit être activée
+** Le niveau de services de performance doit être défini à une règle avec des IOPS élevées et une faible latence, telles que « extrême »
+
+
+

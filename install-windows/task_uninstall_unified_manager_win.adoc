@@ -1,0 +1,56 @@
+---
+permalink: install-windows/task_uninstall_unified_manager_win.html 
+sidebar: sidebar 
+keywords: uninstall, unified manager 
+summary: 'Vous pouvez désinstaller Unified Manager à l"aide de l"Assistant programmes et fonctionnalités ou en effectuant une désinstallation automatique à partir de l"interface de ligne de commande.' 
+---
+= Désinstallation d'Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+:pp: &#43;&#43;
+
+
+[role="lead"]
+Vous pouvez désinstaller Unified Manager à l'aide de l'Assistant programmes et fonctionnalités ou en effectuant une désinstallation automatique à partir de l'interface de ligne de commande.
+
+*Ce dont vous aurez besoin*
+
+* Vous devez disposer des privilèges d'administrateur Windows.
+* Tous les clusters (sources de données) doivent être supprimés du serveur Unified Manager avant de désinstaller le logiciel.
+
+
+.Étapes
+. Désinstallez Unified Manager en choisissant l'une des options suivantes :
++
+** Si vous désinstallez Unified Manager à partir de l'assistant *programmes et fonctionnalités*, effectuez les opérations suivantes :
++
+... Accédez à *panneau de configuration* > *Programme et fonctionnalités*.
+... Sélectionnez Active IQ Unified Manager, puis cliquez sur *Désinstaller*.
+
+
+** Si vous désinstallez Unified Manager à partir de la ligne de commande, effectuez les opérations suivantes :
++
+... Connectez-vous à la ligne de commande Windows à l'aide des privilèges d'administrateur.
+... Accédez au répertoire Active IQ Unified Manager et exécutez la commande suivante :
++
+`+msiexec /x {A78760DB-7EC0-4305-97DB-E4A89CDFF4E1} /qn /l*v %systemdrive%\UmUnInstall.log+`
+
++
+Si le contrôle de compte d'utilisateur (UAC) est activé sur le serveur et que vous êtes connecté en tant qu'utilisateur de domaine, vous devez utiliser la méthode de désinstallation de ligne de commande.
+
++
+Unified Manager est désinstallé de votre système.
+
+
+
+
+
+. Désinstallez les packages tiers et données suivants qui ne sont pas supprimés pendant la désinstallation de Unified Manager :
++
+** Packages tiers : JRE, MySQL, Microsoft Visual C&#43;&#43; 2015 Redistributable, Python, et 7zip
+** Données d'application MySQL générées par Unified Manager
+** Les journaux d'application et le contenu du répertoire des données d'application
+
+
+

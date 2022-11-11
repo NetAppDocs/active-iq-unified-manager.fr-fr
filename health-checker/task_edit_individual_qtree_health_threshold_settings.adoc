@@ -1,0 +1,32 @@
+---
+permalink: health-checker/task_edit_individual_qtree_health_threshold_settings.html 
+sidebar: sidebar 
+keywords: edit, individual, qtree, health, threshold, settings 
+summary: 'Vous pouvez modifier les paramètres du seuil de santé pour la capacité qtree d"un ou plusieurs qtrees. Lorsqu"un seuil est franchi, des alertes sont générées et vous recevez des notifications. Ces notifications vous aident à prendre des mesures préventives en fonction de l"événement généré.' 
+---
+= Modification des paramètres de seuil de santé des qtrees individuels
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez modifier les paramètres du seuil de santé pour la capacité qtree d'un ou plusieurs qtrees. Lorsqu'un seuil est franchi, des alertes sont générées et vous recevez des notifications. Ces notifications vous aident à prendre des mesures préventives en fonction de l'événement généré.
+
+*Ce dont vous aurez besoin*
+
+Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+
+En fonction des modifications apportées aux valeurs de seuil, les événements sont générés ou obsolètes dans le cycle de surveillance suivant.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage* > *Qtrees*.
+. Dans la vue *capacité : tous les qtrees*, sélectionnez un ou plusieurs qtrees, puis cliquez sur *Modifier les seuils*.
+. Dans la boîte de dialogue *Modifier les seuils de qtree*, modifiez les seuils de capacité du qtree ou des qtrees sélectionnés et cliquez sur *Enregistrer*.
++
+[NOTE]
+====
+Vous pouvez également définir des seuils qtree individuels depuis l'onglet qtrees de la page Storage VM / Health Details.
+
+====
+

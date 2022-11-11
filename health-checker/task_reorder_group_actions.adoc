@@ -1,0 +1,27 @@
+---
+permalink: health-checker/task_reorder_group_actions.html 
+sidebar: sidebar 
+keywords: reorder, group actions 
+summary: 'Vous pouvez modifier l"ordre des actions de groupe à appliquer aux objets de stockage d"un groupe. Les actions de groupe sont appliquées aux objets de stockage de façon séquentielle en fonction de leur rang. Le rang le plus bas est affecté à l"action de groupe que vous avez configurée en dernier. Vous pouvez modifier le classement de l"action de groupe en fonction de vos besoins.' 
+---
+= Réorganisation des actions de groupe
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez modifier l'ordre des actions de groupe à appliquer aux objets de stockage d'un groupe. Les actions de groupe sont appliquées aux objets de stockage de façon séquentielle en fonction de leur rang. Le rang le plus bas est affecté à l'action de groupe que vous avez configurée en dernier. Vous pouvez modifier le classement de l'action de groupe en fonction de vos besoins.
+
+*Ce dont vous aurez besoin*
+
+Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+
+Vous pouvez sélectionner une ou plusieurs lignes, puis effectuer plusieurs opérations glisser-déposer pour modifier le rang des actions de groupe. Cependant, vous devez enregistrer les modifications pour que la nouvelle hiérarchisation soit reflétée dans la grille des actions de groupe.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage Management* > *Groups*.
+. Dans l'onglet *actions de groupe*, cliquez sur *Réordonner*.
+. Dans la boîte de dialogue *Réordonner les actions de groupe*, faites glisser les lignes pour réorganiser la séquence des actions de groupe, si nécessaire.
+. Cliquez sur *Enregistrer*.
+

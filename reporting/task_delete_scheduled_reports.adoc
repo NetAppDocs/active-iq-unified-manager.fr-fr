@@ -1,0 +1,44 @@
+---
+permalink: reporting/task_delete_scheduled_reports.html 
+sidebar: sidebar 
+keywords: delete, reports 
+summary: Une fois les rapports programmés, vous pouvez les supprimer de la page Rapports programmes. 
+---
+= Suppression de rapports planifiés
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Une fois les rapports programmés, vous pouvez les supprimer de la page Rapports programmes.
+
+*Ce dont vous aurez besoin*
+
+* Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage Management* > *Report Schedules*.
++
+image::../media/scheduled_reports_2.gif[rapports planifiés 2]
+
++
+[NOTE]
+====
+Si vous disposez des autorisations appropriées, vous pouvez supprimer tout rapport et son planning dans le système.
+
+====
+. Cliquez sur l'icône plus image:../media/more_icon.gif[""] pour la planification que vous souhaitez supprimer.
+. Cliquez sur *Supprimer*.
+. Confirmez votre décision.
++
+Le rapport planifié est supprimé de la liste et ne sera plus généré et distribué sur le planning défini.
+
++
+[NOTE]
+====
+Si vous supprimez une vue personnalisée de la page d'inventaire, tous les fichiers Excel personnalisés ou rapports planifiés qui utilisent cette vue sont également supprimés.
+
+====
+

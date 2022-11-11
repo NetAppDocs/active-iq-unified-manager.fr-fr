@@ -1,0 +1,49 @@
+---
+permalink: config/task_set_session_inactivity_timeout.html 
+sidebar: sidebar 
+keywords: inactivity, timeout 
+summary: 'Vous pouvez spécifier la valeur du délai d"inactivité pour Unified Manager afin que la session soit automatiquement arrêtée au bout d"un certain temps. Par défaut, le délai est défini sur 4,320 minutes (72 heures).' 
+---
+= Définition du délai d'inactivité de la session
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez spécifier la valeur du délai d'inactivité pour Unified Manager afin que la session soit automatiquement arrêtée au bout d'un certain temps. Par défaut, le délai est défini sur 4,320 minutes (72 heures).
+
+*Ce dont vous aurez besoin*
+
+Vous devez avoir le rôle Administrateur d'applications.
+
+Ce paramètre affecte toutes les sessions utilisateur connectées.
+
+[NOTE]
+====
+Cette option n'est pas disponible si vous avez activé l'authentification SAML (Security assertion Markup Language).
+
+====
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *général* > *Paramètres de fonction*.
+. Dans la page *Feature Settings*, spécifiez le délai d'inactivité en choisissant l'une des options suivantes :
++
+[cols="2*"]
+|===
+| Les fonctions que vous recherchez... | Alors, procédez comme ça... 
+
+
+ a| 
+Aucun délai défini pour que la session ne soit jamais fermée automatiquement
+ a| 
+Dans le panneau *délai d'inactivité*, déplacez le curseur vers la gauche (désactivé) et cliquez sur *appliquer*.
+
+
+
+ a| 
+Définissez un nombre spécifique de minutes comme valeur de délai d'inactivité
+ a| 
+Dans le panneau *délai d'inactivité*, déplacez le curseur vers la droite (activé), spécifiez la valeur du délai d'inactivité en minutes, puis cliquez sur *appliquer*.
+
+|===
+

@@ -1,0 +1,26 @@
+---
+permalink: performance-checker/concept_troubleshooting_workloads_using_workload_analyzer.html 
+sidebar: sidebar 
+keywords: workload analyzer, troubleshoot 
+summary: 'L"analyseur de charge de travail permet d"afficher des critères importants d"intégrité et de performance pour une charge de travail unique sur une seule page pour faciliter le dépannage. La visualisation des événements actuels et précédents d"une charge de travail vous permet de mieux comprendre pourquoi la charge de travail rencontre peut-être un problème de performances ou de capacité.' 
+---
+= Dépannage des charges de travail à l'aide de l'analyseur de workloads
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+L'analyseur de charge de travail permet d'afficher des critères importants d'intégrité et de performance pour une charge de travail unique sur une seule page pour faciliter le dépannage. La visualisation des événements actuels et précédents d'une charge de travail vous permet de mieux comprendre pourquoi la charge de travail rencontre peut-être un problème de performances ou de capacité.
+
+Cet outil vous aide également à déterminer si le stockage est la cause de tout problème de performance d'une application ou si le problème est causé par un problème de réseau ou autre.
+
+Vous pouvez lancer cette fonctionnalité à partir de plusieurs endroits de l'interface utilisateur :
+
+* Dans la sélection analyse de charge de travail du menu de navigation gauche
+* Dans la page Détails de l'événement en cliquant sur le bouton *analyser la charge de travail*
+* Depuis n'importe quelle page d'inventaire des workloads (volume, LUN, charge de travail, partage NFS ou partage SMB/CIFS) en cliquant sur l'icône plus image:../media/more_icon.gif[""], Puis *analyser la charge de travail*
+* Sur la page machines virtuelles, cliquez sur le bouton *analyser la charge de travail* à partir de n'importe quel objet datastore
+
+
+Lorsque vous lancez l'outil à partir du menu de navigation de gauche, vous pouvez saisir le nom de toute charge de travail que vous souhaitez analyser et sélectionner la plage horaire pour laquelle vous souhaitez effectuer le dépannage. Lorsque vous lancez l'outil à partir de n'importe quelle page d'inventaire de la charge de travail ou de la machine virtuelle, le nom de la charge de travail est automatiquement renseigné et les données de la charge de travail sont présentées avec la plage de temps par défaut de 2 heures. Lorsque vous lancez l'outil à partir de la page Détails de l'événement, le nom de la charge de travail est automatiquement renseigné et les données de 10 jours s'affichent.

@@ -1,0 +1,18 @@
+---
+permalink: install-vapp/concept_overview_of_installation_sequence_um.html 
+sidebar: sidebar 
+keywords: overview, installation, sequence 
+summary: 'Le workflow d"installation décrit les tâches que vous devez effectuer avant d"utiliser Unified Manager.' 
+---
+= Présentation de la séquence d'installation
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Le workflow d'installation décrit les tâches que vous devez effectuer avant d'utiliser Unified Manager.
+
+Ces sections décrivent chacun des éléments indiqués dans le flux de travail ci-dessous.
+
+image::../media/overall_um_install_flow.png[débit d'installation global u]

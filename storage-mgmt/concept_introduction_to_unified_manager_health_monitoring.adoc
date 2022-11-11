@@ -1,0 +1,90 @@
+---
+permalink: storage-mgmt/concept_introduction_to_unified_manager_health_monitoring.html 
+sidebar: sidebar 
+keywords: introduction, active iq unified manager, throughput, Mbps, Kbps, GiB, TiB, logical capacity, PiB, Capacity measurement units 
+summary: Unités de mesure de la capacité capacité capacité physique et logique 
+---
+= Présentation de la surveillance de l'état de santé Active IQ Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Active IQ Unified Manager (anciennement OnCommand Unified Manager) vous aide à surveiller un grand nombre de systèmes exécutant le logiciel ONTAP via une interface utilisateur centralisée. L'infrastructure de serveur Unified Manager offre évolutivité, compatibilité et fonctionnalités avancées de contrôle et de notification.
+
+Il offre de nombreuses fonctionnalités : surveillance, alerte, gestion de la disponibilité et de la capacité des clusters, gestion des fonctionnalités de protection et regroupement des données de diagnostic et envoi au support technique.
+
+Vous pouvez utiliser Unified Manager pour surveiller vos clusters. Lorsqu'un problème se produit au sein du cluster, Unified Manager vous informe des détails de ces problèmes par le biais d'événements. Certains événements vous fournissent également une action corrective que vous pouvez effectuer pour corriger ces problèmes. Vous pouvez configurer les alertes pour les événements afin que lorsque des problèmes se produisent, vous être averti par e-mail et des interruptions SNMP.
+
+Unified Manager vous permet de gérer les objets de stockage de votre environnement en les associant à des annotations. Vous pouvez créer des annotations personnalisées et associer de façon dynamique des clusters, des machines virtuelles de stockage et des volumes aux annotations via des règles.
+
+Vous pouvez également planifier les besoins de stockage de vos objets de cluster à l'aide des informations fournies dans les graphiques de santé et de capacité pour l'objet de cluster respectif.
+
+
+
+== Capacité physique et logique
+
+Unified Manager utilise les concepts d'espace physique et logique utilisés pour les objets de stockage ONTAP.
+
+* Capacité physique : l'espace physique désigne les blocs physiques utilisés dans le volume. La capacité physique utilisée est généralement inférieure à la capacité logique utilisée en raison de la réduction des données provenant des fonctionnalités d'efficacité du stockage (telles que la déduplication et la compression).
+* Capacité logique : espace logique désigne l'espace utilisable (blocs logiques) dans un volume. L'espace logique désigne la manière dont l'espace théorique peut être utilisé, sans tenir compte des résultats obtenus grâce à la déduplication ou à la compression. L'espace logique utilisé est l'espace physique utilisé, plus les économies réalisées grâce aux fonctionnalités d'efficacité du stockage (telles que la déduplication et la compression) qui ont été configurées. Cette mesure est souvent supérieure à la capacité physique utilisée, car elle inclut des copies Snapshot, des clones et d'autres composants, et ne reflète pas la compression des données et autres réductions de l'espace physique. La capacité logique totale peut donc être supérieure à l'espace provisionné.
+
+
+
+
+== Unités de mesure de la capacité
+
+Unified Manager calcule la capacité de stockage en fonction des unités binaires de 1024 (2^10^) octets. Dans ONTAP 9.10.0 et versions antérieures, ces unités étaient affichées sous la forme Ko, Mo, Go, To et PB. À partir de ONTAP 9.10.1, ces objets sont affichés dans Unified Manager comme Kio, Mio, Gio, Tio et Pio.
+
+
+NOTE: Les unités utilisées pour le débit continuent d'être de kilo-octets par seconde (Kbit/s), mégaoctets par seconde (Mbit/s), gigaoctets par seconde (Gbit/s) ou téraoctets par seconde (Tbit/s), etc. Pour toutes les versions d'ONTAP.
+
+[cols="4*"]
+|===
+| Unité de capacité affichée dans Unified Manager pour ONTAP 9.10.0 et versions antérieures | Unité de capacité affichée dans Unified Manager pour ONTAP 9.10.1 | Calcul | Valeur en octets 
+
+
+ a| 
+KO
+ a| 
+Kio
+ a| 
+1024
+ a| 
+1024 octets
+
+
+
+ a| 
+MO
+ a| 
+Mio
+ a| 
+1024 * 1024
+ a| 
+1,048,576 octets
+
+
+
+ a| 
+GO
+ a| 
+Gio
+ a| 
+1024 * 1024 * 1024
+ a| 
+1,073,741,824 octets
+
+
+
+ a| 
+TO
+ a| 
+Tio
+ a| 
+1024 * 1024 * 1024 * 1024
+ a| 
+1,099,511,627,776 octets
+
+|===

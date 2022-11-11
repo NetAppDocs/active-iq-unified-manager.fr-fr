@@ -1,0 +1,62 @@
+---
+permalink: storage-mgmt/task_provision_fileshares.html 
+sidebar: sidebar 
+keywords: provision, file, share, volumes 
+summary: 'Vous pouvez créer des volumes de partage de fichiers qui prennent en charge les protocoles CIFS/SMB et NFS, sur un cluster existant et sur Storage Virtual machine (VM de stockage) à partir de la page provisionner les workloads.' 
+---
+= Provisionnement des volumes de partage de fichiers
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez créer des volumes de partage de fichiers qui prennent en charge les protocoles CIFS/SMB et NFS, sur un cluster existant et sur Storage Virtual machine (VM de stockage) à partir de la page provisionner les workloads.
+
+*Ce dont vous aurez besoin*
+
+* La VM de stockage doit disposer d'espace pour le provisionnement du volume de partage de fichiers.
+* Les services SMB et NFS doivent être activés sur la machine virtuelle de stockage.
+* Pour sélectionner et attribuer le niveau de service de performances (PSL) et la stratégie d'efficacité du stockage (SEP) sur la charge de travail, les règles doivent avoir été créées avant de commencer à créer la charge de travail.
+
+
+.Étapes
+. Sur la page *Provision Workload*, ajoutez le nom de la charge de travail à créer, puis sélectionnez le cluster dans la liste disponible.
+. En fonction du cluster sélectionné, le champ *Storage VM* filtre les machines virtuelles de stockage disponibles pour ce cluster. Sélectionnez la VM de stockage requise dans la liste.
++
+En fonction des services SMB et NFS pris en charge sur la VM de stockage, l'option NAS est activée dans la section informations sur l'hôte.
+
+. Dans la section stockage et optimisation, attribuez la capacité de stockage et la PSL, et éventuellement un SEP pour la charge de travail.
++
+Les spécifications du SEP sont affectées à la LUN et les définitions de la PSL sont appliquées à la charge de travail lors de sa création.
+
+. Cochez la case *appliquer les limites de performances* si vous souhaitez appliquer la PSL que vous avez attribuée à la charge de travail.
++
+L'affectation d'un PSL à une charge de travail garantit que l'agrégat sur lequel la charge de travail est créée peut prendre en charge les objectifs de performances et de capacité définis dans la politique correspondante. Par exemple, si une charge de travail est affectée « PSL Extreme Performance «, l'agrégat sur lequel la charge de travail est provisionnée doit avoir la capacité de soutenir les objectifs de performances et de capacité de la stratégie « Extreme Performance », comme le stockage SSD.
+
++
+[NOTE]
+====
+Sauf si vous cochez cette case, la PSL n'est pas appliquée à la charge de travail et l'état de la charge de travail sur le tableau de bord apparaît comme non affecté.
+
+====
+. Sélectionnez l'option *NAS*.
++
+Si l'option *NAS* n'est pas activée, vérifiez si la machine virtuelle de stockage que vous avez sélectionnée prend en charge SMB ou NFS, ou les deux.
+
++
+[NOTE]
+====
+Si votre machine virtuelle de stockage est activée pour les services SMB et NFS, vous pouvez cocher les cases *partager par NFS* et *partager par SMB* et créer un partage de fichiers prenant en charge les protocoles NFS et SMB. Si vous souhaitez créer un partage SMB ou CIFS, cochez uniquement la case correspondante.
+
+====
+. Pour les volumes de partage de fichiers NFS, spécifiez l'adresse IP de l'hôte ou du réseau pour accéder au volume de partage de fichiers. Vous pouvez entrer des valeurs séparées par des virgules pour plusieurs hôtes.
++
+Lors de l'ajout de l'adresse IP de l'hôte, une vérification interne vérifie la correspondance des détails de l'hôte avec le VM de stockage et l'export policy pour cet hôte est créée, ou lorsqu'une règle existante est utilisée, elle est réutilisée. Si plusieurs partages NFS sont créés pour le même hôte, une export policy disponible pour le même hôte avec des règles correspondantes est réutilisée pour tous les partages de fichiers. La fonction de définition de règles spécifiques à chaque règle ou de réutilisation de règles s'effectue en fournissant des clés de règles spécifiques lorsque vous provisionnez le partage NFS à l'aide d'API.
+
+. Pour un partage SMB, spécifiez quels utilisateurs ou groupes d'utilisateurs peuvent accéder au partage SMB et attribuez les autorisations requises. Pour chaque groupe d'utilisateurs, une nouvelle liste de contrôle d'accès (ACL) est générée lors de la création du partage de fichiers.
+. Cliquez sur *Enregistrer*.
++
+La charge de travail est ajoutée à la liste des charges de travail de stockage.
+
+

@@ -1,0 +1,67 @@
+---
+permalink: storage-mgmt/concept_assign_policies_on_workloads.html 
+sidebar: sidebar 
+keywords: assign, policies, workloads, single, multiple, storage, system-recommended, psls 
+summary: 'Vous pouvez affecter des politiques d"efficacité du stockage (PPE) et des niveaux de service de performance aux charges de travail de stockage à partir de la page toutes les charges de travail en utilisant les différentes options de navigation.' 
+---
+= L'attribution de règles aux workloads
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez affecter des politiques d'efficacité du stockage (PPE) et des niveaux de service de performance aux charges de travail de stockage à partir de la page toutes les charges de travail en utilisant les différentes options de navigation.
+
+
+
+== L'assignation de règles à un seul workload
+
+Vous pouvez affecter un PSL ou un SEP ou les deux à une seule charge de travail. Voici la procédure à suivre :
+
+. Sélectionnez la charge de travail.
+. Cliquez sur l'icône d'édition située à côté de la ligne, puis cliquez sur *Modifier*.
++
+Les champs *niveau de service de performances attribué* et *Stratégie d'efficacité du stockage* sont activés.
+
+. Sélectionnez la PSL ou SEP requise, ou les deux.
+. Cliquez sur l'icône de vérification pour appliquer les modifications.
+
+
+[NOTE]
+====
+Vous pouvez également sélectionner une charge de travail et cliquer sur *plus d'actions* pour affecter les stratégies.
+
+====
+
+
+== Attribuez des règles à plusieurs workloads de stockage
+
+Vous pouvez affecter un PSL ou un SEP à plusieurs charges de travail de stockage ensemble. Voici la procédure à suivre :
+
+. Cochez les cases correspondant aux charges de travail auxquelles vous souhaitez attribuer la règle ou sélectionnez toutes les charges de travail de votre data Center.
+. Cliquez sur *plus d'actions*.
+. Pour attribuer une PSL, sélectionnez *attribuer un niveau de service de performances*. Pour attribuer un SEP, sélectionnez *attribuer une stratégie d'efficacité du stockage*. Une fenêtre contextuelle s'affiche pour vous permettre de sélectionner la stratégie.
+. Sélectionnez la stratégie appropriée et cliquez sur *appliquer*. Le nombre de charges de travail attribuées aux règles s'affiche. Les charges de travail sur lesquelles les règles ne sont pas attribuées sont également répertoriées, en entraînant la cause.
++
+[NOTE]
+====
+L'application de règles à des charges de travail en bloc peut prendre un certain temps selon le nombre de charges de travail sélectionnées. Vous pouvez cliquer sur le bouton *Exécuter en arrière-plan* et continuer avec d'autres tâches pendant que l'opération s'exécute en arrière-plan. Une fois l'affectation groupée terminée, vous pouvez afficher l'état d'achèvement. Si vous appliquez une PSL sur plusieurs charges de travail, vous ne pouvez pas déclencher une autre demande lorsque la tâche précédente d'affectation en bloc est en cours d'exécution.
+
+====
+
+
+
+
+== Attribution des SLS recommandées par le système aux charges de travail
+
+Vous pouvez affecter des SLR recommandés par le système à ces charges de travail de stockage dans un centre de données ne disposant pas de SLP, ou les SLS attribuées ne correspondent pas aux recommandations du système. Pour utiliser cette fonctionnalité, cliquez sur le bouton *affecter les PSLs* recommandés par le système. Vous n'avez pas besoin de sélectionner des workloads spécifiques.
+
+Cette recommandation est déterminée en interne par l'analyse du système et est ignorée pour les charges de travail dont les IOPS et les autres paramètres ne coïncident pas avec les définitions de tout PSL disponible. De stockage des données avec `Waiting for I/O` Et les États d'apprentissage sont également exclus.
+
+[NOTE]
+====
+Unified Manager recherche des mots-clés spéciaux dans le nom de la charge de travail pour ignorer l'analyse du système et recommander une autre PSL pour la charge de travail. Lorsque la charge de travail porte les lettres « ora » dans le nom, la **Extreme Performance** PSL est recommandée. Et lorsque la charge de travail a les lettres « vm » dans le nom, la **Performance** PSL est recommandée.
+
+====
+Consultez également l'article de la base de connaissances https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/Performance_Service_Level'_is_not_adaptive_to_a_highly_variable_workload["ActiveIQ Unified Manager « attribuer le niveau de service de performances recommandé par le système » n'est pas adaptable à une charge de travail extrêmement variable"]

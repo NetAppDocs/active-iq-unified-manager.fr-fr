@@ -1,0 +1,41 @@
+---
+permalink: reporting/task_create_report_to_view_volumes_with_default_export_policy.html 
+sidebar: sidebar 
+keywords: create, report, view, volumes, default, export, policy 
+summary: 'Vous pouvez créer un rapport pour rechercher les volumes qui utilisent la stratégie d"exportation par défaut.' 
+---
+= Création d'un rapport pour afficher les volumes qui utilisent l'export policy par défaut
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez créer un rapport pour rechercher les volumes qui utilisent la stratégie d'exportation par défaut.
+
+*Ce dont vous aurez besoin*
+
+* Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+
+
+Procédez comme suit pour créer une vue personnalisée pour les volumes qui utilisent la règle d'exportation par défaut, puis planifier la génération d'un rapport pour cette vue.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage* > *NFS Shares*.
+. Sélectionnez *Afficher/Masquer* pour supprimer les colonnes que vous ne souhaitez pas inclure dans le rapport.
+. Faites glisser la colonne « politique d'exportation » près de la colonne « Volume ».
+. Cliquez sur l'icône de filtre, ajoutez le filtre suivant, puis cliquez sur *appliquer le filtre* :
++
+** Export policy contient la valeur par défaut
+
+
+. Enregistrez la vue avec un nom spécifique qui reflète ce que la vue affiche, par exemple « volumes avec une règle d'exportation par défaut » et cliquez sur la coche (image:../media/blue_check.gif[""]).
+. Cliquez sur le bouton *Rapports planifiés* sur la page d'inventaire.
+. Cliquez sur *Ajouter un programme* pour ajouter une nouvelle ligne à la page programmes de rapports afin de définir les caractéristiques de planification du nouveau rapport.
+. Entrez un nom pour le planning du rapport et remplissez les autres champs du rapport, puis cliquez sur la coche (image:../media/blue_check.gif[""]) à la fin du rang.
++
+Le rapport est envoyé immédiatement sous forme de test. Ensuite, le rapport génère et est envoyé par e-mail aux destinataires répertoriés à l'aide de la fréquence spécifiée.
+
+
+
+En fonction des résultats affichés dans le rapport, vous pouvez vouloir configurer une règle d'exportation personnalisée.

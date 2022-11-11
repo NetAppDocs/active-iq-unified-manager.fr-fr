@@ -1,0 +1,24 @@
+---
+permalink: data-protection/task_view_job_details.html 
+sidebar: sidebar 
+keywords: view, job, details 
+summary: 'Après avoir démarré un travail, vous pouvez suivre sa progression à partir de la page Détails du travail et contrôler les tâches associées pour détecter d"éventuelles erreurs.' 
+---
+= Affichage des détails du travail
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Après avoir démarré un travail, vous pouvez suivre sa progression à partir de la page Détails du travail et contrôler les tâches associées pour détecter d'éventuelles erreurs.
+
+*Ce dont vous aurez besoin*
+
+Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *protection* > *travaux*.
+. Dans la page travaux, cliquez sur un nom de travail dans la colonne *Nom* pour afficher la liste des tâches associées au travail.
+. Cliquez sur une tâche pour afficher des informations supplémentaires dans le volet *Détails de la tâche* et dans le volet *messages de la tâche* à droite de la liste des tâches.
+

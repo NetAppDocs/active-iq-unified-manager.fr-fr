@@ -1,0 +1,55 @@
+---
+permalink: storage-mgmt/task_monitor_metrocluster_replication.html 
+sidebar: sidebar 
+keywords: monitor, metrocluster, replication 
+summary: 'Vous pouvez contrôler et diagnostiquer l"état de santé général des connexions logiques tout en symétrisant les données. Vous pouvez identifier les problèmes ou tout risque qui interrompt la mise en miroir des composants de cluster, tels que les agrégats, les nœuds et les machines virtuelles de stockage.' 
+---
+= Contrôle de la réplication MetroCluster
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez contrôler et diagnostiquer l'état de santé général des connexions logiques tout en symétrisant les données. Vous pouvez identifier les problèmes ou tout risque qui interrompt la mise en miroir des composants de cluster, tels que les agrégats, les nœuds et les machines virtuelles de stockage.
+
+Unified Manager utilise des alertes d'état du système pour surveiller l'état des composants et la connectivité dans la configuration MetroCluster.
+
+*Ce dont vous aurez besoin*
+
+Le cluster local et distant en configuration MetroCluster doivent être ajoutés à Unified Manager
+
+
+
+== Affichage de la réplication pour les configurations MetroCluster sur IP
+
+Dans le cas des configurations MetroCluster sur IP, l'état de la réplication des données s'affiche dans la vue topologique des clusters protégés par MetroCluster sur IP à partir des vues suivantes du volet de navigation de Unified Manager gauche :
+
+* *Stockage* > *clusters* > *protection : vue MetroCluster*
+* *Protection* > *relations* > *relation : MetroCluster* vue
+
+
+Pour plus d'informations, reportez-vous à la section link:../storage-mgmt/task_monitor_metrocluster_configurations.html#monitor-connectivity-issues-in-metrocluster-over-ip["Surveiller les problèmes de connectivité dans MetroCluster sur IP"].
+
+
+
+== Affichage de la réplication pour les configurations MetroCluster sur FC
+
+Suivez ces étapes pour déterminer les éventuels problèmes dans la réplication des données pour la configuration MetroCluster over FC.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage* > *clusters*.
++
+La liste des clusters surveillés s'affiche.
+
+. Dans la vue *Santé : tous les clusters*, cliquez sur le nom du cluster pour lequel vous souhaitez afficher les détails de la réplication MetroCluster. Sur la page *Détails de cluster / Santé*, cliquez sur l'onglet *réplication MetroCluster*.
++
+La topologie de la configuration MetroCluster à répliquer est affichée sur le site local, dans la zone d'objets du cluster correspondante, avec les informations relatives au site distant où les données sont mises en miroir. Si vous déplacez le pointeur sur l'icône, vous pouvez afficher des informations détaillées sur l'événement généré.
+
+
+
+Vous pouvez utiliser les informations affichées dans pour corriger tout problème de réplication. Si vous détectez les problèmes de mise en miroir dans votre configuration MetroCluster, vous devez vous connecter à System Manager ou accéder à l'interface de ligne de commandes de ONTAP pour résoudre les problèmes.
+
+*Informations connexes*
+
+link:../health-checker/reference_health_cluster_details_page.html["Page Cluster / Health Details"]

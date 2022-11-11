@@ -1,0 +1,55 @@
+---
+permalink: api-automation/concept_manage_active_directory.html 
+sidebar: sidebar 
+keywords: manage, active, directory, mapping 
+summary: Vous pouvez utiliser les API répertoriées ici pour gérer les mappages Active Directory sur le SVM requis pour le provisionnement des partages CIFS sur les SVM. Les mappages de Active Directory doivent être configurés pour le mappage des SVM avec ONTAP. 
+---
+= Gestion du mappage Active Directory à l'aide d'API
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez utiliser les API répertoriées ici pour gérer les mappages Active Directory sur le SVM requis pour le provisionnement des partages CIFS sur les SVM. Les mappages de Active Directory doivent être configurés pour le mappage des SVM avec ONTAP.
+
+
+
+== Afficher les mappages d'Active Directory
+
+Vous pouvez afficher les détails de configuration des mappages Active Directory d'un SVM en utilisant la méthode suivante. Pour afficher les mappages d'Active Directory sur un SVM, vous devez saisir la clé SVM. Pour interroger les détails d'un mappage particulier, vous devez entrer la clé de mappage.
+
+[cols="3*"]
+|===
+| Catégorie | Verbe HTTP | Chemin 
+
+
+ a| 
+fournisseur de stockage
+ a| 
+OBTENEZ
+ a| 
+`/storage-provider/active-directories-mappings`
+
+`/storage-provider/active-directories-mappings/\{key}`
+
+|===
+
+
+== Ajouter un mappage Active Directory
+
+Vous pouvez créer des mappages Active Directory sur un SVM en utilisant la méthode suivante. Vous devez entrer les détails de mappage comme paramètres d'entrée.
+
+[cols="3*"]
+|===
+| Catégorie | Verbe HTTP | Chemin 
+
+
+ a| 
+fournisseur de stockage
+ a| 
+POST
+ a| 
+`/storage-provider/active-directories-mappings`
+
+|===

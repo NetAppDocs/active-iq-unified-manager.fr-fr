@@ -1,0 +1,47 @@
+---
+permalink: performance-checker/task_respond_to_performance_incident_caused_by_ha_takeover.html 
+sidebar: sidebar 
+keywords: dynamic, performance, event, ha, takeover 
+summary: 'Vous pouvez utiliser Unified Manager pour analyser un événement lié aux performances, causé par le traitement de données élevé sur un nœud de cluster dans une paire haute disponibilité. Vous pouvez également utiliser Unified Manager pour vérifier l"état de santé des nœuds afin de déterminer si des événements d"état récemment détectés sur les nœuds ont contribué à la réalisation de ces événements.' 
+---
+= Réponse à un événement de performances dynamiques provoqué par un basculement haute disponibilité
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez utiliser Unified Manager pour analyser un événement lié aux performances, causé par le traitement de données élevé sur un nœud de cluster dans une paire haute disponibilité. Vous pouvez également utiliser Unified Manager pour vérifier l'état de santé des nœuds afin de déterminer si des événements d'état récemment détectés sur les nœuds ont contribué à la réalisation de ces événements.
+
+*Ce dont vous aurez besoin*
+
+* Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
+* Il doit y avoir des événements de performances nouveaux, acquittés ou obsolètes.
+
+
+.Étapes
+. Affichez la page *Détails de l'événement* pour afficher des informations sur l'événement.
+. Lisez la *Description*, qui décrit les charges de travail impliquées dans l'événement et le composant de cluster en conflit.
++
+Un volume victime a été affecté par le composant du cluster dans le cadre de conflits. Le nœud de traitement des données, qui a repris tous les workloads depuis son nœud partenaire, est le composant de cluster en conflit. Sous composant en conflit, l'icône traitement des données est surlignée en rouge et le nom du nœud qui traitait le traitement des données au moment de l'événement est affiché entre parenthèses.
+
+. Dans *Description*, cliquez sur le nom du volume.
++
+La page Explorateur de volumes de performances s'affiche. En haut de la page, dans la ligne heure des événements, une icône d'événement de changement (image:../media/opm_change_icon.gif["Icône changer événement"]) Indique l'heure à laquelle Unified Manager a détecté le début de la prise de contrôle haute disponibilité.
+
+. Pointez votre curseur sur l'icône d'événement de modification pour le basculement haute disponibilité et des informations détaillées sur le basculement haute disponibilité s'affichent dans le texte du curseur de la souris.
++
+Dans le graphique latence, un événement indique que le volume sélectionné a dépassé le seuil de performances défini en raison d'une latence élevée tout au long du même temps que le basculement haute disponibilité.
+
+. Cliquez sur *Zoom View* pour afficher le graphique latence sur une nouvelle page.
+. Dans le menu Affichage, sélectionnez *composants de cluster* pour afficher la latence totale par composant de cluster.
+. Placez le curseur de la souris sur l'icône d'événement de modification correspondant au début de la prise de contrôle haute disponibilité et comparez la latence pour le traitement des données à la latence totale.
++
+Au moment du basculement haute disponibilité, le traitement des données a connu un pic d'activité suite à l'augmentation de la demande de charge de travail sur le nœud de traitement des données. La meilleure utilisation du CPU a déclenché la latence et a déclenché l'événement.
+
+. Une fois le nœud défaillant résolu, utilisez ONTAP System Manager pour effectuer un retour HA, qui déplace les workloads du nœud partenaire vers le nœud fixe.
+. Une fois le retour haute disponibilité terminé, après la prochaine découverte de configuration dans Unified Manager (environ 15 minutes), recherchez l'événement et la charge de travail déclenchés par le basculement haute disponibilité dans la page d'inventaire *Event Management*.
++
+L'événement déclenché par le basculement HA dispose désormais d'un état obsolète, ce qui indique que l'événement est résolu. La latence au niveau du composant de traitement des données a diminué, ce qui a réduit la latence totale. Le nœud utilisé par le volume sélectionné pour le traitement des données a résolu l'événement.
+
+

@@ -1,0 +1,102 @@
+---
+permalink: data-protection/reference_protection_storage_virtual_machine_associations_page.html 
+sidebar: sidebar 
+keywords: svm, association, page 
+summary: 'La page d"association des VM de stockage vous permet d"afficher les associations de VM de stockage existantes entre les VM de stockage source et cible.' 
+---
+= Présentation des associations d'ordinateurs virtuels de stockage
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Les associations de machines virtuelles de stockage sont mises en correspondance entre une machine virtuelle de stockage source et une machine virtuelle de stockage de destination utilisée par les applications partenaires pour la sélection des ressources et le provisionnement des volumes secondaires.
+
+Des associations sont créées entre une machine virtuelle de stockage source et une machine virtuelle de stockage de destination, que la machine virtuelle de stockage de destination soit une destination secondaire ou tertiaire. Vous ne pouvez pas utiliser une machine virtuelle de stockage de destination secondaire pour créer une association avec une machine virtuelle de stockage de destination tertiaire.
+
+En tant qu'administrateur d'applications ou administrateur de stockage, vous pouvez afficher les associations de machines virtuelles de stockage de votre environnement sur la page *protection* > *associations de machines virtuelles de stockage*.
+
+Vous pouvez associer des SVM de trois manières :
+
+* *Associer n'importe quelle machine virtuelle de stockage* : vous pouvez créer une association entre n'importe quelle machine virtuelle de stockage source primaire et un ou plusieurs SVM de destination. Cela signifie que tous les SVM existants qui nécessitent actuellement une protection, ainsi que tous les SVM créés à l'avenir, sont associés aux SVM de destination spécifiés. Par exemple, vous pouvez sauvegarder des applications de plusieurs sources situées à différents emplacements sur un ou plusieurs SVM de destination au sein d'un emplacement unique.
+* *Association d'une machine virtuelle de stockage* spécifique : vous pouvez créer une association entre une machine virtuelle de stockage source spécifique et un ou plusieurs SVM de destination spécifiques. Par exemple, si vous proposez des services de stockage à de nombreux clients dont les données doivent être séparées les uns des autres, vous pouvez choisir cette option pour associer une VM de stockage source spécifique à une VM de stockage de destination spécifique qui n'est attribuée qu'à ce client.
+* *Associer avec une machine virtuelle de stockage externe* : vous pouvez créer une association entre une machine virtuelle de stockage source et un volume flexible externe d'une machine virtuelle de stockage de destination.
+
+
+
+
+== Créer des associations de machines virtuelles de stockage
+
+L'assistant Create Storage Virtual machine associations permet aux applications de protection partenaires d'associer une machine virtuelle de stockage source à une machine virtuelle de stockage de destination pour les relations SnapMirror et SnapVault. Les applications partenaires utilisent ces associations au moment du provisionnement initial des volumes de destination pour déterminer les ressources à sélectionner.DD
+
+*Ce dont vous aurez besoin*
+
+* La machine virtuelle de stockage que vous associez doit déjà exister.
+* Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+
+
+Selon le type de relation et d'ordinateur virtuel de stockage source, il n'est possible de choisir qu'une seule machine virtuelle de stockage de destination sur chaque cluster de destination.
+
+La modification d'associations à l'aide des fonctions DELETE et create n'affecte que les opérations de provisioning futures. Les volumes de destination existants ne sont pas déplacés.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *protection* > *associations de machines virtuelles de stockage*.
+. Sur la page *Storage VM associations*, cliquez sur *Create*.
++
+L'assistant *Créer des associations de machines virtuelles de stockage* est lancé.
+
+. Sélectionnez l'une des sources suivantes :
++
+** *Tout*
++
+Sélectionnez cette option si vous souhaitez créer une association entre une source de VM de stockage primaire et une ou plusieurs VM de stockage de destination. Cela signifie que toutes les machines virtuelles de stockage existantes qui nécessitent actuellement une protection, ainsi que toute machine virtuelle de stockage créée à l'avenir, sont associées à la machine virtuelle de stockage de destination spécifiée. Vous pouvez, par exemple, vouloir des applications issues de plusieurs sources situées à différents emplacements sauvegardés sur une ou plusieurs machines virtuelles de stockage de destination sur un emplacement unique.
+
+** *Unique*
++
+Sélectionnez cette option si vous souhaitez sélectionner une VM de stockage source spécifique associée à une ou plusieurs machines virtuelles de stockage de destination. Par exemple, si vous proposez des services de stockage à de nombreux clients dont les données doivent être séparées les uns des autres, sélectionnez cette option pour associer une source de VM de stockage à une destination de VM de stockage spécifique affectée uniquement à ce client.
+
+** *Aucun (externe)*
++
+Sélectionnez cette option lorsque vous souhaitez créer une association entre un VM de stockage source et un volume flexible externe d'une VM de stockage de destination.
+
+
+
+. Sélectionnez un ou les deux types de relations de protection que vous souhaitez créer :
++
+** *SnapMirror*
+** *SnapVault*
+
+
+. Cliquez sur *Suivant*.
+. Sélectionnez une ou plusieurs destinations de protection VM de stockage.
+. Cliquez sur *Terminer*.
+
+
+
+
+== Supprimez les associations de VM de stockage
+
+Vous pouvez supprimer les associations de machines virtuelles de stockage des applications partenaires afin de supprimer la relation de provisionnement secondaire entre la machine virtuelle de stockage source et celle de destination. Par exemple, lorsque la machine virtuelle de stockage de destination est saturée, vous souhaitez créer de nouvelles associations de protection des machines virtuelles de stockage.
+
+*Ce dont vous aurez besoin*
+
+Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+
+Le bouton *Supprimer* est désactivé jusqu'à ce qu'au moins une association de VM de stockage soit sélectionnée. La modification d'associations à l'aide des fonctions DELETE et create affecte uniquement les opérations de provisioning futures ; elle ne déplace pas les volumes de destination existants.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *protection* > *associations de machines virtuelles de stockage*.
+. Sélectionnez au moins une association de VM de stockage.
++
+Le bouton *Supprimer* est activé.
+
+. Cliquez sur *Supprimer.*
++
+Une boîte de dialogue d'avertissement s'affiche.
+
+. Cliquez sur *Oui* pour continuer.
++
+L'association de VM de stockage sélectionnée est supprimée de la liste.
+
+

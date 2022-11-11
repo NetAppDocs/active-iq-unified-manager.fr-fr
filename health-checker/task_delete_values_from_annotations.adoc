@@ -1,0 +1,32 @@
+---
+permalink: health-checker/task_delete_values_from_annotations.html 
+sidebar: sidebar 
+keywords: delete, values, annotations 
+summary: 'Vous pouvez supprimer les valeurs associées aux annotations personnalisées lorsque cette valeur ne s"applique plus à l"annotation.' 
+---
+= Suppression de valeurs des annotations
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez supprimer les valeurs associées aux annotations personnalisées lorsque cette valeur ne s'applique plus à l'annotation.
+
+*Ce dont vous aurez besoin*
+
+* Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+* La valeur d'annotation ne doit pas être associée à des règles d'annotation ou à des règles de groupe.
+
+
+Vous ne pouvez pas supprimer de valeurs des annotations prédéfinies.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage Management* > *Annotations*.
+. Dans la liste des annotations de l'onglet *Annotations*, sélectionnez l'annotation à partir de laquelle vous souhaitez supprimer une valeur.
+. Dans la zone *valeurs* de l'onglet *Annotations*, sélectionnez la valeur à supprimer, puis cliquez sur *Supprimer*.
+. Dans la boîte de dialogue *Avertissement*, cliquez sur *Oui*.
++
+La valeur est supprimée et ne s'affiche plus dans la liste de valeurs pour l'annotation sélectionnée.
+
+

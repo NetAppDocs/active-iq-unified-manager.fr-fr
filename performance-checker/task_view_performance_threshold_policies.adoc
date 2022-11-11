@@ -1,0 +1,25 @@
+---
+permalink: performance-checker/task_view_performance_threshold_policies.html 
+sidebar: sidebar 
+keywords: view, performance, threshold, policies 
+summary: Vous pouvez afficher toutes les règles de seuils de performance actuellement définies à partir de la page seuils de performance. 
+---
+= Affichage des règles de seuils de performances
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez afficher toutes les règles de seuils de performance actuellement définies à partir de la page seuils de performance.
+
+La liste des stratégies de seuils est triée par ordre alphabétique par nom de la règle et comprend les stratégies de tous les types d'objets de stockage. Vous pouvez cliquer sur un en-tête de colonne pour trier les polices d'après cette colonne. Si vous recherchez une stratégie spécifique, utilisez les mécanismes de filtre et de recherche pour affiner la liste des stratégies de seuils qui s'affichent dans la liste de stocks.
+
+Vous pouvez placer le curseur sur le nom de la stratégie et le nom de la condition pour afficher les détails de configuration de la stratégie. En outre, vous pouvez utiliser les boutons fournis pour créer, cloner, modifier et supprimer des stratégies de seuil définies par l'utilisateur.
+
+.Étape
+. Dans le volet de navigation de gauche, sélectionnez *seuils d'événements* > *performances*.
++
+La page seuils de performance s'affiche.
+
+

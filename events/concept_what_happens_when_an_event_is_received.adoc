@@ -1,0 +1,28 @@
+---
+permalink: events/concept_what_happens_when_an_event_is_received.html 
+sidebar: sidebar 
+keywords: happens, when, event, received 
+summary: 'Lorsqu"Unified Manager reçoit un événement, celui-ci s"affiche sur la page Tableau de bord, dans la page d"inventaire de la gestion des événements, dans les onglets Summary et Explorer de la page Cluster/Performance, ainsi que dans la page d"inventaire spécifique à chaque objet (par exemple, la page d"inventaire volumes/Health).' 
+---
+= Que se passe-t-il lorsqu'un événement est reçu
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Lorsqu'Unified Manager reçoit un événement, celui-ci s'affiche sur la page Tableau de bord, dans la page d'inventaire de la gestion des événements, dans les onglets Summary et Explorer de la page Cluster/Performance, ainsi que dans la page d'inventaire spécifique à chaque objet (par exemple, la page d'inventaire volumes/Health).
+
+Lorsque Unified Manager détecte plusieurs occurrences continues de la même condition d'événement pour le même composant de cluster, il traite toutes les occurrences comme un événement unique et non comme des événements distincts. La durée de l'événement est incrémentée pour indiquer que l'événement est toujours actif.
+
+En fonction de la configuration des paramètres dans la page Configuration des alertes, vous pouvez avertir d'autres utilisateurs de ces événements. L'alerte entraîne le lancement des actions suivantes :
+
+* Un e-mail sur l'événement peut être envoyé à tous les utilisateurs d'Unified Manager Administrator.
+* L'événement peut être envoyé à d'autres destinataires de courrier électronique.
+* Une interruption SNMP peut être envoyée au récepteur d'interruption.
+* Un script personnalisé peut être exécuté pour exécuter une action.
+
+
+Ce flux de travail est présenté dans le schéma suivant.
+
+image::../media/um_perf_threshold_event_flow.gif[flux d'événement seuil perf. um]

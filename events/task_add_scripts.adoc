@@ -1,0 +1,76 @@
+---
+permalink: events/task_add_scripts.html 
+sidebar: sidebar 
+keywords: add, scripts 
+summary: 'Vous pouvez ajouter des scripts dans Unified Manager et les associer aux alertes. Ces scripts sont exécutés automatiquement lorsqu"une alerte est générée. Ils vous permettent d"obtenir des informations sur les objets de stockage pour lesquels l"événement est généré.' 
+---
+= Ajout de scripts
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez ajouter des scripts dans Unified Manager et les associer aux alertes. Ces scripts sont exécutés automatiquement lorsqu'une alerte est générée. Ils vous permettent d'obtenir des informations sur les objets de stockage pour lesquels l'événement est généré.
+
+*Ce dont vous aurez besoin*
+
+* Vous devez avoir créé et enregistré les scripts que vous souhaitez ajouter au serveur Unified Manager.
+* Les formats de fichiers pris en charge pour les scripts sont Perl, Shell, PowerShell, Python et `.bat` fichiers.
++
+|===
+| Plateforme sur laquelle Unified Manager est installé | Langues prises en charge 
+
+
+ a| 
+VMware
+ a| 
+Scripts Perl et Shell
+
+
+
+ a| 
+Linux
+ a| 
+Scripts Perl, Python et Shell
+
+
+
+ a| 
+Répertoires de base
+ a| 
+Scripts PowerShell, Perl, Python et .bat
+
+|===
++
+** Pour les scripts Perl, Perl doit être installé sur le serveur Unified Manager. Pour les installations VMware, Perl 5 est installé par défaut et les scripts ne prennent en charge que ce que Perl 5 prend en charge. Si Perl a été installé après Unified Manager, vous devez redémarrer le serveur Unified Manager.
+** Pour les scripts PowerShell, la stratégie d'exécution PowerShell appropriée doit être définie sur le serveur Windows afin que les scripts puissent être exécutés.
+
+
++
+[NOTE]
+====
+Si votre script crée des fichiers journaux pour suivre la progression du script d'alerte, vous devez vous assurer que les fichiers journaux ne sont pas créés à un endroit quelconque du dossier d'installation d'Unified Manager.
+
+====
+* Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+
+
+Vous pouvez télécharger des scripts personnalisés et collecter des informations détaillées sur l'alerte.
+
+[NOTE]
+====
+Si vous ne voyez pas cette fonctionnalité disponible dans l'interface utilisateur, c'est parce que la fonctionnalité a été désactivée par votre administrateur. Si nécessaire, vous pouvez activer cette fonctionnalité à partir de *Storage Management* > *Feature Settings*.
+
+====
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage Management* > *scripts*.
+. Dans la page *scripts*, cliquez sur *Ajouter*.
+. Dans la boîte de dialogue *Ajouter un script*, cliquez sur *Parcourir* pour sélectionner votre fichier de script.
+. Saisissez une description pour le script que vous sélectionnez.
+. Cliquez sur *Ajouter*.
+
+
+*Informations connexes*
+
+link:../config/task_enable_and_disable_ability_to_upload_scripts.html["Activation et désactivation de la capacité à télécharger des scripts"]

@@ -1,0 +1,20 @@
+---
+permalink: performance-checker/concept_when_would_i_use_workload_analyzer.html 
+sidebar: sidebar 
+keywords: workload analyzer, use 
+summary: 'Vous utilisez généralement l"analyseur de charge de travail pour résoudre un problème de latence signalé par un utilisateur, analyser plus précisément un événement ou une alerte signalé ou explorer une charge de travail qui fonctionne normalement.' 
+---
+= Quand utiliser l'analyseur de charge de travail
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous utilisez généralement l'analyseur de charge de travail pour résoudre un problème de latence signalé par un utilisateur, analyser plus précisément un événement ou une alerte signalé ou explorer une charge de travail qui fonctionne normalement.
+
+Au cas où les utilisateurs vous ont contactés pour dire que l'application qu'ils utilisent s'exécute très lentement, vous pouvez consulter les diagrammes de latence, de débit et d'utilisation pour la charge de travail sur laquelle l'application est en cours d'exécution afin de déterminer si le stockage est à l'origine du problème de performances. Vous pouvez également utiliser le tableau de capacité pour vérifier si la capacité est faible, car un système ONTAP dont la capacité est supérieure à 85 % utilisée peut entraîner des problèmes de performances. Ces graphiques vous aideront à déterminer si le problème est causé par le stockage ou par un problème de réseau ou autre.
+
+Si Unified Manager a généré un événement de performances et que vous souhaitez examiner plus en détail la cause du problème, vous pouvez lancer l'analyseur de charge de travail à partir de la page Détails de l'événement en cliquant sur le bouton *Analyze Workload* pour rechercher une partie de la latence, du débit, et les tendances de capacité pour la charge de travail.
+
+Si vous remarquez une charge de travail qui semble fonctionner normalement lors de la consultation d'une page d'inventaire des charges de travail (volume, LUN, charge de travail, partage NFS ou partage SMB/CIFS), vous pouvez cliquer sur l'icône plus image:../media/more_icon.gif[""], Puis *Analyze Workload* pour ouvrir la page analyse de charge de travail pour examiner la charge de travail plus en détail.

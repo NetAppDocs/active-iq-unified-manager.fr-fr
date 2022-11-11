@@ -1,0 +1,43 @@
+---
+permalink: reporting/task_create_report_to_view_aggregates_that_are_overcommitted.html 
+sidebar: sidebar 
+keywords: create, report, view, aggregates, overcommitted 
+summary: 'Vous pouvez créer un rapport pour analyser la capacité de stockage et l"utilisation des agrégats, et pour afficher les agrégats dont la surallocation est de l"exploitation.' 
+---
+= Création d'un rapport pour afficher les agrégats qui sont surengagés
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez créer un rapport pour analyser la capacité de stockage et l'utilisation des agrégats, et pour afficher les agrégats dont la surallocation est de l'exploitation.
+
+*Ce dont vous aurez besoin*
+
+* Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+
+
+Procédez comme suit pour créer une vue personnalisée affichant les agrégats dépassant le seuil dépassé, puis planifiez la génération d'un rapport pour cette vue.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage* > *Aggregates*.
+. Dans le menu Affichage, sélectionnez *capacité* > *tous les agrégats*.
+. Sélectionnez *Afficher/Masquer* pour supprimer les colonnes que vous ne souhaitez pas inclure dans le rapport.
+. Faites glisser la colonne « % de capacité excédentaire » près de la colonne « agrégat ».
+. Cliquez sur l'icône de filtre, ajoutez les filtres suivants, puis cliquez sur *appliquer le filtre* :
++
+** Le pourcentage de capacité excédentaire est supérieur à 100 %
+
+
+. Cliquez sur le haut de la colonne « % de capacité excédentaire » pour trier les résultats par pourcentage de capacité.
+. Enregistrez la vue avec un nom spécifique qui reflète ce que la vue affiche, par exemple, « agrégats surengagés », puis cliquez sur la coche (image:../media/blue_check.gif[""]).
+. Cliquez sur le bouton *Rapports planifiés* sur la page d'inventaire.
+. Cliquez sur *Ajouter un calendrier* pour ajouter une nouvelle ligne à la page programmes de rapports afin de définir les caractéristiques de planification du nouveau rapport.
+. Entrez un nom pour le planning du rapport et remplissez les autres champs du rapport, puis cliquez sur la coche (image:../media/blue_check.gif[""]) à la fin du rang.
++
+Le rapport est envoyé immédiatement sous forme de test. Ensuite, le rapport génère et est envoyé par e-mail aux destinataires répertoriés à l'aide de la fréquence spécifiée.
+
+
+
+En fonction des résultats présentés dans ce rapport, vous pouvez ajouter de la capacité aux agrégats ou déplacer des données depuis certains agrégats.

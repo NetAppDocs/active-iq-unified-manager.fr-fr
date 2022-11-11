@@ -1,0 +1,61 @@
+---
+permalink: data-protection/task_create_snapvault_protection_relationship.html 
+sidebar: sidebar 
+keywords: create, snapvault, protection, relationship, health, volumes view 
+summary: 'Vous pouvez utiliser la vue Santé : tous les volumes pour créer des relations SnapVault pour un ou plusieurs volumes sur une même VM de stockage afin de permettre la sauvegarde des données à des fins de protection.' 
+---
+= Création d'une relation de protection SnapVault depuis la vue Santé : tous les volumes
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez utiliser la vue Santé : tous les volumes pour créer des relations SnapVault pour un ou plusieurs volumes sur une même VM de stockage afin de permettre la sauvegarde des données à des fins de protection.
+
+*Ce dont vous aurez besoin*
+
+* Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+* Vous devez avoir configuré Workflow Automation.
+
+
+Le menu *Protect* ne s'affiche pas dans les cas suivants :
+
+* Si les paramètres RBAC n'autorisent pas cette action : par exemple, si vous disposez uniquement des privilèges d'opérateur
+* Lorsque l'ID du volume est inconnu : par exemple, lorsque vous avez une relation intercluster et que le cluster destination n'a pas encore été découvert
+
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage* > *volumes*.
+. Dans la vue *Santé : tous les volumes*, sélectionnez un volume à protéger et cliquez sur *protéger*.
++
+Sinon, pour créer plusieurs relations de protection sur la même machine virtuelle de stockage (SVM), sélectionnez un ou plusieurs volumes dans la vue Santé : tous les volumes, puis cliquez sur *protéger* dans la barre d'outils.
+
+. Sélectionnez *SnapVault* dans le menu.
++
+La boîte de dialogue configurer la protection s'ouvre.
+
+. Cliquez sur *SnapVault* pour afficher l'onglet *SnapVault* et configurer les informations relatives au volume secondaire.
+. Cliquez sur *Advanced* pour définir la déduplication, la compression, la croissance automatique et la garantie d'espace selon les besoins, puis cliquez sur *Apply*.
+. Renseignez la zone *destination information* et la zone *Relationship Settings* de l'onglet *SnapVault*.
+. Cliquez sur *appliquer*.
++
+Vous êtes renvoyé à la vue Santé: Tous les volumes.
+
+. Cliquez sur le lien du travail de configuration de la protection en haut de la vue *Santé : tous les volumes*.
++
+Si vous créez une seule relation de protection, la page Détails du travail s'affiche. Cependant, si vous créez plusieurs relations de protection, une liste filtrée de tous les travaux associés à l'opération de protection s'affiche.
+
+. Effectuez l'une des opérations suivantes :
++
+** Si vous n'avez qu'un seul travail, cliquez sur *Actualiser* pour mettre à jour la liste des tâches et les détails des tâches associés à la tâche de configuration de protection et déterminer quand la tâche est terminée.
+** Si vous avez plusieurs travaux :
++
+... Cliquez sur un travail dans la liste des travaux.
+... Cliquez sur *Actualiser* pour mettre à jour la liste des tâches et les détails des tâches associés à la tâche de configuration de protection et déterminer quand la tâche est terminée.
+... Utilisez le bouton *Retour* pour revenir à la liste filtrée et afficher un autre travail.
+
+
+
+
+

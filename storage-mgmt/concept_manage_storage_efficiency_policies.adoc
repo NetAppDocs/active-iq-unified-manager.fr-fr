@@ -1,0 +1,85 @@
+---
+permalink: storage-mgmt/concept_manage_storage_efficiency_policies.html 
+sidebar: sidebar 
+keywords: manage, storage, efficiency, policies, guidelines, create, custom 
+summary: 'Une stratégie d"efficacité du stockage (SEP) vous permet de définir les caractéristiques d"efficacité du stockage d"une charge de travail. Vous pouvez affecter un SEP à une charge de travail lors de la création initiale de la charge de travail ou ultérieurement en modifiant la charge de travail.' 
+---
+= Gestion des règles d'efficacité du stockage
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Une stratégie d'efficacité du stockage (SEP) vous permet de définir les caractéristiques d'efficacité du stockage d'une charge de travail. Vous pouvez affecter un SEP à une charge de travail lors de la création initiale de la charge de travail ou ultérieurement en modifiant la charge de travail.
+
+L'efficacité du stockage comprend plusieurs technologies, telles que le provisionnement fin, la déduplication et la compression des données, qui augmentent l'utilisation du stockage et diminuent les coûts du stockage. Lors de la création de PPE, vous pouvez utiliser ces technologies de gain d'espace, individuellement ou conjointement, pour obtenir une efficacité de stockage maximale. Lorsque vous associez les règles à vos charges de travail de stockage, les paramètres de règles spécifiés leur sont affectés. Unified Manager vous permet d'attribuer des PPE définies par le système et par l'utilisateur afin d'optimiser les ressources de stockage de votre centre de données.
+
+Unified Manager fournit deux PPE définies par le système : haute et basse. Ces PPE sont applicables à la plupart des charges de travail de stockage d'un centre de données. Toutefois, vous pouvez créer vos propres politiques si les PPE définies par le système ne répondent pas à vos exigences.
+
+Vous ne pouvez pas modifier un SEP défini par le système ou actuellement affecté à une charge de travail. Vous ne pouvez pas supprimer un SEP affecté à une charge de travail, ou s'il s'agit du seul SEP disponible.
+
+La page règles d'efficacité du stockage répertorie les PPE disponibles et vous permet d'ajouter, de modifier et de supprimer des PPE personnalisées. Cette page affiche les informations suivantes :
+
+|===
+| Champ | Description 
+
+
+ a| 
+Nom
+ a| 
+Nom du SEP.
+
+
+
+ a| 
+Type
+ a| 
+Indique si la règle est définie par le système ou par l'utilisateur.
+
+
+
+ a| 
+Réserve d'espace
+ a| 
+Indique si le volume a un provisionnement fin ou non fin.
+
+
+
+ a| 
+Déduplication
+ a| 
+Si la déduplication est activée sur la charge de travail :
+
+* À la volée : la déduplication a lieu lors de l'écriture sur la charge de travail
+* Arrière-plan : la déduplication a lieu dans la charge de travail
+* Désactiver : la déduplication est désactivée sur la charge de travail
+
+
+
+
+ a| 
+Compression
+ a| 
+Si la compression des données est activée sur la charge de travail :
+
+* À la volée : la compression des données a lieu lors de l'écriture sur la charge de travail
+* Arrière-plan : la compression des données a lieu dans la charge de travail
+* Désactiver : la compression des données est désactivée sur la charge de travail
+
+
+
+
+ a| 
+Charges de travail
+ a| 
+Nombre de charges de travail de stockage attribuées au SEP
+
+|===
+
+
+== Instructions de création d'une stratégie d'efficacité du stockage personnalisée
+
+Si les PPE existantes ne répondent pas aux exigences de la politique pour vos charges de travail de stockage, vous pouvez créer une SEP personnalisée. Toutefois, il est recommandé d'utiliser les PPE définies par le système pour vos charges de travail de stockage et de créer uniquement des PPE personnalisées si nécessaire.
+
+Vous pouvez afficher le SEP affecté aux charges de travail dans la page toutes les charges de travail et dans la page Détails du volume / intégrité. Vous pouvez afficher le taux de réduction des données au niveau du cluster en fonction de ces fonctionnalités d'efficacité du stockage dans le panneau capacité du tableau de bord et dans la vue capacité : tous les clusters.

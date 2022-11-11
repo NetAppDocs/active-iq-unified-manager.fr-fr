@@ -1,0 +1,31 @@
+---
+permalink: data-protection/task_remove_protection_relationship.html 
+sidebar: sidebar 
+keywords: remove, protection, relationship, volume, relationships page 
+summary: 'Dans la page relations de volume, vous pouvez supprimer une relation de protection pour supprimer définitivement une relation existante entre la source et la destination sélectionnées : par exemple, lorsque vous souhaitez créer une relation à l"aide d"une destination différente. Cette opération supprime toutes les métadonnées et ne peut pas être annulée.' 
+---
+= Suppression d'une relation de protection de la page relations de volume
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Dans la page relations de volume, vous pouvez supprimer une relation de protection pour supprimer définitivement une relation existante entre la source et la destination sélectionnées : par exemple, lorsque vous souhaitez créer une relation à l'aide d'une destination différente. Cette opération supprime toutes les métadonnées et ne peut pas être annulée.
+
+*Ce dont vous aurez besoin*
+
+* Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+* Vous devez avoir configuré Workflow Automation.
+
+
+.Étapes
+. Dans la page *Volume relations*, sélectionnez un ou plusieurs volumes avec des relations de protection que vous souhaitez supprimer et, dans la barre d'outils, cliquez sur *Remove*.
++
+La boîte de dialogue Supprimer la relation s'affiche.
+
+. Cliquez sur *Continuer* pour supprimer la relation.
++
+La relation est supprimée de la page relations de volume.
+
+

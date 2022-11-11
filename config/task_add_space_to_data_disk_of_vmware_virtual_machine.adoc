@@ -1,0 +1,34 @@
+---
+permalink: config/task_add_space_to_data_disk_of_vmware_virtual_machine.html 
+sidebar: sidebar 
+keywords: add, space, data, disk, vmware, virtual, machine 
+summary: 'Si vous devez augmenter la quantité d"espace sur le disque de données de la base de données Unified Manager, vous pouvez ajouter de la capacité après l"installation en augmentant l"espace disque à l"aide de la console de maintenance Unified Manager.' 
+---
+= Ajout d'espace au disque de données de la machine virtuelle VMware
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Si vous devez augmenter la quantité d'espace sur le disque de données de la base de données Unified Manager, vous pouvez ajouter de la capacité après l'installation en augmentant l'espace disque à l'aide de la console de maintenance Unified Manager.
+
+*Ce dont vous aurez besoin*
+
+* Vous devez avoir accès au client vSphere.
+* Aucun snapshot ne doit être stocké localement sur la machine virtuelle.
+* Vous devez disposer des informations d'identification de l'utilisateur de maintenance.
+
+
+Nous vous recommandons de sauvegarder votre machine virtuelle avant d'augmenter la taille des disques virtuels.
+
+.Étapes
+. Dans le client vSphere, sélectionnez la machine virtuelle Unified Manager, puis ajoutez de la capacité de disque aux données `disk 3`. Pour plus de détails, consultez la documentation VMware.
++
+Dans de rares cas, le déploiement de Unified Manager utilise « disque dur 2 » pour le disque de données au lieu de « disque dur 3 ». Si cela s'est produit au cours de votre déploiement, vous augmentez l'espace disque le plus important. Le disque de données aura toujours plus d'espace que l'autre disque.
+
+. Dans le client vSphere, sélectionnez la machine virtuelle Unified Manager, puis sélectionnez l'onglet *Console*.
+. Cliquez sur dans la fenêtre de la console, puis connectez-vous à la console de maintenance à l'aide de votre nom d'utilisateur et de votre mot de passe.
+. Dans le Menu principal, entrez le numéro de l'option *Configuration du système*.
+. Dans le menu Configuration du système, entrez le numéro de l'option *augmenter la taille du disque de données*.
+

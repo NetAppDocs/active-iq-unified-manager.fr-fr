@@ -1,0 +1,23 @@
+---
+permalink: health-checker/concept_what_does_not_compliant_mean.html 
+sidebar: sidebar 
+keywords: not compliant, compliant 
+summary: 'Les clusters et les SVM (Storage Virtual machine) sont considérés comme non conformes lorsque l"un des critères de sécurité évalués avec les recommandations définies dans le guide NetApp de renforcement de la sécurité pour ONTAP 9 n"est pas respecté. Par ailleurs, un cluster est considéré comme non conforme lorsqu"un SVM n"est pas signalé comme étant non conforme.' 
+---
+= Que signifie pas conforme
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Les clusters et les SVM (Storage Virtual machine) sont considérés comme non conformes lorsque l'un des critères de sécurité évalués avec les recommandations définies dans le _guide NetApp de renforcement de la sécurité de la solution ONTAP 9_ n'est pas satisfait. Par ailleurs, un cluster est considéré comme non conforme lorsqu'un SVM n'est pas signalé comme étant non conforme.
+
+Les icônes d'état des cartes de sécurité ont la signification suivante par rapport à leur conformité :
+
+* image:../media/sev_normal_um60.png[""] - Le paramètre est configuré comme recommandé.
+* image:../media/sev_warning_um60.png[""] - Le paramètre n'est pas configuré comme recommandé.
+* image:../media/sev_information_um60.gif[""] - Soit la fonctionnalité n'est pas activée sur le cluster, soit le paramètre n'est pas configuré comme recommandé, mais ce paramètre ne contribue pas à la conformité de l'objet.
+
+
+Notez que l'état du chiffrement des volumes ne contribue pas à la conformité du cluster ou de la SVM.

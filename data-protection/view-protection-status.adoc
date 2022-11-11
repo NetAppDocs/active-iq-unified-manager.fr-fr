@@ -1,0 +1,97 @@
+---
+permalink: data-protection/view-protection-status.html 
+sidebar: sidebar 
+keywords: volume relationship, protection status, dashboard protection card, protection widget, lag, relationship health, healthy relationship, lag threshold, relationship event, source cluster, snapmirror, snapshot 
+summary: La page protection des données présente une vue globale des informations de protection pour tous les volumes protégés de votre data Center. 
+---
+= Affichage de l'état de protection du volume
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+La page protection des données présente une vue globale des détails de protection des données pour tous les volumes protégés d'un cluster unique, ou tous les clusters d'un data Center.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Dashboard*.
+. Selon que vous souhaitez afficher l'état de la protection des données pour tous les clusters surveillés ou pour un seul cluster, sélectionnez *tous les clusters* ou sélectionnez un cluster unique dans le menu déroulant.
+. Cliquez sur la flèche droite en haut du panneau protection des données. La page *Data protection* s'affiche.
+
+
+Selon que vous avez sélectionné un seul ou l'ensemble des clusters de votre data Center, cette page affiche l'état de protection des données des volumes protégés par les copies Snapshot ou les stratégies SnapMirror, ainsi que le nombre de volumes non protégés.
+
+Si vous sélectionnez un cluster dans la liste *Individual Cluster*, la protection Snapshot et l'état des relations SnapMirror des volumes protégés de ce cluster s'affichent.
+
+Cliquez sur les événements de cette page pour accéder à la page Détails de l'événement. Vous pouvez cliquer sur le lien *Afficher tout* pour afficher tous les événements de protection actifs dans la page d'inventaire gestion des événements. Vous pouvez positionner le curseur de la souris pour afficher les comptages et légendes respectifs. Vous pouvez cliquer sur :
+
+* Les graphiques à barres des volumes et volumes non protégés par les copies Snapshot permettent d'accéder à la page volumes et d'afficher les détails.
+* Les graphiques à barres permettant d'accéder à la page relations, où les détails sont filtrés par le groupe source.
+
+
+
+
+== Afficher l'état de protection des volumes protégés par des copies Snapshot
+
+*Présentation des copies Snapshot* : vue d'ensemble des volumes protégés par les copies Snapshot, par exemple :
+
+* Le nombre total de volumes protégés et non protégés par les copies Snapshot.
+* Nombre total de volumes qui utilisent ou dépassent l'espace de réserve pour les copies Snapshot.
+
+
+*Analyse des copies Snapshot* fournit les informations suivantes :
+
+* Événements individuels pour les copies Snapshot, y compris les événements survenus au cours des dernières 24 heures.
+* Tableau détaillé des volumes protégés et non protégés par les copies Snapshot.
+* Volumes utilisant, sans utiliser ni enfreindre la capacité de copie Snapshot réservée.
+* Répartition du nombre de volumes en termes de nombre de copies Snapshot.
+
+
+
+
+=== Points à noter pour les copies Snapshot
+
+* Pour comptabiliser les volumes protégés par des copies Snapshot, il convient d'envisager des volumes source et de destination.
+* Le nombre de copies Snapshot renvoyées correspond uniquement aux volumes en ligne et disponibles.
+* La plage de graphiques correspondant au nombre de copies Snapshot est dynamique. Il est généré en fonction du nombre de snapshots présents dans le cluster sélectionné.
+* Si vous envisagez de protéger un volume, la planification de la copie Snapshot du volume doit être activée.
+* La valeur de l'espace de réserve pour les copies Snapshot est importante pour afficher la quantité d'espace disque utilisée ou pour calculer l'espace pouvant être récupéré si une ou plusieurs copies Snapshot sont supprimées.
+
+
+
+
+== Affichez l'état de protection des relations SnapMirror
+
+*Présentation de SnapMirror* : présentation des volumes protégés par des règles SnapMirror, notamment :
+
+* Le nombre de volumes protégés par les règles SnapMirror respectives, comme les relations SnapMirror volume, la reprise après incident de stockage virtuel (SVM-DR) et leurs combinaisons.
+* Le nombre total de relations SnapMirror avec décalage par rapport à l'état de décalage (RPO).
+
+
+*SnapMirror Analysis* fournit les informations suivantes :
+
+* Événements individuels soulevés pour les relations SnapMirror, y compris les événements survenus au cours des dernières 24 heures
+* Le nombre de volumes protégés par chaque type de règle SnapMirror.
+* Nombre de relations protégées par les types de relation SnapMirror, tels que Asynchronous Mirror, Asynchronous Vault, Asynchronous MirrorVault, StricxtSync, SnapMirror Business Continuity (SMBC) Group et Sync.
+* Le nombre de relations saines et malsaines.
+* Répartition du nombre de relations de volume. Vous pouvez basculer les graphiques en fonction du temps et de l'état du décalage RPO.
+* Seuils de décalage pour la relation non gérée. Vous pouvez cliquer sur l'icône des paramètres (image:../media/Settings.PNG["Icône pour les paramètres de seuil de décalage"]) pour configurer les paramètres de seuil de décalage. Pour plus d'informations, voir link:../health-checker/task_configure_lag_threshold_settings_for_unmanaged_protection.html["Configuration des paramètres de seuil de décalage pour les relations de protection non gérées"].
+
+
+
+
+=== Points à noter pour les relations SnapMirror
+
+* Pour comptabiliser les relations SnapMirror, les volumes source, qui sont activés pour la lecture et l'écriture, sont comptés. Les volumes de destination et racine ne sont pas pris en compte.
+* Pour la relation SnapMirror, les événements sont affichés pour le cluster source.
+* Le nombre de relations SnapMirror inclut le nombre de volumes avec des sources et des destinations sur le même cluster ou sur des clusters différents.
+* La durée du décalage RPO dans la réplication de données repose sur la relation SnapMirror. L'état est classé comme `ok`, `warning`, ou `error`, en fonction du seuil de relation défini. Vous pouvez consulter l'état pour déterminer si les paramètres fonctionnent comme prévu ou si vous devez résoudre un problème.
+* Si un volume possède plusieurs relations SnapMirror, chaque type de relation est compté pour le décalage RPO.
+* Les relations de volume sont considérées comme malsaines en cas de problèmes de réplication des données entre la source et la destination, par exemple lorsque la relation est rompue.
+
+
+
+
+== Afficher les clusters protégés par une configuration MetroCluster
+
+Le panneau *MetroCluster protection* de la page *Data protection* affiche le nombre de clusters protégés ou non protégés par MetroCluster sur FC ou par la configuration IP de votre site. Cliquez sur les graphiques à barres de ce panneau pour accéder à la page clusters dans laquelle les détails du cluster sont filtrés en fonction des clusters protégés ou non protégés. Pour plus d'informations sur le contrôle de votre configuration MetroCluster, reportez-vous à la section link:../storage-mgmt/task_monitor_metrocluster_configurations.html["Contrôle des configurations MetroCluster"].

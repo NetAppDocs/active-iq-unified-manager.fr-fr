@@ -1,0 +1,22 @@
+---
+permalink: config/concept_api_gateway.html 
+sidebar: sidebar 
+keywords: api gateway 
+summary: 'La fonctionnalité de passerelle d"API permet à Active IQ Unified Manager de devenir un plan de contrôle unique depuis lequel vous pouvez gérer plusieurs clusters ONTAP sans se connecter individuellement.' 
+---
+= Activation de la passerelle API
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+La fonctionnalité de passerelle d'API permet à Active IQ Unified Manager de devenir un plan de contrôle unique depuis lequel vous pouvez gérer plusieurs clusters ONTAP sans se connecter individuellement.
+
+Vous pouvez activer cette fonctionnalité à partir des pages de configuration qui s'affichent lorsque vous vous connectez pour la première fois à Unified Manager. Vous pouvez également activer ou désactiver cette fonction à partir de *général* > *Paramètres de fonction* > *passerelle API*.
+
+Les API REST de Unified Manager sont différentes des API REST de ONTAP. Toutes les fonctionnalités des API REST de ONTAP ne peuvent pas être disponibles via les API REST de Unified Manager. Toutefois, si vous devez accéder aux API ONTAP pour gérer des fonctionnalités spécifiques qui ne sont pas exposées à Unified Manager, vous pouvez activer la fonctionnalité de passerelle d'API et exécuter les API ONTAP. La passerelle agit comme un proxy pour le tunnel des requêtes API en maintenant les demandes d'en-tête et de corps dans le même format que dans les API ONTAP. Vous pouvez utiliser vos identifiants Unified Manager et exécuter des API spécifiques pour accéder aux clusters ONTAP et les gérer sans passer par les identifiants individuels du cluster. Unified Manager constitue un point de gestion unique pour l'exécution des API dans les clusters ONTAP gérés par votre instance Unified Manager. La réponse renvoyée par les API est la même que la réponse renvoyée par les API REST respectives ONTAP exécutées directement depuis ONTAP.
+
+Une fois cette fonctionnalité activée, vous pouvez exécuter les API REST Unified Manager à partir de la catégorie *barre de menus* > *bouton aide* > *Documentation API* > *passerelle*. Vous pouvez également entrer le nom d'hôte ou l'adresse IP et l'URL pour accéder à la page de L'API REST au format `https://<hostname>/docs/api/`
+
+Pour plus d'informations sur les API, voir link:../api-automation/concept_get_started_with_um_apis.html["Mise en route des API REST de Active IQ Unified Manager"].

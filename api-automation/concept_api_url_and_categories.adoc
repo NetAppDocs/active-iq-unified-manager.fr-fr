@@ -1,0 +1,72 @@
+---
+permalink: api-automation/concept_api_url_and_categories.html 
+sidebar: sidebar 
+keywords: active iq, unified manager, api, access, categories 
+summary: 'Avec les API Active IQ Unified Manager, vous pouvez gérer et provisionner les objets de stockage dans votre environnement. Vous pouvez également accéder à l"interface utilisateur Web de Unified Manager pour effectuer certaines de ces fonctions.' 
+---
+= Accès et catégories à l'API Active IQ Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+:pp: &#43;&#43;
+
+
+[role="lead"]
+Avec les API Active IQ Unified Manager, vous pouvez gérer et provisionner les objets de stockage dans votre environnement. Vous pouvez également accéder à l'interface utilisateur Web de Unified Manager pour effectuer certaines de ces fonctions.
+
+
+
+== Construire une URL pour accéder directement aux API REST
+
+Vous pouvez accéder directement aux API REST via un langage de programmation comme Python, C#, C{pp}, JavaScript, et ainsi de suite. Entrez le nom d'hôte ou l'adresse IP et l'URL pour accéder aux API REST au format
+
++https://<hostname>/api+
+
+[NOTE]
+====
+Le port par défaut est 443. Vous pouvez configurer le port selon les besoins de votre environnement.
+
+====
+
+
+== Accès à la page de documentation en ligne de l'API
+
+Vous pouvez accéder à la page de contenu _API Documentation_ Reference fournie avec le produit pour afficher la documentation de l'API, ainsi que pour émettre manuellement un appel d'API (sur l'interface, par exemple, swagger). Vous pouvez accéder à cette documentation en cliquant sur *barre de menus* > *bouton aide* > *Documentation API*
+
+Vous pouvez également entrer le nom d'hôte ou l'adresse IP et l'URL pour accéder à la page API REST au format
+
++https://<hostname>/docs/api/+
+
+
+
+== Catégories
+
+Les appels API sont organisés en fonction des domaines ou des catégories. Pour localiser une API spécifique, cliquez sur la catégorie API applicable.
+
+Les API REST fournies avec Unified Manager vous permettent d'effectuer des fonctions d'administration, de surveillance et de provisionnement. Les API sont regroupées sous les catégories suivantes.
+
+* *datacenter*
++
+Cette catégorie contient les API qui vous aident dans la gestion du stockage de data Center et l'analytique à l'aide des outils, tels que Work Flow Automation et Ansible. Les API REST de cette catégorie fournissent des informations sur les clusters, les nœuds, les agrégats, les volumes, les LUN, partages de fichiers, espaces de noms et autres éléments de votre data center.
+
+* *serveur-gestion*
++
+Les API de la catégorie *management-Server* contiennent le `jobs, system,` et `events` Via les API. Les tâches sont planifiées pour une exécution asynchrone liée à la gestion des objets ou des charges de travail de stockage dans Unified Manager. Le `events` L'API renvoie les événements dans votre centre de données, et le `system` L'API renvoie les détails de l'instance Unified Manager.
+
+* *fournisseur de stockage*
++
+Cette catégorie contient toutes les API de provisionnement requises pour la gestion et le provisionnement des partages de fichiers, des LUN, des niveaux de service de performance et des règles d'efficacité du stockage. Les API vous permettent également de configurer des points d'accès, des répertoires actifs, ainsi que d'attribuer des niveaux de service de performance et des règles d'efficacité du stockage aux charges de travail de stockage.
+
+* *administration*
++
+Cette catégorie contient les API utilisées pour exécuter des tâches administratives, telles que la gestion des paramètres de sauvegarde, l'affichage des certificats de stockage de confiance pour les sources de données Unified Manager et la gestion des clusters ONTAP comme sources de données pour Unified Manager.
+
+* *passerelle*
++
+Unified Manager vous permet d'appeler des API REST ONTAP via les API dans la catégorie passerelle et de gérer les objets de stockage dans votre data Center.
+
+* *sécurité*
++
+Cette catégorie contient des API pour la gestion des utilisateurs de Unified Manager.
+
+

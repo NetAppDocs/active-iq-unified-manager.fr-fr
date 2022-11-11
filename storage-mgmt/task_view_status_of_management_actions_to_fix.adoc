@@ -1,0 +1,31 @@
+---
+permalink: storage-mgmt/task_view_status_of_management_actions_to_fix.html 
+sidebar: sidebar 
+keywords: view, status, management, actions, chosen, fix 
+summary: 'Vous pouvez afficher l"état de toutes les actions de gestion que vous avez choisies de corriger dans la page actions de gestion. La plupart des actions s"affichent, assez rapidement après l"envoi de la commande ONTAP par Unified Manager au cluster. Toutefois, certaines actions, telles que le déplacement d"un volume, peuvent prendre plus de temps.' 
+---
+= Affichage de l'état des actions de gestion que vous avez choisies pour corriger
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez afficher l'état de toutes les actions de gestion que vous avez choisies de corriger dans la page actions de gestion. La plupart des actions s'affichent sous la forme *terminé* assez rapidement après l'envoi de la commande ONTAP par Unified Manager au cluster. Toutefois, certaines actions, telles que le déplacement d'un volume, peuvent prendre plus de temps.
+
+Trois filtres sont disponibles sur la page actions de gestion :
+
+* *Terminé* affiche les deux actions de gestion qui ont abouti et celles qui ont échoué. *Les actions échoués* fournissent une raison pour l'échec afin que vous puissiez résoudre le problème manuellement.
+* *En cours* montre à la fois les actions de gestion qui sont mises en œuvre et celles qui sont prévues à mettre en œuvre.
+* *Recommandé* affiche toutes les actions de gestion actuellement actives pour tous les clusters surveillés.
+
+
+.Étapes
+. Cliquez sur *Management actions* dans le volet de navigation de gauche. Vous pouvez également cliquer sur image:../media/more_icon.gif[""] En haut du panneau *Management actions* du *Dashboard* et sélectionnez la vue que vous souhaitez voir.
++
+La page actions de gestion s'affiche.
+
+. Vous pouvez cliquer sur l'icône caret en regard de l'action de gestion dans le champ *Description* pour afficher les détails du problème et de la commande utilisée pour résoudre le problème.
+. Pour afficher les actions qui ont *échoué*, triez dans la colonne *État* de la vue *terminé*. Vous pouvez utiliser l'outil *Filter* pour ce même but.
+. Si vous souhaitez afficher plus d'informations sur une action de gestion ayant échoué ou si vous décidez de corriger une action de gestion recommandée, vous pouvez cliquer sur *Afficher le détail de l'événement* dans la zone développée après avoir cliqué sur l'icône caret en regard de l'action de gestion. Un bouton *Fix it* est disponible à partir de cette page.
+

@@ -1,0 +1,14 @@
+---
+permalink: performance-checker/concept_monitor_cluster_performance_from_dashboard.html 
+sidebar: sidebar 
+keywords: monitor, cluster, performance, dashboard 
+summary: 'Le tableau de bord Unified Manager propose quelques panneaux indiquant l"état de performance générale de tous les clusters contrôlés par cette instance de Unified Manager. Il vous permet d"évaluer les performances globales des clusters gérés et de noter, localiser et attribuer rapidement la résolution de tout événement spécifique identifié.' 
+---
+= Contrôle des performances du cluster depuis le tableau de bord
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Le tableau de bord Unified Manager propose quelques panneaux indiquant l'état de performance générale de tous les clusters contrôlés par cette instance de Unified Manager. Il vous permet d'évaluer les performances globales des clusters gérés et de noter, localiser et attribuer rapidement la résolution de tout événement spécifique identifié.

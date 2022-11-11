@@ -1,0 +1,23 @@
+---
+permalink: api-automation/concept_rest_api_versioning_in_unified_manager_apis.html 
+sidebar: sidebar 
+keywords: api, version, active iq, unified, manager 
+summary: 'Les URI de l"API REST dans Active IQ Unified Manager spécifie un numéro de version. Par exemple, /v2/data Center/svm/svm. Le numéro de version v2 dans /v2/Datacenter/svm/svm indique la version d"API utilisée dans une version spécifique. Le numéro de version minimise l"impact des modifications d"API sur le logiciel client en envoyant une réponse que le client peut traiter.' 
+---
+= Version de l'API dans Active IQ Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Les URI de l'API REST dans Active IQ Unified Manager spécifie un numéro de version. Par exemple : `/v2/datacenter/svm/svms.` Le numéro de version `v2` dans `/v2/datacenter/svm/svms` Indique la version de l'API utilisée dans une version spécifique. Le numéro de version minimise l'impact des modifications d'API sur le logiciel client en envoyant une réponse que le client peut traiter.
+
+La partie numérique de ce numéro de version est incrémentielle par rapport aux rejets. Les URI avec un numéro de version fournissent une interface cohérente qui maintient la rétrocompatibilité dans les versions futures. Vous trouverez également les mêmes API sans version, par exemple `/datacenter/svm/svms,` Qui indiquent les API de base sans version. Les API de base sont toujours la version la plus récente des API.
+
+[NOTE]
+====
+Dans le coin supérieur droit de votre interface swagger, vous pouvez sélectionner la version de l'API à utiliser. La version la plus élevée est sélectionnée par défaut. Il est recommandé d'utiliser la version la plus élevée d'une API particulière (par rapport au nombre entier incrémentiel) disponible dans votre instance Unified Manager.
+
+====
+Pour toutes les demandes, vous devez demander explicitement la version de l'API que vous souhaitez utiliser. Lorsque le numéro de version est spécifié, le service ne renvoie pas les éléments de réponse que votre application n'est pas conçue pour gérer. Dans les demandes REST, vous devez inclure le paramètre de version. Les versions précédentes des API sont finalement obsolètes après quelques versions. Dans cette version, le `v1` La version des API est obsolète.

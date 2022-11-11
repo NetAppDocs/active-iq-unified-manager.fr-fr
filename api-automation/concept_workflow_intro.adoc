@@ -1,0 +1,29 @@
+---
+permalink: api-automation/concept_workflow_intro.html 
+sidebar: sidebar 
+keywords: common, workflows, storage, management 
+summary: 'Les workflows courants fournissent aux développeurs d"applications client des exemples de la façon dont une application client peut appeler les API Active IQ Unified Manager pour exécuter des fonctions courantes de gestion du stockage. Cette section contient certains de ces exemples de flux de travail.' 
+---
+= Workflows API communs pour la gestion du stockage
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Les workflows courants fournissent aux développeurs d'applications client des exemples de la façon dont une application client peut appeler les API Active IQ Unified Manager pour exécuter des fonctions courantes de gestion du stockage. Cette section contient certains de ces exemples de flux de travail.
+
+Les flux de travail décrivent les quelques cas d'utilisation courants de gestion du stockage ainsi que des exemples de codes à utiliser. Chacune des tâches est décrite à l'aide d'un processus de workflow composé d'un ou de plusieurs appels API.
+
+
+
+== Présentation des appels API utilisés dans les workflows
+
+Vous pouvez consulter la page de documentation en ligne de votre instance Unified Manager qui comprend les détails de chaque appel d'API REST. Ce document ne répète pas les détails de la documentation en ligne. Chaque appel API utilisé dans les exemples de flux de travail de ce document comprend uniquement les informations dont vous avez besoin pour localiser l'appel sur la page de documentation. Après avoir localisé un appel API spécifique, vous pouvez vérifier les détails complets de l'appel, y compris les paramètres d'entrée, les formats de sortie, les codes d'état HTTP et le type de traitement de la demande.
+
+Les informations suivantes sont incluses pour chaque appel d'API au sein d'un flux de travail afin de localiser l'appel sur la page de documentation :
+
+* Catégorie : les appels API sont organisés sur la page de documentation en zones ou catégories liées aux fonctions. Pour localiser un appel API spécifique, faites défiler la page jusqu'en bas et cliquez sur la catégorie API applicable.
+* Verbe HTTP (appeler) : le verbe HTTP identifie l'action effectuée sur une ressource. Chaque appel d'API est exécuté via un seul verbe HTTP.
+* Chemin : le chemin détermine la ressource spécifique à laquelle l'action s'applique dans le cadre d'un appel. La chaîne de chemin d'accès est ajoutée à l'URL principale pour former l'URL complète identifiant la ressource.
+

@@ -1,0 +1,30 @@
+---
+permalink: health-checker/task_configure_windows_host_machine.html 
+sidebar: sidebar 
+keywords: netapp, snapshot copy, copies windows, configure, windows host machine 
+summary: 'Vous devez configurer votre serveur hôte Windows avant d"utiliser NetApp Snapshot pour sauvegarder et restaurer Active IQ Unified Manager. Pour démarrer l"initiateur iSCSI Microsoft sur une machine hôte Windows, tapez “iscsi” dans la barre de recherche et cliquez sur initiateur iSCSI.' 
+---
+= Configuration de l'ordinateur hôte Windows
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous devez configurer votre serveur hôte Windows avant d'utiliser NetApp Snapshot pour sauvegarder et restaurer Active IQ Unified Manager. Pour démarrer l'initiateur iSCSI Microsoft sur une machine hôte Windows, saisissez « iscsi » dans la barre de recherche et cliquez sur *iSCSI Initiator*.
+
+*Ce dont vous aurez besoin*
+
+Vous devez nettoyer toutes les configurations précédentes sur l'ordinateur hôte.
+
+Si vous essayez de démarrer l'initiateur iSCSI lors d'une nouvelle installation de Windows, vous êtes invité à confirmer et, à votre confirmation, la boîte de dialogue Propriétés iSCSI s'affiche. S'il s'agit d'une installation Windows existante, la boîte de dialogue Propriétés iSCSI s'affiche avec une cible inactive ou qui tente de se connecter. Vous devez donc vous assurer que toutes les configurations précédentes sur l'hôte Windows sont supprimées.
+
+.Étapes
+. Nettoyez toutes les configurations précédentes sur l'ordinateur hôte.
+. Découvrir le portail cible.
+. Connectez-vous au portail cible.
+. Connectez-vous via un chemins d'accès multiples au portail cible.
+. Découvrez les deux LIF.
+. Découvrez le LUN configuré sur l'ordinateur Windows en tant que périphérique.
+. Configurez la LUN découverte en tant que nouveau lecteur de volume dans Windows.
+

@@ -1,0 +1,179 @@
+---
+permalink: api-automation/concept_ontap_troubleshooting_workflow.html 
+sidebar: sidebar 
+keywords: troubleshoot, ontap, volumes, gateway, api 
+summary: Les API de passerelle servent de passerelle pour appeler les API ONTAP pour interroger les informations sur vos objets de stockage ONTAP et prendre les mesures correctives nécessaires pour résoudre les problèmes signalés. 
+---
+= Dépannage des volumes ONTAP à l'aide d'API de passerelle
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Les API de passerelle servent de passerelle pour appeler les API ONTAP pour interroger les informations sur vos objets de stockage ONTAP et prendre les mesures correctives nécessaires pour résoudre les problèmes signalés.
+
+Ce flux de travail prend un exemple d'utilisation dans lequel un événement est déclenché lorsqu'un volume ONTAP atteint presque sa capacité. Ce workflow explique également comment résoudre ce problème en invoquant une combinaison d'API REST Active IQ Unified Manager et ONTAP.
+
+[NOTE]
+====
+Avant d'exécuter les étapes du workflow, assurez-vous que :
+
+* Vous connaissez les API de passerelle et leur utilisation. Pour plus d'informations, reportez-vous à la section link:concept_gateway_apis.html["Accès aux API ONTAP via un accès proxy"].
+* Vous connaissez l'utilisation des API REST de ONTAP. Pour plus d'informations sur l'utilisation des API REST de ONTAP, reportez-vous à la sectionhttps://docs.netapp.com/us-en/ontap-automation/index.html["Documentation sur l'automatisation ONTAP"].
+* Vous êtes administrateur d'applications.
+* Le cluster sur lequel vous souhaitez exécuter les opérations d'API REST est pris en charge par ONTAP 9.5 ou version ultérieure et le cluster est ajouté à Unified Manager via HTTPS.
+
+
+====
+Le schéma suivant illustre chaque étape du workflow pour le dépannage des problèmes liés à l'utilisation de la capacité des volumes ONTAP.
+
+image::../media/api_gateway_ontap_workflow.gif[workflow ONTAP de la passerelle d'api]
+
+Ce workflow couvre les points d'invocation des API REST Unified Manager et ONTAP.
+
+. Noter le nom du volume provenant de l'événement afin de prévenir l'utilisation de la capacité du volume.
+. En utilisant le nom du volume comme valeur dans le paramètre name, interrogez le volume en exécutant l'API Unified Manager suivante.
++
+[cols="3*"]
+|===
+| Catégorie | Verbe HTTP | Chemin 
+
+
+ a| 
+data center
+ a| 
+OBTENEZ
+ a| 
+`/datacenter/storage/volumes`
+
+|===
+. Récupère l'UUID et l'UUID de volume du cluster à partir du résultat.
+. Dans l'interface utilisateur Web d'Unified Manager, accédez à *général* > *Paramètres de fonctionnalité* > *passerelle API* pour vérifier si la fonctionnalité passerelle API est activée. Sauf si elle est activée, les API de la catégorie passerelle ne sont pas disponibles pour que vous puissiez appeler. Activez la fonction si elle est désactivée.
+. Utilisez l'UUID de cluster pour exécuter l'API ONTAP /`storage/volumes/{uuid}` Via la passerelle API. La requête renvoie les détails du volume lorsque l'UUID du volume est transmis en tant que paramètre API.
++
+Pour exécuter les API ONTAP via la passerelle d'API, les identifiants Unified Manager sont transférés en interne à des fins d'authentification, et vous n'avez pas besoin d'exécuter une étape d'authentification supplémentaire pour l'accès individuel au cluster.
+
++
+[cols="3*"]
+|===
+| Catégorie | Verbe HTTP | Chemin 
+
+
+ a| 
+Unified Manager : passerelle
+
+ONTAP : stockage
+ a| 
+OBTENEZ
+ a| 
+API de passerelle : `/gateways/\{uuid}/\{path}`
+
+API ONTAP : `/storage/volumes/\{uuid}`
+
+|===
++
+[NOTE]
+====
+Dans /gateways/\{UUID}/\{path}, la valeur de \{UUID} doit être remplacée par l'UUID de cluster sur lequel l'opération DE REPOS doit être effectuée. \{path} doit être remplacé par l'URL REST ONTAP /stockage/volumes/\{UUID}.
+
+====
++
+L'URL ajoutée est : `/gateways/\{cluster_uuid}/storage/volumes/\{volume_uuid}`
+
++
+Lors de l'exécution de L'opération GET, l'URL générée est : `GEThttps://<hostname\>/api/gateways/<cluster_UUID\>/storage/volumes/\{volume_uuid\}`
+
++
+*Commande Curl exemple*
+
++
+[listing]
+----
+curl -X GET "https://<hostname>/api/gateways/1cd8a442-86d1-11e0-ae1c-9876567890123/storage/volumes/028baa66-41bd-11e9-81d5-00a0986138f7"
+-H "accept: application/hal+json" -H "Authorization: Basic <Base64EncodedCredentials>"
+----
+. À partir des résultats, déterminez la taille, l'utilisation et la mesure corrective à prendre. Dans ce flux de travail, la mesure corrective prise consiste à redimensionner le volume.
+. Utilisez l'UUID de cluster et exécutez l'API ONTAP suivante via la passerelle d'API pour redimensionner le volume. Pour plus d'informations sur les paramètres d'entrée de la passerelle et des API ONTAP, reportez-vous à l'étape 5.
++
+[cols="3*"]
+|===
+| Catégorie | Verbe HTTP | Chemin 
+
+
+ a| 
+Unified Manager : passerelle
+
+ONTAP : stockage
+ a| 
+CORRECTIF
+ a| 
+API de passerelle : `/gateways/\{uuid}/\{path}`
+
+API ONTAP : `/storage/volumes/\{uuid}`
+
+|===
++
+[NOTE]
+====
+En plus de l'UUID et de l'UUID de volume du cluster, vous devez saisir une valeur pour le paramètre size permettant le redimensionnement du volume. Assurez-vous de saisir la valeur _dans octets_. Par exemple, pour augmenter la taille d'un volume de 100 Go à 120 Go, entrez la valeur du paramètre size à la fin de la requête : `-d {\"size\": 128849018880}"`
+
+====
++
+*Commande Curl exemple*
+
++
+[listing]
+----
+curl -X PATCH "https://<hostname>/api/gateways/1cd8a442-86d1-11e0-ae1c-9876567890123/storage/volumes/028baa66-41bd-11e9-81d5-00a0986138f7" -H
+    "accept: application/hal+json" -H "Authorization: Basic <Base64EncodedCredentials>" -d
+    {\"size\": 128849018880}"
+----
++
+La sortie JSON renvoie un UUID de tâche.
+
+. Vérifiez si le travail a bien été exécuté à l'aide de l'UUID du travail. Utilisez l'UUID et l'UUID de cluster pour exécuter l'API ONTAP suivante via la passerelle d'API. Pour plus d'informations sur les paramètres d'entrée de la passerelle et des API ONTAP, reportez-vous à l'étape 5.
++
+[cols="3*"]
+|===
+| Catégorie | Verbe HTTP | Chemin 
+
+
+ a| 
+Unified Manager : passerelle
+
+ONTAP : cluster
+ a| 
+OBTENEZ
+ a| 
+API de passerelle : `/gateways/\{uuid}/\{path}`
+
+API ONTAP : `/cluster/jobs/\{uuid}`
+
+|===
++
+Les codes HTTP renvoyés sont les mêmes que les codes d'état HTTP de l'API REST ONTAP.
+
+. Exécutez l'API ONTAP suivante pour interroger les détails du volume redimensionné. Pour plus d'informations sur les paramètres d'entrée de la passerelle et des API ONTAP, reportez-vous à l'étape 5.
++
+[cols="3*"]
+|===
+| Catégorie | Verbe HTTP | Chemin 
+
+
+ a| 
+Unified Manager : passerelle
+
+ONTAP : stockage
+ a| 
+OBTENEZ
+ a| 
+API de passerelle : `/gateways/\{uuid}/\{path}`
+
+API ONTAP : `/storage/volumes/\{uuid}`
+
+|===
++
+La sortie affiche une taille de volume accrue de 120 Go.
+
+

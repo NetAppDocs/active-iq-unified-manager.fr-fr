@@ -1,0 +1,26 @@
+---
+permalink: health-checker/task_delete_group_rules.html 
+sidebar: sidebar 
+keywords: delete, group rules 
+summary: 'Vous pouvez supprimer une règle de groupe de Active IQ Unified Manager lorsque la règle de groupe n"est plus nécessaire.' 
+---
+= Suppression de règles de groupe
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez supprimer une règle de groupe de Active IQ Unified Manager lorsque la règle de groupe n'est plus nécessaire.
+
+*Ce dont vous aurez besoin*
+
+Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+
+Lorsqu'une règle de groupe est supprimée, les objets de stockage associés sont supprimés du groupe.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage Management* > *Groups*.
+. Dans l'onglet *règles de groupe*, sélectionnez la règle de groupe à supprimer, puis cliquez sur *Supprimer*.
+. Dans la boîte de dialogue *Avertissement*, confirmez la suppression en cliquant sur *Oui*.
+

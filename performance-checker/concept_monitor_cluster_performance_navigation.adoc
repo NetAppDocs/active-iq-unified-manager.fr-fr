@@ -1,0 +1,28 @@
+---
+permalink: performance-checker/concept_monitor_cluster_performance_navigation.html 
+sidebar: sidebar 
+keywords: monitor, cluster, performance, navigation 
+summary: 'Vous pouvez contrôler les performances de tous les clusters gérés par Unified Manager. La surveillance des clusters offre une vue d"ensemble des performances du cluster et des objets, et inclut la surveillance des événements de performance. Vous pouvez afficher les performances et les événements de haut niveau. Vous pouvez également étudier plus en détail les événements de performance et de performance du cluster et des objets.' 
+---
+= Contrôle la navigation sur les performances du cluster
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez contrôler les performances de tous les clusters gérés par Unified Manager. La surveillance des clusters offre une vue d'ensemble des performances du cluster et des objets, et inclut la surveillance des événements de performance. Vous pouvez afficher les performances et les événements de haut niveau. Vous pouvez également étudier plus en détail les événements de performance et de performance du cluster et des objets.
+
+Voici un exemple de nombreux chemins de navigation de performances de cluster possibles :
+
+. Dans le volet de navigation de gauche, cliquez sur *Storage* > *Aggregates*.
+. Pour afficher des informations sur les performances de ces agrégats, sélectionnez la vue performances : tous les agrégats.
+. Identifiez l'agrégat à examiner et cliquez sur son nom pour accéder à la page de l'explorateur de performances/agrégat.
+. Vous pouvez également sélectionner d'autres objets à comparer avec cet agrégat dans le menu Affichage et comparaison, puis ajouter un des objets au volet comparaison.
++
+Les statistiques des deux objets s'affichent dans les compteurs pour comparaison.
+
+. Dans le volet comparaison situé à droite de la page de l'Explorateur, cliquez sur *vue Zoom* dans l'un des diagrammes pour afficher des détails sur l'historique des performances de cet agrégat.
+
+
+image::../media/monitor_cluster_performance.png[contrôle des performances du cluster]

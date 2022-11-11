@@ -1,0 +1,16 @@
+---
+permalink: config/concept_configure_um_backup.html 
+sidebar: sidebar 
+keywords: configure, unified manager, backup 
+summary: 'Vous pouvez configurer la fonctionnalité de sauvegarde sur Unified Manager par le biais d"un ensemble d"étapes de configuration à effectuer sur les systèmes hôtes et sur via la console de maintenance.' 
+---
+= Configuration de la sauvegarde Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez configurer la fonctionnalité de sauvegarde sur Unified Manager par le biais d'un ensemble d'étapes de configuration à effectuer sur les systèmes hôtes et sur via la console de maintenance.
+
+Pour plus d'informations sur les étapes de configuration, reportez-vous à la section link:..//health-checker/concept_manage_backup_and_restore_operations.html["La gestion des opérations de sauvegarde et de restauration"].

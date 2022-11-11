@@ -1,0 +1,23 @@
+---
+permalink: storage-mgmt/task_view_active_events_from_notification_bell.html 
+sidebar: sidebar 
+keywords: view, active, events, notification, bell 
+summary: 'Le signal sonore des notifications dans la barre de menus permet d"afficher rapidement les événements actifs les plus importants suivis par Unified Manager.' 
+---
+= Affichage des événements actifs à partir du signal sonore de notification
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Le signal sonore de notification (image:../media/notification_bell.png[""]) Dans la barre de menus fournit un moyen rapide de visualiser les événements actifs les plus importants que Unified Manager effectue le suivi.
+
+La liste des événements actifs permet de visualiser le nombre total d'événements critiques, d'erreur, d'avertissement et de mise à niveau sur tous les clusters. Cette liste comprend les événements des 7 derniers jours et n'inclut pas les événements d'information. Vous pouvez cliquer sur un lien pour afficher la liste des événements qui vous intéressent le plus.
+
+Notez que lorsqu'un cluster est inaccessible, Unified Manager affiche ces informations sur cette page. Vous pouvez afficher des informations détaillées sur un cluster inaccessible en cliquant sur le bouton *Détails*. Cette action ouvre la page Détails de l'événement. Les problèmes de surveillance de l'échelle, tels que l'espace faible ou la RAM sur la station de gestion, sont également affichés sur cette page.
+
+.Étapes
+. Dans la barre de menus, cliquez sur image:../media/notification_bell.png[""].
+. Pour afficher les détails de l'un des événements actifs, cliquez sur le lien texte de l'événement, tel que « 2 Capacity » ou « 4 Performance ».
+

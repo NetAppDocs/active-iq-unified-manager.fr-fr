@@ -1,0 +1,39 @@
+---
+permalink: reporting/task_create_report_to_identify_space_with_thin_provisioning_disabled.html 
+sidebar: sidebar 
+keywords: volume, provision, disk, volume, thin-provisioning 
+summary: 'Lorsqu"un volume n"est pas à provisionnement fin, il occupe la totalité de l"espace sur le disque, comme défini lors de la création du volume. L"identification des volumes dont le provisionnement fin est désactivé vous permet de décider si vous souhaitez activer le provisionnement fin sur certains volumes.' 
+---
+= Création d'un rapport permettant d'identifier l'espace utilisé par les volumes dont l'allocation dynamique est désactivée
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Lorsqu'un volume n'est pas à provisionnement fin, il occupe la totalité de l'espace sur le disque, comme défini lors de la création du volume. L'identification des volumes dont le provisionnement fin est désactivé vous permet de décider si vous souhaitez activer le provisionnement fin sur certains volumes.
+
+*Ce dont vous aurez besoin*
+
+* Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+
+
+Suivez les étapes ci-dessous pour créer une vue personnalisée affichant les colonnes requises dans l'ordre correct, puis planifiez la génération d'un rapport pour cette vue.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage* > *volumes*.
+. Dans le menu Affichage, sélectionnez *capacité* > *tous les volumes*.
+. Sélectionnez *Afficher/Masquer* pour supprimer les colonnes que vous ne souhaitez pas inclure dans le rapport.
+. Glissez-déposez les colonnes « % de données utilisées » et « provisionnement fin » près de la colonne « capacité de données disponible ».
+. Cliquez sur l'icône de filtre, ajoutez le filtre suivant, *Thin Provisioned* est *No*, puis cliquez sur *Apply Filter*.
+. Cliquez sur le haut de la colonne « % de données utilisées » pour trier les résultats de sorte que les volumes dont le pourcentage est le plus élevé apparaissent en haut de la liste.
+. Enregistrez la vue avec un nom pour refléter ce que la vue est affichée, par exemple « vols no thin provisioning ».
+. Cliquez sur le bouton *Rapports planifiés* sur la page d'inventaire.
+. Cliquez sur *Ajouter un calendrier* pour ajouter une nouvelle ligne à la page *Rapports horaires* afin de définir les caractéristiques du nouveau rapport.
+. Entrez un nom pour le programme de rapport et complétez les autres champs de rapport, puis cliquez sur la coche (image:../media/blue_check.gif[""]) à la fin du rang.
++
+Le rapport est envoyé immédiatement sous forme de test. Ensuite, le rapport génère et est envoyé par e-mail aux destinataires répertoriés à l'aide de la fréquence spécifiée.
+
+
+
+En fonction des résultats présentés dans ce rapport, vous pouvez activer le provisionnement fin sur certains volumes.

@@ -1,0 +1,22 @@
+---
+permalink: reporting/concept_sample_custom_reports.html 
+sidebar: sidebar 
+keywords: sample, custom, reports 
+summary: 'Ces exemples de rapports personnalisés sont généralement utilisés pour vous aider à identifier les problèmes potentiels et à résoudre les problèmes potentiels avant qu"ils ne surviennent.' 
+---
+= Exemples de rapports personnalisés
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Ces exemples de rapports personnalisés sont généralement utilisés pour vous aider à identifier les problèmes potentiels et à résoudre les problèmes potentiels avant qu'ils ne surviennent.
+
+La liste des rapports de cette section n'est pas exhaustive et va s'accroître au fil du temps. Vous pouvez suggérer des rapports personnalisés à ajouter à cette section en fournissant des commentaires sur la documentation.
+
+[NOTE]
+====
+Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage pour gérer les rapports.
+
+====

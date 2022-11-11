@@ -1,0 +1,20 @@
+---
+permalink: health-checker/task_send_asup_to_technical_support.html 
+sidebar: sidebar 
+keywords: support bundle, web ui, maintenance console 
+summary: 'Vous devez envoyer un pack de support si le problème que vous rencontrez nécessite des diagnostics et des dépannages plus détaillés qu"un message AutoSupport. Vous pouvez envoyer un pack au support technique à l"aide de l"interface utilisateur Web et de la console de maintenance d"Unified Manager.' 
+---
+= Envoi d'un bundle via l'interface utilisateur Web et la console de maintenance
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous devez envoyer un pack de support si le problème que vous rencontrez nécessite des diagnostics et des dépannages plus détaillés qu'un message AutoSupport. Vous pouvez envoyer un pack au support technique à l'aide de l'interface utilisateur Web et de la console de maintenance d'Unified Manager.
+
+Unified Manager stocke un maximum de deux packs de support complets et trois packs de support légers à la fois.
+
+*Informations connexes*
+
+link:../config/reference_unified_manager_roles_and_capabilities.html["Fonctionnalités et rôles utilisateur de Unified Manager"]

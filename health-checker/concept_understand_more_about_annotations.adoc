@@ -1,0 +1,14 @@
+---
+permalink: health-checker/concept_understand_more_about_annotations.html 
+sidebar: sidebar 
+keywords: understand, annotations 
+summary: La compréhension des concepts liés aux annotations vous aide à gérer les événements liés aux objets de stockage de votre environnement. 
+---
+= En savoir plus sur les annotations
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+La compréhension des concepts liés aux annotations vous aide à gérer les événements liés aux objets de stockage de votre environnement.

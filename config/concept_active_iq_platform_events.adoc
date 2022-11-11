@@ -1,0 +1,20 @@
+---
+permalink: config/concept_active_iq_platform_events.html 
+sidebar: sidebar 
+keywords: feature settings, active iq, portal, events 
+summary: 'Vous pouvez indiquer si vous souhaitez activer ou désactiver les événements du portail Active IQ. Ce paramètre permet au portail Active IQ de détecter et d"afficher d"autres événements relatifs à la configuration du système, au câblage, etc. Cette option est activée par défaut.' 
+---
+= Activation des événements du portail Active IQ
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez indiquer si vous souhaitez activer ou désactiver les événements du portail Active IQ. Ce paramètre permet au portail Active IQ de détecter et d'afficher d'autres événements relatifs à la configuration du système, au câblage, etc. Cette option est activée par défaut.
+
+Lors de l'activation de cette fonctionnalité, Active IQ Unified Manager affiche les événements détectés par le portail Active IQ. Ces événements sont créés en exécutant un ensemble de règles par rapport aux messages AutoSupport générés à partir de tous les systèmes de stockage surveillés. Ces événements sont différents des autres événements Unified Manager et ils identifient les incidents et les risques liés à la configuration du système, au câblage, aux meilleures pratiques et aux problèmes de disponibilité.
+
+Vous pouvez choisir d'activer ou de désactiver cette fonction à partir de *général* > *Paramètres de fonction* > *événements de portail Active IQ*. Dans les sites sans accès réseau externe, vous devez télécharger manuellement les règles à partir de *Storage Management* > *Event Setup* > *Upload Rules*.
+
+Cette fonctionnalité est activée par défaut. La désactivation de cette fonctionnalité empêche la découverte ou l'affichage des événements Active IQ sur Unified Manager. Lorsque cette option est désactivée, l'activation de cette fonctionnalité permet à Unified Manager de recevoir les événements Active IQ sur un cluster à une heure prédéfinie de 00:15 pour le fuseau horaire du cluster.

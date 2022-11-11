@@ -1,0 +1,109 @@
+---
+permalink: reporting/reference_types_of_reports.html 
+sidebar: sidebar 
+keywords: types, reports 
+summary: 'Ce tableau fournit une liste complète des vues et des pages d"inventaire disponibles sous forme de rapports que vous pouvez personnaliser, télécharger et planifier.' 
+---
+= Types de rapports
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Ce tableau fournit une liste complète des vues et des pages d'inventaire disponibles sous forme de rapports que vous pouvez personnaliser, télécharger et planifier.
+
+
+
+== Rapports Active IQ Unified Manager
+
+[cols="2*"]
+|===
+| Type | Objet réseau ou de stockage 
+
+
+ a| 
+Puissance
+ a| 
+Clusters
+
+64 bits
+
+Volumes
+
+Qtrees
+
+
+
+ a| 
+Santé
+ a| 
+Clusters
+
+Nœuds
+
+64 bits
+
+Machines virtuelles de stockage
+
+Volumes
+
+Partages SMB/CIFS
+
+Partages NFS
+
+
+
+ a| 
+Performance
+ a| 
+Clusters
+
+Nœuds
+
+64 bits
+
+Machines virtuelles de stockage
+
+Volumes
+
+LUN
+
+Espaces de noms NVMe
+
+Interfaces réseau (LIFS)
+
+Ports
+
+
+
+ a| 
+Qualité de service
+ a| 
+Groupes de règles de QoS classiques
+
+Groupes de règles de QoS adaptative
+
+Groupes de règles de niveau de service de performance
+
+
+
+ a| 
+Relations de protection des volumes (disponibles à partir de la page volumes)
+ a| 
+Toutes les relations
+
+État du transfert du dernier mois
+
+Taux de transfert du dernier mois
+
+
+
+ a| 
+Sécurité
+ a| 
+Machines virtuelles de stockage
+
+Clusters
+
+|===

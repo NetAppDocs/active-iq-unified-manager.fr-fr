@@ -1,0 +1,96 @@
+---
+permalink: reporting/task_create_report_to_view_capacity.html 
+sidebar: sidebar 
+keywords: create, report, show, aggregate, capacity, table, chart 
+summary: Vous pouvez créer un rapport pour analyser la capacité dans un fichier Excel en utilisant les totaux additionnés et le format de graphique de colonnes en cluster. 
+---
+= Création d'un rapport pour afficher une table et un graphique de capacité d'agrégat
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez créer un rapport pour analyser la capacité dans un fichier Excel en utilisant les totaux additionnés et le format de graphique de colonnes en cluster.
+
+*Ce dont vous aurez besoin*
+
+* Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+
+
+Procédez comme suit pour ouvrir une vue Santé : tous les agrégats, télécharger la vue dans Excel, créer un graphique des capacités disponibles, télécharger le fichier Excel personnalisé et planifier le rapport final.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage* > *Aggregates*.
+. Sélectionnez *Rapports* > *Télécharger Excel*.
++
+image::../media/download_excel_menu.png[téléchargez le menu excel]
+
++
+Selon votre navigateur, vous devrez peut-être cliquer sur *OK* pour enregistrer le fichier.
+
+. Si nécessaire, cliquez sur *Activer la modification*.
+. Dans Excel, ouvrez le fichier téléchargé.
+. Créer une nouvelle feuille (image:../media/excel_new_sheet_icon.png[""]) après le `data` Et nommez-la *capacité totale des données*.
+. Ajoutez les colonnes suivantes dans la nouvelle feuille capacité totale des données :
++
+.. Capacité totale des données (Go)
+.. Capacité engagée (Go)
+.. Capacité de données utilisée (Go)
+.. Capacité de données disponible (Go)
+
+
+. Dans la première ligne de chaque colonne, entrez la formule suivante, en vous assurant qu'elle référence la feuille de données (data!) et référence les spécificateurs de colonne et de ligne corrects pour les données capturées (Total Data Capacity extrait les données de la colonne E, des lignes 2 à 20).
++
+.. =SUM(data!E$2:data!E$20)
+.. =SUM(data!F$2:data!F$50)
+.. =SUM(data!G$2:data!G$50)
+.. =SUM(data!H$2:data!H$50)
+
+
++
+La formule totalise chaque colonne en fonction des données actuelles.
+
+
+
+image::../media/capacitysums.png[capacitéque]
+
+. Sur la fiche de données, sélectionnez les colonnes *capacité totale de données (Go)* et *capacité engagée (Go)*.
+. Sélectionnez *tableaux recommandés* dans le menu *Insert* et sélectionnez le graphique *clustered Column*.
+. Cliquez avec le bouton droit de la souris sur le graphique et sélectionnez *déplacer le graphique* pour déplacer le graphique vers le `Total Data Capacity` feuille.
+. Les menus *Design* et *format*, disponibles lorsque le graphique est sélectionné, vous pouvez personnaliser l'apparence du graphique.
+. Lorsque vous êtes satisfait, enregistrez le fichier avec vos modifications. Ne modifiez pas le nom ou l'emplacement du fichier.
++
+image::../media/cluster_column_chart_2.png[tableau des colonnes du cluster 2]
+
+. Dans Unified Manager, sélectionnez *Rapports* > *Upload Excel*.
++
+[NOTE]
+====
+Assurez-vous que vous vous trouvez dans la même vue que celle où vous avez téléchargé le fichier Excel.
+
+====
+. Sélectionnez le fichier Excel que vous avez modifié.
+. Cliquez sur *Ouvrir*.
+. Cliquez sur *soumettre*.
++
+Une coche apparaît en regard de l'option de menu *Rapports* > *Télécharger Excel*.
+
++
+image::../media/upload_excel.png[télécharger excel]
+
+. Cliquez sur *Rapports planifiés*.
+. Cliquez sur *Ajouter un calendrier* pour ajouter une nouvelle ligne à la page programmes de rapports afin de définir les caractéristiques de planification du nouveau rapport.
++
+[NOTE]
+====
+Sélectionnez le format *XLSX* pour le rapport.
+
+====
+. Entrez un nom pour le planning du rapport et remplissez les autres champs du rapport, puis cliquez sur la coche (image:../media/blue_check.gif[""]) à la fin du rang.
++
+Le rapport est envoyé immédiatement sous forme de test. Ensuite, le rapport génère et est envoyé par e-mail aux destinataires répertoriés à l'aide de la fréquence spécifiée.
+
+
+
+Sur la base des résultats présentés dans ce rapport, vous voudrez peut-être étudier la meilleure façon d'utiliser la capacité disponible sur votre réseau.

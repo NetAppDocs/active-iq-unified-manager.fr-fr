@@ -1,0 +1,22 @@
+---
+permalink: install-windows/concept_browser_and_platform_requirements.html 
+sidebar: sidebar 
+keywords: supported, browsers 
+summary: 'Pour accéder à l"interface utilisateur Web de Unified Manager, utilisez un navigateur pris en charge.' 
+---
+= Navigateurs pris en charge
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Pour accéder à l'interface utilisateur Web de Unified Manager, utilisez un navigateur pris en charge.
+
+La matrice d'interopérabilité répertorie les versions de navigateur prises en charge.
+
+http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"]
+
+Pour tous les navigateurs, la désactivation des bloqueurs de fenêtres contextuelles garantit que les fonctions logicielles sont affichées correctement.
+
+Si vous prévoyez de configurer Unified Manager pour l'authentification SAML afin qu'un fournisseur d'identités puisse authentifier les utilisateurs, vous devez également consulter la liste des navigateurs pris en charge par le fournisseur d'identités.

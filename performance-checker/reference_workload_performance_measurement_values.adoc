@@ -1,0 +1,104 @@
+---
+permalink: performance-checker/reference_workload_performance_measurement_values.html 
+sidebar: sidebar 
+keywords: workload, performance, measurement, values 
+summary: 'Unified Manager mesure les performances des charges de travail sur un cluster en fonction des valeurs statistiques historiques et attendues, qui constituent la prévision de latence des valeurs des workloads. Il compare les valeurs statistiques réelles de la charge de travail à la prévision de latence pour déterminer si les performances de la charge de travail sont trop élevées ou trop faibles. Un workload qui n"exécute pas comme prévu entraîne un événement de performance dynamique à vous notifier.' 
+---
+= Valeurs de mesure des performances des charges de travail
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager mesure les performances des charges de travail sur un cluster en fonction des valeurs statistiques historiques et attendues, qui constituent la prévision de latence des valeurs des workloads. Il compare les valeurs statistiques réelles de la charge de travail à la prévision de latence pour déterminer si les performances de la charge de travail sont trop élevées ou trop faibles. Un workload qui n'exécute pas comme prévu entraîne un événement de performance dynamique à vous notifier.
+
+Dans l'illustration suivante, la valeur réelle, en rouge, représente les statistiques de performance réelles dans la période. La valeur réelle a dépassé le seuil de performance, qui correspond aux limites supérieures de la prévision de latence. Le pic est la valeur réelle la plus élevée dans la période. L'écart mesure le changement entre les valeurs attendues (la prévision) et les valeurs réelles, tandis que l'écart de crête indique le changement le plus important entre les valeurs attendues et les valeurs réelles.
+
+image::../media/opm_wrkld_perf_measurement_png.gif[Mesures des performances des charges de travail de Unified Manager]
+
+Le tableau suivant répertorie les valeurs de mesure des performances des workloads.
+
+|===
+| Mesure | Description 
+
+
+ a| 
+Activité
+ a| 
+Pourcentage de la limite de qualité de service utilisée par les workloads dans le groupe de règles.
+
+[NOTE]
+====
+Si Unified Manager détecte une modification au groupe de règles, par exemple l'ajout ou la suppression d'un volume ou la modification de la limite de QoS, les valeurs réelles et attendues peuvent dépasser 100 % de la limite définie. Si une valeur dépasse 100 % de la limite définie, elle s'affiche sous la forme de > 100 %. Si une valeur est inférieure à 1 % de la limite définie, elle s'affiche sous la forme <1 %.
+
+====
+
+
+ a| 
+Réel
+ a| 
+La valeur des performances mesurée à un moment spécifique pour une charge de travail donnée.
+
+
+
+ a| 
+Déviation
+ a| 
+Changement entre les valeurs attendues et les valeurs réelles. Il s'agit du rapport entre la valeur réelle moins la valeur attendue et la valeur supérieure de la plage attendue moins la valeur attendue.
+
+[NOTE]
+====
+Une valeur de déviation négative indique que la performance de la charge de travail est inférieure à la valeur attendue, tandis qu'une valeur de déviation positive indique que la performance de la charge de travail est supérieure à la valeur attendue.
+
+====
+
+
+ a| 
+Attendu
+ a| 
+Les valeurs attendues sont basées sur l'analyse des données historiques de performances pour une charge de travail donnée. Unified Manager analyse ces valeurs statistiques afin de déterminer la plage attendue (prévision de latence) de valeurs.
+
+
+
+ a| 
+Prévision de latence (plage prévue)
+ a| 
+La prévision de latence est une prévision des valeurs de performance supérieure et inférieure attendues. Pour la latence des workloads, les valeurs supérieures constituent le seuil de performance. Lorsque la valeur réelle franchit le seuil de performances, Unified Manager déclenche un événement de performance dynamique.
+
+
+
+ a| 
+Pic
+ a| 
+Valeur maximale mesurée sur une période de temps.
+
+
+
+ a| 
+Déviation de crête
+ a| 
+Valeur de déviation maximale mesurée sur une période de temps.
+
+
+
+ a| 
+Profondeur de la file d'attente
+ a| 
+Nombre de demandes d'E/S en attente du composant d'interconnexion.
+
+
+
+ a| 
+Du stockage
+ a| 
+Pour les composants de traitement de réseau, de traitement de données et d'agrégat, le pourcentage de temps d'activité requis pour mener à bien les opérations de la charge de travail sur une période donnée. Par exemple, le pourcentage de temps alloué aux composants de traitement réseau ou de traitement de données pour traiter une demande d'E/S ou à un agrégat pour répondre à une demande de lecture ou d'écriture.
+
+
+
+ a| 
+Débit d'écriture
+ a| 
+Débit en écriture, en mégaoctets par seconde (Mo/s), allant des charges de travail sur un cluster local au cluster partenaire dans une configuration MetroCluster.
+
+|===

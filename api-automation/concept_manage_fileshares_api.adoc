@@ -1,0 +1,109 @@
+---
+permalink: api-automation/concept_manage_fileshares_api.html 
+sidebar: sidebar 
+keywords: manage, file, share 
+summary: 'Vous pouvez utiliser l"API /Storage-Provider/file-share pour afficher, ajouter, modifier et supprimer les volumes de partage de fichiers CIFS et NFS dans votre environnement de data Center.' 
+---
+= Gestion des partages de fichiers à l'aide d'API
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez utiliser le `/storage-provider/file-shares` API pour afficher, ajouter, modifier et supprimer les volumes de partage de fichiers CIFS et NFS dans l'environnement de votre data Center.
+
+Avant de provisionner les volumes des partages de fichiers, assurez-vous que le SVM a été créé et provisionné avec les protocoles pris en charge. Si vous affectez des niveaux de service de performances (PSLs) ou des politiques d'efficacité du stockage (PPE), pendant le provisioning, les PSLs ou PPE doivent être créés avant de créer les partages de fichiers.
+
+
+
+== Afficher les partages de fichiers
+
+Vous pouvez utiliser la méthode suivante pour afficher les volumes de partage de fichiers disponibles dans votre environnement Unified Manager. Lorsque vous avez ajouté un cluster ONTAP en tant que source de données sur Active IQ Unified Manager, les charges de travail de stockage de ces clusters sont automatiquement ajoutées à votre instance Unified Manager. Cette API récupère les partages de fichiers automatiquement et ajoutés manuellement à votre instance Unified Manager. Vous pouvez afficher les détails d'un partage de fichiers spécifique en exécutant cette API avec la clé de partage de fichiers.
+
+[cols="3*"]
+|===
+| Catégorie | Verbe HTTP | Chemin 
+
+
+ a| 
+fournisseur de stockage
+ a| 
+OBTENEZ
+ a| 
+`/storage-provider/file-shares`
+
+`/storage-provider/file-shares/\{key}`
+
+|===
+
+
+== Ajouter des partages de fichiers
+
+Vous pouvez utiliser la méthode suivante pour ajouter des partages de fichiers CIFS et NFS à votre SVM. Vous devez entrer les détails du partage de fichiers que vous souhaitez créer, en tant que paramètres d'entrée. Vous ne pouvez pas utiliser cette API pour ajouter des volumes FlexGroup.
+
+[cols="3*"]
+|===
+| Catégorie | Verbe HTTP | Chemin 
+
+
+ a| 
+fournisseur de stockage
+ a| 
+POST
+ a| 
+`/storage-provider/file-shares`
+
+|===
+[NOTE]
+====
+Selon que les paramètres de la liste de contrôle d'accès (ACL) ou des paramètres de export policy sont fournis, les partages CIFS ou les partages de fichiers NFS sont créés. Si vous ne fournissez pas les valeurs des paramètres ACL, les partages CIFS ne sont pas créés et les partages NFS sont créés par défaut, fournissant ainsi un accès à tous.
+
+====
+*Création de volumes de protection des données* : lorsque vous ajoutez des partages de fichiers à votre SVM, le type de volume monté, par défaut, est `rw` (lecture-écriture). Pour créer des volumes DP (Data-protection), spécifiez `dp` comme valeur pour le `type` paramètre.
+
+
+
+== Supprimer des partages de fichiers
+
+Vous pouvez utiliser la méthode suivante pour supprimer un partage de fichiers spécifique. Vous devez saisir la clé de partage de fichiers comme paramètre d'entrée pour supprimer un partage de fichiers particulier.
+
+[cols="3*"]
+|===
+| Catégorie | Verbe HTTP | Chemin 
+
+
+ a| 
+fournisseur de stockage
+ a| 
+SUPPRIMER
+ a| 
+`/storage-provider/file-shares/\{key}`
+
+|===
+
+
+== Modifier les partages de fichiers
+
+Vous pouvez utiliser la méthode suivante pour modifier un partage de fichiers et mettre à jour ses propriétés.
+
+Vous devez fournir la clé de partage de fichiers pour modifier un partage de fichiers particulier. En outre, vous devez entrer la propriété que vous souhaitez mettre à jour, ainsi que sa valeur.
+
+[NOTE]
+====
+Notez que vous ne pouvez mettre à jour qu'une seule propriété à une seule invocation de cette API. Pour plusieurs mises à jour, vous devez exécuter cette API autant de fois.
+
+====
+[cols="3*"]
+|===
+| Catégorie | Verbe HTTP | Chemin 
+
+
+ a| 
+fournisseur de stockage
+ a| 
+CORRECTIF
+ a| 
+`/storage-provider/file-shares/\{key}`
+
+|===

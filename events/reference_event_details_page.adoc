@@ -1,0 +1,87 @@
+---
+permalink: events/reference_event_details_page.html 
+sidebar: sidebar 
+keywords: event, details, page 
+summary: 'Dans la page Détails des événements, vous pouvez afficher les détails d"un événement sélectionné, tels que la gravité d"événement, le niveau d"impact, la zone d"impact et la source d"événement. Vous pouvez également afficher des informations supplémentaires sur les résolutions possibles pour résoudre le problème.' 
+---
+= Page de détails de l'événement
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Dans la page Détails des événements, vous pouvez afficher les détails d'un événement sélectionné, tels que la gravité d'événement, le niveau d'impact, la zone d'impact et la source d'événement. Vous pouvez également afficher des informations supplémentaires sur les résolutions possibles pour résoudre le problème.
+
+* *Nom de l'événement*
++
+Nom de l'événement et heure de la dernière vue de l'événement.
+
++
+Pour les événements sans performances, alors que l'événement est à l'état Nouveau ou validé, les dernières informations affichées ne sont pas connues et sont donc masquées.
+
+* *Description de l'événement*
++
+Brève description de l'événement.
+
++
+Dans certains cas, une raison pour l'événement déclenché est fournie dans la description de l'événement.
+
+* *Composant en conflit*
++
+Pour les événements de performances dynamiques, cette section affiche les icônes qui représentent les composants logiques et physiques du cluster. Si un composant est en conflit, son icône est entourée et mise en surbrillance rouge.
+
++
+Voir _Cluster components et pourquoi ils peuvent être dans contention_ pour une description des composants qui sont affichés ici.
+
+
+
+Les sections informations sur les événements, diagnostic du système et actions suggérées sont décrites dans d'autres rubriques.
+
+
+
+== Boutons de commande
+
+Les boutons de commande permettent d'effectuer les tâches suivantes :
+
+* *Icône Notes*
++
+Permet d'ajouter ou de mettre à jour une note concernant l'événement et de consulter toutes les notes laissées par les autres utilisateurs.
+
+
+
+*Menu actions*
+
+* *Attribuer à moi*
++
+Vous affecte l'événement.
+
+* *Affecter à d'autres*
++
+Ouvre la boîte de dialogue attribuer un propriétaire qui permet d'affecter ou de réaffecter l'événement à d'autres utilisateurs.
+
++
+Lorsque vous attribuez un événement à un utilisateur, le nom de l'utilisateur et l'heure à laquelle l'événement a été affecté sont ajoutés dans la liste des événements pour les événements sélectionnés.
+
++
+Vous pouvez également annuler l'affectation d'événements en laissant le champ de propriété vide.
+
+* *Acknowledge*
++
+Acquitte les événements sélectionnés pour ne pas continuer à recevoir de notifications d'alerte répétées.
+
++
+Lorsque vous reconnaissez un événement, votre nom d'utilisateur et l'heure à laquelle vous avez reconnu l'événement sont ajoutés dans la liste des événements (acquittés par) pour les événements sélectionnés. Lorsque vous reconnaissez un événement, vous êtes responsable de la gestion de cet événement.
+
+* *Marquer comme résolu*
++
+Vous permet de changer l'état de l'événement en résolu.
+
++
+Lorsque vous résolvez un événement, votre nom d'utilisateur et l'heure à laquelle vous avez résolu l'événement sont ajoutés dans la liste des événements (résolus par) pour les événements sélectionnés. Après avoir pris les mesures correctives nécessaires à l'événement, vous devez marquer l'événement comme résolu.
+
+* *Ajouter alerte*
++
+Affiche la boîte de dialogue Ajouter une alerte qui vous permet d'ajouter une alerte pour l'événement sélectionné.
+
+

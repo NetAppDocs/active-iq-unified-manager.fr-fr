@@ -1,0 +1,29 @@
+---
+permalink: reporting/concept_understand_view_and_reports_relationship.html 
+sidebar: sidebar 
+keywords: understand, view, report, relationship 
+summary: 'Les pages d"affichage et d"inventaire deviennent des rapports lorsque vous les téléchargez ou les planifiez.' 
+---
+= Comprendre la relation de vue et de rapport
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Les pages d'affichage et d'inventaire deviennent des rapports lorsque vous les téléchargez ou les planifiez.
+
+Vous pouvez personnaliser et enregistrer les vues et les pages d'inventaire pour les réutiliser. La quasi-totalité des informations qu'il est possible d'afficher dans Unified Manager peuvent être enregistrées, réutilisées, personnalisées, planifiées et partagées sous la forme d'un rapport.
+
+Dans la liste déroulante de la vue, les éléments avec l'icône de suppression sont des vues personnalisées existantes que vous ou un autre utilisateur avez créées. Les éléments sans icône représentent les vues par défaut fournies par Unified Manager. Les vues par défaut ne peuvent pas être modifiées ni supprimées.
+
+[NOTE]
+====
+* Si vous supprimez une vue personnalisée de la liste, elle supprime également tous les fichiers Excel ou rapports planifiés qui utilisent cette vue.
+* Si vous modifiez une vue personnalisée, les rapports qui utilisent cette vue reflèteront la modification lors de la prochaine génération et envoi du rapport par e-mail, conformément à la planification du rapport. Lors de la modification des vues, assurez-vous que vos modifications fonctionnent avec les personnalisations Excel associées utilisées pour les rapports. Si nécessaire, vous pouvez mettre à jour le fichier Excel en le téléchargeant, en effectuant les modifications requises et en le téléchargeant comme une nouvelle personnalisation Excel pour la vue.
+
+
+====
+image::../media/view_drop_down_3.png[liste déroulante vue 3]
+
+Seuls les utilisateurs disposant du rôle Administrateur d'applications ou Administrateur de stockage peuvent voir l'icône de suppression, modifier ou supprimer une vue, ou modifier ou supprimer un rapport planifié.

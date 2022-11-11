@@ -1,0 +1,33 @@
+---
+permalink: performance-checker/task_view_node_iops_based_on_workloads_on_local_node.html 
+sidebar: sidebar 
+keywords: view, node, iops, workloads, reside, only, local node 
+summary: 'Le tableau des compteurs d"IOPS du nœud peut indiquer où les opérations ne passent que par le nœud local à l"aide d"une LIF réseau pour effectuer des opérations de lecture/écriture sur des volumes d"un nœud distant. Les diagrammes IOPS - “Total (local)” et “analyse (locale)” affichent les valeurs IOPS pour les données résidant dans des volumes locaux uniquement sur le nœud actuel.' 
+---
+= Affichage des IOPS du nœud en fonction des workloads qui ne résident que sur le nœud local
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Le tableau des compteurs d'IOPS du nœud peut indiquer où les opérations ne passent que par le nœud local à l'aide d'une LIF réseau pour effectuer des opérations de lecture/écriture sur des volumes d'un nœud distant. Les diagrammes IOPS - « Total (local) » et « panne (locale) » affichent les IOPS pour les données résidant dans des volumes locaux uniquement sur le nœud actuel.
+
+Les versions « locales » de ces diagrammes de compteur sont similaires aux graphiques des nœuds pour la capacité de performance et l'utilisation, car ils affichent également uniquement les statistiques des données résidant sur des volumes locaux.
+
+En comparant les versions « locales » de ces diagrammes de compteur aux versions totales régulières de ces diagrammes, vous pouvez voir s'il y a beaucoup de trafic passant par le noeud local pour accéder aux volumes sur le noeud distant. Ce cas peut entraîner des problèmes de performance, indiqué éventuellement par une utilisation élevée du nœud, si trop d'opérations passent par le nœud local pour atteindre un volume sur un nœud distant. Dans ce cas, vous pouvez déplacer un volume vers le nœud local ou créer une LIF sur le nœud distant où le trafic provenant des hôtes qui accèdent à ce volume peut être connecté.
+
+.Étapes
+. Dans la page *Performance/Node Explorer* de votre nœud sélectionné, dans le tableau IOPS, sélectionnez *Total* dans le menu déroulant.
++
+Le graphique IOPS - Total s'affiche.
+
+. Cliquez sur *Zoom View* pour afficher une version plus grande du graphique dans un nouvel onglet du navigateur.
+. Dans la page *Performance/Node Explorer*, dans le graphique IOPS, sélectionnez *Total (local)* dans le menu déroulant.
++
+Le graphique IOPS - Total (local) s'affiche.
+
+. Cliquez sur *Zoom View* pour afficher une version plus grande du graphique dans un nouvel onglet du navigateur.
+. Affichez les deux graphiques les uns à côté des autres et identifiez les zones où les valeurs d'IOPS semblent être assez différentes.
+. Déplacez le curseur de la souris sur ces zones pour comparer les IOPS locales et totales d'un point dans le temps spécifique.
+

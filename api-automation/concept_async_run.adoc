@@ -1,0 +1,53 @@
+---
+permalink: api-automation/concept_async_run.html 
+sidebar: sidebar 
+keywords: job, objects, asynchronous, processes 
+summary: 'Active IQ Unified Manager fournit l"API des travaux qui récupère des informations sur les travaux effectués lors de l"exécution d"autres API. Vous devez savoir comment le traitement asynchrone fonctionne à l"aide de l"objet travail.' 
+---
+= Processus asynchrones des objets de travail
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Active IQ Unified Manager offre la solution `jobs` API qui récupère des informations sur les travaux effectués lors de l'exécution d'autres API. Vous devez savoir comment le traitement asynchrone fonctionne à l'aide de l'objet travail.
+
+Certains appels API, en particulier ceux utilisés pour ajouter ou modifier des ressources, peuvent prendre plus de temps que d'autres appels. Unified Manager traite ces requêtes à long terme de manière asynchrone.
+
+
+
+== Demandes asynchrones décrites à l'aide de l'objet travail
+
+Après avoir effectué un appel API qui s'exécute de manière asynchrone, le code de réponse HTTP 202 indique que la demande a été validée et acceptée avec succès, mais pas encore terminée. La requête est traitée comme une tâche d'arrière-plan qui continue à s'exécuter après la réponse HTTP initiale au client. La réponse inclut l'objet Job qui fixe la requête, y compris son identifiant unique.
+
+
+
+== Interrogation de l'objet travail associé à une requête API
+
+L'objet travail renvoyé dans la réponse HTTP contient plusieurs propriétés. Vous pouvez interroger la propriété d'état pour déterminer si la demande a bien été effectuée. Un objet travail peut être dans l'un des États suivants :
+
+* `NORMAL`
+* `WARNING`
+* `PARTIAL_FAILURES`
+* `ERROR`
+
+
+Il existe deux techniques que vous pouvez utiliser lors de l'interrogation d'un objet travail pour détecter un état de terminal pour la tâche, succès ou échec :
+
+* Demande d'interrogation standard : l'état actuel du travail est renvoyé immédiatement.
+* Demande d'interrogation longue : lorsque l'état du travail passe à `NORMAL, ERROR,` ou `PARTIAL_FAILURES.`
+
+
+
+
+== Étapes d'une demande asynchrone
+
+Vous pouvez utiliser la procédure de haut niveau suivante pour effectuer un appel d'API asynchrone :
+
+. Lancez l'appel d'API asynchrone.
+. Recevoir une réponse HTTP 202 indiquant que la demande a été acceptée avec succès.
+. Extraire l'identifiant de l'objet travail du corps de réponse.
+. Dans une boucle, attendez que l'objet travail atteigne l'état du terminal `NORMAL, ERROR,` ou `PARTIAL_FAILURES.`
+. Vérifiez l'état du terminal du travail et récupérez le résultat du travail.
+

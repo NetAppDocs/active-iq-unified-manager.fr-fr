@@ -1,0 +1,51 @@
+---
+permalink: data-protection/task_abort_active_data_protection_transfer_from_health_volume.html 
+sidebar: sidebar 
+keywords: abort, active, data protection, transfer, volume health details page 
+summary: 'Vous pouvez annuler le transfert actif de protection des données lorsque vous souhaitez arrêter une réplication SnapMirror en cours. Vous pouvez également effacer le point de contrôle de redémarrage pour un transfert s"il ne s"agit pas d"un transfert de base. Vous pouvez annuler un transfert en cas de conflit avec une autre opération, par exemple un déplacement de volume.' 
+---
+= Abandon d'un transfert actif de protection des données à partir de la page Détails du volume/intégrité
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez annuler le transfert actif de protection des données lorsque vous souhaitez arrêter une réplication SnapMirror en cours. Vous pouvez également effacer le point de contrôle de redémarrage pour un transfert s'il ne s'agit pas d'un transfert de base. Vous pouvez annuler un transfert en cas de conflit avec une autre opération, par exemple un déplacement de volume.
+
+[NOTE]
+====
+Vous ne pouvez pas abandonner les relations de volumes protégées par le groupe de cohérence.
+
+====
+*Ce dont vous aurez besoin*
+
+* Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+* Vous devez avoir configuré Workflow Automation.
+
+
+L'action d'abandon ne s'affiche pas dans les cas suivants :
+
+* Si les paramètres RBAC n'autorisent pas cette action : par exemple, si vous disposez uniquement des privilèges d'opérateur
+* Lorsque l'ID du volume est inconnu : par exemple, lorsque vous avez une relation intercluster et que le cluster destination n'a pas encore été découvert
+
+
+Vous ne pouvez pas effacer le point de contrôle de redémarrage pour un transfert de ligne de base.
+
+.Étapes
+. Dans l'onglet *protection* de la page de détails *Volume / Santé*, cliquez avec le bouton droit de la souris sur la relation dans la vue topologique du transfert de données que vous souhaitez abandonner et sélectionnez *abandonner*.
++
+La boîte de dialogue abandonner le transfert s'affiche.
+
+. Si vous souhaitez effacer le point de contrôle de redémarrage pour un transfert qui n'est pas un transfert de base, sélectionnez *Effacer les points de contrôle*.
+. Cliquez sur *Continuer*.
++
+La boîte de dialogue abandonner le transfert est fermée, et l'état de l'opération d'abandon s'affiche en haut de la page Détails du volume / intégrité, ainsi qu'un lien vers les détails du travail.
+
+. *Facultatif:* cliquez sur le lien *Afficher les détails* pour accéder à la page *travail* pour plus de détails et pour afficher la progression du travail.
+. Cliquez sur chaque tâche pour afficher ses détails.
+. Cliquez sur la flèche Précédent de votre navigateur pour revenir à la page de détails *Volume / Santé*.
++
+L'opération d'abandon est terminée lorsque toutes les tâches ont réussi.
+
+

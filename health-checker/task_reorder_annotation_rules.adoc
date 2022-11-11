@@ -1,0 +1,30 @@
+---
+permalink: health-checker/task_reorder_annotation_rules.html 
+sidebar: sidebar 
+keywords: reorder, annotation rules 
+summary: 'Vous pouvez modifier l"ordre dans lequel Unified Manager applique des règles d"annotation aux objets de stockage. Les règles d"annotation sont appliquées de façon séquentielle aux objets de stockage en fonction de leur rang. Lorsque vous configurez une règle d"annotation, le rang est le moins. Toutefois, vous pouvez modifier le rang de la règle d"annotation en fonction de vos besoins.' 
+---
+= Réorganisation des règles d'annotation
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez modifier l'ordre dans lequel Unified Manager applique des règles d'annotation aux objets de stockage. Les règles d'annotation sont appliquées de façon séquentielle aux objets de stockage en fonction de leur rang. Lorsque vous configurez une règle d'annotation, le rang est le moins. Toutefois, vous pouvez modifier le rang de la règle d'annotation en fonction de vos besoins.
+
+*Ce dont vous aurez besoin*
+
+Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+
+Vous pouvez sélectionner une ou plusieurs lignes et effectuer de nombreuses opérations glisser-déposer pour modifier le rang des règles d'annotation. Cependant, vous devez enregistrer les modifications pour que la repriorisation s'affiche dans l'onglet règles des annotations.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage Management* > *Annotations*.
+. Dans l'onglet *règles d'annotation*, cliquez sur *Réordonner*.
+. Dans la boîte de dialogue *Réordonner la règle d'annotation*, faites glisser et déposez une ou plusieurs lignes pour réorganiser la séquence des règles d'annotation.
+. Cliquez sur *Enregistrer*.
++
+Vous devez enregistrer les modifications pour que la réorganisation s'affiche.
+
+

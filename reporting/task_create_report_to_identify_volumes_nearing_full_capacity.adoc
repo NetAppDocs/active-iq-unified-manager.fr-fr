@@ -1,0 +1,43 @@
+---
+permalink: reporting/task_create_report_to_identify_volumes_nearing_full_capacity.html 
+sidebar: sidebar 
+keywords: create, report, identify, volumes, full capacity, snapshot, autodelete, turned off 
+summary: 'Vous pouvez créer un rapport contenant la liste des volumes dont la capacité est proche de celle maximale avec la fonction de suppression automatique de l"instantané désactivée. Les résultats peuvent vous aider à identifier les volumes dans lesquels vous souhaitez configurer la suppression automatique des snapshots.' 
+---
+= Création d'un rapport pour identifier les volumes dont la suppression automatique de l'instantané est désactivée sur la capacité maximale
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez créer un rapport contenant la liste des volumes dont la capacité est proche de celle maximale avec la fonction de suppression automatique de l'instantané désactivée. Les résultats peuvent vous aider à identifier les volumes dans lesquels vous souhaitez configurer la suppression automatique des snapshots.
+
+*Ce dont vous aurez besoin*
+
+* Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+
+
+Suivez les étapes ci-dessous pour créer une vue personnalisée affichant les colonnes requises dans l'ordre correct, puis planifiez la génération d'un rapport pour cette vue.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage* > *volumes*.
+. Dans le menu Affichage, sélectionnez *capacité* > *tous les volumes*.
+. Sélectionnez *Afficher/Masquer* pour supprimer les colonnes que vous ne souhaitez pas inclure dans le rapport.
+. Faites glisser et déposez les colonnes "`napshot Autodelete'" et "Days to Full" près de la colonne "Available Data Capacity".
+. Cliquez sur l'icône de filtre, ajoutez les deux filtres suivants, puis cliquez sur *appliquer le filtre* :
++
+** Jours complets à moins de 30 jours
+** La suppression automatique de l'instantané est désactivée
+
+
+. Cliquez sur le haut de la colonne *jours à plein* pour que les volumes avec le moins de jours restants apparaissent en haut de la liste.
+. Enregistrez la vue avec un nom spécifique qui reflète ce que la vue montre, par exemple « vols proches capacité ».
+. Cliquez sur le bouton *Rapports planifiés* sur la page d'inventaire.
+. Entrez un nom pour le planning du rapport et remplissez les autres champs du rapport, puis cliquez sur la coche (image:../media/blue_check.gif[""]) à la fin du rang.
++
+Le rapport est envoyé immédiatement sous forme de test. Ensuite, le rapport génère et est envoyé par e-mail aux destinataires répertoriés à l'aide de la fréquence spécifiée.
+
+
+
+En fonction des résultats présentés dans le rapport, vous pouvez activer la suppression automatique des snapshots sur les volumes ou trouver un moyen d'augmenter l'espace disponible.

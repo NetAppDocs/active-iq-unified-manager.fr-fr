@@ -1,0 +1,43 @@
+---
+permalink: api-automation/concept_events_workflows.html 
+sidebar: sidebar 
+keywords: determine, issues, storage, objects, events 
+summary: 'Lorsqu"un objet de stockage de votre data Center franchit un seuil, vous obtenez une notification à propos de cet événement. À l"aide de cette notification, vous pouvez analyser le problème et prendre des mesures correctives en utilisant les API d"événements.' 
+---
+= Détermination des problèmes dans les objets de stockage à l'aide des API d'événements
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Lorsqu'un objet de stockage de votre data Center franchit un seuil, vous obtenez une notification à propos de cet événement. Grâce à cette notification, vous pouvez analyser le problème et prendre des mesures correctives en utilisant le `events` Via les API.
+
+Ce flux de travail utilise l'exemple d'un volume en tant qu'objet de ressource. Vous pouvez utiliser le `events` API pour récupérer la liste d'événements liés à un volume, analyser les problèmes critiques pour ce volume, puis prendre des mesures correctives pour résoudre le problème.
+
+image::../media/handling_event_related_issues_of_a_storage_object_flowchart.gif[gestion des problèmes liés aux événements d'un organigramme d'objet de stockage]
+
+Procédez comme suit afin de déterminer les problèmes rencontrés sur votre volume avant de prendre les mesures correctives qui s'imposent.
+
+.Étapes
+. Analysez les notifications d'événements Active IQ Unified Manager critiques pour les volumes de votre data Center.
+. Interroger tous les événements des volumes à l'aide des paramètres suivants dans l'API /management-Server/Events :
+`"*resource_type": "volume*"`
+`"*severity": "critical*"`
++
+[cols="3*"]
+|===
+| Catégorie | Verbe HTTP | Chemin 
+
+
+ a| 
+serveur-gestion
+ a| 
+OBTENEZ
+ a| 
+/serveur-gestion/événements
+
+|===
+. Affichez la sortie et analysez les problèmes des volumes spécifiques.
+. Effectuez les actions nécessaires en utilisant l'API REST ou l'interface utilisateur Web de Unified Manager pour résoudre les problèmes.
+

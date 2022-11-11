@@ -1,0 +1,38 @@
+---
+permalink: storage-mgmt/reference_issue_with_ldap_using_other_authentication_services.html 
+sidebar: sidebar 
+keywords: issue, addi, ldap, use, other, authentication, services 
+summary: 'Dépannage : problème d"ajout de LDAP à l"aide d"autres services d"authentification' 
+---
+= Problème d'ajout de LDAP à l'aide d'autres services d'authentification
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Lorsque vous sélectionnez autres comme service d'authentification, l'utilisateur et la classe d'objet de groupe conservent les valeurs du modèle précédemment sélectionné. Si le serveur LDAP n'utilise pas les mêmes valeurs, l'opération risque d'échouer.
+
+*Cause*
+
+Les utilisateurs ne sont pas configurés correctement dans OpenLDAP.
+
+* Action corrective*
+
+Vous pouvez résoudre manuellement ce problème en utilisant l'une des solutions suivantes.
+
+Si votre classe d'objet utilisateur LDAP et votre classe d'objet de groupe sont respectivement utilisateurs et groupes, effectuez les opérations suivantes :
+
+. Dans le volet de navigation de gauche, cliquez sur** général** > *authentification à distance*.
+. Dans le menu déroulant *Service d'authentification*, sélectionnez *Active Directory*, puis *autres*.
+. Complétez les champs de texte.
+
+
+Si votre classe d'objet utilisateur LDAP et votre classe d'objet de groupe sont posixAccount et posixGroup, respectivement, procédez comme suit :
+
+. Dans le volet de navigation de gauche, cliquez sur **général** > *authentification à distance*.
+. Dans le menu déroulant *Authentication Service*, sélectionnez *OpenLDAP*, puis *autres*.
+. Complétez les champs de texte.
+
+
+Si les deux premières solutions de contournement ne s'appliquent pas, appelez le `option-set` Et configurez `auth.ldap.userObjectClass` et `auth.ldap.groupObjectClass` options pour les valeurs correctes.

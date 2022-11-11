@@ -1,0 +1,66 @@
+---
+permalink: config/reference_additional_menu_options.html 
+sidebar: sidebar 
+keywords: additional menu, options 
+summary: 'Les options de menu suivantes vous permettent d"effectuer diverses tâches administratives sur le serveur Unified Manager.' 
+---
+= Options de menu supplémentaires
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Les options de menu suivantes vous permettent d'effectuer diverses tâches administratives sur le serveur Unified Manager.
+
+Les options de menu suivantes sont disponibles :
+
+* *Réinitialiser le certificat du serveur*
++
+Régénère le certificat du serveur HTTPS.
+
++
+Vous pouvez régénérer le certificat de serveur dans l'interface utilisateur graphique Unified Manager en cliquant sur *général* > *certificats HTTPS* > *régénérer le certificat HTTPS*.
+
+* *Désactiver l'authentification SAML*
++
+Désactive l'authentification SAML de sorte que le fournisseur d'identités ne fournit plus d'authentification d'identification pour les utilisateurs qui accèdent à l'interface graphique Unified Manager. Cette option console est généralement utilisée lorsqu'un problème de serveur IDP ou de configuration SAML empêche les utilisateurs d'accéder à l'interface graphique Unified Manager.
+
+* *Fournisseur de données externes*
++
+Fournit des options pour connecter Unified Manager à un fournisseur de données externe. Une fois la connexion établie, les données relatives aux performances sont envoyées à un serveur externe afin que les experts en performance du stockage puissent créer un diagramme des indicateurs de performances à l'aide d'un logiciel tiers. Les options suivantes sont affichées :
+
++
+** *Configuration du serveur d'affichage*--affiche les paramètres de connexion et de configuration actuels pour un fournisseur de données externe.
+** *Ajouter/Modifier la connexion au serveur*--permet de saisir de nouveaux paramètres de connexion pour un fournisseur de données externe ou de modifier les paramètres existants.
+** *Modifier la configuration du serveur*--permet de saisir de nouveaux paramètres de configuration pour un fournisseur de données externe ou de modifier les paramètres existants.
+** *Supprimer la connexion au serveur*--supprime la connexion à un fournisseur de données externe.
++
+Une fois la connexion supprimée, Unified Manager perd sa connexion au serveur externe.
+
+
+
+* *Restauration de sauvegarde*
++
+Pour plus d'informations, reportez-vous aux rubriques sous link:../health-checker/concept_manage_backup_and_restore_operations.html["La gestion des opérations de sauvegarde et de restauration"].
+
+* *Configuration de l'intervalle d'interrogation des performances*
++
+Fournit une option permettant de configurer la fréquence à laquelle Unified Manager collecte des données statistiques de performances à partir de clusters. L'intervalle de collecte par défaut est de 5 minutes.
+
++
+Vous pouvez modifier cet intervalle à 10 ou 15 minutes si vous constatez que les collections des grands groupes ne sont pas réalisées à temps.
+
+* *Afficher/Modifier les ports d'application*
++
+La fonctionnalité offre une option permettant de modifier les ports par défaut qu'Unified Manager utilise pour les protocoles HTTP et HTTPS, si nécessaire pour la sécurité. Les ports par défaut sont 80 pour HTTP et 443 pour HTTPS.
+
+* *Contrôler l'accès au port MySQL 3306*
++
+Contrôle l'accès de l'hôte au port MySQL par défaut 3306. Pour des raisons de sécurité, l'accès via ce port est limité à localhost uniquement lors d'une nouvelle installation de Unified Manager sur les systèmes Linux, Windows et VMware vSphere. Cette option vous permet de basculer la visibilité de ce port entre l'hôte local et les hôtes distants, c'est-à-dire si celui-ci est activé uniquement pour l'hôte local dans votre environnement, vous pouvez également rendre ce port disponible pour les hôtes distants. Sinon, lorsque cette option est activée pour tous les hôtes, vous pouvez limiter l'accès à ce port à localhost uniquement. Si l'accès était précédemment activé sur les hôtes distants, la configuration est conservée dans un scénario de mise à niveau.
+
+* *Quitter*
++
+Quitte le menu de la console de maintenance.
+
+

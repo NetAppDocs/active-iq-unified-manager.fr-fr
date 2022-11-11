@@ -1,0 +1,23 @@
+---
+permalink: reporting/task_search_to_refine_view.html 
+sidebar: sidebar 
+keywords: search, refine, view 
+summary: 'Une fois la vue souhaitée disponible, vous pouvez affiner les résultats à l"aide du champ de recherche pour mettre l"accent sur les résultats que vous souhaitez inclure dans le rapport.' 
+---
+= Utilisation de la fonction de recherche pour affiner votre vue
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Une fois la vue souhaitée disponible, vous pouvez affiner les résultats à l'aide du champ de recherche pour mettre l'accent sur les résultats que vous souhaitez inclure dans le rapport.
+
+.Étapes
+. Ouvrez la vue personnalisée ou par défaut que vous souhaitez utiliser comme base de votre rapport.
+. Saisissez le champ Rechercher pour affiner les données répertoriées dans la vue. Vous pouvez entrer des données partielles dans l'une des colonnes affichées. Par exemple, si vous souhaitez rechercher des nœuds qui incluent "US_East" dans le nom, vous pouvez affiner la liste complète des nœuds.
++
+Les résultats de votre recherche sont enregistrés dans la vue personnalisée et utilisés dans le rapport planifié résultant.
+
+. Nommez la vue non enregistrée pour enregistrer vos modifications.
+

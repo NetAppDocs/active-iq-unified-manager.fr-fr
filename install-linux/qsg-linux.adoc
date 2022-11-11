@@ -1,0 +1,69 @@
+---
+permalink: install-linux/qsg-linux.html 
+sidebar: sidebar 
+keywords: quick start guide, getting started, QSG, Linux QSG, RHEL QSG, quick installation 
+summary: Guide de démarrage rapide pour Unified Manager sur plate-forme Linux. 
+---
+= Instructions de démarrage rapide pour les installations Linux
+:allow-uri-read: 
+
+
+
+
+== Configuration minimale requise
+
+* Système d'exploitation : Red Hat Enterprise Linux version 7.x et 8.x ou CentOS version 7.x basé sur l'architecture x86_64, installé à l'aide de l'environnement de base "serveur avec interface utilisateur graphique" de l'option *Software Selection* du programme d'installation du système d'exploitation
+* RAM : 12 Go, CPU : 9572 MHz au total
+* Espace disque disponible : 100 Go d'espace disque dans le `/opt/netapp/data` Répertoire, 50 Go dans la partition racine. Pour montage séparé `/opt` et `/var/log` répertoires, assurez-vous que `/opt` Dispose de 15 Go, `/var/log` Possède 16 Go, et `/tmp` Dispose de 10 Go d'espace libre.
+
+
+Pour obtenir des informations détaillées sur la configuration système requise et sur l'installation du produit sur un site sécurisé, reportez-vous au link:../install-linux/concept_requirements_for_install_unified_manager.html["Conditions requises pour l'installation de Unified Manager"] et le link:http://mysupport.netapp.com/matrix["Matrice d'interopérabilité"].
+
+
+
+== Installation de Active IQ Unified Manager
+
+
+
+=== Téléchargez le programme d'installation
+
+. Téléchargez le `ActiveIQUnifiedManager-<version>.zip` package d'installation avec certificat de signature de code (`.pem`) et signature numérique (`.sig`) .
+. Dans le répertoire dans lequel vous avez téléchargé le fichier d'installation, exécutez :
++
+`# unzip ActiveIQUnifiedManager-<version>.zip`
+
+
+
+
+
+=== Vérification de l'intégrité
+
+Exécutez les commandes suivantes pour vérifier l'intégrité du package d'installation :
+
+* Courez `openssl x509 -pubkey -noout -in AIQUM-RHEL-CLIENT-INTER-ROOT.pem > <public_key_file_name>` pour créer un fichier avec la clé publique à partir du certificat de signature de code.
+* Courez `openssl dgst -sha256 -verify <public_key_file_name> -signature <signature_file_name> ActiveIQUnifiedManager-<version>.zip` pour vérifier la signature sur le package du programme d'installation.
+
+
+
+
+=== Vérifiez la configuration du référentiel
+
+Les procédures de configuration des référentiels Red Hat Enterprise Linux ou CentOS sont spécifiques au site. Vous pouvez utiliser le `pre_install_check.sh` script inclus dans le package d'installation pour vérifier la configuration de votre système d'exploitation. Si votre système est connecté à Internet, vous recevez automatiquement les instructions de configuration des référentiels Red Hat Enterprise Linux ou CentOS.
+
+`# sudo ./pre_install_check.sh`
+
+
+
+=== Installez Unified Manager
+
+Unified Manager utilise le `yum` utilitaire permettant d'installer le logiciel et tout logiciel dépendant. Étant donné qu'il existe différentes images de Red Hat Enterprise Linux ou CentOS, les packages installés dépendent du logiciel présent dans les images. Le `yum` utilitaire détermine les progiciels dépendants à installer. Si vous avez besoin de plus d'informations sur les progiciels dépendants, reportez-vous à la section link:../install-linux/reference_red_hat_and_centos_software_and_installation_requirements.html["Conditions requises pour l'installation et le logiciel Linux"].
+
+Pour installer Unified Manager, exécutez la commande suivante, soit en tant qu'utilisateur root, soit en utilisant `sudo`, dans le répertoire où le fichier d'installation a été décompressé :
+
+`# yum install netapp-um<version>.x86_64.rpm`
+
+ou
+
+`% sudo yum install netapp-um<version>.x86_64.rpm`
+
+À la fin de l'installation, les informations de connexion à l'interface utilisateur Web de Unified Manager sont affichées. Si vous ne parvenez pas à vous connecter à l'interface utilisateur Web, reportez-vous à la section `README` fichier fourni avec le logiciel pour plus d'informations sur les restrictions du port 443.

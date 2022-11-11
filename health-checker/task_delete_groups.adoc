@@ -1,0 +1,29 @@
+---
+permalink: health-checker/task_delete_groups.html 
+sidebar: sidebar 
+keywords: delete, groups 
+summary: 'Vous pouvez supprimer un groupe depuis Unified Manager lorsque ce dernier n"est plus nécessaire.' 
+---
+= Suppression de groupes
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez supprimer un groupe depuis Unified Manager lorsque ce dernier n'est plus nécessaire.
+
+*Ce dont vous aurez besoin*
+
+* Aucun des objets de stockage (clusters, SVM ou volumes) ne doit être associé à toute règle de groupe associée au groupe que vous souhaitez supprimer.
+* Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage Management* > *Groups*.
+. Dans l'onglet *groupes*, sélectionnez le groupe à supprimer, puis cliquez sur *Supprimer*.
+. Dans la boîte de dialogue *Avertissement*, confirmez la suppression en cliquant sur *Oui*.
++
+La suppression d'un groupe ne supprime pas les actions de groupe associées au groupe. Toutefois, ces actions de groupe seront démappées après la suppression du groupe.
+
+

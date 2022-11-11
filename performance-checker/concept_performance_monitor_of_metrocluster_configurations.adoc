@@ -1,0 +1,45 @@
+---
+permalink: performance-checker/concept_performance_monitor_of_metrocluster_configurations.html 
+sidebar: sidebar 
+keywords: performance, monitor, metrocluster, throughput 
+summary: 'Unified Manager vous permet de contrôler le débit d"écriture entre les clusters d"une configuration MetroCluster afin d"identifier les workloads dont le débit d"écriture est élevé. Si ces charges de travail hautes performances provoquent d"autres volumes du cluster local des temps de réponse d"E/S élevés, Unified Manager déclenche des événements de performance qui vous avertissent.' 
+---
+= Contrôle des performances des configurations MetroCluster
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager vous permet de contrôler le débit d'écriture entre les clusters d'une configuration MetroCluster afin d'identifier les workloads dont le débit d'écriture est élevé.
+
+Si ces charges de travail hautes performances provoquent d'autres volumes du cluster local des temps de réponse d'E/S élevés, Unified Manager déclenche des événements de performance qui vous avertissent.
+
+
+NOTE: Unified Manager traite les clusters dans une configuration MetroCluster comme des clusters individuels. Il ne fait aucune distinction entre les clusters qui sont des partenaires ou établit un lien entre le débit d'écriture de chaque cluster.
+
+Lorsqu'un cluster local d'une configuration MetroCluster met en miroir ses données vers son cluster partenaire, les données sont écrites sur la mémoire NVRAM, puis transférées sur les liens ISL vers les agrégats distants. Unified Manager analyse la mémoire NVRAM pour identifier les charges de travail dont le débit d'écriture élevé utilise la mémoire NVRAM, ce qui engendre des conflits.
+
+Les charges de travail dont la déviation dans le temps de réponse a dépassé le seuil de performance sont appelées _victimes_ et les charges de travail dont l'écart dans le débit d'écriture vers la NVRAM est plus élevé que d'habitude, entraînant la contention, sont appelées _bullies_. Seules les demandes d'écriture sont mises en miroir vers le cluster partenaire, Unified Manager n'analyse pas le débit de lecture.
+
+Vous pouvez afficher le débit de tous les clusters d'une configuration MetroCluster en analysant les charges de travail des LUN et volumes correspondants à partir des écrans suivants. Vous pouvez filtrer les résultats par cluster. Dans le volet de navigation de gauche :
+
+* *Stockage > clusters > Performance : vue tous les clusters*. Voir
+* *Stockage > volumes > performances : vue tous les volumes*.
+* *Stockage > LUN > performances : vue toutes les LUN*.
+* *Analyse de la charge de travail > toutes les charges de travail*
+
+
+*Informations connexes*
+
+link:../performance-checker/reference_performance_event_analysis_and_notification.html["Analyse et notification des événements de performance"]
+
+link:../performance-checker/concept_performance_incident_analysis_for_metrocluster_configuration.html["Analyse des événements de performances pour une configuration MetroCluster"]
+
+link:../performance-checker/concept_roles_of_workloads_involved_in_performance_incident.html["Rôles des charges de travail impliquées dans un événement de performance"]
+
+link:../performance-checker/task_identify_victim_workloads_involved_in_performance_event.html["L'identification des charges de travail victimes impliquées dans la mise en œuvre d'un événement de performance"]
+
+link:../performance-checker/task_identify_bully_workloads_involved_in_performance_event.html["L'identification des workloads dominants impliqués dans un événement de performance"]
+
+link:../performance-checker/task_identify_shark_workloads_involved_in_performance_event.html["L'identification des charges de travail Shark impliquées dans un événement de performance"]

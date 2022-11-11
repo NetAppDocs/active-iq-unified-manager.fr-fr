@@ -1,0 +1,49 @@
+---
+permalink: health-checker/reference_volume_compliance_categories.html 
+sidebar: sidebar 
+keywords: volume, encryption, compliance, categories 
+summary: Ce tableau décrit les paramètres de chiffrement de volume que Unified Manager évalue pour déterminer si les données de vos volumes sont correctement protégées contre tout accès par des utilisateurs non autorisés. 
+---
+= Catégories de conformité des volumes
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Ce tableau décrit les paramètres de chiffrement de volume que Unified Manager évalue pour déterminer si les données de vos volumes sont correctement protégées contre tout accès par des utilisateurs non autorisés.
+
+Notez que les paramètres de chiffrement de volume n'affectent pas la conformité du cluster ou de la machine virtuelle de stockage.
+
+[cols="2*"]
+|===
+| Paramètre | Description 
+
+
+ a| 
+Chiffrement logiciel
+ a| 
+Affiche le nombre de volumes protégés à l'aide des solutions logicielles de chiffrement NetApp Volume Encryption (NVE) ou NetApp Aggregate Encryption (NAE).
+
+
+
+ a| 
+Chiffrement matériel
+ a| 
+Affiche le nombre de volumes protégés à l'aide du chiffrement matériel NetApp Storage Encryption (NSE).
+
+
+
+ a| 
+Cryptage logiciel et matériel
+ a| 
+Affiche le nombre de volumes protégés par le chiffrement logiciel et matériel.
+
+
+
+ a| 
+Non chiffré
+ a| 
+Affiche le nombre de volumes qui ne sont pas chiffrés.
+
+|===

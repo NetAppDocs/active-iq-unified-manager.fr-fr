@@ -1,0 +1,49 @@
+---
+permalink: health-checker/task_view_details_about_nfs_shares.html 
+sidebar: sidebar 
+keywords: view, details, nfs shares 
+summary: 'Vous pouvez afficher des informations détaillées sur tous les partages NFS, notamment son état, le chemin associé au volume (volumes FlexGroup ou volumes FlexVol), les niveaux d"accès des clients aux partages NFS et l"export policy définie pour les volumes exportés. Utilisez la vue Santé : tous les partages NFS pour afficher tous les partages NFS sur tous les clusters surveillés et utilisez la page Storage VM / Health details pour afficher tous les partages NFS sur un SVM spécifique.' 
+---
+= Affichage des détails sur les partages NFS
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez afficher des informations détaillées sur tous les partages NFS, notamment son état, le chemin associé au volume (volumes FlexGroup ou volumes FlexVol), les niveaux d'accès des clients aux partages NFS et l'export policy définie pour les volumes exportés. Utilisez la vue Santé : tous les partages NFS pour afficher tous les partages NFS sur tous les clusters surveillés et utilisez la page Storage VM / Health details pour afficher tous les partages NFS sur un SVM spécifique.
+
+*Ce dont vous aurez besoin*
+
+* La licence NFS doit être activée sur le cluster.
+* Les interfaces réseau servant les partages NFS doivent être configurées.
+* Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
+
+
+.Étape
+. Dans le volet de navigation de gauche, suivez les étapes ci-dessous selon que vous souhaitez afficher tous les partages NFS ou uniquement les partages NFS pour un SVM particulier.
++
+[cols="2*"]
+|===
+| Pour... | Suivez ces étapes... 
+
+
+ a| 
+Afficher tous les partages NFS
+ a| 
+Cliquez sur *Storage* > *NFS Shares*
+
+
+
+ a| 
+Affichage des partages NFS pour un seul SVM
+ a| 
+.. Cliquez sur *Storage* > *Storage VM*
+.. Cliquer sur le SVM pour lequel vous souhaitez afficher les détails des partages NFS.
+.. Dans la page Storage VM / Health details, cliquez sur l'onglet *NFS Shares*.
+
+
+|===
+
+
+Pour plus d'informations, voir link:../storage-mgmt/task_provision_fileshares.html["Provisionnement des volumes de partage de fichiers"] et link:../api-automation/concept_provision_file_share.html["Provisionnement des partages de fichiers CIFS et NFS à l'aide d'API"].

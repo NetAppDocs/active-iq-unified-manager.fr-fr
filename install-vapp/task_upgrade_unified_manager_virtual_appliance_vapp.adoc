@@ -1,0 +1,73 @@
+---
+permalink: install-vapp/task_upgrade_unified_manager_virtual_appliance_vapp.html 
+sidebar: sidebar 
+keywords: upgrade, unified manager, virtual, appliance 
+summary: 'Vous pouvez mettre à niveau l"appliance virtuelle Unified Manager' 
+---
+= Mise à niveau de l'appliance virtuelle Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez mettre à niveau l'appliance virtuelle Active IQ Unified Manager depuis les versions 9.10 ou 9.11 vers la version 9.12.
+
+*Ce dont vous aurez besoin*
+
+Vérifiez les points suivants :
+
+* Vous avez téléchargé le fichier de mise à niveau, l'image ISO, depuis le site de support NetApp.
+* Le système sur lequel vous mettez à niveau Unified Manager répond à la configuration système et logicielle requise.
++
+Voir link:concept_virtual_infrastructure_or_hardware_system_requirements.html["Besoins de l'infrastructure virtuelle"].
+
++
+Voir link:reference_vmware_software_and_installation_requirements.html["Conditions requises pour le logiciel VMware et son installation"].
+
+* Pour les utilisateurs de vSphere 6.5 et des versions ultérieures, vous avez installé VMware Remote Console (VMRC).
+* Lors d'une mise à niveau, vous pouvez être invité à confirmer si vous souhaitez conserver les paramètres par défaut précédents pour conserver les données de performances pendant 13 mois ou à les modifier à 6 mois. A la confirmation, les données historiques de performance sont supprimées au bout de 6 mois.
+* Vous disposez des informations suivantes :
++
+** Identifiants de connexion pour le site du support NetApp
+** Informations d'identification pour l'accès à VMware vCenter Server et au client Web vSphere
+** Informations d'identification pour l'utilisateur responsable de la maintenance Unified Manager
+
+
+
+
+Unified Manager n'est pas disponible lors du processus de mise à niveau. Pour effectuer toute opération en cours d'exécution, vous devez effectuer la mise à niveau de Unified Manager.
+
+Si vous avez associé Workflow Automation et Unified Manager, vous devez mettre à jour manuellement le nom d'hôte dans Workflow Automation.
+
+.Étapes
+. Dans vSphere client, cliquez sur *Accueil* > *Inventaire* > *VM et modèles*.
+. Sélectionnez la machine virtuelle (VM) sur laquelle l'appliance virtuelle Unified Manager est installée.
+. Si la machine virtuelle Unified Manager est en cours d'exécution, accédez à *Résumé* > *commandes* > *Arrêter invité*.
+. Créer une copie de sauvegarde, par exemple une copie Snapshot ou un clone, de la machine virtuelle Unified Manager pour créer une sauvegarde cohérente avec les applications.
+. À partir du client vSphere, mettez la machine virtuelle sous tension.
+. Lancez la console à distance VMware.
+. Cliquez sur l'icône *CDROM* et sélectionnez *connexion au fichier image disque (.iso)*.
+. Sélectionner `ActiveIQUnifiedManager-<version>-virtual-update.iso` Et cliquez sur *Ouvrir*.
+. Cliquez sur l'onglet *Console*.
+. Connectez-vous à la console de maintenance de Unified Manager.
+. Dans le menu principal, sélectionnez *Upgrade*.
++
+Un message s'affiche indiquant que Unified Manager doit être indisponible durant la mise à niveau, et qu'il reprend après la fin du processus.
+
+. Type `y` pour continuer.
++
+Un avertissement s'affiche, vous rappelant de sauvegarder la machine virtuelle sur laquelle réside l'appliance virtuelle.
+
+. Type `y` pour continuer.
++
+Le processus de mise à niveau et le redémarrage des services Unified Manager peuvent prendre plusieurs minutes.
+
+. Appuyez sur n'importe quelle touche pour continuer.
++
+Vous êtes automatiquement déconnecté de la console de maintenance.
+
+. *Facultatif:* Connectez-vous à la console de maintenance et vérifiez la version d'Unified Manager.
+
+
+Vous pouvez lancer l'interface utilisateur Web dans une nouvelle fenêtre sur un navigateur Web pris en charge et vous connecter pour utiliser la version mise à niveau d'Unified Manager. Notez que vous devez attendre la fin du processus de détection avant d'effectuer une tâche dans l'interface utilisateur.

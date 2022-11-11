@@ -1,0 +1,29 @@
+---
+permalink: config/reference_support_and_diagnostics_menu.html 
+sidebar: sidebar 
+keywords: support and diagnostics, menu 
+summary: 'Le menu support and Diagnostics vous permet de générer un bundle de support que vous pouvez envoyer au support technique pour obtenir de l"aide au dépannage.' 
+---
+= Menu support and Diagnostics
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Le menu support and Diagnostics vous permet de générer un bundle de support que vous pouvez envoyer au support technique pour obtenir de l'aide au dépannage.
+
+Les options de menu suivantes sont disponibles :
+
+* *Générer ensemble support léger*
++
+Permet de produire un pack de support léger contenant seulement 30 jours d'enregistrements de base de données de configuration et de journaux -- cela exclut les données de performances, les fichiers d'enregistrement d'acquisition et le vidage de mémoire du serveur.
+
+* *Générer un pack de support*
++
+Permet de créer un ensemble de support complet (fichier 7-Zip) contenant des informations de diagnostic dans le répertoire de base de l'utilisateur de diagnostic. Si votre système est connecté à Internet, vous pouvez également télécharger le pack de support à NetApp.
+
++
+Le fichier contient des informations générées par un message AutoSupport, le contenu de la base de données Unified Manager, des données détaillées sur les composants internes du serveur Unified Manager et des journaux de niveau détaillé qui ne sont pas normalement inclus dans les messages AutoSupport ou dans le bundle de support léger.
+
+

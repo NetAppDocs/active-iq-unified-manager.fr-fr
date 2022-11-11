@@ -1,0 +1,276 @@
+---
+permalink: api-automation/concept_provision_luns.html 
+sidebar: sidebar 
+keywords: provision, luns 
+summary: 'Vous pouvez provisionner des LUN sur vos SVM (Storage Virtual machines) en utilisant les API de provisionnement fournies par Active IQ Unified Manager. Ce workflow de provisionnement détaille les étapes à suivre pour récupérer les clés des SVM, les niveaux de service performances et les règles d"efficacité du stockage avant de créer la LUN.' 
+---
+= Provisionnement des LUN à l'aide d'API
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez provisionner des LUN sur vos SVM (Storage Virtual machines) en utilisant les API de provisionnement fournies par Active IQ Unified Manager. Ce workflow de provisionnement détaille les étapes à suivre pour récupérer les clés des SVM, les niveaux de service performances et les règles d'efficacité du stockage avant de créer la LUN.
+
+Le schéma suivant illustre les étapes d'un workflow de provisionnement de LUN.
+
+image::../media/create_luns.gif[créer des lun]
+
+[NOTE]
+====
+Ce flux de travail suppose que les clusters ONTAP ont été ajoutés à Unified Manager et que la clé de cluster a été obtenue. Le workflow suppose également que les SVM ont déjà été créés sur les clusters.
+
+====
+. Obtenir la clé SVM pour le SVM sur lequel vous souhaitez créer la LUN, comme décrit dans la rubrique _Vérification des SVM sur les clusters_ workflow.
+. Obtenir la clé pour le niveau de service des performances en exécutant l'API suivante et en récupérant la clé de la réponse.
++
+[cols="3*"]
+|===
+| Catégorie | Verbe HTTP | Chemin 
+
+
+ a| 
+fournisseur de stockage
+ a| 
+OBTENEZ
+ a| 
+`/storage-provider/performance-service-levels`
+
+|===
++
+[NOTE]
+====
+Pour récupérer les détails des niveaux de service de performances définis par le système, définissez le paramètre `system_defined` saisissez le paramètre à `true`. Dans le résultat de cette commande, vous devez obtenir la clé du niveau de service de performances que vous souhaitez appliquer sur le LUN.
+
+====
+. Si vous le souhaitez, vous pouvez également obtenir la clé de la politique d'efficacité du stockage que vous souhaitez appliquer sur la LUN en exécutant l'API suivante et en récupérant la clé de la réponse.
++
+[cols="3*"]
+|===
+| Catégorie | Verbe HTTP | Chemin 
+
+
+ a| 
+fournisseur de stockage
+ a| 
+OBTENEZ
+ a| 
+`/storage-provider/storage-efficiency-policies`
+
+|===
+. Déterminez si des groupes initiateurs (igroups) ont été créés pour autoriser l'accès à la cible de LUN que vous souhaitez créer.
++
+[cols="3*"]
+|===
+| Catégorie | Verbe HTTP | Chemin 
+
+
+ a| 
+data center
+ a| 
+OBTENEZ
+ a| 
+`/datacenter/protocols/san/igroups`  `/datacenter/protocols/san/igroups/\{key}`
+
+|===
++
+Vous devez saisir la valeur de paramètre pour indiquer la SVM pour laquelle le groupe initiateur a autorisé l'accès. En outre, pour effectuer une requête sur un groupe initiateur spécifique, entrez le nom de ce groupe initiateur (clé) comme paramètre d'entrée.
+
+. Dans le résultat de cette commande, si vous trouvez le groupe initiateur auquel vous souhaitez accorder l'accès, obtenez la clé. Sinon, créez le groupe initiateur.
++
+[cols="3*"]
+|===
+| Catégorie | Verbe HTTP | Chemin 
+
+
+ a| 
+data center
+ a| 
+POST
+ a| 
+`/datacenter/protocols/san/igroups`
+
+|===
++
+Vous devez entrer les détails du groupe initiateur que vous souhaitez créer en tant que paramètres d'entrée. Il s'agit d'un appel synchrone pour vérifier la création du groupe initiateur dans la sortie. En cas d'erreur, un message s'affiche pour vous permettre de dépanner et de relancer l'API.
+
+. Créer la LUN.
++
+[cols="3*"]
+|===
+| Catégorie | Verbe HTTP | Chemin 
+
+
+ a| 
+fournisseur de stockage
+ a| 
+POST
+ a| 
+`/storage-provider/luns`
+
+|===
++
+Pour créer la LUN, assurez-vous d'avoir ajouté les valeurs récupérées en tant que paramètres d'entrée obligatoires.
+
++
+[NOTE]
+====
+La stratégie d'efficacité du stockage est un paramètre facultatif pour la création des LUN.
+
+====
++
+*CURL d'échantillon*
+
++
+Vous devez entrer tous les détails de la LUN que vous souhaitez créer en tant que paramètres d'entrée.
+
++
+La sortie JSON affiche une clé d'objet travail que vous pouvez utiliser pour vérifier la LUN que vous avez créée.
+
+. Vérifiez la création de la LUN à l'aide de la clé de l'objet travail renvoyée dans l'interrogation du travail :
++
+[cols="3*"]
+|===
+| Catégorie | Verbe HTTP | Chemin 
+
+
+ a| 
+serveur-gestion
+ a| 
+OBTENEZ
+ a| 
+`/management-server/jobs/\{key}`
+
+|===
++
+À la fin de la réponse, vous voyez la clé de la LUN créée.
+
+. Vérifiez la création de la LUN en exécutant l'API suivante avec la clé renvoyée :
++
+[cols="3*"]
+|===
+| Catégorie | Verbe HTTP | Chemin 
+
+
+ a| 
+fournisseur de stockage
+ a| 
+OBTENEZ
+ a| 
+`/storage-provider/luns/\{key}`
+
+|===
++
+*Sortie JSON échantillon*
+
++
+Vous pouvez voir que la méthode POST de `/storage-provider/luns` Appelle en interne toutes les API requises pour chacune des fonctions et crée l'objet. Par exemple, il invoque le `/storage-provider/performance-service-levels/` API permettant d'attribuer un niveau de service de performances à la LUN.
+
++
+== étapes de dépannage en cas d'échec de la création ou du mappage de LUN
+
+
+
+À l'issue de ce workflow, il se peut que la création de LUN ait échoué. Même si la LUN est correctement créée, le mappage de LUN avec le groupe initiateur peut échouer en raison d'une indisponibilité d'une LIF SAN ou d'un point de terminaison d'accès sur le nœud sur lequel vous créez la LUN. En cas de défaillance, le message suivant s'affiche :
+
+[listing]
+----
+The nodes <node_name> and <partner_node_name> have no LIFs configured with the iSCSI or FCP protocol for Vserver <server_name>. Use the access-endpoints API to create a LIF for the LUN.
+----
+Suivez ces étapes de dépannage pour contourner ce problème.
+
+. Créer un point d'accès prenant en charge le protocole ISCSI/FCP sur le SVM sur lequel vous avez essayé de créer la LUN.
++
+[cols="3*"]
+|===
+| Catégorie | Verbe HTTP | Chemin 
+
+
+ a| 
+fournisseur de stockage
+ a| 
+POST
+ a| 
+`/storage-provider/access-endpoints`
+
+|===
++
+*CURL d'échantillon*
+
++
+Vous devez entrer les détails du point final d'accès que vous souhaitez créer, en tant que paramètres d'entrée.
+
++
+[NOTE]
+====
+Assurez-vous que dans le paramètre d'entrée vous avez ajouté l'adresse pour indiquer le nœud d'origine de la LUN et l'adresse ha pour indiquer le nœud partenaire du nœud de départ. Lorsque vous exécutez cette opération, des terminaux d'accès sont créés sur le nœud de rattachement et le nœud partenaire.
+
+====
+. Interroger le travail avec la clé objet Job renvoyée dans la sortie JSON pour vérifier qu'elle s'exécute correctement pour ajouter les terminaux d'accès sur la SVM et que les services iSCSI/FCP ont été activés sur la SVM.
++
+[cols="3*"]
+|===
+| Catégorie | Verbe HTTP | Chemin 
+
+
+ a| 
+serveur-gestion
+ a| 
+OBTENEZ
+ a| 
+`/management-server/jobs/\{key}`
+
+|===
++
+*Sortie JSON échantillon*
+
++
+À la fin de la sortie, vous pouvez voir la clé des points d'extrémité d'accès créés. Dans le résultat suivant, la valeur "nom": "AccessEndpointKey" indique le noeud final d'accès créé sur le noeud d'origine du LUN, pour lequel la clé est 9c964258-14ef-11ea-95e2-00a098e32c28. La valeur "name": "AccessEndpointHADKey" indique le noeud final d'accès créé sur le noeud partenaire du noeud d'origine, pour lequel la clé est 9d347006-14ef-11ea-8760-00a098e3215f.
+
+. Modifiez la LUN pour mettre à jour le mappage de groupe initiateur. Pour plus d'informations sur la modification des flux de travail, reportez-vous à la section « Modifier les charges de travail de stockage ».
++
+[cols="3*"]
+|===
+| Catégorie | Verbe HTTP | Chemin 
+
+
+ a| 
+fournisseur de stockage
+ a| 
+CORRECTIF
+ a| 
+`/storage-provider/lun/\{key}`
+
+|===
++
+Dans le champ d'entrée, spécifiez la clé igroup avec laquelle vous souhaitez mettre à jour le mappage de LUN, ainsi que la clé de LUN.
+
++
+*CURL d'échantillon*
+
++
+La sortie JSON affiche une clé d'objet travail que vous pouvez utiliser pour vérifier si le mappage a réussi.
+
+. Vérifiez le mappage de LUN en interrogeant la clé de LUN.
++
+[cols="3*"]
+|===
+| Catégorie | Verbe HTTP | Chemin 
+
+
+ a| 
+fournisseur de stockage
+ a| 
+OBTENEZ
+ a| 
+`/storage-provider/luns/\{key}`
+
+|===
++
+*Sortie JSON échantillon*
+
++
+Dans le résultat, vous voyez que la LUN a été correctement mappée avec le groupe initiateur (clé d19ec2fa-fec7-11e8-b23d-00a098e32c28) avec lequel elle a été initialement mise en service.
+
+

@@ -1,0 +1,60 @@
+---
+permalink: events/reference_event_setup_page.html 
+sidebar: sidebar 
+keywords: event, setup, page, command, buttons, list, view 
+summary: 'La page Configuration des événements affiche la liste des événements désactivés et fournit des informations telles que le type d"objet associé et la gravité de l"événement. Vous pouvez également effectuer des tâches telles que la désactivation ou l"activation globale des événements.' 
+---
+= Page de configuration de l'événement
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+La page Configuration des événements affiche la liste des événements désactivés et fournit des informations telles que le type d'objet associé et la gravité de l'événement. Vous pouvez également effectuer des tâches telles que la désactivation ou l'activation globale des événements.
+
+Vous ne pouvez accéder à cette page que si vous avez le rôle Administrateur d'applications ou Administrateur de stockage.
+
+
+
+== Boutons de commande
+
+Les boutons de commande permettent d'effectuer les tâches suivantes pour les événements sélectionnés :
+
+* *Désactiver*
++
+Lance la boîte de dialogue Désactiver les événements, que vous pouvez utiliser pour désactiver les événements.
+
+* *Activer*
++
+Active les événements sélectionnés que vous avez choisi de désactiver précédemment.
+
+* *Règles de chargement*
++
+Lance la boîte de dialogue règles de chargement qui permet aux sites sans accès réseau externe de télécharger manuellement le fichier de règles Active IQ vers Unified Manager. Les règles sont exécutées autour de messages AutoSupport du cluster afin de générer des événements destinés à la configuration du système, au câblage, aux meilleures pratiques et à la disponibilité, tels que définis par la plateforme Active IQ.
+
+* *Abonnez-vous à EMS Events*
++
+Lance la boîte de dialogue s'abonner aux événements EMS, qui vous permet de vous abonner à la réception d'événements EMS spécifiques des clusters que vous surveillez. Le EMS collecte des informations sur les événements se produisant sur le cluster. Lorsqu'une notification est reçue pour un événement EMS auquel vous êtes abonné, un événement Unified Manager est généré avec le niveau de gravité approprié.
+
+
+
+
+
+== Vue liste
+
+La vue liste affiche (sous forme de tableau) des informations sur les événements désactivés. Vous pouvez utiliser les filtres de colonne pour personnaliser les données affichées.
+
+* *Événement*
++
+Affiche le nom de l'événement désactivé.
+
+* *Gravité*
++
+Affiche la gravité de l'événement. La gravité peut être critique, erreur, Avertissement ou information.
+
+* *Type de source*
++
+Affiche le type de source pour lequel l'événement est généré.
+
+

@@ -1,0 +1,42 @@
+---
+permalink: health-checker/task_view_aggregate_list_and_details.html 
+sidebar: sidebar 
+keywords: view, aggregate list, details 
+summary: 'Depuis la vue Santé : tous les agrégats, vous pouvez surveiller votre inventaire des agrégats. La vue capacité : tous les agrégats vous permet d"afficher des informations sur la capacité et l"utilisation des agrégats de tous les clusters.' 
+---
+= Affichage de la liste des agrégats et des détails
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Depuis la vue Santé : tous les agrégats, vous pouvez surveiller votre inventaire des agrégats. La vue capacité : tous les agrégats vous permet d'afficher des informations sur la capacité et l'utilisation des agrégats de tous les clusters.
+
+*Ce dont vous aurez besoin*
+
+Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
+
+Vous pouvez afficher des informations détaillées, telles que la capacité et la configuration de l'agrégat, ou encore les informations sur le disque depuis la page de détails de l'agrégat/de l'intégrité. Vous pouvez utiliser ces détails avant de configurer les paramètres de seuil si nécessaire.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage* > *Aggregates*.
+. Choisir l'une des méthodes suivantes pour afficher les détails des agrégats :
++
+** Pour afficher des informations relatives à l'état de santé de tous les agrégats de tous les clusters, dans le menu View, sélectionnez Santé : vue tous les agrégats.
+** Pour afficher des informations sur la capacité et l'utilisation de tous les agrégats de tous les clusters, sélectionnez la vue capacité : tous les agrégats.
+** Pour afficher les détails complets, cliquez sur le nom de l'agrégat.
++
+Vous pouvez également afficher les détails complets en cliquant sur *Afficher les détails* dans la boîte de dialogue Détails minimaux.
+
+
+
+. Affichez les objets liés à l'agrégat en cliquant sur *Afficher lié* dans la boîte de dialogue Détails minimaux.
+
+
+*Informations connexes*
+
+* link:../health-checker/reference_health_aggregate_details_page.html["Page Détails de l'agrégat/de l'intégrité"]
+* link:../performance-checker/performance-view-all.html#performance-all-aggregates-view["Performance : vue de tous les agrégats"]
+* link:../reporting/concept_customize_aggregate_capacity_reports.html["Personnalisation des rapports de capacité d'agrégats"]
+

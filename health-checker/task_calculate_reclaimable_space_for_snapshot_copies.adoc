@@ -1,0 +1,40 @@
+---
+permalink: health-checker/task_calculate_reclaimable_space_for_snapshot_copies.html 
+sidebar: sidebar 
+keywords: calculate, reclaimable space, snapshot copies 
+summary: 'Vous pouvez calculer la quantité d"espace disque qui peut être récupérée si une ou plusieurs copies Snapshot sont supprimées.' 
+---
+= Calcul de l'espace récupérable pour les copies Snapshot
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez calculer la quantité d'espace disque qui peut être récupérée si une ou plusieurs copies Snapshot sont supprimées.
+
+*Ce dont vous aurez besoin*
+
+* Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
+* Le volume doit être en ligne.
+* Le volume doit être un volume FlexVol. Cette fonctionnalité n'est pas prise en charge avec les volumes FlexGroup.
+
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage* > *volumes*.
+. Dans la vue *Health: All volumes*, sélectionnez le volume qui contient les copies Snapshot que vous souhaitez afficher.
++
+La liste des copies Snapshot s'affiche.
+
+. Dans la page *Volume / Santé*, cliquez sur l'onglet *capacité*.
+. Dans le volet *Détails* de l'onglet *capacité*, dans la section autres détails, cliquez sur le lien en regard de *copies snapshot*.
++
+Le nombre de copies Snapshot est un lien qui affiche la liste des copies Snapshot.
+
+. Dans la vue *copies snapshot*, sélectionnez les copies Snapshot pour lesquelles vous souhaitez calculer l'espace récupérable.
+. Cliquez sur *calculer*.
++
+L'espace récupérable (en pourcentage, et en Ko, Mo, Go, etc.) sur le volume s'affiche.
+
+. Pour recalculer l'espace récupérable, sélectionnez les copies Snapshot requises et cliquez sur *Recalculer*.
+

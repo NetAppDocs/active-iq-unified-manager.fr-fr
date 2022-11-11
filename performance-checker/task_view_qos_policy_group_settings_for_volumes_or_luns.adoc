@@ -1,0 +1,31 @@
+---
+permalink: performance-checker/task_view_qos_policy_group_settings_for_volumes_or_luns.html 
+sidebar: sidebar 
+keywords: view, qos, policy, group, settings, applied, specific, volumes, luns 
+summary: Vous pouvez afficher les groupes de règles de QoS appliqués à vos volumes et LUN et afficher les paramètres de configuration détaillés de chaque règle de QoS pour accéder à la vue des groupes de règles de QoS. 
+---
+= Affichage des paramètres de « policy group » QoS appliqués à des volumes ou LUN spécifiques
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez afficher les groupes de règles de QoS appliqués à vos volumes et LUN et afficher les paramètres de configuration détaillés de chaque règle de QoS pour accéder à la vue des groupes de règles de QoS.
+
+Les étapes pour afficher la politique de QoS appliquée à un volume sont indiquées ci-dessous. Les étapes permettant d'afficher ces informations concernant une LUN sont similaires.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage* > *volumes*.
++
+La vue Santé : tous les volumes s'affiche par défaut.
+
+. Dans le menu Affichage, sélectionnez *Performance: Volumes dans QoS Policy Group*.
+. Recherchez le volume que vous souhaitez consulter et faites défiler vers la droite jusqu'à ce que la colonne *QoS Policy Group* s'affiche.
+. Cliquez sur le nom du groupe de stratégies QoS.
++
+La page QoS correspondante s'affiche selon qu'il s'agit d'une règle de QoS classique, d'une règle de QoS adaptative ou d'une règle de QoS créée à l'aide des niveaux de service Performance Unified Manager.
+
+. Afficher les paramètres de configuration détaillés de la « policy group » de QoS
+. Cliquez sur le bouton développer (image:../media/chevron_down.gif[""]) En regard du nom du groupe de stratégies QoS pour afficher plus de détails sur le groupe de règles.
+

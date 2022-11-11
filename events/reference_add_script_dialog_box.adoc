@@ -1,0 +1,26 @@
+---
+permalink: events/reference_add_script_dialog_box.html 
+sidebar: sidebar 
+keywords: add, script, dialog, box 
+summary: 'La boîte de dialogue Ajouter un script vous permet d"ajouter des scripts à Unified Manager. Vous pouvez configurer des alertes avec vos scripts pour résoudre automatiquement les événements générés pour les objets de stockage.' 
+---
+= Boîte de dialogue Ajouter un script
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+La boîte de dialogue Ajouter un script vous permet d'ajouter des scripts à Unified Manager. Vous pouvez configurer des alertes avec vos scripts pour résoudre automatiquement les événements générés pour les objets de stockage.
+
+Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+
+* *Sélectionnez fichier script*
++
+Vous permet de sélectionner un script pour l'alerte.
+
+* *Description*
++
+Vous permet de spécifier une description pour le script.
+
+

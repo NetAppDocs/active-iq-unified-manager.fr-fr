@@ -1,0 +1,59 @@
+---
+permalink: storage-mgmt/task_create_and_edit_seps.html 
+sidebar: sidebar 
+keywords: create, edit, storage, efficiency, policies 
+summary: 'Lorsque les règles d"efficacité du stockage définies par le système ne répondent pas aux exigences de vos workloads, vous pouvez créer vos propres règles d"efficacité du stockage optimisées pour vos charges de travail.' 
+---
+= Création et modification de règles Storage Efficiency
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Lorsque les règles d'efficacité du stockage définies par le système ne répondent pas aux exigences de vos workloads, vous pouvez créer vos propres règles d'efficacité du stockage optimisées pour vos charges de travail.
+
+*Ce dont vous aurez besoin*
+
+* Vous devez avoir le rôle Administrateur d'applications.
+* Le nom de la stratégie d'efficacité du stockage doit être unique et vous ne pouvez pas utiliser les mots-clés réservés suivants :
++
+`High`, `Low`, `Unassigned`, `Learning`, `Idle`, `Default`, et `None`.
+
+
+
+Vous créez et modifiez des politiques personnalisées d'efficacité du stockage à partir de la page règles d'efficacité du stockage en définissant les caractéristiques d'efficacité de stockage requises pour les applications qui accèdent au stockage.
+
+[NOTE]
+====
+Vous ne pouvez pas modifier une stratégie d'efficacité du stockage s'il est actuellement affecté à une charge de travail.
+
+====
+.Étapes
+. Dans le volet de navigation de gauche sous *Paramètres*, sélectionnez *stratégies* > *efficacité du stockage*.
+. Dans la page *stratégies d'efficacité du stockage*, cliquez sur le bouton approprié selon que vous souhaitez créer une nouvelle stratégie d'efficacité du stockage ou si vous souhaitez modifier une stratégie d'efficacité du stockage existante.
++
+|===
+| Pour... | Suivez ces étapes... 
+
+
+ a| 
+Créez une nouvelle politique d'efficacité du stockage
+ a| 
+Cliquez sur *Ajouter*
+
+
+
+ a| 
+Modifiez une stratégie d'efficacité du stockage existante
+ a| 
+Sélectionnez une stratégie d'efficacité du stockage existante et cliquez sur *Modifier*
+
+|===
++
+La page permettant d'ajouter ou de modifier une stratégie d'efficacité du stockage s'affiche.
+
+. Personnalisez la stratégie d'efficacité du stockage en spécifiant les caractéristiques d'efficacité du stockage, puis cliquez sur *Submit* pour enregistrer la stratégie d'efficacité du stockage.
+
+
+Vous pouvez appliquer la nouvelle règle d'efficacité du stockage ou la version modifiée aux charges de travail (LUN, partages de fichiers NFS et partages CIFS) à partir de la page des charges de travail ou lors du provisionnement d'un nouveau workload.

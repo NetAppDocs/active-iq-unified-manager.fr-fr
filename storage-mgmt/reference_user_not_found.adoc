@@ -1,0 +1,25 @@
+---
+permalink: storage-mgmt/reference_user_not_found.html 
+sidebar: sidebar 
+keywords: user, not, found 
+summary: 'Dépannage : utilisateur introuvable' 
+---
+= Utilisateur introuvable
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Lorsque vous effectuez une opération liée à l'authentification, telle que l'ajout, la modification, la suppression ou le test d'utilisateurs ou de groupes distants, le message d'erreur suivant s'affiche : `User not found.`
+
+*Cause*
+
+Ce problème peut survenir si l'utilisateur existe dans le serveur AD ou le serveur LDAP et si vous avez défini le nom distinctif de base sur une valeur incorrecte.
+
+* Action corrective*
+
+. Dans le volet de navigation de gauche, cliquez sur *général* > *authentification à distance*.
+. Entrez les informations appropriées pour le nom distinctif de base.
+. Cliquez sur *Enregistrer*.
+

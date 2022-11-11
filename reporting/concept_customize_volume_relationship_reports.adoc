@@ -1,0 +1,14 @@
+---
+permalink: reporting/concept_customize_volume_relationship_reports.html 
+sidebar: sidebar 
+keywords: customize, volume, relationship, reports 
+summary: 'Le rapport Volume Relationships Inventory vous permet d"analyser les détails de l"inventaire du stockage dans un cluster, de comprendre le degré de protection requis pour les volumes et de filtrer les détails du volume en fonction de la source de défaillance, du modèle et des planifications.' 
+---
+= Personnalisation des rapports de relation de volume
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Le rapport Volume Relationships Inventory vous permet d'analyser les détails de l'inventaire du stockage dans un cluster, de comprendre le degré de protection requis pour les volumes et de filtrer les détails du volume en fonction de la source de défaillance, du modèle et des planifications.

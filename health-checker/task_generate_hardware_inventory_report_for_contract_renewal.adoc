@@ -1,0 +1,28 @@
+---
+permalink: health-checker/task_generate_hardware_inventory_report_for_contract_renewal.html 
+sidebar: sidebar 
+keywords: contract, renewal, cluster, inventory report, hardware, generate 
+summary: 'Vous pouvez générer un rapport contenant une liste complète des informations sur le cluster et le nœud, notamment les numéros de modèle du matériel et les numéros de série, les types et nombres de disques, les licences installées. Ce rapport est utile pour le renouvellement de contrats dans des sites sécurisés (sites « sombres ») qui ne sont pas connectés à la plateforme NetAppActive IQ.' 
+---
+= Génération d'un rapport d'inventaire du matériel pour le renouvellement du contrat
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez générer un rapport contenant une liste complète des informations sur le cluster et le nœud, notamment les numéros de modèle du matériel et les numéros de série, les types et nombres de disques, les licences installées. Ce rapport est utile pour le renouvellement de contrats dans des sites sécurisés (« parc ») qui ne sont pas connectés à la plateforme NetApp Active IQ.
+
+*Ce dont vous aurez besoin*
+
+Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage* > *Nodes*.
+. Accédez à la vue *Health: All Nodes* ou *Performance: All Nodes*.
+. Sélectionnez *Rapports* > *** > **Rapport d'inventaire matériel*.
++
+Le rapport d'inventaire du matériel est téléchargé sous la forme d'un fichier .csv contenant des informations complètes à la date actuelle.
+
+. Indiquez ces informations à votre contact de support NetApp pour le renouvellement du contrat.
+

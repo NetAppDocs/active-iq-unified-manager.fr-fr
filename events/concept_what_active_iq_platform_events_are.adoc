@@ -1,0 +1,24 @@
+---
+permalink: events/concept_what_active_iq_platform_events_are.html 
+sidebar: sidebar 
+keywords: active iq, platform, events 
+summary: Unified Manager peut afficher les événements détectés par la plateforme Active IQ. Ces événements sont créés en exécutant un ensemble de règles sur les messages AutoSupport générés à partir de tous les systèmes de stockage contrôlés par Unified Manager. 
+---
+= Sont les événements sur la plateforme Active IQ
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager peut afficher les événements détectés par la plateforme Active IQ. Ces événements sont créés en exécutant un ensemble de règles sur les messages AutoSupport générés à partir de tous les systèmes de stockage contrôlés par Unified Manager.
+
+Pour plus d'informations, voir link:../events/concept_how_active_iq_platform_events_are_generated.html["Génération des événements de la plateforme Active IQ"].
+
+Unified Manager recherche automatiquement un nouveau fichier de règles et ne télécharge un nouveau fichier que lorsqu'il existe de nouvelles règles. Dans les sites sans accès réseau externe, vous devez télécharger manuellement les règles à partir de *Storage Management* > *Event Setup* > *Upload Rules*.
+
+Ces événements Active IQ ne se chevauchent pas dans les événements Unified Manager existants et ils identifient les incidents ou les risques liés à la configuration du système, au câblage, aux meilleures pratiques et à la disponibilité.
+
+Pour plus d'informations sur l'activation des événements de plate-forme, reportez-vous à la section link:../config/concept_active_iq_platform_events.html["Activation des événements du portail Active IQ"]. Pour plus d'informations sur le téléchargement de fichiers de règles, reportez-vous à la section link:../events/task_upload_new_active_iq_rules_file.html["Téléchargement d'un nouveau fichier de règles Active IQ"].
+
+NetApp Active IQ est un service cloud qui offre des analyses prédictives et un support proactif pour optimiser les opérations des systèmes de stockage dans le cloud hybride NetApp. Voir https://www.netapp.com/us/products/data-infrastructure-management/active-iq.aspx["NetApp Active IQ"] pour en savoir plus.

@@ -1,0 +1,16 @@
+---
+permalink: install-linux/concept_overview_of_installation_process_on_red_hat.html 
+sidebar: sidebar 
+keywords: overview, installation process 
+summary: 'Le workflow d"installation décrit les tâches que vous devez effectuer avant d"utiliser Unified Manager.' 
+---
+= Présentation du processus d'installation
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Le workflow d'installation décrit les tâches que vous devez effectuer avant d'utiliser Unified Manager.
+
+image::../media/install_flow_on_rhel.gif[installer le débit sur le rhel]

@@ -1,0 +1,32 @@
+---
+permalink: reporting/concept_unified_manager_reporting.html 
+sidebar: sidebar 
+keywords: unified, manager, reporting 
+summary: 'Active IQ Unified Manager (anciennement OnCommand Unified Manager) permet d"afficher, de personnaliser, de télécharger et de planifier des rapports pour vos systèmes de stockage ONTAP. Ces rapports peuvent fournir des informations détaillées sur la capacité, l"état, les performances et les relations de protection du système de stockage.' 
+---
+= Création de rapports Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Active IQ Unified Manager (anciennement OnCommand Unified Manager) permet d'afficher, de personnaliser, de télécharger et de planifier des rapports pour vos systèmes de stockage ONTAP. Ces rapports peuvent fournir des informations détaillées sur la capacité du système de stockage, l'état, les performances, la sécurité et les relations de protection.
+
+La nouvelle fonctionnalité de création de rapports et de planification de Unified Manager, introduite dans Active IQ Unified Manager 9.6, remplace le moteur de création de rapports précédent retiré dans Unified Manager version 9.5.
+
+Les rapports fournissent différentes vues de votre réseau et fournissent des informations exploitables sur la capacité, l'état, les performances, la sécurité et la protection des données. Vous pouvez personnaliser vos vues en affichant, en masquant et en réorganisant les colonnes, en filtrant les données, en triant des données, et la recherche dans les résultats. Vous pouvez enregistrer des vues personnalisées pour les réutiliser, les télécharger en tant que rapports et les planifier en tant que rapports récurrents à distribuer par e-mail.
+
+Vous pouvez télécharger des vues au format Microsoft® Excel et les personnaliser. Vous pouvez utiliser des fonctions Excel avancées, telles que des tri complexes, des filtres superposés, des tableaux croisés dynamiques et des graphiques. Lorsque vous êtes satisfait du rapport Excel obtenu, vous pouvez télécharger le fichier Excel à utiliser chaque fois que le rapport est planifié et partagé.
+
+Outre la génération de rapports depuis l'interface utilisateur, vous pouvez extraire des données de santé, de sécurité et de performances à partir d'Unified Manager en utilisant les méthodes suivantes :
+
+* Utilisation des outils ODBC (Open Database Connectivity) et ODBC pour accéder directement à la base de données pour les informations de cluster
+* Exécution d'API REST Unified Manager pour renvoyer les informations que vous souhaitez consulter
+
+
+À partir de cette version de Active IQ Unified Manager, les rapports ont apporté les améliorations suivantes :
+
+* Un e-mail est envoyé pour un rapport conformément à l'horaire configuré. Même si vous générez un rapport à la demande, vous recevrez un e-mail.
+* Le nom du fichier du rapport et les métadonnées du rapport incluent le nom d'hôte à partir duquel le rapport a été généré. Même si un changement de nom de fichier change, vous pouvez toujours identifier le nom d'hôte à partir duquel le rapport a été généré en raison de cette amélioration.
+

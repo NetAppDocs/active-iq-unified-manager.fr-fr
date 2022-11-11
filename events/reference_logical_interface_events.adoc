@@ -1,0 +1,157 @@
+---
+permalink: events/reference_logical_interface_events.html 
+sidebar: sidebar 
+keywords: 'network, interface, (lif) events, impact area, availability, configuration, performance' 
+summary: 'Les événements de l"interface réseau fournissent des informations sur l"état de votre interface réseau (LIFS), qui vous permettent de surveiller les problèmes potentiels. Les événements sont regroupés par zone d"impact et incluent le nom de l"événement et de l"interruption, le niveau d"impact, le type de source et la gravité.' 
+---
+= Événements liés à l'interface réseau (LIF)
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Les événements de l'interface réseau fournissent des informations sur l'état de votre interface réseau (LIFS), qui vous permettent de surveiller les problèmes potentiels. Les événements sont regroupés par zone d'impact et incluent le nom de l'événement et de l'interruption, le niveau d'impact, le type de source et la gravité.
+
+
+
+== Domaine d'impact : disponibilité
+
+|===
+| Nom de l'événement (nom de l'argument) | Niveau d'impact | Type de source | Gravité 
+
+
+ a| 
+État de l'interface réseau Down (ocumEvtLifStatusDown)
+ a| 
+Risques
+ a| 
+Interface
+ a| 
+Erreur
+
+
+
+ a| 
+Statut de l'interface réseau FC/FCoE arrêté (ocumEvtFCLIfStatusDown)
+ a| 
+Risques
+ a| 
+Interface
+ a| 
+Erreur
+
+
+
+ a| 
+Basculement de l'interface réseau impossible (ocumEvtLiftFailOverNoble)
+ a| 
+Risques
+ a| 
+Interface
+ a| 
+Avertissement
+
+
+
+ a| 
+L'interface réseau n'est pas à Home Port (ocumEvtLiftNoteAHomePort)
+ a| 
+Risques
+ a| 
+Interface
+ a| 
+Avertissement
+
+|===
+
+
+== Zone d'impact : configuration
+
+|===
+| Nom de l'événement (nom de l'argument) | Niveau d'impact | Type de source | Gravité 
+
+
+ a| 
+Route de l'interface réseau non configurée (non applicable)
+ a| 
+Événement
+ a| 
+Interface
+ a| 
+Informations
+
+|===
+
+
+== Zone d'impact : performances
+
+|===
+| Nom de l'événement (nom de l'argument) | Niveau d'impact | Type de source | Gravité 
+
+
+ a| 
+Seuil critique de l'interface réseau MB/s (ocumNetworkLifMbpsincident)
+ a| 
+Gestion des
+ a| 
+Interface
+ a| 
+Primordial
+
+
+
+ a| 
+Seuil d'avertissement de l'interface réseau MB/s dépassé(ocumNetworkLifMbpsWarning)
+ a| 
+Risques
+ a| 
+Interface
+ a| 
+Avertissement
+
+
+
+ a| 
+Brèche dans le seuil critique de l'interface réseau FC MB/s (ocumFcpLifMbpsincident)
+ a| 
+Gestion des
+ a| 
+Interface
+ a| 
+Primordial
+
+
+
+ a| 
+Seuil d'avertissement de l'interface réseau FC MB/s dépassé(ocumFcpLifMbpsWarning)
+ a| 
+Risques
+ a| 
+Interface
+ a| 
+Avertissement
+
+
+
+ a| 
+Interface réseau FC NVMf MB/s Critical Threshold rompues(ocumNvmfFcLifMbpsincident)
+ a| 
+Gestion des
+ a| 
+Interface
+ a| 
+Primordial
+
+
+
+ a| 
+Interface réseau FC NVMf MB/s seuil d'avertissement dépassé(ocumNvmfFcLifMbpsWarning)
+ a| 
+Risques
+ a| 
+Interface
+ a| 
+Avertissement
+
+|===

@@ -1,0 +1,53 @@
+---
+permalink: health-checker/task_test_script_execution.html 
+sidebar: sidebar 
+keywords: test, script, execution 
+summary: 'Vous pouvez vérifier que le script s"exécute correctement lorsqu"une alerte est générée pour un objet de stockage.' 
+---
+= Exécution du script de test
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez vérifier que le script s'exécute correctement lorsqu'une alerte est générée pour un objet de stockage.
+
+* Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+* Vous devez avoir téléchargé un script au format de fichier pris en charge vers Unified Manager.
+
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage Management* > *scripts*.
+. Dans la page scripts, ajoutez votre script de test.
+. Dans le volet de navigation de gauche, cliquez sur *Storage Management* > *Alert Setup*.
+. Dans la page *Configuration des alertes*, effectuez l'une des opérations suivantes :
++
+[cols="2*"]
+|===
+| Pour... | Procédez comme ça... 
+
+
+ a| 
+Ajouter une alerte
+ a| 
+.. Cliquez sur *Ajouter*.
+.. Dans la section actions, associez l'alerte à votre script de test.
+
+
+
+
+ a| 
+Modifier une alerte
+ a| 
+.. Sélectionnez une alerte, puis cliquez sur *Modifier*.
+.. Dans la section actions, associez l'alerte à votre script de test.
+
+
+|===
+. Cliquez sur *Enregistrer*.
+. Dans la page *Configuration des alertes*, sélectionnez l'alerte que vous avez ajoutée ou modifiée, puis cliquez sur *Test*.
++
+Le script est exécuté avec l'argument "`-test", et une alerte de notification est envoyée aux adresses électroniques spécifiées lors de la création de l'alerte.
+
+

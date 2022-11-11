@@ -1,0 +1,19 @@
+---
+permalink: storage-mgmt/task_bookmark_your_favorite_help_topics_onc.html 
+sidebar: sidebar 
+keywords: bookmark, favorite, help topics 
+summary: 'Dans l"onglet Favoris de l"aide, vous pouvez ajouter fréquemment des rubriques d"aide aux signets. Les signets permettent d"accéder rapidement à vos sujets favoris.' 
+---
+= Création de signets pour vos rubriques d'aide préférées
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Dans l'onglet Favoris de l'aide, vous pouvez ajouter fréquemment des rubriques d'aide aux signets. Les signets permettent d'accéder rapidement à vos sujets favoris.
+
+.Étapes
+. Accédez à la rubrique d'aide que vous souhaitez ajouter en tant que favori.
+. Cliquez sur *Favoris*, puis sur *Ajouter*.
+

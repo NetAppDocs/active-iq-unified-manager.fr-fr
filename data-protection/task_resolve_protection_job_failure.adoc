@@ -1,0 +1,37 @@
+---
+permalink: data-protection/task_resolve_protection_job_failure.html 
+sidebar: sidebar 
+keywords: resolve, protection, job failure 
+summary: 'Ce flux de travail fournit un exemple d"identification et de résolution d"une défaillance de tâche de protection à partir du tableau de bord Unified Manager.' 
+---
+= Résolution de l'échec d'une tâche de protection
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Ce flux de travail fournit un exemple d'identification et de résolution d'une défaillance de tâche de protection à partir du tableau de bord Unified Manager.
+
+*Ce dont vous aurez besoin*
+
+Comme certaines tâches de ce flux de travail nécessitent de vous connecter à l'aide du rôle Administrateur, vous devez connaître les rôles requis pour utiliser diverses fonctionnalités.
+
+Dans ce scénario, vous accédez à la page Tableau de bord pour voir s'il y a des problèmes avec vos tâches de protection. Dans la zone incident de protection, vous remarquez qu'un incident de fin de tâche est survenu, indiquant une erreur d'échec de tâche de protection sur un volume. Vous étudiez cette erreur afin de déterminer la cause possible et la résolution potentielle.
+
+.Étapes
+. Dans le panneau protection incidents de la zone Tableau de bord incidents et risques non résolus, cliquez sur l'événement *protection job failed*.
++
+[TIP]
+====
+Le texte lié de l'événement est écrit dans le formulaire `object_name:/object_name - Error Name`, comme `cluster2_src_svm:/cluster2_src_vol2 - Protection Job Failed`.
+
+====
++
+La page Détails de l'événement pour la tâche de protection ayant échoué s'affiche.
+
+. Consultez le message d'erreur dans le champ cause de la zone *Résumé* pour déterminer le problème et évaluer les mesures correctives possibles.
++
+Voir link:task_identify_problem_for_failed_protection_job.html["Identification du problème et exécution d'actions correctives pour une tâche de protection ayant échoué"].
+
+

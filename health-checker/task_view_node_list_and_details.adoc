@@ -1,0 +1,55 @@
+---
+permalink: health-checker/task_view_node_list_and_details.html 
+sidebar: sidebar 
+keywords: view, node list, details 
+summary: 'Vous pouvez utiliser la vue Santé : tous les nœuds pour afficher la liste des nœuds des clusters. Vous pouvez utiliser la page de détails Cluster / Health pour afficher des informations détaillées sur les nœuds faisant partie du cluster surveillé.' 
+---
+= Affichage de la liste des nœuds et des détails
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez utiliser la vue Santé : tous les nœuds pour afficher la liste des nœuds des clusters. Vous pouvez utiliser la page de détails Cluster / Health pour afficher des informations détaillées sur les nœuds faisant partie du cluster surveillé.
+
+*Ce dont vous aurez besoin*
+
+Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
+
+Vous pouvez afficher des informations détaillées, telles que l'état des nœuds, le cluster qui contient le nœud, les informations détaillées sur la capacité des agrégats (utilisée et totale) et les détails sur la capacité brute (utilisable, disponible, réserve et total). Vous pouvez également obtenir des informations sur les paires haute disponibilité, les tiroirs disques et les ports.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage* > *Nodes*.
+. Dans la vue *Santé : tous les nœuds*, cliquez sur le nœud dont vous souhaitez afficher les détails.
++
+Les informations détaillées du nœud sélectionné s'affichent sur la page des détails du cluster / intégrité. Le volet gauche affiche la liste des paires HA. Par défaut, les détails de la haute disponibilité sont ouverts, qui affiche les détails d'état de la haute disponibilité et les événements associés à la paire haute disponibilité sélectionnée.
+
+. Pour afficher d'autres détails sur le nœud, effectuez l'action appropriée :
++
+[cols="2*"]
+|===
+| Pour afficher... | Cliquez sur... 
+
+
+ a| 
+Détails sur les tiroirs disques
+ a| 
+*Tiroirs disques*.
+
+
+
+ a| 
+Informations relatives aux ports
+ a| 
+*Ports*.
+
+|===
+
+
+Pour plus d'informations, voir :
+
+* link:../performance-checker/performance-view-all.html#performance-all-nodes-view["Performance : vue de tous les nœuds"]
+* link:../performance-checker/concept_view_node_and_aggregate_available_iops_values.html["Affichage des valeurs d'IOPS disponibles du nœud et de l'agrégat"]
+* link:../performance-checker/concept_view_node_and_aggregate_performance_capacity_used_values.html["Affichage des valeurs de capacité des nœuds et des performances des agrégats utilisées"]
+

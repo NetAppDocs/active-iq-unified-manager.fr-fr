@@ -1,0 +1,16 @@
+---
+permalink: install-windows/concept_upgrade_third_party_products_on_windows_um.html 
+sidebar: sidebar 
+keywords: data center manager, third-party, products, upgrade 
+summary: 'Vous pouvez mettre à niveau des produits tiers, tels que JRE, sur Unified Manager lorsqu"ils sont installés sur les systèmes Windows.' 
+---
+= Mise à niveau de produits tiers
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez mettre à niveau des produits tiers, tels que JRE, sur Unified Manager lorsqu'ils sont installés sur les systèmes Windows.
+
+Les entreprises qui développent ces produits tiers signalent régulièrement des failles de sécurité. Vous pouvez effectuer la mise à niveau vers des versions plus récentes de ce logiciel à votre propre calendrier.

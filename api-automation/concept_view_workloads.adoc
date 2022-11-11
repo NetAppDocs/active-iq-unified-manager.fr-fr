@@ -1,0 +1,53 @@
+---
+permalink: api-automation/concept_view_workloads.html 
+sidebar: sidebar 
+keywords: view, storage, workloads 
+summary: 'Les API répertoriées ici vous permettent d"afficher une liste consolidée des charges de travail de stockage pour tous les clusters ONTAP de votre data Center. Ces API fournissent également une vue synthétique du nombre de charges de travail de stockage provisionnées dans votre environnement Active IQ Unified Manager et de leurs statistiques de capacité et de performance (IOPS).' 
+---
+= Affichage des charges de travail de stockage à l'aide d'API
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Les API répertoriées ici vous permettent d'afficher une liste consolidée des charges de travail de stockage pour tous les clusters ONTAP de votre data Center. Ces API fournissent également une vue synthétique du nombre de charges de travail de stockage provisionnées dans votre environnement Active IQ Unified Manager et de leurs statistiques de capacité et de performance (IOPS).
+
+
+
+== Afficher les charges de travail de stockage
+
+Vous pouvez utiliser la méthode suivante pour afficher toutes les charges de travail de stockage dans tous les clusters de votre data Center. Pour plus d'informations sur le filtrage de la réponse en fonction de colonnes spécifiques, reportez-vous à la documentation de référence sur les API disponible dans votre instance Unified Manager.
+
+[cols="3*"]
+|===
+| Catégorie | Verbe HTTP | Chemin 
+
+
+ a| 
+fournisseur de stockage
+ a| 
+OBTENEZ
+ a| 
+`/storage-provider/workloads`
+
+|===
+
+
+== Affichez le récapitulatif des charges de travail de stockage
+
+Vous pouvez utiliser la méthode suivante pour évaluer la capacité utilisée, la capacité disponible, les IOPS utilisées, les IOPS disponibles et le nombre de charges de travail de stockage gérées par chaque niveau de service Performance. Les charges de travail de stockage qui s'affichent peuvent être pour tout partage de fichiers NFS, LUN ou CIFS. L'API offre une présentation des charges de travail de stockage, une vue d'ensemble des charges de travail de stockage provisionnées par Unified Manager, une présentation du data Center, un aperçu de l'espace total, utilisé et disponible et des IOPS dans le data Center, en termes de niveaux de service de performances attribués. Les informations reçues en réponse à cette API sont utilisées pour remplir le tableau de bord dans l'interface utilisateur d'Unified Manager.
+
+[cols="3*"]
+|===
+| Catégorie | Verbe HTTP | Chemin 
+
+
+ a| 
+fournisseur de stockage
+ a| 
+OBTENEZ
+ a| 
+`/storage-provider/workloads-summary`
+
+|===

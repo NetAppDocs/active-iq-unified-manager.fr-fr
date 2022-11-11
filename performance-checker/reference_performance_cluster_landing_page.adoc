@@ -1,0 +1,28 @@
+---
+permalink: performance-checker/reference_performance_cluster_landing_page.html 
+sidebar: sidebar 
+keywords: performance, cluster, landing page 
+summary: 'La page d"accueil Performance Cluster affiche l"état des performances de haut niveau d"un cluster sélectionné. Cette page vous permet d"accéder aux détails complets de chaque compteur de performances des objets de stockage du cluster sélectionné.' 
+---
+= Page d'accueil Performance Cluster
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+La page d'accueil Performance Cluster affiche l'état des performances de haut niveau d'un cluster sélectionné. Cette page vous permet d'accéder aux détails complets de chaque compteur de performances des objets de stockage du cluster sélectionné.
+
+La page d'accueil Performance Cluster contient quatre onglets qui séparent les détails du cluster dans quatre zones d'information :
+
+* Page récapitulative
++
+** Volet événements de cluster
+** Graphiques de performances en Mo/s et en IOPS
+** Volet objets gérés
+
+
+* Haut de la page artistes interprètes ou exécutants
+* Explorateur
+* Page d'informations
+

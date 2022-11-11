@@ -1,0 +1,55 @@
+---
+permalink: reporting/task_use_excel_to_customize_your_report.html 
+sidebar: sidebar 
+keywords: excel, customize, report 
+summary: 'Une fois la vue enregistrée, vous pouvez la télécharger au format classeur Excel (.xlsx). Lorsque vous ouvrez le fichier Excel, vous pouvez utiliser des fonctions Excel avancées pour personnaliser votre rapport.' 
+---
+= Utilisation d'Excel pour personnaliser votre rapport
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Une fois la vue enregistrée, vous pouvez la télécharger au format classeur Excel (.xlsx). Lorsque vous ouvrez le fichier Excel, vous pouvez utiliser des fonctions Excel avancées pour personnaliser votre rapport.
+
+*Ce dont vous aurez besoin*
+
+Vous ne pouvez charger qu'un fichier classeur Excel avec l'extension .xlsx.
+
+Par exemple, certaines fonctions Excel avancées que vous pouvez utiliser dans votre rapport sont les suivantes :
+
+* Tri multi-colonne
+* Filtrage complexe
+* Barres de coupe pivotantes
+* Graphiques
+
+
+[NOTE]
+====
+* Le fichier Excel téléchargé utilise le nom de fichier par défaut pour la vue, et non votre nom enregistré.
++
+** Le format est `<View Area>-<Day>-<Month>-<Year>-<Hour>-<Minute>-<Second>.xlsx.`
+** Par exemple, une vue enregistrée personnalisée nommée `Volumes-not online` a un nom de fichier de `health-volumes-05-May-2020-19-18-00.xlsx` si vous économisées à ce jour et à cette heure-là.
+
+
+* Vous pouvez ajouter des feuilles au fichier Excel, mais ne modifiez pas les feuilles existantes.
++
+** Ne modifiez pas les feuilles, données et informations existantes. Copiez plutôt les données sur une nouvelle page que vous créez.
+** Une exception à la règle ci-dessus est que vous pouvez créer des formules sur la page "`data". Utilisez les formules de page de données pour créer des graphiques sur de nouvelles pages.
+** Ne nommez pas de nouvelles données ou informations de feuille.
+
+
+* Si un fichier Excel personnalisé existe, une coche apparaît à côté de l'élément de menu *Rapports* > *Upload Excel*. Lorsque vous téléchargez le fichier Excel, la version avec les personnalisations est utilisée.image:../media/upload_excel.png[""]
+
+
+====
+.Étapes
+. Ouvrez la vue par défaut, personnalisée ou enregistrée que vous souhaitez utiliser comme base de votre rapport.
+. Sélectionnez *Rapports* > *Télécharger Excel*.
+. Enregistrez le fichier. Le fichier est enregistré dans votre dossier de téléchargements.
+. Ouvrez le fichier enregistré dans Excel. Ne déplacez pas le fichier vers un nouvel emplacement, ou si vous travaillez à un autre emplacement, enregistrez-le à l'emplacement d'origine à l'aide du nom de fichier d'origine avant de charger le fichier.
+. Personnalisez le fichier à l'aide des fonctions Excel, telles que les tri complexes, les filtres superposés, les tables de pivot ou les graphiques. Pour plus d'informations, consultez la documentation Microsoft® Excel.
+. Sélectionnez *Rapports* > *Upload Excel* et sélectionnez le fichier que vous avez modifié. Le fichier téléchargé le plus récemment est téléchargé à partir du même emplacement de fichier.
+. Envoyez-vous un rapport de test à l'aide de la fonction *Rapports programmés*.
+

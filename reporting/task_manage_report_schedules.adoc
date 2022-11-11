@@ -1,0 +1,62 @@
+---
+permalink: reporting/task_manage_report_schedules.html 
+sidebar: sidebar 
+keywords:  
+summary: Vous pouvez gérer vos planifications de rapports à partir de la page programmes de rapports. Vous pouvez afficher, modifier ou supprimer des planifications existantes. 
+---
+= Gestion des planifications de rapports
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez gérer vos planifications de rapports à partir de la page programmes de rapports. Vous pouvez afficher, modifier ou supprimer des planifications existantes.
+
+*Ce dont vous aurez besoin*
+
+[NOTE]
+====
+Vous ne pouvez pas programmer de nouveaux rapports à partir de la page Rapports horaires. Vous pouvez uniquement ajouter des rapports planifiés à partir des pages de stock d'objets.
+
+====
+* Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage Management* > *Report Schedules*.
+. Sur la page Rapports horaires :
++
+[cols="2*"]
+|===
+| Les fonctions que vous recherchez... | Alors... 
+
+
+ a| 
+Afficher un planning existant
+ a| 
+Faites défiler la liste des rapports existants à l'aide des barres de défilement et des commandes de page.
+
+
+
+ a| 
+Modifier une planification existante
+ a| 
+.. Cliquez sur l'icône plus image:../media/more_icon.gif[""] pour le planning que vous souhaitez utiliser.
+.. Cliquez sur *Modifier*.
+.. Apportez les modifications nécessaires.
+.. Cliquez sur la coche pour enregistrer vos modifications.
+
+
+
+
+ a| 
+Supprimer une planification existante
+ a| 
+.. Cliquez sur l'icône plus image:../media/more_icon.gif[""] pour le planning que vous souhaitez utiliser.
+.. Cliquez sur *Supprimer*.
+.. Confirmez votre décision.
+
+
+|===
+

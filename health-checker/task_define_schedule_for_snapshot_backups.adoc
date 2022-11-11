@@ -1,0 +1,54 @@
+---
+permalink: health-checker/task_define_schedule_for_snapshot_backups.html 
+sidebar: sidebar 
+keywords: define, backup, schedule, linux, windows, snapshot copy, copies 
+summary: 'Vous pouvez configurer la planification à laquelle les copies Snapshot de Unified Manager sont créées à l"aide de l"interface utilisateur d"Unified Manager.' 
+---
+= Définition d'un planning de sauvegarde pour Linux et Windows
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez configurer la planification à laquelle les copies Snapshot de Unified Manager sont créées à l'aide de l'interface utilisateur d'Unified Manager.
+
+*Ce dont vous aurez besoin*
+
+* Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
+* Vous devez avoir configuré les paramètres de création de copies Snapshot depuis la console de maintenance pour identifier la destination où les snapshots seront créés.
+
+
+Les copies Snapshot sont créées en quelques minutes seulement et la base de données Unified Manager est verrouillée pendant quelques secondes seulement.
+
+[NOTE]
+====
+Il se peut que la sauvegarde effectuée durant les 15 premiers jours d'un nouvel ajout de cluster ne soit pas assez précise pour obtenir l'historique des données de performances.
+
+====
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *général* > *sauvegarde de base de données*.
+. Dans la page *sauvegarde de base de données*, cliquez sur *Paramètres de sauvegarde*.
+. Saisissez le nombre maximal de copies Snapshot que vous souhaitez conserver dans le champ *Retention Count*.
++
+La valeur par défaut pour le nombre de rétention est 10. Le nombre maximal de copies Snapshot est déterminé par la version du logiciel ONTAP sur le cluster. Vous pouvez laisser ce champ vide pour implémenter la valeur maximale quelle que soit la version de ONTAP.
+
+. Sélectionnez le bouton *planifié quotidien* ou *planifié hebdomadaire*, puis spécifiez les détails de l'horaire.
+. Cliquez sur *appliquer*.
+
+
+Les copies Snapshot sont créées en fonction du planning. Vous pouvez voir les fichiers de sauvegarde disponibles dans la page sauvegarde de la base de données.
+
+En raison de l'importance de ce volume et des snapshots, il est possible que vous souhaitiez créer une ou deux alertes pour ce volume. Vous êtes donc averti lorsque :
+
+* L'espace du volume est plein à 90 %. Utilisez l'événement *Volume Space Full* pour configurer l'alerte.
++
+Vous pouvez ajouter de la capacité au volume à l'aide de ONTAP System Manager ou de l'interface de ligne de commandes ONTAP, de sorte que la base de données Unified Manager ne manque pas d'espace.
+
+* Le nombre d'instantanés est proche d'atteindre le nombre maximal. Utilisez l'événement *trop de copies snapshot* pour configurer l'alerte.
++
+Vous pouvez supprimer d'anciens snapshots à l'aide de ONTAP System Manager ou de l'interface de ligne de commandes ONTAP afin qu'il reste de la place pour les nouvelles copies Snapshot.
+
+
+
+Vous configurez les alertes dans la page Configuration des alertes.

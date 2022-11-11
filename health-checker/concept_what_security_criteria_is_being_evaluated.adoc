@@ -1,0 +1,31 @@
+---
+permalink: health-checker/concept_what_security_criteria_is_being_evaluated.html 
+sidebar: sidebar 
+keywords: security criteria, evaluated 
+summary: De manière générale, les critères de sécurité des clusters ONTAP, des machines virtuelles de stockage et des volumes sont évalués sur la base des recommandations définies dans le guide NetApp de renforcement de la sécurité des environnements ONTAP 9. 
+---
+= Quels sont les critères de sécurité évalués
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+De manière générale, les critères de sécurité des clusters ONTAP, des serveurs de stockage virtuels (SVM) et des volumes sont évalués avec les recommandations définies dans le _guide NetApp de renforcement de la sécurité de la solution ONTAP 9_.
+
+Voici quelques-unes des vérifications de sécurité :
+
+* Indique si un cluster utilise une méthode d'authentification sécurisée, par exemple SAML
+* les communications des clusters utilisant des canaux de connexion sont chiffrées
+* Indique si le journal des audits d'un serveur virtuel de stockage est activé
+* que le chiffrement logiciel ou matériel soit activé pour vos volumes
+
+
+Voir les rubriques sur les catégories de conformité et http://www.netapp.com/us/media/tr-4569.pdf["Guide NetApp sur le renforcement de la sécurité des environnements ONTAP 9"] pour des informations détaillées.
+
+[NOTE]
+====
+Les événements de mise à niveau signalés sur la plate-forme Active IQ sont également considérés comme des événements de sécurité. Ces événements identifient les problèmes liés à la résolution des problèmes lorsque vous devez mettre à niveau le logiciel ONTAP, le firmware des nœuds ou le logiciel du système d'exploitation (pour les conseils de sécurité). Ces événements ne sont pas affichés dans le panneau sécurité, mais ils sont disponibles dans la page d'inventaire gestion des événements.
+
+====
+Pour plus d'informations, voir link:..health-checker/concept_manage_cluster_security_objectives.html["Gestion des objectifs de sécurité des clusters"].

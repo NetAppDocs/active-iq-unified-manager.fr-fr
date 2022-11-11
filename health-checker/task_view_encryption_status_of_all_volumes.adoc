@@ -1,0 +1,32 @@
+---
+permalink: health-checker/task_view_encryption_status_of_all_volumes.html 
+sidebar: sidebar 
+keywords: view, encryption status, volumes 
+summary: Vous pouvez afficher la liste de tous les volumes, ainsi que leur état de cryptage actuel, afin de déterminer si les données de vos volumes sont correctement protégées contre tout accès par des utilisateurs non autorisés. 
+---
+= Affichage de l'état de chiffrement de tous les volumes
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez afficher la liste de tous les volumes, ainsi que leur état de cryptage actuel, afin de déterminer si les données de vos volumes sont correctement protégées contre tout accès par des utilisateurs non autorisés.
+
+*Ce dont vous aurez besoin*
+
+Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
+
+Les types de chiffrement pouvant être appliqués à un volume sont les suivants :
+
+* Logiciels : volumes protégés à l'aide de solutions NetApp Volume Encryption (NVE) ou de chiffrement logiciel de chiffrement d'agrégats NetApp (NAE).
+* Matériel : volumes protégés à l'aide du chiffrement matériel NetApp Storage Encryption (NSE).
+* Logiciel et matériel : volumes protégés par le chiffrement logiciel et matériel.
+* Aucun : volumes qui ne sont pas chiffrés.
+
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage* > *volumes*.
+. Dans le menu Affichage, sélectionnez *Santé* > *chiffrement des volumes*
+. Dans la vue *Santé : volumes Encryption*, triez le champ *Type de cryptage* ou utilisez le filtre pour afficher les volumes ayant un type de cryptage spécifique ou qui ne sont pas cryptés (Type de cryptage « aucun »).
+

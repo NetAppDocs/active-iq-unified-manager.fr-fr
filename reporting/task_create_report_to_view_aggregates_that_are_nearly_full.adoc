@@ -1,0 +1,43 @@
+---
+permalink: reporting/task_create_report_to_view_aggregates_that_are_nearly_full.html 
+sidebar: sidebar 
+keywords: create, report, view, aggregates, full 
+summary: 'Vous pouvez créer un rapport pour mettre en évidence les agrégats remplis à 80 % ou plus.' 
+---
+= Création d'un rapport pour afficher les agrégats complets d'au moins 80 %
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez créer un rapport pour mettre en évidence les agrégats remplis à 80 % ou plus.
+
+*Ce dont vous aurez besoin*
+
+* Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+
+
+Procédez comme suit pour créer une vue personnalisée affichant des agrégats complets d'au moins 80 %, puis planifiez la génération d'un rapport pour cette vue.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage* > *Aggregates*.
+. Dans le menu Affichage, sélectionnez *capacité* > *tous les agrégats*.
+. Sélectionnez *Afficher/Masquer* pour supprimer les colonnes que vous ne souhaitez pas inclure dans le rapport.
+. Faites glisser les colonnes « % de données disponibles » et « % de données utilisées » près de la colonne « agrégat ».
+. Cliquez sur l'icône de filtre, ajoutez les filtres suivants, puis cliquez sur *appliquer le filtre* :
++
+** Données utilisées % supérieur à 80 %
+
+
+. Cliquez sur le haut de la colonne « % de données utilisées » pour trier les résultats par pourcentage de capacité.
+. Enregistrez la vue avec un nom spécifique qui reflète ce que la vue affiche, par exemple « agrégats presque complets », puis cliquez sur la coche (image:../media/blue_check.gif[""]) .
+. Cliquez sur le bouton *Rapports planifiés* sur la page d'inventaire.
+. Cliquez sur *Ajouter un calendrier* pour ajouter une nouvelle ligne à la page programmes de rapports afin de définir les caractéristiques de planification du nouveau rapport.
+. Entrez un nom pour le planning du rapport et remplissez les autres champs du rapport, puis cliquez sur la coche (image:../media/blue_check.gif[""]) à la fin du rang.
++
+Le rapport est envoyé immédiatement sous forme de test. Ensuite, le rapport génère et est envoyé par e-mail aux destinataires répertoriés à l'aide de la fréquence spécifiée.
+
+
+
+En fonction des résultats présentés dans ce rapport, vous pouvez vouloir déplacer des données depuis certains agrégats.

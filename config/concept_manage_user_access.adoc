@@ -1,0 +1,14 @@
+---
+permalink: config/concept_manage_user_access.html 
+sidebar: sidebar 
+keywords: manage, user, access 
+summary: 'Vous pouvez créer des rôles et attribuer des fonctions pour contrôler l"accès des utilisateurs aux objets de cluster sélectionnés. Vous pouvez identifier les utilisateurs disposant des fonctionnalités requises pour accéder aux objets sélectionnés dans un cluster. Seuls ces utilisateurs ont accès pour gérer les objets du cluster.' 
+---
+= Gestion de l'accès des utilisateurs
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez créer des rôles et attribuer des fonctions permettant de contrôler l'accès des utilisateurs à Active IQ Unified Manager. Vous pouvez identifier les utilisateurs disposant des fonctionnalités requises pour accéder aux objets sélectionnés dans Unified Manager. Seuls les utilisateurs disposant de ces rôles et fonctionnalités peuvent gérer les objets dans Unified Manager.

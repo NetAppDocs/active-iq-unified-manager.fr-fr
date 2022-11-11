@@ -1,0 +1,59 @@
+---
+permalink: performance-checker/task_remove_performance_threshold_policies_from_storage_objects.html 
+sidebar: sidebar 
+keywords: remove, performance, threshold, policies, storage, objects 
+summary: 'Vous pouvez supprimer une règle de seuil de performance définie par l"utilisateur d"un objet de stockage lorsque vous ne souhaitez plus que Unified Manager contrôle la valeur du compteur de performances.' 
+---
+= Suppression des règles de seuil de performances des objets de stockage
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez supprimer une règle de seuil de performance définie par l'utilisateur d'un objet de stockage lorsque vous ne souhaitez plus que Unified Manager contrôle la valeur du compteur de performances.
+
+*Ce dont vous aurez besoin*
+
+Vous devez avoir le rôle Administrateur d'applications.
+
+Vous ne pouvez supprimer qu'une seule stratégie à la fois d'un objet sélectionné.
+
+Vous pouvez supprimer une règle de seuil de plusieurs objets de stockage en sélectionnant plusieurs objets dans la liste.
+
+.Étapes
+. Dans la page *Inventory* d'un objet de stockage, sélectionnez un ou plusieurs objets dont au moins une règle de seuil de performances est appliquée.
++
+|===
+| Pour effacer les seuils de... | Procédez comme ça... 
+
+
+ a| 
+Un seul objet
+ a| 
+Cochez la case située à gauche de cet objet.
+
+
+
+ a| 
+Objets multiples
+ a| 
+Cochez la case à gauche de chaque objet.
+
+
+
+ a| 
+Tous les objets de la page
+ a| 
+Cliquez sur image:../media/select_dropdown_65_png.gif[""] dans l'en-tête de colonne.
+
+|===
+. Cliquez sur *Effacer la stratégie de seuil de performances*.
++
+La page Effacer la stratégie de seuil s'affiche et affiche la liste des stratégies de seuil actuellement affectées aux objets de stockage.
+
+. Sélectionnez la stratégie de seuil à supprimer des objets et cliquez sur *Effacer la stratégie*.
++
+Lorsque vous sélectionnez une stratégie de seuil, les détails de la stratégie s'affichent pour vous permettre de confirmer que vous avez sélectionné la stratégie appropriée.
+
+

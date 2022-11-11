@@ -1,0 +1,43 @@
+---
+permalink: reporting/task_create_report_to_view_ha_pairs_with_most_available_capacity.html 
+sidebar: sidebar 
+keywords: create, report, view, HA pairs, available, capacity 
+summary: Vous pouvez créer un rapport pour trouver les paires haute disponibilité avec la plus grande capacité de provisionnement de nouveaux volumes et de nouvelles LUN. 
+---
+= Création d'un rapport pour afficher les paires haute disponibilité avec la capacité la plus disponible
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez créer un rapport pour trouver les paires haute disponibilité avec la plus grande capacité de provisionnement de nouveaux volumes et de nouvelles LUN.
+
+*Ce dont vous aurez besoin*
+
+* Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+
+
+Procédez comme suit pour créer une vue personnalisée affichant les paires haute disponibilité triées par la capacité la plus disponible pour provisionner de nouveaux volumes et LUN, puis planifiez la génération d'un rapport pour cette vue.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage* > *clusters*.
+. Dans le menu Affichage, sélectionnez *capacité* > *tous les clusters*.
+. Sélectionnez *Afficher/Masquer* pour supprimer les colonnes que vous ne souhaitez pas inclure dans le rapport.
+. Faites glisser la colonne « capacité inutilisée agrégée » près de la colonne « paire HA ».
+. Cliquez sur l'icône de filtre, ajoutez le filtre suivant, puis cliquez sur *appliquer le filtre* :
++
+** Capacité non utilisée de l'agrégat supérieure à 0.5 To
+
+
+. Cliquez sur la partie supérieure de la colonne « capacité non utilisée totale » pour trier les résultats par la plus grande quantité de capacité totale inutilisée.
+. Enregistrez la vue avec un nom spécifique qui reflète ce que la vue affiche, par exemple « capacité agrégée la moins utilisée », puis cochez la case (image:../media/blue_check.gif[""]).
+. Cliquez sur le bouton *Rapports planifiés* sur la page d'inventaire.
+. Cliquez sur *Ajouter un calendrier* pour ajouter une nouvelle ligne à la page programmes de rapports afin de définir les caractéristiques de planification du nouveau rapport.
+. Entrez un nom pour le planning du rapport et remplissez les autres champs du rapport, puis cliquez sur la coche (image:../media/blue_check.gif[""]) à la fin du rang.
++
+Le rapport est envoyé immédiatement sous forme de test. Ensuite, le rapport génère et est envoyé par e-mail aux destinataires répertoriés à l'aide de la fréquence spécifiée.
+
+
+
+En fonction des résultats présentés dans ce rapport, vous pouvez équilibrer les paires haute disponibilité en fonction de la capacité des agrégats.

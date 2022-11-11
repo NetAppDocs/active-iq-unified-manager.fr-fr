@@ -1,0 +1,33 @@
+---
+permalink: health-checker/concept_what_database_restore_is.html 
+sidebar: sidebar 
+keywords: unified manager, database, restore 
+summary: 'La restauration d"une base de données MySQL est le processus de restauration d"un fichier de sauvegarde Unified Manager existant sur le même serveur ou sur un serveur Unified Manager différent. Vous effectuez l"opération de restauration à partir de la console de maintenance de Unified Manager.' 
+---
+= Qu'est-ce qu'une restauration de base de données
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+La restauration d'une base de données MySQL est le processus de restauration d'un fichier de sauvegarde Unified Manager existant sur le même serveur ou sur un serveur Unified Manager différent. Vous effectuez l'opération de restauration à partir de la console de maintenance de Unified Manager.
+
+Si vous effectuez une opération de restauration sur le même système (local) et que les fichiers de sauvegarde sont tous stockés localement, vous pouvez exécuter l'option de restauration à l'aide de l'emplacement par défaut. Si vous effectuez une restauration sur un autre système Unified Manager (un système distant), vous devez copier le ou les fichiers de sauvegarde du stockage secondaire sur le disque local avant d'exécuter l'option de restauration.
+
+Durant le processus de restauration, vous êtes déconnecté de Unified Manager. Vous pouvez vous connecter au système une fois le processus de restauration terminé.
+
+Si vous restaurez l'image de sauvegarde sur un nouveau serveur, une fois l'opération de restauration terminée, vous devez générer un nouveau certificat de sécurité HTTPS et redémarrer le serveur Unified Manager. Vous devrez également reconfigurer les paramètres d'authentification SAML, s'ils sont nécessaires, lors de la restauration de l'image de sauvegarde sur un nouveau serveur.
+
+[NOTE]
+====
+Les anciens fichiers de sauvegarde ne peuvent pas être utilisés pour restaurer une image après la mise à niveau d'Unified Manager vers une version plus récente du logiciel. Pour économiser de l'espace, tous les anciens fichiers de sauvegarde, à l'exception du fichier le plus récent, sont supprimés automatiquement lorsque vous mettez à niveau Unified Manager.
+
+====
+*Informations connexes*
+
+link:../config/task_generate_an_https_security_certificate_ocf.html["Génération d'un certificat de sécurité HTTPS"]
+
+link:../config/task_enable_saml_authentication_um.html["Activation de l'authentification SAML"]
+
+link:../config/concept_authentication_with_active_directory_or_openldap.html["Authentification avec Active Directory ou OpenLDAP"]

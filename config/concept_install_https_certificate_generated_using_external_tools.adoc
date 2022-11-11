@@ -1,0 +1,119 @@
+---
+permalink: config/concept_install_https_certificate_generated_using_external_tools.html 
+sidebar: sidebar 
+keywords: install, HTTPS, certificate, generated from external tools 
+summary: 'Vous pouvez installer des certificats qui sont auto-signés ou qui sont générés à l"aide d"un outil externe tel que OpenSSL, BoringSSL, LetsEncrypt.' 
+---
+= Installation d'un certificat HTTPS généré à l'aide d'outils externes
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez installer des certificats qui sont auto-signés ou qui sont générés à l'aide d'un outil externe tel que OpenSSL, BoringSSL, LetsEncrypt.
+
+Vous devez charger la clé privée avec la chaîne de certificats car ces certificats sont des paires de clés publiques-privées générées par l'extérieur. Les algorithmes de paire de clés autorisés sont « RSA » et « EC ». L'option *installer le certificat HTTPS* est disponible dans la page certificats HTTPS de la section général. Le fichier que vous téléchargez doit avoir le format d'entrée suivant.
+
+. Clé privée du serveur appartenant à l'hôte Active IQ Unified Manager
+. Certificat du serveur correspondant à la clé privée
+. Certificat des autorités de certification en sens inverse jusqu'à la racine, qui sont utilisés pour signer le certificat ci-dessus
+
+
+
+
+== Format de chargement d'un certificat avec une paire de clés EC
+
+Les courbes autorisées sont « prime256v1 » et « sept-4r1 ». Exemple de certificat avec une paire EC générée en externe :
+
+[listing]
+----
+ -----BEGIN EC PRIVATE KEY-----
+<EC private key of Server>
+-----END EC PRIVATE KEY-----
+----
+[listing]
+----
+ -----BEGIN CERTIFICATE-----
+ <Server certificate>
+ -----END CERTIFICATE-----
+ -----BEGIN CERTIFICATE-----
+ <Intermediate certificate #1 (if present)>
+ -----END CERTIFICATE-----
+ -----BEGIN CERTIFICATE-----
+ <Intermediate certificate #2 (if present)>
+ -----END CERTIFICATE-----
+ -----BEGIN CERTIFICATE-----
+ <Root signing certificate>
+ -----END CERTIFICATE-----
+----
+
+
+== Format de chargement d'un certificat avec une paire de clés RSA
+
+Les tailles de clé autorisées pour la paire de clés RSA appartenant au certificat hôte sont 2048, 3072 et 4096. Certificat avec une paire de clés *RSA générée en externe* :
+
+[listing]
+----
+-----BEGIN RSA PRIVATE KEY-----
+ <RSA private key of Server>
+ -----END RSA PRIVATE KEY-----
+ -----BEGIN CERTIFICATE-----
+ <Server certificate>
+ -----END CERTIFICATE-----
+ -----BEGIN CERTIFICATE-----
+ <Intermediate certificate #1 (if present)>
+ -----END CERTIFICATE-----
+ -----BEGIN CERTIFICATE-----
+ <Intermediate certificate #2 (if present)>
+ -----END CERTIFICATE-----
+ -----BEGIN CERTIFICATE-----
+ <Root signing certificate>
+ -----END CERTIFICATE-----
+----
+Une fois le certificat téléchargé, vous devez redémarrer l'instance Active IQ Unified Manager pour que les modifications prennent effet.
+
+
+
+== Vérifie lors du téléchargement de certificats générés en externe
+
+Le système effectue des vérifications pendant le chargement d'un certificat généré à l'aide d'outils externes. Si l'une des vérifications échoue, le certificat est rejeté. Il existe également une validation pour les certificats générés à partir de la RSC dans le produit et pour les certificats générés à l'aide d'outils externes.
+
+* La clé privée de l'entrée est validée par rapport au certificat hôte dans l'entrée.
+* Le nom commun (CN) du certificat hôte est vérifié par rapport au FQDN de l'hôte.
+* Le nom commun (CN) du certificat hôte ne doit pas être vide ou vide et ne doit pas être défini sur localhost.
+* La date de début de validité ne doit pas être ultérieure et la date d'expiration de validité du certificat ne doit pas être antérieure.
+* Si une autorité de certification intermédiaire ou une autorité de certification existe, la date de début de validité du certificat ne doit pas être ultérieure et la date d'expiration de la validité ne doit pas être antérieure.
+
+
+[NOTE]
+====
+La clé privée de l'entrée ne doit pas être chiffrée. Si des clés privées sont cryptées, elles sont rejetées par le système.
+
+====
+Exemple 1
+
+[listing]
+----
+----BEGIN ENCRYPTED PRIVATE KEY-----
+<Encrypted private key>
+-----END ENCRYPTED PRIVATE KEY-----
+----
+Exemple 2
+
+[listing]
+----
+-----BEGIN RSA PRIVATE KEY-----
+Proc-Type: 4,ENCRYPTED
+<content here>
+-----END RSA PRIVATE KEY-----
+----
+Exemple 3
+
+[listing]
+----
+-----BEGIN EC PRIVATE KEY-----
+Proc-Type: 4,ENCRYPTED
+<content here>
+-----END EC PRIVATE KEY-----
+----

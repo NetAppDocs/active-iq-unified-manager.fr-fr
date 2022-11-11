@@ -1,0 +1,49 @@
+---
+permalink: performance-checker/task_respond_to_performance_incident_caused_by_disk_failure.html 
+sidebar: sidebar 
+keywords: dynamic, performance, event, disk, failure 
+summary: 'Vous pouvez utiliser Unified Manager pour analyser un événement de performances provoqué par l"utilisation excessive d"un agrégat par des charges de travail. Vous pouvez également utiliser Unified Manager pour vérifier l"état de santé de l"agrégat et vérifier si les événements récemment détectés sur l"agrégat ont contribué à ce qui se passe.' 
+---
+= Réponse à un événement de performance dynamique provoqué par une panne de disque
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez utiliser Unified Manager pour analyser un événement de performances provoqué par l'utilisation excessive d'un agrégat par des charges de travail. Vous pouvez également utiliser Unified Manager pour vérifier l'état de santé de l'agrégat et vérifier si les événements récemment détectés sur l'agrégat ont contribué à ce qui se passe.
+
+*Ce dont vous aurez besoin*
+
+* Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
+* Il doit y avoir des événements de performances nouveaux, acquittés ou obsolètes.
+
+
+.Étapes
+. Affichez la page *Détails de l'événement* pour afficher des informations sur l'événement.
+. Lisez la *Description*, qui décrit les charges de travail impliquées dans l'événement et le composant de cluster en conflit.
++
+Plusieurs volumes victime sont affectés par des conflits entre le composant du cluster. L'agrégat, qui se trouve au milieu d'une reconstruction RAID pour remplacer le disque défectueux par un disque de spare, est le composant du cluster en conflit. Sous composant en conflit, l'icône d'agrégat est mise en surbrillance rouge et le nom de l'agrégat est affiché entre parenthèses.
+
+. Dans le graphique utilisation des charges de travail, sélectionnez *charges de travail vitales*.
+. Placez le curseur de la souris sur le graphique pour afficher les principales charges de travail dominantes qui affectent le composant.
++
+Les charges de travail les plus exigeantes avec une utilisation maximale depuis la détection de l'événement sont affichées en haut du graphique. L'un des workloads les plus importants est le système de stockage sur disque défini par le système, qui indique une reconstruction RAID. La reconstruction est le processus interne impliqué dans la reconstruction de l'agrégat sur le disque de spare. La charge de travail Disk Health, associée à d'autres charges de travail de l'agrégat, a probablement provoqué un conflit sur l'agrégat et l'événement associé.
+
+. Après avoir confirmé que l'activité de la charge de travail Disk Health a provoqué l'événement, attendez environ 30 minutes que la reconstruction se termine, et que Unified Manager analyse l'événement et détecte si l'agrégat est toujours en conflit.
+. Actualiser les *Détails de l'événement*.
++
+Une fois la reconstruction RAID terminée, vérifiez que l'état est obsolète, ce qui indique que l'événement est résolu.
+
+. Dans le graphique utilisation des charges de travail, sélectionnez *charges de travail vitales* pour afficher les charges de travail de l'agrégat en fonction du pic d'utilisation.
+. Dans la zone *actions suggérées*, cliquez sur le bouton *analyser la charge de travail* pour la charge de travail supérieure.
+. Dans la page *Workload Analysis*, définissez la plage horaire pour afficher les 24 dernières heures (1 jour) de données pour le volume sélectionné.
++
+Dans la chronologie des événements, un point rouge (image:../media/opm_incident_icon_png.gif["Icône d'incident de Performance Manager"]) indique quand l'événement de panne de disque s'est produit.
+
+. Dans le graphique utilisation des nœuds et de l'agrégat, masquez la ligne des statistiques de nœud afin que la ligne d'agrégat soit toujours la seule.
+. Comparez les données de ce tableau aux données au moment de l'événement dans le graphique *latence*.
++
+Au moment de l'événement, l'utilisation de l'agrégat affiche une quantité élevée d'activités de lecture et d'écriture, causée par les processus de reconstruction RAID, qui a augmenté la latence du volume sélectionné. Quelques heures après l'événement s'est produit, les lectures, les écritures et la latence ont diminué, confirmant que l'agrégat n'est plus en conflit.
+
+

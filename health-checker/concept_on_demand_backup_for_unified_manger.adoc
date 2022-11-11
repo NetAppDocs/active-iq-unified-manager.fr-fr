@@ -1,0 +1,16 @@
+---
+permalink: health-checker/concept_on_demand_backup_for_unified_manger.html 
+sidebar: sidebar 
+keywords: backup, on-demand, unified manager 
+summary: 'Vous pouvez utiliser l"interface utilisateur de Active IQ Unified Manager pour générer des sauvegardes à la demande à tout moment. La sauvegarde à la demande vous permet de créer instantanément une sauvegarde à l"aide de la méthode de sauvegarde existante. La sauvegarde à la demande ne fait pas de différence entre la sauvegarde MySQL ou NetApp Snapshot.' 
+---
+= Sauvegarde à la demande pour Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez utiliser l'interface utilisateur de Active IQ Unified Manager pour générer des sauvegardes à la demande à tout moment. La sauvegarde à la demande vous permet de créer instantanément une sauvegarde à l'aide de la méthode de sauvegarde existante. La sauvegarde à la demande ne fait pas de différence entre la sauvegarde MySQL ou NetApp Snapshot.
+
+Vous pouvez effectuer une sauvegarde à la demande à l'aide du bouton *Sauvegarder maintenant* de la page sauvegarde de base de données. La sauvegarde à la demande ne dépend pas des plannings que vous avez configurés pour Active IQ Unified Manager.

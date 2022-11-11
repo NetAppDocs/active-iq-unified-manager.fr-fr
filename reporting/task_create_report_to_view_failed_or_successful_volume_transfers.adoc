@@ -1,0 +1,37 @@
+---
+permalink: reporting/task_create_report_to_view_failed_or_successful_volume_transfers.html 
+sidebar: sidebar 
+keywords: create, report, view, failed, successful, volume, transfer 
+summary: 'Vous pouvez créer un rapport qui affiche l"état des transferts de volume. Vous pouvez afficher les transferts de volumes ayant échoué et ayant réussi dans ce rapport.' 
+---
+= Création d'un rapport pour afficher le transfert de volume ayant échoué ou réussi
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez créer un rapport qui affiche l'état des transferts de volume. Vous pouvez afficher les transferts de volumes ayant échoué et ayant réussi dans ce rapport.
+
+*Ce dont vous aurez besoin*
+
+* Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+
+
+Procédez comme suit pour créer une vue personnalisée pour afficher les transferts ayant échoué et les transferts réussis, puis planifier la génération d'un rapport pour cette vue.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage* > *volumes*.
+. Dans le menu Affichage, sélectionnez *relation* > *État transfert du dernier mois*.
+. Sélectionnez *Afficher/Masquer* pour supprimer les colonnes que vous ne souhaitez pas inclure dans le rapport.
+. Faites glisser la colonne « résultat d'opération » près de la colonne « Enregistrer ».
+. Cliquez sur le haut de la colonne « résultat d'opération » pour trier les volumes selon l'état.
+. Enregistrez la vue avec un nom spécifique qui reflète ce que la vue affiche, par exemple « volumes par statut de transfert ».
+. Cliquez sur le bouton *Rapports planifiés* sur la page d'inventaire.
+. Entrez un nom pour le planning du rapport et remplissez les autres champs du rapport, puis cliquez sur la coche (image:../media/blue_check.gif[""]) à la fin du rang.
++
+Le rapport est envoyé immédiatement sous forme de test. Ensuite, le rapport génère et est envoyé par e-mail aux destinataires répertoriés à l'aide de la fréquence spécifiée.
+
+
+
+En fonction des résultats affichés dans le rapport, vous pouvez étudier l'état du transfert.

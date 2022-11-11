@@ -1,0 +1,39 @@
+---
+permalink: storage-mgmt/task_change_time_um_retains_event_performance_data.html 
+sidebar: sidebar 
+keywords: change, length, time, unified manager, retains, event, performance, data 
+summary: 'Par défaut, Unified Manager stocke les données d"événements et de performances pendant 6 mois pour l"ensemble des clusters surveillés. Après cette période, les données plus anciennes sont automatiquement supprimées pour faire place aux nouvelles données. Cette durée de conservation par défaut fonctionne parfaitement dans la plupart des configurations, mais de très grandes configurations comprenant plusieurs clusters et nœuds peuvent être nécessaires pour réduire la période de conservation afin que Unified Manager fonctionne de façon optimale.' 
+---
+= Modification de la durée pendant laquelle Unified Manager conserve les données relatives aux événements et aux performances
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Par défaut, Unified Manager stocke les données d'événements et de performances pendant 6 mois pour l'ensemble des clusters surveillés. Après cette période, les données plus anciennes sont automatiquement supprimées pour faire place aux nouvelles données. Cette durée de conservation par défaut fonctionne parfaitement dans la plupart des configurations, mais de très grandes configurations comprenant plusieurs clusters et nœuds peuvent être nécessaires pour réduire la période de conservation afin que Unified Manager fonctionne de façon optimale.
+
+*Ce dont vous aurez besoin*
+
+Vous devez avoir le rôle Administrateur d'applications.
+
+Vous pouvez modifier les périodes de conservation de ces deux types de données dans la page conservation des données. Ces paramètres ont un impact sur la conservation des données depuis tous les clusters qui surveillent cette instance de Unified Manager.
+
+[NOTE]
+====
+Unified Manager collecte les statistiques de performances toutes les 5 minutes. Chaque jour, les statistiques de 5 minutes sont résumées en statistiques de performance horaire. Il conserve 30 jours de données historiques de performances de 5 minutes et 6 mois de données résumées de la performance horaire (par défaut).
+
+====
+La durée de conservation doit être réduite uniquement si votre espace est insuffisant ou si la sauvegarde et d'autres opérations prennent beaucoup de temps. La réduction de la période de rétention a les effets suivants :
+
+* Les anciennes données de performances sont supprimées de la base de données Unified Manager après minuit.
+* Les anciennes données d'événement sont immédiatement supprimées de la base de données Unified Manager.
+* Les événements antérieurs à la période de conservation ne seront plus disponibles dans l'interface utilisateur.
+* Les emplacements dans l'interface utilisateur où les statistiques de performance horaire sont affichées sont vides avant la période de conservation.
+* Si la période de conservation des événements dépasse la période de rétention des données de performances, un message s'affiche sous le curseur de performances, vous avertissant que les événements de performance plus anciens peuvent ne pas contenir de données de sauvegarde dans leurs graphiques associés.
+
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Policies* > *Data Retention*.
+. Dans la page *Data Retention*, sélectionnez l'outil curseur dans la zone conservation des événements ou conservation des données de performances et déplacez-le au nombre de mois pendant lesquels les données doivent être conservées, puis cliquez sur *Enregistrer*.
+

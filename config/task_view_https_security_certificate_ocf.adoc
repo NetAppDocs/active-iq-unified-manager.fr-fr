@@ -1,0 +1,29 @@
+---
+permalink: config/task_view_https_security_certificate_ocf.html 
+sidebar: sidebar 
+keywords: view, https, security, certificate 
+summary: 'Vous pouvez comparer les détails du certificat HTTPS au certificat récupéré dans votre navigateur pour vous assurer que la connexion chiffrée de votre navigateur à Unified Manager n"est pas interceptée.' 
+---
+= Affichage du certificat de sécurité HTTPS
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez comparer les détails du certificat HTTPS au certificat récupéré dans votre navigateur pour vous assurer que la connexion chiffrée de votre navigateur à Unified Manager n'est pas interceptée.
+
+*Ce dont vous aurez besoin*
+
+Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
+
+L'affichage du certificat vous permet de vérifier le contenu d'un certificat régénéré ou d'afficher les noms des objets (SAN) à partir desquels vous pouvez accéder à Unified Manager.
+
+.Étape
+. Dans le volet de navigation de gauche, cliquez sur *général* > *certificat HTTPS*.
++
+Le certificat HTTPS s'affiche en haut de la page
+
+
+
+Si vous avez besoin d'afficher des informations plus détaillées sur le certificat de sécurité par rapport à ce qui s'affiche sur la page certificat HTTPS, vous pouvez afficher le certificat de connexion dans votre navigateur.

@@ -1,0 +1,37 @@
+---
+permalink: data-protection/reference_relationship_last_1_month_transfer_rate_view.html 
+sidebar: sidebar 
+keywords: relationship, 1 month, transfer rate, view 
+summary: 'La vue relation : taux de transfert du dernier mois vous permet d"analyser la quantité de volume de données qui est transférée au quotidien pour les volumes dans des relations asynchrones. Cette page fournit également des informations détaillées sur les transferts quotidiens et le temps requis pour l"opération de transfert pour les volumes et les machines virtuelles de stockage.' 
+---
+= Relation : vue du taux de transfert du dernier mois
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+La vue relation : taux de transfert du dernier mois vous permet d'analyser la quantité de volume de données qui est transférée au quotidien pour les volumes dans des relations asynchrones. Cette page fournit également des informations détaillées sur les transferts quotidiens et le temps requis pour l'opération de transfert pour les volumes et les machines virtuelles de stockage.
+
+Les commandes situées en haut de la page vous permettent d'effectuer des recherches pour localiser des objets spécifiques, créer et appliquer des filtres pour limiter la liste des données affichées, ajouter/supprimer/réorganiser des colonnes de la page et exporter les données de la page vers un fichier .csv, .PDF ou .xlsx. Après avoir personnalisé la page, vous pouvez enregistrer les résultats sous forme de vue personnalisée, puis planifier régulièrement un rapport de ces données à générer et à envoyer par e-mail. Par exemple, si vous souhaitez afficher les relations de volume, vous pouvez accéder au menu *Storage* > *volumes* > *relationship: 1 dernier mois transfert Rate* ou accéder au menu *protection* > *relations* > *relations:dernier 1 mois transfert Rate* et utiliser *Filter* pour afficher uniquement les données des volumes.
+
+* *Taille totale du transfert*
++
+Affiche la taille totale du transfert de volume en gigaoctets.
+
+* *Jour*
++
+Affiche le jour où le transfert de volume a été lancé.
+
+* *Heure de fin*
++
+Affiche l'heure de fin du transfert de volume avec date.
+
+
+
+*Informations connexes*
+
+* Pour plus d'informations sur la vue *Relationship:MetroCluster*, reportez-vous à la section link:../storage-mgmt/task_monitor_metrocluster_configurations.html["Contrôle des configurations MetroCluster"].
+* Pour plus d'informations sur la *relation : vue État transfert du dernier mois*, voir link:../data-protection/reference_relationship_last_1_month_transfer_status_view.html["Relation : vue État transfert du dernier mois"].
+* Pour plus d'informations sur la vue *relation : toutes les relations*, voir link:../data-protection/reference_relationship_last_1_month_transfer_rate_view.html["Relation : vue du taux de transfert du dernier mois"]
+

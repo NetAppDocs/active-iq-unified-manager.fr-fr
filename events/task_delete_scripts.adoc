@@ -1,0 +1,26 @@
+---
+permalink: events/task_delete_scripts.html 
+sidebar: sidebar 
+keywords: delete, scripts 
+summary: 'Vous pouvez supprimer un script d"Unified Manager lorsque le script n"est plus nécessaire ou valide.' 
+---
+= Suppression de scripts
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez supprimer un script d'Unified Manager lorsque le script n'est plus nécessaire ou valide.
+
+*Ce dont vous aurez besoin*
+
+* Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+* Le script ne doit pas être associé à une alerte.
+
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage Management* > *scripts*.
+. Dans la page *scripts*, sélectionnez le script que vous souhaitez supprimer, puis cliquez sur *Supprimer*.
+. Dans la boîte de dialogue *Avertissement*, confirmez la suppression en cliquant sur *Oui*.
+

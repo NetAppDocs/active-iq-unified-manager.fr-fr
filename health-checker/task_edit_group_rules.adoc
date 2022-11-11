@@ -1,0 +1,31 @@
+---
+permalink: health-checker/task_edit_group_rules.html 
+sidebar: sidebar 
+keywords: edit, group rules 
+summary: 'Vous pouvez modifier des règles de groupe pour modifier les groupes de condition et les conditions d"un groupe de conditions afin d"ajouter ou de supprimer des objets de stockage dans ou d"un groupe spécifique.' 
+---
+= Modification des règles de groupe
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez modifier des règles de groupe pour modifier les groupes de condition et les conditions d'un groupe de conditions afin d'ajouter ou de supprimer des objets de stockage dans ou d'un groupe spécifique.
+
+*Ce dont vous aurez besoin*
+
+Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage Management* > *Groups*.
+. Dans l'onglet *règles de groupe*, sélectionnez la règle de groupe à modifier, puis cliquez sur *Modifier*.
+. Dans la boîte de dialogue *Modifier la règle de groupe*, modifiez le nom de la règle de groupe, le nom du groupe associé, les groupes de condition et les conditions selon les besoins.
++
+[NOTE]
+====
+Vous ne pouvez pas modifier le type d'objet cible d'une règle de groupe.
+
+====
+. Cliquez sur *Enregistrer*.
+

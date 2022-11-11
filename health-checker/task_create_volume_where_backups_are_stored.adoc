@@ -1,0 +1,52 @@
+---
+permalink: health-checker/task_create_volume_where_backups_are_stored.html 
+sidebar: sidebar 
+keywords: configure, snapshot copy, copies location 
+summary: 'Vous pouvez configurer le volume sur lequel les copies Snapshot seront stockées sur l"un de vos clusters ONTAP à l"aide de ONTAP System Manager ou de l"interface de ligne de commandes ONTAP.' 
+---
+= Configuration de l'emplacement de la copie Snapshot
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez configurer le volume sur lequel les copies Snapshot seront stockées sur l'un de vos clusters ONTAP à l'aide de ONTAP System Manager ou de l'interface de ligne de commandes ONTAP.
+
+*Ce dont vous aurez besoin*
+
+Le cluster, la VM de stockage et le volume doivent satisfaire aux exigences suivantes :
+
+* Configuration requise pour le cluster :
++
+** ONTAP 9.3 ou version ultérieure doit être installé
+** Elle doit se trouver géographiquement proche du serveur Unified Manager
+** Il peut être surveillé par Unified Manager, mais ce n'est pas nécessaire
+
+
+* Configuration requise pour les machines virtuelles de stockage :
++
+** Le commutateur de nom et le mappage de nom doivent être définis pour utiliser « fichiers ».
+** Les utilisateurs locaux créés pour correspondre aux utilisateurs côté client
+** Assurez-vous que tous les accès en lecture/écriture sont sélectionnés
+** Assurez-vous que Superuser Access est défini sur « n'importe quel » dans la politique d'exportation
+** NFS pour NetApp Snapshot pour Linux
+** NFSv4 doit être activé sur le serveur NFS et le domaine ID NFSv4 spécifié sur le client et le VM de stockage
+** Le volume doit avoir au moins deux fois la taille du répertoire Unified Manager/opt/netapp/Data
++
+Utilisez la commande du -sh /opt/netapp/data/ pour vérifier la taille actuelle.
+
+
+
+* Volume requis :
++
+** Le volume doit avoir au moins deux fois la taille du répertoire Unified Manager /opt/netapp/data
+** Le style de sécurité doit être défini sur UNIX
+** La stratégie de snapshot local doit être désactivée
+** La taille automatique du volume doit être activée
+** Le niveau de services de performance doit être défini à une règle avec des IOPS élevées et une faible latence, telles que « extrême »
+
+
+
+
+Pour obtenir des instructions détaillées sur la création du volume NFS, reportez-vous à la section https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_configure_NFSv4_in_Cluster-Mode["Comment configurer NFSv4 dans ONTAP 9"] et le http://docs.netapp.com/ontap-9/topic/com.netapp.doc.exp-nfsv3-cg/home.html["Guide de configuration rapide ONTAP 9 NFS"].

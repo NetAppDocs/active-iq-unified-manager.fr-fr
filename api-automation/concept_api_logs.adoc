@@ -1,0 +1,57 @@
+---
+permalink: api-automation/concept_api_logs.html 
+sidebar: sidebar 
+keywords: logs, troubleshooting 
+summary: 'Les journaux système vous permettent d"analyser les causes des défaillances et de résoudre les problèmes susceptibles de survenir lors de l"exécution des API.' 
+---
+= Journaux pour le dépannage
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Les journaux système vous permettent d'analyser les causes des défaillances et de résoudre les problèmes susceptibles de survenir lors de l'exécution des API.
+
+Récupérez les journaux à partir de l'emplacement suivant pour résoudre les problèmes liés aux appels API.
+
+[cols="2*"]
+|===
+| Emplacement du journal | Utiliser 
+
+
+ a| 
+`/var/log/ocie/access_log.log`
+ a| 
+Contient tous les détails d'appel API, tels que le nom d'utilisateur de l'utilisateur appelant l'API, l'heure de début, l'heure d'exécution, l'état et l'URL.
+
+Vous pouvez utiliser ce fichier journal pour vérifier les API fréquemment utilisées ou pour dépanner n'importe quel workflow de l'interface graphique. Vous pouvez également l'utiliser pour mettre l'analyse à l'échelle, en fonction du temps d'exécution.
+
+
+
+ a| 
+`/var/log/ocum/ocumserver.log`
+ a| 
+Contient tous les journaux d'exécution de l'API.
+
+Vous pouvez utiliser ce fichier journal pour dépanner et déboguer les appels API.
+
+
+
+ a| 
+`/var/log/ocie/server.log`
+ a| 
+Contient tous les déploiements de serveur Wildfly et journaux relatifs au service de démarrage/arrêt.
+
+Vous pouvez utiliser ce fichier journal pour trouver la cause principale de tout problème survenant au cours du démarrage, de l'arrêt ou du déploiement du serveur Wildfly.
+
+
+
+ a| 
+`/var/log/ocie/au.log`
+ a| 
+Contient les journaux relatifs à l'unité d'acquisition.
+
+Vous pouvez utiliser ce fichier journal lors de la création, de la modification ou de la suppression d'objets dans ONTAP, mais ils ne sont pas répercutés pour les API REST de Active IQ Unified Manager.
+
+|===

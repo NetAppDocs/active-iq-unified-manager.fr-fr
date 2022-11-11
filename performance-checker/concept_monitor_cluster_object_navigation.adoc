@@ -1,0 +1,28 @@
+---
+permalink: performance-checker/concept_monitor_cluster_object_navigation.html 
+sidebar: sidebar 
+keywords: monitor, cluster, object, navigation 
+summary: Vous pouvez contrôler les performances de tous les objets de tout cluster géré par Unified Manager. La surveillance des objets de stockage vous fournit des informations sur la performance du cluster et des objets, et inclut le contrôle des événements de performance. Vous pouvez afficher les performances et les événements de manière générale, ou étudier plus en détail les événements de performances et de performance des objets. 
+---
+= Contrôle de la navigation sur les objets du cluster
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez contrôler les performances de tous les objets de tout cluster géré par Unified Manager. La surveillance des objets de stockage vous fournit des informations sur la performance du cluster et des objets, et inclut le contrôle des événements de performance. Vous pouvez afficher les performances et les événements de manière générale, ou étudier plus en détail les événements de performances et de performance des objets.
+
+Voici un exemple de nombreuses navigations d'objets de cluster possibles :
+
+. Dans la page Tableau de bord, vérifiez les détails du volet capacité de performance pour identifier le cluster qui utilise la capacité la plus performante et cliquez sur le graphique à barres pour accéder à la liste des nœuds de ce cluster.
+. Identifiez le nœud dont la capacité en termes de performances est la plus élevée utilisée, puis cliquez sur ce nœud.
+. Sur la page Explorateur de nœuds/performances, cliquez sur *Aggregates sur ce noeud* dans le menu Afficher et Comparer.
+. Identifiez l'agrégat qui utilise la capacité de performances la plus élevée, puis cliquez sur cet agrégat.
+. Dans la page de l'explorateur de performances/d'agrégats, cliquez sur *volumes sur cet agrégat* dans le menu View and compare.
+. Identifiez les volumes qui utilisent le plus d'IOPS.
+
+
+Vous devez étudier ces volumes afin de déterminer si vous devez appliquer une règle de QoS ou une règle de niveau de service de performances, ou modifier les paramètres des règles, de sorte que ces volumes n'utilisent pas un pourcentage aussi important d'IOPS sur le cluster.
+
+image::../media/monitor_cluster_object.png[contrôle de l'objet cluster]

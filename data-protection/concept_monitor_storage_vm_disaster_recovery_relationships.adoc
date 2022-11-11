@@ -1,0 +1,18 @@
+---
+permalink: data-protection/concept_monitor_storage_vm_disaster_recovery_relationships.html 
+sidebar: sidebar 
+keywords: disaster recovery, monitor, storage vm protection, relationships 
+summary: 'Active IQ Unified Manager prend en charge la surveillance des relations de reprise après incident des VM de stockage, qui assure la reprise après incident au niveau de la granularité d"une VM de stockage. La reprise après incident de l"ordinateur virtuel de stockage permet de récupérer les données présentes dans les volumes constitutifs du serveur virtuel de stockage et la restauration de la configuration de cette machine virtuelle de stockage.' 
+---
+= Surveiller les relations de protection contre les reprises après incident des machines virtuelles de stockage
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Active IQ Unified Manager prend en charge la surveillance des relations de reprise après incident des VM de stockage, qui assure la reprise après incident au niveau de la granularité d'une VM de stockage. La reprise après incident de l'ordinateur virtuel de stockage permet de récupérer les données présentes dans les volumes constitutifs du serveur virtuel de stockage et la restauration de la configuration de cette machine virtuelle de stockage.
+
+Une relation de reprise après incident de machine virtuelle de stockage est créée à partir de la machine virtuelle de stockage source vers la machine virtuelle de stockage cible afin de permettre une reprise après incident asynchrone. Vous pouvez choisir de répliquer l'ensemble ou un sous-ensemble de la configuration de la machine virtuelle de stockage (à l'exception de la configuration du réseau et du protocole) ainsi que les volumes de données basés sur le cluster setup.
+
+Après la relation de reprise après incident de la machine virtuelle de stockage est configurée, lorsque la machine virtuelle de stockage source devient indisponible en raison d'une défaillance matérielle ou d'un incident environnemental, la machine virtuelle de stockage de destination démarre, ce qui permet d'accéder aux données avec une interruption minimale. De la même façon, lorsque la machine virtuelle de stockage source est disponible, elle est resynchronisée sur la machine virtuelle de stockage de destination, puis elle redémarre pour fournir les données. Vous pouvez utiliser des commandes SnapMirror pour configurer et gérer la relation de reprise d'activité des machines virtuelles de stockage.

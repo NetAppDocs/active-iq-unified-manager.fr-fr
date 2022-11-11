@@ -1,0 +1,36 @@
+---
+permalink: reporting/task_edit_scheduled_reports.html 
+sidebar: sidebar 
+keywords: editing, schedule, reports 
+summary: Une fois les rapports planifiés, vous pouvez les modifier sur la page Rapports programmes. 
+---
+= Modification des rapports planifiés
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Une fois les rapports planifiés, vous pouvez les modifier sur la page Rapports programmes.
+
+*Ce dont vous aurez besoin*
+
+* Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage Management* > *Report Schedules*.
++
+image::../media/scheduled_reports_2.gif[rapports planifiés 2]
+
++
+[NOTE]
+====
+Si vous disposez des autorisations appropriées, vous pouvez modifier n'importe quel rapport et son planning dans le système.
+
+====
+. Cliquez sur l'icône plus image:../media/more_icon.gif[""] pour l'horaire que vous souhaitez modifier.
+. Cliquez sur *Modifier*.
+. Vous pouvez modifier le *Nom de l'annexe*, *liste des destinataires*, *fréquence* et *format* pour le calendrier des rapports.
+. Lorsque vous avez terminé, cliquez sur la coche pour enregistrer vos modifications.
+

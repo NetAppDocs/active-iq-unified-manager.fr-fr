@@ -1,0 +1,33 @@
+---
+permalink: health-checker/task_configure_lag_threshold_settings_for_unmanaged_protection.html 
+sidebar: sidebar 
+keywords: configure, lag, threshold settings, unmanaged, protection, relationships 
+summary: 'Vous pouvez modifier les paramètres de seuil d"avertissement de décalage global par défaut et d"intégrité des erreurs pour les relations de protection non gérées afin que les événements soient générés à des intervalles adaptés à vos besoins.' 
+---
+= Configuration des paramètres de seuil de décalage pour les relations de protection non gérées
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez modifier les paramètres de seuil d'avertissement de décalage global par défaut et d'intégrité des erreurs pour les relations de protection non gérées afin que les événements soient générés à des intervalles adaptés à vos besoins.
+
+*Ce dont vous aurez besoin*
+
+Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+
+Le temps de décalage ne doit pas dépasser l'intervalle de planification de transfert défini. Par exemple, si la planification de transfert est horaire, la durée de décalage ne doit pas dépasser une heure. Le seuil de décalage indique un pourcentage que le temps de décalage ne doit pas dépasser. Dans l'exemple d'une heure, si le seuil de décalage est défini sur 150 %, vous recevrez un événement lorsque le temps de décalage est supérieur à 1.5 heures.
+
+Les paramètres décrits dans cette tâche sont appliqués globalement à toutes les relations de protection non gérées. Les paramètres ne peuvent pas être spécifiés et appliqués exclusivement à une relation de protection non gérée.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *seuils d'événements* > *relation*.
+. Augmentez ou réduisez le pourcentage de temps d'avertissement ou de retard d'erreur global par défaut, selon les besoins.
+. Pour désactiver le déclenchement d'un événement d'avertissement ou d'erreur à partir de n'importe quel seuil de décalage, décochez la case en regard de *activé*.
+. Cliquez sur *Enregistrer*.
+
+
+*Informations connexes*
+
+link:../config/task_add_users.html["Ajout d'utilisateurs"]

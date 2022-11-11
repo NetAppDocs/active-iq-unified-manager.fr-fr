@@ -1,0 +1,25 @@
+---
+permalink: reporting/concept_understand_reports.html 
+sidebar: sidebar 
+keywords: understanding, reports 
+summary: 'Des rapports affichent des informations détaillées sur le stockage, le réseau, la qualité de service et les relations de protection, vous permettant d"identifier et de résoudre les problèmes potentiels avant qu"ils ne se produisent.' 
+---
+= Présentation des rapports
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Des rapports affichent des informations détaillées sur le stockage, le réseau, la qualité de service et les relations de protection, vous permettant d'identifier et de résoudre les problèmes potentiels avant qu'ils ne se produisent.
+
+Lorsque vous personnalisez une vue, vous pouvez l'enregistrer avec un nom unique pour une utilisation ultérieure. Vous pouvez planifier un rapport en fonction de cette vue pour qu'il s'exécute régulièrement et le partager avec d'autres. Vous pouvez également télécharger la vue dans Excel pour la personnaliser à l'aide de fonctions Excel avancées, puis la télécharger de nouveau dans Unified Manager . Si vous planifiez un rapport à l'aide de cette vue, il utilisera le fichier Excel que vous avez chargé pour créer des rapports fiables que vous pouvez partager.
+
+Vous pouvez gérer tous les rapports qui ont été planifiés à partir de la page programmes de rapports.
+
+[NOTE]
+====
+Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage pour gérer les rapports.
+
+====
+Vous pouvez télécharger des rapports sous forme de fichiers CSV (valeurs séparées par des virgules), Excel ou PDF.

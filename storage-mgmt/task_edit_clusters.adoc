@@ -1,0 +1,38 @@
+---
+permalink: storage-mgmt/task_edit_clusters.html 
+sidebar: sidebar 
+keywords: edit, clusters 
+summary: 'Vous pouvez modifier les paramètres d"un cluster existant, comme le nom d"hôte ou l"adresse IP, le nom d"utilisateur, le mot de passe et le port, à l"aide de la boîte de dialogue Modifier le cluster.' 
+---
+= Modification des clusters
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez modifier les paramètres d'un cluster existant, comme le nom d'hôte ou l'adresse IP, le nom d'utilisateur, le mot de passe et le port, à l'aide de la boîte de dialogue Modifier le cluster.
+
+*Ce dont vous aurez besoin*
+
+Vous devez disposer du rôle Administrateur d'applications ou Administrateur stockage.
+
+[NOTE]
+====
+Depuis Unified Manager 9.7, vous pouvez ajouter des clusters en utilisant HTTPS uniquement.
+
+====
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage Management* > *Cluster Setup*.
+. Sur la page *Cluster Setup*, sélectionnez le cluster à modifier, puis cliquez sur *Edit*.
+. Dans la boîte de dialogue *Edit Cluster*, modifiez les valeurs comme requis. + si vous avez modifié les détails d'un cluster ajouté à Unified Manager 9.12, vous pouvez afficher les détails du certificat pour les communications TLS mutuelles, en fonction de la version ONTAP. Pour plus d'informations sur la version ONTAP, voir link:../storage-mgmt/task_add_clusters.html["Certificats de communication mutuelle TLS"]. + vous pouvez afficher les détails du certificat en cliquant sur *Détails du certificat*. Si le certificat a expiré, cliquez sur le bouton *régénérer* pour incorporer le nouveau certificat.
+. Cliquez sur *soumettre*.
+. Dans la boîte de dialogue Autoriser l'hôte, cliquez sur *Afficher le certificat* pour afficher les informations de certificat sur le cluster.
+. Cliquez sur *Oui*.
+
+
+*Informations connexes*
+
+link:../config/task_add_users.html["Ajout d'utilisateurs"]
+
+link:../health-checker/task_view_cluster_list_and_details.html["Affichage de la liste et des détails des clusters"]

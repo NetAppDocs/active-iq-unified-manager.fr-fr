@@ -1,0 +1,98 @@
+---
+permalink: api-automation/concept_manage_access_endpoint.html 
+sidebar: sidebar 
+keywords: manage, endpoints, access 
+summary: 'Vous devez créer des terminaux d"accès ou des interfaces logiques (LIF) nécessaires pour le provisionnement des SVM, des LUN et des partages de fichiers. Vous pouvez afficher, créer, modifier et supprimer les terminaux d"accès des SVM, des LUN ou des partages de fichiers dans votre environnement Active IQ Unified Manager.' 
+---
+= Gestion des terminaux d'accès à l'aide d'API
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous devez créer des terminaux d'accès ou des interfaces logiques (LIF) nécessaires pour le provisionnement des SVM, des LUN et des partages de fichiers. Vous pouvez afficher, créer, modifier et supprimer les terminaux d'accès des SVM, des LUN ou des partages de fichiers dans votre environnement Active IQ Unified Manager.
+
+
+
+== Affichez les terminaux d'accès
+
+Vous pouvez afficher la liste des terminaux d'accès dans votre environnement Unified Manager à l'aide de la méthode suivante. Pour interroger une liste de terminaux d'accès d'un SVM, d'une LUN ou d'un partage de fichiers spécifique, vous devez entrer l'identifiant unique pour le SVM, la LUN ou le partage de fichiers. Vous pouvez également saisir la clé unique de point final d'accès pour récupérer les détails du point final d'accès particulier.
+
+[cols="3*"]
+|===
+| Catégorie | Verbe HTTP | Chemin 
+
+
+ a| 
+fournisseur de stockage
+ a| 
+OBTENEZ
+ a| 
+`/storage-provider/access-endpoints`
+
+`/storage-provider/access-endpoints/\{key}`
+
+|===
+
+
+== Ajoutez des terminaux d'accès
+
+Vous pouvez créer des points finaux d'accès personnalisés et lui affecter les propriétés requises. Vous devez entrer les détails du point final d'accès que vous souhaitez créer en tant que paramètres d'entrée. Vous pouvez utiliser cette API, ou l'interface de ligne de commandes System Manager ou ONTAP pour créer un terminal d'accès sur chaque nœud. Les adresses IPv4 et IPv6 sont prises en charge pour la création de points de terminaison d'accès.
+
+[NOTE]
+====
+Vous devez configurer votre SVM avec un nombre minimal de terminaux d'accès par nœud pour assurer le provisionnement efficace des LUN et des partages de fichiers. Vous devez configurer votre SVM avec au moins deux terminaux d'accès par nœud, un prenant en charge le protocole CIFS et/ou NFS, un autre prenant en charge le protocole iSCSI ou FCP.
+
+====
+[cols="3*"]
+|===
+| Catégorie | Verbe HTTP | Chemin 
+
+
+ a| 
+fournisseur de stockage
+ a| 
+POST
+ a| 
+`/storage-provider/access-endpoints`
+
+|===
+
+
+== Supprime les points de terminaison d'accès
+
+Vous pouvez supprimer un point final d'accès spécifique à l'aide de la méthode suivante. Vous devez fournir la clé de point final d'accès comme paramètre d'entrée pour supprimer un point final d'accès particulier.
+
+[cols="3*"]
+|===
+| Catégorie | Verbe HTTP | Chemin 
+
+
+ a| 
+fournisseur de stockage
+ a| 
+SUPPRIMER
+ a| 
+`/storage-provider/access-endpoints/\{key}`
+
+|===
+
+
+== Modifier les points de terminaison d'accès
+
+Vous pouvez modifier un point final d'accès et mettre à jour ses propriétés à l'aide de la méthode suivante. Vous devez fournir la clé de point final d'accès pour modifier un point final d'accès particulier. Vous devez également saisir la propriété que vous souhaitez mettre à jour, ainsi que sa valeur.
+
+[cols="3*"]
+|===
+| Catégorie | Verbe HTTP | Chemin 
+
+
+ a| 
+fournisseur de stockage
+ a| 
+CORRECTIF
+ a| 
+`/storage-provider/access-endpoints/\{key}`
+
+|===

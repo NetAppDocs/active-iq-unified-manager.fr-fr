@@ -1,0 +1,82 @@
+---
+permalink: config/concept_audit_logging.html 
+sidebar: sidebar 
+keywords: audit, logging 
+summary: 'Vous pouvez détecter si les journaux d"audit ont été compromis avec l"utilisation des journaux d"audit. Toutes les activités effectuées par un utilisateur sont surveillées et consignées dans les journaux d"audit. Les audits sont effectués pour toutes les interfaces utilisateur et les fonctionnalités des API exposées publiquement de Active IQ Unified Manager.' 
+---
+= Consignation d'audits
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez détecter si les journaux d'audit ont été compromis avec l'utilisation des journaux d'audit. Toutes les activités effectuées par un utilisateur sont surveillées et consignées dans les journaux d'audit. Les audits sont effectués pour toutes les interfaces utilisateur et les fonctionnalités des API exposées publiquement de Active IQ Unified Manager.
+
+Vous pouvez utiliser *Audit Log: File View* pour afficher et accéder à tous les fichiers journaux d'audit disponibles dans votre Active IQ Unified Manager. Les fichiers de la vue Journal d'audit : fichier sont répertoriés en fonction de leur date de création. Cette vue affiche les informations de tous les journaux d'audit qui sont enregistrés à partir de l'installation ou de la mise à niveau vers le présent dans le système. Chaque fois que vous effectuez une action dans Unified Manager, les informations sont mises à jour et disponibles dans les journaux. L'état de chaque fichier journal est capturé à l'aide de l'attribut « Etat d'intégrité des fichiers » qui est activement surveillé pour détecter la modification ou la suppression du fichier journal. Les journaux d'audit peuvent avoir l'un des États suivants lorsque les journaux d'audit sont disponibles dans le système :
+
+[cols="2*"]
+|===
+| État | Description 
+
+
+ a| 
+ACTIF
+ a| 
+Fichier dans lequel les journaux sont en cours de journalisation.
+
+
+
+ a| 
+NORMALE
+ a| 
+Fichier inactif, compressé et stocké dans le système.
+
+
+
+ a| 
+FALSIFIÉ
+ a| 
+Fichier compromis par un utilisateur qui a modifié manuellement le fichier.
+
+
+
+ a| 
+SUPPRESSION_MANUELLE
+ a| 
+Fichier supprimé par un utilisateur autorisé.
+
+
+
+ a| 
+SUPPRESSION_DU_SURVOL
+ a| 
+Fichier supprimé en raison de la désactivation en fonction de la stratégie de configuration de roulement.
+
+
+
+ a| 
+UNEXPECTED_DELETE
+ a| 
+Fichier supprimé pour des raisons inconnues.
+
+|===
+La page Journal d'audit comprend les boutons de commande suivants :
+
+* Configurer
+* Supprimer
+* Télécharger
+
+
+Le bouton *DELETE* permet de supprimer tous les journaux d'audit répertoriés dans la vue journaux d'audit. Vous pouvez supprimer un journal d'audit et éventuellement fournir une raison de supprimer le fichier, ce qui permet à l'avenir de déterminer une suppression valide. La colonne MOTIF répertorie la raison ainsi que le nom de l'utilisateur qui a effectué l'opération de suppression.
+
+[NOTE]
+====
+La suppression d'un fichier journal entraînera la suppression du fichier du système, mais l'entrée de la table DB ne sera pas supprimée.
+
+====
+Vous pouvez télécharger les journaux d'audit à partir de Active IQ Unified Manager à l'aide du bouton *DOWNLOAD* de la section journaux d'audit et exporter les fichiers journaux d'audit. Les fichiers marqués « NORMAL » ou « FALSIFIÉ » sont téléchargés dans un fichier compressé `.gzip` format.
+
+Les fichiers journaux d'audit sont archivés régulièrement et enregistrés dans la base de données pour référence. Avant l'archivage, les journaux d'audit sont signés numériquement afin de préserver la sécurité et l'intégrité.
+
+Lorsqu'un bundle AutoSupport complet est généré, le bundle de support inclut à la fois des fichiers journaux d'audit archivés et actifs. Mais lorsqu'un bundle de support léger est généré, il inclut uniquement les journaux d'audit actifs. Les journaux d'audit archivés ne sont pas inclus.

@@ -1,0 +1,24 @@
+---
+permalink: install-vapp/concept_requirements_for_installing_unified_manager.html 
+sidebar: sidebar 
+keywords: requirements, installing, unified, manager 
+summary: 'Avant de commencer le processus d"installation, assurez-vous que le serveur sur lequel vous souhaitez installer Unified Manager répond aux exigences spécifiques en matière de logiciels, de matériel, de processeur et de mémoire.' 
+---
+= Conditions requises pour l'installation de Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Avant de commencer le processus d'installation, assurez-vous que le serveur sur lequel vous souhaitez installer Unified Manager répond aux exigences spécifiques en matière de logiciels, de matériel, de processeur et de mémoire.
+
+NetApp ne prend pas en charge les modifications du code de l'application Unified Manager. Si vous devez appliquer des mesures de sécurité au serveur Unified Manager, vous devez apporter ces modifications au système d'exploitation sur lequel Unified Manager est installé.
+
+Pour plus d'informations sur l'application de mesures de sécurité au serveur Unified Manager, consultez l'article de la base de connaissances.
+
+https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/Supportability_for_Security_Measures_applied_to_Active_IQ_Unified_Manager_for_Clustered_Data_ONTAP["Prise en charge des mesures de sécurité appliquées à Active IQ Unified Manager pour clustered Data ONTAP"]
+
+*Informations connexes*
+
+Pour plus d'informations, voir https://mysupport.netapp.com/matrix["Matrice d'interopérabilité NetApp"]

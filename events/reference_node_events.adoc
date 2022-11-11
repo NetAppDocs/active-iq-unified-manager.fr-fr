@@ -1,0 +1,404 @@
+---
+permalink: events/reference_node_events.html 
+sidebar: sidebar 
+keywords: node, events, impact area, availability, capacity, configuration, performance, security 
+summary: 'Les événements du nœud vous fournissent des informations sur l"état du nœud, ce qui vous permet de contrôler l"éventualité d"un problème. Les événements sont regroupés par zone d"impact et incluent le nom de l"événement et de l"interruption, le niveau d"impact, le type de source et la gravité.' 
+---
+= Événements du nœud
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Les événements du nœud vous fournissent des informations sur l'état du nœud, ce qui vous permet de contrôler l'éventualité d'un problème. Les événements sont regroupés par zone d'impact et incluent le nom de l'événement et de l'interruption, le niveau d'impact, le type de source et la gravité.
+
+Un astérisque (*) identifie les événements EMS qui ont été convertis en événements Unified Manager.
+
+
+
+== Domaine d'impact : disponibilité
+
+|===
+| Nom de l'événement (nom de l'argument) | Niveau d'impact | Type de source | Gravité 
+
+
+ a| 
+Espace du volume racine du nœud presque plein (ocumEvtClusterNodeRootVolumeSpaceNearlyFull)
+ a| 
+Risques
+ a| 
+Nœud
+ a| 
+Avertissement
+
+
+
+ a| 
+Cloud AWS MetaDataConnFail * (ocumCloudAwsMetadaConnFail)
+ a| 
+Risques
+ a| 
+Nœud
+ a| 
+Erreur
+
+
+
+ a| 
+Cloud AWS IAMCredeExceExcired *(ocumCloudAwsCredentistesExpired)
+ a| 
+Risques
+ a| 
+Nœud
+ a| 
+Erreur
+
+
+
+ a| 
+Cloud AWS IAMCredsInvalidate *(ocumCloudAwsCredentistsInvalides)
+ a| 
+Risques
+ a| 
+Nœud
+ a| 
+Erreur
+
+
+
+ a| 
+Des IAMCredentisNotFound dans Cloud AWS *(ocumCloudAwsIamCredentisNotFound)
+ a| 
+Risques
+ a| 
+Nœud
+ a| 
+Erreur
+
+
+
+ a| 
+Cloud AWS IAMCredentistsNotInitialized *(ocumCloudAwsIamCredsNotInitialized)
+ a| 
+Événement
+ a| 
+Nœud
+ a| 
+Informations
+
+
+
+ a| 
+IAMROOROBnon valide *(ocumCloudAwsIamRoleInvalid)
+ a| 
+Risques
+ a| 
+Nœud
+ a| 
+Erreur
+
+
+
+ a| 
+L'IAMRRoleNotFound dans le cloud AWS *(ocumCloudAwsIamRoleNotFound)
+ a| 
+Risques
+ a| 
+Nœud
+ a| 
+Erreur
+
+
+
+ a| 
+Hôte Cloud Tier non résolu * (ocumObjstoreHostinsoluble)
+ a| 
+Risques
+ a| 
+Nœud
+ a| 
+Erreur
+
+
+
+ a| 
+LIF intercluster Cloud Tier en panne *(ocumObjstoreInterClusterLipDown)
+ a| 
+Risques
+ a| 
+Nœud
+ a| 
+Erreur
+
+
+
+ a| 
+Un des pools NFSv4 épuisés *(nblaadeNfsv4PoolEXhaust)
+ a| 
+Gestion des
+ a| 
+Nœud
+ a| 
+Primordial
+
+
+
+ a| 
+Demande de signature de niveau de Cloud discordant * (SignatureMismatch)
+ a| 
+Risques
+ a| 
+Nœud
+ a| 
+Erreur
+
+|===
+
+
+== Zone d'impact : capacité
+
+|===
+| Nom de l'événement (nom de l'argument) | Niveau d'impact | Type de source | Gravité 
+
+
+ a| 
+Mémoire du moniteur QoS max. *(ocumQosMonitorMemoryMembed)
+ a| 
+Risques
+ a| 
+Nœud
+ a| 
+Erreur
+
+
+
+ a| 
+Mémoire du moniteur QoS abated * (ocumQosMonitorMemoryAbated)
+ a| 
+Événement
+ a| 
+Nœud
+ a| 
+Informations
+
+|===
+
+
+== Zone d'impact : configuration
+
+|===
+| Nom de l'événement (nom de l'argument) | Niveau d'impact | Type de source | Gravité 
+
+
+ a| 
+Nœud renommé (non applicable)
+ a| 
+Événement
+ a| 
+Nœud
+ a| 
+Informations
+
+|===
+
+
+== Zone d'impact : performances
+
+|===
+| Nom de l'événement (nom de l'argument) | Niveau d'impact | Type de source | Gravité 
+
+
+ a| 
+Seuil critique d'IOPS du nœud dépassé (ocumNodeIopsincident)
+ a| 
+Gestion des
+ a| 
+Nœud
+ a| 
+Primordial
+
+
+
+ a| 
+Seuil d'avertissement d'IOPS du nœud dépassé (ocumNodeIopsWarning)
+ a| 
+Risques
+ a| 
+Nœud
+ a| 
+Avertissement
+
+
+
+ a| 
+Seuil critique du nœud Mo/s dépassé(ocumNodeMbpsincident)
+ a| 
+Gestion des
+ a| 
+Nœud
+ a| 
+Primordial
+
+
+
+ a| 
+Seuil d'avertissement du nœud MB/s dépassé(ocumNodeMbpsWarning)
+ a| 
+Risques
+ a| 
+Nœud
+ a| 
+Avertissement
+
+
+
+ a| 
+Latence du nœud ms/op critique Threshold brèche (ocumNodeLatcyincident)
+ a| 
+Gestion des
+ a| 
+Nœud
+ a| 
+Primordial
+
+
+
+ a| 
+Seuil d'avertissement ms/op de latence du nœud dépassé(ocumNodeLattionWarning)
+ a| 
+Risques
+ a| 
+Nœud
+ a| 
+Avertissement
+
+
+
+ a| 
+Performances du nœud violation du seuil critique utilisé(ocumNodePerfcapacityUsedincident)
+ a| 
+Gestion des
+ a| 
+Nœud
+ a| 
+Primordial
+
+
+
+ a| 
+Seuil d'avertissement de capacité utilisée du nœud de performance dépassé(ocumNodePerfcapacityUsedAvertissement)
+ a| 
+Risques
+ a| 
+Nœud
+ a| 
+Avertissement
+
+
+
+ a| 
+Capacité du nœud utilisée – seuil critique de basculement dépassé(ocumNodePerftyUseTakouverincident)
+ a| 
+Gestion des
+ a| 
+Nœud
+ a| 
+Primordial
+
+
+
+ a| 
+Capacité du nœud utilisée – seuil d'avertissement de basculement dépassé(ocumNodePerfanceUseeprenne un niveau de prise en compte)
+ a| 
+Risques
+ a| 
+Nœud
+ a| 
+Avertissement
+
+
+
+ a| 
+Seuil critique d'utilisation du nœud dépassé (cas d'incident liés à l'utilisation du nœud)
+ a| 
+Gestion des
+ a| 
+Nœud
+ a| 
+Primordial
+
+
+
+ a| 
+Seuil d'avertissement d'utilisation du nœud dépassé (avertissement relatif à l'ocumNodeUtiliationWarning)
+ a| 
+Risques
+ a| 
+Nœud
+ a| 
+Avertissement
+
+
+
+ a| 
+Seuil surexploité par la paire HA du nœud (ocumNodeHaPairOverUtilizedinformation)
+ a| 
+Événement
+ a| 
+Nœud
+ a| 
+Informations
+
+
+
+ a| 
+Seuil de fragmentation du disque du nœud dépassé (ocumNodeDiskFragmentWarning)
+ a| 
+Risques
+ a| 
+Nœud
+ a| 
+Avertissement
+
+
+
+ a| 
+Dépassement du seuil minimal de capacité utilisée en matière de performances (ocumNodeOverUtilizedWarning)
+ a| 
+Risques
+ a| 
+Nœud
+ a| 
+Avertissement
+
+
+
+ a| 
+Seuil dynamique du nœud dépassé (ocumNodeDynamicEventWarning)
+ a| 
+Risques
+ a| 
+Nœud
+ a| 
+Avertissement
+
+|===
+
+
+== Zone d'impact : sécurité
+
+|===
+| Nom de l'événement (nom de l'argument) | Niveau d'impact | Type de source | Gravité 
+
+
+ a| 
+ID d'avis : NTAP-<__Advisory ID__>(ocumx)
+ a| 
+Risques
+ a| 
+Nœud
+ a| 
+Primordial
+
+|===

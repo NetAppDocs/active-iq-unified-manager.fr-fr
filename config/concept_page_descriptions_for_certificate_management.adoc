@@ -1,0 +1,14 @@
+---
+permalink: config/concept_page_descriptions_for_certificate_management.html 
+sidebar: sidebar 
+keywords: page descriptions, certificate management 
+summary: Vous pouvez utiliser la page certificat HTTPS pour afficher les certificats de sécurité actuels et générer de nouveaux certificats HTTPS. 
+---
+= Descriptions des pages pour la gestion des certificats
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez utiliser la page certificat HTTPS pour afficher les certificats de sécurité actuels et générer de nouveaux certificats HTTPS.

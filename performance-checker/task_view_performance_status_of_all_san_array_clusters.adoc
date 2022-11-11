@@ -1,0 +1,38 @@
+---
+permalink: performance-checker/task_view_performance_status_of_all_san_array_clusters.html 
+sidebar: sidebar 
+keywords: all san, array, performance, clusters 
+summary: 'Vous pouvez utiliser la vue performances : tous les clusters pour afficher l"état de performance de vos clusters de baies SAN.' 
+---
+= Affichage des performances de tous les clusters de baies SAN
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez utiliser la vue performances : tous les clusters pour afficher l'état de performance de vos clusters de baies SAN.
+
+*Ce dont vous aurez besoin*
+
+Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
+
+Vous pouvez afficher les informations de présentation de tous les clusters de baies SAN dans la vue Performance : tous les clusters et les détails de la page Cluster / Performance Explorer.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage* > *clusters*.
+. Assurez-vous que la colonne « personnalité » est affichée dans la vue *Santé : tous les clusters* ou ajoutez-la à l'aide de la commande *Afficher/Masquer*.
++
+Cette colonne affiche « toutes les baies SAN » pour tous les clusters de baies SAN.
+
+. Pour afficher des informations sur les performances de ces clusters, sélectionnez la vue *Performance : tous les clusters*.
++
+Affichez les informations de performances du cluster All SAN Array.
+
+. Pour afficher des informations détaillées sur les performances de ces clusters, cliquez sur le nom d'un cluster All SAN Array.
+. Cliquez sur l'onglet *Explorer*.
+. Sur la page *Cluster / Performance Explorer*, sélectionnez *Nodes sur ce cluster* dans le menu *View and compare*.
++
+Vous pouvez comparer les statistiques de performances des deux nœuds de ce cluster pour vous assurer que la charge est quasiment identique sur les deux nœuds. En cas d'écarts importants entre les deux nœuds, vous pouvez ajouter le second nœud aux graphiques et comparer les valeurs sur une période plus longue afin d'identifier les problèmes de configuration.
+
+

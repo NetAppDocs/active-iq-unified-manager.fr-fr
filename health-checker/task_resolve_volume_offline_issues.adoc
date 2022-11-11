@@ -1,0 +1,50 @@
+---
+permalink: health-checker/task_resolve_volume_offline_issues.html 
+sidebar: sidebar 
+keywords: resolve, volume, offline issues 
+summary: 'Ce flux de travail fournit un exemple de l"évaluation et de la résolution d"un événement hors ligne qu"Unified Manager peut afficher sur la page d"inventaire Event Management. Dans ce scénario, vous êtes administrateur qui utilise Unified Manager pour résoudre un ou plusieurs événements de mise hors ligne des volumes.' 
+---
+= Résolution des problèmes de mise hors ligne des volumes
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Ce flux de travail fournit un exemple de l'évaluation et de la résolution d'un événement hors ligne qu'Unified Manager peut afficher sur la page d'inventaire Event Management. Dans ce scénario, vous êtes administrateur qui utilise Unified Manager pour résoudre un ou plusieurs événements de mise hors ligne des volumes.
+
+*Ce dont vous aurez besoin*
+
+Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
+
+Les volumes peuvent être signalés hors ligne pour plusieurs raisons :
+
+* L'administrateur du SVM a délibérément mis le volume hors ligne.
+* Le nœud de cluster d'hébergement du volume est en panne et le basculement du stockage vers sa paire haute disponibilité partenaire a également échoué.
+* La machine virtuelle de stockage (SVM) d'hébergement du volume est arrêtée car le nœud hébergeant le volume root de ce SVM est en panne.
+* L'agrégat d'hébergement du volume est en panne due à une défaillance simultanée de deux disques RAID.
+
+
+Vous pouvez utiliser la page d'inventaire Event Management et les pages Cluster/Health, Storage VM/Health et Volume/Health pour confirmer ou supprimer une ou plusieurs de ces possibilités.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Event Management*.
+. Dans la page d'inventaire *Event Management*, sélectionnez *Active Availability Events*.
+. Cliquez sur le lien hypertexte affiché pour l'événement Volume hors ligne.
++
+La page Détails de l'événement pour l'incident de disponibilité s'affiche.
+
+. Sur cette page, vérifiez les notes pour n'importe quelle indication que l'administrateur du SVM a mis le volume en question hors ligne.
+. Sur la page *Event* details, vous pouvez consulter les informations d'une ou plusieurs des tâches suivantes :
++
+** Consulter les informations affichées dans le champ cause pour obtenir un guidage de diagnostic possible.
++
+Dans cet exemple, les informations du champ cause vous indiquent uniquement que le volume est hors ligne.
+
+** Vérifier dans la zone Notes et mises à jour si l'administrateur du SVM a délibérément mis le volume en question hors ligne.
+** Cliquez sur la source de l'événement, dans ce cas le volume signalé hors ligne, pour obtenir plus d'informations sur ce volume.
+** Attribuez l'événement à un administrateur.
+** Reconnaissez l'événement ou, le cas échéant, marquez-le comme résolu.
+
+
+

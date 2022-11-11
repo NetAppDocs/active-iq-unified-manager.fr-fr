@@ -1,0 +1,14 @@
+---
+permalink: api-automation/concept_manage_storage_workloads.html 
+sidebar: sidebar 
+keywords: manage, workloads 
+summary: 'Les API décrites ici couvrent les différentes fonctions de l"administration du stockage, notamment l"affichage des charges de travail du stockage, la création de LUN et de partages de fichiers, la gestion des niveaux de service de performance et des règles d"efficacité du stockage, ainsi que l"attribution des règles aux charges de travail du stockage.' 
+---
+= Gestion des workloads à l'aide d'API
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Les API décrites ici couvrent les différentes fonctions de l'administration du stockage, notamment l'affichage des charges de travail du stockage, la création de LUN et de partages de fichiers, la gestion des niveaux de service de performance et des règles d'efficacité du stockage, ainsi que l'attribution des règles aux charges de travail du stockage.

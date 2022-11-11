@@ -1,0 +1,70 @@
+---
+permalink: performance-checker/reference_what_data_does_workload_analyzer_display.html 
+sidebar: sidebar 
+keywords: workload analyzer, charts, display, data 
+summary: 'La page de l"analyseur de charge de travail affiche des informations sur les événements actuels susceptibles d"affecter la charge de travail, des recommandations pour résoudre le problème à l"origine de l"événement et des graphiques pour analyser les performances et l"historique des capacités.' 
+---
+= Données affichées par l'analyseur de flux de travail
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+La page de l'analyseur de charge de travail affiche des informations sur les événements actuels susceptibles d'affecter la charge de travail, des recommandations pour résoudre le problème à l'origine de l'événement et des graphiques pour analyser les performances et l'historique des capacités.
+
+En haut de la page, vous indiquez le nom de la charge de travail (volume ou LUN) à analyser, ainsi que le délai d'exécution des statistiques. Vous pouvez modifier le délai à tout moment si vous souhaitez afficher une période de temps plus courte ou plus longue.
+
+Les autres zones de la page affichent les résultats de l'analyse et les graphiques de performances et de capacités.
+
+[NOTE]
+====
+Les graphiques des charges de travail pour les LUN n'offrent pas le même niveau de statistiques que les graphiques des volumes. Vous remarquerez ainsi des différences lors de l'analyse de ces deux types de charges de travail.
+
+====
+* *Zone de résumé des événements*
++
+Affiche un bref aperçu du nombre et des types d'événements survenus au cours de la période. Lorsqu'il existe des événements provenant de différents domaines d'impact (par exemple, performances et capacité), ces informations s'affichent. Vous pouvez ainsi sélectionner les détails du type d'événement qui vous intéresse. Cliquez sur le type d'événement pour afficher la liste des noms des événements.
+
++
+S'il n'y a qu'un seul événement au cours de la période, une liste de recommandations pour résoudre le problème est indiquée pour certains événements.
+
+* *Calendrier des événements*
++
+Affiche toutes les occurrences d'événements au cours de la période spécifiée. Placez le curseur sur chaque événement pour afficher le nom de l'événement.
+
++
+Si vous êtes arrivé sur cette page en cliquant sur le bouton *analyser charge de travail* de la page Détails de l'événement, l'icône de l'événement sélectionné apparaît plus grande pour vous permettre d'identifier l'événement.
+
+* *Zone des graphiques de performance*
++
+Affiche les graphiques correspondant à la latence, au débit (IOPS et Mo/s) et à l'utilisation (pour le nœud et l'agrégat) en fonction du délai sélectionné. Vous pouvez cliquer sur le lien Afficher les détails des performances pour afficher la page de l'explorateur de performances pour la charge de travail si vous souhaitez effectuer une analyse plus approfondie.
+
++
+** *Latence* affiche la latence de la charge de travail sur la période sélectionnée. Le graphique comporte trois vues qui vous permettent de voir :
++
+*** *Latence totale*
+*** *Latence de détail* (décomposée par lecture, écriture et autres processus)
+*** *Cluster Components* latence (divisé par le composant de cluster)
+
+
+
+
+
+
+Voir link:concept_cluster_components_and_why_they_can_be_in_contention.html["Les composants du cluster et les conflits"] pour obtenir une description des composants du cluster qui sont affichés ici. ** *Throughput* affiche à la fois le débit en IOPS et en Mo/s pour la charge de travail sur la période sélectionnée. Le graphique comporte quatre vues qui vous permettent de voir : *** *débit total* *** *débit ventilation* (divisé par les lectures, écritures et autres processus) *** *débit du cloud* (les Mo/s utilisés pour écrire des données et les lire à partir du cloud; Pour les charges de travail qui Tiering de la capacité dans le cloud) *** *IOPS avec prévision* (prévision des valeurs de débit d'IOPS supérieures et inférieures attendues) ce graphique affiche également les paramètres de seuil de qualité de service (QoS) maximum et minimum, le cas échéant, Vous voyez ainsi où le système peut limiter le débit intentionnellement grâce aux règles de QoS. ** *Utilisation* affiche l'utilisation à la fois pour l'agrégat et le nœud sur lequel la charge de travail s'exécute sur la période sélectionnée. Vous pouvez ici voir si votre agrégat ou nœud est sur-utilisé, ce qui peut entraîner une latence élevée. Lors de l'analyse des volumes FlexGroup, plusieurs nœuds et agrégats sont répertoriés dans les graphiques d'utilisation.
+
+* *Zone de graphique de capacité*
++
+Affiche des graphiques correspondant à la capacité des données et à la capacité Snapshot du dernier mois pour la charge de travail.
+
++
+Pour les volumes, vous pouvez cliquer sur le lien Afficher les détails de capacité pour afficher la page Détails de l'intégrité de la charge de travail si vous souhaitez effectuer une analyse plus approfondie. Les LUN ne fournissent pas ce lien, car il n'y a pas de page Détails de l'état pour les LUN.
+
++
+** *Affichage de la capacité* affiche l'espace disponible total alloué à la charge de travail et à l'espace logique utilisé (après toutes les optimisations NetApp).
+** *Vue instantané* affiche l'espace total réservé pour les copies Snapshot et la quantité d'espace actuellement utilisée. Notez que les LUN ne fournissent pas de vue Snapshot.
+** *Cloud Tier View* affiche la capacité utilisée dans le Tier de performance local et la quantité utilisée dans le Tier cloud. Ces graphiques incluent une estimation du temps restant avant que la capacité soit saturée pour cette charge de travail. Ces informations sont basées sur l'historique d'utilisation et nécessitent un minimum de 10 jours de données. Lorsqu'il reste moins de 30 jours de capacité, Unified Manager identifie le stockage comme « presque plein ».
+
+
+

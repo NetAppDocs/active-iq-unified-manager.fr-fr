@@ -1,0 +1,62 @@
+---
+permalink: config/task_install_ca_signed_and_returned_https_certificate.html 
+sidebar: sidebar 
+keywords: install, ca signed, returned, https, certificate 
+summary: 'Vous pouvez télécharger et installer un certificat de sécurité une fois qu"une autorité de certification l"a signé et l"a renvoyé. Le fichier que vous téléchargez et installez doit être une version signée du certificat auto-signé existant. Un certificat signé par une autorité de certification contribue à prévenir les attaques de l"homme au milieu et offre une meilleure protection contre la sécurité qu"un certificat auto-signé.' 
+---
+= L'installation d'une autorité de certification a signé et renvoyé un certificat HTTPS
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez télécharger et installer un certificat de sécurité une fois qu'une autorité de certification l'a signé et l'a renvoyé. Le fichier que vous téléchargez et installez doit être une version signée du certificat auto-signé existant. Un certificat signé par une autorité de certification contribue à prévenir les attaques de l'homme au milieu et offre une meilleure protection contre la sécurité qu'un certificat auto-signé.
+
+*Ce dont vous aurez besoin*
+
+Vous devez avoir effectué les actions suivantes :
+
+* A téléchargé le fichier de demande de signature de certificat et l'a signé par une autorité de certification
+* Enregistré la chaîne de certificats au format PEM
+* Inclus tous les certificats de la chaîne, du certificat du serveur Unified Manager au certificat de signature racine, y compris tous les certificats intermédiaires présents
+
+
+Vous devez avoir le rôle Administrateur d'applications.
+
+[NOTE]
+====
+Si la validité du certificat pour lequel une RSC a été créée est supérieure à 397 jours, la validité sera réduite à 397 jours par l'AC avant de signer et de retourner le certificat
+
+====
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *général* > *certificat HTTPS*.
+. Cliquez sur *installer le certificat HTTPS*.
+. Dans la boîte de dialogue qui s'affiche, cliquez sur *choisir le fichier...* pour localiser le fichier à télécharger.
+. Sélectionnez le fichier, puis cliquez sur *installer* pour l'installer.
++
+Pour plus d'informations, reportez-vous à la section link:concept_install_https_certificate_generated_using_external_tools.html["Installation d'un certificat HTTPS généré à l'aide d'outils externes"].
+
+
+
+
+
+== Exemple de chaîne de certificat
+
+L'exemple suivant montre comment le fichier de chaîne de certificats peut s'afficher :
+
+[listing]
+----
+-----BEGIN CERTIFICATE-----
+<*Server certificate*>
+-----END CERTIFICATE-----
+-----BEGIN CERTIFICATE-----
+<*Intermediate certificate \#1 (if present)*>
+-----END CERTIFICATE-----
+-----BEGIN CERTIFICATE-----
+<*Intermediate certificate \#2 (if present)*>
+-----END CERTIFICATE-----
+-----BEGIN CERTIFICATE-----
+<*Root signing certificate*>
+-----END CERTIFICATE-----
+----

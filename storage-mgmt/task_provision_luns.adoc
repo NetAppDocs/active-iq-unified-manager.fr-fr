@@ -1,0 +1,62 @@
+---
+permalink: storage-mgmt/task_provision_luns.html 
+sidebar: sidebar 
+keywords: provision, luns 
+summary: 'Vous pouvez créer des LUN qui prennent en charge les protocoles CIFS/SMB et NFS, sur un cluster existant et sur une machine virtuelle de stockage (VM de stockage) à partir de la page provisionner les charges de travail.' 
+---
+= Provisionner les LUN
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez créer des LUN qui prennent en charge les protocoles CIFS/SMB et NFS, sur un cluster existant et sur une machine virtuelle de stockage (VM de stockage) à partir de la page provisionner les charges de travail.
+
+*Ce dont vous aurez besoin*
+
+* La machine virtuelle de stockage doit disposer d'espace pour le provisionnement de la LUN.
+* ISCSI et FCP doivent être activés sur la VM de stockage sur laquelle vous créez la LUN.
+* Pour sélectionner et attribuer le niveau de service de performances (PSL) et la stratégie d'efficacité du stockage (SEP) sur la charge de travail, les règles doivent avoir été créées avant de commencer à créer la charge de travail.
+
+
+.Étapes
+. Sur la page *Provision Workload*, ajoutez le nom de la charge de travail à créer, puis sélectionnez le cluster dans la liste disponible.
++
+En fonction du cluster sélectionné, le champ *Storage VM* filtre les machines virtuelles de stockage disponibles pour ce cluster.
+
+. Sélectionnez la machine virtuelle de stockage dans la liste qui prend en charge les services iSCSI et FCP.
++
+En fonction de votre sélection, l'option SAN est activée dans la section informations sur l'hôte.
+
+. Dans la section *stockage et optimisation*, attribuez la capacité de stockage et la PSL, et éventuellement le SEP pour la charge de travail.
++
+Les spécifications du SEP sont affectées à la LUN et les définitions de la PSL sont appliquées à la charge de travail lors de sa création.
+
+. Cochez la case *appliquer les limites de performances* si vous souhaitez appliquer la PSL attribuée à la charge de travail.
++
+L'affectation d'un PSL à une charge de travail garantit que l'agrégat sur lequel la charge de travail est créée peut prendre en charge les objectifs de performances et de capacité définis dans la politique correspondante. Par exemple, si une charge de travail se voit attribuer la PSL « Extreme Performance », l'agrégat sur lequel la charge de travail doit être provisionnée doit avoir la capacité de respecter les objectifs de performances et de capacité de la politique Extreme Performance, comme le stockage SSD.
+
++
+[NOTE]
+====
+Sauf si vous cochez cette case, la PSL n'est pas appliquée à la charge de travail et l'état de la charge de travail sur le tableau de bord apparaît comme `unassigned`.
+
+====
+. Sélectionnez l'option *SAN*. Si l'option *SAN* n'est pas activée, vérifiez si la machine virtuelle de stockage que vous avez sélectionnée prend en charge iSCSI et FCP.
+. Sélectionnez le système d'exploitation hôte.
+. Spécifiez le mappage d'hôte pour contrôler l'accès des initiateurs à la LUN. Vous pouvez affecter des groupes initiateurs existants ou définir et mapper de nouveaux groupes initiateurs.
++
+[NOTE]
+====
+Si vous créez un nouveau groupe initiateur lors du provisionnement de la LUN, vous devez attendre le cycle de détection suivant (jusqu'à 15 minutes) pour l'utiliser. Il est donc recommandé d'utiliser un groupe initiateur existant dans la liste des igroups disponibles.
+
+====
++
+Si vous souhaitez créer un nouveau groupe initiateur, sélectionnez le bouton *Créer un nouveau groupe initiateur*, puis entrez les informations du groupe initiateur.
+
+. Cliquez sur *Enregistrer*.
++
+La LUN est ajoutée à la liste des charges de travail de stockage.
+
+

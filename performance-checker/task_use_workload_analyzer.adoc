@@ -1,0 +1,25 @@
+---
+permalink: performance-checker/task_use_workload_analyzer.html 
+sidebar: sidebar 
+keywords: workload analyzer 
+summary: 'Il existe de nombreuses façons de démarrer l"analyseur de charge de travail à partir de l"interface utilisateur. Ici, nous décrivons le lancement de l"outil à partir du volet de navigation de gauche.' 
+---
+= Utilisation de l'analyseur de flux de production
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Il existe de nombreuses façons de démarrer l'analyseur de charge de travail à partir de l'interface utilisateur. Ici, nous décrivons le lancement de l'outil à partir du volet de navigation de gauche.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Workload Analysis*.
++
+La page analyse de la charge de travail s'affiche.
+
+. Si vous connaissez le nom du workload, entrez le nom. Si vous n'êtes pas sûr du nom complet, saisissez au moins 3 caractères et le système affiche une liste de charges de travail correspondant à la chaîne.
+. Sélectionnez la plage horaire si vous souhaitez afficher les statistiques pour une durée supérieure à la durée par défaut de 2 heures et cliquez sur *appliquer*.
+. Affichez la zone Résumé pour voir les événements survenus au cours de la période.
+. Affichez les graphiques de performances et de capacité pour vérifier si l'une des mesures est anormale et voir si des événements se alignent avec l'entrée anormale.
+

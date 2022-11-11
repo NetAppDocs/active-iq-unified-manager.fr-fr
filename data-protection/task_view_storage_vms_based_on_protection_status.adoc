@@ -1,0 +1,63 @@
+---
+permalink: data-protection/task_view_storage_vms_based_on_protection_status.html 
+sidebar: sidebar 
+keywords: storage vm, view protection status 
+summary: 'Vous pouvez utiliser la page Storage VM de l"inventaire pour afficher toutes les machines virtuelles de stockage de Active IQ Unified Manager et filtrer les machines virtuelles de stockage en fonction de leur état de protection.' 
+---
+= Affichage des VM de stockage en fonction de l'état de protection
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez utiliser la page Storage VM de l'inventaire pour afficher toutes les machines virtuelles de stockage de Active IQ Unified Manager et filtrer les machines virtuelles de stockage en fonction de leur état de protection.
+
+*Ce dont vous aurez besoin*
+
+Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+
+Un nouveau rôle de protection est ajouté dans la vue des VM de stockage qui fournit des informations sur la protection ou non de la machine virtuelle de stockage.
+
+[NOTE]
+====
+Si un cluster source n'est pas ajouté à Active IQ Unified Manager, toutes les informations relatives à ce cluster sont indisponibles dans les grilles.
+
+====
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *STORAGE* > *Storage VM*.
+. Dans le menu *VIEW*, sélectionnez *Health* > *All Storage VM*.
++
+The Health : tous les ordinateurs virtuels de stockage s'affichent.
+
+. Cliquez sur *Filter* pour afficher l'une des machines virtuelles de stockage suivantes.
++
+[cols="2*"]
+|===
+| Pour afficher | Valeur du filtre 
+
+
+ a| 
+*Machines virtuelles de stockage protégées*
+ a| 
+*Le rôle de protection* est *protégé*
+
+
+
+ a| 
+*Machines virtuelles de stockage non protégées*
+ a| 
+*Le rôle de protection* est *non protégé*
+
+|===
++
+[NOTE]
+====
+Vous ne pouvez pas afficher simultanément les machines virtuelles de stockage protégées et non protégées. Vous devrez effacer le filtre existant pour réappliquer une nouvelle option de filtre.
+
+====
+. Cliquez sur *appliquer le filtre*.
++
+La vue non enregistrée affiche toutes les machines virtuelles de stockage qui sont protégées ou non par la reprise après sinistre de la machine virtuelle de stockage en fonction de vos sélections de filtre.
+
+

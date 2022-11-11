@@ -1,0 +1,37 @@
+---
+permalink: health-checker/reference_configure_ontap_cluster.html 
+sidebar: sidebar 
+keywords: netapp, snapshot copy, copies, backup, windows, configure, ontap, cluster 
+summary: 'Avant de pouvoir sauvegarder et restaurer des Active IQ Unified Manager à l"aide d"une copie Snapshot sur les systèmes ONTAP, vous devez effectuer quelques étapes de préconfiguration sur les clusters.' 
+---
+= Configuration du cluster ONTAP
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Avant de pouvoir sauvegarder et restaurer des Active IQ Unified Manager à l'aide d'une copie Snapshot sur les systèmes ONTAP, vous devez effectuer quelques étapes de préconfiguration sur les clusters.
+
+Vous pouvez configurer le cluster ONTAP à l'aide de l'invite de commandes ou de l'interface utilisateur de System Manager. La configuration du cluster ONTAP implique la configuration des LIFs de données à disponibilité à attribuer en tant que LIFs iSCSI à la VM de stockage. L'étape suivante consiste à configurer une machine virtuelle de stockage iSCSI à l'aide de l'interface utilisateur de System Manager. Vous devrez configurer une route réseau statique pour cette VM de stockage afin de contrôler la façon dont les LIF utilisent le réseau pour le trafic sortant.
+
+[NOTE]
+====
+Vous devez disposer d'un volume dédié et d'une LUN pour la configuration de sauvegarde. Le volume sélectionné ne doit inclure qu'une seule LUN. La taille de la LUN doit être au moins deux fois supérieure à la taille de données que les Active IQ Unified Manager devraient traiter.
+
+====
+Vous devez effectuer la configuration suivante :
+
+.Étapes
+. Configurez une machine virtuelle de stockage compatible iSCSI ou utilisez une machine virtuelle de stockage existante dotée de la même configuration.
+. Configurer une route réseau pour la VM de stockage configurée
+. Configurez un volume de capacité appropriée et une LUN unique à l'intérieur, en veillant à ce que le volume soit dédié uniquement à cette LUN.
++
+
+NOTE: Dans un scénario où la LUN est créée sur System Manager, son annulation peut entraîner la suppression du groupe initiateur et l'échec de la restauration. Pour éviter ce scénario, veillez à ce que la création d'une LUN soit explicitement créée et n'ait pas été supprimée lorsque le mappage de la LUN est annulé.
+
+. Configurez un groupe initiateur sur la machine virtuelle de stockage.
+. Configurez un ensemble de ports.
+. Intégrez le groupe initiateur avec l'ensemble de ports.
+. Mappez la LUN sur le groupe initiateur.
+

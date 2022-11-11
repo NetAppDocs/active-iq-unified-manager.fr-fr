@@ -1,0 +1,14 @@
+---
+permalink: data-protection/reference_description_of_protection_relationships_window.html 
+sidebar: sidebar 
+keywords: description, protect, relationships, windows, dialog boxes 
+summary: Vous pouvez afficher et gérer les informations relatives à la protection, telles que les pools de ressources, les associations de SVM et les tâches de protection. Vous pouvez utiliser la page seuils de santé appropriée pour configurer les valeurs des seuils de santé globaux des agrégats, des volumes et des relations. 
+---
+= Description des fenêtres et boîtes de dialogue protection relations
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez afficher et gérer les informations relatives à la protection, telles que les pools de ressources, les associations de SVM et les tâches de protection. Vous pouvez utiliser la page seuils de santé appropriée pour configurer les valeurs des seuils de santé globaux des agrégats, des volumes et des relations.

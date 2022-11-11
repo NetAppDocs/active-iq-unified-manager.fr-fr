@@ -1,0 +1,152 @@
+---
+settings:
+  name: Active IQ Unified Manager 9.12
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  versions:
+  - name: Unified Manager
+    url: "/active-iq-unified-manager"
+    version-number: '9.12'
+  - name: Unified Manager
+    url: "/active-iq-unified-manager-911"
+    version-number: '9.11'
+  - name: Unified Manager
+    url: "/active-iq-unified-manager-910"
+    version-number: '9.10'
+  langs: fr-fr,us-en,ja-jp,zh-cn,zh-tw,ko-kr,de-de
+sidebar:
+  entries:
+  - title: Documentation Active IQ Unified Manager 9.12
+    url: "/index.html"
+  - title: Notes de mise à jour
+    url: "/reference_release_notes.html"
+  - title: Commencez
+    entries:
+    - title: Installation de démarrage rapide pour VMware vSphere
+      url: "/install-vapp/qsg-vapp.html"
+    - title: Installation de démarrage rapide pour Linux
+      url: "/install-linux/qsg-linux.html"
+    - title: Installation de démarrage rapide pour Windows
+      url: "/install-windows/qsg-windows.html"
+  - section: install-vapp
+  - section: install-linux
+  - section: install-windows
+  - section: config
+  - section: storage-mgmt
+  - section: events
+  - section: performance-checker
+  - section: health-checker
+  - section: data-protection
+  - section: reporting
+  - section: api-automation
+  - title: Mentions légales
+    url: "/legal-notices.html"
+homepage:
+  tiles:
+  - title: Commencez
+    links:
+    - title: Présentation du produit
+      url: "/storage-mgmt/concept_introduction_to_unified_manager.html"
+    - title: Notes de version
+      url: reference_release_notes.html
+    - title: Installation de démarrage rapide pour VMware vSphere
+      url: "/install-vapp/qsg-vapp.html"
+    - title: Installation de démarrage rapide pour Linux
+      url: "/install-linux/qsg-linux.html"
+    - title: Installation de démarrage rapide pour Windows
+      url: "/install-windows/qsg-windows.html"
+  - title: Installer configurer Unified Manager
+    links:
+    - title: Installez la mise à niveau sur les systèmes VMware vSphere
+      url: "/install-vapp/concept_requirements_for_installing_unified_manager.html"
+    - title: Installez la mise à niveau sur les systèmes Linux
+      url: "/install-linux/concept_requirements_for_install_unified_manager.html"
+    - title: Installez la mise à niveau sur les systèmes Windows
+      url: "/install-windows/concept_requirements_for_installing_unified_manager.html"
+    - title: Configurez Unified Manager
+      url: "/config/concept_configure_unified_manager.html"
+    - title: Gérer les paramètres des fonctions
+      url: "/config/concept_manage_feature_settings.html"
+    - title: Gestion de l'accès basé sur des rôles
+      url: "/config/concept_manage_user_access.html"
+  - title: Contrôle des performances
+    links:
+    - title: Seuils de performances
+      url: "/performance-checker/concept_manage_performance_thresholds.html"
+    - title: Performances du cluster
+      url: "/performance-checker/concept_monitor_cluster_performance_from_dashboard.html"
+    - title: Groupe de règles de QoS
+      url: "/performance-checker/concept_manage_performance_using_qos_policy_group_information.html"
+    - title: Analyseur de charge de travail
+      url: "/performance-checker/concept_troubleshooting_workloads_using_workload_analyzer.html"
+    - title: Performances des workloads
+      url: "/performance-checker/concept_collect_data_and_monitor_workload_performance.html"
+    - title: Gérer les performances
+      url: "/performance-checker/concept_manage_performance_using_perf_capacity_available_iops.html"
+  - title: Contrôle du stockage et de l'état des objets
+    links:
+    - title: Charges de travail
+      url: "/storage-mgmt/concept_provision_and_manage_workloads.html"
+    - title: Infrastructure virtuelle
+      url: "/storage-mgmt/concept_monitor_vmware_virtual_infrastructure.html"
+    - title: Configurations MetroCluster
+      url: "/storage-mgmt/concept_manage_and_monitor_metrocluster_configurations.html"
+    - title: Santé des clusters et des objets du cluster
+      url: "/health-checker/concept_manage_and_monitor_clusters_and_cluster_object_health.html"
+    - title: Seuils de santé
+      url: "/health-checker/concept_manage_health_thresholds.html"
+    - title: Envoyez des messages AutoSupport et des packs de support
+      url: "/health-checker/task_send_asup_to_technical_support.html"
+  - title: Surveillance de la protection des données
+    links:
+    - title: Configuration de la relation de protection
+      url: "/data-protection/task_set_up_protection_relationships_in_unified_manager.html"
+    - title: Effectuez les opérations de basculement et de rétablissement
+      url: "/data-protection/task_perform_protection_relationship_failover_and_failback.html"
+    - title: Gérer la relation de protection
+      url: "/data-protection/concept_manage_and_monitor_protection_relationships.html"
+    - title: Surveiller les relations de reprise après incident
+      url: "/data-protection/task_monitor_storage_vms_using_relationships_page.html"
+    - title: Générer des rapports
+      url: "/reporting/concept_unified_manager_reporting.html"
+  - title: Utilisez des API REST
+    links:
+    - title: Commencez
+      url: "/api-automation/concept_api_url_and_categories.html"
+    - title: Accédez aux API Unified Manager
+      url: "/api-automation/concept_rest_api_access_and_authentication_in_um_apis.html"
+    - title: Gérer les objets de stockage
+      url: "/api-automation/concept_data_center_apis.html"
+    - title: Accédez aux API ONTAP
+      url: "/api-automation/concept_gateway_apis.html"
+    - title: Flux de production communs
+      url: "/api-automation/concept_workflow_intro.html"
+    - title: Provisionner le stockage
+      url: "/api-automation/concept_provision_workflow.html"
+  - title: Événements et alertes
+    links:
+    - title: Tableau de bord
+      url: "/storage-mgmt/reference_dashboard_page.html"
+    - title: Flux de travail des événements
+      url: "/events/concept_what_happens_when_an_event_is_received.html"
+    - title: Événements sur la plateforme Active IQ
+      url: "/events/concept_how_active_iq_platform_events_are_generated.html"
+    - title: Événements et types de gravité
+      url: "/events/reference_list_of_events_and_severity_types.html"
+    - title: Evénements de correction
+      url: "/storage-mgmt/concept_fix_ontap_issues_directly_from_unified_manager.html"
+    - title: Correction automatique
+      url: "/storage-mgmt/reference_what_ontap_issues_can_unified_manager_fix.html"
+  - title: Ressources supplémentaires
+    links:
+    - title: Vidéos sur Unified Manager
+      url: https://www.youtube.com/playlist?list=PLdXI3bZJEw7mp3jFSg0IJgo3oeDQRY-Gl
+    - title: Blogs Unified Manager
+      url: https://www.netapp.com/blog/#q=active%20iq%20unified%20manager&t=Blogs&sort=%40publish_date_mktg%20descending&layout=card&f:@facet_language_mktg=[English]
+    - title: Documentation relative à Active IQ Unified Manager 9.11
+      url: https://docs.netapp.com/us-en/active-iq-unified-manager-911/
+    - title: Documentation pour les versions antérieures
+      url: https://docs.netapp.com/ocum-99/topic/com.netapp.ndc.ocum-vers/GUID-DA5B426C-61E1-45E3-B2BE-834636433934.html

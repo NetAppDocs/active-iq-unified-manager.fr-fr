@@ -1,0 +1,41 @@
+---
+permalink: data-protection/task_quiesce_protection_relationship_from_health_volume_details.html 
+sidebar: sidebar 
+keywords: quiesce, protection, relationship, volume, health details page 
+summary: 'Vous pouvez suspendre une relation de protection pour empêcher temporairement les transferts de données. Vous pouvez suspendre une relation lorsque vous souhaitez créer une copie Snapshot d"un volume de destination SnapMirror qui contient une base de données. Vous devez également vous assurer que son contenu est stable pendant la copie Snapshot.' 
+---
+= Mise au repos d'une relation de protection à partir de la page Volume / informations d'intégrité
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez suspendre une relation de protection pour empêcher temporairement les transferts de données. Vous pouvez suspendre une relation lorsque vous souhaitez créer une copie Snapshot d'un volume de destination SnapMirror qui contient une base de données. Vous devez également vous assurer que son contenu est stable pendant la copie Snapshot.
+
+*Ce dont vous aurez besoin*
+
+* Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+* Vous devez avoir configuré Workflow Automation.
+
+
+L'action de mise en veille ne s'affiche pas dans les cas suivants :
+
+* Si les paramètres RBAC n'autorisent pas cette action, par exemple, si vous disposez uniquement des privilèges d'opérateur
+* Lorsque l'ID du volume est inconnu, par exemple, lorsque vous avez une relation intercluster et que le cluster destination n'a pas encore été découvert
+* Si vous n'avez pas associé Workflow Automation et Unified Manager
+
+
+.Étapes
+. Dans l'onglet *protection* de la page de détails *Volume / Santé*, cliquez avec le bouton droit de la souris sur la relation dans la vue topologique pour la relation de protection que vous souhaitez mettre en veille.
+. Sélectionnez *Quiesce* dans le menu.
+. Cliquez sur *Oui* pour continuer.
++
+L'état de la tâche de mise en attente s'affiche en haut de la page Détails du volume/intégrité, ainsi qu'un lien vers les détails de la tâche.
+
+. Cliquez sur le lien *Afficher les détails* pour accéder à la page *travail* des détails supplémentaires et à la progression du travail.
+. *Facultatif:* cliquez sur la flèche Précédent de votre navigateur pour revenir à la page de détails *Volume / Santé*.
++
+La tâche de mise en attente est terminée lorsque toutes les tâches du travail sont terminées avec succès.
+
+

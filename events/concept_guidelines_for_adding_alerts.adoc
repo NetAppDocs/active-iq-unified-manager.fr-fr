@@ -1,0 +1,58 @@
+---
+permalink: events/concept_guidelines_for_adding_alerts.html 
+sidebar: sidebar 
+keywords: guidelines, adding, alerts 
+summary: 'Vous pouvez ajouter des alertes en fonction d"une ressource, par exemple un cluster, un nœud, un agrégat ou un volume, ainsi que les événements d"un type de sévérité spécifique. Pour bénéficier de cette meilleure pratique, vous pouvez ajouter une alerte à l"un de vos objets stratégiques après avoir ajouté le cluster auquel cet objet appartient.' 
+---
+= Instructions d'ajout d'alertes
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez ajouter des alertes en fonction d'une ressource, par exemple un cluster, un nœud, un agrégat ou un volume, ainsi que les événements d'un type de sévérité spécifique. Pour bénéficier de cette meilleure pratique, vous pouvez ajouter une alerte à l'un de vos objets stratégiques après avoir ajouté le cluster auquel cet objet appartient.
+
+Vous pouvez utiliser les instructions et considérations suivantes pour créer des alertes afin de gérer efficacement vos systèmes :
+
+* Description de l'alerte
++
+Vous devez fournir une description pour l'alerte afin qu'elle vous aide à suivre efficacement vos alertes.
+
+* Ressources
++
+Vous devez décider quelle ressource physique ou logique requiert une alerte. Vous pouvez inclure et exclure des ressources, selon les besoins. Par exemple, si vous souhaitez surveiller de près vos agrégats en configurant une alerte, vous devez sélectionner les agrégats requis dans la liste des ressources.
+
++
+Si vous sélectionnez une catégorie de ressources, par exemple *+ User or Group Quotas+*, vous recevrez alors des alertes pour tous les objets de cette catégorie.
+
++
+[NOTE]
+====
+La sélection d'un cluster comme ressource ne sélectionne pas automatiquement les objets de stockage dans ce cluster. Par exemple, si vous créez une alerte pour tous les événements critiques pour tous les clusters, vous recevrez des alertes uniquement pour les événements critiques du cluster. Vous ne recevez pas d'alertes concernant les événements critiques sur les nœuds, les agrégats, etc.
+
+====
+* Gravité de l'événement
++
+Vous devez décider si un événement d'un type de gravité spécifié (critique, erreur, avertissement) doit déclencher l'alerte et, le cas échéant, quel type de gravité.
+
+* Événements sélectionnés
++
+Si vous ajoutez une alerte en fonction du type d'événement généré, vous devez décider des événements qui nécessitent une alerte.
+
++
+Si vous sélectionnez une gravité d'événement, mais que vous ne sélectionnez aucun événement individuel (si vous laissez la colonne « Evénements sélectionnés » vide), vous recevrez alors des alertes pour tous les événements de la catégorie.
+
+* Actions
++
+Vous devez fournir les noms d'utilisateur et les adresses e-mail des utilisateurs qui reçoivent la notification. Vous pouvez également spécifier un trap SNMP comme mode de notification. Vous pouvez associer vos scripts à une alerte afin qu'ils soient exécutés lorsqu'une alerte est générée.
+
+* Fréquence des notifications
++
+Vous pouvez configurer une alerte pour qu'elle envoie une notification répétée aux destinataires pendant une heure donnée. Vous devez déterminer l'heure à laquelle la notification d'événement est active pour l'alerte. Si vous souhaitez que la notification d'événement soit répétée jusqu'à l'accusé de réception de l'événement, vous devez déterminer la fréquence à laquelle vous souhaitez que la notification soit répétée.
+
+* Exécuter le script
++
+Vous pouvez associer votre script à une alerte. Votre script est exécuté lorsque l'alerte est générée.
+
+

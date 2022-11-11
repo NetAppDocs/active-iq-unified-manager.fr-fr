@@ -1,0 +1,54 @@
+---
+permalink: api-automation/concept_security_apis.html 
+sidebar: sidebar 
+keywords: manage, user 
+summary: 'Vous pouvez utiliser les API de la catégorie de sécurité pour contrôler l"accès des utilisateurs à certains objets du cluster dans Active IQ Unified Manager. Vous pouvez ajouter des utilisateurs locaux ou des utilisateurs de base de données. Vous pouvez également ajouter des utilisateurs ou des groupes distants appartenant à un serveur d"authentification. En fonction des privilèges des rôles que vous attribuez aux utilisateurs, ils peuvent gérer les objets de stockage ou afficher les données dans Unified Manager.' 
+---
+= Gestion des utilisateurs à l'aide d'API
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez utiliser les API dans le `security` Catégorie permettant de contrôler l'accès des utilisateurs à certains objets du cluster dans Active IQ Unified Manager. Vous pouvez ajouter des utilisateurs locaux ou des utilisateurs de base de données. Vous pouvez également ajouter des utilisateurs ou des groupes distants appartenant à un serveur d'authentification. En fonction des privilèges des rôles que vous attribuez aux utilisateurs, ils peuvent gérer les objets de stockage ou afficher les données dans Unified Manager.
+
+[NOTE]
+====
+Vous devez avoir le rôle Administrateur d'applications pour exécuter ces opérations. Vous pouvez également configurer ces paramètres à l'aide de l'interface utilisateur Web Unified Manager.
+
+====
+Les API sous `security` catégorie utilisez le paramètre utilisateurs, qui est le nom d'utilisateur, et non le paramètre clé comme identifiant unique pour l'entité utilisateur.
+
+[cols="3*"]
+|===
+| Verbe HTTP | Chemin | Description 
+
+
+ a| 
+`GET`
+
+`POST`
+ a| 
+`/security/users`
+
+`/security/users`
+ a| 
+Vous pouvez utiliser ces méthodes pour obtenir les détails des utilisateurs ou ajouter un nouvel utilisateur à Unified Manager.
+
+Vous pouvez ajouter des rôles spécifiques aux utilisateurs en fonction de leurs types d'utilisateurs. Lors de l'ajout d'utilisateurs, vous devez fournir des mots de passe pour l'utilisateur local, l'utilisateur de maintenance et l'utilisateur de base de données.
+
+
+
+ a| 
+`GET`
+
+`PATCH`
+
+`DELETE`
+ a| 
+`/security/users/\{name}`
+ a| 
+La méthode OBTENIR vous permet de récupérer tous les détails d'un utilisateur, tels que le nom, l'adresse e-mail, le rôle et le type d'autorisation. La méthode PATCH vous permet de mettre à jour les détails. La méthode DE SUPPRESSION vous permet de supprimer l'utilisateur.
+
+|===

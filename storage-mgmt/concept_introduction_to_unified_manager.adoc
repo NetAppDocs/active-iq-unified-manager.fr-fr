@@ -1,0 +1,26 @@
+---
+permalink: storage-mgmt/concept_introduction_to_unified_manager.html 
+sidebar: sidebar 
+keywords: introduction, active iq unified manager 
+summary: 'Active IQ Unified Manager (anciennement OnCommand Unified Manager) vous permet de surveiller et de gérer l"état et les performances de vos systèmes de stockage ONTAP à partir d"une seule interface.' 
+---
+= Introduction à Active IQ Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Active IQ Unified Manager (anciennement OnCommand Unified Manager) vous permet de surveiller et de gérer l'état et les performances de vos systèmes de stockage ONTAP à partir d'une seule interface.
+
+Unified Manager offre les fonctionnalités suivantes :
+
+* Découverte, surveillance et notifications pour les systèmes installés avec le logiciel ONTAP.
+* Tableau de bord permettant d'afficher la capacité, la sécurité et les performances de l'environnement.
+* Alertes améliorées, événements et infrastructure de seuils.
+* Affiche des graphiques détaillés qui correspondent à l'activité des charges de travail dans le temps, notamment les IOPS (opérations), les Mbit/s (débit), la latence (temps de réponse), l'utilisation la capacité de performance et le ratio cache.
+* Identifie les charges de travail qui surutilisent les composants du cluster et les charges de travail dont les performances sont affectées par l'activité accrue.
+* Fournit des suggestions d'actions correctives qui peuvent être exécutées pour résoudre certains incidents et événements, et un bouton « Fix it » pour certains événements afin de résoudre le problème immédiatement.
+* S'intègre avec OnCommand Workflow Automation pour exécuter des flux de travail de protection automatisés.
+* Possibilité de créer de nouvelles charges de travail, par exemple une LUN ou un partage de fichiers, directement dans Unified Manager et d'attribuer un niveau de service de performances afin de définir les objectifs de performance et de stockage auxquels les utilisateurs qui accèdent à l'application via cette charge de travail.
+

@@ -1,0 +1,151 @@
+---
+permalink: health-checker/reference_svm_compliance_categories.html 
+sidebar: sidebar 
+keywords: storage vm, compliance, svm compliance, categories 
+summary: 'Ce tableau décrit les critères de conformité de sécurité de la machine virtuelle de stockage (SVM) que Unified Manager évalue, la recommandation de NetApp et si le paramètre affecte la détermination globale de la plainte ou non de la SVM.' 
+---
+= Catégories de conformité des VM de stockage
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Ce tableau décrit les critères de conformité de sécurité de la machine virtuelle de stockage (SVM) que Unified Manager évalue, la recommandation de NetApp et si le paramètre affecte la détermination globale de la plainte ou non de la SVM.
+
+[cols="4*"]
+|===
+| Paramètre | Description | Recommandation | Concerne la conformité des SVM 
+
+
+ a| 
+Journal d'audit
+ a| 
+Indique si la journalisation d'audit est activée ou désactivée.
+ a| 
+Activé
+ a| 
+Oui.
+
+
+
+ a| 
+Paramètres SSH non sécurisés
+ a| 
+Indique si SSH utilise des chiffrements non sécurisés, par exemple, en commençant par le chiffrement `cbc*`.
+ a| 
+Non
+ a| 
+Oui.
+
+
+
+ a| 
+Bannière de connexion
+ a| 
+Indique si la bannière de connexion est activée ou désactivée pour les utilisateurs qui accèdent aux SVM sur le système.
+ a| 
+Activé
+ a| 
+Oui.
+
+
+
+ a| 
+Cryptage LDAP
+ a| 
+Indique si le chiffrement LDAP est activé ou désactivé.
+ a| 
+Activé
+ a| 
+Non
+
+
+
+ a| 
+Authentification NTLM
+ a| 
+Indique si l'authentification NTLM est activée ou désactivée.
+ a| 
+Activé
+ a| 
+Non
+
+
+
+ a| 
+Signature de charge utile LDAP
+ a| 
+Indique si la signature de charge utile LDAP est activée ou désactivée.
+ a| 
+Activé
+ a| 
+Non
+
+
+
+ a| 
+Paramètres CHAP
+ a| 
+Indique si CHAP est activé ou désactivé.
+ a| 
+Activé
+ a| 
+Non
+
+
+
+ a| 
+Kerberos V5
+ a| 
+Indique si l'authentification Kerberos V5 est activée ou désactivée.
+ a| 
+Activé
+ a| 
+Non
+
+
+
+ a| 
+Authentification NIS
+ a| 
+Indique si l'utilisation de l'authentification NIS est configurée.
+ a| 
+Désactivé
+ a| 
+Non
+
+
+
+ a| 
+État FPolicy actif
+ a| 
+Indique si FPolicy est créé ou non.
+ a| 
+Oui.
+ a| 
+Non
+
+
+
+ a| 
+Chiffrement SMB activé
+ a| 
+Indique si SMB - Signature & scellage n'est pas activé.
+ a| 
+Oui.
+ a| 
+Non
+
+
+
+ a| 
+Signature SMB activée
+ a| 
+Indique si SMB -Signing n'est pas activé.
+ a| 
+Oui.
+ a| 
+Non
+
+|===

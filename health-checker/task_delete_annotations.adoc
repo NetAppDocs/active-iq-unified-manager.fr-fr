@@ -1,0 +1,30 @@
+---
+permalink: health-checker/task_delete_annotations.html 
+sidebar: sidebar 
+keywords: delete, annotations 
+summary: 'Vous pouvez supprimer des annotations personnalisées et leurs valeurs lorsqu"elles ne sont plus nécessaires.' 
+---
+= Suppression d'annotations
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez supprimer des annotations personnalisées et leurs valeurs lorsqu'elles ne sont plus nécessaires.
+
+*Ce dont vous aurez besoin*
+
+* Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+* Les valeurs d'annotation ne doivent pas être utilisées dans d'autres annotations ou règles de groupe.
+
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage Management* > *Annotations*.
+. Dans l'onglet *Annotations*, sélectionnez l'annotation à supprimer.
++
+Les détails de l'annotation sélectionnée s'affichent.
+
+. Cliquez sur *actions* > *Supprimer* pour supprimer l'annotation sélectionnée et sa valeur.
+. Dans la boîte de dialogue d'avertissement, cliquez sur *Oui* pour confirmer la suppression.
+

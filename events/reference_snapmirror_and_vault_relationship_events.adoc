@@ -1,0 +1,109 @@
+---
+permalink: events/reference_snapmirror_and_vault_relationship_events.html 
+sidebar: sidebar 
+keywords: asynchronous, mirror, vault, relationship, events, impact area, protection 
+summary: 'Les événements de relation SnapMirro et Vault vous fournissent des informations sur l"état de vos relations SnapMirror et Vault asynchrones, qui vous permettent de surveiller et contrôler les éventuels problèmes. Les événements de relation de mise en miroir asynchrone et de copie en miroir sont pris en charge pour les relations de protection des volumes et des machines virtuelles de stockage. Mais seules les relations de coffre-fort ne sont pas prises en charge pour la reprise sur incident de la machine virtuelle de stockage. Les événements sont regroupés par zone d"impact et incluent le nom de l"événement et de l"interruption, le niveau d"impact, le type de source et la gravité.' 
+---
+= Événements de relation de mise en miroir asynchrone et de coffre-fort
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Les événements de relation SnapMirro et Vault vous fournissent des informations sur l'état de vos relations SnapMirror et Vault asynchrones, qui vous permettent de surveiller et contrôler les éventuels problèmes. Les événements de relation de mise en miroir asynchrone et de copie en miroir sont pris en charge pour les relations de protection des volumes et des machines virtuelles de stockage. Mais seules les relations de coffre-fort ne sont pas prises en charge pour la reprise sur incident de la machine virtuelle de stockage. Les événements sont regroupés par zone d'impact et incluent le nom de l'événement et de l'interruption, le niveau d'impact, le type de source et la gravité.
+
+
+
+== Zone d'impact : protection
+
+[NOTE]
+====
+Les événements de relations SnapMirror et Vault sont également générés pour les machines virtuelles de stockage protégées par la reprise après incident des machines virtuelles de stockage, mais pas pour les relations d'objet constituantes.
+
+====
+|===
+| Nom de l'événement (nom de l'argument) | Niveau d'impact | Type de source | Gravité 
+
+
+ a| 
+Asynchrone Mirror et Vault malsains (ocumEvtMirrorVaultRelationshipHealthy)
+ a| 
+Risques
+ a| 
+Relation SnapMirror
+ a| 
+Avertissement
+
+
+
+ a| 
+Désactivation du miroir asynchrone et du coffre-fort (ocumEvtMirrorVaultRelationshipStateBrokenoff)
+ a| 
+Risques
+ a| 
+Relation SnapMirror
+ a| 
+Erreur
+
+
+
+ a| 
+Échec de l'initialisation du miroir asynchrone et du coffre-fort (ocumEvtMirrorVaultRelationshipInitializeFailed)
+ a| 
+Risques
+ a| 
+Relation SnapMirror
+ a| 
+Erreur
+
+
+
+ a| 
+Échec de la mise à jour asynchrone du miroir et du coffre-fort (ocumEvtMirrorVaultRelationshipUpdateFailed)
+ a| 
+Risques
+ a| 
+Relation SnapMirror
+ a| 
+Erreur
+
+
+
+ a| 
+Erreur de décalage asynchrone du miroir et du coffre-fort (ocumEvtMirrorVaultRelationshipLagError)
+ a| 
+Risques
+ a| 
+Relation SnapMirror
+ a| 
+Erreur
+
+
+
+ a| 
+Avertissement : mise en miroir asynchrone et décalage du coffre-fort (ocumEvtMirrorVaultRelationshipLagWarning)
+ a| 
+Risques
+ a| 
+Relation SnapMirror
+ a| 
+Avertissement
+
+
+
+ a| 
+Échec de la resynchronisation asynchrone du miroir et du coffre-fort (ocumEvtMirrorVaultRelationshipResyncFailed)
+ a| 
+Risques
+ a| 
+Relation SnapMirror
+ a| 
+Erreur
+
+|===
+[NOTE]
+====
+L'événement « échec de la mise à jour SnapMirror » est déclenché par le portail Active IQ (Config Advisor).
+
+====

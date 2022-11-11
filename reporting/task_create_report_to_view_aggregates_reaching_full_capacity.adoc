@@ -1,0 +1,42 @@
+---
+permalink: reporting/task_create_report_to_view_aggregates_reaching_full_capacity.html 
+sidebar: sidebar 
+keywords: create, report, view, aggregates, reaching, full capacity 
+summary: 'Vous pouvez créer un rapport pour localiser les agrégats arrivant à pleine capacité, afin de pouvoir ajouter de la capacité ou déplacer les charges de travail vers d"autres agrégats.' 
+---
+= Création d'un rapport pour afficher les agrégats dont la capacité est maximale
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez créer un rapport pour localiser les agrégats arrivant à pleine capacité, afin de pouvoir ajouter de la capacité ou déplacer les charges de travail vers d'autres agrégats.
+
+*Ce dont vous aurez besoin*
+
+* Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+
+
+Procédez comme suit pour créer une vue personnalisée affichant les agrégats qui atteignent leur pleine capacité, puis planifiez la génération d'un rapport pour cette vue.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage* > *Aggregates*.
+. Dans le menu Affichage, sélectionnez *capacité* > *tous les agrégats*.
+. Sélectionnez *Afficher/Masquer* pour supprimer les colonnes que vous ne souhaitez pas inclure dans le rapport.
+. Cliquez sur l'icône de filtre, ajoutez le filtre suivant, puis cliquez sur *appliquer le filtre* :
++
+** Jours complets à moins de 45 jours
+
+
+. Cliquez sur la partie supérieure de la colonne "Days to Full" pour trier les résultats par le moins de jours restants pour atteindre la pleine capacité.
+. Enregistrez la vue avec un nom spécifique qui reflète ce que la vue affiche, par exemple, "`passer à la capacité totale d'agrégat'", puis cliquez sur la coche (image:../media/blue_check.gif[""]).
+. Cliquez sur le bouton *Rapports planifiés* sur la page d'inventaire.
+. Cliquez sur *Add Schedule* pour ajouter une nouvelle ligne à la page *Report Schedules* afin que vous puissiez définir les caractéristiques du planning pour le nouveau rapport.
+. Entrez un nom pour le planning du rapport et remplissez les autres champs du rapport, puis cliquez sur la coche (image:../media/blue_check.gif[""]) à la fin du rang.
++
+Le rapport est envoyé immédiatement sous forme de test. Ensuite, le rapport génère et est envoyé par e-mail aux destinataires répertoriés à l'aide de la fréquence spécifiée.
+
+
+
+En fonction des résultats présentés dans ce rapport, vous pouvez augmenter le stockage sur les agrégats pour atteindre pleinement leur capacité. Par ailleurs, vous pouvez vouloir augmenter le nombre de jours jusqu'à ce que la capacité totale soit supérieure à la valeur par défaut de 7 jours. Ainsi, vous recevez des événements qui donnent plus de temps à réagir en cas de faible quantité d'espace disponible sur les agrégats.

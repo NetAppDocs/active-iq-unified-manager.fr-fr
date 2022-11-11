@@ -1,0 +1,38 @@
+---
+permalink: reporting/task_create_report_to_view_capacity_by_cluster_model.html 
+sidebar: sidebar 
+keywords: create, report, view, capacity, cluster, model 
+summary: 'Vous pouvez créer un rapport pour analyser la capacité de stockage et l"utilisation des clusters en fonction du modèle de système de stockage.' 
+---
+= Création d'un rapport pour afficher la capacité par modèle de cluster
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez créer un rapport pour analyser la capacité de stockage et l'utilisation des clusters en fonction du modèle de système de stockage.
+
+*Ce dont vous aurez besoin*
+
+* Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+
+
+Procédez comme suit pour créer une vue personnalisée affichant la capacité par modèle de cluster, puis planifier la génération d'un rapport pour cette vue.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage* > *clusters*.
+. Dans le menu Affichage, sélectionnez *capacité* > *tous les clusters*.
+. Sélectionnez *Afficher/Masquer* pour supprimer les colonnes, telles que « FQDN du cluster » et « version du système d'exploitation », que vous ne souhaitez pas inclure dans le rapport.
+. Faites glisser les colonnes ""Total Raw Capacity"", "Model/Family" et les trois colonnes agrégées près de la colonne "Cluster".
+. Cliquez sur le haut de la colonne "Model/famille" pour trier les résultats par type de cluster.
+. Enregistrez la vue avec un nom spécifique qui reflète ce que la vue affiche, par exemple, « Capacity by Cluster Model » (capacité par modèle de cluster).
+. Cliquez sur le bouton *Rapports planifiés* sur la page d'inventaire.
+. Cliquez sur *Add Schedule* pour ajouter une nouvelle ligne à la page *Report Schedules* afin que vous puissiez définir les caractéristiques du planning pour le nouveau rapport.
+. Entrez un nom pour le planning du rapport et remplissez les autres champs du rapport, puis cliquez sur la coche (image:../media/blue_check.gif[""]) à la fin du rang.
++
+Le rapport est envoyé immédiatement sous forme de test. Ensuite, le rapport génère et est envoyé par e-mail aux destinataires répertoriés à l'aide de la fréquence spécifiée.
+
+
+
+En fonction des résultats présentés dans ce rapport, vous pouvez vouloir ajouter de la capacité à certains clusters ou mettre à niveau les anciens modèles de cluster.

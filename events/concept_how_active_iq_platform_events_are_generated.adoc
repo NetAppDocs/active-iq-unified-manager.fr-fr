@@ -1,0 +1,18 @@
+---
+permalink: events/concept_how_active_iq_platform_events_are_generated.html 
+sidebar: sidebar 
+keywords: active IQ, platform, events, generated 
+summary: Les incidents et les risques liés à la plateforme Active IQ sont convertis en événements Unified Manager, comme illustré dans le diagramme ci-dessous. 
+---
+= Génération des événements de la plateforme Active IQ
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Les incidents et les risques liés à la plateforme Active IQ sont convertis en événements Unified Manager, comme illustré dans le diagramme ci-dessous.
+
+image::../media/aiq_and_um_event_generation.png[génération d'événements aiq et um]
+
+Comme vous pouvez le voir, le fichier de règles compilé sur la plateforme Active IQ est actualisé et les messages AutoSupport de cluster sont générés quotidiennement. Unified Manager met à jour la liste d'événements.

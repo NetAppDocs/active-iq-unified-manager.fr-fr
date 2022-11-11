@@ -1,0 +1,37 @@
+---
+permalink: reporting/task_create_report_view_nodes_running_older_versions_of_ontap.html 
+sidebar: sidebar 
+keywords: create, report, view, nodes, running, older versions, ONTAP 
+summary: Vous pouvez créer un rapport pour afficher la version du logiciel ONTAP installée sur tous les nœuds du cluster. Ainsi, vous pouvez voir les nœuds à mettre à niveau. 
+---
+= Création d'un rapport pour afficher les nœuds exécutant d'anciennes versions de ONTAP
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez créer un rapport pour afficher la version du logiciel ONTAP installée sur tous les nœuds du cluster. Ainsi, vous pouvez voir les nœuds à mettre à niveau.
+
+*Ce dont vous aurez besoin*
+
+* Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+
+
+Procédez comme suit pour créer une vue personnalisée affichant les nœuds exécutant d'anciennes versions de ONTAP, puis planifiez la génération d'un rapport pour cette vue.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage* > *Nodes*.
+. Sélectionnez *Afficher/Masquer* pour supprimer les colonnes que vous ne souhaitez pas inclure dans le rapport.
+. Faites glisser la colonne « version OS » près de la colonne « nœud ».
+. Cliquez sur le haut de la colonne « version OS » pour trier les résultats par la version la plus ancienne de ONTAP.
+. Enregistrez la vue avec un nom spécifique qui reflète ce que la vue affiche, par exemple, « noeuds par version ONTAP ».
+. Cliquez sur le bouton *Rapports planifiés* sur la page d'inventaire.
+. Cliquez sur *Ajouter un calendrier* pour ajouter une nouvelle ligne à la page programmes de rapports afin de définir les caractéristiques de planification du nouveau rapport.
+. Entrez un nom pour le planning du rapport et remplissez les autres champs du rapport, puis cliquez sur la coche (image:../media/blue_check.gif[""]) à la fin du rang.
++
+Le rapport est envoyé immédiatement sous forme de test. Ensuite, le rapport génère et est envoyé par e-mail aux destinataires répertoriés à l'aide de la fréquence spécifiée.
+
+
+
+Basé sur les résultats présentés dans ce rapport, vous pouvez mettre à niveau les nœuds exécutant d'anciennes versions de ONTAP.

@@ -1,0 +1,103 @@
+---
+permalink: api-automation/concept_manage_sep.html 
+sidebar: sidebar 
+keywords: manage, storage, efficiency, policy 
+summary: 'Vous pouvez afficher, créer, modifier et supprimer les règles d"efficacité du stockage en utilisant les API du fournisseur de stockage.' 
+---
+= Gestion des règles d'efficacité du stockage à l'aide d'API
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez afficher, créer, modifier et supprimer les règles d'efficacité du stockage en utilisant les API du fournisseur de stockage.
+
+[NOTE]
+====
+Notez les points suivants :
+
+* Il n'est pas obligatoire d'attribuer une règle d'efficacité du stockage lors de la création d'une charge de travail sur Unified Manager.
+* Vous ne pouvez pas annuler l'affectation d'une stratégie d'efficacité du stockage à une charge de travail après son affectation.
+* Si une charge de travail dispose de certains paramètres de stockage spécifiés sur les volumes ONTAP, tels que la déduplication et la compression, ces paramètres peuvent être remplacés par les paramètres spécifiés dans la stratégie d'efficacité du stockage applicable lorsque vous ajoutez les charges de travail de stockage sur Unified Manager.
+
+
+====
+
+
+== Consultez les règles d'efficacité du stockage
+
+Utilisez la méthode suivante pour afficher les règles d'efficacité du stockage avant de les attribuer aux charges de travail de stockage. Cette API répertorie l'ensemble des règles d'efficacité du stockage définies par le système et créées par l'utilisateur, et récupère les attributs de toutes les politiques d'efficacité du stockage. Si vous souhaitez interroger une règle Storage Efficiency spécifique, vous devez entrer l'ID unique de la règle pour en récupérer les détails.
+
+[cols="3*"]
+|===
+| Catégorie | Verbe HTTP | Chemin 
+
+
+ a| 
+fournisseur de stockage
+ a| 
+OBTENEZ
+ a| 
+`/storage-provider/storage-efficiency-policies`
+
+`/storage-provider/storage-efficiency-policies/\{key}`
+
+|===
+
+
+== Ajoutez des règles relatives à l'efficacité du stockage
+
+Vous pouvez utiliser la méthode suivante pour créer des règles personnalisées d'efficacité du stockage et les attribuer à vos charges de travail de stockage si les règles définies par le système ne répondent pas aux besoins de provisionnement de vos charges de travail de stockage. Entrez les détails de la règle d'efficacité du stockage que vous souhaitez créer, en tant que paramètres d'entrée.
+
+[cols="3*"]
+|===
+| Catégorie | Verbe HTTP | Chemin 
+
+
+ a| 
+fournisseur de stockage
+ a| 
+POST
+ a| 
+`/storage-provider/storage-efficiency-policies`
+
+|===
+
+
+== Supprimez les règles d'efficacité du stockage
+
+Vous pouvez utiliser la méthode suivante pour supprimer une stratégie d'efficacité du stockage spécifique. Vous ne pouvez pas supprimer une stratégie d'efficacité du stockage s'il est affecté à une charge de travail ou s'il s'agit de la seule stratégie d'efficacité du stockage disponible. Vous devez fournir l'ID unique de la règle d'efficacité du stockage sous forme de paramètre d'entrée pour supprimer une règle d'efficacité du stockage en particulier.
+
+[cols="3*"]
+|===
+| Catégorie | Verbe HTTP | Chemin 
+
+
+ a| 
+fournisseur de stockage
+ a| 
+SUPPRIMER
+ a| 
+`/storage-provider/storage-efficiency-policies/\{key}`
+
+|===
+
+
+== Modification des stratégies d'efficacité du stockage
+
+Vous pouvez utiliser la méthode suivante pour modifier une stratégie d'efficacité du stockage et mettre à jour ses propriétés. Vous ne pouvez pas modifier une règle d'efficacité du stockage définie par le système ou affectée à une charge de travail. Vous devez fournir l'ID unique de la politique d'efficacité du stockage pour modifier une politique d'efficacité de stockage en particulier. En outre, vous devez fournir la propriété que vous voulez mettre à jour, ainsi que sa valeur.
+
+[cols="3*"]
+|===
+| Catégorie | Verbe HTTP | Chemin 
+
+
+ a| 
+fournisseur de stockage
+ a| 
+CORRECTIF
+ a| 
+`/storage-provider/storage-efficiency-policies/\{key}`
+
+|===

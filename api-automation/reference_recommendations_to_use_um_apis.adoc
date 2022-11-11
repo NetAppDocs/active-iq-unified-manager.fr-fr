@@ -1,0 +1,29 @@
+---
+permalink: api-automation/reference_recommendations_to_use_um_apis.html 
+sidebar: sidebar 
+keywords: recommendations, apis, active iq, unified, manager 
+summary: Lorsque vous utilisez des API dans Active IQ Unified Manager, vous devez respecter certaines pratiques recommandées. 
+---
+= Recommandations pour l'utilisation des API pour Active IQ Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Lorsque vous utilisez des API dans Active IQ Unified Manager, vous devez respecter certaines pratiques recommandées.
+
+* Tous les types de contenu de réponse doivent être au format suivant pour une exécution valide :
++
+[listing]
+----
+application/json
+----
+* Le numéro de version de l'API n'est pas lié au numéro de version du produit. Nous vous recommandons d'utiliser la dernière version de l'API disponible pour votre instance Unified Manager. Pour plus d'informations sur les versions de l'API Unified Manager, reportez-vous à la section « GESTION des versions de l'API DE ST dans Active IQ Unified Manager ».
+* Lors de la mise à jour des valeurs d'une baie à l'aide d'une API Unified Manager, vous devez mettre à jour l'ensemble de la chaîne de valeurs. Vous ne pouvez pas ajouter de valeurs à un tableau. Vous ne pouvez remplacer qu'une baie existante.
+* Vous pouvez utiliser des opérateurs de filtre, tels que pipe (|) et Wild card (+*+) pour tous les paramètres de requête, à l'exception des valeurs doubles, par exemple, IOPS et performances dans les API de metrics.
+* Évitez d'interroger les objets en utilisant une combinaison de caractères génériques (+*+) et de tuyaux (|) des opérateurs de filtre. Il est possible que le nombre d'objets soit incorrect.
+* Lorsque vous utilisez des valeurs pour le filtre, assurez-vous que la valeur ne contient aucune `?` caractère. Ceci est pour atténuer les risques de l'injection SQL.
+* Notez que le `GET` (All) la demande d'une API renvoie un maximum de 1000 enregistrements. Même si vous exécutez la requête en définissant l' `max_records` paramètre à une valeur supérieure à 1000, seuls 1000 enregistrements sont renvoyés.
+* Pour effectuer des fonctions administratives, il est recommandé d'utiliser l'interface utilisateur de Unified Manager.
+

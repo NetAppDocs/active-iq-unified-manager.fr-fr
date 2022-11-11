@@ -1,0 +1,30 @@
+---
+permalink: health-checker/task_edit_annotation_rules.html 
+sidebar: sidebar 
+keywords: edit, annotation rules 
+summary: 'Vous pouvez modifier des règles d"annotation pour modifier les groupes de conditions et les conditions au sein du groupe de conditions afin d"ajouter des annotations à des objets de stockage ou de les supprimer.' 
+---
+= Modification des règles d'annotation
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez modifier des règles d'annotation pour modifier les groupes de conditions et les conditions au sein du groupe de conditions afin d'ajouter des annotations à des objets de stockage ou de les supprimer.
+
+*Ce dont vous aurez besoin*
+
+Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+
+Les annotations sont dissociées des objets de stockage lorsque vous modifiez les règles d'annotation associées.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage Management* > *Annotations*.
+. Dans l'onglet *règles d'annotation*, sélectionnez la règle d'annotation à modifier, puis cliquez sur *actions* > *Modifier*.
+. Dans la boîte de dialogue *Modifier règle d'annotation*, modifiez le nom de la règle, le nom et la valeur de l'annotation, les groupes de condition et les conditions comme requis.
++
+Vous ne pouvez pas modifier le type d'objet cible d'une règle d'annotation.
+
+. Cliquez sur *Enregistrer*.
+

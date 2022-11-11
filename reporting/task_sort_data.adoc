@@ -1,0 +1,19 @@
+---
+permalink: reporting/task_sort_data.html 
+sidebar: sidebar 
+keywords: sort, data 
+summary: 'Pour trier les résultats, cliquez sur une colonne et indiquez l"ordre croissant ou décroissant. Le tri des données classe les informations dont vous avez besoin pour le rapport.' 
+---
+= Tri des données
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Pour trier les résultats, cliquez sur une colonne et indiquez l'ordre croissant ou décroissant. Le tri des données classe les informations dont vous avez besoin pour le rapport.
+
+.Étapes
+. Cliquez sur le haut d'une colonne pour trier les résultats afin que les informations les plus importantes apparaissent en haut de la vue.
+. Nommez la vue non enregistrée pour enregistrer vos modifications.
+

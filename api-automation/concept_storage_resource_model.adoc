@@ -1,0 +1,31 @@
+---
+permalink: api-automation/concept_storage_resource_model.html 
+sidebar: sidebar 
+keywords: storage, resource, ONTAP 
+summary: 'Les ressources de stockage de ONTAP peuvent être très largement classées en ressources de stockage physiques et en ressources de stockage logiques. Pour gérer efficacement vos systèmes ONTAP à l"aide des API fournies dans Active IQ Unified Manager, vous devez connaître le modèle de ressources de stockage et la relation entre différentes ressources.' 
+---
+= Ressources de stockage dans ONTAP
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Les ressources de stockage de ONTAP peuvent être classées dans _ressources de stockage physiques_ et _ressources de stockage logiques._ pour gérer efficacement vos systèmes ONTAP à l'aide des API fournies dans Active IQ Unified Manager, vous devez comprendre le modèle de ressources de stockage et la relation entre les différentes ressources de stockage.
+
+* *Ressources de stockage physique*
++
+Désigne les objets de stockage physique fournis par ONTAP. Les ressources de stockage physique sont les disques, les clusters, les contrôleurs de stockage, les nœuds et les agrégats.
+
+* *Ressources de stockage logiques*
++
+Désigne les ressources de stockage fournies par ONTAP qui ne sont pas liées à une ressource physique. Ces ressources sont associées à une machine virtuelle de stockage (SVM, anciennement appelée vServer), et elles existent indépendamment de toute ressource de stockage physique spécifique, telle qu'un agrégat, une LUN de baie ou un disque.
+
++
+Les ressources de stockage logique comprennent des volumes de tous les types et qtrees, ainsi que des fonctionnalités et des configurations que vous pouvez utiliser avec ces ressources, comme les copies Snapshot, la déduplication, la compression et les quotas.
+
+
+
+L'illustration suivante présente les ressources de stockage dans un cluster à deux nœuds :
+
+image::../media/storage_resource_model.gif[modèle de ressource de stockage]

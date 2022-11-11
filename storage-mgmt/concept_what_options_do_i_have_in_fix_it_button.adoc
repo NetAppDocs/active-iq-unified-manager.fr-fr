@@ -1,0 +1,81 @@
+---
+permalink: storage-mgmt/concept_what_options_do_i_have_in_fix_it_button.html 
+sidebar: sidebar 
+keywords: fix it,fix all 
+summary: 'La page actions de gestion vous fournit le bouton réparer ou corriger tout pour corriger les problèmes dont Unified Manager a été informé par le biais d"un événement.' 
+---
+= Quelles sont les options qui s'offrent lorsque je vois le bouton réparer ou réparer tout
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+La page actions de gestion vous fournit le bouton *Fix it* ou *Fix all* pour résoudre les problèmes dont Unified Manager a été informé par le biais d'un événement.
+
+Nous vous recommandons de cliquer sur les boutons pour résoudre un problème, si nécessaire. Toutefois, si vous n'êtes pas sûr de vouloir résoudre le problème comme recommandé par Unified Manager, vous pouvez effectuer les actions suivantes :
+
+|===
+| Que souhaitez-vous faire ? | *Action* 
+
+
+ a| 
+Demandez à Unified Manager de corriger le problème sur tous les objets identifiés.
+ a| 
+Cliquez sur le bouton *réparer tout*.
+
+
+
+ a| 
+Ne corrigez pas le problème pour l'un des objets identifiés à ce stade et ne masquez pas cette action de gestion jusqu'à ce que l'événement soit à nouveau déclenché.
+ a| 
+Cliquez sur la flèche vers le bas et cliquez sur *rejeter tout*.
+
+
+
+ a| 
+Corrigez le problème uniquement sur certains des objets identifiés.
+ a| 
+Cliquez sur le nom de l'action de gestion pour développer la liste et afficher toutes les actions individuelles *Fix it*.Suivez ensuite les étapes de résolution ou de rejet des actions de gestion individuelles.
+
+|===
+|===
+| Que souhaitez-vous faire ? | Action 
+
+
+ a| 
+Demandez à Unified Manager de résoudre le problème.
+ a| 
+Cliquez sur le bouton *Fix it*.
+
+
+
+ a| 
+Ne corrigez pas le problème à ce stade et ne masquez pas cette action de gestion tant que l'événement n'est pas à nouveau déclenché.
+ a| 
+Cliquez sur la flèche vers le bas et cliquez sur *rejeter*.
+
+
+
+ a| 
+Affichez les détails de cet événement pour mieux comprendre le problème.
+ a| 
+* Cliquez sur le bouton *Fix it* et vérifiez le correctif qui sera appliqué dans la boîte de dialogue résultante.
+* Cliquez sur la flèche vers le bas et cliquez sur *Afficher les détails de l'événement* pour afficher la page Détails de l'événement.
+
+
+Cliquez ensuite sur *Fix it* dans l'une ou l'autre de ces pages si vous souhaitez résoudre le problème.
+
+
+
+ a| 
+Affichez les détails de cet objet de stockage pour mieux comprendre le problème.
+ a| 
+Cliquez sur le nom de l'objet de stockage pour afficher des détails dans la page Performance Explorer ou Health Details.
+
+|===
+Dans certains cas, la correction est reflétée dans l'interrogation de configuration de 15 minutes suivante. Dans d'autres cas, il peut prendre jusqu'à plusieurs heures pour que la modification de configuration soit vérifiée et pour l'événement à rendue obsolète.
+
+Pour afficher la liste des actions de gestion terminées ou en cours, cliquez sur l'icône de filtre et sélectionnez *terminé* ou *en cours*.
+
+Corriger toutes les opérations s'exécutent en série. Ainsi, lorsque vous affichez le panneau *en cours*, certains objets auront l'état *en cours* alors que d'autres auront l'état *programmé*, ce qui signifie qu'ils sont toujours en attente d'être implémentés.

@@ -1,0 +1,22 @@
+---
+permalink: config/task_view_users.html 
+sidebar: sidebar 
+keywords: view, users 
+summary: 'Vous pouvez utiliser la page utilisateurs pour afficher la liste des utilisateurs qui gèrent les objets et les données de stockage à l"aide de Unified Manager. Vous pouvez afficher des détails sur les utilisateurs, tels que le nom d"utilisateur, le type d"utilisateur, l"adresse e-mail et le rôle attribué aux utilisateurs.' 
+---
+= Affichage des utilisateurs
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez utiliser la page utilisateurs pour afficher la liste des utilisateurs qui gèrent les objets et les données de stockage à l'aide de Unified Manager. Vous pouvez afficher des détails sur les utilisateurs, tels que le nom d'utilisateur, le type d'utilisateur, l'adresse e-mail et le rôle attribué aux utilisateurs.
+
+*Ce dont vous aurez besoin*
+
+Vous devez avoir le rôle Administrateur d'applications.
+
+.Étape
+. Dans le volet de navigation de gauche, cliquez sur *général* > *utilisateurs*.
+

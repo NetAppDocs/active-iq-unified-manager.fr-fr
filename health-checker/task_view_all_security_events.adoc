@@ -1,0 +1,29 @@
+---
+permalink: health-checker/task_view_all_security_events.html 
+sidebar: sidebar 
+keywords: view, active, security events 
+summary: Vous pouvez afficher tous les événements de sécurité actifs, puis les attribuer à un utilisateur qui peut résoudre le problème. En outre, si vous ne souhaitez pas recevoir certains événements de sécurité, cette liste peut vous aider à identifier les événements que vous souhaitez désactiver. 
+---
+= Affichage de tous les événements de sécurité actifs
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez afficher tous les événements de sécurité actifs, puis les attribuer à un utilisateur qui peut résoudre le problème. En outre, si vous ne souhaitez pas recevoir certains événements de sécurité, cette liste peut vous aider à identifier les événements que vous souhaitez désactiver.
+
+*Ce dont vous aurez besoin*
+
+Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Event Management*.
++
+Par défaut, les événements nouveaux et acquittés sont affichés sur la page d'inventaire gestion des événements.
+
+. Dans le menu Affichage, sélectionnez *événements de sécurité actifs*.
++
+La page affiche tous les événements de sécurité nouveaux et acquittés qui ont été générés au cours des 7 derniers jours.
+
+

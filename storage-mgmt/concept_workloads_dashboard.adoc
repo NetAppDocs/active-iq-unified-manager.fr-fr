@@ -1,0 +1,74 @@
+---
+permalink: storage-mgmt/concept_workloads_dashboard.html 
+sidebar: sidebar 
+keywords: workloads, overview, data center, sections 
+summary: 'Une charge de travail (workload) représente les opérations d"entrée/sortie (I/O) d"un objet de stockage, telles qu"un volume ou une LUN. La méthode de provisionnement du stockage repose sur les exigences des charges de travail attendues. Les statistiques de charge de travail sont uniquement suivies par Active IQ Unified Manager après le trafic vers et depuis l"objet de stockage. Par exemple, les valeurs d"IOPS et de latence de la charge de travail sont disponibles lorsque les utilisateurs ont commencé à utiliser une application de base de données ou de messagerie.' 
+---
+= Présentation des charges de travail
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Une charge de travail (workload) représente les opérations d'entrée/sortie (I/O) d'un objet de stockage, telles qu'un volume ou une LUN. La méthode de provisionnement du stockage repose sur les exigences des charges de travail attendues. Les statistiques de charge de travail sont uniquement suivies par Active IQ Unified Manager après le trafic vers et depuis l'objet de stockage. Par exemple, les valeurs d'IOPS et de latence de la charge de travail sont disponibles lorsque les utilisateurs ont commencé à utiliser une application de base de données ou de messagerie.
+
+La page charges de travail affiche un récapitulatif des charges de travail de stockage des clusters ONTAP gérés par Unified Manager. Il fournit des informations cumulées d'un coup d'œil sur les charges de travail de stockage conformes au niveau de service performances, ainsi que sur les charges de travail de stockage non conformes. Elle vous permet également d'évaluer la capacité et les performances totales, disponibles et utilisées (IOPS) des clusters de votre data Center.
+
+[NOTE]
+====
+Il est recommandé d'évaluer le nombre de charges de travail de stockage non conformes, non disponibles ou non gérées par un niveau de service Performance, et de prendre les mesures nécessaires pour assurer la conformité, l'utilisation de la capacité et le nombre d'opérations d'entrée/sortie par seconde.
+
+====
+La page workloads contient les deux sections suivantes :
+
+* Présentation des charges de travail : offre une vue d'ensemble du nombre de charges de travail de stockage sur les clusters ONTAP gérés par Unified Manager.
+* Présentation du data Center : présente la capacité et les IOPS des charges de travail de stockage dans le data Center. Les données pertinentes sont affichées au niveau du centre de données et pour chaque .
+
+
+
+
+== Les charges de travail
+
+La section vue d'ensemble des charges de travail fournit des informations cumulées d'un coup d'œil sur les charges de travail de stockage. L'état des charges de travail de stockage s'affiche en fonction des niveaux de service de performances affectés et non attribués.
+
+* *Assigné* : les États suivants sont signalés pour les charges de travail de stockage sur lesquelles des niveaux de service de performance ont été attribués :
++
+** *Conformité* : les performances des charges de travail de stockage sont basées sur les niveaux de service de performances qui leur sont affectés. Si les charges de travail de stockage se situent dans la latence seuil définie dans les niveaux de services de performance associés, elles sont désignées par le terme « conformité ». Les charges de travail conformes sont indiquées en bleu.
+** *Non-conformité* : pendant la surveillance des performances, les charges de travail de stockage sont marquées d'un « non-conformité » si la latence des charges de travail de stockage dépasse le seuil défini dans le niveau de services de performances associé. Les charges de travail non conformes sont signalées en orange.
+** *Indisponible* : les charges de travail de stockage sont marquées comme « non disponibles » s'elles sont hors ligne ou si le cluster correspondant est inaccessible. Les charges de travail non disponibles sont marquées en rouge.
+
+
+* *Non affectées* : les charges de travail de stockage qui ne leur sont pas attribuées un niveau de service de performance sont signalées comme « non affectées ». Le numéro est transmis par l'icône d'information.
+
+
+Le nombre total de charges de travail correspond à la somme totale des charges de travail affectées et non affectées.
+
+Vous pouvez cliquer sur le nombre total de charges de travail affichées dans cette section et les afficher sur la page charges de travail.
+
+La sous-section Conformance by Performance Service Levels affiche le nombre total de charges de travail de stockage disponibles :
+
+* Conformité à chaque type de niveau de service Performance
+* Pour laquelle il existe une incohérence entre les niveaux de service performances attribués et recommandés
+
+
+
+
+== Présentation du data Center
+
+La section présentation du data Center représente sous forme graphique la capacité disponible et utilisée et les IOPS de tous les clusters du data Center. Ces données vous permettront de gérer la capacité et les IOPS des charges de travail de stockage. Cette section affiche également les informations suivantes pour les charges de travail de stockage sur tous les clusters :
+
+* Total, disponible et capacité utilisée pour tous les clusters de votre data Center
+* Le total, la disponibilité et les IOPS utilisées pour tous les clusters de votre data Center
+* Capacité disponible et utilisée en fonction de chaque niveau de service Performance
+* Les IOPS disponibles et utilisées sont basées sur chaque niveau de service de performance
+* Espace total et IOPS utilisés par les charges de travail pour lesquelles aucun niveau de service de performance n'est attribué
+
+
+*La capacité et les performances du centre de données sont calculées en fonction des niveaux de service de performance*
+
+La capacité utilisée et les IOPS sont récupérées en termes de capacité totale utilisée et de performances de toutes les charges de travail de stockage dans les clusters.
+
+Le nombre d'IOPS disponibles est calculé en fonction de la latence attendue et des niveaux de service de performances recommandés sur les nœuds. Elle inclut les IOPS disponibles pour tous les niveaux de services de performances dont la latence prévue est inférieure ou égale à la latence attendue.
+
+La capacité disponible est calculée en fonction du temps de latence attendu et des niveaux de service de performances recommandés pour les agrégats. Elle inclut la capacité disponible pour tous les niveaux de services de performances dont la latence prévue est inférieure ou égale à la latence attendue.

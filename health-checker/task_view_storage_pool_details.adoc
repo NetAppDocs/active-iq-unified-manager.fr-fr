@@ -1,0 +1,40 @@
+---
+permalink: health-checker/task_view_storage_pool_details.html 
+sidebar: sidebar 
+keywords: view, storage pool, details 
+summary: 'Vous pouvez afficher les détails du pool de stockage afin de surveiller l"état du pool de stockage, le cache total et disponible, ainsi que les allocations utilisées et disponibles.' 
+---
+= Affichage des détails du pool de stockage
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez afficher les détails du pool de stockage afin de surveiller l'état du pool de stockage, le cache total et disponible, ainsi que les allocations utilisées et disponibles.
+
+*Ce dont vous aurez besoin*
+
+Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage* > *Aggregates*.
+. Cliquer sur le nom d'un agrégat.
++
+Les détails de l'agrégat sélectionné sont affichés.
+
+. Cliquez sur l'onglet *Disk information*.
++
+Les informations détaillées du disque s'affichent.
+
++
+[NOTE]
+====
+La table cache s'affiche uniquement lorsque l'agrégat sélectionné utilise un pool de stockage.
+
+====
+. Dans la table cache, déplacez le pointeur sur le nom du pool de stockage requis.
++
+Les détails du pool de stockage s'affichent.
+
+

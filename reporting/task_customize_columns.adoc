@@ -1,0 +1,23 @@
+---
+permalink: reporting/task_customize_columns.html 
+sidebar: sidebar 
+keywords: customize, columns 
+summary: 'Utilisez Afficher/Masquer pour choisir les colonnes que vous souhaitez utiliser dans votre rapport. Faites glisser les colonnes de la page d"inventaire pour les réorganiser.' 
+---
+= Personnalisation des colonnes
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Utilisez *Afficher/Masquer* pour choisir les colonnes que vous souhaitez utiliser dans votre rapport. Faites glisser les colonnes de la page d'inventaire pour les réorganiser.
+
+.Étapes
+. Cliquez sur *Afficher/Masquer* pour ajouter ou supprimer des colonnes.
++
+image::../media/show_hide_3.png[afficher masquer 3]
+
+. Sur la page d'inventaire, faites glisser les colonnes pour les réorganiser selon l'ordre de votre choix dans votre rapport.
+. Nommez la vue non enregistrée pour enregistrer vos modifications.
+

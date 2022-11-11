@@ -1,0 +1,32 @@
+---
+permalink: events/reference_description_of_event_impact_levels.html 
+sidebar: sidebar 
+keywords: description, event, impact, levels 
+summary: 'Chaque événement est associé à un niveau d"impact (incident, risque, événement ou mise à niveau) pour vous aider à hiérarchiser les événements nécessitant une action corrective immédiate.' 
+---
+= Description des niveaux d'impact d'événement
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Chaque événement est associé à un niveau d'impact (incident, risque, événement ou mise à niveau) pour vous aider à hiérarchiser les événements nécessitant une action corrective immédiate.
+
+* *Incident*
++
+Un incident est un ensemble d'événements pouvant entraîner l'arrêt du service des données au client et un manque d'espace pour le stockage des données. Les événements ayant un niveau d'impact de l'incident sont les plus graves. Une action corrective immédiate doit être prise pour éviter toute perturbation du service.
+
+* *Risque*
++
+Un risque est un ensemble d'événements pouvant entraîner l'arrêt du service des données au client et le manque d'espace pour le stockage des données. Les événements ayant un impact sur le niveau de risque peuvent entraîner des perturbations du service. Une action corrective peut être nécessaire.
+
+* *Événement*
++
+Un événement est un changement d'état ou d'état des objets de stockage et de leurs attributs. Les événements ayant un niveau d'impact de l'événement sont informatifs et ne nécessitent pas d'action corrective.
+
+* *Mise à niveau*
++
+Les événements de mise à niveau sont un type spécifique d'événement signalé par la plate-forme Active IQ. Ces événements identifient les problèmes liés à la résolution des problèmes lorsque vous devez mettre à niveau le logiciel ONTAP, le firmware des nœuds ou le logiciel du système d'exploitation (pour les conseils de sécurité). Vous pouvez effectuer une action corrective immédiatement pour certains de ces problèmes, alors que d'autres peuvent attendre la prochaine maintenance planifiée.
+
+

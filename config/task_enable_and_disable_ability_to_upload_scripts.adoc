@@ -1,0 +1,42 @@
+---
+permalink: config/task_enable_and_disable_ability_to_upload_scripts.html 
+sidebar: sidebar 
+keywords: script upload, enable, disable 
+summary: La possibilité de télécharger les scripts vers Unified Manager et de les exécuter est activée par défaut. Si votre entreprise ne souhaite pas autoriser cette activité pour des raisons de sécurité, vous pouvez désactiver cette fonctionnalité. 
+---
+= Activation et désactivation du téléchargement des scripts
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+La possibilité de télécharger les scripts vers Unified Manager et de les exécuter est activée par défaut. Si votre entreprise ne souhaite pas autoriser cette activité pour des raisons de sécurité, vous pouvez désactiver cette fonctionnalité.
+
+*Ce dont vous aurez besoin*
+
+Vous devez avoir le rôle Administrateur d'applications.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *général* > *Paramètres de fonction*.
+. Dans la page *Feature Settings*, désactivez ou activez le script en choisissant l'une des options suivantes :
++
+[cols="2*"]
+|===
+| Les fonctions que vous recherchez... | Alors, procédez comme ça... 
+
+
+ a| 
+Désactiver les scripts
+ a| 
+Dans le panneau *script Upload*, déplacez le curseur vers la gauche.
+
+
+
+ a| 
+Activez les scripts
+ a| 
+Dans le panneau *script Upload*, déplacez le curseur vers la droite.
+
+|===
+

@@ -1,0 +1,16 @@
+---
+permalink: config/concept_login_banner.html 
+sidebar: sidebar 
+keywords: login banner, feature settings 
+summary: 'Cette fonction permet à votre organisation d"afficher toutes les informations, telles que les personnes autorisées à accéder au système et les conditions d"utilisation lors de la connexion et de la déconnexion.' 
+---
+= Ajout d'une bannière de connexion
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+L'ajout d'une bannière de connexion permet à votre organisation d'afficher toutes les informations, telles que les personnes autorisées à accéder au système et les conditions d'utilisation lors de la connexion et de la déconnexion.
+
+Tout utilisateur, tel que les opérateurs de stockage ou les administrateurs, peut afficher cette bannière de connexion pendant la connexion, la déconnexion et le délai d'expiration de la session.

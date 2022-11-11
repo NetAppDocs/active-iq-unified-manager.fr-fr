@@ -1,0 +1,42 @@
+---
+permalink: performance-checker/concept_understand_performance_panels_on_dashboard.html 
+sidebar: sidebar 
+keywords: understand, performance, panels, dashboard 
+summary: 'Le tableau de bord Unified Manager propose quelques panneaux présentant l"état de performance générale des clusters contrôlés dans votre environnement. Vous pouvez choisir d"afficher l"état de tous les clusters ou d"un cluster individuel.' 
+---
+= Comprendre les panneaux de performances du tableau de bord
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Le tableau de bord Unified Manager propose quelques panneaux présentant l'état de performance générale des clusters contrôlés dans votre environnement. Vous pouvez choisir d'afficher l'état de tous les clusters ou d'un cluster individuel.
+
+En plus d'afficher les informations sur les performances, la plupart des panneaux affichent également le nombre d'événements actifs dans cette catégorie et le nombre de nouveaux événements ajoutés au cours des 24 dernières heures. Ces informations vous aident à déterminer les clusters que vous devrez analyser davantage pour résoudre les événements signalés. Un clic sur les événements affiche les quelques principaux événements et fournit un lien vers la page d'inventaire Event Management filtré pour afficher les événements de cette catégorie.
+
+Les panneaux suivants fournissent l'état des performances.
+
+* *Panneau capacité de performance*
++
+Lorsque vous affichez tous les clusters, ce panneau affiche la valeur de capacité des performances pour chaque cluster (moyenne sur l'heure précédente) et le nombre de jours jusqu'à ce que la capacité des performances atteigne la limite supérieure (basée sur le taux de croissance quotidien). Cliquez sur le graphique à barres pour accéder à la page d'inventaire des nœuds de ce cluster. Notez que la page d'inventaire des nœuds affiche la capacité de performance moyenne sur les 72 heures précédentes. Cette valeur peut donc ne pas correspondre à la valeur du tableau de bord.
+
++
+Lorsque vous affichez un seul cluster, ce volet affiche la capacité des performances du cluster, les IOPS totales et les valeurs de débit total.
+
+* *Panneau d'IOPS de charge de travail*
++
+Lorsque la gestion active de la charge de travail est activée et que vous affichez un cluster unique, cette fenêtre affiche le nombre total de charges de travail actuellement exécutées dans une certaine plage d'IOPS.
+
+* *Panneau performances de la charge de travail*
++
+Lorsque la gestion active de la charge de travail est activée, ce panneau affiche le nombre total de charges de travail conformes et non conformes affectées à chaque niveau de service de performances défini. Cliquez sur un graphique à barres pour accéder aux charges de travail affectées à cette règle sur la page charges de travail.
+
+* *Panneau vue d'ensemble de l'utilisation*
++
+Lorsque vous affichez tous les clusters, vous pouvez choisir d'afficher les clusters triés en fonction des IOPS ou du débit le plus élevés (Mbit/s).
+
++
+Lorsque vous affichez un seul cluster, vous avez la possibilité d'afficher les charges de travail présentes sur ce cluster, selon les critères les plus élevés en termes d'IOPS ou de débit (Mbit/s).
+
+

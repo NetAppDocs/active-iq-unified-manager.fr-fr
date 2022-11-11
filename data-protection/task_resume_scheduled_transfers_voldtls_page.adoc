@@ -1,0 +1,36 @@
+---
+permalink: data-protection/task_resume_scheduled_transfers_voldtls_page.html 
+sidebar: sidebar 
+keywords: resume schedule, transfers, quiesce, relationship,  volume, health details page 
+summary: 'Une fois que vous avez suspendu une relation pour arrêter les transferts programmés, vous pouvez utiliser reprendre sur la page Volume/informations de santé pour réactiver les transferts programmés afin de protéger les données du volume source ou principal. Les transferts reprennent à partir d"un point de contrôle, le cas échéant, à l"intervalle de transfert planifié suivant.' 
+---
+= Reprise des transferts programmés sur une relation mise en veille à partir de la page Volume / informations de santé
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Une fois que vous avez suspendu une relation pour arrêter les transferts programmés, vous pouvez utiliser *Resume* sur la page Volume / Détails de l'état de santé pour réactiver les transferts programmés afin que les données sur le volume source ou primaire soient protégées. Les transferts reprennent à partir d'un point de contrôle, le cas échéant, à l'intervalle de transfert planifié suivant.
+
+*Ce dont vous aurez besoin*
+
+* Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+* Vous devez avoir configuré Workflow Automation.
+
+
+.Étapes
+. Dans l'onglet *protection* de la page d'informations *Volume / Santé*, cliquez avec le bouton droit de la souris dans la vue topologique d'une relation mise au repos que vous souhaitez reprendre.
++
+Vous pouvez également sélectionner *reprendre* dans le menu *actions* > *relation*.
+
+. Dans la boîte de dialogue *reprendre*, cliquez sur *Continuer*.
++
+Vous êtes renvoyé à la page Volume / Health details.
+
+. Pour afficher les tâches associées et suivre leur progression, cliquez sur le lien du travail qui s'affiche en haut de la page *Volume / Santé*.
+. Dans la page *Job* details, cliquez sur *Refresh* pour mettre à jour la liste des tâches et les détails de la tâche associée à la tâche de configuration de la protection et déterminer quand la tâche est terminée.
++
+Une fois les travaux terminés, les transferts de données sont repris au prochain intervalle de transfert programmé.
+
+

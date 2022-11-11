@@ -1,0 +1,46 @@
+---
+permalink: reporting/task_create_report_for_volumes_with_high_amount_of_cold_data.html 
+sidebar: sidebar 
+keywords: display, volumes, cold, data, non-fabricpool, aggregate, identify 
+summary: Vous pouvez créer un rapport pour afficher les volumes contenant une quantité importante de données inactives sur un agrégat non FabricPool. Cela peut vous aider à identifier les volumes à transférer vers un agrégat FabricPool. 
+---
+= Création d'un rapport permettant d'afficher les volumes dont le volume de données inactives est élevé sur un agrégat non compatible FabricPool
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez créer un rapport pour afficher les volumes contenant une quantité importante de données inactives sur un agrégat non FabricPool. Cela peut vous aider à identifier les volumes à transférer vers un agrégat FabricPool.
+
+*Ce dont vous aurez besoin*
+
+* Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+
+
+Procédez comme suit pour créer une vue personnalisée pour les volumes contenant une quantité importante de données inactives sur un agrégat non compatible avec FabricPool, puis planifier la génération d'un rapport pour cette vue.
+
+.Étapes
+. Dans le volet de navigation de gauche, cliquez sur *Storage* > *volumes*.
+. Dans le menu Affichage, sélectionnez *Performance* > *tous les volumes*.
+. Sélectionnez *Afficher/Masquer* pour vous assurer que la colonne "Type de disque" s'affiche dans la vue.
++
+Ajoutez ou supprimez d'autres colonnes pour créer une vue importante pour votre rapport.
+
+. Faites glisser la colonne "Type de disque" près de la colonne "données froides".
+. Cliquez sur l'icône de filtre, ajoutez le filtre suivant, puis cliquez sur *appliquer le filtre* :
++
+** Données inactives supérieures à 100 Go
+** Le type de disque contient un disque SSD
+
+
+. Cliquez sur le haut de la colonne "Type de disque" pour trier les volumes par type de disque de sorte que le type de disque SSD (FabricPool) soit en bas.
+. Enregistrez la vue avec un nom spécifique qui reflète ce que la vue affiche, par exemple « les volumes de données inactives pas FabricPool ».
+. Cliquez sur le bouton *Rapports planifiés* sur la page d'inventaire.
+. Entrez un nom pour le planning du rapport et remplissez les autres champs du rapport, puis cliquez sur la coche (image:../media/blue_check.gif[""]) à la fin du rang.
++
+Le rapport est envoyé immédiatement sous forme de test. Ensuite, le rapport génère et est envoyé par e-mail aux destinataires répertoriés à l'aide de la fréquence spécifiée.
+
+
+
+En fonction des résultats affichés dans ce rapport, vous pouvez trouver des volumes qui présentent de bons candidats à déplacer vers des agrégats FabricPool.
