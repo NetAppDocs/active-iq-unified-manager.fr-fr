@@ -28,7 +28,7 @@ Effectuez les opérations suivantes dans la boîte de dialogue Ajouter une alert
 . Cliquez sur *Ressources*, puis sélectionnez l'onglet *inclure*.
 +
 .. Sélectionnez *Volume* dans la liste déroulante, puis entrez *`vol1`* Dans le champ *Name contient* pour afficher les volumes dont le nom contient "vol1".
-.. Sélectionnez *+ Volumes whose name contains 'vol1'+* dans la zone *Ressources disponibles* et déplacez-la dans la zone *Ressources sélectionnées*.
+.. Sélectionnez *+<<All Volumes whose name contains 'vol1'>>+* dans la zone *Ressources disponibles* et déplacez-la dans la zone *Ressources sélectionnées*.
 
 
 . Sélectionnez l'onglet *exclure*, sélectionnez *Volume*, entrez *`vs1-dr`* Dans le champ *Nom contient*, puis cliquez sur *Ajouter*.

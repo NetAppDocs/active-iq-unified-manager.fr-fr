@@ -48,7 +48,7 @@ Vous pouvez inclure les ressources pour lesquelles vous souhaitez déclencher de
 Vous permet d'exclure des ressources pour lesquelles vous ne souhaitez pas déclencher d'alertes. Par exemple, vous pouvez exclure tous les volumes dont le nom contient la chaîne « xyz ».
 
 +
-L'onglet exclure s'affiche uniquement lorsque vous sélectionnez toutes les ressources d'un type de ressource particulier : par exemple, + Volumes ou  Volumes whose name contains 'xyz'+.
+L'onglet exclure s'affiche uniquement lorsque vous sélectionnez toutes les ressources d'un type de ressource particulier : par exemple, +<<All Volumes>> ou <<All Volumes whose name contains 'xyz'>>+.
 
 +
 Si une ressource est conforme à la fois aux règles inclure et exclure que vous avez spécifiées, la règle d'exclusion est prioritaire sur la règle inclure et l'alerte n'est pas générée pour l'événement.

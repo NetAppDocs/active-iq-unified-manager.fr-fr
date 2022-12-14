@@ -50,7 +50,7 @@ Vous permet d'exclure des ressources pour lesquelles vous ne souhaitez pas décl
 +
 [NOTE]
 ====
-L'onglet exclure s'affiche uniquement lorsque vous sélectionnez toutes les ressources d'un type de ressource particulier, par exemple, + Volumes+ ou + Volumes whose name contains 'xyz'+.
+L'onglet exclure s'affiche uniquement lorsque vous sélectionnez toutes les ressources d'un type de ressource particulier, par exemple, +<<All Volumes>>+ ou +<<All Volumes whose name contains 'xyz'>>+.
 
 ====
 

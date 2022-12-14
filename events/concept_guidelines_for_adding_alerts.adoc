@@ -24,7 +24,7 @@ Vous devez fournir une description pour l'alerte afin qu'elle vous aide à suivr
 Vous devez décider quelle ressource physique ou logique requiert une alerte. Vous pouvez inclure et exclure des ressources, selon les besoins. Par exemple, si vous souhaitez surveiller de près vos agrégats en configurant une alerte, vous devez sélectionner les agrégats requis dans la liste des ressources.
 
 +
-Si vous sélectionnez une catégorie de ressources, par exemple *+ User or Group Quotas+*, vous recevrez alors des alertes pour tous les objets de cette catégorie.
+Si vous sélectionnez une catégorie de ressources, par exemple *+<<All User or Group Quotas>>+*, vous recevrez alors des alertes pour tous les objets de cette catégorie.
 
 +
 [NOTE]

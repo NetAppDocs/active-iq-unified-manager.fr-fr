@@ -17,6 +17,7 @@ Vous pouvez utiliser la boîte de dialogue Créer un pool de ressources pour reg
 
 Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
+.Étapes
 Les pools de ressources peuvent contenir des agrégats provenant de différents clusters, mais le même agrégat ne peut pas appartenir à des pools de ressources différents.
 
 . Dans le volet de navigation de gauche, cliquez sur *protection* > *pools de ressources*.

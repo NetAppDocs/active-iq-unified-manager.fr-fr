@@ -73,7 +73,7 @@ Effectuez les opérations suivantes dans la boîte de dialogue Ajouter une alert
 . Cliquez sur *Ressources* et, dans l'onglet inclure, sélectionnez *volumes* dans la liste déroulante.
 +
 .. Entrez *abc* dans le champ *Name contient* pour afficher les volumes dont le nom contient « abc ».
-.. Sélectionnez *+ Volumes whose name contains 'abc'+* dans la zone Ressources disponibles, et déplacez-la dans la zone Ressources sélectionnées.
+.. Sélectionnez *+<<All Volumes whose name contains 'abc'>>+* dans la zone Ressources disponibles, et déplacez-la dans la zone Ressources sélectionnées.
 .. Cliquez sur *exclure*, saisissez *xyz* dans le champ *Nom contient*, puis cliquez sur *Ajouter*.
 
 
