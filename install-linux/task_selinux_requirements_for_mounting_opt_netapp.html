@@ -11448,7 +11448,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-11-16 05:37:00 +0000">11/16/2022</time>
+    <time datetime="2022-12-15 16:40:43 +0000">12/15/2022</time>
     
   
 
@@ -11469,7 +11469,7 @@
 </div>
 </div>
 <div class="sect1">
-<h2 id="configuration-du-contexte-selinux-lors-du-montage-de-optnetappdata">Configuration du contexte SELinux lors du montage de /opt/netapp/data</h2>
+<h2 id="configuration-du-contexte-selinux-lorsque-optnetappdata-est-monté">Configuration du contexte SELinux lorsque <code>/opt/netapp/data</code> est monté</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Si vous avez monté <code>/opt/netapp/data</code> Dans votre système, SELinux est défini sur <code>Enforcing</code>, Vérifiez que le type de contexte SELinux pour <code>/opt/netapp/data</code> est défini sur <code>mysqld_db_t</code>, qui est l&#8217;élément de contexte par défaut pour l&#8217;emplacement des fichiers de base de données.</p>
@@ -11548,7 +11548,7 @@ Dans cette sortie, le contexte est <code>default_t</code>. Vous devez modifier c
 </div>
 </div>
 <div class="sect1">
-<h2 id="configuration-du-contexte-selinux-lorsque-optnetapp-est-monté-et-optnetappdata-est-également-monté-séparément">Configuration du contexte SELinux lorsque /opt/netapp est monté et /opt/netapp/data/ est également monté séparément</h2>
+<h2 id="configuration-du-contexte-selinux-lorsque-optnetapp-est-monté-et-optnetappdata-est-également-monté-séparément">Configuration du contexte SELinux lorsque <code>/opt/netapp</code> est monté, et <code>/opt/netapp/data/</code> est également monté séparément</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Dans ce scénario, dans un premier temps, vous devez définir le contexte pour <code>/opt/netapp/data/</code> comme décrit dans la section précédente. Après avoir défini le contexte correct pour <code>/opt/netapp/data/</code>, assurez-vous que le répertoire parent <code>/opt/netapp</code> Le contexte SELinux n&#8217;est pas défini sur <code>file_t</code>.</p>
@@ -11631,7 +11631,7 @@ restorecon -v /opt/netapp</pre>
 </div>
 </div>
 <div class="sect1">
-<h2 id="configuration-du-contexte-selinux-lorsque-optnetapp-est-monté-et-optnetappdata-nest-pas-monté-séparément">Configuration du contexte SELinux lorsque /opt/netapp est monté et /opt/netapp/data/ n&#8217;est pas monté séparément</h2>
+<h2 id="configuration-du-contexte-selinux-lorsque-optnetapp-est-monté-et-optnetappdata-nest-pas-monté-séparément">Configuration du contexte SELinux lorsque <code>/opt/netapp</code> est monté, et <code>/opt/netapp/data/</code> n&#8217;est pas monté séparément</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Si vous avez monté  <code>/opt/netapp</code> Dans votre système, SELinux est défini sur <code>Enforcing</code>, Vérifiez que le type de contexte SELinux pour <code>/opt/netapp</code> est défini sur <code>mysqld_db_t</code>, qui est l&#8217;élément de contexte par défaut pour l&#8217;emplacement des fichiers de base de données.</p>
