@@ -15,7 +15,7 @@ Pour accéder à l'interface utilisateur Web de Unified Manager, utilisez un nav
 
 La matrice d'interopérabilité répertorie les versions de navigateur prises en charge.
 
-http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"]
+http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"^]
 
 Pour tous les navigateurs, la désactivation des bloqueurs de fenêtres contextuelles garantit que les fonctions logicielles sont affichées correctement.
 

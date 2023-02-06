@@ -17,8 +17,8 @@ NetApp ne prend pas en charge les modifications du code de l'application Unified
 
 Pour plus d'informations sur l'application de mesures de sécurité au serveur Unified Manager, consultez l'article de la base de connaissances.
 
-https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/Supportability_for_Security_Measures_applied_to_Active_IQ_Unified_Manager_for_Clustered_Data_ONTAP["Prise en charge des mesures de sécurité appliquées à Active IQ Unified Manager pour clustered Data ONTAP"]
+https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/Supportability_for_Security_Measures_applied_to_Active_IQ_Unified_Manager_for_Clustered_Data_ONTAP["Prise en charge des mesures de sécurité appliquées à Active IQ Unified Manager pour clustered Data ONTAP"^]
 
 *Informations connexes*
 
-https://mysupport.netapp.com/matrix["Matrice d'interopérabilité NetApp"]
+https://mysupport.netapp.com/matrix["Matrice d'interopérabilité NetApp"^]

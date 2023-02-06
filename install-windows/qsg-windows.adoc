@@ -29,7 +29,7 @@ Unified Manager est pris en charge sur le système d'exploitation Windows 64 bit
 * Espace disque libre : 100 Go d'espace disque pour le répertoire d'installation, 50 Go d'espace disque pour le répertoire de données MySQL
 
 
-Pour plus de détails sur la configuration requise, reportez-vous à la section link:../install-windows/concept_requirements_for_installing_unified_manager.html["Conditions requises pour l'installation de Unified Manager"] et link:http://mysupport.netapp.com/matrix["Matrice d'interopérabilité"].
+Pour plus de détails sur la configuration requise, reportez-vous à la section link:../install-windows/concept_requirements_for_installing_unified_manager.html["Conditions requises pour l'installation de Unified Manager"] et link:http://mysupport.netapp.com/matrix["Matrice d'interopérabilité"^].
 
 
 

@@ -33,12 +33,12 @@ Unified Manager est pris en charge sur le système d'exploitation Windows 64 bit
 
 Consultez la matrice d'interopérabilité pour obtenir la liste complète et la plus récente des versions de Windows prises en charge.
 
-http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"]
+http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"^]
 
 
 NOTE: NetApp ne prend pas en charge l'installation d'Unified Manager à l'aide d'outils tiers, tels que Microsoft System Center Configuration Manager (SCCM).
 
-Le serveur doit être dédié à l'exécution de Unified Manager. Aucune autre application ne doit être installée sur le serveur.
+Le serveur doit être dédié à l'exécution de Unified Manager. Aucune autre application ne doit être installée sur le serveur. Il est possible qu'un logiciel antivirus actif soit installé sur votre système Windows en raison des réglementations de l'entreprise. Vous devez désactiver le logiciel antivirus avant d'installer Unified Manager afin d'éviter que l'installation ne échoue.
 
 
 
@@ -49,7 +49,7 @@ Les packs tiers suivants sont inclus avec Unified Manager. Si ces modules tiers 
 * Microsoft Visual C&#43;&#43; 2015 Redistributable package version 14.26.28720.3
 * Microsoft Visual C&#43;&#43; Redistributable Packages pour Visual Studio 2013 version 12.0.40660.0
 * MySQL Community Edition version 8.0.30
-* Python 3.10.5
+* Python 3.11.1
 * OpenJDK version 11.0.16
 * p7zip version 18.05 ou ultérieure
 
@@ -84,7 +84,7 @@ Vous devez arrêter une instance en cours d'exécution de Unified Manager avant 
 * Vous devez désactiver le service mondial de publication Web Microsoft IIS et vous assurer que les ports 80 et 443 sont gratuits.
 * Assurez-vous que le paramètre hôte de session de bureau à distance pour « compatibilité RDS de Windows installer » est désactivé pendant l'installation.
 * Le port UDP 514 doit être libre et ne doit pas être utilisé par un autre service.
-* Si un logiciel antivirus actif est installé sur votre système Windows, l'installation d'Unified Manager risque d'échouer. Vous devez désactiver l'intégralité du logiciel antivirus sur votre système avant d'installer Unified Manager. Une fois l'installation terminée, veillez à exclure manuellement les chemins suivants de l'analyse antivirus :
+* Vous devez désactiver tous les logiciels antivirus de votre système avant d'installer Unified Manager. Une fois l'installation terminée, veillez à exclure manuellement les chemins suivants de l'analyse antivirus :
 +
 ** Répertoire des données Unified Manager, par exemple `C:\ProgramData\NetApp\OnCommandAppData\`
 ** Répertoire d'installation de Unified Manager, par exemple `\C:\Program Files\NetApp\`

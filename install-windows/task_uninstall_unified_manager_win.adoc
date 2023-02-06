@@ -18,6 +18,7 @@ Vous pouvez désinstaller Unified Manager à l'aide de l'Assistant programmes et
 
 * Vous devez disposer des privilèges d'administrateur Windows.
 * Tous les clusters (sources de données) doivent être supprimés du serveur Unified Manager avant de désinstaller le logiciel.
+* Vous devez supprimer manuellement les règles de pare-feu créées pour autoriser ou bloquer le port MySQL 3306. Les règles de pare-feu ne sont pas supprimées automatiquement.
 
 
 .Étapes

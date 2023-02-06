@@ -41,7 +41,7 @@ Les caractères spéciaux suivants sont autorisés : ~ ! @ # $ * - ? . + { }
 . Connectez-vous à Windows à l'aide du compte d'administrateur local par défaut.
 . Connectez-vous au site de support NetApp et accédez à la page de téléchargement de Unified Manager :
 +
-https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab["Site de support NetApp"]
+https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab["Site de support NetApp"^]
 
 . Sélectionnez la version requise de Unified Manager et acceptez le contrat de licence utilisateur final (CLUF).
 . Téléchargez le fichier d'installation de Unified Manager Windows dans un répertoire cible du système Windows.

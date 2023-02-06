@@ -118,3 +118,5 @@ Spécifie le protocole de confidentialité utilisé pour crypter les messages SN
 Spécifie le mot de passe lors de l'utilisation du protocole de confidentialité. Le mot de passe de confidentialité est disponible avec SNMP version 3 avec authentification et cryptage.
 
 
+
+Pour plus d'informations sur les objets SNMP et les traps, vous pouvez télécharger le link:https://mysupport.netapp.com/site/tools/tool-eula/aiqum-mib["MIB Active IQ Unified Manager"^] Sur le site de support NetApp.
