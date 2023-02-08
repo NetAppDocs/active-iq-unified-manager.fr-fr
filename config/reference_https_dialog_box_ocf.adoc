@@ -11,9 +11,9 @@ summary: 'La page certificat HTTPS vous permet d"afficher le certificat de sécu
 
 
 [role="lead"]
-La page certificat HTTPS vous permet d'afficher le certificat de sécurité actuel, de télécharger une demande de signature de certificat, de générer un nouveau certificat HTTPS ou d'installer un nouveau certificat HTTPS.
+La page certificat HTTPS vous permet d'afficher le certificat de sécurité actuel, de télécharger une demande de signature de certificat, de générer un nouveau certificat HTTPS auto-signé ou d'installer un nouveau certificat HTTPS.
 
-Si vous n'avez pas généré de nouveau certificat HTTPS, le certificat qui apparaît sur cette page est le certificat qui a été généré lors de l'installation.
+Si vous n'avez pas généré de nouveau certificat HTTPS auto-signé, le certificat qui apparaît sur cette page est le certificat qui a été généré lors de l'installation.
 
 
 
@@ -31,6 +31,6 @@ Vous permet de télécharger et d'installer un certificat de sécurité une fois
 
 * *Régénérer le certificat HTTPS*
 +
-Vous permet de générer un certificat HTTPS, qui remplace le certificat de sécurité actuel. Le nouveau certificat est en vigueur après le redémarrage d'Unified Manager.
+Vous permet de générer un nouveau certificat HTTPS auto-signé, qui remplace le certificat de sécurité actuel. Le nouveau certificat est en vigueur après le redémarrage d'Unified Manager.
 
 
