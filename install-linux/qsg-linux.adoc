@@ -6,7 +6,12 @@ summary: Guide de démarrage rapide pour Unified Manager sur plate-forme Linux.
 ---
 = Instructions de démarrage rapide pour les installations Linux
 :allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
 
+
+[role="lead"]
+Vous pouvez télécharger le pack d'installation et installer Unified Manager sur une plateforme Red Hat Enterprise Linux ou CentOS physique ou virtuelle.
 
 
 

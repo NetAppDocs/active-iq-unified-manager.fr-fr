@@ -35,8 +35,7 @@ entries:
       url: "/install-linux/task_manually_configure_epel_repository.html"
     - title: Configuration manuelle du référentiel MySQL
       url: "/install-linux/task_manually_configure_mysql_repository.html"
-  - title: Conditions SELinux requises pour le montage /opt/netapp ou /opt/netapp/Data
-      sur un partage NFS ou CIFS
+  - title: Configuration SELinux requise sur le partage NFS ou CIFS
     url: "/install-linux/task_selinux_requirements_for_mounting_opt_netapp.html"
   - title: Installation de Unified Manager sur des systèmes Linux
     url: "/install-linux/concept_install_unified_manager_on_rhel_or_centos.html"

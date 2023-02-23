@@ -2,11 +2,16 @@
 permalink: install-windows/qsg-windows.html 
 sidebar: sidebar 
 keywords: quick start guide, getting started, QSG, Windows QSG, quick installation, Windows installer 
-summary: Guide de démarrage rapide pour Unified Manager sur plate-forme Linux. 
+summary: Guide de démarrage rapide pour Unified Manager sur plateforme Windows. 
 ---
 = Instructions de démarrage rapide pour les installations Windows
 :allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
 
+
+[role="lead"]
+Vous pouvez télécharger le pack d'installation et installer Unified Manager pour surveiller et résoudre les problèmes de capacité, de disponibilité, de performances et de protection du stockage des données.
 
 
 

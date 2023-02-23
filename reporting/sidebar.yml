@@ -83,8 +83,7 @@ entries:
     - title: Création d'un rapport pour afficher les agrégats dont la capacité est
         maximale
       url: "/reporting/task_create_report_to_view_aggregates_reaching_full_capacity.html"
-    - title: Création d'un rapport pour afficher les agrégats complets d'au moins
-        80 %
+    - title: Création d'un rapport pour afficher les agrégats presque pleins
       url: "/reporting/task_create_report_to_view_aggregates_that_are_nearly_full.html"
     - title: Création d'un rapport pour afficher les agrégats qui sont surengagés
       url: "/reporting/task_create_report_to_view_aggregates_that_are_overcommitted.html"

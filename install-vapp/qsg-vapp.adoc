@@ -6,7 +6,12 @@ summary: Guide de démarrage rapide pour Unified Manager sur une plateforme VMwa
 ---
 = Instructions de démarrage rapide pour les installations VMware
 :allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
 
+
+[role="lead"]
+Vous pouvez télécharger le `.tar` fichier contenant un certificat racine, a `README` fichier et un `OVA` Et déployez Unified Manager en tant qu'appliance virtuelle.
 
 
 

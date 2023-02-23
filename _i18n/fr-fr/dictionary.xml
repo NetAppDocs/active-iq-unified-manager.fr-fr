@@ -4288,7 +4288,6 @@
   <block id="1aae3eac015ac6934f4cce0bdefb715e" category="doc">Installation, mise à niveau et suppression du logiciel Unified Manager</block>
   <block id="a5014d3257e026e655ee770d9b9b474b" category="paragraph">Sur les systèmes VMware vSphere, vous pouvez installer Unified Manager, effectuer une mise à niveau vers une version plus récente du logiciel ou supprimer l'appliance virtuelle Unified Manager (vApp).</block>
   <block id="32e5c16a2c1109e106990eafe2e5051a" category="summary">Guide de démarrage rapide pour Unified Manager sur une plateforme VMware vSphere.</block>
-  <block id="745f57af3dedfc4d30afa6ced1d0df52" category="doc">Instructions de démarrage rapide pour les installations VMware</block>
   <block id="1e496ca2f7a66d863132588473f14de2" category="section-title">Configuration minimale requise</block>
   <block id="15c3f03e689b85ca140fd9ea6f34f7d9" category="list-text">Système d'exploitation : VMware ESXi 6.5, 6.7 et 7.0.x</block>
   <block id="a2d94c8de89a700634c79d7c9d4fc2c0" category="list-text">RAM : 12 GO</block>
@@ -11848,14 +11847,8 @@
   <block id="c1a9193a29dc40ec352c6691d67ab578" category="sidebar">Installation de Unified Manager sur les systèmes Windows</block>
   <block id="d549fcac9e4340e7fb3d154a339f9c13" category="sidebar">Protégez et restaurez les données</block>
   <block id="7daa41760e1a8fba65d06a1a254f35d9" category="sidebar">Création et résolution des problèmes de relations de protection</block>
-  <block id="7518ca1d997947cafeacfe6e7557df98" category="sidebar">Création d'une relation de protection SnapVault depuis la vue Santé / tous les volumes</block>
-  <block id="7c35d6a9594204995ca67f76b440f42c" category="sidebar">Création d'une relation de protection SnapMirror depuis la vue Santé/tous les volumes</block>
   <block id="934295d1ea6542a74e859da73b8634ee" category="sidebar">Comprendre les associations d'ordinateurs virtuels de stockage</block>
-  <block id="55c616fb8df8d2d739c5a910d9f3e8cc" category="sidebar">Vue relation/toutes les relations</block>
-  <block id="917d12d3945843e955409b6049824fe7" category="sidebar">Relation / vue État transfert du dernier mois</block>
-  <block id="b0dea192fed54c3271d44f1043df906f" category="sidebar">Relation / Affichage du taux de transfert du dernier mois</block>
   <block id="1d6677925b878ba927adf44f615f75db" category="sidebar">Installez Unified Manager sur les systèmes Linux</block>
-  <block id="2c3b76077caf066bc2963e52113e2e78" category="sidebar">Conditions SELinux requises pour le montage /opt/netapp ou /opt/netapp/Data sur un partage NFS ou CIFS</block>
   <block id="25cd83fcc24b4664d675c70561908db4" category="section-title">Configuration du contexte SELinux lorsque<block ref="7e1f8730cbdb33df27f5c6a989e8b48a" prefix=" " category="inline-code"></block> est monté</block>
   <block id="8952b2e8f374ce39efcf65ab76f1fb96" category="section-title">Configuration du contexte SELinux lorsque<block ref="4bf2f0d069734974e4d76e679433aa07" prefix=" " category="inline-code"></block> est monté, et<block ref="90858e32055033b8ac44ac8a8f3461ae" prefix=" " category="inline-code"></block> est également monté séparément</block>
   <block id="c0f62aa70775648ddb09e5af32691c1a" category="section-title">Configuration du contexte SELinux lorsque<block ref="4bf2f0d069734974e4d76e679433aa07" prefix=" " category="inline-code"></block> est monté, et<block ref="90858e32055033b8ac44ac8a8f3461ae" prefix=" " category="inline-code"></block> n'est pas monté séparément</block>
@@ -11880,4 +11873,34 @@
   <block id="7304b4de80b8634c046d0400082fea65" category="paragraph">La page certificat HTTPS vous permet d'afficher le certificat de sécurité actuel, de télécharger une demande de signature de certificat, de générer un nouveau certificat HTTPS auto-signé ou d'installer un nouveau certificat HTTPS.</block>
   <block id="898314a24a9c4668cfc6ef1288f61096" category="paragraph">Si vous n'avez pas généré de nouveau certificat HTTPS auto-signé, le certificat qui apparaît sur cette page est le certificat qui a été généré lors de l'installation.</block>
   <block id="cff84697c1aa7f822135adc1f1e8d209" category="paragraph">Vous permet de générer un nouveau certificat HTTPS auto-signé, qui remplace le certificat de sécurité actuel. Le nouveau certificat est en vigueur après le redémarrage d'Unified Manager.</block>
+  <block id="6e9d444f5a98d00ae31eff389dc819fa" category="doc">Instructions de démarrage rapide pour les installations VMware</block>
+  <block id="d92bb0fdb003a277ed75c5c3745b9f31" category="paragraph">Vous pouvez télécharger le<block ref="58963a595c988dc6f693cb3238dc907a" prefix=" " category="inline-code"></block> fichier contenant un certificat racine, a<block ref="c47c7c7383225ab55ff591cb59c41e6b" prefix=" " category="inline-code"></block> fichier et un<block ref="586ba478b7ebec665f3df120799b6c2e" prefix=" " category="inline-code"></block> Et déployez Unified Manager en tant qu'appliance virtuelle.</block>
+  <block id="d37bfa9087091a2643ebb8f003e74798" category="paragraph">Vous pouvez télécharger le pack d'installation et installer Unified Manager sur une plateforme Red Hat Enterprise Linux ou CentOS physique ou virtuelle.</block>
+  <block id="ceede60a933cbfe9cb6ef21f0b1f0e00" category="summary">Guide de démarrage rapide pour Unified Manager sur plateforme Windows.</block>
+  <block id="74eaa85433946affb1737b2598fcdd35" category="paragraph">Vous pouvez télécharger le pack d'installation et installer Unified Manager pour surveiller et résoudre les problèmes de capacité, de disponibilité, de performances et de protection du stockage des données.</block>
+  <block id="a6d6cdd1e4eb84a93808203243318dd0" category="sidebar">Affichage des détails sur les partages SMB ou CIFS</block>
+  <block id="721115a56e25cbc2949dce662727ea1a" category="sidebar">Détails de l'intégrité du volume</block>
+  <block id="d2136c0320bc784ec5e976cc7c71f93d" category="sidebar">Détails d'état des VM de stockage</block>
+  <block id="fbf5dae3b577d533c0b3785c65a5e93f" category="sidebar">Détails de l'état de santé du cluster</block>
+  <block id="3a63c6b863ef9b4f54c6281b5910c2f9" category="sidebar">Détails de l'intégrité des agrégats</block>
+  <block id="f667431c76a047fbe92c5ea4f107f5be" category="sidebar">Rompre une relation SnapMirror avec la page des détails de l'intégrité du volume</block>
+  <block id="825540d2e356a2301d8157e67a70b20a" category="sidebar">Inversion des relations de protection à partir de la page Détails de l'intégrité du volume</block>
+  <block id="9e602f9b4f36392b1a1428c981e37711" category="sidebar">Suppression d'une relation de protection de la page Détails de l'intégrité du volume</block>
+  <block id="a1b4c0ddea6f9c40fd2cd596b4f7b018" category="sidebar">Resynchronisation des relations de protection à partir de la page des détails sur l'intégrité du volume</block>
+  <block id="884392bffbe4579f85c30e1e54b015d3" category="sidebar">Création d'une relation de protection SnapVault depuis la vue tous volumes</block>
+  <block id="6e05686f2b2c07b3c6c6117873668333" category="sidebar">Création d'une relation de protection SnapVault à partir de la page des détails de l'intégrité du volume</block>
+  <block id="e9469afe9efe59fc810579b52fb8fc93" category="sidebar">Création d'une relation de protection SnapMirror depuis la vue tous les volumes</block>
+  <block id="7b8c66535079341892aef1a493ce88c4" category="sidebar">Création d'une relation de protection SnapMirror à partir de la page des détails de l'intégrité du volume</block>
+  <block id="7e583f9e2b84b24680ccacedb923f893" category="sidebar">Modification des relations de protection à partir de la page Détails de l'état de santé du volume</block>
+  <block id="2f73e4b880758398d71cbda6956e4261" category="sidebar">Abandon d'un transfert actif de protection des données à partir de la page Détails de l'intégrité du volume</block>
+  <block id="1a332e4345b7b166cc346094f426d59b" category="sidebar">Mise au repos d'une relation de protection à partir de la page Détails de l'état du volume</block>
+  <block id="0a7e2554ab5f606db9e7cd3f955d6876" category="sidebar">Reprise des transferts programmés sur une relation mise en veille à partir de la page Détails d'intégrité du volume</block>
+  <block id="6b8b5e644fe51ebdbf59ca41a2e0bd5d" category="sidebar">Initialisation ou mise à jour des relations de protection à partir de la page Détails de l'intégrité du volume</block>
+  <block id="4854bf8d6304b20e8a8e266470ff2f5a" category="sidebar">Restauration des données à l'aide de la page Détails de l'état de santé du volume</block>
+  <block id="54ad2ceecf79def094226d610fbf9cdf" category="sidebar">Boîte de dialogue initialiser ou mettre à jour</block>
+  <block id="ad1e91efa1709ebf1317182df97e21ac" category="sidebar">Toutes les relations</block>
+  <block id="a1aa3dc0c225c91968f0c1b9e0426594" category="sidebar">Affichage de l'état du transfert au cours du dernier mois</block>
+  <block id="97bf8a808bd60b6f18cb0036fc0fa04f" category="sidebar">Affichage du taux de transfert du dernier mois</block>
+  <block id="9210be7b581b8db7551fb777e02a3edb" category="sidebar">Configuration SELinux requise sur le partage NFS ou CIFS</block>
+  <block id="9304b0fee761c30cb0f91f15de511efc" category="sidebar">Création d'un rapport pour afficher les agrégats presque pleins</block>
 </blocks>
