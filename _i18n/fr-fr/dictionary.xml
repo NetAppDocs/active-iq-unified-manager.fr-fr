@@ -1384,7 +1384,6 @@
   <block id="eab70e6fe7e77946b94068e68a8ce442" category="paragraph">Voir les rubriques sur les catégories de conformité et<block ref="ec993f435ccd69f53c3f46dcd44c6bdd" category="inline-link-rx"></block> pour des informations détaillées.</block>
   <block id="c59a5985bd2d618db813147ff21b648b" category="paragraph">Les événements de mise à niveau signalés sur la plate-forme Active IQ sont également considérés comme des événements de sécurité. Ces événements identifient les problèmes liés à la résolution des problèmes lorsque vous devez mettre à niveau le logiciel ONTAP, le firmware des nœuds ou le logiciel du système d'exploitation (pour les conseils de sécurité). Ces événements ne sont pas affichés dans le panneau sécurité, mais ils sont disponibles dans la page d'inventaire gestion des événements.</block>
   <block id="5ae387dba42b22999d9b9380a601c0e5" category="inline-link-macro">Gestion des objectifs de sécurité des clusters</block>
-  <block id="dbf1643584a0232aa9b43b46ef46f017" category="paragraph">Pour plus d'informations, voir <block ref="7f1eff88d0c64584f1f18cff0575e2dd" category="inline-link-macro-rx"></block>.</block>
   <block id="1780b4d28c5c03da806abf9f9b95ec7c" category="summary">Ce tableau décrit les paramètres de chiffrement de volume que Unified Manager évalue pour déterminer si les données de vos volumes sont correctement protégées contre tout accès par des utilisateurs non autorisés.</block>
   <block id="9ab895b4c19ebc4471a59f3b4403d2ee" category="doc">Catégories de conformité des volumes</block>
   <block id="3843f4e79d78f6d168c3c6f9ea8f7557" category="paragraph">Notez que les paramètres de chiffrement de volume n'affectent pas la conformité du cluster ou de la machine virtuelle de stockage.</block>
@@ -11554,7 +11553,6 @@
   <block id="90e97a629125bdf88ff336405957019b" category="paragraph">Le script de pré-installation vérifie que le système dispose d'un abonnement Red Hat Enterprise Linux valide et qu'il a accès aux référentiels logiciels requis. Si le script identifie des problèmes, vous devez les résoudre avant d'installer Unified Manager.</block>
   <block id="b06597a497eb21d391372afb93828b7b" category="paragraph">Pour le système Red Hat Enterprise Linux 8, si vous disposez de référentiels internes avec JDK 11 - OpenJDK, p7zip et d'autres progiciels fournis par le référentiel AppStream, vous devez désactiver votre référentiel AppStream et installer MySQL Community Server. Exécutez la commande suivante :</block>
   <block id="c422ac44d890c41645f67cae009b5f2a" category="list-text">*Facultatif:* vous ne devez effectuer l'étape 7 que si votre système n'est pas connecté à Internet et que vous devez télécharger manuellement les packages requis pour votre installation. Si votre système dispose d'un accès Internet et que tous les packages requis sont disponibles, passez à l'étape 8. Pour les systèmes qui ne sont pas connectés à Internet ou qui n'utilisent pas les référentiels Red Hat Enterprise Linux, procédez comme suit pour déterminer si vous ne disposez pas des packages requis, puis téléchargez ces packages :</block>
-  <block id="d23d0640eb82a610d248d778f6dc62a5" category="list-text">Sur le système sur lequel vous installez Unified Manager, consultez la liste des modules disponibles et non disponibles :</block>
   <block id="b733ff9eca50d1215b2b36356cb2a337" category="paragraph"><block ref="0ebef3d9c59bd558d3f360f5800cf333" prefix="" category="inline-code"></block></block>
   <block id="0f6821f28720fad4bff6027633ab91c0" category="paragraph">Les éléments de la section « installation: » Sont les paquets disponibles dans le répertoire actuel, et les éléments de la section « installation pour dépendances: » Sont les modules qui manquent sur votre système.</block>
   <block id="c19fa085277d0020749e2ca183d8458c" category="list-text">Sur un système qui dispose d'un accès Internet, téléchargez les packages manquants :</block>
@@ -11808,7 +11806,6 @@
   <block id="aa193eacf5a35a85044e44de3fa9c91a" category="sidebar">Vidéos sur Unified Manager</block>
   <block id="197833bfff97d501603036a0febb7a95" category="sidebar">Blogs Unified Manager</block>
   <block id="f4a82a67b559f4b99078d99e20c3f730" category="sidebar">Documentation relative à Active IQ Unified Manager 9.11</block>
-  <block id="b4326b5cab8385bbedf7c504d8569004" category="sidebar">Documentation pour les versions antérieures</block>
   <block id="85f73dd16ea214346164b0deea26773b" category="sidebar">Unified Manager</block>
   <block id="09d454f0bf432593d99fbfd84c9f9293" category="sidebar">Réaliser les tâches de configuration et d'administration</block>
   <block id="32d8b1bb1bdc5067bfbde495253b3469" category="sidebar">Contrôlez et gérez l'état du cluster</block>
@@ -11903,4 +11900,7 @@
   <block id="97bf8a808bd60b6f18cb0036fc0fa04f" category="sidebar">Affichage du taux de transfert du dernier mois</block>
   <block id="9210be7b581b8db7551fb777e02a3edb" category="sidebar">Configuration SELinux requise sur le partage NFS ou CIFS</block>
   <block id="9304b0fee761c30cb0f91f15de511efc" category="sidebar">Création d'un rapport pour afficher les agrégats presque pleins</block>
+  <block id="a800bc3b2ac3625f86ad24d4ae00b6c8" category="list-text">Sur le système sur lequel vous installez Unified Manager, consultez la liste des packages disponibles et indisponibles : +<block ref="0ebef3d9c59bd558d3f360f5800cf333" prefix=" " category="inline-code"></block></block>
+  <block id="d3959f6465e1edec195c856595d76545" category="paragraph">Pour plus d'informations, voir <block ref="3817c92b8c868f8dcff11bea431f7255" category="inline-link-macro-rx"></block>.</block>
+  <block id="ede607b26fd609858d7be7ff1e138cb0" category="sidebar">Documentation pour Active IQ Unified Manager 9.9 ou version antérieure</block>
 </blocks>

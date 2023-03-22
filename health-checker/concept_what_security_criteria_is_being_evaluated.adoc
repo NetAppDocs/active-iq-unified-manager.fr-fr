@@ -28,4 +28,4 @@ Voir les rubriques sur les catégories de conformité et http://www.netapp.com/u
 Les événements de mise à niveau signalés sur la plate-forme Active IQ sont également considérés comme des événements de sécurité. Ces événements identifient les problèmes liés à la résolution des problèmes lorsque vous devez mettre à niveau le logiciel ONTAP, le firmware des nœuds ou le logiciel du système d'exploitation (pour les conseils de sécurité). Ces événements ne sont pas affichés dans le panneau sécurité, mais ils sont disponibles dans la page d'inventaire gestion des événements.
 
 ====
-Pour plus d'informations, voir link:..health-checker/concept_manage_cluster_security_objectives.html["Gestion des objectifs de sécurité des clusters"].
+Pour plus d'informations, voir link:../health-checker/concept_manage_cluster_security_objectives.html["Gestion des objectifs de sécurité des clusters"].

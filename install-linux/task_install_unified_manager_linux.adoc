@@ -97,16 +97,12 @@ Pour le système Red Hat Enterprise Linux 8, si vous disposez de référentiels 
 ----
 . *Facultatif:* vous ne devez effectuer l'étape 7 que si votre système n'est pas connecté à Internet et que vous devez télécharger manuellement les packages requis pour votre installation. Si votre système dispose d'un accès Internet et que tous les packages requis sont disponibles, passez à l'étape 8. Pour les systèmes qui ne sont pas connectés à Internet ou qui n'utilisent pas les référentiels Red Hat Enterprise Linux, procédez comme suit pour déterminer si vous ne disposez pas des packages requis, puis téléchargez ces packages :
 +
-.. Sur le système sur lequel vous installez Unified Manager, consultez la liste des modules disponibles et non disponibles :
-
-
-
-
+.. Sur le système sur lequel vous installez Unified Manager, consultez la liste des packages disponibles et indisponibles : +
 `yum install netapp-um<version>.x86_64.rpm --assumeno`
-
++
 Les éléments de la section « installation: » Sont les paquets disponibles dans le répertoire actuel, et les éléments de la section « installation pour dépendances: » Sont les modules qui manquent sur votre système.
 
-. Sur un système qui dispose d'un accès Internet, téléchargez les packages manquants :
+.. Sur un système qui dispose d'un accès Internet, téléchargez les packages manquants :
 +
 `yum install <package_name> --downloadonly --downloaddir=.`
 
@@ -117,9 +113,10 @@ Comme le plug-in « yum-plugin-downloadonly » n'est pas toujours activé sur le
 `yum install yum-plugin-downloadonly`
 
 ====
-. Copiez les modules manquants du système connecté à Internet sur votre système d'installation.
-+
-.. En tant qu'utilisateur racine ou en utilisant `sudo`, exécutez la commande suivante pour installer le logiciel :
+.. Copiez les modules manquants du système connecté à Internet sur votre système d'installation.
+
+
+. En tant qu'utilisateur racine ou en utilisant `sudo`, exécutez la commande suivante pour installer le logiciel :
 +
 `yum install netapp-um<version>.x86_64.rpm`
 
@@ -132,11 +129,11 @@ Cette commande installe les modules .rpm, tous les autres logiciels nécessaires
 N'essayez pas d'installer en utilisant d'autres commandes (telles que `rpm -ivh`). Une installation réussie de Unified Manager sur un système Red Hat Enterprise Linux ou CentOS exige que tous les fichiers Unified Manager et les fichiers associés soient installés dans un ordre spécifique dans une structure de répertoires spécifique qui est automatiquement appliquée par le `yum install netapp-um<version>.x86_64.rpm` commande.
 
 ====
-.. Ne tenez pas compte de la notification par e-mail qui s'affiche immédiatement après les messages d'installation.
+. Ne tenez pas compte de la notification par e-mail qui s'affiche immédiatement après les messages d'installation.
 +
 L'e-mail informe l'utilisateur root de l'échec initial d'une tâche cron, qui n'a aucun effet négatif sur l'installation.
 
-.. Une fois les messages d'installation terminés, faites défiler les messages jusqu'à ce que le message dans lequel le système affiche une adresse IP ou une URL pour l'interface utilisateur Web de Unified Manager, le nom d'utilisateur de maintenance (umin) et un mot de passe par défaut.
+. Une fois les messages d'installation terminés, faites défiler les messages jusqu'à ce que le message dans lequel le système affiche une adresse IP ou une URL pour l'interface utilisateur Web de Unified Manager, le nom d'utilisateur de maintenance (umin) et un mot de passe par défaut.
 +
 Ce message est similaire à ce qui suit :
 
@@ -153,12 +150,10 @@ Log in to Unified Manager in a web browser by using following details:
   username: umadmin
   password: admin
 ----
-.. Enregistrez l'adresse IP ou l'URL, le nom d'utilisateur attribué (umadmin) et le mot de passe actuel.
-.. Si vous avez créé un compte utilisateur umadmin avec un répertoire personnel personnalisé avant d'installer Unified Manager, vous devez spécifier le shell de connexion utilisateur umadmin :
+. Enregistrez l'adresse IP ou l'URL, le nom d'utilisateur attribué (umadmin) et le mot de passe actuel.
+. Si vous avez créé un compte utilisateur umadmin avec un répertoire personnel personnalisé avant d'installer Unified Manager, vous devez spécifier le shell de connexion utilisateur umadmin :
 +
 `usermod -s /bin/maintenance-user-shell.sh umadmin`
-
-
 
 
 
