@@ -19,7 +19,7 @@ Le système VMware vSphere sur lequel vous installez Unified Manager nécessite 
 
 Les versions suivantes de VMware ESXi sont prises en charge :
 
-* ESXi 6.5, 6.7 et 7.0.x.
+* ESXi 7.0 et 8.0
 
 
 [NOTE]
@@ -29,7 +29,7 @@ Unified Manager OVA sur les systèmes VMware vSphere exécute Debian OS 11 (bull
 ====
 Les versions suivantes de vSphere sont prises en charge :
 
-* VMware vCenter Server 6.5, 6.7 et 7.0.x.
+* VMware vCenter Server 7.0 et 8.0
 
 
 Consultez la matrice d'interopérabilité pour obtenir la liste complète et la plus récente des versions ESXi prises en charge.

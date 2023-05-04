@@ -17,12 +17,9 @@ Vous pouvez utiliser la page Cluster Setup pour afficher l'inventaire de vos clu
 
 Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
 
-La liste des clusters est triée par la colonne niveau de gravité de l'état de collecte. Vous pouvez cliquer sur un en-tête de colonne pour trier les clusters par différentes colonnes.
-
 .Étape
 . Dans le volet de navigation de gauche, cliquez sur *Storage Management* > *Cluster Setup*.
++
+Tous les clusters de votre environnement de stockage géré par Unified Manager sont affichés.la liste des clusters est triée par colonne du niveau de gravité de l'état de collecte. Vous pouvez cliquer sur un en-tête de colonne pour trier les clusters par différentes colonnes.
 
 
-*Informations connexes*
-
-link:["Page sources de données de configuration/cluster"]

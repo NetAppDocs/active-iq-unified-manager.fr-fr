@@ -11,7 +11,7 @@ summary: 'Vous pouvez mettre à niveau Unified Manager en téléchargeant et en 
 
 
 [role="lead"]
-Vous pouvez effectuer la mise à niveau de Unified Manager 9.10 ou 9.11 vers 9.12 en téléchargeant et en exécutant le fichier d'installation sur la plateforme Linux.
+Vous pouvez effectuer une mise à niveau depuis Unified Manager 9.11 ou 9.12 vers 9.13 en téléchargeant et en exécutant le fichier d'installation sur la plateforme Linux.
 
 *Ce dont vous aurez besoin*
 
@@ -30,7 +30,7 @@ Voir link:task_upgrade_openjdk_on_linux_ocum.html["Mise à niveau de JRE sous Li
 * Pour éviter les pertes de données, vous devez avoir créé une sauvegarde de la base de données Unified Manager en cas de problème lors de la mise à niveau. NetApp vous recommande de déplacer le fichier de sauvegarde à partir du `/opt/netapp/data` répertoire vers un emplacement externe.
 * Lors d'une mise à niveau, vous pouvez être invité à confirmer si vous souhaitez conserver les paramètres par défaut précédents pour conserver les données de performances pendant 13 mois ou à les modifier à 6 mois. A la confirmation, les données historiques de performance sont supprimées au bout de 6 mois.
 * Vous devez avoir terminé toutes vos opérations en cours d'exécution, car Unified Manager n'est pas disponible pendant le processus de mise à niveau.
-* MySQL Community Edition est automatiquement mis à niveau lors de la mise à niveau d'Unified Manager. Si la version installée de MySQL sur votre système est antérieure à 8.0.30, le processus de mise à niveau de Unified Manager met automatiquement à niveau MySQL vers 8.0.30.
+* MySQL Community Edition est automatiquement mis à niveau lors de la mise à niveau d'Unified Manager. Si la version installée de MySQL sur votre système est antérieure à la version 8.0.32, le processus de mise à niveau d'Unified Manager met automatiquement à niveau MySQL vers la version 8.0.32.
 
 
 .Étapes

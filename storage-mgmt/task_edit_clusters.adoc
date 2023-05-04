@@ -25,7 +25,7 @@ Depuis Unified Manager 9.7, vous pouvez ajouter des clusters en utilisant HTTPS 
 .Étapes
 . Dans le volet de navigation de gauche, cliquez sur *Storage Management* > *Cluster Setup*.
 . Sur la page *Cluster Setup*, sélectionnez le cluster à modifier, puis cliquez sur *Edit*.
-. Dans la boîte de dialogue *Edit Cluster*, modifiez les valeurs comme requis. + si vous avez modifié les détails d'un cluster ajouté à Unified Manager 9.12, vous pouvez afficher les détails du certificat pour les communications TLS mutuelles, en fonction de la version ONTAP. Pour plus d'informations sur la version ONTAP, voir link:../storage-mgmt/task_add_clusters.html["Certificats de communication mutuelle TLS"]. + vous pouvez afficher les détails du certificat en cliquant sur *Détails du certificat*. Si le certificat a expiré, cliquez sur le bouton *régénérer* pour incorporer le nouveau certificat.
+. Dans la boîte de dialogue *Edit Cluster*, modifiez les valeurs comme requis. + si vous avez modifié les détails d'un cluster ajouté à Unified Manager, vous pouvez afficher les détails du certificat pour les communications TLS mutuelles, en fonction de la version de ONTAP. Pour plus d'informations sur la version ONTAP, voir link:../storage-mgmt/task_add_clusters.html["Certificats de communication mutuelle TLS"]. + vous pouvez afficher les détails du certificat en cliquant sur *Détails du certificat*. Si le certificat a expiré, cliquez sur le bouton *régénérer* pour incorporer le nouveau certificat.
 . Cliquez sur *soumettre*.
 . Dans la boîte de dialogue Autoriser l'hôte, cliquez sur *Afficher le certificat* pour afficher les informations de certificat sur le cluster.
 . Cliquez sur *Oui*.

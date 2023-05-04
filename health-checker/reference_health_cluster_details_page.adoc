@@ -83,7 +83,11 @@ Affiche le graphique de capacité des données sur la capacité utilisée et la 
 
 * Espace logique utilisé
 +
-La taille réelle des données stockées sur tous les agrégats de ce cluster sans appliquer les économies réalisées grâce aux technologies d'efficacité du stockage ONTAP.
+La taille réelle des données stockées sur tous les agrégats de ce cluster sans appliquer les économies réalisées grâce aux technologies d'efficacité du stockage ONTAP. Cela n'inclut pas les copies Snapshot.
+
+* Réduction des données
++
+Affiche le ratio sans copies Snapshot et avec deux chiffres significatifs, par exemple, 1.8 pour 1. Ce taux est basé sur les paramètres d'efficacité du stockage ONTAP configurés.
 
 * Utilisé
 +

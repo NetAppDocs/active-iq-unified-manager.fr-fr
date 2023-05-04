@@ -48,9 +48,9 @@ Les packs tiers suivants sont inclus avec Unified Manager. Si ces modules tiers 
 
 * Microsoft Visual C&#43;&#43; 2015 Redistributable package version 14.26.28720.3
 * Microsoft Visual C&#43;&#43; Redistributable Packages pour Visual Studio 2013 version 12.0.40660.0
-* MySQL Community Edition version 8.0.30
-* Python 3.11.1
-* OpenJDK version 11.0.16
+* MySQL Community Edition version 8.0.32
+* Python 3.11.2
+* OpenJDK version 11.0.18
 * p7zip version 18.05 ou ultérieure
 
 

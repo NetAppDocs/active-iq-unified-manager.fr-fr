@@ -41,4 +41,10 @@ Exemple : syslog-ng requiert que <hash> du certificat soit créé à l'aide de l
 +
 Vous serez redirigé vers la page journaux d'audit.
 
++
+[NOTE]
+====
+La valeur *Connection Timeout* peut affecter la configuration. Si la réponse de la configuration est plus longue que la valeur définie, elle peut entraîner une défaillance de la configuration en raison d'une erreur de connexion. Pour établir une connexion réussie, augmentez la valeur *Connection Timeout* et réessayez la configuration.
+
+====
 

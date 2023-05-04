@@ -18,6 +18,7 @@ Vous pouvez ajouter un cluster à Active IQ Unified Manager afin de pouvoir cont
 * Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 * Vous devez disposer des informations suivantes :
 +
+** Unified Manager prend en charge les clusters ONTAP sur site, ONTAP Select et Cloud Volumes ONTAP.
 ** Nom d'hôte ou adresse IP de gestion du cluster
 +
 Le nom d'hôte est le FQDN ou le nom court que Unified Manager utilise pour se connecter au cluster. Le nom d'hôte doit être résolu sur l'adresse IP de gestion du cluster.
@@ -31,15 +32,18 @@ L'adresse IP de gestion du cluster doit être la LIF de gestion du cluster du se
 Ce compte doit avoir le rôle _admin_ avec accès à l'application défini sur _ontapi_, _console_ et _http_.
 
 ** Le numéro de port à connecter au cluster via le protocole HTTPS (en général le port 443)
-** Vous disposez des certificats requis. Unified Manager installe les certificats de sécurité lors de l'ajout d'un cluster :
+** Vous disposez des certificats requis :
 +
-*Certificats de serveur* : ce certificat appartient à Unified Manager. Un certificat SSL (HTTPS) auto-signé par défaut est généré avec une nouvelle installation de Unified Manager. NetApp vous recommande de le mettre à niveau vers un certificat signé par une autorité de certification pour une meilleure sécurité. Si le certificat du serveur expire, vous devez le régénérer et redémarrer Unified Manager pour que les services incorporent le nouveau certificat. Pour plus d'informations sur la régénération du certificat SSL, reportez-vous à la section link:../config/task_generate_an_https_security_certificate_ocf.html["Génération d'un certificat de sécurité HTTPS"].
+*Certificat SSL (HTTPS)* : ce certificat appartient à Unified Manager. Un certificat SSL (HTTPS) auto-signé par défaut est généré avec une nouvelle installation de Unified Manager. NetApp vous recommande de le mettre à niveau vers un certificat signé par une autorité de certification pour une meilleure sécurité. Si le certificat du serveur expire, vous devez le régénérer et redémarrer Unified Manager pour que les services incorporent le nouveau certificat. Pour plus d'informations sur la régénération du certificat SSL, reportez-vous à la section link:../config/task_generate_an_https_security_certificate_ocf.html["Génération d'un certificat de sécurité HTTPS"].
+
++
+*Certificat EMS* : ce certificat appartient à Unified Manager. Il est utilisé lors de l'authentification pour les notifications EMS reçues de ONTAP.
 
 +
 *Certificats de communication mutuelle TLS* : utilisés pendant la communication mutuelle TLS entre Unified Manager et ONTAP. L'authentification basée sur le certificat est activée pour un cluster, sur la version ONTAP utilisée. Si le cluster exécutant la version ONTAP est inférieur au 9.5, l'authentification basée sur certificat n'est pas activée.
 
 +
-L'authentification basée sur les certificats n'est pas activée automatiquement pour un cluster si vous mettez à jour une ancienne version de Unified Manager vers Unified Manager 9.12. Cependant, vous pouvez l'activer en modifiant et en enregistrant les détails du cluster. Si le certificat expire, vous devez le régénérer pour incorporer le nouveau certificat. Pour plus d'informations sur l'affichage et la régénération du certificat, reportez-vous à la section link:../storage-mgmt/task_edit_clusters.html["Modification des clusters"].
+L'authentification basée sur des certificats n'est pas activée automatiquement sur un cluster si vous mettez à jour une version antérieure d'Unified Manager. Cependant, vous pouvez l'activer en modifiant et en enregistrant les détails du cluster. Si le certificat expire, vous devez le régénérer pour incorporer le nouveau certificat. Pour plus d'informations sur l'affichage et la régénération du certificat, reportez-vous à la section link:../storage-mgmt/task_edit_clusters.html["Modification des clusters"].
 
 +
 [NOTE]
@@ -50,7 +54,7 @@ L'authentification basée sur les certificats n'est pas activée automatiquement
 
 ====
 +
-*Certificats client* : utilisé lors de l'authentification pour les messages EMS reçus de ONTAP. Ce certificat est détenu par ONTAP et requis lors de l'ajout d'un cluster ONTAP à Unified Manager. Vous ne pouvez pas ajouter un cluster à Unified Manager avec un certificat expiré et si le certificat client a déjà expiré, vous devez le régénérer avant d'ajouter le cluster. Toutefois, si ce certificat expire pour un cluster déjà ajouté et qu'il est utilisé par Unified Manager, la messagerie EMS continue à fonctionner avec le certificat expiré. Pour plus d'informations sur la génération du certificat, consultez l'article de la base de connaissances https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_renew_an_SSL_certificate_in_ONTAP_9["Comment renouveler un certificat auto-signé ONTAP dans l'interface utilisateur de System Manager"^].
+*Certificats de cluster* : ce certificat appartient à ONTAP. Vous ne pouvez pas ajouter de cluster à Unified Manager avec un certificat expiré et si le certificat a déjà expiré, vous devez le régénérer avant d'ajouter le cluster. Pour plus d'informations sur la génération du certificat, consultez l'article de la base de connaissances https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_renew_an_SSL_certificate_in_ONTAP_9["Comment renouveler un certificat auto-signé ONTAP dans l'interface utilisateur de System Manager"^].
 
 
 
@@ -70,7 +74,7 @@ Vous pouvez modifier l'adresse IP de gestion du cluster d'IPv6 au format IPv4 ou
 . Dans la boîte de dialogue Autoriser l'hôte, cliquez sur *Afficher le certificat* pour afficher les informations de certificat sur le cluster.
 . Cliquez sur *Oui*.
 +
-Dans Unified Manager 9.12, après avoir enregistré les détails du cluster, vous pouvez voir le certificat de communication mutuelle TLS pour un cluster.
+Une fois les informations de cluster enregistrées, vous pouvez afficher le certificat pour les communications TLS mutuelles pour un cluster.
 
 +
 Si l'authentification basée sur le certificat n'est pas activée, Unified Manager vérifie le certificat uniquement lorsque le cluster est ajouté au départ. Unified Manager ne vérifie pas le certificat pour chaque appel d'API au ONTAP.

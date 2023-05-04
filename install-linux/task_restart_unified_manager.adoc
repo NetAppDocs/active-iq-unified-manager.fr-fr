@@ -19,7 +19,7 @@ Vous devez avoir un accès utilisateur root au serveur Red Hat Enterprise Linux 
 
 .Étapes
 . Connectez-vous en tant qu'utilisateur root au serveur sur lequel vous souhaitez redémarrer le service Unified Manager.
-. Arrêtez le service Unified Manager et le logiciel MySQL associé dans l'ordre indiqué :
+. Arrêtez le service Unified Manager et le service MySQL associé dans l'ordre suivant :
 +
 `systemctl stop ocieau`
 
@@ -29,7 +29,7 @@ Vous devez avoir un accès utilisateur root au serveur Red Hat Enterprise Linux 
 +
 `systemctl stop mysqld`
 
-. Démarrer Unified Manager dans l'ordre indiqué :
+. Démarrez les services MySQL et Unified Manager dans l'ordre suivant :
 +
 `systemctl start mysqld`
 
@@ -40,3 +40,9 @@ Vous devez avoir un accès utilisateur root au serveur Red Hat Enterprise Linux 
 `systemctl start ocieau`
 
 
+
+[NOTE]
+====
+`mysqld` Est un programme démon requis pour démarrer et arrêter le serveur MySQL.
+
+====

@@ -11,7 +11,7 @@ summary: Vous pouvez effectuer la mise à niveau vers Unified Manager sur VMware
 
 
 [role="lead"]
-Vous pouvez mettre à niveau Active IQ Unified Manager vers la version 9.12 à partir de la version 9.10 ou 9.11 uniquement.
+Vous pouvez mettre à niveau Active IQ Unified Manager vers la version 9.13 à partir de la version 9.11 ou 9.12 uniquement.
 
 Unified Manager n'est pas disponible lors du processus de mise à niveau. Pour effectuer toute opération en cours d'exécution, vous devez effectuer la mise à niveau de Unified Manager.
 

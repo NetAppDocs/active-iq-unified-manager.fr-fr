@@ -82,4 +82,4 @@ Nombre de charges de travail de stockage attribuées au SEP
 
 Si les PPE existantes ne répondent pas aux exigences de la politique pour vos charges de travail de stockage, vous pouvez créer une SEP personnalisée. Toutefois, il est recommandé d'utiliser les PPE définies par le système pour vos charges de travail de stockage et de créer uniquement des PPE personnalisées si nécessaire.
 
-Vous pouvez afficher le SEP affecté aux charges de travail dans la page toutes les charges de travail et dans la page Détails du volume / intégrité. Vous pouvez afficher le taux de réduction des données au niveau du cluster en fonction de ces fonctionnalités d'efficacité du stockage dans le panneau capacité du tableau de bord et dans la vue capacité : tous les clusters.
+Vous pouvez afficher le SEP affecté aux charges de travail dans la page toutes les charges de travail et dans la page Détails du volume / intégrité. Vous pouvez afficher le taux de réduction des données au niveau du cluster (sans copies Snapshot) en fonction de ces gains d'efficacité du stockage dans le volet capacité du tableau de bord et dans la vue capacité : tous les clusters.

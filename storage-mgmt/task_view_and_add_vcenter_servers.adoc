@@ -20,6 +20,10 @@ Avant d'ajouter ou d'afficher des serveurs vCenter, vérifiez les points suivant
 * Vous connaissez les noms des serveurs vCenter.
 * Vous connaissez l'adresse IP de vCenter Server et possédez les informations d'identification requises. Les identifiants doivent être d'un administrateur vCenter Server ou d'un utilisateur root disposant d'un accès en lecture seule à vCenter Server.
 * Le serveur vCenter que vous souhaitez ajouter exécute vSphere 6.5 ou une version ultérieure.
++
+
+NOTE: La prise en charge d'Unified Manager for VMware ESXi et de vCenter Server est disponible en anglais et en japonais.
+
 * Le paramètre de collecte de données dans vCenter Server est défini sur le niveau de statistiques de `_Level 3_`, assurer le niveau requis de collecte de metrics pour tous les objets surveillés. La durée de l'intervalle doit être de `_5 minutes_`, et la période de sauvegarde doit être `_1 day_`.
 +
 Pour plus d'informations, reportez-vous à la section « niveaux de collecte des données » du document _vSphere Monitoring and Performance Guide_ de la documentation VMware.

@@ -2,7 +2,7 @@
 permalink: reference_release_notes.html 
 sidebar: sidebar 
 keywords: release notes, active iq unified manager 
-summary: Fournit un résumé des nouvelles fonctionnalités, des limites et des problèmes connus pour Active IQ Unified Manager 9.12. 
+summary: Le fournit un résumé des nouvelles fonctionnalités, des limites et des problèmes connus de Active IQ Unified Manager 9.13. 
 ---
 = Notes de mise à jour
 :allow-uri-read: 
@@ -11,6 +11,6 @@ summary: Fournit un résumé des nouvelles fonctionnalités, des limites et des 
 
 
 [role="lead"]
-Fournit un résumé des nouvelles fonctionnalités, des limites et des problèmes connus pour Active IQ Unified Manager 9.12.
+Le fournit un résumé des nouvelles fonctionnalités, des limites et des problèmes connus de Active IQ Unified Manager 9.13.
 
-Pour plus d'informations, reportez-vous à la section https://library.netapp.com/ecm/ecm_download_file/ECMLP2884715["Notes de version de Active IQ Unified Manager"].
+Pour plus d'informations, reportez-vous à la section https://library.netapp.com/ecm/ecm_download_file/ECMLP2885771["Notes de version de Active IQ Unified Manager"].
