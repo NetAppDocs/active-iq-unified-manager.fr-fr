@@ -26,4 +26,4 @@ Par exemple, si votre version installée est OnCommand Unified Manager 9.6 et qu
 . Mise à niveau 9.12 -> 9.13
 
 
-Pour plus d'informations sur la matrice des chemins de mise à niveau, reportez-vous à ce document https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/What_is_the_upgrade_path_for_Active_IQ_Unified_Manager_versions["Article de la base de connaissances (KB)"].
+Pour plus d'informations sur la matrice des chemins de mise à niveau, reportez-vous à ce document https://["Article de la base de connaissances (KB)"].

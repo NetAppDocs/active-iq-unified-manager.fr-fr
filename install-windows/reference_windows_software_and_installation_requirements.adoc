@@ -33,7 +33,7 @@ Unified Manager est pris en charge sur le système d'exploitation Windows 64 bit
 
 Consultez la matrice d'interopérabilité pour obtenir la liste complète et la plus récente des versions de Windows prises en charge.
 
-http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"^]
+http://["mysupport.netapp.com/matrix"^]
 
 
 NOTE: NetApp ne prend pas en charge l'installation d'Unified Manager à l'aide d'outils tiers, tels que Microsoft System Center Configuration Manager (SCCM).

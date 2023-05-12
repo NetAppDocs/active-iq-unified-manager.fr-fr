@@ -33,7 +33,7 @@ Sur un serveur physique, ajoutez de la capacité au lecteur logique sur lequel l
  a| 
 Suivez les étapes de la rubrique Microsoft :
 
-https://technet.microsoft.com/en-us/library/cc771473(v=ws.11).aspx["Extension d'un volume de base"]
+https://["Extension d'un volume de base"]
 
 
 
@@ -42,7 +42,7 @@ Sur un serveur physique, ajoutez un disque dur.
  a| 
 Suivez les étapes de la rubrique Microsoft :
 
-https://msdn.microsoft.com/en-us/library/dd163551.aspx["Ajout de disques durs"]
+https://["Ajout de disques durs"]
 
 
 
@@ -51,7 +51,7 @@ Sur une machine virtuelle, augmentez la taille d'une partition de disque.
  a| 
 Suivez les étapes du sujet VMware :
 
-https://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=1004071["Augmentation de la taille d'une partition de disque"]
+https://["Augmentation de la taille d'une partition de disque"]
 
 |===
 

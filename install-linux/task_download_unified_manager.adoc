@@ -22,7 +22,7 @@ Vous téléchargez le même package d'installation Unified Manager pour les syst
 .Étapes
 . Connectez-vous au site de support NetApp et accédez à la page de téléchargement de Unified Manager :
 +
-https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab["Site de support NetApp"]
+https://["Site de support NetApp"]
 
 . Sélectionnez la version requise de Unified Manager et acceptez le contrat de licence utilisateur final (CLUF).
 . Téléchargez le fichier d'installation Unified Manager pour Linux et enregistrez `.zip` fichier dans un répertoire du système cible.

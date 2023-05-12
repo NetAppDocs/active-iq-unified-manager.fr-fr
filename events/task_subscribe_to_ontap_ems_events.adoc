@@ -19,7 +19,7 @@ Ne vous abonnez pas aux événements EMS déjà ajoutés automatiquement à Unif
 
 Vous pouvez vous abonner à un certain nombre d'événements EMS. Tous les événements auxquels vous êtes abonné sont validés, et seuls les événements validés sont appliqués aux clusters que vous surveillez dans Unified Manager. Le catalogue d'événements EMS _ONTAP 9_ fournit des informations détaillées sur tous les messages EMS pour la version spécifiée du logiciel ONTAP 9. Recherchez la version appropriée du catalogue d'événements _EMS_ dans la page Documentation produit de ONTAP 9 pour obtenir la liste des événements applicables.
 
-https://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62286["Bibliothèque de produits ONTAP 9"]
+https://["Bibliothèque de produits ONTAP 9"]
 
 Vous pouvez configurer les alertes relatives aux événements EMS ONTAP auxquels vous êtes abonné et créer des scripts personnalisés à exécuter pour ces événements.
 
@@ -36,7 +36,7 @@ Si vous ne recevez pas les événements EMS ONTAP auxquels vous êtes abonné, i
 Pour afficher les noms des événements EMS auxquels vous pouvez vous abonner, depuis le shell du cluster ONTAP, vous pouvez utiliser `event route show` (Avant ONTAP 9) ou le `event catalog show` (ONTAP 9 ou version ultérieure).
 
 +
-https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/OnCommand_Suite/How_to_configure_and_receive_alerts_from_ONTAP_EMS_Event_Subscription_in_Active_IQ_Unified_Manager["Comment configurer et recevoir des alertes de l'abonnement aux événements EMS ONTAP dans Active IQ Unified Manager"]
+https://["Comment configurer et recevoir des alertes de l'abonnement aux événements EMS ONTAP dans Active IQ Unified Manager"]
 
 . Cliquez sur *Ajouter*.
 +

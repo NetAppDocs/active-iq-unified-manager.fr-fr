@@ -46,6 +46,6 @@ Unified Manager comprend les fonctionnalités suivantes :
 Le site Storage Automation Store comprend des packs de flux de travail de stockage automatisés certifiés NetApp conçus pour être utilisés avec OnCommand Workflow Automation (WFA). Vous pouvez télécharger les packs, puis les importer dans WFA pour les exécuter. Les workflows automatisés sont disponibles ici :
 
 +
-https://automationstore.netapp.com["Le Storage Automation Store"]
+https://["Le Storage Automation Store"]
 
 

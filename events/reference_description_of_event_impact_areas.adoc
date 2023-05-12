@@ -35,7 +35,7 @@ Les événements de protection vous signalent les incidents et les risques impli
 
 * *Sécurité*
 +
-Les événements de sécurité vous signalent le niveau de sécurité de vos clusters ONTAP, de vos SVM et de vos volumes, en fonction des paramètres définis dans le système http://www.netapp.com/us/media/tr-4569.pdf["Guide NetApp sur le renforcement de la sécurité des environnements ONTAP 9"].
+Les événements de sécurité vous signalent le niveau de sécurité de vos clusters ONTAP, de vos SVM et de vos volumes, en fonction des paramètres définis dans le système http://["Guide NetApp sur le renforcement de la sécurité des environnements ONTAP 9"].
 
 +
 De plus, ce domaine inclut des événements de mise à niveau signalés sur la plateforme Active IQ.

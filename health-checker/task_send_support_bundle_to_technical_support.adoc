@@ -23,6 +23,6 @@ Vous devez obtenir un numéro de dossier généré par le biais du site Web de s
 . Connectez-vous au site de support NetApp.
 . Téléchargez le fichier.
 +
-https://kb.netapp.com/Advice_and_Troubleshooting/Miscellaneous/How_to_upload_a_file_to_NetApp["Télécharger un fichier vers NetApp"]
+https://["Télécharger un fichier vers NetApp"]
 
 

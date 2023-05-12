@@ -28,4 +28,4 @@ Vous pouvez également redémarrer la machine virtuelle à partir de vSphere en 
 
 *Informations connexes*
 
-https://www.vmware.com/support/developer/PowerCLI/PowerCLI41/html/Restart-VMGuest.html["Références des applets de commande VMware vSphere PowerCLI : restart-VMGuest"]
+https://["Références des applets de commande VMware vSphere PowerCLI : restart-VMGuest"]

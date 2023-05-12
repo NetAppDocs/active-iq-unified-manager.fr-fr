@@ -214,7 +214,7 @@ Voici quelques champs importants dans la vue performances : groupes de règles d
 * Allocation min : indique si l'espace alloué ou l'espace utilisé est utilisé pour déterminer le débit maximal (pic) d'IOPS.
 * Latence attendue : latence moyenne prévue pour les opérations d'entrée/sortie du stockage.
 * Partagée : pour les règles de QoS classiques, que les valeurs de débit définies dans le groupe de règles soient partagées entre plusieurs objets.
-* Objets associés : nombre de workloads affectés au groupe de règles QoS. Vous pouvez cliquer sur le bouton développer ( ) en regard du nom du groupe de stratégies QoS pour afficher plus de détails sur le groupe de règles.
+* Objets associés : nombre de workloads affectés au groupe de règles QoS. Vous pouvez cliquer sur le bouton développer (image:../media/chevron_down.gif[""]) En regard du nom du groupe de stratégies QoS pour afficher plus de détails sur le groupe de règles.
 * Capacité allouée : quantité d'espace utilisée par les objets du groupe de règles de QoS.
 * Objets associés : nombre de charges de travail attribuées au groupe de règles de QoS, séparées en volumes et en LUN. Vous pouvez cliquer sur le numéro pour accéder à une page qui fournit plus de détails sur les volumes ou LUN sélectionnés.
 

@@ -66,4 +66,4 @@ Si le volume utilise 2 To d'espace disponible et que le nombre d'IOPS est de 4,0
 
 Par conséquent, lorsqu'un événement est déclenché en fonction d'une violation MB/s pour une stratégie QoS adaptative qui inclut la taille du bloc, un graphique MB/s s'affiche dans la section diagnostic système de la page Détails de l'événement. Si l'événement est déclenché en fonction d'une violation des IOPS de la règle de QoS adaptative, un graphique Op E/S par sec s'affiche dans la section diagnostic système. Si une violation se produit à la fois pour les IOPS et les Mo/s, vous recevrez deux événements.
 
-Pour plus d'informations sur le réglage des paramètres QoS, voir https://docs.netapp.com/us-en/ontap/performance-admin/index.html["Présentation de la gestion des performances"].
+Pour plus d'informations sur le réglage des paramètres QoS, voir https://["Présentation de la gestion des performances"].

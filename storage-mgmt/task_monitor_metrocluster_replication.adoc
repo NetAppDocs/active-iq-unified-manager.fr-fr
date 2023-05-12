@@ -48,7 +48,7 @@ La topologie de la configuration MetroCluster à répliquer est affichée sur le
 
 
 
-Vous pouvez utiliser les informations affichées dans pour corriger tout problème de réplication. Si vous détectez les problèmes de mise en miroir dans votre configuration MetroCluster, vous devez vous connecter à System Manager ou accéder à l'interface de ligne de commandes de ONTAP pour résoudre les problèmes.
+Vous pouvez utiliser les informations affichées sur la page Cluster / Health Details pour corriger tout problème de réplication. Si vous détectez les problèmes de mise en miroir dans votre configuration MetroCluster, vous devez vous connecter à System Manager ou accéder à l'interface de ligne de commandes de ONTAP pour résoudre les problèmes.
 
 *Informations connexes*
 

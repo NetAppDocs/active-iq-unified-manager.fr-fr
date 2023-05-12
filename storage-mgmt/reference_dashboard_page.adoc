@@ -71,7 +71,7 @@ Le panneau sécurité présente l'état de sécurité de haut niveau pour tous l
 
 Vous pouvez cliquer sur les graphiques à barres des clusters conformes et non conformes, des machines virtuelles de stockage, des volumes chiffrés et non cryptés et des volumes anti-ransomwares pour accéder aux pages respectives et afficher les informations de sécurité des clusters filtrés, des machines virtuelles de stockage et des volumes.
 
-La conformité dépend du http://www.netapp.com/us/media/tr-4569.pdf["Guide NetApp sur le renforcement de la sécurité des environnements ONTAP 9"]. Cliquez sur la flèche droite en haut du panneau pour afficher les détails de sécurité de tous les clusters sur la page sécurité. Pour plus d'informations, reportez-vous à la sectionlink:../health-checker/task_view_detailed_security_status_for_clusters_and_svms.html["Affichage de l'état de sécurité détaillé pour les clusters et les VM de stockage"].
+La conformité dépend du http://["Guide NetApp sur le renforcement de la sécurité des environnements ONTAP 9"]. Cliquez sur la flèche droite en haut du panneau pour afficher les détails de sécurité de tous les clusters sur la page sécurité. Pour plus d'informations, reportez-vous à la sectionlink:../health-checker/task_view_detailed_security_status_for_clusters_and_svms.html["Affichage de l'état de sécurité détaillé pour les clusters et les VM de stockage"].
 
 
 

@@ -33,7 +33,7 @@ Si les noms de dossier contiennent un espace, vous devez inclure le chemin absol
 .Étapes
 . Si vous effectuez une restauration sur un nouveau serveur, une fois l'installation de Unified Manager terminée, ne lancez pas l'interface utilisateur et ne configurez pas les clusters, les utilisateurs ou les paramètres d'authentification. Le fichier de sauvegarde remplit ces informations lors du processus de restauration.
 . Connectez-vous au système Unified Manager avec les identifiants d'administrateur.
-. Lancez PowerShell en tant qu'administrateur Windows.
+. Lancez PowerShell ou l'invite de commande en tant qu'administrateur Windows.
 . Saisissez la commande `maintenance_console` Puis appuyez sur entrée.
 . Dans la console de maintenance *Menu principal*, saisissez le numéro de l'option *Sauvegarder Restaurer*.
 . Saisissez le numéro de *Restore MySQL Backup*.

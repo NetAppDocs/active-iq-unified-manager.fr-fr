@@ -27,7 +27,7 @@ Notez les prérequis suivants avant de afficher les datastores dans une configur
 * Les clusters principaux et secondaires de la paire haute disponibilité et les serveurs vCenter doivent être gérés par Unified Manager.
 * La configuration requise doit être effectuée sur ONTAP et vCenter Server. Pour plus d'informations, consultez la documentation de ONTAP et vCenter.
 +
-https://docs.netapp.com/ontap-9/index.jsp["Centre de documentation ONTAP 9"]
+https://["Centre de documentation ONTAP 9"]
 
 
 
@@ -60,7 +60,7 @@ En cas de restauration, les données entre les volumes doivent être synchronis�
 Pour plus d'informations sur l'installation, reportez-vous à la documentation relative à ONTAP et à vCenter Server.
 
 +
-https://docs.netapp.com/ontap-9/index.jsp["Centre de documentation ONTAP 9"]
+https://["Centre de documentation ONTAP 9"]
 
 
 

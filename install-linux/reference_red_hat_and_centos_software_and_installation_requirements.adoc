@@ -25,7 +25,7 @@ Le système Linux doit disposer des versions suivantes du système d'exploitatio
 
 Consultez la matrice d'interopérabilité pour obtenir la liste complète et la plus récente des versions de Red Hat Enterprise Linux et CentOS prises en charge.
 
-http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"]
+http://["mysupport.netapp.com/matrix"]
 
 
 

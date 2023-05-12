@@ -113,4 +113,4 @@ Toutes les API disposent d'un contexte défini dans le cadre du cluster. Les API
 curl -X GET "https://<hostname>/api/gateways/e4f33f90-f75f-11e8-9ed9-00a098e3215f/storage/volume" -H "accept: application/hal+json" -H "X-Dot-SVM-UUID: d9c33ec0-5b61-11e9-8760-00a098e3215f"
 -H "Authorization: Basic <Base64EncodedCredentials>"
 ----
-Pour plus d'informations sur l'utilisation des API REST de ONTAP, reportez-vous à la sectionhttps://docs.netapp.com/us-en/ontap-automation/index.html["AUTOMATISATION DES API REST ONTAP"]
+Pour plus d'informations sur l'utilisation des API REST de ONTAP, reportez-vous à la sectionhttps://["AUTOMATISATION DES API REST ONTAP"]

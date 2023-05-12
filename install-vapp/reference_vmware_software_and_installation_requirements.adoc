@@ -34,7 +34,7 @@ Les versions suivantes de vSphere sont prises en charge :
 
 Consultez la matrice d'interopérabilité pour obtenir la liste complète et la plus récente des versions ESXi prises en charge.
 
-http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"]
+http://["mysupport.netapp.com/matrix"]
 
 Le temps du serveur VMware ESXi doit être identique au temps du serveur NTP pour que l'appliance virtuelle fonctionne correctement. La synchronisation de l'heure du serveur VMware ESXi avec celle du serveur NTP empêche une défaillance de temps.
 

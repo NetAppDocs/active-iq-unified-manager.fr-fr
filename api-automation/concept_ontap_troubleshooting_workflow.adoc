@@ -20,7 +20,7 @@ Ce flux de travail prend un exemple d'utilisation dans lequel un événement est
 Avant d'exécuter les étapes du workflow, assurez-vous que :
 
 * Vous connaissez les API de passerelle et leur utilisation. Pour plus d'informations, reportez-vous à la section link:concept_gateway_apis.html["Accès aux API ONTAP via un accès proxy"].
-* Vous connaissez l'utilisation des API REST de ONTAP. Pour plus d'informations sur l'utilisation des API REST de ONTAP, reportez-vous à la sectionhttps://docs.netapp.com/us-en/ontap-automation/index.html["Documentation sur l'automatisation ONTAP"].
+* Vous connaissez l'utilisation des API REST de ONTAP. Pour plus d'informations sur l'utilisation des API REST de ONTAP, reportez-vous à la sectionhttps://["Documentation sur l'automatisation ONTAP"].
 * Vous êtes administrateur d'applications.
 * Le cluster sur lequel vous souhaitez exécuter les opérations d'API REST est pris en charge par ONTAP 9.5 ou version ultérieure et le cluster est ajouté à Unified Manager via HTTPS.
 

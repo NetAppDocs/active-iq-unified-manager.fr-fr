@@ -17,4 +17,4 @@ Une fois l'installation terminée et les clusters à gérer ajoutés, Unified Ma
 
 *Informations connexes*
 
-https://mysupport.netapp.com/matrix["Matrice d'interopérabilité NetApp"^]
+https://["Matrice d'interopérabilité NetApp"^]

@@ -6972,7 +6972,6 @@
   <block id="90ef461f23841e1c3dc26580247959fd" category="list-text">Allocation min : indique si l'espace alloué ou l'espace utilisé est utilisé pour déterminer le débit maximal (pic) d'IOPS.</block>
   <block id="f6d81ff30a84faf845ece49601784b0a" category="list-text">Latence attendue : latence moyenne prévue pour les opérations d'entrée/sortie du stockage.</block>
   <block id="a4918d1e2d3364601712640b61668ac3" category="list-text">Partagée : pour les règles de QoS classiques, que les valeurs de débit définies dans le groupe de règles soient partagées entre plusieurs objets.</block>
-  <block id="3e8dedd9367cf7dda99efa4648b40a68" category="list-text">Objets associés : nombre de workloads affectés au groupe de règles QoS. Vous pouvez cliquer sur le bouton développer ( ) en regard du nom du groupe de stratégies QoS pour afficher plus de détails sur le groupe de règles.</block>
   <block id="3cd90a107dd83598c6f4b8687b8ad89e" category="list-text">Capacité allouée : quantité d'espace utilisée par les objets du groupe de règles de QoS.</block>
   <block id="b0ce459d424ac8a8bf4972ced4fa34af" category="list-text">Objets associés : nombre de charges de travail attribuées au groupe de règles de QoS, séparées en volumes et en LUN. Vous pouvez cliquer sur le numéro pour accéder à une page qui fournit plus de détails sur les volumes ou LUN sélectionnés.</block>
   <block id="164468e54e30a0519a3dbef0f4a929a6" category="inline-link-macro">Gestion des performances à l'aide des informations de groupe de règles de QoS</block>
@@ -9800,7 +9799,6 @@
   <block id="ec42faa3ead49a8b30ba8625345423b8" category="paragraph">La liste des clusters surveillés s'affiche.</block>
   <block id="5627136cfa219c91be032bfe00b32183" category="list-text">Dans la vue *Santé : tous les clusters*, cliquez sur le nom du cluster pour lequel vous souhaitez afficher les détails de la réplication MetroCluster. Sur la page *Détails de cluster / Santé*, cliquez sur l'onglet *réplication MetroCluster*.</block>
   <block id="97e6ec6e4baff4ed6d4035d75d3c5ddd" category="paragraph">La topologie de la configuration MetroCluster à répliquer est affichée sur le site local, dans la zone d'objets du cluster correspondante, avec les informations relatives au site distant où les données sont mises en miroir. Si vous déplacez le pointeur sur l'icône, vous pouvez afficher des informations détaillées sur l'événement généré.</block>
-  <block id="bcd77e19082ab48b2d951080763c8616" category="paragraph">Vous pouvez utiliser les informations affichées dans pour corriger tout problème de réplication. Si vous détectez les problèmes de mise en miroir dans votre configuration MetroCluster, vous devez vous connecter à System Manager ou accéder à l'interface de ligne de commandes de ONTAP pour résoudre les problèmes.</block>
   <block id="983eb41117bb464388685a705b914606" category="summary">Vous pouvez désinstaller Unified Manager à l'aide de l'Assistant programmes et fonctionnalités ou en effectuant une désinstallation automatique à partir de l'interface de ligne de commande.</block>
   <block id="a17f437aedf2eddaf8ba841b0c1aeb45" category="doc">Désinstallation d'Unified Manager</block>
   <block id="9722ab728446f937c918c0e5e4e40c5e" category="list-text">Tous les clusters (sources de données) doivent être supprimés du serveur Unified Manager avant de désinstaller le logiciel.</block>
@@ -11913,4 +11911,7 @@
   <block id="21f927966fb538fc77f7b83256804bf9" category="sidebar">Documents relatifs à Active IQ Unified Manager 9.13</block>
   <block id="f2c4e14eadf113bcbadf371fc730a271" category="sidebar">Surveillez les configurations MetroCluster</block>
   <block id="8bd5d1eafb044b6a37f8a95068bd98a6" category="sidebar">Référence des API pour Unified Manager</block>
+  <block id="db3375d7decfbb29e343dc2213616878" category="paragraph">Vous pouvez utiliser les informations affichées sur la page Cluster / Health Details pour corriger tout problème de réplication. Si vous détectez les problèmes de mise en miroir dans votre configuration MetroCluster, vous devez vous connecter à System Manager ou accéder à l'interface de ligne de commandes de ONTAP pour résoudre les problèmes.</block>
+  <block id="c438f7aec6602f34fb279fdfb89b02c7" category="list-text">Objets associés : nombre de workloads affectés au groupe de règles QoS. Vous pouvez cliquer sur le bouton développer (<block ref="5bc06105dc11797d871e45be810a1285" category="inline-image-macro-rx" type="image"></block>) En regard du nom du groupe de stratégies QoS pour afficher plus de détails sur le groupe de règles.</block>
+  <block id="c2c8552adcdf172b368e6fec79ced7cb" category="list-text">Lancez PowerShell ou l'invite de commande en tant qu'administrateur Windows.</block>
 </blocks>

@@ -20,7 +20,7 @@ Vous devez disposer des identifiants de connexion pour le site du support NetApp
 .Étapes
 . Connectez-vous au site de support NetApp :
 +
-https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab["Site de support NetApp"]
+https://["Site de support NetApp"]
 
 . Accédez à la page Download pour la mise à niveau d'Unified Manager sur VMware vSphere.
 . Téléchargez le `.iso` Image à mettre à niveau et enregistrez-la dans un répertoire local ou réseau accessible à votre client vSphere.
