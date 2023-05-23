@@ -15,7 +15,7 @@ Unified Manager fournit un tableau de bord identifiant la sécurité de vos clus
 
 L'objectif du tableau de bord de sécurité est de fournir des informations sur les zones dans lesquelles les clusters ONTAP ne sont pas en adéquation avec les instructions recommandées par NetApp afin de résoudre ces problèmes potentiels. Dans la plupart des cas, vous pouvez résoudre les problèmes à l'aide de ONTAP System Manager ou de l'interface de ligne de commandes de ONTAP. Il se peut que votre organisation ne suive pas toutes les recommandations. Dans certains cas, vous n'aurez donc pas besoin d'apporter de modifications.
 
-Voir la http://["Guide NetApp sur le renforcement de la sécurité des environnements ONTAP 9"] (Tr-4569) pour des recommandations et des résolutions détaillées.
+Voir la http://www.netapp.com/us/media/tr-4569.pdf["Guide NetApp sur le renforcement de la sécurité des environnements ONTAP 9"] (Tr-4569) pour des recommandations et des résolutions détaillées.
 
 En plus de signaler l'état de sécurité, Unified Manager génère également des événements de sécurité pour tout cluster ou SVM présentant des violations de sécurité. Vous pouvez suivre ces problèmes dans la page d'inventaire de la gestion des événements et configurer les alertes pour ces événements de sorte que votre administrateur de stockage soit averti en cas de nouveaux événements de sécurité.
 

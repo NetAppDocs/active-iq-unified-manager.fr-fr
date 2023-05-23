@@ -68,4 +68,4 @@ La ligne horizontale en pointillés correspond à la valeur de débit minimale o
 
 Si vous remarquez que certains volumes ou LUN ont des IOPS ou des Mo/s très élevés et que certains stress les ressources système, vous pouvez utiliser System Manager ou l'interface de ligne de commande de ONTAP pour ajuster les paramètres de QoS afin que ces charges de travail n'affectent pas les performances des autres charges de travail.
 
-Pour plus d'informations sur le réglage des paramètres QoS, voir http://["Présentation de la gestion des performances"]
+Pour plus d'informations sur le réglage des paramètres QoS, voir http://docs.netapp.com/ontap-9/topic/com.netapp.doc.pow-perf-mon/home.html["Présentation de la gestion des performances"]

@@ -23,7 +23,7 @@ Lorsque vous installez ou mettez à niveau Unified Manager vers une version spé
 * Le reporting sur les événements affectant le portail Active IQ doit être activé. Cette fonctionnalité est activée par défaut. Pour plus d'informations, reportez-vous à la section link:../config/concept_active_iq_platform_events.html["Activation des événements du portail Active IQ"].
 * Vous devez télécharger le fichier de règles depuis le site de support NetApp.
 +
-Le fichier de règles se trouve à l'adresse suivante : https://[]
+Le fichier de règles se trouve à l'adresse suivante : https://mysupport.netapp.com/api/content-service/staticcontents/content/public/tools/unifiedmanager/ca/secure_rules.zip[]
 
 
 
@@ -47,4 +47,4 @@ Ce processus peut prendre quelques minutes.
 
 Le fichier de règles est décompressé sur le serveur Unified Manager. Une fois que vos clusters gérés ont généré un fichier AutoSupport après minuit, Unified Manager vérifie les clusters par rapport au fichier de règles et génère de nouveaux risques et incidents, le cas échéant.
 
-Pour plus d'informations, consultez l'article de cette base de connaissance : https://["Comment mettre à jour les règles AIQCASecure manuellement dans Active IQ Unified Manager"].
+Pour plus d'informations, consultez l'article de cette base de connaissance : https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/How_to_update_AIQCASecure_rules_manually_in_Active_IQ_Unified_Manager["Comment mettre à jour les règles AIQCASecure manuellement dans Active IQ Unified Manager"].

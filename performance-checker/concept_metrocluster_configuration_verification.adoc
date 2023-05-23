@@ -13,9 +13,9 @@ summary: Vous pouvez éviter les problèmes de performances des charges de trava
 [role="lead"]
 Vous pouvez éviter les problèmes de performances des charges de travail en miroir dans des configurations MetroCluster sur FC et IP en vous assurant que la configuration MetroCluster est correctement configurée. Vous pouvez également améliorer les performances des charges de travail en modifiant la configuration ou en mettant à niveau des composants logiciels ou matériels.
 
-Reportez-vous à la section https://["Documentation MetroCluster"] Pour obtenir des instructions sur la configuration des clusters dans la configuration MetroCluster, y compris les commutateurs Fibre Channel (FC), les câbles et les liaisons intercommutateurs (ISL). Il permet également de configurer le logiciel MetroCluster de sorte que les clusters locaux et distants puissent communiquer avec les données de volume en miroir. Pour des informations spécifiques à votre configuration MetroCluster sur IP, reportez-vous à la section https://["Installez une configuration MetroCluster IP"].
+Reportez-vous à la section https://docs.netapp.com/us-en/ontap-metrocluster/index.html["Documentation MetroCluster"] Pour obtenir des instructions sur la configuration des clusters dans la configuration MetroCluster, y compris les commutateurs Fibre Channel (FC), les câbles et les liaisons intercommutateurs (ISL). Il permet également de configurer le logiciel MetroCluster de sorte que les clusters locaux et distants puissent communiquer avec les données de volume en miroir. Pour des informations spécifiques à votre configuration MetroCluster sur IP, reportez-vous à la section https://docs.netapp.com/us-en/ontap-metrocluster/install-ip/index.html["Installez une configuration MetroCluster IP"].
 
-Vous pouvez comparer votre configuration MetroCluster aux exigences de la section https://["Documentation MetroCluster"] Pour savoir si un changement ou une mise à niveau des composants de votre configuration MetroCluster peut améliorer les performances des charges de travail. Cet comparatif peut vous aider à répondre aux questions suivantes :
+Vous pouvez comparer votre configuration MetroCluster aux exigences de la section https://docs.netapp.com/us-en/ontap-metrocluster/index.html["Documentation MetroCluster"] Pour savoir si un changement ou une mise à niveau des composants de votre configuration MetroCluster peut améliorer les performances des charges de travail. Cet comparatif peut vous aider à répondre aux questions suivantes :
 
 * Les contrôleurs sont-ils adaptés à vos charges de travail ?
 * Devez-vous mettre à niveau vos bundles ISL vers une bande passante plus importante pour gérer davantage de débit ?
@@ -25,6 +25,6 @@ Vous pouvez comparer votre configuration MetroCluster aux exigences de la sectio
 
 *Informations connexes*
 
-* Pour plus d'informations sur le remplacement ou la mise à niveau de composants MetroCluster, reportez-vous au https://["Documentation MetroCluster"].
-* Pour plus d'informations sur la mise à niveau des contrôleurs, voir https://["Mise à niveau des contrôleurs en une configuration MetroCluster FC à l'aide du basculement et du rétablissement"] et https://["Mise à niveau des contrôleurs d'une configuration IP MetroCluster à l'aide du basculement et du rétablissement"]
+* Pour plus d'informations sur le remplacement ou la mise à niveau de composants MetroCluster, reportez-vous au https://docs.netapp.com/us-en/ontap-metrocluster/index.html["Documentation MetroCluster"].
+* Pour plus d'informations sur la mise à niveau des contrôleurs, voir https://docs.netapp.com/us-en/ontap-metrocluster/upgrade/task_upgrade_controllers_in_a_four_node_fc_mcc_us_switchover_and_switchback_mcc_fc_4n_cu.html["Mise à niveau des contrôleurs en une configuration MetroCluster FC à l'aide du basculement et du rétablissement"] et https://docs.netapp.com/us-en/ontap-metrocluster/upgrade/task_upgrade_controllers_in_a_four_node_ip_mcc_us_switchover_and_switchback_mcc_ip.html["Mise à niveau des contrôleurs d'une configuration IP MetroCluster à l'aide du basculement et du rétablissement"]
 

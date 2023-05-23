@@ -21,7 +21,7 @@ Voici quelques-unes des vérifications de sécurité :
 * que le chiffrement logiciel ou matériel soit activé pour vos volumes
 
 
-Voir les rubriques sur les catégories de conformité et http://["Guide NetApp sur le renforcement de la sécurité des environnements ONTAP 9"] pour des informations détaillées.
+Voir les rubriques sur les catégories de conformité et http://www.netapp.com/us/media/tr-4569.pdf["Guide NetApp sur le renforcement de la sécurité des environnements ONTAP 9"] pour des informations détaillées.
 
 [NOTE]
 ====

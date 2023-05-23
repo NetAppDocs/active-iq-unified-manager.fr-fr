@@ -64,4 +64,4 @@ Cette recommandation est déterminée en interne par l'analyse du système et es
 Unified Manager recherche des mots-clés spéciaux dans le nom de la charge de travail pour ignorer l'analyse du système et recommander une autre PSL pour la charge de travail. Lorsque la charge de travail porte les lettres « ora » dans le nom, la **Extreme Performance** PSL est recommandée. Et lorsque la charge de travail a les lettres « vm » dans le nom, la **Performance** PSL est recommandée.
 
 ====
-Consultez également l'article de la base de connaissances https://["ActiveIQ Unified Manager « attribuer le niveau de service de performances recommandé par le système » n'est pas adaptable à une charge de travail extrêmement variable"]
+Consultez également l'article de la base de connaissances https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/Performance_Service_Level'_is_not_adaptive_to_a_highly_variable_workload["ActiveIQ Unified Manager « attribuer le niveau de service de performances recommandé par le système » n'est pas adaptable à une charge de travail extrêmement variable"]

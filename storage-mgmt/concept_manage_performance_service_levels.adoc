@@ -132,7 +132,7 @@ Charges de travail
 Nombre de charges de travail de stockage qui ont reçu la PSL.
 
 |===
-Pour plus d'informations sur la manière dont les pics d'IOPS et les IOPS attendues contribuent à optimiser et de manière cohérente les performances des clusters ONTAP, consultez l'article de la base de connaissances suivant :https://["Qu'est-ce que la budgétisation des performances ?"]
+Pour plus d'informations sur la manière dont les pics d'IOPS et les IOPS attendues contribuent à optimiser et de manière cohérente les performances des clusters ONTAP, consultez l'article de la base de connaissances suivant :https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/What_is_Performance_Budgeting%3F["Qu'est-ce que la budgétisation des performances ?"]
 
 
 

@@ -21,4 +21,4 @@ Vous pouvez utiliser ONTAP System Manager ou les commandes ONTAP pour vérifier 
 
 Pour plus d'informations sur Flash cache et sur la configuration requise pour l'utiliser, consultez le rapport technique suivant :
 
-http://["Rapport technique 3832 : guide des meilleures pratiques de Flash cache"]
+http://www.netapp.com/us/media/tr-3832.pdf["Rapport technique 3832 : guide des meilleures pratiques de Flash cache"]

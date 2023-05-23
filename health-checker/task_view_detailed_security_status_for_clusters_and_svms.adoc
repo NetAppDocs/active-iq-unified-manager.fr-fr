@@ -13,7 +13,7 @@ summary: 'La page sécurité affiche l"état de sécurité général pour tous l
 [role="lead"]
 Active IQ Unified Manager permet d'afficher l'état de sécurité des objets de stockage de votre environnement à partir de différents points de l'interface. Il est ainsi possible de collecter et d'analyser des informations et des rapports en fonction de paramètres définis. Il détecte également les comportements suspects ou les modifications non autorisées du système sur les clusters surveillés et les VM de stockage.
 
-Pour connaître les recommandations de sécurité, reportez-vous au http://["Guide NetApp sur le renforcement de la sécurité des environnements ONTAP 9"]
+Pour connaître les recommandations de sécurité, reportez-vous au http://www.netapp.com/us/media/tr-4569.pdf["Guide NetApp sur le renforcement de la sécurité des environnements ONTAP 9"]
 
 
 
