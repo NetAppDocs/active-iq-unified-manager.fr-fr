@@ -11,15 +11,13 @@ summary: 'Si vous avez déjà installé Unified Manager sur un système Red Hat 
 
 
 [role="lead"]
-Si vous avez déjà installé Unified Manager sur un système Red Hat Enterprise Linux 7.x et que vous devez effectuer une mise à niveau vers Red Hat Enterprise Linux 8.x, vous devez suivre l'une des procédures répertoriées dans cette rubrique. Dans les deux cas, vous devez créer une sauvegarde de Unified Manager sur le système Red Hat Enterprise Linux 7.x, puis restaurer la sauvegarde sur un système Red Hat Enterprise Linux 8.x.
+Si vous avez déjà installé Unified Manager sur un système Red Hat Enterprise Linux 7.x et que vous devez effectuer une mise à niveau vers Red Hat Enterprise Linux 8.x, vous devez suivre l'une des procédures répertoriées dans cette rubrique. Dans les deux cas, vous devez créer une sauvegarde de Unified Manager sur le système Red Hat Enterprise Linux 7.x, puis restaurer la sauvegarde sur un système Red Hat Enterprise Linux 8.x. Notez que les versions prises en charge de Red Hat Enterprise Linux vont de 8.0 à 8.7.
 
 La différence entre les deux options répertoriées ci-dessous réside dans le fait que, dans un cas, vous effectuez la restauration de Unified Manager sur un nouveau serveur 8.x, et dans l'autre cas, vous effectuez l'opération de restauration sur le même serveur.
 
 Dans la mesure où cette tâche nécessite la création d'une sauvegarde de Unified Manager sur le système Red Hat Enterprise Linux 7.x, vous devez créer la sauvegarde uniquement lorsque vous êtes prêt à terminer l'intégralité du processus de mise à niveau afin que Unified Manager soit hors ligne pendant une période très courte. Des lacunes dans les données collectées apparaissent dans l'interface utilisateur Unified Manager pendant la période pendant laquelle le système Red Hat Enterprise Linux 7.x est arrêté et avant le démarrage du nouveau système Red Hat Enterprise Linux 8.x.
 
-Reportez-vous à l'aide en ligne de _Active IQ Unified Manager_ si vous avez besoin de consulter des instructions détaillées pour les processus de sauvegarde et de restauration.
-
-*Mise à niveau du système d'exploitation hôte à l'aide d'un nouveau serveur*
+Voir link:../health-checker/concept_manage_backup_and_restore_operations.html["La gestion des opérations de sauvegarde et de restauration"] si vous avez besoin de consulter des instructions détaillées pour les processus de sauvegarde et de restauration.
 
 Procédez comme suit si vous disposez d'un système de rechange sur lequel vous pouvez installer le logiciel Red Hat Enterprise Linux 8.x afin de pouvoir effectuer la restauration Unified Manager sur ce système alors que le système Red Hat Enterprise Linux 7.x est toujours disponible.
 
