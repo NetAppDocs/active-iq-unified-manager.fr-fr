@@ -22,7 +22,7 @@ Optimale
  a| 
 La connectivité entre les clusters dans la configuration MetroCluster est normale.
  a| 
-image:../media/metrocluster_connectivity_optimal.gif[""]
+image:../media/metrocluster_connectivity_optimal.gif["icône connectivité optimale MetroCluster"]
 
 
 
@@ -31,7 +31,7 @@ Sont concernés
  a| 
 Une ou plusieurs erreurs compromettent l'état de la disponibilité du basculement. Toutefois, les deux clusters de la configuration MetroCluster sont toujours en service. Par exemple, lorsque la liaison ISL est en panne, lorsque la liaison IP intercluster est en panne ou lorsque le cluster partenaire est inaccessible.
  a| 
-image:../media/metrocluster_connectivity_impacted.gif[""]
+image:../media/metrocluster_connectivity_impacted.gif["icône impact sur la connectivité MetroCluster"]
 
 
 
@@ -42,10 +42,10 @@ La connectivité entre les clusters de la configuration MetroCluster est en pann
  a| 
 Basculement par erreur :
 
-image::../media/metrocluster_connectivity_down.gif[connectivité MetroCluster indisponible]
+image::../media/metrocluster_connectivity_down.gif[icône de panne de connectivité MetroCluster]
 
 Basculement réussi :
 
-image::../media/metrocluster_connectivity_failover.gif[basculement de la connectivité MetroCluster]
+image::../media/metrocluster_connectivity_failover.gif[icône de basculement de connectivité MetroCluster]
 
 |===

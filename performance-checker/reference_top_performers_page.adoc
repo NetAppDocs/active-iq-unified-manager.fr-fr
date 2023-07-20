@@ -50,7 +50,7 @@ Cliquez sur le menu *Trier* pour sélectionner un tri croissant ou décroissant 
 La barre de compteurs du graphique affiche les statistiques de performances pour chaque objet, représentées sous forme de barre pour cet élément. Les graphiques à barres sont codés par couleur. Si le compteur ne dépasse pas un seuil de performances, la barre de compteur s'affiche en bleu. Si une violation de seuil est active (un nouvel événement ou un événement reconnu), la barre s'affiche dans la couleur de l'événement : les événements d'avertissement sont affichés en jaune (image:../media/treemapstatus_warning_png.gif["Icône de TreeMap – État d'avertissement"]), et les événements critiques sont affichés en rouge (image:../media/treemapred_png.gif["Icône de TreeMap – couleur rouge"]). Les violations de seuil sont davantage indiquées par les icônes d'indicateurs d'événement de gravité pour les avertissements et les événements critiques.
 
 +
-image::../media/top_10_example.gif[exemple 10 du haut]
+image::../media/top_10_example.gif[Capture d'écran de l'interface utilisateur affichant les statistiques de performance de chaque objet représenté en tant que barre de compteur dans le graphique.]
 
 +
 Pour chaque graphique, l'axe X affiche les performances supérieures pour le type d'objet sélectionné. L'axe y affiche les unités applicables au compteur sélectionné. Cliquez sur le lien du nom d'objet sous chaque élément graphique à barres verticales pour accéder à la page d'arrivée des performances de l'objet sélectionné.

@@ -22,7 +22,7 @@ Normale
  a| 
 La mise en miroir des données entre les clusters dans la configuration MetroCluster est normale.
  a| 
-image:../media/metrocluster_connectivity_optimal.gif[""]
+image:../media/metrocluster_connectivity_optimal.gif["icône connectivité optimale MetroCluster"]
 
 
 
@@ -33,10 +33,10 @@ La mise en miroir des données entre les clusters de la configuration MetroClust
  a| 
 Basculement par erreur :
 
-image::../media/metrocluster_connectivity_down.gif[connectivité MetroCluster indisponible]
+image::../media/metrocluster_connectivity_down.gif[icône de panne de connectivité MetroCluster]
 
 Basculement réussi :
 
-image::../media/metrocluster_connectivity_failover.gif[basculement de la connectivité MetroCluster]
+image::../media/metrocluster_connectivity_failover.gif[icône de basculement de connectivité MetroCluster]
 
 |===

@@ -16,7 +16,7 @@ Utilisez *Afficher/Masquer* pour choisir les colonnes que vous souhaitez utilise
 .Étapes
 . Cliquez sur *Afficher/Masquer* pour ajouter ou supprimer des colonnes.
 +
-image::../media/show_hide_3.png[afficher masquer 3]
+image::../media/show_hide_3.png[Capture d'écran de l'interface utilisateur qui montre comment ajouter ou supprimer des colonnes.]
 
 . Sur la page d'inventaire, faites glisser les colonnes pour les réorganiser selon l'ordre de votre choix dans votre rapport.
 . Nommez la vue non enregistrée pour enregistrer vos modifications.

@@ -15,7 +15,7 @@ Vous pouvez contrôler les valeurs d'IOPS disponibles pour tous les nœuds ou po
 
 Les valeurs d'IOPS disponibles apparaissent sur les pages Performance Inventory et dans les graphiques de la page Performance Explorer pour les nœuds et les agrégats. Par exemple, lorsque vous affichez un nœud dans la page Explorateur de nœuds/performances, vous pouvez sélectionner le compteur « IOPS disponibles » dans la liste afin de pouvoir comparer les valeurs d'IOPS disponibles pour le nœud et plusieurs agrégats sur ce nœud.
 
-image::../media/available_iops_zoom.gif[zoom iops disponible]
+image::../media/available_iops_zoom.gif[Capture d'écran de l'interface utilisateur montrant comment afficher un nœud sur la page Explorateur de nœuds/performances et sélectionner « Available IOPS » dans la liste.]
 
 La surveillance du compteur IOPS disponible vous permet d'identifier :
 

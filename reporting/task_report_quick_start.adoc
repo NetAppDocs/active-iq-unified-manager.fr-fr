@@ -32,7 +32,7 @@ Procédez comme suit pour :
 . Dans le menu Affichage, sélectionnez *Performance* > *tous les volumes*.
 . Cliquez sur *Afficher/Masquer* pour vous assurer que la colonne "types de disque" s'affiche dans la vue.
 +
-image::../media/show_hide_3.png[afficher masquer 3]
+image::../media/show_hide_3.png[Capture d'écran de l'interface utilisateur affichant la liste déroulante du menu Afficher/Masquer.]
 
 +
 Ajoutez ou supprimez d'autres colonnes pour créer une vue contenant les champs importants pour votre rapport.
@@ -42,7 +42,8 @@ Ajoutez ou supprimez d'autres colonnes pour créer une vue contenant les champs 
 +
 ** Les types de disques contiennent la FabricPool
 ** La recommandation cloud contient le Tier
-** Données inactives supérieures à 10 Goimage:../media/filter_cold_data_2.png[""]
+** Données inactives supérieures à 10 Go
+image:../media/filter_cold_data_2.png["Capture d'écran de l'interface utilisateur montrant comment appliquer un filtre à partir de l'option de filtre."]
 
 
 +
@@ -51,7 +52,7 @@ Notez que chaque filtre est associé à une logique et que tous les volumes renv
 . Cliquez sur la partie supérieure de la colonne données froides pour trier les résultats afin que les volumes avec les données les plus froides apparaissent en haut de la vue.
 . Lorsque la vue est personnalisée, le nom de la vue est vue non enregistrée. Nommez la vue pour refléter ce que la vue montre, par exemple « vols change Tiering policy ». Lorsque vous avez terminé, cliquez sur la coche ou appuyez sur *entrée* pour enregistrer la vue avec le nouveau nom.
 +
-image::../media/report_vol_code_data_2.png[signaler les données du code vol 2]
+image::../media/report_vol_code_data_2.png[Capture d'écran de l'interface utilisateur affichant la page de règle de changement de Tiering des volumes avec les colonnes requises dans le bon ordre.]
 
 . Téléchargez le rapport sous forme de fichier *CSV*, *Excel* ou *PDF* pour voir le résultat avant de le planifier ou de le partager.
 +
@@ -68,7 +69,7 @@ Pour plus d'informations sur la personnalisation des rapports à l'aide d'Excel,
 
 . Cliquez sur le bouton *Rapports planifiés* sur la page d'inventaire. Tous les rapports programmés relatifs à l'objet, dans ce cas, les volumes, apparaissent dans la liste.
 +
-image::../media/scheduled_reports_3.gif[rapports planifiés 3]
+image::../media/scheduled_reports_3.gif[Capture d'écran de l'interface utilisateur qui affiche tous les rapports planifiés liés à l'objet.]
 
 . Cliquez sur *Ajouter un programme* pour ajouter une nouvelle ligne à la page programmes de rapports afin de définir les caractéristiques de planification du nouveau rapport.
 . Entrez un nom pour le rapport et complétez les autres champs du rapport, puis cliquez sur la coche (image:../media/blue_check.gif[""]) à la fin du rang.
@@ -79,13 +80,13 @@ Le rapport est envoyé immédiatement sous forme de test. Ensuite, le rapport g�
 Le rapport suivant est au format CSV :
 
 +
-image::../media/csv_sample_report.gif[exemple de rapport csv]
+image::../media/csv_sample_report.gif[Capture d'écran de l'interface utilisateur affichant un exemple de rapport au format CSV.]
 
 +
 L'exemple de rapport suivant est au format PDF :
 
 +
-image::../media/pdf_sample_report.gif[modèle de rapport pdf]
+image::../media/pdf_sample_report.gif[Capture d'écran de l'interface utilisateur affichant un exemple de rapport au format PDF.]
 
 
 

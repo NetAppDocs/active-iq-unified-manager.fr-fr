@@ -24,11 +24,11 @@ Après la mise à niveau vers Unified Manager 9.6 GA ou version ultérieure, la 
 .Étapes
 . Ouvrez la page programmes de rapport. Si vous avez importé des rapports, un message s'affiche.
 +
-image::../media/message_non_scehduled_reports.png[rapports de messages non ehdulés]
+image::../media/message_non_scehduled_reports.png[Une capture d'écran de l'interface utilisateur qui affiche le message s'affiche si des rapports importés sont présents.]
 
 . Cliquez sur le nom *View* pour afficher la requête SQL utilisée pour générer le rapport.
 +
-image::../media/importedreport1.png[expuldreport1]
+image::../media/importedreport1.png[Capture d'écran de l'interface utilisateur qui montre la requête SQL utilisée pour générer le rapport.]
 
 . Cliquez sur l'icône plus image:../media/more_icon.gif[""], Cliquez sur *Modifier*, définissez les détails de la planification du rapport et enregistrez le rapport.
 +

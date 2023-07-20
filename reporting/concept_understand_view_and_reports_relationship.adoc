@@ -24,6 +24,6 @@ Dans la liste déroulante de la vue, les éléments avec l'icône de suppression
 
 
 ====
-image::../media/view_drop_down_3.png[liste déroulante vue 3]
+image::../media/view_drop_down_3.png[Capture d'écran de la liste déroulante Affichage de l'interface utilisateur.]
 
 Seuls les utilisateurs disposant du rôle Administrateur d'applications ou Administrateur de stockage peuvent voir l'icône de suppression, modifier ou supprimer une vue, ou modifier ou supprimer un rapport planifié.

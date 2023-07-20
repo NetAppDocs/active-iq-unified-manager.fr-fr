@@ -25,4 +25,4 @@ Voici un exemple de nombreuses navigations d'objets de cluster possibles :
 
 Vous devez étudier ces volumes afin de déterminer si vous devez appliquer une règle de QoS ou une règle de niveau de service de performances, ou modifier les paramètres des règles, de sorte que ces volumes n'utilisent pas un pourcentage aussi important d'IOPS sur le cluster.
 
-image::../media/monitor_cluster_object.png[contrôle de l'objet cluster]
+image::../media/monitor_cluster_object.png[Une capture d'écran de l'interface utilisateur qui montre un exemple de nombreuses possibilités de navigation dans les objets de cluster.]

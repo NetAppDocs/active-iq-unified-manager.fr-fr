@@ -15,7 +15,7 @@ La valeur de performance utilisée permet d'identifier les nœuds et les agréga
 
 La figure suivante montre la courbe de latence par rapport à l'utilisation d'une ressource et identifie, avec des points de couleur, trois zones où le point opérationnel actuel peut être localisé.
 
-image::../media/headroom_chart_over_under.gif[graphique marge sur dessous]
+image::../media/headroom_chart_over_under.gif[Capture d'écran de l'interface utilisateur affichant la courbe de latence/utilisation d'une ressource.]
 
 * Un pourcentage de capacité de performances utilisé égal à 100 est au point optimal.
 +

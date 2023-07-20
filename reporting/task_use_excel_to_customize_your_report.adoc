@@ -40,7 +40,7 @@ Par exemple, certaines fonctions Excel avancées que vous pouvez utiliser dans v
 ** Ne nommez pas de nouvelles données ou informations de feuille.
 
 
-* Si un fichier Excel personnalisé existe, une coche apparaît à côté de l'élément de menu *Rapports* > *Upload Excel*. Lorsque vous téléchargez le fichier Excel, la version avec les personnalisations est utilisée.image:../media/upload_excel.png[""]
+* Si un fichier Excel personnalisé existe, une coche apparaît à côté de l'élément de menu *Rapports* > *Upload Excel*. Lorsque vous téléchargez le fichier Excel, la version avec les personnalisations est utilisée.image:../media/upload_excel.png["Une capture d'écran de l'interface utilisateur qui montre comment télécharger Excel dans les rapports."]
 
 
 ====

@@ -24,7 +24,7 @@ Procédez comme suit pour ouvrir une vue Santé : tous les agrégats, téléchar
 . Dans le volet de navigation de gauche, cliquez sur *Storage* > *Aggregates*.
 . Sélectionnez *Rapports* > *Télécharger Excel*.
 +
-image::../media/download_excel_menu.png[téléchargez le menu excel]
+image::../media/download_excel_menu.png[Une capture d'écran de l'interface utilisateur qui montre comment télécharger Excel à partir des rapports.]
 
 +
 Selon votre navigateur, vous devrez peut-être cliquer sur *OK* pour enregistrer le fichier.
@@ -53,7 +53,7 @@ La formule totalise chaque colonne en fonction des données actuelles.
 
 
 
-image::../media/capacitysums.png[capacitéque]
+image::../media/capacitysums.png[Capture d'écran d'une fiche de données dans l'interface utilisateur montrant la capacité totale basée sur les données actuelles.]
 
 . Sur la fiche de données, sélectionnez les colonnes *capacité totale de données (Go)* et *capacité engagée (Go)*.
 . Sélectionnez *tableaux recommandés* dans le menu *Insert* et sélectionnez le graphique *clustered Column*.
@@ -61,7 +61,7 @@ image::../media/capacitysums.png[capacitéque]
 . Les menus *Design* et *format*, disponibles lorsque le graphique est sélectionné, vous pouvez personnaliser l'apparence du graphique.
 . Lorsque vous êtes satisfait, enregistrez le fichier avec vos modifications. Ne modifiez pas le nom ou l'emplacement du fichier.
 +
-image::../media/cluster_column_chart_2.png[tableau des colonnes du cluster 2]
+image::../media/cluster_column_chart_2.png[Capture d'écran d'un graphique de l'interface utilisateur montrant la totalité des données et la capacité allouée.]
 
 . Dans Unified Manager, sélectionnez *Rapports* > *Upload Excel*.
 +
@@ -77,7 +77,7 @@ Assurez-vous que vous vous trouvez dans la même vue que celle où vous avez té
 Une coche apparaît en regard de l'option de menu *Rapports* > *Télécharger Excel*.
 
 +
-image::../media/upload_excel.png[télécharger excel]
+image::../media/upload_excel.png[Une capture d'écran de l'interface utilisateur qui montre comment télécharger Excel dans les rapports.]
 
 . Cliquez sur *Rapports planifiés*.
 . Cliquez sur *Ajouter un calendrier* pour ajouter une nouvelle ligne à la page programmes de rapports afin de définir les caractéristiques de planification du nouveau rapport.

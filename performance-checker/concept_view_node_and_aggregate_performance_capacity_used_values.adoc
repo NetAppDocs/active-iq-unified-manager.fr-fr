@@ -15,7 +15,7 @@ Vous pouvez contrôler les valeurs de performance de la capacité utilisée pour
 
 Les valeurs utilisées relatives à la capacité de performance apparaissent dans le tableau de bord, les pages Inventaire des performances, la page collaborateurs les plus performants, la page Créer une stratégie de seuil, les pages Explorateur de performances et les graphiques détaillés. Par exemple, la page performances : tous les agrégats fournit une colonne capacité de performance utilisée pour afficher la valeur de performance utilisée pour tous les agrégats.
 
-image::../media/node_inventory_used_headroom.gif[marge utilisée d'inventaire des nœuds]
+image::../media/node_inventory_used_headroom.gif[Une capture d'écran de l'interface utilisateur de la page performances : tous les agrégats]
 
 Le contrôle du compteur de performances utilisé vous permet d'identifier ce qui suit :
 

@@ -30,7 +30,7 @@ La version actuelle fournit des seuils qui envoient des événements lorsqu'une 
 ====
 Un exemple de graphique de compteur est illustré ici, indiquant qu'un seuil d'avertissement (icône jaune) a été dépassé à 1:00 et qu'un seuil critique (icône rouge) a été dépassé à 12:10, 12:30 et 1:10 :
 
-image::../media/opm2_threshold_breach.gif[dépassement du seuil opm2]
+image::../media/opm2_threshold_breach.gif[Capture d'écran de l'interface utilisateur affichant un exemple de graphique de compteur.]
 
 Une violation de seuil doit se produire en continu pendant la durée spécifiée. Si le seuil passe en dessous des valeurs limites pour une raison quelconque, une violation ultérieure est considérée comme le début d'une nouvelle durée.
 

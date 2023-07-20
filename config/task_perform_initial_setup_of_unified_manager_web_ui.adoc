@@ -23,7 +23,7 @@ Vous devez avoir effectué les opérations suivantes :
 
 La page mise en route du Gestionnaire unifié Active IQ s'affiche uniquement lorsque vous accédez pour la première fois à l'interface utilisateur Web. La page ci-dessous provient d'une installation sur VMware.
 
-image::../media/first_experience_wizard.JPG[assistant première expérience]
+image::../media/first_experience_wizard.JPG[Capture d'écran de l'interface utilisateur affichant une page de l'installation sur VMware.]
 
 Si vous souhaitez modifier l'une de ces options ultérieurement, vous pouvez sélectionner votre choix dans les options générales du volet de navigation gauche de Unified Manager. Notez que le paramètre NTP n'est utilisé que pour les installations VMware et peut être modifié par la suite à l'aide de la console de maintenance Unified Manager.
 

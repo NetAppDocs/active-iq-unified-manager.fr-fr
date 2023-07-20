@@ -19,7 +19,7 @@ Si vous sélectionnez l'option *derniers 13 mois* ou si vous spécifiez une plag
 
 Lors de la sélection d'une plage horaire (personnalisée ou prédéfinie), les plages de temps de 30 jours ou moins sont basées sur des échantillons de données d'intervalle de 5 minutes. Les plages de temps supérieures à 30 jours sont basées sur des échantillons de données d'intervalle d'une heure.
 
-image::../media/time_range_selector.gif[sélecteur de plage horaire]
+image::../media/time_range_selector.gif[Capture d'écran de l'interface utilisateur affichant le panneau Plage de temps.]
 
 . Cliquez sur la liste déroulante *Plage de temps* et le panneau Plage de temps s'affiche.
 . Pour sélectionner une plage de temps prédéfinie, cliquez sur l'un des boutons *dernier...* à droite du panneau *Plage de temps*. Lorsque vous sélectionnez une plage horaire prédéfinie, des données pouvant atteindre 13 mois sont disponibles. Le bouton de plage horaire prédéfini que vous avez sélectionné est mis en surbrillance et les jours et heures correspondants s'affichent dans les calendriers et les sélecteurs de temps.

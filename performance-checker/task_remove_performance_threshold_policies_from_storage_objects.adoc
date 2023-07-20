@@ -45,7 +45,7 @@ Cochez la case à gauche de chaque objet.
  a| 
 Tous les objets de la page
  a| 
-Cliquez sur image:../media/select_dropdown_65_png.gif[""] dans l'en-tête de colonne.
+Cliquez sur image:../media/select_dropdown_65_png.gif["sélectionnez l'icône déroulante"] dans l'en-tête de colonne.
 
 |===
 . Cliquez sur *Effacer la stratégie de seuil de performances*.

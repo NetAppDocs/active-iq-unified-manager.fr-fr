@@ -33,7 +33,7 @@ Vous permet de saisir le chemin du fichier vers lequel vous souhaitez restaurer 
 
 * *Nom*
 +
-Affiche les noms des dossiers disponibles pour le volume sélectionné. Si vous cliquez sur un dossier dans la liste Nom, les sous-dossiers s'affichent, le cas échéant. Les fichiers contenus dans les dossiers ne sont pas affichés. Cliquez sur image:../media/icon_upfolder.gif[""] une fois que vous avez sélectionné un dossier, vous vous déplacez d'un niveau vers le haut dans la structure du répertoire.
+Affiche les noms des dossiers disponibles pour le volume sélectionné. Si vous cliquez sur un dossier dans la liste Nom, les sous-dossiers s'affichent, le cas échéant. Les fichiers contenus dans les dossiers ne sont pas affichés. Cliquez sur image:../media/icon_upfolder.gif["icône dossier ascendant"] une fois que vous avez sélectionné un dossier, vous vous déplacez d'un niveau vers le haut dans la structure du répertoire.
 
 
 

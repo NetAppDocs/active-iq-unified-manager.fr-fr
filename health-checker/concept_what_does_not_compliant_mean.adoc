@@ -15,9 +15,9 @@ Les clusters et les SVM (Storage Virtual machine) sont considérés comme non co
 
 Les icônes d'état des cartes de sécurité ont la signification suivante par rapport à leur conformité :
 
-* image:../media/sev_normal_um60.png[""] - Le paramètre est configuré comme recommandé.
-* image:../media/sev_warning_um60.png[""] - Le paramètre n'est pas configuré comme recommandé.
-* image:../media/sev_information_um60.gif[""] - Soit la fonctionnalité n'est pas activée sur le cluster, soit le paramètre n'est pas configuré comme recommandé, mais ce paramètre ne contribue pas à la conformité de l'objet.
+* image:../media/sev_normal_um60.png["icône de coche verte normale"] - Le paramètre est configuré comme recommandé.
+* image:../media/sev_warning_um60.png["icône d'avertissement"] - Le paramètre n'est pas configuré comme recommandé.
+* image:../media/sev_information_um60.gif["icône informations"] - Soit la fonctionnalité n'est pas activée sur le cluster, soit le paramètre n'est pas configuré comme recommandé, mais ce paramètre ne contribue pas à la conformité de l'objet.
 
 
 Notez que l'état du chiffrement des volumes ne contribue pas à la conformité du cluster ou de la SVM.

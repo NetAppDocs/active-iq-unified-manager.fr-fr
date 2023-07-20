@@ -35,7 +35,7 @@ Le tableau latence - composants du cluster est affiché.
 
 . Pour afficher une version plus grande de la carte, sélectionnez *vue Zoom*.
 +
-Le tableau comparatif des composants du groupe d'instruments s'affiche. Vous pouvez restreindre la comparaison en désélectionnant ou en sélectionnant le image:../media/eye_icon.gif[""] qui est associé à chaque composant du cluster.
+Le tableau comparatif des composants du groupe d'instruments s'affiche. Vous pouvez restreindre la comparaison en désélectionnant ou en sélectionnant le image:../media/eye_icon.gif["icône en forme d'œil"] qui est associé à chaque composant du cluster.
 
 . Pour afficher les valeurs spécifiques, déplacez le curseur dans la zone graphique pour afficher la fenêtre contextuelle.
 

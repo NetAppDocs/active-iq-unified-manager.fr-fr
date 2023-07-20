@@ -21,7 +21,7 @@ Une fois les rapports planifiés, vous pouvez les modifier sur la page Rapports 
 .Étapes
 . Dans le volet de navigation de gauche, cliquez sur *Storage Management* > *Report Schedules*.
 +
-image::../media/scheduled_reports_2.gif[rapports planifiés 2]
+image::../media/scheduled_reports_2.gif[Capture d'écran de l'interface utilisateur affichant les rapports planifiés.]
 
 +
 [NOTE]

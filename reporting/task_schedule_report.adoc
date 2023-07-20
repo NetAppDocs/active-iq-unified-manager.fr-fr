@@ -27,7 +27,7 @@ Procédez comme suit pour tester et planifier la génération d'un rapport pour 
 . Personnalisez la vue en fonction des besoins à l'aide des fonctionnalités intégrées de Unified Manager.
 . Après avoir personnalisé la vue, vous pouvez fournir un nom unique dans le champ *View* et cliquer sur la coche pour l'enregistrer.
 +
-image::../media/view_save.gif[afficher enregistrement]
+image::../media/view_save.gif[Capture d'écran de l'interface utilisateur qui montre comment enregistrer une vue.]
 
 . Vous pouvez utiliser les fonctionnalités avancées de Microsoft® Excel pour personnaliser votre rapport. Pour plus de détails, voir link:task_use_excel_to_customize_your_report.html["Utilisation d'Excel pour personnaliser votre rapport"].
 . Pour afficher le résultat avant de le planifier ou de le partager :
@@ -67,7 +67,7 @@ Pour les rapports dans lesquels vous avez utilisé Excel pour personnaliser le c
 ====
 . Cliquez sur la coche (image:../media/blue_check.gif[""]) pour enregistrer le planning du rapport.
 +
-image::../media/scheduled_reports.gif[rapports planifiés]
+image::../media/scheduled_reports.gif[Capture d'écran de l'interface utilisateur montrant comment enregistrer la planification du rapport.]
 
 +
 Le rapport est envoyé immédiatement sous forme de test. Ensuite, le rapport génère et est envoyé par e-mail aux destinataires répertoriés à l'aide de la fréquence programmée.

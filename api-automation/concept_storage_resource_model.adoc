@@ -28,4 +28,4 @@ Les ressources de stockage logique comprennent des volumes de tous les types et 
 
 L'illustration suivante présente les ressources de stockage dans un cluster à deux nœuds :
 
-image::../media/storage_resource_model.gif[modèle de ressource de stockage]
+image::../media/storage_resource_model.gif[Capture d'écran de l'interface utilisateur affichant les ressources de stockage dans un cluster à deux nœuds.]

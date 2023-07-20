@@ -13,6 +13,6 @@ summary: Les incidents et les risques liés à la plateforme Active IQ sont conv
 [role="lead"]
 Les incidents et les risques liés à la plateforme Active IQ sont convertis en événements Unified Manager, comme illustré dans le diagramme ci-dessous.
 
-image::../media/aiq_and_um_event_generation.png[génération d'événements aiq et um]
+image::../media/aiq_and_um_event_generation.png[Capture d'écran de l'interface utilisateur montrant les incidents et les risques de la plateforme Active IQ convertis en événements Unified Manager.]
 
 Comme vous pouvez le voir, le fichier de règles compilé sur la plateforme Active IQ est actualisé et les messages AutoSupport de cluster sont générés quotidiennement. Unified Manager met à jour la liste d'événements.

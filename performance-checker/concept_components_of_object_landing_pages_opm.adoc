@@ -22,7 +22,7 @@ Les données affichées dans les panneaux récapitulatifs des compteurs et dans 
 ====
 L'image suivante montre un exemple de page d'arrivée d'objet affichant les informations de l'Explorateur :
 
-image::../media/perf_manager_page_1.gif[gestionnaire des perf page 1]
+image::../media/perf_manager_page_1.gif[Capture d'écran de l'interface utilisateur montrant un exemple de page d'accueil d'objet affichant les informations de l'explorateur.]
 
 Selon l'objet de stockage affiché, la page d'accueil de l'objet peut disposer des onglets suivants qui fournissent des données de performances sur l'objet :
 

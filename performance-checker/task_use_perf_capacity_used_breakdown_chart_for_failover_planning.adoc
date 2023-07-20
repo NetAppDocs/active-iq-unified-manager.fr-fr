@@ -33,7 +33,7 @@ Les graphiques des compteurs correspondant aux statistiques du nœud principal, 
 Le tableau détaillé de Perf. La capacité utilisée s'affiche.
 
 +
-image::../media/headroom_advanced_zoom_chart.gif[graphique de zoom avancé de marge]
+image::../media/headroom_advanced_zoom_chart.gif[Capture d'écran de l'interface utilisateur affichant le graphique détaillé de Perf. Capacité utilisée.]
 
 . Déplacez le curseur sur le tableau détaillé pour afficher les informations relatives à la capacité de performance utilisée dans la fenêtre contextuelle.
 +

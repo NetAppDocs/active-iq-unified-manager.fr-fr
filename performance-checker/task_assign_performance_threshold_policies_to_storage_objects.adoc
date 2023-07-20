@@ -52,14 +52,14 @@ La case à cocher à gauche de chaque objet.
  a| 
 Tous les objets de la page
  a| 
-Le image:../media/select_dropdown_65_png.gif[""] Et choisissez *Sélectionner tous les objets sur cette page*.
+Le image:../media/select_dropdown_65_png.gif["sélectionnez l'icône déroulante"] Et choisissez *Sélectionner tous les objets sur cette page*.
 
 
 
  a| 
 Tous les objets du même type
  a| 
-Le image:../media/select_dropdown_65_png.gif[""] Et choisissez *Sélectionner tous les objets*.
+Le image:../media/select_dropdown_65_png.gif["sélectionnez l'icône déroulante"] Et choisissez *Sélectionner tous les objets*.
 
 |===
 +

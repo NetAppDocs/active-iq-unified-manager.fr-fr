@@ -23,7 +23,7 @@ Dans le cas des règles de QoS adaptative et des règles de niveaux de service d
 Les performances : l'affichage classique des groupes de règles de QoS sont affichées par défaut.
 
 . Si vous êtes intéressé par le groupe de polices traditionnelles, restez sur cette page. Sinon, sélectionnez l'une des options d'affichage supplémentaires pour afficher tous les groupes de règles de QoS adaptatifs ou tous les groupes de règles de QoS créés par les niveaux de service Performance Unified Manager.
-. Cliquez sur le bouton développer de la politique QoS qui vous intéresse (image:../media/chevron_down.gif[""]) En regard du nom du groupe de stratégies QoS pour afficher plus de détails.image:../media/adaptive_qos_expanded.gif[""]
+. Cliquez sur le bouton développer de la politique QoS qui vous intéresse (image:../media/chevron_down.gif["icône de bouton développer"]) En regard du nom du groupe de stratégies QoS pour afficher plus de détails.image:../media/adaptive_qos_expanded.gif["Capture d'écran de l'interface utilisateur affichant tous les groupes de règles de QoS créés par les niveaux de services de performances d'Unified Manager."]
 . Cliquez sur le lien volumes ou LUN pour afficher les objets qui utilisent cette politique de QoS.
 +
 La page d'inventaire des performances des volumes ou des LUN s'affiche avec la liste triée des objets qui utilisent la politique de QoS.

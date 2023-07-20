@@ -51,7 +51,7 @@ Affiche «`(QoS Adaptive)` »
 |===
 La figure suivante montre un exemple de l'affichage des trois options dans les tableaux des compteurs.
 
-image::../media/3_qos_policy_charts.gif[3 diagrammes des politiques de qos]
+image::../media/3_qos_policy_charts.gif[Une capture d'écran de l'interface utilisateur qui montre un exemple de la façon dont les trois options sont affichées dans les graphiques de compteur.]
 
 Lorsqu'une politique de QoS normale a été définie dans IOPS apparaît dans le graphique IOPS/To pour une charge de travail, ONTAP convertit la valeur d'IOPS en valeur d'IOPS/To, et Unified Manager affiche cette règle dans le graphique IOPS/To avec le texte « QoS, définie en IOPS ».
 

@@ -41,7 +41,7 @@ La zone Sélectionner les éléments à restaurer vous permet de sélectionner l
 
 * *Champ chemin*
 +
-Affiche le chemin d'accès aux données à restaurer. Vous pouvez naviguer vers le dossier et les fichiers que vous souhaitez restaurer ou saisir le chemin d'accès. Ce champ est vide jusqu'à ce que vous sélectionniez ou tapez un chemin. Cliquez sur image:../media/icon_upfolder.gif[""] une fois que vous avez choisi un chemin, vous vous déplacez vers le haut d'un niveau dans la structure de répertoires.
+Affiche le chemin d'accès aux données à restaurer. Vous pouvez naviguer vers le dossier et les fichiers que vous souhaitez restaurer ou saisir le chemin d'accès. Ce champ est vide jusqu'à ce que vous sélectionniez ou tapez un chemin. Cliquez sur image:../media/icon_upfolder.gif["icône dossier ascendant"] une fois que vous avez choisi un chemin, vous vous déplacez vers le haut d'un niveau dans la structure de répertoires.
 
 * *Liste de dossiers et de fichiers*
 +

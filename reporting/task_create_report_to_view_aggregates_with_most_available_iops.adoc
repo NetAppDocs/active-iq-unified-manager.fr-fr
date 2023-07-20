@@ -28,7 +28,7 @@ Procédez comme suit pour ouvrir une vue Santé : tous les volumes, télécharge
 . Nommer et enregistrer la vue personnalisée `Available IOPS Per Aggr.`
 . Sélectionnez *Rapports* > *Télécharger Excel*.
 +
-image::../media/download_excel_menu.png[téléchargez le menu excel]
+image::../media/download_excel_menu.png[Une capture d'écran de l'interface utilisateur qui montre comment télécharger Excel à partir des rapports.]
 
 +
 Selon votre navigateur, vous devrez peut-être cliquer sur *OK* pour enregistrer le fichier.
@@ -62,7 +62,7 @@ Assurez-vous que vous vous trouvez dans la même vue que celle où vous avez té
 Une coche apparaît en regard de l'option de menu *Rapports* > *Télécharger Excel*.
 
 +
-image::../media/upload_excel.png[télécharger excel]
+image::../media/upload_excel.png[Une capture d'écran de l'interface utilisateur qui montre comment télécharger Excel dans les rapports.]
 
 . Cliquez sur *Rapports planifiés*.
 . Cliquez sur *Ajouter un calendrier* pour ajouter une nouvelle ligne à la page programmes de rapports afin de définir les caractéristiques de planification du nouveau rapport.

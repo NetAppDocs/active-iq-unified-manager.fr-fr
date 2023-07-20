@@ -21,7 +21,7 @@ Trois filtres sont disponibles sur la page actions de gestion :
 
 
 .Étapes
-. Cliquez sur *Management actions* dans le volet de navigation de gauche. Vous pouvez également cliquer sur image:../media/more_icon.gif[""] En haut du panneau *Management actions* du *Dashboard* et sélectionnez la vue que vous souhaitez voir.
+. Cliquez sur *Management actions* dans le volet de navigation de gauche. Vous pouvez également cliquer sur image:../media/more_icon.gif["plus d'icône"] En haut du panneau *Management actions* du *Dashboard* et sélectionnez la vue que vous souhaitez voir.
 +
 La page actions de gestion s'affiche.
 

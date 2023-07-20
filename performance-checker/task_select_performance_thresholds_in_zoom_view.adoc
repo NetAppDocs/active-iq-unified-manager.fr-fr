@@ -18,7 +18,7 @@ La sélection de seuils dans la vue Zoom des diagrammes de compteur vous permet 
 Une seule règle à la fois peut être appliquée à l'objet dans la vue Zoom des diagrammes de compteur.
 
 .Étape
-. Sélectionner ou désélectionner le image:../media/eye_icon.gif[""] associé à une politique.
+. Sélectionner ou désélectionner le image:../media/eye_icon.gif["icône en forme d'œil"] associé à une politique.
 +
 Le seuil sélectionné est appliqué à la vue Zoom des diagrammes de compteur. Les seuils critiques sont affichés sous la forme d'une ligne rouge ; les seuils d'avertissement sont affichés sous la forme d'une ligne jaune.
 

@@ -24,7 +24,7 @@ Procédez comme suit pour ouvrir une vue Santé : tous les agrégats, téléchar
 . Dans le volet de navigation de gauche, cliquez sur *Storage* > *Aggregates*.
 . Sélectionnez *Rapports* > *Télécharger Excel*.
 +
-image::../media/download_excel_menu.png[téléchargez le menu excel]
+image::../media/download_excel_menu.png[Une capture d'écran de l'interface utilisateur qui montre comment télécharger Excel à partir des rapports.]
 
 +
 Selon votre navigateur, vous devrez peut-être cliquer sur *OK* pour enregistrer le fichier.
@@ -33,7 +33,7 @@ Selon votre navigateur, vous devrez peut-être cliquer sur *OK* pour enregistrer
 . Si nécessaire, cliquez sur *Activer la modification*.
 . Sur la feuille de données, cliquez avec le bouton droit de la souris sur la colonne Type et sélectionnez *Trier* > *Trier A à Z*.
 +
-image::../media/sort_01.png[tri 01]
+image::../media/sort_01.png[Capture d'écran de l'interface utilisateur qui montre comment sélectionner le tri dans la colonne Type.]
 
 +
 Cette action organisera vos données en fonction du type de stockage :
@@ -51,7 +51,7 @@ Cette action organisera vos données en fonction du type de stockage :
 Le graphique apparaît sur la feuille de données.
 
 +
-image::../media/3d_column_01.png[colonne 3d 01]
+image::../media/3d_column_01.png[Capture d'écran de l'interface utilisateur qui montre le graphique en colonnes 3D.]
 
 . Cliquez avec le bouton droit de la souris sur le graphique et sélectionnez *déplacer le graphique*.
 . Sélectionnez *Nouvelle feuille* et nommez la feuille *cartes de stockage totales*.
@@ -65,7 +65,7 @@ Assurez-vous que la nouvelle feuille apparaît après les fiches d'informations 
 . Les menus *Design* et *format*, disponibles lorsque le graphique est sélectionné, vous pouvez personnaliser l'apparence du graphique.
 . Lorsque vous êtes satisfait, enregistrez le fichier avec vos modifications. Ne modifiez pas le nom ou l'emplacement du fichier.
 +
-image::../media/total_vs_available_capacity.png[total par rapport à la capacité disponible]
+image::../media/total_vs_available_capacity.png[Capture d'écran de l'interface utilisateur affichant le tableau de capacité totale par rapport à la capacité disponible.]
 
 . Dans Unified Manager, sélectionnez *Rapports* > *Upload Excel*.
 +
@@ -81,7 +81,7 @@ Assurez-vous que vous vous trouvez dans la même vue que celle où vous avez té
 Une coche apparaît en regard de l'option de menu *Rapports* > *Télécharger Excel*.
 
 +
-image::../media/upload_excel.png[télécharger excel]
+image::../media/upload_excel.png[Une capture d'écran de l'interface utilisateur qui montre comment télécharger Excel dans les rapports.]
 
 . Cliquez sur *Rapports planifiés*.
 . Cliquez sur *Add Schedule* pour ajouter une nouvelle ligne à la page *Report Schedules* afin que vous puissiez définir les caractéristiques du planning pour le nouveau rapport.

@@ -19,4 +19,4 @@ Si un compteur de performances ou une valeur de capacité a un changement import
 
 Voici un exemple d'e-mail d'alerte :
 
-image::../media/um_email_alert.gif[alerte e-mail um]
+image::../media/um_email_alert.gif[Capture d'écran de l'interface utilisateur affichant un exemple d'e-mail d'alerte.]

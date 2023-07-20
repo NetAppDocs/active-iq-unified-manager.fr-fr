@@ -15,7 +15,7 @@ Le compteur de performances utilisé vous permet de déterminer si les performan
 
 La capacité à performances optimales utilisées est au point de permettre à un nœud ou un agrégat d'optimiser l'utilisation et la latence (temps de réponse) et d'être utilisé de manière efficace. Un exemple de latence par rapport à une courbe d'utilisation est présenté pour un agrégat dans la figure suivante.
 
-image::../media/headroom_chart.gif[tableau marge]
+image::../media/headroom_chart.gif[Capture d'écran de l'interface utilisateur montrant un exemple de courbe de latence/utilisation pour un agrégat.]
 
 Dans cet exemple, le _point opérationnel_ identifie que l'agrégat fonctionne actuellement à 50 % d'utilisation avec une latence de 1.0 ms/op. En se basant sur les statistiques collectées par l'agrégat, Unified Manager détermine que des performances supplémentaires sont disponibles pour cet agrégat. Dans cet exemple, le _optimal point_ est identifié comme le point où l'agrégat est à 80% d'utilisation avec une latence de 2.0 ms/op. Vous pouvez donc ajouter davantage de volumes et de LUN à cet agrégat, afin que vos systèmes soient utilisés plus efficacement.
 

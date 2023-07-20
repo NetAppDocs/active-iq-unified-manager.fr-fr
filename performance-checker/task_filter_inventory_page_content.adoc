@@ -61,6 +61,6 @@ Vous pouvez ajouter des filtres à l'aide du panneau filtrage.
 
 L'illustration montre le panneau filtrage avec trois filtres. Le bouton *+Ajouter filtre* s'affiche lorsque vous avez moins de quatre filtres que le maximum.
 
-image::../media/opm_filtering_panel_draft_3.gif[panneau de filtrage opm brouillon 3]
+image::../media/opm_filtering_panel_draft_3.gif[Capture d'écran de l'interface utilisateur affichant le panneau filtrage avec trois filtres.]
 
 Après avoir cliqué sur *appliquer le filtre*, le panneau filtrage se ferme, applique vos filtres et affiche le nombre de filtres appliqués (image:../media/opm_filters_applied.gif[""]).

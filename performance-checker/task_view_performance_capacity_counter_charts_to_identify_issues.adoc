@@ -28,7 +28,7 @@ Comme certaines activités d'arrière-plan associées à la gestion du système 
 Les couleurs du graphique standard indiquent lorsque l'objet se trouve dans la plage optimale (jaune), lorsque l'objet est sous-utilisé (vert) et lorsque l'objet est surutilisé (rouge). Le tableau décomposition affiche des détails détaillés sur la capacité de performances pour l'objet racine uniquement.
 
 +
-image::../media/headroom_counter_charts.gif[graphiques de compteur marge]
+image::../media/headroom_counter_charts.gif[Capture d'écran de l'interface utilisateur affichant le graphique de panne avec une capacité de performance détaillée pour l'objet racine uniquement.]
 
 . Si vous souhaitez afficher l'un ou l'autre des graphiques en format plein format, cliquez sur *vue Zoom*.
 +

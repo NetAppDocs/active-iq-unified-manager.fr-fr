@@ -15,7 +15,7 @@ Les événements qui déclenchent un basculement ou un rétablissement entraîne
 
 Comme les volumes sont déplacés d'un cluster à l'autre, il est recommandé de contrôler les deux clusters. Une seule instance de Unified Manager peut contrôler les deux clusters dans une configuration MetroCluster, mais parfois la distance entre les deux sites nécessite l'utilisation de deux instances Unified Manager pour surveiller les deux clusters. La figure suivante présente une seule instance de Unified Manager :
 
-image::../media/opm_mcc_switchover.gif[basculement opm mcc]
+image::../media/opm_mcc_switchover.gif[Capture d'écran de l'interface utilisateur montrant une seule instance d'Unified Manager.]
 
 Les volumes portant la référence p indiquent les volumes primaires, et les volumes dont l'noms est b sont des volumes de sauvegarde en miroir créés par SnapMirror.
 
@@ -45,7 +45,7 @@ Notez que Vol3p et Vol3b ne sont pas les mêmes volumes, car ils se trouvent sur
 
 Lorsque le Cluster B est réparé et qu'un rétablissement est effectué, Vol3p est de nouveau actif sur le Cluster B, avec les statistiques historiques et un intervalle de statistiques correspondant à la période de basculement. Vol3b n'est pas visible depuis le Cluster A tant qu'un autre basculement se produit :
 
-image::../media/opm_mcc_volumes.gif[volumes opm mcc]
+image::../media/opm_mcc_volumes.gif[Capture d'écran de l'interface utilisateur affichant le comportement du volume lors du basculement.]
 
 [NOTE]
 ====

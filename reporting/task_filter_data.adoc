@@ -16,7 +16,7 @@ Filtrez les données pour vous assurer que les résultats correspondent aux exig
 .Étapes
 . Cliquez sur l'icône de filtre pour ajouter des filtres afin de cibler les résultats que vous souhaitez afficher, puis cliquez sur *appliquer le filtre*.
 +
-image::../media/filter_cold_data_2.png[filtrer les données inactives 2]
+image::../media/filter_cold_data_2.png[Une capture d'écran de l'interface utilisateur qui montre comment ajouter et appliquer un filtre.]
 
 . Nommez la vue non enregistrée pour enregistrer vos modifications.
 

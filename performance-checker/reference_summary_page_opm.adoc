@@ -64,7 +64,7 @@ Le positionnement du curseur sur le nombre d'événements pour les événements 
 
 Le nombre en haut à droite du graphique dans la barre grise correspond à la valeur moyenne des 72 dernières heures. Les chiffres indiqués en bas et en haut du graphique de tendance sont les valeurs minimale et maximale pour la dernière période de 72 heures. La barre grise sous le tableau contient le nombre d'événements actifs (nouveaux et acquittés) et d'événements obsolètes de la dernière période de 72 heures.
 
-image::../media/iops_graph.gif[graphique iops]
+image::../media/iops_graph.gif[Capture d'écran de l'interface utilisateur affichant le graphique IOPS.]
 
 * *Diagramme de compteur de latence*
 +

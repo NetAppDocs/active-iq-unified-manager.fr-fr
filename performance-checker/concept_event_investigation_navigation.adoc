@@ -27,4 +27,4 @@ C'est un exemple de navigation pour l'investigation d'événement.
 . Affichez la description de l'événement et examinez les actions suggérées (le cas échéant) pour afficher plus de détails sur l'événement qui peut vous aider à résoudre le problème. Vous pouvez cliquer sur le bouton *Analyze Workload* pour afficher des graphiques de performances détaillés afin de mieux analyser le problème.
 
 
-image::../media/event_flow.png[flux d'événement]
+image::../media/event_flow.png[Capture d'écran de l'interface utilisateur affichant une navigation dans l'investigation d'événement.]

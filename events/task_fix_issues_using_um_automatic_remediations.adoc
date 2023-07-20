@@ -18,7 +18,7 @@ La plupart des événements ont différentes résolutions possibles qui s'affich
 .Étapes
 . Pour afficher les événements qui peuvent être corrigés à partir du *Dashboard*, cliquez sur *Dashboard*.
 +
-image::../media/management_actions.png[actions de gestion]
+image::../media/management_actions.png[Capture d'écran de l'interface utilisateur montrant comment afficher et corriger des événements à partir du tableau de bord.]
 
 . Pour résoudre les problèmes que Unified Manager peut résoudre, cliquez sur le bouton *Fix it*. Pour résoudre un problème qui existe sur plusieurs objets, cliquez sur le bouton *réparer tout*.
 

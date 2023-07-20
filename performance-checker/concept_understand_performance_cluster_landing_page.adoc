@@ -15,7 +15,7 @@ La page d'accueil Performance Cluster fournit une vue d'ensemble des performance
 
 La page d'accueil Performance Cluster offre une présentation générale de chaque cluster géré par une instance de Unified Manager. Cette page fournit des informations sur les événements et les performances. Elle vous permet également de contrôler et de dépanner les clusters. L'image suivante montre un exemple de la page d'accueil du cluster Performance Cluster pour le cluster appelé opm-Mobility :
 
-image::../media/opm_cluster_landing_page_draft.gif[version préliminaire de la page d'accueil du cluster opm]
+image::../media/opm_cluster_landing_page_draft.gif[Capture d'écran de l'interface utilisateur montrant un exemple de page d'accueil de cluster de performances appelé opm-Mobility.]
 
 Le nombre d'événements sur la page Cluster Summary peut ne pas correspondre au nombre d'événements sur la page Performance Event Inventory. En effet, la page Cluster Summary peut afficher un événement dans les barres latence et utilisation lorsque les règles de seuil de combinaison ont été enfreintes, alors que la page Performance Event Inventory n'affiche qu'un seul événement lorsqu'une règle de combinaison a été enfreinte.
 

@@ -49,7 +49,7 @@ La topologie de la configuration MetroCluster s'affiche dans la zone d'objet clu
 
 
 
-image::../media/node_switch_connectivity.gif[connectivité du commutateur de nœuds]
+image::../media/node_switch_connectivity.gif[icône de connectivité du commutateur de nœud]
 
 Si vous déplacez le pointeur sur l'icône, vous pouvez afficher des informations détaillées sur l'événement généré.
 
@@ -86,7 +86,7 @@ NOTE: Les États suivants sont signalés : critique (image:sev_critical_um60.png
 Dans le diagramme suivant, vous pouvez voir que la connectivité intersite entre les clusters source et de destination n'est pas disponible et que le médiateur entre eux n'est pas configuré.
 
 +
-image:mcc-ip-conn-status.png[""]
+image:mcc-ip-conn-status.png["Capture d'écran de l'interface utilisateur qui montre la topologie des sites source et miroir, ainsi que le Mediator."]
 
 
 

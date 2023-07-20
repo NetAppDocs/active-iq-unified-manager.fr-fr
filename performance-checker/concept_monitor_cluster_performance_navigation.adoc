@@ -25,4 +25,4 @@ Les statistiques des deux objets s'affichent dans les compteurs pour comparaison
 . Dans le volet comparaison situé à droite de la page de l'Explorateur, cliquez sur *vue Zoom* dans l'un des diagrammes pour afficher des détails sur l'historique des performances de cet agrégat.
 
 
-image::../media/monitor_cluster_performance.png[contrôle des performances du cluster]
+image::../media/monitor_cluster_performance.png[Capture d'écran de l'interface utilisateur montrant comment examiner un agrégat particulier.]

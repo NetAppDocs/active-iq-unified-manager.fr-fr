@@ -33,11 +33,12 @@ Ajoutez ou supprimez d'autres colonnes pour créer une vue importante pour votre
 +
 ** Le type de disque contient la FabricPool
 ** La recommandation cloud contient le Tier
-** Données inactives supérieures à 10 Goimage:../media/filter_cold_data.gif[""]
+** Données inactives supérieures à 10 Go
+image:../media/filter_cold_data.gif["Une capture d'écran de l'interface utilisateur qui montre comment ajouter et appliquer un filtre."]
 
 
 . Cliquez sur la partie supérieure de la colonne données froides pour que les volumes avec les données les plus froides apparaissent en haut de la vue.
-. Enregistrez la vue avec un nom pour refléter ce que la vue est affichée, par exemple "vols change Tiering policy".image:../media/report_vol_cold_data.gif[""]
+. Enregistrez la vue avec un nom pour refléter ce que la vue est affichée, par exemple "vols change Tiering policy".image:../media/report_vol_cold_data.gif["Capture d'écran de l'interface utilisateur affichant la page de règle de changement de Tiering des volumes avec les colonnes requises dans le bon ordre."]
 . Cliquez sur le bouton *Rapports planifiés* sur la page d'inventaire.
 . Cliquez sur *Ajouter un calendrier* pour ajouter une nouvelle ligne à la page programmes de rapports afin de définir les caractéristiques de planification du nouveau rapport.
 . Entrez un nom pour le planning du rapport et remplissez les autres champs du rapport, puis cliquez sur la coche (image:../media/blue_check.gif[""]) à la fin du rang.

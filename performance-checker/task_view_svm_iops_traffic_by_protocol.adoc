@@ -29,7 +29,7 @@ Le tableau IOPS - protocoles s'affiche.
 
 . Pour afficher une version plus grande de la carte, sélectionnez *vue Zoom*.
 +
-Le graphique comparatif du protocole avancé IOPS est affiché. Vous pouvez restreindre la comparaison en désélectionnant ou en sélectionnant le image:../media/eye_icon.gif[""] qui est associé à un protocole.
+Le graphique comparatif du protocole avancé IOPS est affiché. Vous pouvez restreindre la comparaison en désélectionnant ou en sélectionnant le image:../media/eye_icon.gif["icône en forme d'œil"] qui est associé à un protocole.
 
 . Pour afficher les valeurs spécifiques, déplacez le curseur dans la zone graphique de l'un des graphiques pour afficher la fenêtre contextuelle.
 
