@@ -17,7 +17,7 @@ Vous pouvez télécharger le `.tar` fichier contenant un certificat racine, a `R
 
 == Configuration minimale requise
 
-* Système d'exploitation : VMware ESXi 6.5, 6.7 et 7.0.x
+* Système d'exploitation : VMware ESXi 7.0 et 8.0
 * RAM : 12 GO
 * CPU : 9572 MHz au total
 * Espace disque libre : 5 Go (provisionnement fin), 152 Go (provisionnement lourd)

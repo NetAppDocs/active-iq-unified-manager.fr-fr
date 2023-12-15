@@ -40,14 +40,14 @@ Le système Red Hat Enterprise Linux ou CentOS peut avoir toutes les versions n�
 
 
  a| 
-OpenJDK version 11.0.17
+OpenJDK version 11.0.21
  a| 
 `java -version`
 
 
 
  a| 
-MySQL 8.0.32 Community Edition
+MySQL 8.0.34 Community Edition
  a| 
 `rpm -qa | grep -i mysql`
 
@@ -59,7 +59,7 @@ p7zip 16.02
 `rpm -qa | grep p7zip`
 
 |===
-. Si la version installée de MySQL est antérieure à MySQL 8.0.32 Community Edition, entrez la commande suivante pour la désinstaller :
+. Si la version installée de MySQL est antérieure à MySQL 8.0.34 Community Edition, entrez la commande suivante pour la désinstaller :
 +
 `rpm -e <mysql_package_name>`
 

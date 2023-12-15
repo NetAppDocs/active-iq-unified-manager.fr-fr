@@ -21,7 +21,7 @@ Avant de lancer une opération de sauvegarde, Unified Manager effectue une véri
 ====
 * Vous ne pouvez restaurer une copie Snapshot que sur la même version de Active IQ Unified Manager.
 +
-Par exemple, si vous avez créé une sauvegarde sur Unified Manager 9.13, la sauvegarde ne peut être restaurée que sur les systèmes Unified Manager 9.13.
+Par exemple, si vous avez créé une sauvegarde sur Unified Manager 9.14, la sauvegarde ne peut être restaurée que sur les systèmes Unified Manager 9.14.
 
 * Si une modification est apportée à la configuration de Snapshot, celle-ci peut ne pas être valide.
 

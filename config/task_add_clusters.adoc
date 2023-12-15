@@ -48,7 +48,8 @@ L'authentification basée sur des certificats n'est pas activée automatiquement
 +
 [NOTE]
 ====
-*** L'authentification basée sur le certificat s'active automatiquement si vous ajoutez un cluster à partir de l'interface utilisateur Web. Si vous ajoutez un cluster depuis la console de maintenance, l'authentification basée sur les certificats n'est pas activée.
+*** Vous pouvez ajouter un cluster depuis l'interface utilisateur Web et l'authentification basée sur certificat est automatiquement activée.
+*** Vous pouvez ajouter un cluster via l'interface de ligne de commandes Unified Manager ; l'authentification basée sur des certificats n'est pas activée par défaut. Si vous ajoutez un cluster via l'interface de ligne de commande d'Unified Manager, vous devez le modifier à l'aide de l'interface utilisateur d'Unified Manager. Vous pouvez voir link:https://docs.netapp.com/us-en/active-iq-unified-manager/events/reference_supported_unified_manager_cli_commands.html["Commandes CLI Unified Manager prises en charge"] Pour ajouter un cluster à l'aide de l'interface de ligne de commande Unified Manager.
 *** Si l'authentification basée sur les certificats est activée pour un cluster et que vous effectuez la sauvegarde de Unified Manager à partir d'un serveur et que vous effectuez une restauration vers un autre serveur Unified Manager où le nom d'hôte ou l'adresse IP sont modifiés, la surveillance du cluster peut échouer. Pour éviter la défaillance, modifiez et enregistrez les détails du cluster. Pour plus d'informations sur la modification des détails du cluster, reportez-vous à la section link:../storage-mgmt/task_edit_clusters.html["Modification des clusters"].
 
 

@@ -17,13 +17,17 @@ Vous pouvez mettre à niveau vers une version plus récente d'OpenJDK sur le ser
 
 Vous devez disposer des privilèges d'administrateur Windows pour le système sur lequel Unified Manager est installé.
 
-Vous pouvez mettre à jour les versions OpenJDK dans les familles de versions. Par exemple, vous pouvez effectuer une mise à niveau d'OpenJDK 11.0.14 vers OpenJDK 11.0.16, mais vous ne pouvez pas effectuer une mise à jour directe d'OpenJDK 11 vers OpenJDK 12.
+Vous pouvez mettre à jour les versions OpenJDK dans les familles de versions. Par exemple, vous pouvez mettre à niveau OpenJDK 11.0.16 vers OpenJDK 11.0.18, mais vous ne pouvez pas mettre directement à jour OpenJDK 11 vers OpenJDK 12.
 
 .Étapes
 . Connectez-vous en tant qu'utilisateur administrateur sur la machine hôte Unified Manager.
 . Téléchargez la version appropriée d'OpenJDK (64 bits) du site OpenJDK vers le système cible.
 +
-Par exemple, télécharger `openjdk-11_windows-x64_bin.zip from http://jdk.java.net/11/`.
+Par exemple, télécharger `jdk-11.0.18_windows-x64_bin.zip from https://www.oracle.com/in/java/technologies/javase/jdk11-archive-downloads.html`.
+
++
+
+NOTE:  Un compte Oracle est requis pour télécharger le fichier. Si vous ne possédez pas de compte Oracle, rendez-vous sur link:https://login.oracle.com/mysso/signon.jsp?request_id=007["Connexion au compte Oracle"] pour en créer une.
 
 . Utilisez la console des services Windows pour arrêter les services Unified Manager suivants :
 +
@@ -32,7 +36,7 @@ Par exemple, télécharger `openjdk-11_windows-x64_bin.zip from http://jdk.java.
 
 
 . Développez le `zip` fichier.
-. Copiez les répertoires et les fichiers à partir du résultat `jdk` répertoire (par exemple, `jdk-11.0.16` À l'emplacement où Java est installé. Exemple : `C:\Program Files\NetApp\JDK\`
+. Copiez les répertoires et les fichiers à partir du résultat `jdk` répertoire (par exemple, `jdk-11.0.18` À l'emplacement où Java est installé. Exemple : `C:\Program Files\NetApp\JDK\`
 . Démarrez les services Unified Manager à l'aide de la console des services Windows :
 +
 ** Service de serveur de gestion NetApp Active IQ (Oncommandsvc)

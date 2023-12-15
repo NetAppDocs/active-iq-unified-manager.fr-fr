@@ -13,17 +13,16 @@ summary: Chemin de mise à niveau pris en charge
 [role="lead"]
 Active IQ Unified Manager prend en charge une possibilité de mise à niveau spécifique pour chaque version.
 
-Toutes les versions de Unified Manager ne peuvent pas effectuer de mise à niveau sans déplacement des données vers les versions ultérieures. Les mises à niveau de Unified Manager sont limitées à un modèle N-2. Ainsi, la mise à niveau ne peut être effectuée que dans les 2 versions suivantes, sur toutes les plateformes. Par exemple, vous pouvez effectuer une mise à niveau vers Unified Manager 9.13 à partir d'Unified Manager 9.11 et 9.12 uniquement.
+Toutes les versions de Unified Manager ne peuvent pas effectuer de mise à niveau sans déplacement des données vers les versions ultérieures. Les mises à niveau de Unified Manager sont limitées à un modèle N-2. Ainsi, la mise à niveau ne peut être effectuée que dans les 2 versions suivantes, sur toutes les plateformes. Par exemple, vous pouvez effectuer une mise à niveau vers Unified Manager 9.14 à partir d'Unified Manager 9.12 et 9.13 uniquement.
 
 Si vous exécutez une version antérieure aux versions prises en charge, votre instance Unified Manager doit d'abord être mise à niveau vers l'une des versions prises en charge, puis mise à niveau vers la version actuelle.
 
-Par exemple, si votre version installée est OnCommand Unified Manager 9.6 et que vous souhaitez effectuer une mise à niveau vers la dernière version de Active IQ Unified Manager 9.13, vous suivez une séquence de mises à niveau.
+Par exemple, si la version installée est Unified Manager 9.9 et que vous souhaitez effectuer une mise à niveau vers Unified Manager 9.14, vous suivez une séquence de mises à niveau.
 
 .Exemple de chemin de mise à niveau :
-. Mettez à niveau OnCommand Unified Manager 9.6 -> Active IQ Unified Manager 9.8
-. Mise à niveau 9.8 -> 9.10
-. Mise à niveau 9.10 -> 9.12
-. Mise à niveau 9.12 -> 9.13
+. Mise à niveau 9.9 -> 9.11
+. Mise à niveau 9.11 -> 9.13
+. Mise à niveau 9.13 -> 9.14
 
 
 Pour plus d'informations sur la matrice des chemins de mise à niveau, reportez-vous à ce document https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/What_is_the_upgrade_path_for_Active_IQ_Unified_Manager_versions["Article de la base de connaissances (KB)"].

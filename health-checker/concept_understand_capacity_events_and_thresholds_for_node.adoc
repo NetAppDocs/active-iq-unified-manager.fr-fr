@@ -16,3 +16,6 @@ Vous pouvez contrôler l'agrégat racine du nœud à l'aide de Unified Manager. 
 Par défaut, les événements de capacité et de performance ne sont pas générés pour les agrégats racine. En outre, les valeurs de seuil utilisées par Unified Manager ne s'appliquent pas aux agrégats racine du nœud. Seul un représentant du support technique peut modifier les paramètres de ces événements. Lorsque les paramètres sont modifiés par le représentant du support technique, les valeurs de seuil de capacité sont appliquées à l'agrégat racine du nœud.
 
 Vous pouvez prendre des mesures appropriées pour empêcher l'arrêt du nœud en utilisant ONTAP System Manager ou l'interface de ligne de commande de ONTAP.
+
+
+NOTE: La fonctionnalité de surveillance des agrégats racines de nœuds n'est pas disponible si les clusters exécutent ONTAP 9.14.1 ou une version ultérieure.

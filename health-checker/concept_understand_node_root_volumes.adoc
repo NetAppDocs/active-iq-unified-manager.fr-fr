@@ -14,3 +14,6 @@ summary: 'Vous pouvez surveiller le volume racine du nœud à l"aide de Unified 
 Vous pouvez surveiller le volume racine du nœud à l'aide de Unified Manager. Il est recommandé que la capacité du volume racine du nœud soit suffisante pour éviter que le nœud ne cesse de tomber en panne.
 
 Lorsque la capacité utilisée du volume racine du nœud dépasse 80 % de la capacité totale du volume racine du nœud, l'événement espace volume racine du nœud presque plein est généré. Vous pouvez configurer une alerte pour l'événement afin d'obtenir une notification. Vous pouvez prendre les mesures appropriées pour éviter la panne du nœud à l'aide de ONTAP System Manager ou de l'interface de ligne de commande de ONTAP.
+
+
+NOTE: La fonctionnalité de surveillance des volumes root de nœud n'est pas disponible si les clusters exécutent ONTAP 9.14.1 ou une version ultérieure.
