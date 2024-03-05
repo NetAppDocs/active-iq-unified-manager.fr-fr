@@ -25,7 +25,9 @@ Le système Linux doit disposer des versions suivantes du système d'exploitatio
 
 Consultez la matrice d'interopérabilité pour obtenir la liste complète et la plus récente des versions de Red Hat Enterprise Linux et CentOS prises en charge.
 
-http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"]
+http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"^]
+
+Le serveur doit être dédié à l'exécution de Unified Manager. Aucune autre application ne doit être installée sur le serveur. Il est possible que le scanner de vulnérabilité comme Qualys soit installé sur votre système Linux en raison des réglementations de l'entreprise. Vous devez désactiver l'analyse des vulnérabilités avant d'installer Unified Manager pour empêcher l'installation de échouer.
 
 
 

@@ -19,10 +19,10 @@ Vous pouvez créer des règles pour spécifier l'adresse e-mail en fonction du q
 * Vous devez avoir passé en revue les directives de la page règles de génération de l'adresse e-mail de quota d'utilisateur et de groupe.
 
 
-Vous devez définir les règles pour les adresses e-mail de quota et les saisir dans l'ordre dans lequel vous souhaitez les exécuter. Par exemple, si vous souhaitez utiliser l'adresse e-mail qtree1@xyz.com pour recevoir des notifications sur les violations de quota pour qtre1 et utiliser l'adresse e-mail admin@xyz.com pour tous les autres qtrees, les règles doivent être répertoriées dans l'ordre suivant :
+Vous devez définir les règles pour les adresses e-mail de quota et les saisir dans l'ordre dans lequel vous souhaitez les exécuter. Par exemple, si vous souhaitez utiliser l'adresse e-mail abc@xyz.com pour recevoir des notifications sur les violations de quota pour abc et utiliser l'adresse e-mail dl-$GROUP@$DOMAIN pour tous les autres groupes, les règles doivent être répertoriées dans l'ordre suivant :
 
-* Si ( $QTREE == 'qtre1' ) puis qtree1@xyz.com
-* Si ( $QTREE == * ), admin@xyz.com
+* Si ( $USER == 'abc' ) alors abc@xyz.com
+* Si ( $GROUP == * ) alors dl-$GROUP@$DOMAIN
 
 
 Si aucun des critères pour les règles que vous avez spécifiées n'est satisfait, la règle par défaut est utilisée :
