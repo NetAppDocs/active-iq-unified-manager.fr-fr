@@ -101,6 +101,50 @@ MySQL
  a| 
 Permet d'activer l'accès aux services d'API OnCommand Workflow Automation et OnCommand à Unified Manager.
 
+
+
+ a| 
+Courtier QPID AMQP
+ a| 
+TCP/IP
+ a| 
+56072
+ a| 
+Utilisé pour la communication de messages internes.
+
+
+
+ a| 
+Courtier QPID AMQP
+ a| 
+WebSocket sur TCP
+ a| 
+56080
+ a| 
+Permet d'écouter sur ce port les messages reçus de ONTAP (agent cloud).
+
+
+
+ a| 
+Courtier QPID AMQP
+ a| 
+WebSocket sur TCP
+ a| 
+56443
+ a| 
+Permet d'écouter sur ce port les messages reçus de ONTAP (agent cloud). La communication sur ce port prend en charge le chiffrement fourni par TLS ou SSL.
+
+
+
+ a| 
+Courtier QPID AMQP
+ a| 
+HTTP
+ a| 
+9000
+ a| 
+Utilisé pour lancer l'interface utilisateur de gestion AMQP sur cette page.
+
 |===
 [NOTE]
 ====
@@ -216,5 +260,38 @@ NTP
 123/UDP
  a| 
 Permet de synchroniser l'heure sur le serveur Unified Manager avec un serveur de temps NTP externe. (Systèmes VMware uniquement)
+
+
+
+ a| 
+Courtier QPID AMQP
+ a| 
+TCP/IP
+ a| 
+56072
+ a| 
+Utilisé pour la communication de messages internes.
+
+
+
+ a| 
+Courtier QPID AMQP
+ a| 
+WebSocket sur TCP
+ a| 
+56080
+ a| 
+Permet d'écouter sur ce port les messages reçus de ONTAP (agent cloud).
+
+
+
+ a| 
+Courtier QPID AMQP
+ a| 
+WebSocket sur TCP
+ a| 
+56443
+ a| 
+Permet d'écouter sur ce port les messages reçus de ONTAP (agent cloud). La communication via ce port prend en charge le chiffrement fourni par TLS ou SSL.
 
 |===

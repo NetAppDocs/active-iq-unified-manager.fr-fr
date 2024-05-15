@@ -1,7 +1,7 @@
 ---
 permalink: data-protection/task_abort_an_active_data_protection_transfer.html 
 sidebar: sidebar 
-keywords: abort, active data protection, transfer, volume relationships page, smbc, sm-bc 
+keywords: abort, active data protection, transfer, volume relationships page, SnapMirror active sync 
 summary: Vous pouvez annuler le transfert actif de protection des données lorsque vous souhaitez arrêter une réplication SnapMirror en cours. Vous pouvez également effacer le point de contrôle de redémarrage pour les transferts ultérieurs au transfert de base. Vous pouvez annuler un transfert en cas de conflit avec une autre opération, par exemple un déplacement de volume. 
 ---
 = Abandon d'un transfert actif de protection des données à partir de la page relations de volume

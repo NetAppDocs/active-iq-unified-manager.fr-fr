@@ -72,7 +72,7 @@ Cliquez sur les événements de cette page pour accéder à la page Détails de 
 
 * Événements individuels soulevés pour les relations SnapMirror, y compris les événements survenus au cours des dernières 24 heures
 * Le nombre de volumes protégés par chaque type de règle SnapMirror.
-* Nombre de relations protégées par les types de relation SnapMirror, tels que Asynchronous Mirror, Asynchronous Vault, Asynchronous MirrorVault, StricxtSync, SnapMirror Business Continuity (SMBC) Group et Sync.
+* Nombre de relations protégées par les types de relations SnapMirror, telles que Asynchronous Mirror, Asynchronous Vault, Asynchronous MirrorVault, StricxtSync, le groupe de cohérence de synchronisation actif SnapMirror et Sync.
 * Le nombre de relations saines et malsaines.
 * Répartition du nombre de relations de volume. Vous pouvez basculer les graphiques en fonction du temps et de l'état du décalage RPO.
 * Seuils de décalage pour la relation non gérée. Vous pouvez cliquer sur l'icône des paramètres (image:../media/Settings.PNG["Icône pour les paramètres de seuil de décalage"]) pour configurer les paramètres de seuil de décalage. Pour plus d'informations, voir link:../health-checker/task_configure_lag_threshold_settings_for_unmanaged_protection.html["Configuration des paramètres de seuil de décalage pour les relations de protection non gérées"].

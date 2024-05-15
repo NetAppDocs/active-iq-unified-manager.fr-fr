@@ -1,7 +1,7 @@
 ---
 permalink: data-protection/concept_types_of_snapmirror_protection.html 
 sidebar: sidebar 
-keywords: types, snapmirror, protection, consistency group, snapmirror business continuity, smbc, sm-bc 
+keywords: types, snapmirror, protection, consistency group, SnapMirror active sync 
 summary: Selon le déploiement de la topologie de stockage de données, Unified Manager vous permet de configurer plusieurs types de relations de protection SnapMirror. Toutes les variantes de la protection SnapMirror offrent une protection contre les basculements après incident, mais elles proposent plusieurs fonctionnalités en performances, une flexibilité de version et une protection contre les copies de sauvegarde différentes. 
 ---
 = Types de protection SnapMirror
@@ -72,14 +72,14 @@ Le bouton Restaurer et les boutons d'opération de relation ne sont pas disponib
 ====
 
 
-== Continuité de l'activité SnapMirror synchrone
+== Synchronisation active SnapMirror
 
-La fonction de continuité de l'activité SnapMirror est disponible avec ONTAP 9.8 et versions ultérieures. Vous pouvez l'utiliser pour protéger les applications avec des LUN, ce qui permet aux applications de basculer en toute transparence, assurant ainsi la continuité de l'activité en cas d'incident.
+La fonction de synchronisation active SnapMirror est disponible avec ONTAP 9.8 et versions ultérieures. Elle vous permet de protéger les applications avec les LUN. Ainsi, les applications basculent en toute transparence, assurant ainsi la continuité de l'activité en cas d'incident.
 
-Elle vous permet de détecter et de surveiller les relations SnapMirror synchrones pour les groupes de cohérence disponibles sur les clusters et les machines virtuelles de stockage de Unified Manager. SM-BC est pris en charge sur les clusters AFF ou sur tous les clusters SAN Array (ASA), dans lesquels les clusters principaux et secondaires peuvent être AFF ou ASA. SM-BC protège les applications avec des LUN iSCSI ou FCP.
+Elle vous permet de détecter et de surveiller les relations SnapMirror synchrones pour les groupes de cohérence disponibles sur les clusters et les machines virtuelles de stockage de Unified Manager. La synchronisation active SnapMirror est prise en charge sur les clusters AFF ou All SAN Array (ASA), dans lesquels les clusters principal et secondaire peuvent être AFF ou ASA. La synchronisation active SnapMirror protège les applications avec des LUN iSCSI ou FCP.
 
-Lorsque vous affichez les volumes et les LUN protégés par la relation SM-BC, vous pouvez obtenir une vue unifiée des relations de protection, des groupes de cohérence dans l'inventaire des volumes, afficher la topologie de protection des relations de groupe de cohérence, afficher les données historiques des relations de groupe de cohérence jusqu'à un an. Vous pouvez également télécharger le rapport. Vous pouvez également afficher le récapitulatif des relations de groupe de cohérence, rechercher le support des relations de groupe de cohérence et obtenir des informations sur les volumes protégés par le groupe de cohérence.
+Lorsque vous affichez les volumes et les LUN protégés par la relation de synchronisation active SnapMirror, vous pouvez afficher une vue unifiée des relations de protection et des groupes de cohérence dans l'inventaire des volumes, afficher la topologie de protection des relations de groupe de cohérence, afficher les données historiques pour les relations de groupe de cohérence jusqu'à un an. Vous pouvez également télécharger le rapport. Vous pouvez également afficher le récapitulatif des relations de groupe de cohérence, rechercher le support des relations de groupe de cohérence et obtenir des informations sur les volumes protégés par le groupe de cohérence.
 
 Sur la page relations, vous pouvez également trier, filtrer et étendre la protection des objets de stockage source et de destination et de leur relation protégée par le groupe de cohérence.
 
-Pour en savoir plus sur la continuité de l'activité SnapMirror synchrone, reportez-vous à link:https://docs.netapp.com/us-en/ontap/smbc/index.html["Documentation ONTAP 9 pour SM-BC"].
+Pour en savoir plus sur la synchronisation active SnapMirror, reportez-vous à la section link:https://docs.netapp.com/us-en/ontap/smbc/index.html["Documentation ONTAP 9 pour SnapMirror Active Sync (anciennement SM-BC)"].

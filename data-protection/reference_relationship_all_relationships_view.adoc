@@ -230,7 +230,7 @@ Affiche l'état du médiateur.
 +
 ** Sans objet
 +
-Si le cluster ne prend pas en charge la continuité de l'activité SnapMirror.
+Si le cluster ne prend pas en charge la synchronisation active SnapMirror.
 
 ** Non configuré
 +
@@ -286,7 +286,7 @@ Affiche le nom de la liaison nom du nœud source pour la relation SnapMirror d'u
 
 
 
-Dans la vue personnalisée, lorsque vous cliquez sur le lien du nom de nœud, vous pouvez afficher et étendre la protection des objets de stockage sur lesquels les volumes de ces groupes de cohérence appartiennent à la relation SM-BC.
+Dans la vue personnalisée, lorsque vous cliquez sur le lien du nom du nœud, vous pouvez afficher et étendre la protection des objets de stockage dans lesquels les volumes de ces groupes de cohérence appartiennent à une relation de synchronisation active SnapMirror.
 
 Lorsque vous cliquez sur le lien nombre de nœuds, vous accédez à la page des nœuds associés à cette relation. Lorsque le nombre de nœuds est égal à 0, aucune valeur n'est affichée car aucun nœud n'est associé à la relation.
 

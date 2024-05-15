@@ -13,7 +13,7 @@ summary: 'Vous pouvez étendre la protection à partir d"une relation existante 
 [role="lead"]
 Vous pouvez étendre la protection à partir d'une relation existante en créant soit un fanout à partir du volume source, soit une cascade à partir du volume de destination d'une relation existante. Pour cela, il vous suffit de copier des données d'un site vers de nombreux sites ou de renforcer la protection en créant davantage de sauvegardes.
 
-Vous pouvez étendre la protection aux volumes à l'aide d'un groupe de cohérence, un conteneur qui contient plusieurs volumes de manière à pouvoir gérer tous les volumes en tant qu'entité unique. Vous pouvez afficher le groupe de cohérence SnapMirror Business Continuity (SM-BC) et la relation de groupe de cohérence synchrone sur la page relations de Unified Manager.
+Vous pouvez étendre la protection aux volumes à l'aide d'un groupe de cohérence, un conteneur qui contient plusieurs volumes de manière à pouvoir gérer tous les volumes en tant qu'entité unique. Vous pouvez afficher le groupe de cohérence de la synchronisation active SnapMirror et la relation de groupe de cohérence synchrone dans la page relations d'Unified Manager.
 
 *Ce dont vous aurez besoin*
 

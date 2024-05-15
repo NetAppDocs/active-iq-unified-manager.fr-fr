@@ -183,7 +183,7 @@ Erreur
 
 
  a| 
-La connectivité du médiateur ONTAP a été rétablie et est resynchronisés et prête pour le SMBC (snapmirrorMediatorInquorum)
+La connectivité du médiateur ONTAP a été rétablie, et elle est redéfinie et prête pour la synchronisation active SnapMirror (snapmirrorMediatorInquorum)
  a| 
 Événement
  a| 

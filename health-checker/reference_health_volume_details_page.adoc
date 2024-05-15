@@ -571,7 +571,7 @@ Affiche le type de protection utilisé pour le volume sélectionné. Par exemple
 
 ** Groupe de cohérence
 +
-Pour les volumes protégés par des relations SnapMirror Business Continuity (SM-BC), cette colonne affiche le groupe de cohérence du volume.
+Pour les volumes protégés par des relations de synchronisation active SnapMirror, cette colonne affiche le Groupe de cohérence du volume.
 
 
 
