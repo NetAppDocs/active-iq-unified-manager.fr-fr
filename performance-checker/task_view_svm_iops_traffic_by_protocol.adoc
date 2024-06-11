@@ -19,7 +19,7 @@ En outre, le tableau IOPS - protocoles affiche une comparaison détaillée du tr
 * NFS
 * FCP
 * ISCSI
-* NVMe
+* FC-NVMe
 
 
 .Étapes

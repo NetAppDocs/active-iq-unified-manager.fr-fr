@@ -6777,7 +6777,6 @@
   <block id="1d1a594959ec615f56516f5d0f5e8ddb" category="list-text">NFS</block>
   <block id="a7c815fafe60ae637d38216fa6300395" category="list-text">FCP</block>
   <block id="e4e1c13bb0b14f6cb7608cbecea948ef" category="list-text">ISCSI</block>
-  <block id="70d9e3c68d42d6ec42ab792e06c44357" category="list-text">NVMe</block>
   <block id="83d6279aff05f9fb65333ef455dcbbc3" category="list-text">Dans la page *Performance/SVM Explorer* de votre SVM sélectionné, dans le tableau IOPS, sélectionnez *protocoles* dans le menu déroulant.</block>
   <block id="447706c449f59f43bf73830cfa98e1c2" category="paragraph">Le tableau IOPS - protocoles s'affiche.</block>
   <block id="c468dcd34f66d4c89f937f753cbea9da" category="list-text">Pour afficher une version plus grande de la carte, sélectionnez *vue Zoom*.</block>
@@ -11971,4 +11970,5 @@ Protégez les applications avec des LUN ; vous pouvez afficher et contrôler ces
   <block id="aa193eacf5a35a85044e44de3fa9c91a" category="sidebar">Vidéos sur Unified Manager</block>
   <block id="197833bfff97d501603036a0febb7a95" category="sidebar">Blogs Unified Manager</block>
   <block id="ede607b26fd609858d7be7ff1e138cb0" category="sidebar">Documentation pour Active IQ Unified Manager 9.9 ou version antérieure</block>
+  <block id="3ab5865f7b3fcc5851ae24144b15f370" category="list-text">FC-NVMe</block>
 </blocks>
