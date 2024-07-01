@@ -44,7 +44,7 @@ Si vous modifiez le nom d'hôte dans Unified Manager, vous devez mettre à jour 
 
 . Redémarrez le service réseau :
 +
-`service network restart`
+`systemctl restart NetworkManager.service`
 
 . Une fois le service redémarré, vérifiez si le nouveau nom d'hôte peut s'envoyer par commande ping :
 +
