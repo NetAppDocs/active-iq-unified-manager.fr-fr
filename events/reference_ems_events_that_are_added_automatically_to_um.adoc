@@ -196,7 +196,7 @@ Erreur
 
 
  a| 
-Panne LIF intercluster Cloud Tier
+Interface réseau intercluster de Cloud Tier down
  a| 
 objstore.interclusterlifDown
  a| 

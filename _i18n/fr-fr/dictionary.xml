@@ -4664,7 +4664,6 @@
   <block id="977d37200e77e5eb9cb373d6b71f3b4d" category="paragraph">IAMROOROBnon valide *(ocumCloudAwsIamRoleInvalid)</block>
   <block id="b1af6f2b19ff09125120d43117f2f38d" category="paragraph">L'IAMRRoleNotFound dans le cloud AWS *(ocumCloudAwsIamRoleNotFound)</block>
   <block id="686acb30b2afe3c14a32b8f310b2d1ae" category="paragraph">Hôte Cloud Tier non résolu * (ocumObjstoreHostinsoluble)</block>
-  <block id="b960dec96854b9220ccee476dcef34b5" category="paragraph">LIF intercluster Cloud Tier en panne *(ocumObjstoreInterClusterLipDown)</block>
   <block id="d4b98c40f1fe8184244f45ae55d116d9" category="paragraph">Un des pools NFSv4 épuisés *(nblaadeNfsv4PoolEXhaust)</block>
   <block id="124617f0ad4a4ecb40ac0b9dcad97ed9" category="paragraph">Gestion des</block>
   <block id="278d01e5af56273bae1bb99a98b370cd" category="paragraph">Primordial</block>
@@ -5018,7 +5017,6 @@
   <block id="171409d6874c33d47429956f5d0977db" category="summary">Les événements des serveurs virtuels de stockage vous fournissent des informations sur l'état de vos serveurs virtuels de stockage (SVM), ce qui vous permet de surveiller les problèmes potentiels. Les événements sont regroupés par zone d'impact et incluent le nom de l'événement et de l'interruption, le niveau d'impact, le type de source et la gravité.</block>
   <block id="49274a1037da15a6af54e9e2e0a18c84" category="doc">Événements des VM de stockage</block>
   <block id="3bcccc3e8feeead460e42c46ae97db25" category="paragraph">Les événements des machines virtuelles de stockage (SVM), également appelés SVM, vous fournissent des informations sur l'état de vos VM de stockage afin de pouvoir surveiller les problèmes potentiels. Les événements sont regroupés par zone d'impact et incluent le nom de l'événement et de l'interruption, le niveau d'impact, le type de source et la gravité.</block>
-  <block id="31ea72dec7510bf258d57a355df270af" category="paragraph">SVM CIFS Service Down (ocumEvtVserverCifsServiceStatusDown)</block>
   <block id="389f1658267a9e995f187ac0141eba4f" category="paragraph">Service SVM CIFS non configuré (non applicable)</block>
   <block id="dafdc6e2d924b66def0210f55849df68" category="paragraph">Tentatives de connexion sans partage CIFS * (nbladeCifsNoPrivShare)</block>
   <block id="dc0e74c8e91c63ac7e6d3cc548c176d7" category="paragraph">Conflit de nom NetBIOS CIFS *(nbladeCifsNbNameConflitt)</block>
@@ -5028,11 +5026,9 @@
   <block id="ce4293a29b8b226bd3f89ae64dd5de7e" category="paragraph">Nombre maximum de connexions CIFS par utilisateur dépassé *(nbladeCifsMaxSessPerUsrConn)</block>
   <block id="4b7f83c4ff6099a018ff859c833cf29d" category="paragraph">Panne du service SVM FC/FCoE (ocumEvtVserverFcServiceStatusDown)</block>
   <block id="6f0798d1115af8bdbd8926a2bce594f8" category="paragraph">SVM iSCSI Service Down (ocumEvtVserverIscsiServiceStatusDown)</block>
-  <block id="98b6bbcbd060fec69966029d68347906" category="paragraph">SVM NFS Service Down (ocumEvtVserverNfsServiceStatusDown)</block>
   <block id="b4751df694cc35cb5f59fa4b37fc76f7" category="paragraph">Service SVM FC/FCoE non configuré (non applicable)</block>
   <block id="3817b7a0335bb1c922d9a4fcdc1e3853" category="paragraph">Service SVM iSCSI non configuré (non applicable)</block>
   <block id="9f81435c275ba39d3755a55131ef5910" category="paragraph">Service SVM NFS non configuré (non applicable)</block>
-  <block id="537680227328dffa42f2d701ea85a908" category="paragraph">SVM stopped(ocumEvtVserverDown)</block>
   <block id="ee6369039df3bfbbe54bcb4142856932" category="paragraph">Serveur AV trop occupé pour accepter une nouvelle demande d'acquisition * (nbladeVscanConnBackPressure)</block>
   <block id="a2d86991f2bdc99eec0421b4e1067c0f" category="paragraph">Aucune connexion au serveur AV pour virus Scan *(nbladeVscanNoScannerConn)</block>
   <block id="ae8cdbf74d262f08896591b2b7b8831b" category="paragraph">Aucun serveur AV enregistré *(nbladeVscanNoRegdScanner)</block>
@@ -5725,8 +5721,6 @@
   <block id="93466d9eb58624930e18825b21acf727" category="paragraph">Seuil d'avertissement IOPS du volume dépassé (nombre d'octets VolumeIopsAvertissement)</block>
   <block id="0ce68cff51513fd5015a7e5baebf364b" category="paragraph">Nombre de Mo/s de seuil critique dépassé (ocumVolumeMbpsincident)</block>
   <block id="57054f612a3875306ae6c54a133d0def" category="paragraph">Seuil d'avertissement du volume MB/s dépassé(AocumVolumeMbpsWarning )</block>
-  <block id="401362af35dafd33f0c2763123f597e4" category="paragraph">Seuil critique de latence du volume ms/op dépassé (ocumVolumeLatenincident)</block>
-  <block id="eb7b6c2802cb52b8ba15481c6f076ac9" category="paragraph">Seuil d'avertissement ms/op de latence du volume dépassé (avertissement relatif à l'octamesVolumeLatenceAvertissement)</block>
   <block id="587510eab9e3e6e14d384d9e397d3639" category="paragraph">Rapport volume cache Miss ratio (seuil critique dépassé) (ocumVolumeCacheMissaincident)</block>
   <block id="9d2a11c7b493c88a4e8247c4ca0afa11" category="paragraph">Seuil d'avertissement de taux de Miss du cache volume dépassé (ocumVolumeCachemissile RatioWarning)</block>
   <block id="102f5583715be822b9358a021ddeaf31" category="paragraph">Latence du volume et seuil critique d'IOPS dépassé (ocumVolumeLatenceIopsincident)</block>
@@ -5822,7 +5816,6 @@
   <block id="819fb2dc9f56b5801900dc7ac697faad" category="paragraph">Cloud.aws.iamRoleNotFound</block>
   <block id="fa17a3119030d574ffd2ba7f7f4daf5b" category="paragraph">L'hôte Cloud Tier ne peut pas être résolu</block>
   <block id="e82d7c99c70f009a753fdca8b3643fdd" category="paragraph">objstore.host.non résolu</block>
-  <block id="176bc0ce467c0ddd0aed6b3ca46cba6d" category="paragraph">Panne LIF intercluster Cloud Tier</block>
   <block id="c60514ca69c2c051efd3811a94e8eed6" category="paragraph">objstore.interclusterlifDown</block>
   <block id="6b40ecc2ec5a304263232f03d079a8e5" category="paragraph">Demander une signature de niveau de cloud différente</block>
   <block id="134498b61daedd8ef3a7b826b06b1b96" category="paragraph">osc.signatureMismatch</block>
@@ -11971,4 +11964,11 @@ Protégez les applications avec des LUN ; vous pouvez afficher et contrôler ces
   <block id="06c70b026e4d10bfcd7be2ebfa770d1c" category="paragraph"><block ref="06c70b026e4d10bfcd7be2ebfa770d1c" category="inline-link-rx"></block></block>
   <block id="796f4a9be8e525f7e4d64c24bac529c9" category="paragraph"><block ref="796f4a9be8e525f7e4d64c24bac529c9" category="inline-link-rx"></block></block>
   <block id="03d53e406aee01a758a051ceaf737e76" category="paragraph">La conformité est basée sur le<block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block>. Cliquez sur la flèche droite en haut du panneau pour afficher les détails de sécurité de tous les clusters sur la page sécurité. Pour plus d'informations, voir <block ref="c1debbda1f6c52f8ae88dec67250c58d" category="inline-link-macro-rx"></block>.</block>
+  <block id="edf00f07677923e8752194ea5e0cbc69" category="paragraph">Interface réseau intercluster de Cloud Tier down</block>
+  <block id="0357e9348744c89511840d47ecc3899b" category="paragraph">Panne de l'interface réseau intercluster Cloud Tier * (ocumObjstoreInterClusterLifDown)</block>
+  <block id="102a33b891eb4727b8e086ee9e37693a" category="paragraph">Arrêt du service CIFS de la machine virtuelle de stockage (ocumEvtVserverCifsServiceStatusDown)</block>
+  <block id="77f4c829a32a8fd20c25a5f9a89a4cba" category="paragraph">Arrêt du service NFS de la machine virtuelle de stockage (ocumEvtVserverNfsServiceStatusDown)</block>
+  <block id="e9686e752e3e1702e7ee8d1247e9c592" category="paragraph">Serveur virtuel de stockage arrêté (ocumEvtVserverDown)</block>
+  <block id="16fca8959952fb5be3bdfc77f00821e0" category="paragraph">Seuil critique de latence du volume dépassé (ocumVolumeLatencyincident)</block>
+  <block id="41c588540e5418dc49ed54117bd1d484" category="paragraph">Seuil d'avertissement de latence du volume dépassé (avertissement cumVolumeLatencyWarning)</block>
 </blocks>

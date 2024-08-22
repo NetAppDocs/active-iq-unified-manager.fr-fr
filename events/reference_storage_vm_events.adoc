@@ -24,7 +24,7 @@ Un astérisque (*) identifie les événements EMS qui ont été convertis en év
 
 
  a| 
-SVM CIFS Service Down (ocumEvtVserverCifsServiceStatusDown)
+Arrêt du service CIFS de la machine virtuelle de stockage (ocumEvtVserverCifsServiceStatusDown)
  a| 
 Gestion des
  a| 
@@ -134,7 +134,7 @@ Primordial
 
 
  a| 
-SVM NFS Service Down (ocumEvtVserverNfsServiceStatusDown)
+Arrêt du service NFS de la machine virtuelle de stockage (ocumEvtVserverNfsServiceStatusDown)
  a| 
 Gestion des
  a| 
@@ -178,7 +178,7 @@ Informations
 
 
  a| 
-SVM stopped(ocumEvtVserverDown)
+Serveur virtuel de stockage arrêté (ocumEvtVserverDown)
  a| 
 Risques
  a| 

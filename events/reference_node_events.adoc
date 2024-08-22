@@ -123,7 +123,7 @@ Erreur
 
 
  a| 
-LIF intercluster Cloud Tier en panne *(ocumObjstoreInterClusterLipDown)
+Panne de l'interface réseau intercluster Cloud Tier * (ocumObjstoreInterClusterLifDown)
  a| 
 Risques
  a| 
