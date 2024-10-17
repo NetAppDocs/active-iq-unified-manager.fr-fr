@@ -115,3 +115,7 @@ indexpage:
       url: https://www.netapp.com/blog/#q=active%20iq%20unified%20manager&t=Blogs&sort=%40publish_date_mktg%20descending&layout=card&f:@facet_language_mktg=[English]
     - title: Documentation pour Active IQ Unified Manager 9.9 ou version antérieure
       url: https://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62791
+    - title: Base d'informations de gestion d'Unified Manager (MIB)
+      url: https://mysupport.netapp.com/site/tools/tool-eula/aiqum-mib
+    - title: Schéma de base de données Unified Manager
+      url: https://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62791
