@@ -13,7 +13,7 @@ summary: 'Si le système sur lequel vous installez Unified Manager n"a pas accè
 [role="lead"]
 Si le système sur lequel vous installez Unified Manager n'a pas accès au référentiel progiciels supplémentaires pour Enterprise Linux (EPEL), vous devez télécharger et configurer manuellement le référentiel pour une installation réussie.
 
-Le référentiel EPEL permet d'accéder aux utilitaires tiers requis qui doivent être installés sur votre système. Que vous installiez Unified Manager sur un système Red Hat Enterprise Linux ou CentOS, vous utilisez le référentiel EPEL.
+Le référentiel EPEL permet d'accéder aux utilitaires tiers requis qui doivent être installés sur votre système. Vous utilisez le référentiel EPEL pour installer Unified Manager sur un système Red Hat Enterprise Linux.
 
 .Étapes
 . Téléchargez le référentiel EPEL pour votre installation. Pour Red Hat Enterprise Linux 7, téléchargez-le à l'adresse suivante :

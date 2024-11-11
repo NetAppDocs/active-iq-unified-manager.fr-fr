@@ -2,7 +2,7 @@
 permalink: health-checker/task_migrate_um_virtual_appliance_to_rhel_or_centos_system.html 
 sidebar: sidebar 
 keywords: unified manager, migrate, virtual, appliance, linux system 
-summary: 'Vous pouvez restaurer une sauvegarde de vidage de base de données Unified Manager MySQL à partir d"une appliance virtuelle vers un système Red Hat Enterprise Linux ou CentOS Linux si vous souhaitez modifier le système d"exploitation hôte sur lequel Unified Manager s"exécute.' 
+summary: 'Vous pouvez restaurer une sauvegarde de vidage de base de données MySQL d"Unified Manager à partir d"une appliance virtuelle vers un système Red Hat Enterprise Linux si vous souhaitez modifier le système d"exploitation hôte sur lequel Unified Manager s"exécute.' 
 ---
 = Migration d'une appliance virtuelle Unified Manager vers un système Linux
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: 'Vous pouvez restaurer une sauvegarde de vidage de base de données Uni
 
 
 [role="lead"]
-Vous pouvez restaurer une sauvegarde de vidage de base de données Unified Manager MySQL à partir d'une appliance virtuelle vers un système Red Hat Enterprise Linux ou CentOS Linux si vous souhaitez modifier le système d'exploitation hôte sur lequel Unified Manager s'exécute.
+Vous pouvez restaurer une sauvegarde de vidage de base de données MySQL d'Unified Manager à partir d'une appliance virtuelle vers un système Red Hat Enterprise Linux si vous souhaitez modifier le système d'exploitation hôte sur lequel Unified Manager s'exécute.
 
 *Ce dont vous aurez besoin*
 
@@ -31,7 +31,7 @@ Vous pouvez restaurer une sauvegarde de vidage de base de données Unified Manag
 
 
 
-Ces étapes décrivent comment créer un fichier de sauvegarde sur l'appliance virtuelle, copier les fichiers de sauvegarde sur le système Red Hat Enterprise Linux ou CentOS, puis restaurer la sauvegarde de la base de données sur le nouveau système.
+Ces étapes expliquent comment créer un fichier de sauvegarde sur l'appliance virtuelle, copier les fichiers de sauvegarde sur Red Hat Enterprise Linux, puis restaurer la sauvegarde de la base de données sur le nouveau système.
 
 .Étapes
 . Sur l'appliance virtuelle, cliquez sur *Management* > *Database Backup*.

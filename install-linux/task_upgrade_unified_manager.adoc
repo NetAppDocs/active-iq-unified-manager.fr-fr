@@ -11,7 +11,7 @@ summary: 'Vous pouvez mettre à niveau Unified Manager en téléchargeant et en 
 
 
 [role="lead"]
-Vous pouvez effectuer une mise à niveau depuis Unified Manager 9.12 ou 9.13 vers 9.14 en téléchargeant et en exécutant le fichier d'installation sur la plateforme Linux.
+Vous pouvez effectuer une mise à niveau depuis Unified Manager 9.13 ou 9.14 vers 9.16 en téléchargeant et en exécutant le fichier d'installation sur la plateforme Linux.
 
 *Ce dont vous aurez besoin*
 
@@ -34,7 +34,7 @@ Voir link:task_upgrade_openjdk_on_linux_ocum.html["Mise à niveau de JRE sous Li
 
 
 .Étapes
-. Connectez-vous au serveur Red Hat Enterprise Linux ou CentOS cible.
+. Connectez-vous au serveur Red Hat Enterprise Linux cible.
 . Téléchargez le bundle Unified Manager sur le serveur.
 +
 Voir link:task_download_unified_manager.html["Téléchargement de Unified Manager pour Linux"].

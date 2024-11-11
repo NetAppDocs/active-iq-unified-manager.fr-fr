@@ -15,7 +15,7 @@ Le menu Configuration réseau vous permet de gérer les paramètres réseau. Vou
 
 [NOTE]
 ====
-Ce menu n'est pas disponible si Unified Manager est installé sur Red Hat Enterprise Linux, CentOS ou sur Microsoft Windows.
+Ce menu n'est pas disponible si Unified Manager est installé sur Red Hat Enterprise Linux ou Microsoft Windows.
 
 ====
 Les options de menu suivantes sont disponibles.

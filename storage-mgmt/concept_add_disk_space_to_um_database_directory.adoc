@@ -20,4 +20,4 @@ Par exemple, le répertoire de la base de données peut devenir complet si Unifi
 Aucune donnée supplémentaire n'est collectée depuis les clusters après le répertoire dans son intégralité, à 95 %.
 
 ====
-Les étapes requises pour ajouter de la capacité au répertoire de données sont différentes selon que Unified Manager s'exécute ou non sur un serveur VMware ESXi, sur un serveur Red Hat ou CentOS Linux, ou sur un serveur Microsoft Windows.
+Les étapes requises pour ajouter de la capacité au répertoire de données sont différentes selon que Unified Manager s'exécute sur un serveur VMware ESXi, sur un serveur Red Hat Linux ou sur un serveur Microsoft Windows.

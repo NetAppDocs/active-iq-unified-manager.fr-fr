@@ -16,7 +16,7 @@ Vous pouvez créer un répertoire d'accueil personnalisé et définir votre prop
 *Ce dont vous aurez besoin*
 
 * Le système doit répondre aux exigences décrites dans link:concept_virtual_infrastructure_or_hardware_system_requirements.html["Configuration matérielle requise"].
-* Vous devez pouvoir vous connecter en tant qu'utilisateur root au système Red Hat Enterprise Linux ou CentOS.
+* Vous devez pouvoir vous connecter en tant qu'utilisateur root au système Red Hat Enterprise Linux.
 
 
 L'installation par défaut de Unified Manager effectue les tâches suivantes :

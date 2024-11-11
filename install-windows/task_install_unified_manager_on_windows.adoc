@@ -29,6 +29,7 @@ Voir link:reference_windows_software_and_installation_requirements.html["Conditi
 
 ====
 * Vous devez disposer des privilèges d'administrateur Windows. Assurez-vous que votre nom d'utilisateur ne commence pas par un point d'exclamation ""!`". Installation of Unified Manager might fail if the user name of user running the installation begins with "`!».
+* Tous les clusters sont pris en charge, à l'exception des systèmes ASA r2.
 * Un navigateur Web doit être pris en charge.
 * Le mot de passe de l'utilisateur de maintenance Unified Manager doit comporter entre 8 et 20 caractères, et contenir des lettres majuscules ou des minuscules, des chiffres et des caractères spéciaux.
 * Les caractères spéciaux suivants ne sont pas autorisés dans la chaîne de mot de passe pour l'utilisateur de maintenance ou pour l'utilisateur root MySQL : " ' ` % , = & < > ^ \ / ( ) [ ] ; :
@@ -44,8 +45,8 @@ Les caractères spéciaux suivants sont autorisés : ~ ! @ # $ * - ? . + { }
 https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab["Site de support NetApp"^]
 
 . Sélectionnez la version requise de Unified Manager et acceptez le contrat de licence utilisateur final (CLUF).
-. Téléchargez le fichier d'installation de Unified Manager Windows dans un répertoire cible du système Windows.
-. Accédez au répertoire dans lequel se trouve le fichier d'installation.
+. Téléchargez le fichier d'installation ou le fichier zip d'Unified Manager Windows dans un répertoire cible du système Windows.
+. Extrayez le fichier zip, si nécessaire, et naviguez jusqu'au répertoire où se trouve le fichier d'installation.
 . Cliquez avec le bouton droit de la souris et exécutez le fichier exécutable du programme d'installation de Unified Manager (.exe) en tant qu'administrateur.
 +
 Unified Manager détecte les packages tiers manquants ou pré-installés et les répertorie. Si les modules tiers requis ne sont pas installés sur le système, Unified Manager les installe dans le cadre de l'installation.

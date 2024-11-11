@@ -66,7 +66,7 @@ SSH/SFTP
  a| 
 22
  a| 
-Permet d'accéder à la ligne de commande Red Hat Enterprise Linux ou CentOS et de récupérer les packs de support.
+Permet d'accéder à la ligne de commande de Red Hat Enterprise Linux et de récupérer des offres groupées de support.
 
 
 

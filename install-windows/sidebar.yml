@@ -46,6 +46,8 @@ entries:
     entries:
     - title: Mise à niveau d'OpenJDK
       url: "/install-windows/task_upgrade_openjdk_on_windows_ocum.html"
+  - title: Désinstallation de produits tiers
+    url: "/install-windows/task_uninstall_third_party_products.html"
   - title: Redémarrage de Unified Manager
     url: "/install-windows/task_restart_unified_manager_win.html"
   - title: Désinstallation d'Unified Manager

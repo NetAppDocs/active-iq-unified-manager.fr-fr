@@ -19,11 +19,10 @@ Le système Linux sur lequel vous installez Unified Manager nécessite des versi
 
 Le système Linux doit disposer des versions suivantes du système d'exploitation et des logiciels de support installés :
 
-* Red Hat Enterprise Linux versions 7.x et 8.0 à 8.9, basée sur l'architecture x86_64.
-* CentOS version 7.x basé sur l'architecture x86_64. CentOS Stream n'est pas pris en charge.
+* Red Hat Enterprise Linux versions 8.x et 9.4, basée sur l'architecture x86_64.
 
 
-Consultez la matrice d'interopérabilité pour obtenir la liste complète et la plus récente des versions de Red Hat Enterprise Linux et CentOS prises en charge.
+Consultez la matrice d'interopérabilité pour obtenir la liste complète et la plus récente des versions de Red Hat Enterprise Linux prises en charge.
 
 http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"^]
 
@@ -40,8 +39,8 @@ Unified Manager est déployé sur un serveur Web WildFly. WildFly 26.1.3 est fou
 
 Les packages tiers suivants sont requis, mais ils ne sont pas inclus avec Unified Manager. Ces modules sont automatiquement installés par le `yum` pendant l'installation, à condition que vous ayez configuré les référentiels comme indiqué dans les sections suivantes.
 
-* MySQL Community Edition version 8.0.34 (à partir du référentiel MySQL).
-* OpenJDK version 11.0.21 (à partir du référentiel Red Hat Extra Enterprise Linux Server)
+* MySQL Community Edition version 8.0.37 (à partir du référentiel MySQL).
+* OpenJDK version 11.0.23 (à partir du référentiel Red Hat Extra Enterprise Linux Server)
 * Python 3.6.x
 * P7zip version 16.02 ou ultérieure (à partir du référentiel Red Hat Extra Packages for Enterprise Linux)
 
@@ -61,10 +60,10 @@ L'installation de Unified Manager sur un système Linux peut être effectuée pa
 
 == Conditions requises pour l'installation
 
-Les meilleures pratiques d'installation de Red Hat Enterprise Linux ou CentOS ainsi que les référentiels associés sur votre système sont répertoriées ci-dessous. Les systèmes installés ou configurés différemment, ou déployés hors site (dans le cloud) peuvent nécessiter des étapes supplémentaires et Unified Manager peut ne pas s'exécuter correctement dans de tels déploiements.
+Les meilleures pratiques d'installation de Red Hat Enterprise Linux et des référentiels associés sur votre système sont répertoriées ci-dessous. Les systèmes installés ou configurés différemment, ou déployés hors site (dans le cloud) peuvent nécessiter des étapes supplémentaires et Unified Manager peut ne pas s'exécuter correctement dans de tels déploiements.
 
-* Vous devez installer Red Hat Enterprise Linux ou CentOS conformément aux meilleures pratiques de Red Hat, et vous devez sélectionner les options par défaut suivantes, qui nécessitent de sélectionner l'environnement de base "serveur avec interface utilisateur graphique".
-* Lors de l'installation de Unified Manager sur Red Hat Enterprise Linux ou CentOS, le système doit avoir accès au référentiel approprié afin que le programme d'installation puisse accéder à toutes les dépendances logicielles requises et les installer.
+* Vous devez installer Red Hat Enterprise Linux conformément aux meilleures pratiques de Red Hat, et vous devez sélectionner les options par défaut suivantes, qui nécessitent la sélection de l'environnement de base « serveur avec interface utilisateur graphique ».
+* Lors de l'installation d'Unified Manager sur Red Hat Enterprise Linux, le système doit avoir accès au référentiel approprié pour que le programme d'installation puisse accéder à toutes les dépendances logicielles requises et les installer.
 * Pour le `yum` Programme d'installation pour rechercher des logiciels dépendants dans les référentiels Red Hat Enterprise Linux, vous devez avoir enregistré le système lors de l'installation de Red Hat Enterprise Linux ou par la suite en utilisant un abonnement Red Hat valide.
 +
 Pour plus d'informations sur le Gestionnaire d'abonnement Red Hat, reportez-vous à la documentation Red Hat.
@@ -85,7 +84,7 @@ Voir link:task_manually_configure_mysql_repository.html["Configuration manuelle 
 
 
 
-Si votre système n'a pas accès à Internet et que les référentiels ne sont pas mis en miroir à partir d'un système connecté à Internet vers un système non connecté, vous devez suivre les instructions d'installation pour déterminer les dépendances logicielles externes de votre système. Vous pouvez ensuite télécharger le logiciel requis sur le système connecté à Internet et copier le `.rpm` Fichiers vers le système sur lequel vous prévoyez d'installer Unified Manager. Pour télécharger les artefacts et les packages, vous devez utiliser le `yum install` commande. Vous devez vous assurer que les deux systèmes exécutent la même version de système d'exploitation et que la licence d'abonnement est pour la version appropriée de Red Hat Enterprise Linux ou CentOS.
+Si votre système n'a pas accès à Internet et que les référentiels ne sont pas mis en miroir à partir d'un système connecté à Internet vers un système non connecté, vous devez suivre les instructions d'installation pour déterminer les dépendances logicielles externes de votre système. Vous pouvez ensuite télécharger le logiciel requis sur le système connecté à Internet et copier les `.rpm` fichiers sur le système sur lequel vous prévoyez d'installer Unified Manager. Pour télécharger les artéfacts et les packages, vous devez utiliser `yum install` la commande. Vous devez vous assurer que les deux systèmes exécutent la même version de système d'exploitation et que la licence d'abonnement est destinée à Red Hat Enterprise Linux approprié.
 
 [NOTE]
 ====
@@ -96,11 +95,11 @@ Vous ne devez pas installer les logiciels tiers requis à partir d'autres réfé
 
 == Orifice 443 requis
 
-Des images génériques de Red Hat Enterprise Linux et CentOS peuvent bloquer l'accès externe au port 443. En raison de cette restriction, il se peut que vous ne puissiez pas vous connecter à l'interface utilisateur Web de l'administrateur après avoir installé Unified Manager. L'exécution de la commande suivante permet d'accéder au port 443 pour tous les utilisateurs et applications externes sur un système Red Hat Enterprise Linux ou CentOS générique.
+Les images génériques de Red Hat Enterprise Linux peuvent bloquer l'accès externe au port 443. En raison de cette restriction, il se peut que vous ne puissiez pas vous connecter à l'interface utilisateur Web de l'administrateur après avoir installé Unified Manager. L'exécution de la commande suivante permet d'accéder au port 443 pour tous les utilisateurs et applications externes sur un système Red Hat Enterprise Linux générique.
 
 `# firewall-cmd --zone=public --add-port=443/tcp --permanent; firewall-cmd --reload`
 
-Vous devez installer Red Hat Enterprise Linux et CentOS avec l'environnement de base "serveur avec interface utilisateur graphique". Il fournit les commandes utilisées par les instructions d'installation de Unified Manager. D'autres environnements de base peuvent nécessiter l'installation de commandes supplémentaires pour valider ou terminer l'installation. Si le `firewall-cmd` n'est pas disponible sur votre système, vous devez l'installer en exécutant la commande suivante :
+Vous devez installer Red Hat Enterprise Linux avec l'environnement de base « serveur avec interface utilisateur graphique ». Il fournit les commandes utilisées par les instructions d'installation de Unified Manager. D'autres environnements de base peuvent nécessiter l'installation de commandes supplémentaires pour valider ou terminer l'installation. Si le `firewall-cmd` n'est pas disponible sur votre système, vous devez l'installer en exécutant la commande suivante :
 
 `# sudo yum install firewalld`
 
@@ -108,6 +107,6 @@ Contactez votre service INFORMATIQUE avant d'exécuter les commandes pour voir s
 
 [NOTE]
 ====
-THP (transparent énorme pages) doit être désactivé sur les systèmes CentOS et Red Hat. Lorsqu'il est activé, dans certains cas, Unified Manager peut être arrêté lorsque certains processus consomment trop de mémoire et sont arrêtés.
+THP (transparent énorme pages) doit être désactivé sur les systèmes Red Hat. Lorsqu'il est activé, dans certains cas, Unified Manager peut être arrêté lorsque certains processus consomment trop de mémoire et sont arrêtés.
 
 ====

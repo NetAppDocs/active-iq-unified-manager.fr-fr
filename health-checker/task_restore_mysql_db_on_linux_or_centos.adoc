@@ -2,7 +2,7 @@
 permalink: health-checker/task_restore_mysql_db_on_linux_or_centos.html 
 sidebar: sidebar 
 keywords: restore, linux system, mysql, database, backup 
-summary: 'En cas de perte ou de corruption des données, Unified Manager peut être restauré vers l"état stable précédent avec un minimum de perte de données. Vous pouvez restaurer la base de données Unified Manager sur un système Red Hat Enterprise Linux ou CentOS local ou distant à l"aide de la console de maintenance Unified Manager.' 
+summary: 'En cas de perte ou de corruption des données, Unified Manager peut être restauré vers l"état stable précédent avec un minimum de perte de données. Vous pouvez restaurer la base de données Unified Manager sur un système Red Hat Enterprise Linux local ou distant à l"aide de la console de maintenance Unified Manager.' 
 ---
 = Restauration d'une sauvegarde de base de données MySQL sur un système Linux
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: 'En cas de perte ou de corruption des données, Unified Manager peut ê
 
 
 [role="lead"]
-En cas de perte ou de corruption des données, Unified Manager peut être restauré vers l'état stable précédent avec un minimum de perte de données. Vous pouvez restaurer la base de données Unified Manager sur un système Red Hat Enterprise Linux ou CentOS local ou distant à l'aide de la console de maintenance Unified Manager.
+En cas de perte ou de corruption des données, Unified Manager peut être restauré vers l'état stable précédent avec un minimum de perte de données. Vous pouvez restaurer la base de données Unified Manager sur un système Red Hat Enterprise Linux local ou distant à l'aide de la console de maintenance Unified Manager.
 
 *Ce dont vous aurez besoin*
 
@@ -24,7 +24,7 @@ Il est recommandé de copier le fichier de sauvegarde dans le répertoire par d�
 * Les fichiers de sauvegarde doivent être de `.7z` type.
 
 
-La fonction de restauration est spécifique à la plate-forme et à la version. La restauration d'une sauvegarde Unified Manager ne peut être effectuée que sur la même version de Unified Manager. Vous pouvez restaurer un fichier de sauvegarde Linux ou un fichier de sauvegarde d'appliance virtuelle sur un système Red Hat Enterprise Linux ou CentOS.
+La fonction de restauration est spécifique à la plate-forme et à la version. La restauration d'une sauvegarde Unified Manager ne peut être effectuée que sur la même version de Unified Manager. Vous pouvez restaurer un fichier de sauvegarde Linux ou un fichier de sauvegarde d'appliance virtuelle sur un système Red Hat Enterprise Linux.
 
 [TIP]
 ====

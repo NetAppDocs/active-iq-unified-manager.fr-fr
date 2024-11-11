@@ -15,7 +15,7 @@ Une sauvegarde de vidage de la base de données MySQL est une copie de la base d
 
 [NOTE]
 ====
-Le vidage de la base de données MySQL est le mécanisme de sauvegarde par défaut lorsque Unified Manager est installé sur un serveur Linux et Windows. Toutefois, si Unified Manager gère un grand nombre de clusters et de nœuds, ou si vos sauvegardes MySQL prennent plusieurs heures, vous pouvez sauvegarder à l'aide de copies Snapshot. Cette fonctionnalité est disponible sur les systèmes Red Hat Enterprise Linux, CentOS Linux et Windows.
+Le vidage de la base de données MySQL est le mécanisme de sauvegarde par défaut lorsque Unified Manager est installé sur un serveur Linux et Windows. Toutefois, si Unified Manager gère un grand nombre de clusters et de nœuds, ou si vos sauvegardes MySQL prennent plusieurs heures, vous pouvez sauvegarder à l'aide de copies Snapshot. Cette fonctionnalité est disponible sur Red Hat Enterprise Linux et Windows.
 
 ====
 Une sauvegarde de vidage de base de données consiste en un seul fichier dans le répertoire de sauvegarde et un ou plusieurs fichiers dans le répertoire de référentiel de base de données. Le fichier du répertoire de sauvegarde est très petit car il ne contient qu'un pointeur vers les fichiers situés dans le répertoire du référentiel de base de données qui sont nécessaires pour recréer la sauvegarde.
