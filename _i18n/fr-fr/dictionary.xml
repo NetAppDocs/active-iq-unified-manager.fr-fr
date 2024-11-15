@@ -9807,7 +9807,6 @@
   <block id="f7e4f466dd93f7fcac14a9d6f34be286" category="section-title">Logiciels tiers</block>
   <block id="ffbed9334b8ec87b5d47c862a02cb5ec" category="paragraph">Les packs tiers suivants sont inclus avec Unified Manager. Si ces modules tiers ne sont pas installés sur votre système, Unified Manager les installe dans le cadre de l'installation.</block>
   <block id="f036a764432b8b9592c8463741728fec" category="list-text">Microsoft Visual C&amp;#43;&amp;#43; 2015 Redistributable package version 14.26.28720.3</block>
-  <block id="b7bc4a8db8f6fcae60ca624f6b4cd972" category="list-text">Microsoft Visual C&amp;#43;&amp;#43; Redistributable Packages pour Visual Studio 2013 version 12.0.40660.0</block>
   <block id="7a296bb9772806c9ddf9f83ed9bb3d5f" category="paragraph">À partir d'Unified Manager 9.5, OpenJDK est fourni dans le package d'installation d'Unified Manager et installé automatiquement. Oracle Java n'est pas pris en charge à partir de Unified Manager 9.5.</block>
   <block id="dd2148991fe37222c2cd074a08be9207" category="paragraph">Si MySQL est préinstallé, assurez-vous que :</block>
   <block id="a0c0b34e406d28d454ddf495e72c1cb9" category="list-text">Il utilise le port par défaut.</block>
@@ -11789,9 +11788,6 @@
   <block id="4f4395612db3fd87fa732ad4576c0447" category="admonition"> Un compte Oracle est requis pour télécharger le fichier. Si vous ne possédez pas de compte Oracle, rendez-vous sur <block ref="f286dce8bc3d39b38609ac0c11f4f840" category="inline-link-macro-rx"></block> pour en créer une.</block>
   <block id="aa2b11ad1dd4cd77a6434da6fa1398a2" category="list-text">Copiez les répertoires et les fichiers à partir du résultat<block ref="30c81266c64bb09194fbb76d80c99fc1" prefix=" " category="inline-code"></block> répertoire (par exemple,<block ref="20ea71c4664ee137228518ed973e20e3" prefix=" " category="inline-code"></block> À l'emplacement où Java est installé. Exemple :<block ref="b7373e296aa12e5caf1e84edf230028c" prefix=" " category="inline-code"></block></block>
   <block id="4d5180c5e0db12f69692d5e800ed5b61" category="list-text">MySQL Community Edition est automatiquement mis à niveau lors de la mise à niveau d'Unified Manager. Si la version installée de MySQL sur votre système est antérieure à la version 8.0.34, le processus de mise à niveau d'Unified Manager met automatiquement à niveau MySQL vers la version 8.0.34. Vous ne devez pas exécuter une mise à niveau autonome d'une version antérieure de MySQL vers la version 8.0.34.</block>
-  <block id="f40472cbd758b6598c019a5411b70a20" category="list-text">MySQL Community Edition version 8.0.34</block>
-  <block id="101ed5d45d39d829253fdd5f84c4d9d7" category="list-text">Python 3.11.6</block>
-  <block id="18b8e2dd4de2bb94ea0dce1e4606ffc4" category="list-text">OpenJDK version 11.0.20</block>
   <block id="3d89b288e65d6d87dbc31d2d93a06f41" category="list-text">p7zip version 23.01 ou ultérieure</block>
   <block id="b39eb8b293aab19c862c53f0897b4ab2" category="paragraph">Unified Manager est déployé sur un serveur Web WildFly. WildFly 26.1.3 est fourni et configuré avec Unified Manager.</block>
   <block id="3e82c40e991bcdfb3d6c360a665ef534" category="list-text">MySQL Community Edition est automatiquement mis à niveau lors de la mise à niveau d'Unified Manager. Si la version installée de MySQL sur votre système est antérieure à la version 8.0.34, le processus de mise à niveau d'Unified Manager met automatiquement à niveau MySQL vers la version 8.0.34.</block>
@@ -11989,4 +11985,8 @@ Protégez les applications avec des LUN ; vous pouvez afficher et contrôler ces
   <block id="91804ef74bc975f4a628c4e14934bd25" category="inline-link">Avis pour Active IQ Unified Manager 9.16</block>
   <block id="4312f256415ac9316c181d6509543043" category="paragraph"><block ref="4312f256415ac9316c181d6509543043" category="inline-link-rx"></block></block>
   <block id="fba32ed5ef4b0254843c57fba4656cfe" category="paragraph">Pour plus d'informations, voir<block ref="2392cb263ac956dff7e4bed674b7b943" category="inline-link-rx"></block>.</block>
+  <block id="54ff3f05b478604e2dbd1f521328559d" category="list-text">Microsoft Visual C&amp;#43;&amp;#43; Redistributable Packages pour Visual Studio 2015 version 14.26.28720.3</block>
+  <block id="0f70ab196de9d7142f2acb96c17e5f25" category="list-text">MySQL Community Edition version 8.0.37</block>
+  <block id="fdbcf1b7ae01feab7a0a53d81c7205ce" category="list-text">Python 3.12x</block>
+  <block id="08759e76d989173a95ffac75dd374ef2" category="list-text">OpenJDK version 11.0.23</block>
 </blocks>
