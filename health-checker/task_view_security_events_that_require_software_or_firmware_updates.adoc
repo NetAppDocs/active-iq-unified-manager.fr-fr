@@ -13,8 +13,7 @@ summary: 'Certains événements de sécurité ont une zone d"impact de « mise �
 [role="lead"]
 Certains événements de sécurité ont une zone d'impact de « mise à niveau ». Ces événements sont signalés sur la plateforme Active IQ et ils identifient les problèmes liés à la résolution lorsque vous devez mettre à niveau le logiciel ONTAP, le firmware des nœuds ou le logiciel du système d'exploitation (pour les conseils de sécurité).
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
 
 Vous pouvez effectuer une action corrective immédiatement pour certains de ces problèmes, alors que d'autres peuvent attendre la prochaine maintenance planifiée. Vous pouvez afficher tous ces événements et les attribuer à des utilisateurs capables de résoudre ces problèmes. En outre, si certains événements de mise à niveau de sécurité que vous ne souhaitez pas être avertis, cette liste peut vous aider à identifier ces événements afin de pouvoir les désactiver.

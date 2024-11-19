@@ -13,8 +13,7 @@ summary: 'Ce workflow fournit un exemple de numérisation, d"évaluation et de r
 [role="lead"]
 Ce workflow fournit un exemple de numérisation, d'évaluation et de résolution des problèmes de liaison d'interconnexion de basculement du stockage arrêté. Dans ce scénario, vous êtes administrateur à l'aide de Unified Manager pour rechercher les risques de basculement du stockage avant de lancer la mise à niveau d'une version de ONTAP sur vos nœuds.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
 
 Si les interconnexions du basculement du stockage entre les paires haute disponibilité échouent dans le cadre d'une tentative de mise à niveau sans interruption, la mise à niveau échoue. Il est donc courant que l'administrateur surveille et confirme la fiabilité du basculement du stockage sur les nœuds de cluster dont la mise à niveau est prévue avant le début d'une mise à niveau.

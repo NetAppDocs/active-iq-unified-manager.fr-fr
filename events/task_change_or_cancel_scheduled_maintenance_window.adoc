@@ -13,8 +13,7 @@ summary: 'Si vous avez configuré une fenêtre de maintenance Unified Manager po
 [role="lead"]
 Si vous avez configuré une fenêtre de maintenance Unified Manager pour qu'elle s'effectue à l'avenir, vous pouvez modifier les heures de début et de fin ou annuler la fenêtre de maintenance.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 L'annulation d'une fenêtre de maintenance en cours d'exécution est utile si la maintenance du cluster est terminée avant l'heure de fin de la fenêtre de maintenance planifiée et que vous souhaitez recevoir à nouveau des événements et des alertes à partir du cluster.

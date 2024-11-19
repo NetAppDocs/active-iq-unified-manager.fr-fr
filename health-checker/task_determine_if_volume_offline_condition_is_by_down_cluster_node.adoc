@@ -13,8 +13,7 @@ summary: 'Vous pouvez utiliser l"interface utilisateur Web d"Unified Manager pou
 [role="lead"]
 Vous pouvez utiliser l'interface utilisateur Web d'Unified Manager pour confirmer ou supprimer la possibilité qu'un volume soit hors ligne, car le nœud hôte est en panne et que le basculement du stockage vers son partenaire de paire haute disponibilité n'a pas réussi.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
 
 Pour déterminer si la condition de hors ligne du volume est due à une défaillance du nœud d'hébergement et à un basculement de stockage qui a échoué par la suite, effectuez les opérations suivantes :

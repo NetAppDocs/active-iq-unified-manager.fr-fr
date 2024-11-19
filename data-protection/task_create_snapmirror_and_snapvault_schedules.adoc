@@ -13,8 +13,7 @@ summary: Vous pouvez créer des planifications SnapMirror et SnapVault de base o
 [role="lead"]
 Vous pouvez créer des planifications SnapMirror et SnapVault de base ou avancées pour activer les transferts automatiques sur un volume source ou primaire. Les transferts ont ainsi lieu plus ou moins fréquemment, selon la fréquence à laquelle les données sont modifiées sur vos volumes.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 * Vous devez avoir déjà terminé la zone informations sur la destination dans la boîte de dialogue configurer la protection.
 * Vous devez avoir configuré Workflow Automation pour effectuer cette tâche.

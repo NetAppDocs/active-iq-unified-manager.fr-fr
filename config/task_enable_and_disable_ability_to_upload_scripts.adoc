@@ -13,8 +13,7 @@ summary: La possibilité de télécharger les scripts vers Unified Manager et de
 [role="lead"]
 La possibilité de télécharger les scripts vers Unified Manager et de les exécuter est activée par défaut. Si votre entreprise ne souhaite pas autoriser cette activité pour des raisons de sécurité, vous pouvez désactiver cette fonctionnalité.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications.
 
 .Étapes

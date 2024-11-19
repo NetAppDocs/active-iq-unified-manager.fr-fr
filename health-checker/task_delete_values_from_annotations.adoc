@@ -13,8 +13,7 @@ summary: 'Vous pouvez supprimer les valeurs associées aux annotations personnal
 [role="lead"]
 Vous pouvez supprimer les valeurs associées aux annotations personnalisées lorsque cette valeur ne s'applique plus à l'annotation.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 * La valeur d'annotation ne doit pas être associée à des règles d'annotation ou à des règles de groupe.
 

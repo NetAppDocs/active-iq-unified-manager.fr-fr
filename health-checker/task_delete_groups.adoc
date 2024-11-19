@@ -13,8 +13,7 @@ summary: 'Vous pouvez supprimer un groupe depuis Unified Manager lorsque ce dern
 [role="lead"]
 Vous pouvez supprimer un groupe depuis Unified Manager lorsque ce dernier n'est plus nécessaire.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Aucun des objets de stockage (clusters, SVM ou volumes) ne doit être associé à toute règle de groupe associée au groupe que vous souhaitez supprimer.
 * Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 

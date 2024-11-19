@@ -13,8 +13,7 @@ summary: Vous pouvez créer un rapport qui regroupe des volumes en raison de la 
 [role="lead"]
 Vous pouvez créer un rapport qui regroupe des volumes en raison de la mauvaise santé de la relation.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 

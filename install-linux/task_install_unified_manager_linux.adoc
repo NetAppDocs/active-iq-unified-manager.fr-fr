@@ -13,14 +13,13 @@ summary: Vous pouvez installer Unified Manager sur une plate-forme physique ou v
 [role="lead"]
 Vous pouvez installer Unified Manager sur une plate-forme physique ou virtuelle Red Hat Enterprise Linux.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Le système sur lequel vous souhaitez installer Unified Manager doit répondre aux exigences système et logicielles.
 +
 Voir link:concept_virtual_infrastructure_or_hardware_system_requirements.html["Configuration matérielle requise"].
 
 +
-Voir link:reference_red_hat_and_centos_software_and_installation_requirements.html["Conditions requises pour l'installation et le logiciel Linux"].
+Voir link:reference_red_hat_software_and_installation_requirements.html["Conditions requises pour l'installation et le logiciel Linux"].
 
 * Vous devez avoir téléchargé Unified Manager `.zip` Fichier depuis le site de support NetApp vers le système cible.
 * Vous devriez avoir vérifié l'intégrité du téléchargé `.zip` fichier.
@@ -40,14 +39,14 @@ Le système Red Hat Enterprise Linux peut avoir toutes les versions requises du 
 
 
  a| 
-OpenJDK version 11.0.21
+OpenJDK version 11.0.23
  a| 
 `java -version`
 
 
 
  a| 
-MySQL 8.0.34 Community Edition
+MySQL 8.0.37 Community Edition
  a| 
 `rpm -qa | grep -i mysql`
 
@@ -59,7 +58,7 @@ p7zip 16.02
 `rpm -qa | grep p7zip`
 
 |===
-. Si la version installée de MySQL est antérieure à MySQL 8.0.34 Community Edition, entrez la commande suivante pour la désinstaller :
+. Si la version installée de MySQL est antérieure à MySQL 8.0.37 Community Edition, entrez la commande suivante pour la désinstaller :
 +
 `rpm -e <mysql_package_name>`
 

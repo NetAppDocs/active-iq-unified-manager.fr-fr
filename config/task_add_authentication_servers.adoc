@@ -13,8 +13,7 @@ summary: 'Vous pouvez ajouter des serveurs d"authentification et activer l"authe
 [role="lead"]
 Vous pouvez ajouter des serveurs d'authentification et activer l'authentification à distance sur le serveur de gestion afin que les utilisateurs distants au sein du serveur d'authentification puissent accéder à Unified Manager.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Les informations suivantes doivent être disponibles :
 +
 ** Nom d'hôte ou adresse IP du serveur d'authentification

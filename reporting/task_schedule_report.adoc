@@ -13,8 +13,7 @@ summary: Une fois que vous avez une vue ou un fichier Excel que vous souhaitez p
 [role="lead"]
 Une fois que vous avez une vue ou un fichier Excel que vous souhaitez planifier pour la génération et la distribution régulières, vous pouvez planifier le rapport.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 * Vous devez avoir configuré les paramètres du serveur SMTP dans la page *général* > *Notifications* pour que le moteur de génération de rapports puisse envoyer des rapports sous forme de pièces jointes d'e-mail à la liste des destinataires à partir du serveur Unified Manager.
 * Le serveur de messagerie doit être configuré pour permettre l'envoi de pièces jointes avec les e-mails générés.

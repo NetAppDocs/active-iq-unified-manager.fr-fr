@@ -13,8 +13,7 @@ summary: 'Vous pouvez utiliser la page travaux pour abandonner un travail s"il p
 [role="lead"]
 Vous pouvez utiliser la page travaux pour abandonner un travail s'il prend trop de temps à terminer, qu'il rencontre trop d'erreurs ou qu'il n'est plus nécessaire. Vous ne pouvez abandonner un travail que si son état et son type l'autorisent. Vous pouvez abandonner tout travail en cours d'exécution.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 .Étapes

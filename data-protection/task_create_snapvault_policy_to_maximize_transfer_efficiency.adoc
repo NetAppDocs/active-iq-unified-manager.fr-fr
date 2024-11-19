@@ -13,8 +13,7 @@ summary: 'Vous pouvez créer une nouvelle règle SnapVault afin de définir la p
 [role="lead"]
 Vous pouvez créer une nouvelle règle SnapVault afin de définir la priorité d'un transfert SnapVault. Vous utilisez des règles pour optimiser l'efficacité des transferts du stockage primaire au stockage secondaire dans une relation de protection.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 * Vous devez avoir configuré Workflow Automation.
 * Vous devez avoir déjà terminé la zone informations sur la destination dans la boîte de dialogue configurer la protection.

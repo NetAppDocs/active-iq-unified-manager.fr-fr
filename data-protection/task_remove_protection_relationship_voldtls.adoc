@@ -13,8 +13,7 @@ summary: 'Vous pouvez supprimer une relation de protection pour supprimer défin
 [role="lead"]
 Vous pouvez supprimer une relation de protection pour supprimer définitivement une relation existante entre la source et la destination sélectionnées, par exemple lorsque vous souhaitez créer une relation à l'aide d'une destination différente. Cette opération supprime toutes les métadonnées et ne peut pas être annulée.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 * Vous devez avoir configuré Workflow Automation.
 

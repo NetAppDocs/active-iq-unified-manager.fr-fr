@@ -13,8 +13,7 @@ summary: Vous pouvez afficher les événements non attribués, puis les affecter
 [role="lead"]
 Vous pouvez afficher les événements non attribués, puis les affecter à un utilisateur qui peut les résoudre.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
 
 .Étapes

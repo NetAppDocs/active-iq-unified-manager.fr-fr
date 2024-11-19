@@ -13,8 +13,7 @@ summary: Vous pouvez afficher tous les événements de sécurité actifs, puis l
 [role="lead"]
 Vous pouvez afficher tous les événements de sécurité actifs, puis les attribuer à un utilisateur qui peut résoudre le problème. En outre, si vous ne souhaitez pas recevoir certains événements de sécurité, cette liste peut vous aider à identifier les événements que vous souhaitez désactiver.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
 
 .Étapes

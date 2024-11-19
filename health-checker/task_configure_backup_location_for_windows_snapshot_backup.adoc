@@ -13,8 +13,7 @@ summary: Il est recommandé de configurer le volume de stockage des copies Snaps
 [role="lead"]
 Il est recommandé de configurer le volume de stockage des copies Snapshot après les sauvegardes de Unified Manager sur Windows.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Le cluster, la VM de stockage et le volume doivent satisfaire aux exigences suivantes :
 
 * Configuration requise pour le cluster :

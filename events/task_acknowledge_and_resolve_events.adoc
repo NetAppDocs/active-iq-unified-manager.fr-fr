@@ -13,8 +13,7 @@ summary: 'Vous devez accuser réception d"un événement avant de commencer à t
 [role="lead"]
 Vous devez accuser réception d'un événement avant de commencer à travailler sur le problème qui a généré l'événement afin de ne pas continuer à recevoir de notifications d'alerte répétées. Après avoir effectué une action corrective pour un événement particulier, vous devez marquer l'événement comme résolu.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
 
 Vous pouvez accepter et résoudre plusieurs événements simultanément.

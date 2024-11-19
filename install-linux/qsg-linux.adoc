@@ -61,7 +61,7 @@ Les procédures de configuration d'un référentiel Red Hat Enterprise Linux son
 
 === Installez Unified Manager
 
-Unified Manager utilise l' `yum`utilitaire pour installer le logiciel et les logiciels qui en dépendent. Étant donné qu'il existe différentes images de Red Hat Enterprise Linux, les packages installés dépendent du logiciel présent dans les images.  `yum`L'utilitaire détermine les progiciels dépendants à installer. Si vous avez besoin de plus d'informations sur les progiciels dépendants, consultez le link:../install-linux/reference_red_hat_and_centos_software_and_installation_requirements.html["Conditions requises pour l'installation et le logiciel Linux"].
+Unified Manager utilise l' `yum`utilitaire pour installer le logiciel et les logiciels qui en dépendent. Étant donné qu'il existe différentes images de Red Hat Enterprise Linux, les packages installés dépendent du logiciel présent dans les images.  `yum`L'utilitaire détermine les progiciels dépendants à installer. Si vous avez besoin de plus d'informations sur les progiciels dépendants, consultez le link:../install-linux/reference_red_hat_software_and_installation_requirements.html["Conditions requises pour l'installation et le logiciel Linux"].
 
 Pour installer Unified Manager, exécutez la commande suivante, soit en tant qu'utilisateur root, soit en utilisant `sudo`, dans le répertoire où le fichier d'installation a été décompressé :
 

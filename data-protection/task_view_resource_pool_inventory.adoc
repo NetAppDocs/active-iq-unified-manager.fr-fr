@@ -13,8 +13,7 @@ summary: 'Vous pouvez utiliser la page pools de ressources pour afficher l"inven
 [role="lead"]
 Vous pouvez utiliser la page pools de ressources pour afficher l'inventaire des pools de ressources et surveiller la capacité restante pour chaque pool de ressources.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 .Étape

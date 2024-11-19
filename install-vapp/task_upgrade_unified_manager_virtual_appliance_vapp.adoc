@@ -11,10 +11,9 @@ summary: 'Vous pouvez mettre à niveau l"appliance virtuelle Unified Manager'
 
 
 [role="lead"]
-Vous pouvez mettre à niveau l'appliance virtuelle Active IQ Unified Manager des versions 9.12 ou 9.13 vers la version 9.14.
+Vous pouvez mettre à niveau l'appliance virtuelle Active IQ Unified Manager des versions 9.13 ou 9.14 vers la version 9.16.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vérifiez les points suivants :
 
 * Vous avez téléchargé le fichier de mise à niveau, l'image ISO, depuis le site de support NetApp.

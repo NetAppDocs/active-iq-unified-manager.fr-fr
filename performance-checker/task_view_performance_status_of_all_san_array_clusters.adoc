@@ -13,8 +13,7 @@ summary: 'Vous pouvez utiliser la vue performances : tous les clusters pour affi
 [role="lead"]
 Vous pouvez utiliser la vue performances : tous les clusters pour afficher l'état de performance de vos clusters de baies SAN.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
 
 Vous pouvez afficher les informations de présentation de tous les clusters de baies SAN dans la vue Performance : tous les clusters et les détails de la page Cluster / Performance Explorer.

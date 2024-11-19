@@ -13,8 +13,7 @@ summary: 'Vous pouvez utiliser la vue Santé : tous les nœuds pour afficher la 
 [role="lead"]
 Vous pouvez utiliser la vue Santé : tous les nœuds pour afficher la liste des nœuds des clusters. Vous pouvez utiliser la page de détails Cluster / Health pour afficher des informations détaillées sur les nœuds faisant partie du cluster surveillé.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
 
 Vous pouvez afficher des informations détaillées, telles que l'état des nœuds, le cluster qui contient le nœud, les informations détaillées sur la capacité des agrégats (utilisée et totale) et les détails sur la capacité brute (utilisable, disponible, réserve et total). Vous pouvez également obtenir des informations sur les paires haute disponibilité, les tiroirs disques et les ports.

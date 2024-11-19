@@ -13,8 +13,7 @@ summary: 'Une fois que vous avez pris des mesures pour corriger un échec de la 
 [role="lead"]
 Une fois que vous avez pris des mesures pour corriger un échec de la tâche de protection, vous pouvez utiliser *Réessayer* pour exécuter à nouveau le travail. La nouvelle tentative d'un travail crée un nouveau travail à l'aide de l'ID de travail d'origine.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 Vous ne pouvez réessayer qu'un seul travail ayant échoué à la fois. La sélection de plusieurs travaux désactive le bouton *Réessayer*. Seules les tâches du type protection Configuration and protection relations Operation peuvent être relancées.

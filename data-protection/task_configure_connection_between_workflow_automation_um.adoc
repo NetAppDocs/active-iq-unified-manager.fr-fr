@@ -13,13 +13,12 @@ summary: 'Vous pouvez configurer une connexion sécurisée entre OnCommand Workf
 [role="lead"]
 Vous pouvez configurer une connexion sécurisée entre OnCommand Workflow Automation (WFA) et Unified Manager. La connexion à Workflow Automation vous permet d'utiliser des fonctionnalités de protection, telles que les flux de travail de configuration SnapMirror et SnapVault, ainsi que des commandes pour gérer les relations SnapMirror.
 
-*Ce dont vous aurez besoin*
-
-* La version installée de Workflow Automation doit être égale ou supérieure à 5.1.
+.Avant de commencer
+* La version installée de Workflow Automation doit être 5.1.1P6 ou supérieure.
 +
 [NOTE]
 ====
-WFA 5.1 inclut le pack WFA de gestion de clustered Data ONTAP. Il n'est donc pas nécessaire de télécharger ce pack sur le site NetApp Storage Automation Store et de l'installer séparément sur votre serveur WFA, comme cela était requis par le passé.  https://automationstore.netapp.com/pack-list.shtml["WFA pack pour la gestion de ONTAP"]
+Le pack WFA pour la gestion de clustered Data ONTAP est inclus dans WFA 5.1.1P6. Il n'est donc pas nécessaire de télécharger ce pack sur le site NetApp Storage Automation Store et de l'installer séparément sur votre serveur WFA, comme requis par le passé. https://automationstore.netapp.com/pack-list.shtml["WFA pack pour la gestion de ONTAP"]
 
 ====
 * Vous devez disposer du nom de l'utilisateur de base de données que vous avez créé dans Unified Manager pour prendre en charge les connexions WFA et Unified Manager.

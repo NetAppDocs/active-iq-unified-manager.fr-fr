@@ -13,8 +13,7 @@ summary: 'Vous pouvez utiliser la vue Santé : tous les clusters pour afficher v
 [role="lead"]
 Vous pouvez utiliser la vue Santé : tous les clusters pour afficher votre inventaire des clusters. Le vue capacité : tous les clusters permet d'afficher des informations résumées sur la capacité de stockage et l'utilisation de tous les clusters.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
 
 Vous pouvez également afficher les détails des clusters individuels, tels que leur état, leur capacité, leur configuration, les LIF, les nœuds, Et disques dans ce cluster à l'aide de la page des détails du cluster / intégrité.

@@ -13,8 +13,7 @@ summary: 'Pour modifier le type de sauvegarde de votre système Active IQ Unifie
 [role="lead"]
 Pour modifier le type de sauvegarde de votre système Active IQ Unified Manager, vous pouvez utiliser les options de la console de maintenance. L'option *Unconfigure NetApp Snapshot Backup* vous permet de revenir à la sauvegarde MySQL.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez disposer d'un ID utilisateur et d'un mot de passe autorisés pour vous connecter à la console de maintenance du serveur Unified Manager.
 
 .Étapes

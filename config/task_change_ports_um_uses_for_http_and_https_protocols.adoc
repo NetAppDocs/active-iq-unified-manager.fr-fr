@@ -13,8 +13,7 @@ summary: 'Le cas échéant, les ports par défaut utilisés par Unified Manager 
 [role="lead"]
 Le cas échéant, les ports par défaut utilisés par Unified Manager pour les protocoles HTTP et HTTPS peuvent être modifiés après l'installation. Les ports par défaut sont 80 pour HTTP et 443 pour HTTPS.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez disposer d'un ID utilisateur et d'un mot de passe autorisés pour vous connecter à la console de maintenance du serveur Unified Manager.
 
 [NOTE]

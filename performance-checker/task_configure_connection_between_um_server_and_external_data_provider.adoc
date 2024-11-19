@@ -13,8 +13,7 @@ summary: 'Unified Manager peut envoyer les données relatives aux performances d
 [role="lead"]
 Unified Manager peut envoyer les données relatives aux performances du cluster à un serveur externe. Vous pouvez spécifier le type de données statistiques envoyées et l'intervalle d'envoi des données.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Un ID utilisateur doit être autorisé à vous connecter à la console de maintenance du serveur Unified Manager.
 * Vous devez disposer des informations suivantes sur le fournisseur de données externe :
 +

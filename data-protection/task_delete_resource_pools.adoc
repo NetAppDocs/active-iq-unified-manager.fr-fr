@@ -13,8 +13,7 @@ summary: 'Vous pouvez supprimer des pools de ressources lorsqu"ils ne sont plus 
 [role="lead"]
 Vous pouvez supprimer des pools de ressources lorsqu'ils ne sont plus nécessaires. Par exemple, vous pouvez vouloir redistribuer les agrégats membres d'un pool de ressources vers plusieurs autres pools de ressources, ce qui rend le pool de ressources d'origine obsolète.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 Le bouton *Supprimer* n'est activé que lorsqu'au moins un pool de ressources est sélectionné.

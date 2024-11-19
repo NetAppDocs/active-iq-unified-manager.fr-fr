@@ -13,8 +13,7 @@ summary: 'Vous pouvez modifier les paramètres de seuil d"avertissement de déca
 [role="lead"]
 Vous pouvez modifier les paramètres de seuil d'avertissement de décalage global par défaut et d'intégrité des erreurs pour les relations de protection non gérées afin que les événements soient générés à des intervalles adaptés à vos besoins.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 Le temps de décalage ne doit pas dépasser l'intervalle de planification de transfert défini. Par exemple, si la planification de transfert est horaire, la durée de décalage ne doit pas dépasser une heure. Le seuil de décalage indique un pourcentage que le temps de décalage ne doit pas dépasser. Dans l'exemple d'une heure, si le seuil de décalage est défini sur 150 %, vous recevrez un événement lorsque le temps de décalage est supérieur à 1.5 heures.

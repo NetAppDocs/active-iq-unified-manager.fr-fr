@@ -13,8 +13,7 @@ summary: 'Lorsque vous créez des annotations personnalisées, Unified Manager a
 [role="lead"]
 Lorsque vous créez des annotations personnalisées, Unified Manager associe de façon dynamique les clusters, les machines virtuelles de stockage et les volumes avec les annotations à l'aide de règles. Ces règles affectent automatiquement les annotations aux objets de stockage.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 .Étapes

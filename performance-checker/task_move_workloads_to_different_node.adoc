@@ -13,8 +13,7 @@ summary: 'Grâce à Unified Manager, vous pouvez identifier un agrégat sur un a
 [role="lead"]
 Grâce à Unified Manager, vous pouvez identifier un agrégat sur un autre nœud moins occupé que le nœud sur lequel vos charges de travail sont en cours d'exécution, puis déplacer les volumes sélectionnés vers cet agrégat. Le déplacement de charges de travail hautes performances vers un agrégat sur un nœud moins occupé permet aux workloads sur les deux nœuds de gagner en efficacité.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
 * Vous devez avoir enregistré le nom du nœud qui rencontre actuellement un problème de performances.
 * Vous devez avoir enregistré la date et l'heure à laquelle le nœud a reçu l'événement de performance.

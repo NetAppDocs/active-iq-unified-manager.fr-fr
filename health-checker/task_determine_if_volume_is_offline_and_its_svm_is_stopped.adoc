@@ -13,8 +13,7 @@ summary: 'Vous pouvez utiliser l"interface utilisateur Web Unified Manager pour 
 [role="lead"]
 Vous pouvez utiliser l'interface utilisateur Web Unified Manager pour confirmer ou éliminer tout risque qu'un volume soit hors ligne, car sa machine virtuelle de stockage hôte (SVM) est arrêtée du fait du nœud hébergeant le volume racine de ce SVM.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
 
 Pour déterminer si le volume hors ligne est provoqué l'arrêt de son SVM hôte car le nœud hébergeant le volume root de ce SVM est arrêté, effectuer les actions suivantes :

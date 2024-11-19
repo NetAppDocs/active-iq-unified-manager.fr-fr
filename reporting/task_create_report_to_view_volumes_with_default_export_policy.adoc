@@ -13,8 +13,7 @@ summary: 'Vous pouvez créer un rapport pour rechercher les volumes qui utilisen
 [role="lead"]
 Vous pouvez créer un rapport pour rechercher les volumes qui utilisent la stratégie d'exportation par défaut.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 

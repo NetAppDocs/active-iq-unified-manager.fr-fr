@@ -13,8 +13,7 @@ summary: 'Vous pouvez configurer les actions de groupe que vous souhaitez appliq
 [role="lead"]
 Vous pouvez configurer les actions de groupe que vous souhaitez appliquer aux objets de stockage d'un groupe. La configuration des actions pour un groupe vous permet de gagner du temps, car vous n'avez pas besoin d'ajouter ces actions individuellement à chaque objet.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 .Étapes

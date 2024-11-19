@@ -13,8 +13,7 @@ summary: 'Vous pouvez créer un rapport qui affiche l"état des transferts de vo
 [role="lead"]
 Vous pouvez créer un rapport qui affiche l'état des transferts de volume. Vous pouvez afficher les transferts de volumes ayant échoué et ayant réussi dans ce rapport.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 

@@ -13,8 +13,7 @@ summary: 'Après avoir reçu un événement d"erreur "Volume Space Full", vous d
 [role="lead"]
 Après avoir reçu un événement d'erreur « Volume Space Full », vous passez en revue les mesures correctives proposées sur la page Détails de l'événement et décidez d'effectuer l'une des actions suggérées.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 Un utilisateur possédant n'importe quel rôle peut effectuer toutes les tâches de ce flux de travail qui utilisent Unified Manager.

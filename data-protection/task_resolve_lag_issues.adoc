@@ -13,8 +13,7 @@ summary: 'Ce flux de travail fournit un exemple de résolution d"un problème de
 [role="lead"]
 Ce flux de travail fournit un exemple de résolution d'un problème de décalage. Dans ce scénario, vous êtes un administrateur ou un opérateur qui accède à la page Tableau de bord Unified ManagerLe cas échéant, pour voir s'il y a des problèmes avec vos relations de protection et, le cas échéant, pour trouver des solutions.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 Sur la page Tableau de bord, vous examinez la zone incidents et risques non résolus et voyez une erreur de décalage SnapMirror dans le volet protection sous protection risques.

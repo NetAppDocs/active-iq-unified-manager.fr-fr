@@ -13,8 +13,7 @@ summary: 'Vous pouvez utiliser Unified Manager pour vérifier l"état de santé 
 [role="lead"]
 Vous pouvez utiliser Active IQ Unified Manager (Unified Manager) pour vérifier l'état de fonctionnement des clusters et de leurs composants dans les configurations MetroCluster over FC et MetroCluster over IP. Si les clusters étaient impliqués dans un événement de performances détecté par Unified Manager, l'état de santé peut vous aider à déterminer si un problème matériel ou logiciel a contribué à l'événement.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
 * Vous devez avoir analysé un événement de performance pour une configuration MetroCluster et obtenu le nom du cluster concerné.
 * Les deux clusters de la configuration MetroCluster sur FC et IP doivent être surveillés par la même instance de Unified Manager.

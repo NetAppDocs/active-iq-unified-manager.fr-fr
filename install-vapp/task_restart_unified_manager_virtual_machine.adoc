@@ -13,8 +13,7 @@ summary: 'Vous pouvez redémarrer la machine virtuelle (VM) Unified Manager à p
 [role="lead"]
 Vous pouvez redémarrer la machine virtuelle (VM) Unified Manager à partir de la console de maintenance. Vous devez redémarrer la machine virtuelle après avoir généré un nouveau certificat de sécurité ou en cas de problème avec la machine virtuelle.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * L'appliance virtuelle doit être sous tension.
 * Vous devez être connecté à la console de maintenance Unified Manager en tant qu'utilisateur de maintenance.
 

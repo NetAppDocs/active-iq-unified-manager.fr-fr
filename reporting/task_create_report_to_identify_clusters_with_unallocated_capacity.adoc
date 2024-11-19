@@ -13,7 +13,9 @@ summary: 'Vous pouvez créer un rapport pour trouver les clusters dont la capaci
 [role="lead"]
 Vous pouvez créer un rapport pour trouver les clusters dont la capacité LUN n'est pas allouée est la plus élevée et où 5 To, afin de faciliter l'identification des emplacements où ajouter des workloads supplémentaires.
 
-*Ce dont vous avez besoin* * vous devez avoir le rôle d'administrateur d'applications ou d'administrateur de stockage.
+.Avant de commencer
+* Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
+
 
 Procédez comme suit pour créer une vue personnalisée affichant les clusters dont la capacité de LUN est la plus non allouée, puis planifiez la génération d'un rapport pour cette vue.
 

@@ -13,8 +13,7 @@ summary: 'Depuis la vue Santé : tous les agrégats, vous pouvez surveiller votr
 [role="lead"]
 Depuis la vue Santé : tous les agrégats, vous pouvez surveiller votre inventaire des agrégats. La vue capacité : tous les agrégats vous permet d'afficher des informations sur la capacité et l'utilisation des agrégats de tous les clusters.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
 
 Vous pouvez afficher des informations détaillées, telles que la capacité et la configuration de l'agrégat, ou encore les informations sur le disque depuis la page de détails de l'agrégat/de l'intégrité. Vous pouvez utiliser ces détails avant de configurer les paramètres de seuil si nécessaire.

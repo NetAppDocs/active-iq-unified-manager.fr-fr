@@ -1,5 +1,5 @@
 ---
-permalink: install-linux/concept_install_unified_manager_on_rhel_or_centos.html 
+permalink: install-linux/concept_install_unified_manager_on_rhel.html 
 sidebar: sidebar 
 keywords: install, unified manager, linux systems 
 summary: 'Il est important que vous compreniez que la séquence des étapes à suivre pour télécharger et installer Unified Manager varie en fonction de votre scénario d"installation.' 

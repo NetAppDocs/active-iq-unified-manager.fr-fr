@@ -13,8 +13,7 @@ summary: 'Vous pouvez modifier l"ordre dans lequel Unified Manager applique des 
 [role="lead"]
 Vous pouvez modifier l'ordre dans lequel Unified Manager applique des règles d'annotation aux objets de stockage. Les règles d'annotation sont appliquées de façon séquentielle aux objets de stockage en fonction de leur rang. Lorsque vous configurez une règle d'annotation, le rang est le moins. Toutefois, vous pouvez modifier le rang de la règle d'annotation en fonction de vos besoins.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 Vous pouvez sélectionner une ou plusieurs lignes et effectuer de nombreuses opérations glisser-déposer pour modifier le rang des règles d'annotation. Cependant, vous devez enregistrer les modifications pour que la repriorisation s'affiche dans l'onglet règles des annotations.

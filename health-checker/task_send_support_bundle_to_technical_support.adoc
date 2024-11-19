@@ -13,8 +13,7 @@ summary: 'Pour obtenir des informations plus détaillées sur le diagnostic et l
 [role="lead"]
 Pour obtenir des informations plus détaillées sur le diagnostic et le dépannage d'un problème que ne fournit un message AutoSupport, vous pouvez envoyer un pack d'assistance au support technique.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez accéder au pack pour l'envoyer au support technique.
 
 Vous devez obtenir un numéro de dossier généré par le biais du site Web de support technique.

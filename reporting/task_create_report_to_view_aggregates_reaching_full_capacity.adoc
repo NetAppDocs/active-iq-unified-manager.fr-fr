@@ -13,8 +13,7 @@ summary: 'Vous pouvez créer un rapport pour localiser les agrégats arrivant à
 [role="lead"]
 Vous pouvez créer un rapport pour localiser les agrégats arrivant à pleine capacité, afin de pouvoir ajouter de la capacité ou déplacer les charges de travail vers d'autres agrégats.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 

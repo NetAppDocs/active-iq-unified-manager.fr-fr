@@ -13,8 +13,7 @@ summary: 'Unified Manager génère des événements d"avertissement de stratégi
 [role="lead"]
 Unified Manager génère des événements d'avertissement de stratégie de qualité de service lorsque le débit de la charge de travail (IOPS, IOPS/To ou Mbit/s) a dépassé le paramètre de règle de qualité de service ONTAP défini et que la latence des workloads est en train de devenir affectée. Ces événements définis par le système permettent de corriger les problèmes de performance potentiels avant que de nombreuses charges de travail ne soient affectées par la latence.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
 * Il doit y avoir des événements de performances nouveaux, acquittés ou obsolètes.
 

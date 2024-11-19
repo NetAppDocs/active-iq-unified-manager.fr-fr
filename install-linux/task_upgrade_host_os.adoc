@@ -1,5 +1,5 @@
 ---
-permalink: install-linux/task_upgrade_host_os_from_rhel_6_x_to_7_x.html 
+permalink: install-linux/task_upgrade_host_os.html 
 sidebar: sidebar 
 keywords: upgrade, host OS, red hat enterprise, linux 7.x, 8.x 
 summary: 'Si vous avez déjà installé Unified Manager sur un système Red Hat Enterprise Linux 7.x et que vous devez effectuer une mise à niveau vers Red Hat Enterprise Linux 8.x, vous devez suivre l"une des procédures répertoriées dans cette rubrique. Dans les deux cas, vous devez créer une sauvegarde de Unified Manager sur le système Red Hat Enterprise Linux 7.x, puis restaurer la sauvegarde sur un système Red Hat Enterprise Linux 8.x.' 
@@ -11,7 +11,7 @@ summary: 'Si vous avez déjà installé Unified Manager sur un système Red Hat 
 
 
 [role="lead"]
-Si vous avez déjà installé Unified Manager sur un système Red Hat Enterprise Linux 7.x et que vous devez effectuer une mise à niveau vers Red Hat Enterprise Linux 8.x, vous devez suivre l'une des procédures répertoriées dans cette rubrique. Dans les deux cas, vous devez créer une sauvegarde de Unified Manager sur le système Red Hat Enterprise Linux 7.x, puis restaurer la sauvegarde sur un système Red Hat Enterprise Linux 8.x. Notez que les versions prises en charge de Red Hat Enterprise Linux vont de 8.0 à 8.9.
+Si vous avez déjà installé Unified Manager sur un système Red Hat Enterprise Linux 7.x et que vous devez effectuer une mise à niveau vers Red Hat Enterprise Linux 8.x, vous devez suivre l'une des procédures répertoriées dans cette rubrique. Dans les deux cas, vous devez créer une sauvegarde de Unified Manager sur le système Red Hat Enterprise Linux 7.x, puis restaurer la sauvegarde sur un système Red Hat Enterprise Linux 8.x. Notez que les versions prises en charge de Red Hat Enterprise Linux vont de 8.0 à 8.10.
 
 La différence entre les deux options répertoriées ci-dessous réside dans le fait que, dans un cas, vous effectuez la restauration de Unified Manager sur un nouveau serveur 8.x, et dans l'autre cas, vous effectuez l'opération de restauration sur le même serveur.
 
@@ -23,11 +23,11 @@ Procédez comme suit si vous disposez d'un système de rechange sur lequel vous 
 
 . Installez et configurez un nouveau serveur avec le logiciel Red Hat Enterprise Linux 8.x.
 +
-Voir link:reference_red_hat_and_centos_software_and_installation_requirements.html["Conditions requises pour l'installation et le logiciel Linux"].
+Voir link:reference_red_hat_software_and_installation_requirements.html["Conditions requises pour l'installation et le logiciel Linux"].
 
 . Sur le système Red Hat Enterprise Linux 8.x, installez la même version que celle du logiciel Unified Manager sur le système Red Hat Enterprise Linux 7.x.
 +
-Voir link:concept_install_unified_manager_on_rhel_or_centos.html["Installation de Unified Manager sous Linux"].
+Voir link:concept_install_unified_manager_on_rhel.html["Installation de Unified Manager sous Linux"].
 
 +
 Ne lancez pas l'interface utilisateur et ne configurez aucun cluster, utilisateur ou paramètre d'authentification lorsque l'installation est terminée. Le fichier de sauvegarde remplit ces informations lors du processus de restauration.
@@ -52,11 +52,11 @@ Procédez comme suit si vous ne disposez pas d'un système de rechange sur leque
 . Supprimez l'image Red Hat Enterprise Linux 7.x du système et essuyez complètement le système.
 . Installez et configurez le logiciel Red Hat Enterprise Linux 8.x sur le même système.
 +
-Voir link:reference_red_hat_and_centos_software_and_installation_requirements.html["Conditions requises pour l'installation et le logiciel Linux"].
+Voir link:reference_red_hat_software_and_installation_requirements.html["Conditions requises pour l'installation et le logiciel Linux"].
 
 . Sur le système Red Hat Enterprise Linux 8.x, installez la même version du logiciel Unified Manager que sur le système Red Hat Enterprise Linux 7.x.
 +
-Voir link:concept_install_unified_manager_on_rhel_or_centos.html["Installation de Unified Manager sous Linux"].
+Voir link:concept_install_unified_manager_on_rhel.html["Installation de Unified Manager sous Linux"].
 
 +
 Ne lancez pas l'interface utilisateur et ne configurez aucun cluster, utilisateur ou paramètre d'authentification lorsque l'installation est terminée. Le fichier de sauvegarde remplit ces informations lors du processus de restauration.

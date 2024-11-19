@@ -13,8 +13,7 @@ summary: 'Unified Manager génère des événements d"avertissement surexploité
 [role="lead"]
 Unified Manager génère des événements d'avertissement surexploités lorsqu'un nœud se trouve au-dessus des limites de son efficacité opérationnelle, et risque par conséquent d'affecter la latence des charges de travail. Ces événements définis par le système permettent de corriger les problèmes de performance potentiels avant que de nombreuses charges de travail ne soient affectées par la latence.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
 * En effet, il doit y avoir de nouveaux événements ou des événements de performances obsolètes.
 

@@ -13,8 +13,7 @@ summary: 'Ce flux de travail fournit un exemple de résolution d"un problème de
 [role="lead"]
 Ce flux de travail fournit un exemple de résolution d'un problème de capacité. Dans ce scénario, vous êtes administrateur ou opérateur et accédez à la page Unified ManagerDashboard pour voir si l'un des objets de stockage surveillés présente des problèmes de capacité. Vous voulez déterminer la cause possible du problème et la résolution de celui-ci.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
 
 Sur la page Tableau de bord, vous recherchez un événement d'erreur « espace de volume plein » dans le panneau capacité sous la liste déroulante événements.

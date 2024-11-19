@@ -18,8 +18,7 @@ NOTE: Les règles Active IQ sont également appelées règles sécurisées Confi
 
 Lorsque vous installez ou mettez à niveau Unified Manager vers une version spécifique d'un site sans connectivité réseau, les règles Active IQ fournies sont automatiquement disponibles en téléchargement. Toutefois, il est recommandé de télécharger un nouveau fichier de règles environ une fois par mois sur le site de support NetApp afin de garantir la génération d'événements mis à jour et le fonctionnement optimal de vos systèmes de stockage.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Le reporting sur les événements affectant le portail Active IQ doit être activé. Cette fonctionnalité est activée par défaut. Pour plus d'informations, reportez-vous à la section link:../config/concept_active_iq_platform_events.html["Activation des événements du portail Active IQ"].
 * Vous devez télécharger le fichier de règles depuis le site de support NetApp.
 +

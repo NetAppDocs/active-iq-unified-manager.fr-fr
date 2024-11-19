@@ -13,8 +13,7 @@ summary: 'Vous pouvez spécifier la valeur du délai d"inactivité pour Unified 
 [role="lead"]
 Vous pouvez spécifier la valeur du délai d'inactivité pour Unified Manager afin que la session soit automatiquement arrêtée au bout d'un certain temps. Par défaut, le délai est défini sur 4,320 minutes (72 heures).
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications.
 
 Ce paramètre affecte toutes les sessions utilisateur connectées.

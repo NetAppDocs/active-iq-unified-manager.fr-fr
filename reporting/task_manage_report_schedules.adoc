@@ -13,9 +13,8 @@ summary: Vous pouvez gérer vos planifications de rapports à partir de la page 
 [role="lead"]
 Vous pouvez gérer vos planifications de rapports à partir de la page programmes de rapports. Vous pouvez afficher, modifier ou supprimer des planifications existantes.
 
-*Ce dont vous aurez besoin*
-
 [NOTE]
+.Avant de commencer
 ====
 Vous ne pouvez pas programmer de nouveaux rapports à partir de la page Rapports horaires. Vous pouvez uniquement ajouter des rapports planifiés à partir des pages de stock d'objets.
 

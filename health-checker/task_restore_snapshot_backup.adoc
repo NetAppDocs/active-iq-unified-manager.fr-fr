@@ -13,8 +13,7 @@ summary: 'En cas de perte ou de corruption des données, Unified Manager peut ê
 [role="lead"]
 En cas de perte ou de corruption des données, Unified Manager peut être restauré vers l'état stable précédent avec un minimum de perte de données. Vous pouvez restaurer la base de données Snapshot Unified Manager sur un système d'exploitation local ou distant via la console de maintenance Unified Manager.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez disposer des informations d'identification utilisateur root pour l'hôte Linux et des privilèges d'administration pour la machine hôte Windows sur laquelle Unified Manager est installé.
 * Vous devez disposer d'un ID utilisateur et d'un mot de passe autorisés pour vous connecter à la console de maintenance du serveur Unified Manager.
 

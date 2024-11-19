@@ -13,8 +13,7 @@ summary: 'Vous pouvez créer des règles pour spécifier l"adresse e-mail en fon
 [role="lead"]
 Vous pouvez créer des règles pour spécifier l'adresse e-mail en fonction du quota d'utilisateur associé aux clusters, aux SVM (Storage Virtual machine), aux volumes, aux qtrees, aux utilisateurs ou aux groupes d'utilisateurs. Une notification est envoyée à l'adresse e-mail spécifiée lorsqu'une violation de quota est constatée.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 * Vous devez avoir passé en revue les directives de la page règles de génération de l'adresse e-mail de quota d'utilisateur et de groupe.
 

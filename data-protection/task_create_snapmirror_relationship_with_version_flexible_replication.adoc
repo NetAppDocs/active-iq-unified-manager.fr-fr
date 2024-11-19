@@ -13,8 +13,7 @@ summary: 'Vous pouvez créer une relation SnapMirror avec la réplication flexib
 [role="lead"]
 Vous pouvez créer une relation SnapMirror avec la réplication flexible de la version. La réplication flexible de la version vous permet d'implémenter la protection SnapMirror, même si les volumes source et de destination s'exécutent sous différentes versions d'ONTAP.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 * Vous devez avoir configuré Workflow Automation.
 * Les SVM source et destination doivent tous deux disposer d'une licence SnapMirror activée.

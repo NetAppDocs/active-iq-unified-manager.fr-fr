@@ -13,8 +13,7 @@ summary: 'Vous pouvez mettre à niveau Unified Manager en téléchargeant et en 
 [role="lead"]
 Vous pouvez mettre à niveau Unified Manager 9.13 ou 9.14 vers 9.16 en téléchargeant et en exécutant le fichier d'installation sur la plate-forme Windows.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Le système sur lequel vous mettez à niveau Unified Manager doit répondre à la configuration système et logicielle requise.
 +
 Voir link:concept_virtual_infrastructure_or_hardware_system_requirements.html["Configuration matérielle requise"].
@@ -34,7 +33,7 @@ Voir link:reference_windows_software_and_installation_requirements.html["Conditi
 Assurez-vous que Microsoft .NET 4.5.2 ou une version ultérieure est installé sur votre système avant de démarrer la mise à niveau.
 
 ====
-* MySQL Community Edition est automatiquement mis à niveau lors de la mise à niveau d'Unified Manager. Si la version installée de MySQL sur votre système est antérieure à la version 8.0.34, le processus de mise à niveau d'Unified Manager met automatiquement à niveau MySQL vers la version 8.0.34. Vous ne devez pas exécuter une mise à niveau autonome d'une version antérieure de MySQL vers la version 8.0.34.
+* MySQL Community Edition est automatiquement mis à niveau lors de la mise à niveau d'Unified Manager. Si la version installée de MySQL sur votre système est antérieure à la version 8.0.37, le processus de mise à niveau d'Unified Manager met automatiquement à niveau MySQL vers la version 8.0.37. Vous ne devez pas exécuter une mise à niveau autonome d'une version antérieure de MySQL vers la version 8.0.37.
 * Tous les clusters sont pris en charge, à l'exception des systèmes ASA r2.
 * Vous devez disposer des privilèges d'administrateur Windows. Assurez-vous que votre nom d'utilisateur ne commence pas par un point d'exclamation ""!`". Installation of Unified Manager might fail if the user name of user running the installation begins with "`!».
 * Vous devez disposer d'identifiants valides pour vous connecter au site du support NetApp.

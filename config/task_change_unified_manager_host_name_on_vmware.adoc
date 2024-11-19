@@ -13,8 +13,7 @@ summary: 'Un nom est attribué à l"hôte réseau lors du premier déploiement d
 [role="lead"]
 Un nom est attribué à l'hôte réseau lors du premier déploiement de l'appliance virtuelle Unified Manager. Vous pouvez modifier le nom d'hôte après le déploiement. Si vous modifiez le nom d'hôte, vous devez également régénérer le certificat HTTPS.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez être connecté à Unified Manager en tant qu'utilisateur de maintenance, ou avoir le rôle d'administrateur d'applications qui vous est attribué pour effectuer ces tâches.
 
 Vous pouvez utiliser le nom d'hôte (ou l'adresse IP de l'hôte) pour accéder à l'interface utilisateur Web Unified Manager. Si vous avez configuré une adresse IP statique pour votre réseau pendant le déploiement, vous avez alors désigné un nom pour l'hôte réseau. Si vous avez configuré le réseau à l'aide de DHCP, le nom d'hôte doit être pris du DNS. Si DHCP ou DNS n'est pas correctement configuré, le nom d'hôte « Unified Manager » est automatiquement attribué et associé au certificat de sécurité.

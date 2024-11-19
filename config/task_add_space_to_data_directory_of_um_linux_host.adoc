@@ -13,8 +13,7 @@ summary: 'Si vous avez alloué un espace disque insuffisant à l" `/opt/netapp/d
 [role="lead"]
 Si vous avez alloué un espace disque insuffisant à l' `/opt/netapp/data` Répertoire pour prendre en charge Unified Manager lorsque vous configurez l'hôte Linux à l'origine, puis que Unified Manager a été installé, vous pouvez ajouter de l'espace disque après l'installation en augmentant l'espace disque sur le `/opt/netapp/data` répertoire.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez disposer d'un accès utilisateur root à la machine Red Hat Enterprise Linux sur laquelle Unified Manager est installé.
 
 Nous vous recommandons de sauvegarder la base de données Unified Manager avant d'augmenter la taille du répertoire de données.

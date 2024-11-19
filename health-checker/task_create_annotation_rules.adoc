@@ -13,8 +13,7 @@ summary: 'Unified Manager permet également de créer des règles d"annotations 
 [role="lead"]
 Unified Manager permet également de créer des règles d'annotations dynamiques pour les objets de stockage tels que les volumes, les clusters ou les SVM.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 Les objets de stockage actuellement surveillés sont annotés dès la création de la règle d'annotation. Les nouveaux objets ne sont annotés qu'une fois le cycle de surveillance terminé.

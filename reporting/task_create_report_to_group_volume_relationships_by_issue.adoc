@@ -13,8 +13,7 @@ summary: Vous pouvez créer un rapport qui regroupe les relations de volume par 
 [role="lead"]
 Vous pouvez créer un rapport qui regroupe les relations de volume par problème.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 

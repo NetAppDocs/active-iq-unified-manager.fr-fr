@@ -13,8 +13,7 @@ summary: Vous pouvez utiliser la boîte de dialogue Créer un pool de ressources
 [role="lead"]
 Vous pouvez utiliser la boîte de dialogue Créer un pool de ressources pour regrouper les agrégats à des fins de provisionnement.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 .Étapes

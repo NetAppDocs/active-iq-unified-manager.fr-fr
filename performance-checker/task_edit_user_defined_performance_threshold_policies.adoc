@@ -13,8 +13,7 @@ summary: 'Vous pouvez modifier les paramètres de seuil des règles de seuils de
 [role="lead"]
 Vous pouvez modifier les paramètres de seuil des règles de seuils de performances existantes. Cela peut être utile si vous constatez que vous recevez trop ou trop peu d'alertes pour certaines conditions de seuil.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications.
 
 Vous ne pouvez pas modifier le nom de la règle ou le type d'objet de stockage actuellement contrôlé pour les règles de seuils existantes.

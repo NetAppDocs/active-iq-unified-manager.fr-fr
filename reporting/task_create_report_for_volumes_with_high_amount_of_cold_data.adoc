@@ -13,8 +13,7 @@ summary: Vous pouvez créer un rapport pour afficher les volumes contenant une q
 [role="lead"]
 Vous pouvez créer un rapport pour afficher les volumes contenant une quantité importante de données inactives sur un agrégat non FabricPool. Cela peut vous aider à identifier les volumes à transférer vers un agrégat FabricPool.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 

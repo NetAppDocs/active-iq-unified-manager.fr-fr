@@ -13,8 +13,7 @@ summary: 'Vous pouvez utiliser Unified Manager pour analyser le cluster dans une
 [role="lead"]
 Vous pouvez utiliser Unified Manager pour analyser le cluster dans une configuration MetroCluster sur laquelle un événement de performances a été détecté. Vous pouvez identifier le nom du cluster, le temps de détection des événements et les charges de travail _tyran_ et _victime_ impliquées.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
 * Dans une configuration MetroCluster, il doit y avoir de nouveaux événements de performances, confirmés ou obsolètes.
 * Les deux clusters de la configuration MetroCluster doivent être surveillés par la même instance de Unified Manager.

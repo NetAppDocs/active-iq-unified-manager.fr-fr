@@ -13,8 +13,7 @@ summary: 'Si l"interface utilisateur Unified Manager n"est pas en cours de fonct
 [role="lead"]
 Si l'interface utilisateur Unified Manager n'est pas en cours de fonctionnement ou si vous devez effectuer des fonctions qui ne sont pas disponibles dans l'interface utilisateur, vous pouvez accéder à la console de maintenance pour reconfigurer l'appliance virtuelle.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez être l'utilisateur de maintenance.
 * L'appliance virtuelle doit être mise sous tension pour accéder à la console de maintenance.
 

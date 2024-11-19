@@ -13,8 +13,7 @@ summary: 'Vous pouvez utiliser la souris pour réduire la plage de temps pour vo
 [role="lead"]
 Vous pouvez utiliser la souris pour réduire la plage de temps pour vous concentrer sur une période spécifique dans le volet Tableau des compteurs ou dans la fenêtre vue Zoom des diagrammes des compteurs. Cela vous permet d'obtenir une vue plus granulaire et microscopique de n'importe quelle partie de la chronologie des données de performances, des événements et des seuils.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Le curseur doit avoir été remplacé par une loupe pour indiquer que cette fonctionnalité est active.
 
 [NOTE]

@@ -13,8 +13,7 @@ summary: 'Une fois que vous avez suspendu une relation pour arrêter les transfe
 [role="lead"]
 Une fois que vous avez suspendu une relation pour arrêter les transferts programmés, vous pouvez utiliser *Resume* sur la page Volume / Détails de l'état de santé pour réactiver les transferts programmés afin que les données sur le volume source ou primaire soient protégées. Les transferts reprennent à partir d'un point de contrôle, le cas échéant, à l'intervalle de transfert planifié suivant.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 * Vous devez avoir configuré Workflow Automation.
 

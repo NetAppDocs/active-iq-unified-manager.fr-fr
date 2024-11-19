@@ -13,8 +13,7 @@ summary: 'Après avoir téléchargé le fichier d"installation, vous déployez U
 [role="lead"]
 Après avoir téléchargé le fichier d'installation, vous déployez Unified Manager en tant qu'appliance virtuelle. Utilisez le client Web vSphere pour déployer l'appliance virtuelle sur un serveur ESXi. Lorsque vous déployez l'appliance virtuelle, une machine virtuelle est créée.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Il est recommandé de passer en revue la configuration système requise. Apportez les modifications nécessaires avant de déployer l'appliance virtuelle Unified Manager.
 
 Voir link:concept_virtual_infrastructure_or_hardware_system_requirements.html["Besoins de l'infrastructure virtuelle"].

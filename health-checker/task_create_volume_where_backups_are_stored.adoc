@@ -13,8 +13,7 @@ summary: 'Vous pouvez configurer le volume sur lequel les copies Snapshot seront
 [role="lead"]
 Vous pouvez configurer le volume sur lequel les copies Snapshot seront stockées sur l'un de vos clusters ONTAP à l'aide de ONTAP System Manager ou de l'interface de ligne de commandes ONTAP.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Le cluster, la VM de stockage et le volume doivent satisfaire aux exigences suivantes :
 
 * Configuration requise pour le cluster :

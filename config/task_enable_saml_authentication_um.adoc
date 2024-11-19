@@ -13,8 +13,7 @@ summary: 'Vous pouvez activer l"authentification SAML (Security assertion Markup
 [role="lead"]
 Vous pouvez activer l'authentification SAML (Security assertion Markup Language) pour que les utilisateurs distants soient authentifiés par un fournisseur d'identités sécurisé avant d'accéder à l'interface utilisateur Web d'Unified Manager.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir configuré l'authentification à distance et vérifié qu'elle a réussi.
 * Vous devez avoir créé au moins un utilisateur distant ou un groupe distant avec le rôle Administrateur d'applications.
 * Le fournisseur d'identités doit être pris en charge par Unified Manager et doit être configuré.

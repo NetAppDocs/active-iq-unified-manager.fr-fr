@@ -13,8 +13,7 @@ summary: 'Lorsqu"un incident désactive le volume source de votre relation de pr
 [role="lead"]
 Lorsqu'un incident désactive le volume source de votre relation de protection, vous pouvez utiliser le volume de destination pour transmettre des données en le convertissant en volume de lecture/écriture pendant que vous réparez ou remplacez la source. Lorsque la source est de nouveau disponible pour recevoir des données, vous pouvez utiliser l'opération de resynchronisation inverse pour établir la relation dans le sens inverse, en synchronisant les données de la source avec celles de la destination de lecture/écriture.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 * Vous devez avoir configuré Workflow Automation.
 * La relation ne doit pas être une relation SnapVault.

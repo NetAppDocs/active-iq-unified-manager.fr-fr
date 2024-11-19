@@ -13,8 +13,7 @@ summary: 'Vous pouvez supprimer un script d"Unified Manager lorsque le script n"
 [role="lead"]
 Vous pouvez supprimer un script d'Unified Manager lorsque le script n'est plus nécessaire ou valide.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 * Le script ne doit pas être associé à une alerte.
 

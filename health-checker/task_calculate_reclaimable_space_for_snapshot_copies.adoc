@@ -13,8 +13,7 @@ summary: 'Vous pouvez calculer la quantité d"espace disque qui peut être récu
 [role="lead"]
 Vous pouvez calculer la quantité d'espace disque qui peut être récupérée si une ou plusieurs copies Snapshot sont supprimées.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
 * Le volume doit être en ligne.
 * Le volume doit être un volume FlexVol. Cette fonctionnalité n'est pas prise en charge avec les volumes FlexGroup.

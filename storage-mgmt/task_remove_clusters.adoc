@@ -13,8 +13,7 @@ summary: 'Vous pouvez supprimer un cluster de Unified Manager en utilisant la pa
 [role="lead"]
 Vous pouvez supprimer un cluster de Unified Manager en utilisant la page Cluster Setup. Par exemple, vous pouvez supprimer un cluster si la détection d'un cluster échoue ou si vous souhaitez désaffecter un système de stockage.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez disposer du rôle Administrateur d'applications ou Administrateur stockage.
 
 Cette tâche supprime le cluster sélectionné de Unified Manager. Après le retrait d'un cluster, il n'est plus surveillé. De même, l'instance de Unified Manager enregistrée avec le cluster supprimé n'est pas enregistrée du cluster.

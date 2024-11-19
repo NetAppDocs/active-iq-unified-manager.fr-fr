@@ -13,8 +13,7 @@ summary: Tous les événements sont activés par défaut. Vous pouvez désactive
 [role="lead"]
 Tous les événements sont activés par défaut. Vous pouvez désactiver des événements spécifiques pour empêcher la génération de notifications pour les événements qui ne sont pas importants dans votre environnement. Vous pouvez activer les événements désactivés si vous souhaitez reprendre la réception de notifications pour eux.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 Lorsque vous désactivez des événements, les événements générés précédemment dans le système sont signalés comme obsolètes et les alertes configurées pour ces événements ne sont pas déclenchées. Lorsque vous activez des événements désactivés, les notifications de ces événements sont générées à partir du cycle de surveillance suivant.

@@ -13,8 +13,7 @@ summary: 'Vous pouvez afficher les détails de tous les partages SMB/CIFS, notam
 [role="lead"]
 Vous pouvez afficher les détails de tous les partages SMB/CIFS, notamment le nom du partage, le chemin de jonction, l'contenant les objets, les paramètres de sécurité et les règles d'exportation définies pour le partage. Utilisez la vue Santé : tous les partages SMB pour voir tous les partages SMB sur tous les clusters surveillés et utilisez la page Storage VM / Health details pour afficher tous les partages SMB sur un SVM spécifique.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * La licence CIFS doit être activée sur le cluster.
 * Les interfaces réseau servant les partages SMB/CIFS doivent être configurées.
 * Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.

@@ -13,8 +13,7 @@ summary: 'Une fois la vue enregistrée, vous pouvez la télécharger au format c
 [role="lead"]
 Une fois la vue enregistrée, vous pouvez la télécharger au format classeur Excel (.xlsx). Lorsque vous ouvrez le fichier Excel, vous pouvez utiliser des fonctions Excel avancées pour personnaliser votre rapport.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous ne pouvez charger qu'un fichier classeur Excel avec l'extension .xlsx.
 
 Par exemple, certaines fonctions Excel avancées que vous pouvez utiliser dans votre rapport sont les suivantes :

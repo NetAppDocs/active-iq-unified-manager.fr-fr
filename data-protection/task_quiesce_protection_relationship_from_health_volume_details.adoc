@@ -13,8 +13,7 @@ summary: 'Vous pouvez suspendre une relation de protection pour empêcher tempor
 [role="lead"]
 Vous pouvez suspendre une relation de protection pour empêcher temporairement les transferts de données. Vous pouvez suspendre une relation lorsque vous souhaitez créer une copie Snapshot d'un volume de destination SnapMirror qui contient une base de données. Vous devez également vous assurer que son contenu est stable pendant la copie Snapshot.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 * Vous devez avoir configuré Workflow Automation.
 

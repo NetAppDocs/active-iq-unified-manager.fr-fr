@@ -15,8 +15,7 @@ Vous pouvez générer un pack contenant les informations de diagnostic, de mani�
 
 Depuis Unified Manager 9.8, si votre serveur Unified Manager est connecté à Internet, vous pouvez également charger le pack de support à NetApp à partir de la console de maintenance.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Comme utilisateur de maintenance, vous devez avoir accès à la console de maintenance.
 
 Comme certains types de données de support peuvent utiliser une grande quantité de ressources de cluster ou prendre beaucoup de temps, lorsque vous sélectionnez le bundle de support complet, vous pouvez spécifier des types de données à inclure ou exclure pour réduire la taille du paquet de support. Vous avez également la possibilité de créer un pack de support léger qui contient seulement 30 jours de journaux et d'enregistrements de base de données de configuration -- cela exclut les données de performances, les fichiers d'enregistrement d'acquisition et le vidage du segment de mémoire du serveur.

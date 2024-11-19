@@ -13,8 +13,7 @@ summary: 'Il peut s"avérer nécessaire de redémarrer Unified Manager après av
 [role="lead"]
 Il peut s'avérer nécessaire de redémarrer Unified Manager après avoir apporté des modifications à la configuration.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez disposer d'un accès utilisateur root au serveur Red Hat Enterprise Linux sur lequel Unified Manager est installé.
 
 .Étapes

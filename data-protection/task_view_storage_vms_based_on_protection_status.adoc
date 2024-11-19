@@ -13,8 +13,7 @@ summary: 'Vous pouvez utiliser la page Storage VM de l"inventaire pour afficher 
 [role="lead"]
 Vous pouvez utiliser la page Storage VM de l'inventaire pour afficher toutes les machines virtuelles de stockage de Active IQ Unified Manager et filtrer les machines virtuelles de stockage en fonction de leur état de protection.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 Un nouveau rôle de protection est ajouté dans la vue des VM de stockage qui fournit des informations sur la protection ou non de la machine virtuelle de stockage.

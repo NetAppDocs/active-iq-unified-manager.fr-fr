@@ -13,8 +13,7 @@ summary: Vous pouvez créer un rapport pour analyser la capacité dans un fichie
 [role="lead"]
 Vous pouvez créer un rapport pour analyser la capacité dans un fichier Excel en utilisant les totaux additionnés et le format de graphique de colonnes en cluster.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 

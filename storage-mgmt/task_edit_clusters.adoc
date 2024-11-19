@@ -13,8 +13,7 @@ summary: 'Vous pouvez modifier les paramètres d"un cluster existant, comme le n
 [role="lead"]
 Vous pouvez modifier les paramètres d'un cluster existant, comme le nom d'hôte ou l'adresse IP, le nom d'utilisateur, le mot de passe et le port, à l'aide de la boîte de dialogue Modifier le cluster.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez disposer du rôle Administrateur d'applications ou Administrateur stockage.
 
 [NOTE]

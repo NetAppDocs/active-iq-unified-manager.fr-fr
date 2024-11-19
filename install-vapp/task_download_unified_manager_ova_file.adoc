@@ -13,8 +13,7 @@ summary: 'Téléchargez le fichier d"installation Unified Manager depuis le site
 [role="lead"]
 Téléchargez le fichier d'installation Unified Manager depuis le site de support NetApp pour déployer Unified Manager en tant que dispositif virtuel.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez disposer des identifiants de connexion pour le site du support NetApp.
 
 Le fichier d'installation est un `.tar` fichier contenant un certificat racine, a `README` fichier et un `OVA` Fichier contenant le logiciel Unified Manager configuré pour une appliance virtuelle.

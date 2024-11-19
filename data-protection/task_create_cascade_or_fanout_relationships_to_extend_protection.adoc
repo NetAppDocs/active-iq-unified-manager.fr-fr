@@ -15,8 +15,7 @@ Vous pouvez étendre la protection à partir d'une relation existante en créant
 
 Vous pouvez étendre la protection aux volumes à l'aide d'un groupe de cohérence, un conteneur qui contient plusieurs volumes de manière à pouvoir gérer tous les volumes en tant qu'entité unique. Vous pouvez afficher le groupe de cohérence de la synchronisation active SnapMirror et la relation de groupe de cohérence synchrone dans la page relations d'Unified Manager.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 * Vous devez avoir configuré Workflow Automation.
 

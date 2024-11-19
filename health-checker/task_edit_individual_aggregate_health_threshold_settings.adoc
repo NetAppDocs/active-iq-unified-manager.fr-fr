@@ -13,8 +13,7 @@ summary: 'Vous pouvez modifier les paramètres du seuil de santé pour la capaci
 [role="lead"]
 Vous pouvez modifier les paramètres du seuil de santé pour la capacité globale, la croissance et les copies Snapshot d'un ou plusieurs agrégats. Lorsqu'un seuil est franchi, des alertes sont générées et vous recevez des notifications. Ces notifications vous aident à prendre des mesures préventives en fonction de l'événement généré.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 En fonction des modifications apportées aux valeurs de seuil, les événements sont générés ou obsolètes dans le cycle de surveillance suivant.

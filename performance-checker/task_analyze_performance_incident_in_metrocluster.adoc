@@ -13,8 +13,7 @@ summary: 'Vous pouvez utiliser Unified Manager pour analyser les événements de
 [role="lead"]
 Vous pouvez utiliser Unified Manager pour analyser les événements de performances dynamiques sur un cluster distant dans une configuration MetroCluster. L'analyse vous permet de déterminer si un événement sur le cluster distant a provoqué un événement sur son cluster partenaire.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
 * Vous devez avoir analysé un événement de performance sur un cluster local dans une configuration MetroCluster et obtenu le temps de détection de l'événement.
 * Vous devez avoir vérifié l'état de santé du cluster local et de son groupe de partenaires impliqué dans l'événement de performance et avoir obtenu le nom du groupe de partenaires.

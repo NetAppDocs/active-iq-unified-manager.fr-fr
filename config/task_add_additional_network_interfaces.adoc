@@ -13,8 +13,7 @@ summary: Vous pouvez ajouter de nouvelles interfaces réseau si vous devez sépa
 [role="lead"]
 Vous pouvez ajouter de nouvelles interfaces réseau si vous devez séparer le trafic réseau.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir ajouté l'interface réseau à l'appliance virtuelle à l'aide de vSphere.
 
 L'appliance virtuelle doit être sous tension.

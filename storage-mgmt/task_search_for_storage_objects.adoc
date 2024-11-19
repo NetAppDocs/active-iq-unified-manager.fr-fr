@@ -13,8 +13,7 @@ summary: 'Pour accéder rapidement à un objet spécifique, vous pouvez utiliser
 [role="lead"]
 Pour accéder rapidement à un objet spécifique, vous pouvez utiliser le champ *Rechercher tous les objets de stockage* en haut de la barre de menus. Cette méthode de recherche globale sur tous les objets vous permet de localiser rapidement des objets spécifiques par type. Les résultats de la recherche sont classés par type d'objet de stockage et vous pouvez les filtrer davantage par objet à l'aide du menu déroulant.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Pour effectuer cette tâche, vous devez avoir l'un des rôles suivants : opérateur, administrateur d'applications ou administrateur de stockage.
 * Une recherche valide doit contenir au moins trois caractères.
 

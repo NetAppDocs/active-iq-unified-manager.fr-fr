@@ -13,8 +13,7 @@ summary: 'Vous pouvez supprimer une alerte lorsqu"elle n"est plus requise. Par e
 [role="lead"]
 Vous pouvez supprimer une alerte lorsqu'elle n'est plus requise. Par exemple, vous pouvez supprimer une alerte créée pour une ressource spécifique lorsque cette ressource n'est plus surveillée par Unified Manager.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications.
 
 .Étapes

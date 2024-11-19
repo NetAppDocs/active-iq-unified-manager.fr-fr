@@ -13,8 +13,7 @@ summary: 'Vous pouvez supprimer une action de groupe de Unified Manager lorsque 
 [role="lead"]
 Vous pouvez supprimer une action de groupe de Unified Manager lorsque l'action de groupe n'est plus nécessaire.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 Lorsque vous supprimez l'action de groupe pour le seuil d'intégrité du volume, des seuils globaux sont appliqués aux objets de stockage de ce groupe. Les seuils de santé des niveaux objet définis sur l'objet de stockage ne sont pas affectés.

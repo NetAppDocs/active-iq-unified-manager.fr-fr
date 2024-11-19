@@ -13,8 +13,7 @@ summary: 'Vous pouvez créer une relation SnapVault à l"aide de la page des dé
 [role="lead"]
 Vous pouvez créer une relation SnapVault à l'aide de la page des détails de volume/intégrité, de sorte que les sauvegardes de données soient activées à des fins de protection sur des volumes.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 * Vous devez avoir configuré Workflow Automation pour effectuer cette tâche.
 

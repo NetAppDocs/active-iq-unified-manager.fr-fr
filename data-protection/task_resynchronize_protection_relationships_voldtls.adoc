@@ -13,8 +13,7 @@ summary: 'Vous pouvez resynchroniser les données d"une relation SnapMirror ou S
 [role="lead"]
 Vous pouvez resynchroniser les données d'une relation SnapMirror ou SnapVault interrompue, puis la destination a été créée en lecture/écriture afin que les données de la source correspondent aux données de destination. Vous pouvez également resynchroniser lorsqu'une copie Snapshot commune requise sur le volume source est supprimée, entraînant l'échec des mises à jour de SnapMirror ou de SnapVault.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 * Vous devez avoir configuré OnCommand Workflow Automation.
 

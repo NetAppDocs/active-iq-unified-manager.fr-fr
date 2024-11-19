@@ -13,8 +13,7 @@ summary: 'Vous pouvez utiliser la page travaux pour contrôler l"état des trava
 [role="lead"]
 Vous pouvez utiliser la page travaux pour contrôler l'état des travaux et afficher les propriétés des travaux, telles que le type de service de stockage, l'état, l'heure de soumission et l'heure de fin pour déterminer si un travail s'est terminé avec succès ou non.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 .Étapes

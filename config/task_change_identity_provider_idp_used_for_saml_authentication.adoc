@@ -13,8 +13,7 @@ summary: 'Vous pouvez modifier le fournisseur d"identités utilisé par Unified 
 [role="lead"]
 Vous pouvez modifier le fournisseur d'identités utilisé par Unified Manager pour authentifier les utilisateurs distants.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez disposer de l'URL IDP et des métadonnées.
 * Vous devez avoir accès au PDI.
 

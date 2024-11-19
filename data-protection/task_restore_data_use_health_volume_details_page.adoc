@@ -13,8 +13,7 @@ summary: 'Vous pouvez restaurer des fichiers, des répertoires ou un volume enti
 [role="lead"]
 Vous pouvez restaurer des fichiers, des répertoires ou un volume entier à partir d'une copie Snapshot remplacés ou supprimés. Pour ce faire, utilisez la fonctionnalité de restauration des pages d'informations sur le volume et le volume/l'état.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 

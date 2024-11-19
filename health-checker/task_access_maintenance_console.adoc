@@ -13,8 +13,7 @@ summary: 'Si l"interface utilisateur Unified Manager n"est pas en cours de fonct
 [role="lead"]
 Si l'interface utilisateur Unified Manager n'est pas en cours de fonctionnement ou si vous devez effectuer des fonctions qui ne sont pas disponibles dans l'interface utilisateur, vous pouvez accéder à la console de maintenance pour gérer votre système Unified Manager.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir installé et configuré Unified Manager.
 
 Après 15 minutes d'inactivité, la console de maintenance vous déconnecte.

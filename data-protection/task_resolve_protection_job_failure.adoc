@@ -13,8 +13,7 @@ summary: 'Ce flux de travail fournit un exemple d"identification et de résoluti
 [role="lead"]
 Ce flux de travail fournit un exemple d'identification et de résolution d'une défaillance de tâche de protection à partir du tableau de bord Unified Manager.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Comme certaines tâches de ce flux de travail nécessitent de vous connecter à l'aide du rôle Administrateur, vous devez connaître les rôles requis pour utiliser diverses fonctionnalités.
 
 Dans ce scénario, vous accédez à la page Tableau de bord pour voir s'il y a des problèmes avec vos tâches de protection. Dans la zone incident de protection, vous remarquez qu'un incident de fin de tâche est survenu, indiquant une erreur d'échec de tâche de protection sur un volume. Vous étudiez cette erreur afin de déterminer la cause possible et la résolution potentielle.

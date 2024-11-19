@@ -13,8 +13,7 @@ summary: 'Si vous devez augmenter la quantité d"espace sur le disque de donnée
 [role="lead"]
 Si vous devez augmenter la quantité d'espace sur le disque de données de la base de données Unified Manager, vous pouvez ajouter de la capacité après l'installation en augmentant l'espace disque à l'aide de la console de maintenance Unified Manager.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir accès au client vSphere.
 * Aucun snapshot ne doit être stocké localement sur la machine virtuelle.
 * Vous devez disposer des informations d'identification de l'utilisateur de maintenance.

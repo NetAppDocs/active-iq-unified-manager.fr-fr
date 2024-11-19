@@ -13,8 +13,7 @@ summary: 'Après avoir démarré un travail, vous pouvez suivre sa progression �
 [role="lead"]
 Après avoir démarré un travail, vous pouvez suivre sa progression à partir de la page Détails du travail et contrôler les tâches associées pour détecter d'éventuelles erreurs.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 .Étapes

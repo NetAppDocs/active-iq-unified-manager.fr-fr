@@ -13,8 +13,7 @@ summary: 'Vous pouvez modifier les adresses e-mail en fonction des quotas d"util
 [role="lead"]
 Vous pouvez modifier les adresses e-mail en fonction des quotas d'utilisateurs associés aux clusters, aux SVM (Storage Virtual machine), aux volumes, aux qtrees, aux utilisateurs ou aux groupes d'utilisateurs. Vous pouvez modifier l'adresse e-mail lorsque vous souhaitez remplacer l'adresse e-mail générée par des règles spécifiées dans la boîte de dialogue règles de génération d'adresse e-mail de quota utilisateur et de groupe.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
 * Vous devez avoir consulté le link:reference_rules_to_generate_user_and_group_quota.html["instructions pour la création de règles"].
 

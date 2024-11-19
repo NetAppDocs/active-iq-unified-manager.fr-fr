@@ -13,8 +13,7 @@ summary: Vous pouvez créer un rapport pour afficher les transferts de volumes e
 [role="lead"]
 Vous pouvez créer un rapport pour afficher les transferts de volumes en fonction de la taille du transfert.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 

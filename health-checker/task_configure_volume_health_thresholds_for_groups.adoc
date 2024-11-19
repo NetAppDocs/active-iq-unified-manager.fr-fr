@@ -13,8 +13,7 @@ summary: 'Vous pouvez configurer des seuils d"état du volume au niveau du group
 [role="lead"]
 Vous pouvez configurer des seuils d'état du volume au niveau du groupe pour la capacité, les copies Snapshot, les quotas qtree, la croissance et les inodes.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 Le type de seuil d'intégrité du volume de l'action de groupe est appliqué uniquement sur les volumes d'un groupe.

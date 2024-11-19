@@ -13,8 +13,7 @@ summary: 'Vous pouvez modifier les paramètres du seuil d"intégrité pour la ca
 [role="lead"]
 Vous pouvez modifier les paramètres du seuil d'intégrité pour la capacité du volume, la croissance, les quotas et la réserve d'espace d'un ou plusieurs volumes. Lorsqu'un seuil est franchi, des alertes sont générées et vous recevez des notifications. Ces notifications vous aident à prendre des mesures préventives en fonction de l'événement généré.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 En fonction des modifications apportées aux valeurs de seuil, les événements sont générés ou obsolètes dans le cycle de surveillance suivant.

@@ -13,8 +13,7 @@ summary: 'Vous pouvez créer des volumes de partage de fichiers qui prennent en 
 [role="lead"]
 Vous pouvez créer des volumes de partage de fichiers qui prennent en charge les protocoles CIFS/SMB et NFS, sur un cluster existant et sur Storage Virtual machine (VM de stockage) à partir de la page provisionner les workloads.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * La VM de stockage doit disposer d'espace pour le provisionnement du volume de partage de fichiers.
 * Les services SMB et NFS doivent être activés sur la machine virtuelle de stockage.
 * Pour sélectionner et attribuer le niveau de service de performances (PSL) et la stratégie d'efficacité du stockage (SEP) sur la charge de travail, les règles doivent avoir été créées avant de commencer à créer la charge de travail.

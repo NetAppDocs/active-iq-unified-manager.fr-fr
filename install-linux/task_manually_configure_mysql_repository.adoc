@@ -21,15 +21,15 @@ Cette tâche peut échouer si le système ne dispose pas de la connectivité Int
 
 ====
 .Étapes
-. Téléchargez le référentiel MySQL approprié pour votre installation. Pour Red Hat Enterprise Linux 7, téléchargez-le à l'adresse suivante :
+. Téléchargez le référentiel MySQL approprié pour votre installation. Pour la version 8, téléchargez-la à l'adresse suivante :
 +
-`+wget http://repo.mysql.com/yum/mysql-8.0-community/el/7/x86_64/mysql80-community-release-el7-3.noarch.rpm+`
+`wget http://repo.mysql.com/yum/mysql-8.0-community/el/8/x86_64/mysql80-community-release-el8-1.noarch.rpm`
 
 +
-Pour la version 8, téléchargez-la à l'adresse suivante :
+Pour la version 9, téléchargez-la à l'adresse suivante :
 
 +
-`+wget http://repo.mysql.com/yum/mysql-8.0-community/el/8/x86_64/mysql80-community-release-el8-1.noarch.rpm+`
+`wget http://repo.mysql.com/yum/mysql-8.0-community/el/9/x86_64/mysql80-community-release-el9-1.noarch.rpm`
 
 . Configurez le référentiel MySQL :
 +

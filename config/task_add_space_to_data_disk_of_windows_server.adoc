@@ -13,8 +13,7 @@ summary: 'Si vous devez augmenter la quantité d"espace disque pour la base de d
 [role="lead"]
 Si vous devez augmenter la quantité d'espace disque pour la base de données Unified Manager, vous pouvez ajouter de la capacité au lecteur logique sur lequel Unified Manager est installé.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez disposer des privilèges d'administrateur Windows.
 
 Nous vous recommandons de sauvegarder la base de données Unified Manager avant d'ajouter de l'espace disque.

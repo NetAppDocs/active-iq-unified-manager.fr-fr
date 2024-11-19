@@ -13,8 +13,7 @@ summary: 'Après avoir accédé à la page des détails du volume/de l"état d"i
 [role="lead"]
 Après avoir accédé à la page des détails du volume/de l'état d'intégrité d'un volume signalé comme étant hors ligne, vous pouvez rechercher des informations supplémentaires utiles pour diagnostiquer la condition hors ligne du volume.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
 
 Si le volume signalé n'a pas été délibérément hors ligne, ce volume peut être hors ligne pour plusieurs raisons.

@@ -13,8 +13,7 @@ summary: 'Lorsque les règles d"efficacité du stockage définies par le systèm
 [role="lead"]
 Lorsque les règles d'efficacité du stockage définies par le système ne répondent pas aux exigences de vos workloads, vous pouvez créer vos propres règles d'efficacité du stockage optimisées pour vos charges de travail.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle Administrateur d'applications.
 * Le nom de la stratégie d'efficacité du stockage doit être unique et vous ne pouvez pas utiliser les mots-clés réservés suivants :
 +

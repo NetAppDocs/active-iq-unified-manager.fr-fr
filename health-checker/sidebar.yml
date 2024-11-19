@@ -165,7 +165,7 @@ entries:
         url: "/health-checker/concept_what_database_restore_is.html"
       - title: Restauration d'une sauvegarde de base de données MySQL sur un système
           Linux
-        url: "/health-checker/task_restore_mysql_db_on_linux_or_centos.html"
+        url: "/health-checker/task_restore_mysql_db_on_linux.html"
       - title: Restauration d'une sauvegarde de base de données MySQL sous Windows
         url: "/health-checker/task_restore_mysql_database_backup_on_windows.html"
     - title: Sauvegarde et restauration à l'aide des copies NetApp snapshots
@@ -202,7 +202,7 @@ entries:
     - title: Sauvegarde à la demande pour Unified Manager
       url: "/health-checker/concept_on_demand_backup_for_unified_manger.html"
     - title: Migration d'une appliance virtuelle Unified Manager vers un système Linux
-      url: "/health-checker/task_migrate_um_virtual_appliance_to_rhel_or_centos_system.html"
+      url: "/health-checker/task_migrate_um_virtual_appliance_to_rhel_system.html"
   - title: Gestion des scripts
     url: "/health-checker/concept_manage_scripts.html"
     entries:

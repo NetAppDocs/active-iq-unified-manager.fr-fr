@@ -13,8 +13,7 @@ summary: 'La création de groupes permet de combiner les clusters, les volumes e
 [role="lead"]
 La création de groupes permet de combiner les clusters, les volumes et les SVM (Storage Virtual machine) pour une gestion simplifiée.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 Vous pouvez définir des règles de groupe pour ajouter ou supprimer des membres du groupe et modifier les actions de groupe pour ce dernier.

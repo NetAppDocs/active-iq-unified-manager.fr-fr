@@ -1,5 +1,5 @@
 ---
-permalink: install-linux/reference_red_hat_and_centos_software_and_installation_requirements.html 
+permalink: install-linux/reference_red_hat_software_and_installation_requirements.html 
 sidebar: sidebar 
 keywords: linux software, installation requirements, system, authorization,  requirements 
 summary: 'Le système Linux sur lequel vous installez Unified Manager nécessite des versions spécifiques du système d"exploitation et des logiciels de prise en charge.' 
@@ -41,7 +41,7 @@ Les packages tiers suivants sont requis, mais ils ne sont pas inclus avec Unifie
 
 * MySQL Community Edition version 8.0.37 (à partir du référentiel MySQL).
 * OpenJDK version 11.0.23 (à partir du référentiel Red Hat Extra Enterprise Linux Server)
-* Python 3.6.x
+* Python 3.9.x (depuis le référentiel Red Hat Extra Enterprise Linux Server)
 * P7zip version 16.02 ou ultérieure (à partir du référentiel Red Hat Extra Packages for Enterprise Linux)
 
 

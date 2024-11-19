@@ -13,8 +13,7 @@ summary: 'Par défaut, Unified Manager stocke les données d"événements et de 
 [role="lead"]
 Par défaut, Unified Manager stocke les données d'événements et de performances pendant 6 mois pour l'ensemble des clusters surveillés. Après cette période, les données plus anciennes sont automatiquement supprimées pour faire place aux nouvelles données. Cette durée de conservation par défaut fonctionne parfaitement dans la plupart des configurations, mais de très grandes configurations comprenant plusieurs clusters et nœuds peuvent être nécessaires pour réduire la période de conservation afin que Unified Manager fonctionne de façon optimale.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications.
 
 Vous pouvez modifier les périodes de conservation de ces deux types de données dans la page conservation des données. Ces paramètres ont un impact sur la conservation des données depuis tous les clusters qui surveillent cette instance de Unified Manager.

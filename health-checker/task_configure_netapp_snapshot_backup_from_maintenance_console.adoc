@@ -13,8 +13,7 @@ summary: 'Pour sauvegarder Active IQ Unified Manager à l"aide de la copie Snaps
 [role="lead"]
 Pour sauvegarder Active IQ Unified Manager à l'aide de la copie Snapshot, vous devez effectuer quelques étapes de configuration à partir de la console de maintenance.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez disposer des informations suivantes pour votre système :
 
 * Adresse IP de cluster

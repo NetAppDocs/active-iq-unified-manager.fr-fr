@@ -13,8 +13,7 @@ summary: 'A partir de la vue Santé : tous les volumes, vous pouvez créer plusi
 [role="lead"]
 A partir de la vue Santé : tous les volumes, vous pouvez créer plusieurs relations de protection SnapMirror simultanément en sélectionnant plusieurs volumes sur la même VM de stockage.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 * Vous devez avoir configuré Workflow Automation.
 

@@ -13,8 +13,7 @@ summary: 'Vous pouvez configurer les alertes en cas d"événements de performanc
 [role="lead"]
 Vous pouvez configurer les alertes en cas d'événements de performance individuels comme n'importe quel autre événement reçu par Unified Manager. Par ailleurs, si vous souhaitez traiter tous les événements de performance comme si un e-mail est envoyé à la même personne, vous pouvez créer une seule alerte pour vous informer en cas de déclenchement d'événements de performance critiques ou d'avertissement.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 L'exemple ci-dessous montre comment créer un événement pour toutes les latence critique, les IOPS et les Mo/sec. Vous pouvez utiliser cette même méthodologie pour sélectionner des événements à partir de tous les compteurs de performances et pour tous les événements d'avertissement.

@@ -13,8 +13,7 @@ summary: 'Vous pouvez créer des règles de groupe pour ajouter de manière dyna
 [role="lead"]
 Vous pouvez créer des règles de groupe pour ajouter de manière dynamique des objets de stockage tels que les volumes, les clusters ou les SVM (Storage Virtual machine) au groupe. Vous devez configurer au moins un groupe de conditions avec au moins une condition pour créer une règle de groupe.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 Les objets de stockage actuellement surveillés sont ajoutés dès la création de la règle de groupe. Les nouveaux objets sont ajoutés uniquement une fois le cycle de surveillance terminé.

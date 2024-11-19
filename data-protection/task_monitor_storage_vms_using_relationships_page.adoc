@@ -13,8 +13,7 @@ summary: 'Vous pouvez surveiller vos relations de reprise après incident de mac
 [role="lead"]
 Vous pouvez surveiller vos relations de reprise après incident de machine virtuelle de stockage depuis la page relations de la section PROTECTION de l'INVENTAIRE. Par défaut, la page relations répertorie uniquement les relations de premier niveau lorsque le filtre de relations composant est appliqué.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 Vous utilisez des filtres pour afficher les relations de reprise après incident des machines virtuelles de stockage.

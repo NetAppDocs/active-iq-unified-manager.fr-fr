@@ -13,8 +13,7 @@ summary: 'Vous pouvez configurer la planification à laquelle les copies Snapsho
 [role="lead"]
 Vous pouvez configurer la planification à laquelle les copies Snapshot de Unified Manager sont créées à l'aide de l'interface utilisateur d'Unified Manager.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
 * Vous devez avoir configuré les paramètres de création de copies Snapshot depuis la console de maintenance pour identifier la destination où les snapshots seront créés.
 

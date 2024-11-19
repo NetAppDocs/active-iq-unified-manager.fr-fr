@@ -13,8 +13,7 @@ summary: 'Lorsqu"un volume source de votre relation de protection est désactiv�
 [role="lead"]
 Lorsqu'un volume source de votre relation de protection est désactivé en raison d'une panne matérielle ou d'un incident, vous pouvez utiliser les fonctions de relation de protection de Unified Manager pour rendre les données de destination de protection accessibles en lecture/écriture et basculer vers le volume jusqu'à ce que la source soit à nouveau en ligne. vous pouvez ensuite revenir à la source d'origine lorsqu'il est disponible pour transmettre les données.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 * Vous devez avoir configuré OnCommand Workflow Automation pour effectuer cette opération.
 

@@ -13,8 +13,7 @@ summary: 'Vous pouvez créer un format de notification pour les e-mails envoyés
 [role="lead"]
 Vous pouvez créer un format de notification pour les e-mails envoyés à un utilisateur ou à un groupe d'utilisateurs en cas de problème lié à un quota (limite souple dépassée ou limite stricte atteinte).
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 .Étapes

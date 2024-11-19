@@ -13,8 +13,7 @@ summary: 'Si l"authentification à distance est activée, vous pouvez désactive
 [role="lead"]
 Si l'authentification à distance est activée, vous pouvez désactiver l'authentification des groupes imbriqués de sorte que seuls les utilisateurs individuels, et non les membres du groupe, puissent s'authentifier à distance à Unified Manager. Vous pouvez désactiver les groupes imbriqués si vous souhaitez améliorer le temps de réponse de l'authentification Active Directory.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle Administrateur d'applications.
 * La désactivation des groupes imbriqués n'est applicable que lors de l'utilisation d'Active Directory.
 

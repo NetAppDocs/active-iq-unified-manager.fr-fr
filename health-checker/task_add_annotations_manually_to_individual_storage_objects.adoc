@@ -13,8 +13,7 @@ summary: 'Vous pouvez annoter manuellement les volumes, les clusters et les SVM 
 [role="lead"]
 Vous pouvez annoter manuellement les volumes, les clusters et les SVM sélectionnés sans utiliser de règles d'annotation. Vous pouvez annoter un ou plusieurs objets de stockage et spécifier la combinaison de paires nom-valeur requise pour l'annotation.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 .Étapes

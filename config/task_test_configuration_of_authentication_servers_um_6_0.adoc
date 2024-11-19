@@ -13,8 +13,7 @@ summary: 'Vous pouvez valider la configuration de vos serveurs d"authentificatio
 [role="lead"]
 Vous pouvez valider la configuration de vos serveurs d'authentification pour vous assurer que le serveur de gestion peut communiquer avec eux. Vous pouvez valider la configuration en recherchant un utilisateur ou un groupe distant à partir de vos serveurs d'authentification et en les authentifiant à l'aide des paramètres configurés.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir activé l'authentification à distance et configuré votre service d'authentification pour que le serveur Unified Manager puisse authentifier l'utilisateur distant ou le groupe distant.
 * Vous devez avoir ajouté vos serveurs d'authentification pour que le serveur de gestion puisse rechercher l'utilisateur ou le groupe distant à partir de ces serveurs et les authentifier.
 * Vous devez avoir le rôle Administrateur d'applications.

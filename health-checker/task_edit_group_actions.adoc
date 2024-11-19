@@ -13,8 +13,7 @@ summary: 'Vous pouvez modifier les paramètres d"action de groupe que vous avez 
 [role="lead"]
 Vous pouvez modifier les paramètres d'action de groupe que vous avez configurés dans Unified Manager, tels que le nom d'action de groupe, la description, le nom de groupe associé et les paramètres du type d'action.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 .Étapes

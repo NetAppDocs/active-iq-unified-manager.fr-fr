@@ -13,8 +13,7 @@ summary: Vous pouvez créer un rapport contenant la liste des volumes résidant 
 [role="lead"]
 Vous pouvez créer un rapport contenant la liste des volumes résidant sur des agrégats FabricPool, dont les recommandations pour le cloud sont nombreuses et dont les données inactives sont importantes. Ce rapport vous aidera à décider si vous devez modifier la règle de Tiering de certains volumes en « auto » ou « toutes » pour décharger des données plus inactives vers le Tier cloud.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 * Vous devez avoir configuré des agrégats FabricPool et certains volumes sur ces agrégats.
 

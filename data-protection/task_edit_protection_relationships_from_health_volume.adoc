@@ -13,8 +13,7 @@ summary: Vous pouvez modifier les relations de protection existantes pour modifi
 [role="lead"]
 Vous pouvez modifier les relations de protection existantes pour modifier le taux de transfert maximal actuel, la stratégie de protection ou la planification de protection. Vous pouvez modifier une relation pour diminuer la bande passante utilisée pour les transferts ou pour augmenter la fréquence des transferts programmés car les données changent souvent.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 * Vous devez avoir installé et configuré Workflow Automation.
 

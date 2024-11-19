@@ -15,8 +15,7 @@ Vous pouvez supprimer des serveurs vCenter de votre instance Active IQ Unified M
 
 La suppression d'un serveur vCenter supprime également toutes les machines virtuelles (VM) hébergées sur ce vCenter et ses données de configuration. Une fois le serveur vCenter supprimé, il ne sera plus surveillé, avec les objets associés et les données historiques. Ces modifications seront répercutées sur vCenter et les pages d'inventaire des machines virtuelles.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Avant de supprimer des serveurs vCenter, vérifiez les points suivants :
 
 * Vous disposez du rôle d'administrateur d'applications ou d'administrateur du stockage.

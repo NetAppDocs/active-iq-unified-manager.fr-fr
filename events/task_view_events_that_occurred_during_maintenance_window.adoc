@@ -13,8 +13,7 @@ summary: 'Si nécessaire, vous pouvez afficher les événements générés pour 
 [role="lead"]
 Si nécessaire, vous pouvez afficher les événements générés pour tous les objets de stockage au cours d'une fenêtre de maintenance Unified Manager. La plupart des événements apparaissent à l'état Obsolète une fois la fenêtre de maintenance terminée et toutes les ressources système sont sauvegardées et en cours d'exécution.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Au moins une fenêtre de maintenance doit avoir été effectuée avant que des événements soient disponibles.
 
 Les événements qui se sont produits pendant une fenêtre de maintenance n'apparaissent pas par défaut sur la page d'inventaire de gestion des événements.

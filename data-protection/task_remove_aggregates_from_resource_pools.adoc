@@ -13,8 +13,7 @@ summary: 'Vous pouvez supprimer des agrégats d"un pool de ressources existant :
 [role="lead"]
 Vous pouvez supprimer des agrégats d'un pool de ressources existant : par exemple, si vous souhaitez utiliser un agrégat à d'autres fins.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 Les membres du pool de ressources ne sont affichés que lorsqu'un pool de ressources est sélectionné.

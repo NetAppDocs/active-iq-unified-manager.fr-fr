@@ -13,8 +13,7 @@ summary: 'Vous pouvez modifier des règles de groupe pour modifier les groupes d
 [role="lead"]
 Vous pouvez modifier des règles de groupe pour modifier les groupes de condition et les conditions d'un groupe de conditions afin d'ajouter ou de supprimer des objets de stockage dans ou d'un groupe spécifique.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 .Étapes

@@ -13,8 +13,7 @@ summary: 'Dans Unified Manager, vous pouvez identifier les charges de travail pr
 [role="lead"]
 Dans Unified Manager, vous pouvez identifier les charges de travail présentant la déviation la plus élevée d'utilisation pour un composant de stockage en conflit. L'identification de ces charges de travail vous permet de déterminer si ces charges de travail doivent être déplacées vers un cluster moins utilisé.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
 * Il existe de nouveaux événements dynamiques de performances, confirmés ou obsolètes.
 

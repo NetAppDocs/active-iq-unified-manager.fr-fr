@@ -13,8 +13,7 @@ summary: 'Unified Manager permet d"identifier un agrégat sur un nœud d"une aut
 [role="lead"]
 Unified Manager permet d'identifier un agrégat sur un nœud d'une autre paire haute disponibilité avec plus de capacité de performances que la paire haute disponibilité sur laquelle sont actuellement exécutées vos charges de travail. Vous pouvez ensuite déplacer les volumes sélectionnés vers des agrégats sur la nouvelle paire haute disponibilité.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
 * Votre cluster doit comprendre au moins deux paires haute disponibilité
 +

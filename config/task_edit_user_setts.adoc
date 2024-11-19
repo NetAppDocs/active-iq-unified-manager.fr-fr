@@ -13,8 +13,7 @@ summary: 'Vous pouvez modifier les paramètres utilisateur, tels que l"adresse e
 [role="lead"]
 Vous pouvez modifier les paramètres utilisateur, tels que l'adresse e-mail et le rôle, qui sont spécifiés par chaque utilisateur. Par exemple, vous pouvez modifier le rôle d'un utilisateur qui est un opérateur de stockage et attribuer des privilèges d'administrateur de stockage à cet utilisateur.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications.
 
 Lorsque vous modifiez le rôle attribué à un utilisateur, les modifications sont appliquées lorsque l'une des actions suivantes se produit :

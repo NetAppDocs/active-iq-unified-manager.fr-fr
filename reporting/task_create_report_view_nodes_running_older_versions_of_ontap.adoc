@@ -13,8 +13,7 @@ summary: Vous pouvez créer un rapport pour afficher la version du logiciel ONTA
 [role="lead"]
 Vous pouvez créer un rapport pour afficher la version du logiciel ONTAP installée sur tous les nœuds du cluster. Ainsi, vous pouvez voir les nœuds à mettre à niveau.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 

@@ -13,8 +13,7 @@ summary: Vous pouvez utiliser la page de détails volume/intégrité pour créer
 [role="lead"]
 Vous pouvez utiliser la page de détails volume/intégrité pour créer une relation SnapMirror de sorte que la réplication des données soit activée à des fins de protection. La réplication SnapMirror vous permet de restaurer les données à partir du volume de destination en cas de perte de données sur la source.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 * Vous devez avoir configuré Workflow Automation.
 

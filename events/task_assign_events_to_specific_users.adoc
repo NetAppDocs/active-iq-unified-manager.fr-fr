@@ -13,8 +13,7 @@ summary: 'Vous pouvez attribuer des événements non attribués à vous-même ou
 [role="lead"]
 Vous pouvez attribuer des événements non attribués à vous-même ou à d'autres utilisateurs, y compris des utilisateurs distants. Vous pouvez réattribuer des événements à un autre utilisateur, si nécessaire. Par exemple, en cas de problèmes fréquents sur un objet de stockage, vous pouvez attribuer les événements associés à ces problèmes à l'utilisateur qui gère cet objet.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Le nom et l'ID e-mail de l'utilisateur doivent être configurés correctement.
 * Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
 

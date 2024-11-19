@@ -13,8 +13,7 @@ summary: 'Unified Manager vous permet d"identifier les charges de travail de vol
 [role="lead"]
 Unified Manager vous permet d'identifier les charges de travail de volume qui présentent l'écart le plus important en termes de temps de réponse (latence) causé par un composant de stockage en conflit. L'identification de ces charges de travail vous permet de comprendre pourquoi les applications client qui y accèdent ont été plus lentes que d'habitude.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
 * Il doit y avoir des événements de performances dynamiques nouveaux, acquittés ou obsolètes.
 

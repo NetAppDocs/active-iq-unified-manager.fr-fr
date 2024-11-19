@@ -13,8 +13,7 @@ summary: 'Vous pouvez créer un rapport pour mettre en évidence les agrégats r
 [role="lead"]
 Vous pouvez créer un rapport pour mettre en évidence les agrégats remplis à 80 % ou plus.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 

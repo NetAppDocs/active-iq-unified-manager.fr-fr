@@ -13,8 +13,7 @@ summary: 'Vous pouvez utiliser Unified Manager pour analyser un événement lié
 [role="lead"]
 Vous pouvez utiliser Unified Manager pour analyser un événement lié aux performances, causé par le traitement de données élevé sur un nœud de cluster dans une paire haute disponibilité. Vous pouvez également utiliser Unified Manager pour vérifier l'état de santé des nœuds afin de déterminer si des événements d'état récemment détectés sur les nœuds ont contribué à la réalisation de ces événements.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
 * Il doit y avoir des événements de performances nouveaux, acquittés ou obsolètes.
 

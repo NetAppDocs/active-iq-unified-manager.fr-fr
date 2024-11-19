@@ -13,8 +13,7 @@ summary: 'Dans Unified Manager, vous pouvez identifier les workloads qui présen
 [role="lead"]
 Dans Unified Manager, vous pouvez identifier les workloads qui présentent la déviation la plus élevée de l'utilisation d'un composant de cluster en conflit. L'identification de ces workloads vous permet de comprendre pourquoi certains volumes du cluster ont des temps de réponse lents (latence).
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
 * Il doit y avoir des événements de performances dynamiques nouveaux, acquittés ou obsolètes.
 

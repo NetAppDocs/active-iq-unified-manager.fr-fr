@@ -18,8 +18,7 @@ Vous pouvez annuler le transfert actif de protection des données lorsque vous s
 Vous ne pouvez pas abandonner les relations de volumes protégées par le groupe de cohérence.
 
 ====
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 * Vous devez avoir configuré Workflow Automation.
 

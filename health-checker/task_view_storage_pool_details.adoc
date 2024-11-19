@@ -13,8 +13,7 @@ summary: 'Vous pouvez afficher les détails du pool de stockage afin de surveill
 [role="lead"]
 Vous pouvez afficher les détails du pool de stockage afin de surveiller l'état du pool de stockage, le cache total et disponible, ainsi que les allocations utilisées et disponibles.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
 
 .Étapes

@@ -13,8 +13,7 @@ summary: Vous pouvez configurer les paramètres de sauvegarde de vidage de la ba
 [role="lead"]
 Vous pouvez configurer les paramètres de sauvegarde de vidage de la base de données Unified Manager pour définir le chemin de sauvegarde de la base de données, le nombre de rétention et la planification des sauvegardes. Vous pouvez activer des sauvegardes planifiées quotidiennement ou hebdomadaires. Par défaut, les sauvegardes planifiées sont désactivées, mais vous devez définir un planning de sauvegarde.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
 * Vous devez disposer d'au moins 150 Go d'espace disponible dans l'emplacement que vous définissez comme chemin de sauvegarde.
 +

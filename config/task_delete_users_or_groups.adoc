@@ -13,8 +13,7 @@ summary: 'Vous pouvez supprimer un ou plusieurs utilisateurs de la base de donn�
 [role="lead"]
 Vous pouvez supprimer un ou plusieurs utilisateurs de la base de données du serveur de gestion pour empêcher certains utilisateurs d'accéder à Unified Manager. Vous pouvez également supprimer des groupes de sorte que tous les utilisateurs du groupe ne puissent plus accéder au serveur de gestion.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Lorsque vous supprimez des groupes distants, vous devez avoir réaffecté les événements qui sont affectés aux utilisateurs des groupes distants.
 +
 Si vous supprimez des utilisateurs locaux ou distants, les événements qui sont affectés à ces utilisateurs sont automatiquement affectés.

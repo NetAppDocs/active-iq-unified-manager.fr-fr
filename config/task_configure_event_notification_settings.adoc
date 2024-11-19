@@ -13,8 +13,7 @@ summary: 'Vous pouvez configurer Unified Manager pour qu"il envoie des notificat
 [role="lead"]
 Vous pouvez configurer Unified Manager pour qu'il envoie des notifications d'alerte lorsqu'un événement est généré ou lorsqu'un événement est affecté à un utilisateur. Vous pouvez configurer le serveur SMTP utilisé pour envoyer l'alerte et définir différents mécanismes de notification, par exemple, des notifications d'alerte peuvent être envoyées en tant qu'e-mails ou interruptions SNMP.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez disposer des informations suivantes :
 
 * Adresse e-mail à partir de laquelle la notification d'alerte est envoyée

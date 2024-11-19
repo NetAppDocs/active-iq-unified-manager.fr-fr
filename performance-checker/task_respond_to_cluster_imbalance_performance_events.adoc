@@ -13,8 +13,7 @@ summary: 'Unified Manager génère un avertissement de déséquilibre de cluster
 [role="lead"]
 Unified Manager génère un avertissement de déséquilibre de cluster lorsqu'un nœud d'un cluster fonctionne à une charge bien plus élevée que les autres nœuds et peut donc affecter la latence des charges de travail. Ces événements définis par le système permettent de corriger les problèmes de performance potentiels avant que de nombreuses charges de travail ne soient affectées par la latence.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
 
 Unified Manager génère des événements d'avertissement concernant le non-respect des règles de seuil de déséquilibre du cluster en comparant la valeur de capacité utilisée pour tous les nœuds du cluster et vérifier s'il existe une différence de charge de 30 % entre tous les nœuds.

@@ -13,8 +13,7 @@ summary: 'Vous pouvez configurer une ou plusieurs conditions pour créer des rè
 [role="lead"]
 Vous pouvez configurer une ou plusieurs conditions pour créer des règles d'annotation qui s'appliquent aux objets de stockage par Unified Manager. Les objets de stockage correspondant à la règle d'annotation sont annotés avec la valeur spécifiée dans la règle.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 .Étapes

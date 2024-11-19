@@ -13,8 +13,7 @@ summary: 'Vous devez configurer votre serveur hôte Windows avant d"utiliser Net
 [role="lead"]
 Vous devez configurer votre serveur hôte Windows avant d'utiliser NetApp Snapshot pour sauvegarder et restaurer Active IQ Unified Manager. Pour démarrer l'initiateur iSCSI Microsoft sur une machine hôte Windows, saisissez « iscsi » dans la barre de recherche et cliquez sur *iSCSI Initiator*.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez nettoyer toutes les configurations précédentes sur l'ordinateur hôte.
 
 Si vous essayez de démarrer l'initiateur iSCSI lors d'une nouvelle installation de Windows, vous êtes invité à confirmer et, à votre confirmation, la boîte de dialogue Propriétés iSCSI s'affiche. S'il s'agit d'une installation Windows existante, la boîte de dialogue Propriétés iSCSI s'affiche avec une cible inactive ou qui tente de se connecter. Vous devez donc vous assurer que toutes les configurations précédentes sur l'hôte Windows sont supprimées.

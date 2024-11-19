@@ -13,8 +13,7 @@ summary: Vous pouvez créer un rapport pour afficher la liste de tous les SVM ar
 [role="lead"]
 Vous pouvez créer un rapport pour afficher la liste de tous les SVM arrêtés.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 

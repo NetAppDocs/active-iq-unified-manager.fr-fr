@@ -13,8 +13,7 @@ summary: 'L"interface utilisateur Web de Unified Manager vous permet de confirme
 [role="lead"]
 L'interface utilisateur Web de Unified Manager vous permet de confirmer ou d'éliminer toute possibilité qu'un volume soit hors ligne, car les problèmes de disque RAID ont mis hors ligne son agrégat hôte.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
 
 Pour déterminer si la condition de mise hors ligne du volume est provoquée par des problèmes de disque RAID qui chargent la mise hors ligne de l'agrégat d'hébergement, effectuez les opérations suivantes :

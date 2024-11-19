@@ -13,8 +13,7 @@ summary: 'Vous pouvez supprimer une copie Snapshot pour économiser de l"espace 
 [role="lead"]
 Vous pouvez supprimer une copie Snapshot pour économiser de l'espace disque, libérer de l'espace disque, ou supprimer la copie Snapshot si elle n'est plus nécessaire.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 Le volume doit être en ligne.

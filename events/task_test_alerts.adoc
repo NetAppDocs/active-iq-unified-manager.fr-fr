@@ -13,8 +13,7 @@ summary: 'Vous pouvez tester une alerte pour vérifier que vous l"avez correctem
 [role="lead"]
 Vous pouvez tester une alerte pour vérifier que vous l'avez correctement configurée. Lorsqu'un événement est déclenché, une alerte est générée et un e-mail d'alerte est envoyé aux destinataires configurés. Vous pouvez vérifier si la notification est envoyée et si votre script est exécuté à l'aide de l'alerte test.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir configuré des paramètres de notification tels que l'adresse électronique des destinataires, le serveur SMTP et le trap SNMP.
 +
 Le serveur Unified Manager peut utiliser ces paramètres pour envoyer des notifications aux utilisateurs lorsqu'un événement est généré.

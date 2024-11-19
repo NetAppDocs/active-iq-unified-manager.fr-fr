@@ -13,8 +13,7 @@ summary: 'Ce rapport indique les agrégats qui disposent des IOPS par type d"agr
 [role="lead"]
 Ce rapport indique les agrégats qui disposent des IOPS par type d'agrégat les plus disponibles, sur lesquels vous pouvez provisionner de nouvelles charges de travail.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 

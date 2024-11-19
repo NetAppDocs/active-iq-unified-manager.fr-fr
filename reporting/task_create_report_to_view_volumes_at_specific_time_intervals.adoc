@@ -13,8 +13,7 @@ summary: Vous pouvez créer un rapport qui affiche les tendances de transfert de
 [role="lead"]
 Vous pouvez créer un rapport qui affiche les tendances de transfert de volume à des intervalles de temps spécifiques.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 

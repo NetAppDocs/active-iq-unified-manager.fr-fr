@@ -13,8 +13,7 @@ summary: 'Vous examinez le message d"erreur d"échec du travail dans le champ ca
 [role="lead"]
 Vous examinez le message d'erreur d'échec du travail dans le champ cause de la page Détails de l'événement et déterminez que le travail a échoué en raison d'une erreur de copie Snapshot. Vous allez ensuite à la page Volume / Health details pour recueillir plus d'informations.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications.
 
 Le message d'erreur fourni dans le champ cause de la page Détails de l'événement contient le texte suivant concernant le travail en échec :

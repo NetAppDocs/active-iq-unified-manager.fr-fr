@@ -13,8 +13,7 @@ summary: 'Vous pouvez configurer les valeurs du seuil de santé global pour tous
 [role="lead"]
 Vous pouvez configurer les valeurs du seuil de santé global pour tous les qtrees afin de suivre toute violation de seuil. Les événements appropriés sont générés pour les atteintes aux seuils de santé et vous pouvez prendre des mesures préventives basées sur ces événements. Vous pouvez configurer les valeurs globales en fonction des paramètres de bonnes pratiques pour les seuils qui s'appliquent à tous les qtrees surveillés.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 Les options de seuil ont des valeurs par défaut pour une meilleure surveillance. Cependant, vous pouvez modifier les valeurs en fonction des exigences de votre environnement.

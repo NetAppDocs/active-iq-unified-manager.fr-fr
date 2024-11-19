@@ -13,8 +13,7 @@ summary: 'Lorsque vous affichez la page Détails de l"événement d"un événeme
 [role="lead"]
 Lorsque vous affichez la page Détails de l'événement d'un événement lié au basculement de stockage, vous pouvez consulter les informations récapitulatives de la page pour déterminer l'urgence de l'événement, la cause possible du problème et la résolution éventuelle du problème.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
 
 Dans cet exemple, le récapitulatif des événements disponible sur la page des détails de l'événement contient les informations suivantes concernant la condition d'interruption de la liaison d'interconnexion de basculement du stockage :

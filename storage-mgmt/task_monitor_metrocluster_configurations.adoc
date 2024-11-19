@@ -21,8 +21,7 @@ Vous pouvez contrôler les configurations MetroCluster à partir des vues suivan
 
 Unified Manager utilise des alertes d'intégrité du système pour indiquer l'état des composants et la connectivité dans la configuration MetroCluster.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Les clusters locaux et distants dans une configuration MetroCluster doivent être ajoutés à Active IQ Unified Manager.
 * Dans une configuration MetroCluster sur IP, si un médiateur doit être pris en charge, il doit être configuré et ajouté au cluster par l'API correspondante.
 * Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.

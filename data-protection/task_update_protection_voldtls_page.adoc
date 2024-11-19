@@ -15,8 +15,7 @@ Vous pouvez effectuer un transfert de base initial sur une nouvelle relation de 
 
 *REMARQUE* : vous ne pouvez pas initialiser ni mettre à jour des volumes protégés par des groupes de cohérence.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 * Vous devez avoir configuré OnCommand Workflow Automation.
 

@@ -13,8 +13,7 @@ summary: 'Vous pouvez créer un rapport pour analyser la capacité de stockage e
 [role="lead"]
 Vous pouvez créer un rapport pour analyser la capacité de stockage et l'utilisation des qtrees et afficher les qtrees presque pleins.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 

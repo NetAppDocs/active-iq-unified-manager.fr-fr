@@ -13,8 +13,7 @@ summary: 'Vous pouvez utiliser la page d"inventaire de la gestion des événemen
 [role="lead"]
 Vous pouvez utiliser la page d'inventaire de la gestion des événements pour afficher la liste de tous les événements de performance sur les clusters contrôlés par Unified Manager. Ces informations vous permettent de déterminer les événements les plus critiques, puis d'accéder à des informations détaillées afin de déterminer la cause de l'événement.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
 
 

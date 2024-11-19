@@ -13,8 +13,7 @@ summary: 'Vous pouvez arrêter et désinstaller Unified Manager à partir de l"h
 [role="lead"]
 Vous pouvez arrêter et désinstaller Unified Manager à partir de l'hôte Red Hat Enterprise Linux à l'aide d'une seule commande.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez disposer d'un accès utilisateur root au serveur à partir duquel vous souhaitez supprimer Unified Manager.
 * Security-Enhanced Linux (SELinux) doit être désactivé sur le système Linux. Remplacez le mode d'exécution SELinux par « autorisé » en utilisant le `setenforce 0` commande.
 * Tous les clusters (sources de données) doivent être supprimés du serveur Unified Manager avant de supprimer le logiciel.

@@ -13,8 +13,7 @@ summary: 'Vous pouvez modifier un partage de fichiers NFS pour prendre en charge
 [role="lead"]
 Vous pouvez modifier un partage de fichiers NFS pour prendre en charge le protocole CIFS. Lors de la création de partages de fichiers, il est possible de spécifier à la fois les paramètres de listes de contrôle d'accès (ACL) et les règles d'export policy pour le même partage de fichiers. Toutefois, si vous souhaitez activer CIFS sur le même volume que celui sur lequel vous avez créé un partage de fichiers NFS, vous pouvez mettre à jour les paramètres ACL sur ce partage de fichiers pour prendre en charge CIFS.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 . Un partage de fichiers NFS doit avoir été créé avec uniquement les détails de la export policy. Pour plus d'informations, reportez-vous aux sections _gestion des partages de fichiers_ et _modification des charges de travail du stockage_.
 . Vous devez disposer de la clé de partage de fichiers pour exécuter cette opération. Pour plus d'informations sur l'affichage des détails du partage de fichiers et la récupération de la clé de partage de fichiers à l'aide de l'ID de tâche, voir _Provisioning des partages de fichiers CIFS et NFS_.
 

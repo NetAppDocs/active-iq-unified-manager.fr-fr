@@ -13,8 +13,7 @@ summary: 'Le déploiement de Unified Manager inclut le téléchargement de logic
 [role="lead"]
 Le déploiement de Unified Manager inclut le téléchargement de logiciels, le déploiement de l'appliance virtuelle, la création d'un nom d'utilisateur et d'un mot de passe pour la maintenance, ainsi que la configuration initiale dans l'interface utilisateur Web.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez vérifier et remplir la configuration système requise pour le déploiement.
 +
 Voir link:concept_requirements_for_installing_unified_manager.html["Configuration minimale requise"].

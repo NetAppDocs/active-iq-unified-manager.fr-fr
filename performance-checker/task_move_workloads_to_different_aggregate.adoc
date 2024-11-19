@@ -13,8 +13,7 @@ summary: 'Unified Manager vous permet d"identifier un agrégat moins occupé que
 [role="lead"]
 Unified Manager vous permet d'identifier un agrégat moins occupé que l'agrégat dans lequel résident vos charges de travail, puis de déplacer les volumes ou les LUN sélectionnés vers cet agrégat. Le déplacement de charges de travail hautes performances vers un agrégat moins occupé, ou un agrégat sur lequel le stockage Flash est activé, permet à la charge de travail de réaliser davantage d'efficacité.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
 * Vous devez avoir enregistré le nom de l'agrégat actuellement ayant un problème de performances.
 * Vous devez avoir enregistré la date et l'heure à laquelle l'agrégat a reçu l'événement.

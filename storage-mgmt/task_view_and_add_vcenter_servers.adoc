@@ -13,8 +13,7 @@ summary: Pour afficher et dépanner les performances des machines virtuelles, vo
 [role="lead"]
 Pour afficher et dépanner les performances des machines virtuelles, vous devez ajouter les serveurs vCenter associés à votre instance Active IQ Unified Manager.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Avant d'ajouter ou d'afficher des serveurs vCenter, vérifiez les points suivants :
 
 * Vous connaissez les noms des serveurs vCenter.

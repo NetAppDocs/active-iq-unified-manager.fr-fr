@@ -13,8 +13,7 @@ summary: 'Vous pouvez utiliser Unified Manager pour analyser un événement de p
 [role="lead"]
 Vous pouvez utiliser Unified Manager pour analyser un événement de performances provoqué par l'utilisation excessive d'un agrégat par des charges de travail. Vous pouvez également utiliser Unified Manager pour vérifier l'état de santé de l'agrégat et vérifier si les événements récemment détectés sur l'agrégat ont contribué à ce qui se passe.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
 * Il doit y avoir des événements de performances nouveaux, acquittés ou obsolètes.
 

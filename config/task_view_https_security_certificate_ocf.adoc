@@ -13,8 +13,7 @@ summary: 'Vous pouvez comparer les détails du certificat HTTPS au certificat r�
 [role="lead"]
 Vous pouvez comparer les détails du certificat HTTPS au certificat récupéré dans votre navigateur pour vous assurer que la connexion chiffrée de votre navigateur à Unified Manager n'est pas interceptée.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
 
 L'affichage du certificat vous permet de vérifier le contenu d'un certificat régénéré ou d'afficher les noms des objets (SAN) à partir desquels vous pouvez accéder à Unified Manager.

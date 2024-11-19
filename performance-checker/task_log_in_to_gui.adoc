@@ -13,8 +13,7 @@ summary: 'Vous pouvez vous connecter à l"interface utilisateur de Unified Manag
 [role="lead"]
 Vous pouvez vous connecter à l'interface utilisateur de Unified Manager à l'aide d'un navigateur Web pris en charge.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Le navigateur Web doit respecter la configuration minimale requise.
 +
 Consultez la matrice d'interopérabilité à l'adresse http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"] pour obtenir la liste complète des versions de navigateur prises en charge.

@@ -13,8 +13,7 @@ summary: 'Vous pouvez indiquer le nombre de mois pendant lequel un événement e
 [role="lead"]
 Vous pouvez indiquer le nombre de mois pendant lequel un événement est conservé dans le serveur Unified Manager avant d'être supprimé automatiquement.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications.
 
 La conservation d'événements pendant plus de 6 mois peut affecter les performances du serveur et n'est pas recommandée.

@@ -13,8 +13,7 @@ summary: 'Vous pouvez mettre à niveau vers une version plus récente d"OpenJDK 
 [role="lead"]
 Vous pouvez mettre à niveau vers une version plus récente d'OpenJDK sur le serveur Linux sur lequel Unified Manager est installé pour obtenir des correctifs pour les vulnérabilités de sécurité.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez disposer de privilèges root pour le système Linux sur lequel Unified Manager est installé.
 
 Vous pouvez mettre à jour les versions OpenJDK dans les familles de versions. Par exemple, vous pouvez effectuer une mise à niveau d'OpenJDK 11.0.14 vers OpenJDK 11.0.17, mais vous ne pouvez pas effectuer une mise à jour directe d'OpenJDK 11 vers OpenJDK 12.

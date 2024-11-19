@@ -13,8 +13,7 @@ summary: Il existe plusieurs étapes à effectuer pour utiliser Unified Manager 
 [role="lead"]
 Il existe plusieurs étapes à effectuer pour utiliser Unified Manager et OnCommand Workflow Automation afin de configurer les relations SnapMirror et SnapVault afin de protéger vos données.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 * Vous devez avoir établi des relations entre deux clusters ou deux SVM (Storage Virtual machine).
 * OnCommand Workflow Automation doit être intégré avec Unified Manager :

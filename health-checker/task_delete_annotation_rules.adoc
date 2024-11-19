@@ -13,8 +13,7 @@ summary: 'Vous pouvez supprimer des règles d"annotation de Active IQ Unified Ma
 [role="lead"]
 Vous pouvez supprimer des règles d'annotation de Active IQ Unified Manager lorsque les règles ne sont plus nécessaires.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 Lorsque vous supprimez une règle d'annotation, l'annotation est dissociée et supprimée des objets de stockage.

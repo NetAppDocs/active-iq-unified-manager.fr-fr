@@ -13,8 +13,7 @@ summary: 'Vous créez des règles de seuil de performances pour les objets de st
 [role="lead"]
 Vous créez des règles de seuil de performances pour les objets de stockage, de sorte que des notifications soient envoyées lorsqu'un compteur de performances dépasse une valeur spécifique. La notification d'événement identifie que le cluster rencontre un problème de performances.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications.
 
 Vous créez des stratégies de seuil de performances en entrant les valeurs de seuil sur la page Créer une stratégie de seuil de performances. Vous pouvez créer de nouvelles stratégies en définissant toutes les valeurs de la stratégie dans cette page, ou vous pouvez faire une copie d'une stratégie existante et modifier les valeurs dans la copie (appelée _clonage_).

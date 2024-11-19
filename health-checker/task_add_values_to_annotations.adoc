@@ -13,8 +13,7 @@ summary: 'Vous pouvez ajouter des valeurs aux annotations, puis associer des obj
 [role="lead"]
 Vous pouvez ajouter des valeurs aux annotations, puis associer des objets de stockage à une paire nom-valeur d'annotation spécifique. L'ajout de valeurs aux annotations permet de gérer plus efficacement les objets de stockage.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 Vous ne pouvez pas ajouter de valeurs aux annotations prédéfinies.

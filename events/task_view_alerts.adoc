@@ -13,8 +13,7 @@ summary: 'Vous pouvez afficher la liste des alertes créées pour divers événe
 [role="lead"]
 Vous pouvez afficher la liste des alertes créées pour divers événements à partir de la page Configuration des alertes. Vous pouvez également afficher les propriétés des alertes telles que la description de l'alerte, la méthode de notification et la fréquence, les événements qui déclenchent l'alerte, les destinataires des alertes et les ressources affectées, telles que les clusters, les agrégats et les volumes.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
 
 .Étape

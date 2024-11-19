@@ -13,8 +13,7 @@ summary: 'Pour prendre en charge une connexion entre Workflow Automation et Unif
 [role="lead"]
 Pour prendre en charge une connexion entre Workflow Automation et Unified Manager, ou pour accéder aux vues de base de données, vous devez d'abord créer un utilisateur de base de données avec le rôle Schéma d'intégration ou Schéma de rapport dans l'interface utilisateur Web d'Unified Manager.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications.
 
 Les utilisateurs de base de données offrent une intégration à Workflow Automation et un accès à des vues de base de données spécifiques aux rapports. Les utilisateurs de base de données n'ont pas accès à l'interface utilisateur Web d'Unified Manager ou à la console de maintenance, et ne peuvent pas exécuter d'appels API.

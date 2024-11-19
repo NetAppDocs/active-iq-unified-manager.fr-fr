@@ -13,8 +13,7 @@ summary: 'Vous pouvez modifier le port utilisé par le serveur Unified Manager p
 [role="lead"]
 Vous pouvez modifier le port utilisé par le serveur Unified Manager pour communiquer avec votre serveur d'authentification.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications.
 
 .Étapes

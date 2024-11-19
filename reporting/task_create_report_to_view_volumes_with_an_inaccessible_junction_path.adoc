@@ -13,8 +13,7 @@ summary: Vous pouvez créer un rapport pour rechercher des volumes dont le chemi
 [role="lead"]
 Vous pouvez créer un rapport pour rechercher des volumes dont le chemin de montage est inaccessible.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 

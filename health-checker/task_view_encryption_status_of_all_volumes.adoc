@@ -13,8 +13,7 @@ summary: Vous pouvez afficher la liste de tous les volumes, ainsi que leur état
 [role="lead"]
 Vous pouvez afficher la liste de tous les volumes, ainsi que leur état de cryptage actuel, afin de déterminer si les données de vos volumes sont correctement protégées contre tout accès par des utilisateurs non autorisés.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
 
 Les types de chiffrement pouvant être appliqués à un volume sont les suivants :

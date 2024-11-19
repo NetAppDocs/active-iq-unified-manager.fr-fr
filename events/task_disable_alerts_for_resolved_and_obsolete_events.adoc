@@ -13,8 +13,7 @@ summary: 'Pour tous les événements que vous avez configurés pour envoyer des 
 [role="lead"]
 Pour tous les événements que vous avez configurés pour envoyer des alertes, un message d'alerte est envoyé lorsque ces événements passent par tous les États disponibles : nouveau, validé, résolu et Obsolète. Si vous ne souhaitez pas recevoir d'alertes pour les événements lorsqu'ils passent aux États résolu et Obsolète, vous pouvez configurer un paramètre global pour supprimer ces alertes.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 Par défaut, les alertes ne sont pas envoyées pour les événements lorsqu'elles passent à l'état résolu et Obsolète.

@@ -13,8 +13,7 @@ summary: 'Vous pouvez créer des LUN qui prennent en charge les protocoles CIFS/
 [role="lead"]
 Vous pouvez créer des LUN qui prennent en charge les protocoles CIFS/SMB et NFS, sur un cluster existant et sur une machine virtuelle de stockage (VM de stockage) à partir de la page provisionner les charges de travail.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * La machine virtuelle de stockage doit disposer d'espace pour le provisionnement de la LUN.
 * ISCSI et FCP doivent être activés sur la VM de stockage sur laquelle vous créez la LUN.
 * Pour sélectionner et attribuer le niveau de service de performances (PSL) et la stratégie d'efficacité du stockage (SEP) sur la charge de travail, les règles doivent avoir été créées avant de commencer à créer la charge de travail.

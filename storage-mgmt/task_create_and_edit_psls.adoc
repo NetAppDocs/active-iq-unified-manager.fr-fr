@@ -13,8 +13,7 @@ summary: Lorsque les niveaux de services de performances définis par le systèm
 [role="lead"]
 Lorsque les niveaux de services de performances définis par le système ne correspondent pas aux exigences de vos workloads, vous pouvez créer vos propres niveaux de services de performance optimisés pour vos charges de travail.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle Administrateur d'applications.
 * Le nom du niveau de service de performance doit être unique et vous ne pouvez pas utiliser les mots clés réservés suivants :
 +

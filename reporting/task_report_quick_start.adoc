@@ -13,8 +13,7 @@ summary: 'Créez un modèle de rapport personnalisé afin de découvrir les vues
 [role="lead"]
 Créez un modèle de rapport personnalisé afin de découvrir les vues et les rapports de planification. Ce rapport de démarrage rapide trouve une liste de volumes que vous pouvez déplacer vers le Tier cloud, car il existe une quantité équitable de données inactives. Vous ouvrez la vue Performance: Tous les volumes, personnalisez la vue à l'aide de filtres et de colonnes, enregistrez la vue personnalisée en tant que rapport et planifiez le partage du rapport une fois par semaine.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 * Vous devez avoir configuré des agrégats FabricPool et certains volumes sur ces agrégats.
 

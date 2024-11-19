@@ -13,8 +13,7 @@ summary: 'Vous pouvez afficher les détails d"un événement déclenché par Uni
 [role="lead"]
 Vous pouvez afficher les détails d'un événement déclenché par Unified Manager pour effectuer une action corrective. Par exemple, si un événement de santé est hors ligne, vous pouvez cliquer sur cet événement pour afficher les détails et effectuer les actions correctives nécessaires.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
 
 Les détails de l'événement incluent des informations telles que la source de l'événement, la cause de l'événement et toute note liée à l'événement.

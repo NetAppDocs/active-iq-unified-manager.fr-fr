@@ -13,8 +13,7 @@ summary: 'Vous pouvez redémarrer le serveur virtuel à partir de la console de 
 [role="lead"]
 Vous pouvez redémarrer le serveur virtuel à partir de la console de maintenance d'Unified Manager. Vous devez redémarrer après avoir généré un nouveau certificat de sécurité ou en cas de problème avec la machine virtuelle.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 L'appliance virtuelle est sous tension.
 
 En tant qu'utilisateur de maintenance, vous êtes connecté à la console de maintenance.

@@ -13,8 +13,7 @@ summary: 'Vous pouvez configurer les valeurs des seuils de santé globaux de tou
 [role="lead"]
 Vous pouvez configurer les valeurs des seuils de santé globaux de tous les agrégats pour suivre tout seuil d'atteinte. Les événements appropriés sont générés pour les violations de seuil et vous pouvez prendre des mesures préventives basées sur ces événements. Vous pouvez configurer les valeurs globales en fonction des paramètres de bonnes pratiques pour les seuils applicables à tous les agrégats surveillés.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 Lorsque vous configurez globalement les options, les valeurs par défaut des objets sont modifiées. Cependant, si les valeurs par défaut ont été modifiées au niveau de l'objet, les valeurs globales ne sont pas modifiées.

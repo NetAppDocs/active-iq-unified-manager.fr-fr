@@ -13,8 +13,7 @@ summary: 'Vous pouvez supprimer une règle de groupe de Active IQ Unified Manage
 [role="lead"]
 Vous pouvez supprimer une règle de groupe de Active IQ Unified Manager lorsque la règle de groupe n'est plus nécessaire.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 Lorsqu'une règle de groupe est supprimée, les objets de stockage associés sont supprimés du groupe.

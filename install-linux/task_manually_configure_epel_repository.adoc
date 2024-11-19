@@ -16,15 +16,15 @@ Si le système sur lequel vous installez Unified Manager n'a pas accès au réf�
 Le référentiel EPEL permet d'accéder aux utilitaires tiers requis qui doivent être installés sur votre système. Vous utilisez le référentiel EPEL pour installer Unified Manager sur un système Red Hat Enterprise Linux.
 
 .Étapes
-. Téléchargez le référentiel EPEL pour votre installation. Pour Red Hat Enterprise Linux 7, téléchargez-le à l'adresse suivante :
-+
-`+wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm+`
-
-+
-Pour la version 8, téléchargez-la à l'adresse suivante :
-
+. Téléchargez le référentiel EPEL pour votre installation. Pour la version 8, téléchargez-la à l'adresse suivante :
 +
 `+wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm+`
+
++
+Pour la version 9, téléchargez-la à l'adresse suivante :
+
++
+`wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm`
 
 . Configurez le référentiel EPEL :
 +

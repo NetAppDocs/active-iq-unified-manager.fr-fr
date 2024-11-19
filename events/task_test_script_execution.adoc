@@ -13,8 +13,7 @@ summary: 'Vous pouvez vérifier que le script s"exécute correctement lorsqu"une
 [role="lead"]
 Vous pouvez vérifier que le script s'exécute correctement lorsqu'une alerte est générée pour un objet de stockage.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 * Vous devez avoir téléchargé un script au format de fichier pris en charge vers Unified Manager.
 

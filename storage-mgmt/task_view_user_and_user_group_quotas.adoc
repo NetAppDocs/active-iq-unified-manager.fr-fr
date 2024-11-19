@@ -13,8 +13,7 @@ summary: 'La page d"informations Storage VM / Health affiche des informations su
 [role="lead"]
 La page d'informations Storage VM / Health affiche des informations sur les quotas d'utilisateur et de groupe d'utilisateurs configurés sur la SVM. Vous pouvez afficher le nom de l'utilisateur ou du groupe d'utilisateurs, les limites définies sur les disques et les fichiers, l'espace disque et fichier utilisés et l'adresse e-mail de notification.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
 
 .Étapes

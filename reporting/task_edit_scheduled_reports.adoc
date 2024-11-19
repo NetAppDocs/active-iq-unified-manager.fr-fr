@@ -13,8 +13,7 @@ summary: Une fois les rapports planifiés, vous pouvez les modifier sur la page 
 [role="lead"]
 Une fois les rapports planifiés, vous pouvez les modifier sur la page Rapports programmes.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 

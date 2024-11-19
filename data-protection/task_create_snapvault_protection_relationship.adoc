@@ -13,8 +13,7 @@ summary: 'Vous pouvez utiliser la vue Santé : tous les volumes pour créer des 
 [role="lead"]
 Vous pouvez utiliser la vue Santé : tous les volumes pour créer des relations SnapVault pour un ou plusieurs volumes sur une même VM de stockage afin de permettre la sauvegarde des données à des fins de protection.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 * Vous devez avoir configuré Workflow Automation.
 

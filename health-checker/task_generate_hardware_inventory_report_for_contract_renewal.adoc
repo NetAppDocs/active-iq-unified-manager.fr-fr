@@ -13,8 +13,7 @@ summary: 'Vous pouvez générer un rapport contenant une liste complète des inf
 [role="lead"]
 Vous pouvez générer un rapport contenant une liste complète des informations sur le cluster et le nœud, notamment les numéros de modèle du matériel et les numéros de série, les types et nombres de disques, les licences installées. Ce rapport est utile pour le renouvellement de contrats dans des sites sécurisés (« parc ») qui ne sont pas connectés à la plateforme NetApp Active IQ.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle opérateur, administrateur d'applications ou administrateur de stockage.
 
 .Étapes

@@ -13,8 +13,7 @@ summary: 'Vous affectez une règle de seuil de performances définie par l"utili
 [role="lead"]
 Vous affectez une règle de seuil de performances définie par l'utilisateur à un objet de stockage. Unified Manager signale ainsi un événement si la valeur du compteur de performances dépasse le paramètre de règle.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications.
 
 La ou les règles de seuil de performances que vous souhaitez appliquer à l'objet doivent exister.

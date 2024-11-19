@@ -13,8 +13,7 @@ summary: 'Lorsqu"un volume n"est pas à provisionnement fin, il occupe la totali
 [role="lead"]
 Lorsqu'un volume n'est pas à provisionnement fin, il occupe la totalité de l'espace sur le disque, comme défini lors de la création du volume. L'identification des volumes dont le provisionnement fin est désactivé vous permet de décider si vous souhaitez activer le provisionnement fin sur certains volumes.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 * Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 

@@ -13,8 +13,7 @@ summary: 'Vous pouvez modifier le nom et la description d"un groupe créé dans 
 [role="lead"]
 Vous pouvez modifier le nom et la description d'un groupe créé dans Unified Manager.
 
-*Ce dont vous aurez besoin*
-
+.Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications ou Administrateur de stockage.
 
 Lorsque vous modifiez un groupe pour le mettre à jour, vous devez spécifier un nom unique ; vous ne pouvez pas utiliser un nom de groupe existant.
