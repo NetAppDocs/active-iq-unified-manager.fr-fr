@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: inactivity, timeout 
 summary: 'Vous pouvez spécifier la valeur du délai d"inactivité pour Unified Manager afin que la session soit automatiquement arrêtée au bout d"un certain temps. Par défaut, le délai est défini sur 4,320 minutes (72 heures).' 
 ---
-= Définition du délai d'inactivité de la session
+= Définissez le délai d'inactivité de la session
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-Vous pouvez spécifier la valeur du délai d'inactivité pour Unified Manager afin que la session soit automatiquement arrêtée au bout d'un certain temps. Par défaut, le délai est défini sur 4,320 minutes (72 heures).
+Vous pouvez spécifier la valeur du délai d'inactivité pour Unified Manager afin que la session soit automatiquement interrompue après une certaine période d'inactivité. Par défaut, le délai est défini sur 4,320 minutes (72 heures).
 
 .Avant de commencer
 Vous devez avoir le rôle Administrateur d'applications.

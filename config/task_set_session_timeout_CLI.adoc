@@ -1,0 +1,24 @@
+---
+permalink: config/task_set_session_timeout_CLI.html 
+sidebar: sidebar 
+keywords: session timeout, CLI, maximum 
+summary: 'Vous pouvez définir une valeur d"expiration de session maximale pour Unified Manager à l"aide de l"interface de ligne de commandes de sorte que la session soit automatiquement fermée après un certain délai.' 
+---
+= Définissez le délai d'expiration de la session via la CLI
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez définir une valeur d'expiration de session maximale pour Unified Manager à l'aide de l'interface de ligne de commandes de sorte que la session soit automatiquement fermée après un certain délai. Par défaut, le délai d'expiration de votre session est défini sur la valeur maximale, qui est de 4,320 minutes (72 heures). Cela signifie que votre session se termine automatiquement au bout de 72 heures, même si vous êtes connecté et utilisez activement Unified Manager.
+
+.Description de la tâche
+Vous devez avoir le rôle Administrateur d'applications.
+
+Le paramètre de délai d'expiration de session affecte toutes les sessions utilisateur connectées.
+
+.Étapes
+. Connectez-vous à l'interface de ligne de commande d'Unified Manager en entrant `um cli login` la commande. Utilisez un nom d'utilisateur et un mot de passe valides pour l'authentification.
+. Entrez `um option set max.session.timeout.value=<in mins>` pour modifier la valeur du délai d'expiration de la session.
+
