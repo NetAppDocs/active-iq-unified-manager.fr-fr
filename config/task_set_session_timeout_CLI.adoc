@@ -20,5 +20,5 @@ Le paramètre de délai d'expiration de session affecte toutes les sessions util
 
 .Étapes
 . Connectez-vous à l'interface de ligne de commande d'Unified Manager en entrant `um cli login` la commande. Utilisez un nom d'utilisateur et un mot de passe valides pour l'authentification.
-. Entrez `um option set max.session.timeout.value=<in mins>` pour modifier la valeur du délai d'expiration de la session.
+. Entrez `um option set max.session.timeout.value=<in mins>` la commande pour modifier la valeur du délai d'expiration de la session.
 
