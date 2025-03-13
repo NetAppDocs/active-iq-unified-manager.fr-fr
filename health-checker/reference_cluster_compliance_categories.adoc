@@ -91,7 +91,7 @@ Oui.
  a| 
 OCSP
  a| 
-Indique si des applications dans ONTAP ne sont pas configurées avec le protocole OCSP (Online Certificate Status Protocol) et que les communications ne sont donc pas cryptées. Les applications non conformes sont répertoriées.
+Depuis la version 9.14.1, Active IQ Unified Manager fournit des informations d'état du protocole OCSP (Online Certificate Status Protocol) au niveau du SVM (Storage Virtual machine). Cela signifie qu'une validation OCSP est appliquée à toutes les connexions SSL/TLS établies au SVM et assure l'intégrité et la validité des certificats utilisés dans ces connexions.
  a| 
 Activé
  a| 
