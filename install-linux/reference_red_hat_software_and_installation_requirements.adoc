@@ -56,6 +56,8 @@ Vous devez arrêter une instance en cours d'exécution de Unified Manager avant 
 
 L'installation de Unified Manager sur un système Linux peut être effectuée par l'utilisateur root ou par des utilisateurs non-root à l'aide de l' `sudo` commande.
 
+En outre, l'installation par défaut de Unified Manager inclut l'utilisateur umadmin (utilisateur de maintenance par défaut) et l'utilisateur jboss dans les fichiers sudoers (`ocum_sudoers`et `ocie_sudoers`) dans le `/etc/sudoers.d/` répertoire. Si vous supprimez ce contenu de votre environnement en raison de stratégies de sécurité ou en raison d'un outil de surveillance de la sécurité, vous devez le réintégrer. Vous devez conserver la configuration des sudoers car certaines opérations Unified Manager nécessitent ces privilèges de sudo.
+
 
 
 == Conditions requises pour l'installation
