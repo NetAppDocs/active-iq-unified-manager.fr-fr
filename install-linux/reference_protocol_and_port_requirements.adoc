@@ -217,4 +217,15 @@ NTP
  a| 
 Permet de synchroniser l'heure sur le serveur Unified Manager avec un serveur de temps NTP externe. (Systèmes VMware uniquement)
 
+
+
+ a| 
+Syslog
+ a| 
+UDP
+ a| 
+514
+ a| 
+Utilisé par Unified Manager pour envoyer les journaux d'audit à un serveur syslog distant.
+
 |===

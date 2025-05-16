@@ -84,6 +84,7 @@ Si le référentiel MySQL n'est pas configuré sur votre système, vous devez t�
 +
 Voir link:task_manually_configure_mysql_repository.html["Configuration manuelle du référentiel MySQL"].
 
+* Vous devez installer une seule version de Java sur votre hôte Unified Manager ; sinon, le système peut ne pas être en mesure de déterminer quelle version utiliser. Voir https://kb.netapp.com/data-mgmt/AIQUM/AIQUM_Kbs/After_updating_Java_on_the_Active_IQ_Unified_Manager_host_services_will_not_start["Après la mise à jour de Java sur l'hôte Active IQ Unified Manager, les services ne démarrent pas"].
 
 
 Si votre système n'a pas accès à Internet et que les référentiels ne sont pas mis en miroir à partir d'un système connecté à Internet vers un système non connecté, vous devez suivre les instructions d'installation pour déterminer les dépendances logicielles externes de votre système. Vous pouvez ensuite télécharger le logiciel requis sur le système connecté à Internet et copier les `.rpm` fichiers sur le système sur lequel vous prévoyez d'installer Unified Manager. Pour télécharger les artéfacts et les packages, vous devez utiliser `yum install` la commande. Vous devez vous assurer que les deux systèmes exécutent la même version de système d'exploitation et que la licence d'abonnement est destinée à Red Hat Enterprise Linux approprié.
