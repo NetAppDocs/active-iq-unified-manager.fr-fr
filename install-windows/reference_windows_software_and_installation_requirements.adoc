@@ -47,9 +47,9 @@ Le serveur doit être dédié à l'exécution de Unified Manager. Aucune autre a
 Les packs tiers suivants sont inclus avec Unified Manager. Si ces modules tiers ne sont pas installés sur votre système, Unified Manager les installe dans le cadre de l'installation.
 
 * Microsoft Visual C&#43;&#43; Redistributable Packages pour Visual Studio 2015 version 14.26.28720.3
-* MySQL Community Edition version 8.0.37
+* MySQL Community Edition version 8.4.4
 * Python 3.12.4
-* OpenJDK version 11.0.23
+* OpenJDK version 11.0.25
 * 7-zip version 23.01 ou ultérieure
 
 

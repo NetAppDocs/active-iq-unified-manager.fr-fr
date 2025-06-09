@@ -1,7 +1,7 @@
 ---
 permalink: storage-mgmt/concept_troubleshooting.html 
 sidebar: sidebar 
-keywords: troubleshoot 
+keywords: troubleshoot, netapp manageability sdk log rotation issue, windows, logrotate 
 summary: 'Les informations de dépannage vous permettent d"identifier et de résoudre les problèmes que vous rencontrez lors de l"utilisation de Unified Manager.' 
 ---
 = Dépannage
