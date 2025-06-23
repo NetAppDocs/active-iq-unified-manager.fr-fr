@@ -67,7 +67,7 @@ Unified Manager vous invite à message suivant :
 This setup will perform an upgrade of Unified Manager. Do you want to continue?
 ----
 . Cliquez sur *Oui*, puis sur *Suivant*.
-. Entrez le mot de passe racine MySQL8 défini lors de l'installation, puis cliquez sur *Suivant*.
+. Entrez le mot de passe racine MySQL84 défini lors de l'installation, puis cliquez sur *Suivant*.
 . Lancez l'interface utilisateur Web sur une nouvelle fenêtre dans un navigateur Web pris en charge et connectez-vous pour utiliser la version mise à niveau d'Unified Manager.
 . Si un logiciel antivirus actif est installé sur votre système Windows, veillez à exclure manuellement les chemins suivants de l'analyse antivirus une fois la mise à niveau terminée :
 +

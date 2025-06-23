@@ -62,7 +62,7 @@ Si MySQL est préinstallé, assurez-vous que :
 
 * Il utilise le port par défaut.
 * Les exemples de bases de données ne sont pas installés.
-* Le nom du service est "`MYSQL8'".
+* Le nom du service est « `MYSQL84` ».
 
 
 Unified Manager est déployé sur un serveur Web WildFly. WildFly 26.1.3 est fourni et configuré avec Unified Manager.
