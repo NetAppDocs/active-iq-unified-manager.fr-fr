@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: analyze, events, system-defined, performance, thresholds 
 summary: 'Les événements générés à partir des seuils de performance définis par le système indiquent qu"un compteur de performances ou un ensemble de compteurs de performances pour un objet de stockage a dépassé le seuil d"une règle définie par le système. Cela indique que l"objet de stockage, par exemple un agrégat ou un nœud, rencontre un problème de performances.' 
 ---
-= Analyse des événements à partir de seuils de performances définis par le système
+= Analyser les événements à partir des seuils de performance définis par le système
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

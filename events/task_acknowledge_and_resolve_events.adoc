@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: acknowledge, resolve, events 
 summary: 'Vous devez accuser réception d"un événement avant de commencer à travailler sur le problème qui a généré l"événement afin de ne pas continuer à recevoir de notifications d"alerte répétées. Après avoir effectué une action corrective pour un événement particulier, vous devez marquer l"événement comme résolu.' 
 ---
-= Confirmation et résolution des événements
+= Reconnaître et résoudre les événements
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

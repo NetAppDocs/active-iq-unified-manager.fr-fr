@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, https, security, certificate 
 summary: 'Vous pouvez comparer les détails du certificat HTTPS au certificat récupéré dans votre navigateur pour vous assurer que la connexion chiffrée de votre navigateur à Unified Manager n"est pas interceptée.' 
 ---
-= Affichage du certificat de sécurité HTTPS
+= Afficher le certificat de sécurité HTTPS
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

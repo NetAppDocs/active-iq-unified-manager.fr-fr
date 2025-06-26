@@ -26,7 +26,7 @@ Certains panneaux répertoriés ci-dessous apparaissent sur le tableau de bord e
 
 == Panneau actions de gestion
 
-Unified Manager effectue un diagnostic approfondi et permet sa résolution unique. Lorsqu'elles sont disponibles, ces résolutions sont affichées dans ce panneau avec un bouton *Fix it* ou *Fix All*. Vous pouvez corriger ces problèmes immédiatement à partir d'Unified Manager au lieu d'utiliser ONTAP System Manager ou l'interface de ligne de commande de ONTAP. Pour afficher tous les problèmes, cliquez sur Voir link:concept_fix_ontap_issues_directly_from_unified_manager.html["Résolution des problèmes ONTAP directement dans Unified Manager"] pour en savoir plus.
+Unified Manager effectue un diagnostic approfondi et permet sa résolution unique. Lorsqu'elles sont disponibles, ces résolutions sont affichées dans ce panneau avec un bouton *Fix it* ou *Fix All*. Vous pouvez corriger ces problèmes immédiatement à partir d'Unified Manager au lieu d'utiliser ONTAP System Manager ou l'interface de ligne de commande de ONTAP. Pour afficher tous les problèmes, cliquez sur Voir link:concept_fix_ontap_issues_directly_from_unified_manager.html["Résoudre les problèmes ONTAP directement depuis Unified Manager"] pour plus d'informations.
 
 
 
@@ -118,8 +118,8 @@ link:../events/reference_description_of_event_severity_types.html["Description d
 
 link:../performance-checker/concept_sources_of_performance_events.html["Sources des événements de performance"]
 
-link:../health-checker/concept_manage_cluster_security_objectives.html["Gestion des objectifs de sécurité des clusters"]
+link:../health-checker/concept_manage_cluster_security_objectives.html["Gérer les objectifs de sécurité du cluster"]
 
-link:../performance-checker/concept_monitor_cluster_performance_from_cluster_landing_page.html["Contrôle des performances des clusters à partir de la page d'accueil Performance Cluster"]
+link:../performance-checker/concept_monitor_cluster_performance_from_cluster_landing_page.html["Surveiller les performances du cluster à partir de la page de destination du cluster de performances"]
 
-link:../performance-checker/concept_monitor_performance_using_object_performance.html["Surveillance des performances à l'aide des pages d'inventaire des performances"]
+link:../performance-checker/concept_monitor_performance_using_object_performance.html["Surveiller les performances à l'aide des pages d'inventaire des performances"]

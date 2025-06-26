@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: perform, unattended, installation, unified manager 
 summary: 'Vous pouvez installer Unified Manager sans l"intervention de l"utilisateur à l"aide de l"interface de ligne de commandes. Vous pouvez effectuer l"installation sans assistance en transmettant les paramètres par paires de valeurs de clé.' 
 ---
-= Exécution d'une installation sans assistance de Unified Manager
+= Effectuer une installation sans assistance d'Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

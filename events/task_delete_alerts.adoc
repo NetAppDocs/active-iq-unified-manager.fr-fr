@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, alerts 
 summary: 'Vous pouvez supprimer une alerte lorsqu"elle n"est plus requise. Par exemple, vous pouvez supprimer une alerte créée pour une ressource spécifique lorsque cette ressource n"est plus surveillée par Unified Manager.' 
 ---
-= Suppression des alertes
+= Supprimer les alertes
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

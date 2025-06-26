@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, aggregates, reaching, full capacity 
 summary: 'Vous pouvez créer un rapport pour localiser les agrégats arrivant à pleine capacité, afin de pouvoir ajouter de la capacité ou déplacer les charges de travail vers d"autres agrégats.' 
 ---
-= Création d'un rapport pour afficher les agrégats dont la capacité est maximale
+= Créer un rapport pour afficher les agrégats atteignant leur pleine capacité
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

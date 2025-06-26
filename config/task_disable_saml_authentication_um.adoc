@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: disable, saml authentication 
 summary: 'Vous pouvez désactiver l"authentification SAML lorsque vous souhaitez arrêter l"authentification des utilisateurs distants via un fournisseur d"identités sécurisé avant de pouvoir vous connecter à l"interface utilisateur Web Unified Manager. Lorsque l"authentification SAML est désactivée, les fournisseurs de services d"annuaire configurés, tels qu"Active Directory ou LDAP, exécutent l"authentification d"identification.' 
 ---
-= Désactivation de l'authentification SAML
+= Désactivez l'authentification SAML
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

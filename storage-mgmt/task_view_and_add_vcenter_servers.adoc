@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, add, vcenter, server 
 summary: Pour afficher et dépanner les performances des machines virtuelles, vous devez ajouter les serveurs vCenter associés à votre instance Active IQ Unified Manager. 
 ---
-= Affichage et ajout de vCenter Server
+= Afficher et ajouter vCenter Server
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

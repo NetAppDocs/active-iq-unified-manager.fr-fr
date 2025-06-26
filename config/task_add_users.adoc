@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, users 
 summary: 'Vous pouvez ajouter des utilisateurs locaux ou des utilisateurs de base de données à l"aide de la page utilisateurs. Vous pouvez également ajouter des utilisateurs ou des groupes distants appartenant à un serveur d"authentification. Vous pouvez attribuer des rôles à ces utilisateurs et, en fonction des privilèges des rôles, les utilisateurs peuvent gérer les objets et les données de stockage à l"aide de Unified Manager ou afficher les données dans une base de données.' 
 ---
-= Ajout d'utilisateurs
+= Ajouter des utilisateurs
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

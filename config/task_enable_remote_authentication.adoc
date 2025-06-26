@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: enable, remote, authentication 
 summary: 'Vous pouvez activer l"authentification à distance afin que le serveur Unified Manager puisse communiquer avec vos serveurs d"authentification. Les utilisateurs du serveur d"authentification peuvent accéder à l"interface graphique Unified Manager pour gérer les objets de stockage et les données.' 
 ---
-= Activation de l'authentification à distance
+= Activez l'authentification à distance
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

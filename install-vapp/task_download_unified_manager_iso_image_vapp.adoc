@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: download, unified manager, upgrade file 
 summary: Avant de mettre à niveau Unified Manager, téléchargez le fichier de mise à niveau Unified Manager depuis le site de support NetApp. 
 ---
-= Téléchargement du fichier de mise à niveau Unified Manager
+= Téléchargez le fichier de mise à niveau d'Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

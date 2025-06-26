@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, metrocluster, configurations 
 summary: 'Vous pouvez surveiller les problèmes de connectivité dans votre configuration MetroCluster. Ces détails incluent l"état des composants, la connectivité dans un cluster et l"état de connectivité entre les clusters dans la configuration MetroCluster.' 
 ---
-= Contrôle des configurations MetroCluster
+= Surveillez les configurations MetroCluster
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -54,7 +54,7 @@ Si vous déplacez le pointeur sur l'icône, vous pouvez afficher des information
 
 Si vous détectez les problèmes de connectivité dans votre configuration MetroCluster, vous devez vous connecter à System Manager ou accéder à l'interface de ligne de commandes de ONTAP pour résoudre les problèmes.
 
-Pour plus d'informations sur la détermination de l'état du cluster, reportez-vous à la section link:../health-checker/task_check_health_of_clusters_in_metrocluster_configuration.html#determining-cluster-health-in-metrocluster-over-fc-configuration["Détermination de l'état du cluster dans la configuration MetroCluster sur FC"].
+Pour plus d'informations sur la détermination de l'intégrité du cluster, reportez-vous à link:../health-checker/task_check_health_of_clusters_in_metrocluster_configuration.html#determine-cluster-health-in-metrocluster-over-fc-configuration["Déterminer l'état du cluster dans MetroCluster via la configuration FC"]la section .
 
 
 
@@ -99,7 +99,7 @@ NOTE: Uniquement pour une configuration MetroCluster sur IP, vous pouvez affiche
 *Informations connexes*
 
 * link:../health-checker/reference_health_cluster_details_page.html["Page Cluster / Health Details"]
-* Pour plus d'informations sur la vue *Relationship:MetroCluster*, reportez-vous à la section link:../storage-mgmt/task_monitor_metrocluster_configurations.html["Contrôle des configurations MetroCluster"].
+* Pour plus d'informations sur la vue *Relationship:MetroCluster*, voir link:../storage-mgmt/task_monitor_metrocluster_configurations.html["Surveillez les configurations MetroCluster"].
 * Pour plus d'informations sur la *relation : vue État transfert du dernier mois*, voir link:../data-protection/reference_relationship_last_1_month_transfer_status_view.html["Relation : vue État transfert du dernier mois"].
 * Pour plus d'informations sur la vue *relation : taux de transfert du dernier mois*, voir link:../data-protection/reference_relationship_last_1_month_transfer_rate_view.html["Relation : vue du taux de transfert du dernier mois"].
 * Pour plus d'informations sur la vue *relation : toutes les relations*, voir link:../data-protection/reference_relationship_all_relationships_view.html["Relation : vue de toutes les relations"].

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: login banner, feature settings 
 summary: 'Cette fonction permet à votre organisation d"afficher toutes les informations, telles que les personnes autorisées à accéder au système et les conditions d"utilisation lors de la connexion et de la déconnexion.' 
 ---
-= Ajout d'une bannière de connexion
+= Ajouter une bannière de connexion
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

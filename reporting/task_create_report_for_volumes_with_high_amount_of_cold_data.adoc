@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: display, volumes, cold, data, non-fabricpool, aggregate, identify 
 summary: Vous pouvez créer un rapport pour afficher les volumes contenant une quantité importante de données inactives sur un agrégat non FabricPool. Cela peut vous aider à identifier les volumes à transférer vers un agrégat FabricPool. 
 ---
-= Création d'un rapport permettant d'afficher les volumes dont le volume de données inactives est élevé sur un agrégat non compatible FabricPool
+= Créer un rapport pour afficher les volumes contenant une grande quantité de données froides sur un agrégat qui n'est pas compatible avec FabricPool
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

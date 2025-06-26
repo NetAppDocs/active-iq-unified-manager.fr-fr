@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, quorum, epsilon 
 summary: 'Le quorum et l"epsilon sont des mesures importantes de l"état de santé du cluster et des fonctions qui indiquent ensemble que les clusters répondent aux problèmes potentiels de communication et de connectivité.' 
 ---
-= Présentation du quorum et de l'epsilon
+= Comprendre le quorum et l'epsilon
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, unified manager, recommendations, tier, data, cloud 
 summary: 'La vue Performance : tous les volumes affiche des informations relatives à la taille des données utilisateur stockées sur le volume inactif (à froid). Unified Manager identifie certains volumes qui seraient bénéficient du Tiering des données inactives vers le Tier cloud (fournisseur cloud ou StorageGRID) d"un agrégat compatible FabricPool.' 
 ---
-= Comprendre les recommandations d'Unified Manager concernant le Tiering des données dans le cloud
+= Comprendre les recommandations d'Unified Manager pour hiérarchiser les données vers le cloud
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

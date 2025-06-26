@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: filter, data, object, inventory, performance, pages 
 summary: 'Vous pouvez filtrer les données dans les pages performances de l"inventaire des objets pour localiser rapidement les données en fonction de critères spécifiques. Vous pouvez utiliser le filtrage pour restreindre le contenu des pages performances de l"inventaire des objets afin d"afficher uniquement les résultats que vous avez spécifiés. Cela constitue une méthode très efficace pour afficher uniquement les données de performance qui vous intéressent.' 
 ---
-= Filtrage des données dans les pages performances de l'inventaire des objets
+= Filtrer les données dans les pages Performances de l'inventaire des objets
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

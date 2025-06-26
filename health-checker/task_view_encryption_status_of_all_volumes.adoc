@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, encryption status, volumes 
 summary: Vous pouvez afficher la liste de tous les volumes, ainsi que leur état de cryptage actuel, afin de déterminer si les données de vos volumes sont correctement protégées contre tout accès par des utilisateurs non autorisés. 
 ---
-= Affichage de l'état de chiffrement de tous les volumes
+= Afficher l'état de chiffrement de tous les volumes
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

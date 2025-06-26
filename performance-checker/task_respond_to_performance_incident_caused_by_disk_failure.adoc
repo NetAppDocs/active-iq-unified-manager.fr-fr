@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: dynamic, performance, event, disk, failure 
 summary: 'Vous pouvez utiliser Unified Manager pour analyser un événement de performances provoqué par l"utilisation excessive d"un agrégat par des charges de travail. Vous pouvez également utiliser Unified Manager pour vérifier l"état de santé de l"agrégat et vérifier si les événements récemment détectés sur l"agrégat ont contribué à ce qui se passe.' 
 ---
-= Réponse à un événement de performance dynamique provoqué par une panne de disque
+= Répondre à un événement de performance dynamique causé par une panne de disque
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

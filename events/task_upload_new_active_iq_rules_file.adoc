@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: upload, new, active iq AIQ rules, rules file, CA secure rules, config advisor rules 
 summary: 'Unified Manager recherche automatiquement un nouveau fichier de règles Active IQ et télécharge un nouveau fichier dès qu"il existe de nouvelles règles. Cependant, sur les sites sans accès réseau externe, vous devez télécharger le fichier de règles manuellement.' 
 ---
-= Téléchargement d'un nouveau fichier de règles Active IQ
+= Télécharger un nouveau fichier de règles Active IQ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

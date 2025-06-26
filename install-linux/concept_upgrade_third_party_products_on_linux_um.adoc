@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: data center manager, upgrade, third-party products 
 summary: 'Vous pouvez mettre à niveau des produits tiers, tels que JRE, sur Unified Manager lorsqu"ils sont installés sur des systèmes Linux.' 
 ---
-= Mise à niveau de produits tiers après l'installation de Unified Manager
+= Mettre à niveau les produits tiers après l'installation d'Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

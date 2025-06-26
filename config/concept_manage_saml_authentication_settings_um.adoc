@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, saml, authentication, settings 
 summary: 'Une fois que vous avez configuré les paramètres d"authentification à distance, vous pouvez activer l"authentification SAML afin que les utilisateurs distants soient authentifiés par un fournisseur d"identités sécurisé avant d"accéder à l"interface utilisateur Web Unified Manager.' 
 ---
-= Gestion des paramètres d'authentification SAML
+= Gérer les paramètres d'authentification SAML
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

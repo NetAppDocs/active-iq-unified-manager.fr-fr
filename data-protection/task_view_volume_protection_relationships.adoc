@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, volume, protection relationships 
 summary: 'Depuis la vue relation : toutes les relations, et depuis la page Volume relations, vous pouvez afficher l"état des relations SnapMirror volume et SnapVault existantes. Vous pouvez également examiner des détails sur les relations de protection, notamment le statut de transfert et de décalage, les informations sur la source et la destination, les informations de planification et de stratégie, etc.' 
 ---
-= Affichage des relations de protection des volumes
+= Afficher les relations de protection du volume
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

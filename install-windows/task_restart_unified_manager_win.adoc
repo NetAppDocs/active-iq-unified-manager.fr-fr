@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: restart, unified manager 
 summary: 'Il peut s"avérer nécessaire de redémarrer Unified Manager après avoir apporté des modifications à la configuration.' 
 ---
-= Redémarrage de Unified Manager
+= Redémarrer Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

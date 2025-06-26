@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, individual, qtree, health, threshold, settings 
 summary: 'Vous pouvez modifier les paramètres du seuil de santé pour la capacité qtree d"un ou plusieurs qtrees. Lorsqu"un seuil est franchi, des alertes sont générées et vous recevez des notifications. Ces notifications vous aident à prendre des mesures préventives en fonction de l"événement généré.' 
 ---
-= Modification des paramètres de seuil de santé des qtrees individuels
+= Modifier les paramètres de seuil de santé individuels de qtree
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

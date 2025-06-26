@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, volume, transfers, transfer size 
 summary: Vous pouvez créer un rapport pour afficher les transferts de volumes en fonction de la taille du transfert. 
 ---
-= Création d'un rapport pour afficher les transferts de volumes en fonction de la taille du transfert
+= Créer un rapport pour afficher les transferts de volume en fonction de la taille du transfert
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -17,7 +17,7 @@ Les flux de travail décrivent les quelques cas d'utilisation courants de gestio
 
 
 
-== Présentation des appels API utilisés dans les workflows
+== Comprendre les appels d'API utilisés dans les workflows
 
 Vous pouvez consulter la page de documentation en ligne de votre instance Unified Manager qui comprend les détails de chaque appel d'API REST. Ce document ne répète pas les détails de la documentation en ligne. Chaque appel API utilisé dans les exemples de flux de travail de ce document comprend uniquement les informations dont vous avez besoin pour localiser l'appel sur la page de documentation. Après avoir localisé un appel API spécifique, vous pouvez vérifier les détails complets de l'appel, y compris les paramètres d'entrée, les formats de sortie, les codes d'état HTTP et le type de traitement de la demande.
 

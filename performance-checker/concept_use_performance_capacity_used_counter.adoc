@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, capacity, counter, manage, performance 
 summary: 'Généralement, les entreprises souhaitent profiter d"une capacité de performance utilisée inférieure à 100 et pouvoir utiliser les ressources de manière efficace tout en réservant une capacité de performance supplémentaire pour supporter les pics de demande. Vous pouvez utiliser des règles de seuil pour personnaliser l"envoi d"alertes pour des valeurs de capacité haute performance utilisée.' 
 ---
-= Utilisation du compteur de performances utilisé pour gérer les performances
+= Utilisez le compteur de capacité de performance utilisée pour gérer les performances
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

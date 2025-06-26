@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, events, thresholds, node, root, aggregates 
 summary: 'Vous pouvez contrôler l"agrégat racine du nœud à l"aide de Unified Manager. Il est recommandé de provisionner de façon épaisse le volume racine dans l"agrégat racine afin d"empêcher l"arrêt du nœud.' 
 ---
-= Présentation des événements et des seuils pour les agrégats racine du nœud
+= Comprendre les événements et les seuils pour les agrégats de racines de nœuds
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

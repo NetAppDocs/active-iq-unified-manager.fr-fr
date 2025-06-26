@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: provision, cifs, nfs, file, shares 
 summary: 'Vous pouvez provisionner les partages CIFS et les partages de fichiers NFS sur vos SVM (Storage Virtual machines) en utilisant les API de provisionnement fournies dans Active IQ Unified Manager. Ce workflow de provisionnement détaille les étapes à suivre pour récupérer les clés des SVM, Performance Service Levels et Storage Efficiency Policies avant de créer les partages de fichiers.' 
 ---
-= Provisionnement des partages de fichiers CIFS et NFS à l'aide d'API
+= Provisionnez les partages de fichiers CIFS et NFS à l'aide d'API
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

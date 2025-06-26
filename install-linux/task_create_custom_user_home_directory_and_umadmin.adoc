@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, custom, user, home, directory, umadmin, password, prior, installation 
 summary: 'Vous pouvez créer un répertoire d"accueil personnalisé et définir votre propre mot de passe utilisateur umadmin avant d"installer Unified Manager. Cette tâche est facultative, mais certains sites peuvent avoir la possibilité de remplacer les paramètres par défaut d"installation d"Unified Manager.' 
 ---
-= Création d'un répertoire personnel utilisateur personnalisé et d'un mot de passe umadmin avant l'installation
+= Créez un répertoire personnel utilisateur et un mot de passe umadmin personnalisés avant l'installation
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

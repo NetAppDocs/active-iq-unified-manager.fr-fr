@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, performance, threshold, policies 
 summary: Vous pouvez afficher toutes les règles de seuils de performance actuellement définies à partir de la page seuils de performance. 
 ---
-= Affichage des règles de seuils de performances
+= Afficher les politiques de seuil de performance
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

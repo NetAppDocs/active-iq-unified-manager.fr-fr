@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, resource, pool, members 
 summary: 'Un pool de ressources est constitué d"un certain nombre d"agrégats membres. Vous pouvez ajouter des agrégats à des pools de ressources existants pour augmenter l"espace disponible pour le provisionnement du volume secondaire.' 
 ---
-= Ajout de membres de pool de ressources
+= Ajouter des membres au pool de ressources
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: identify, victim workloads, dynamic, performance, event 
 summary: 'Unified Manager vous permet d"identifier les charges de travail de volume qui présentent l"écart le plus important en termes de temps de réponse (latence) causé par un composant de stockage en conflit. L"identification de ces charges de travail vous permet de comprendre pourquoi les applications client qui y accèdent ont été plus lentes que d"habitude.' 
 ---
-= Identification des charges de travail victimes impliquées dans la mise en œuvre d'un processus dynamique de performances
+= Identifier les charges de travail des victimes impliquées dans un événement de performance dynamique
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

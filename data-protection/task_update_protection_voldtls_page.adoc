@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: initialize, update, protection, relationships, volume, health details page 
 summary: Vous pouvez effectuer un transfert de base initial sur une nouvelle relation de protection, ou mettre à jour une relation si elle est déjà initialisée et si vous souhaitez effectuer une mise à jour incrémentielle manuelle et non planifiée pour transférer immédiatement les données. 
 ---
-= Initialisation ou mise à jour des relations de protection à partir de la page Détails du volume/intégrité
+= Initialiser ou mettre à jour les relations de protection à partir de la page Détails du volume/de la santé
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, unified manager, backup 
 summary: 'Vous pouvez configurer la fonctionnalité de sauvegarde sur Unified Manager par le biais d"un ensemble d"étapes de configuration à effectuer sur les systèmes hôtes et sur via la console de maintenance.' 
 ---
-= Configuration de la sauvegarde Unified Manager
+= Configurer la sauvegarde d'Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

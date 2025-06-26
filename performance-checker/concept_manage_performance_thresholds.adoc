@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, performance, thresholds 
 summary: 'Les règles de seuil de performances vous permettent de déterminer le point à partir duquel Unified Manager génère un événement afin d"informer les administrateurs système des problèmes qui pourraient affecter la performance des charges de travail. Ces règles de seuil sont appelées seuils de performance définis par l"utilisateur.' 
 ---
-= Gestion des seuils de performances
+= Gérer les seuils de performance
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

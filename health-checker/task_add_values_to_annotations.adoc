@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, values, annotations 
 summary: 'Vous pouvez ajouter des valeurs aux annotations, puis associer des objets de stockage à une paire nom-valeur d"annotation spécifique. L"ajout de valeurs aux annotations permet de gérer plus efficacement les objets de stockage.' 
 ---
-= Ajout de valeurs aux annotations
+= Ajouter des valeurs aux annotations
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

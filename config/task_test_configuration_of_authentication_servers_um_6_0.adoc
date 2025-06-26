@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: test, configuration, authentication servers 
 summary: 'Vous pouvez valider la configuration de vos serveurs d"authentification pour vous assurer que le serveur de gestion peut communiquer avec eux. Vous pouvez valider la configuration en recherchant un utilisateur ou un groupe distant à partir de vos serveurs d"authentification et en les authentifiant à l"aide des paramètres configurés.' 
 ---
-= Test de la configuration des serveurs d'authentification
+= Tester la configuration des serveurs d'authentification
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

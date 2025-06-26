@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, storage, efficiency, policies, guidelines, create, custom 
 summary: 'Une stratégie d"efficacité du stockage (SEP) vous permet de définir les caractéristiques d"efficacité du stockage d"une charge de travail. Vous pouvez affecter un SEP à une charge de travail lors de la création initiale de la charge de travail ou ultérieurement en modifiant la charge de travail.' 
 ---
-= Gestion des règles d'efficacité du stockage
+= Gérer les politiques d'efficacité du stockage
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

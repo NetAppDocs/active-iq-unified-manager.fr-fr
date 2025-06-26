@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: assign, policies, workloads, single, multiple, storage, system-recommended, psls 
 summary: 'Vous pouvez affecter des politiques d"efficacité du stockage (PPE) et des niveaux de service de performance aux charges de travail de stockage à partir de la page toutes les charges de travail en utilisant les différentes options de navigation.' 
 ---
-= L'attribution de règles aux workloads
+= Attribuer des politiques aux charges de travail
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -15,7 +15,7 @@ Vous pouvez affecter des politiques d'efficacité du stockage (PPE) et des nivea
 
 
 
-== L'assignation de règles à un seul workload
+== Attribuer des politiques à une seule charge de travail
 
 Vous pouvez affecter un PSL ou un SEP ou les deux à une seule charge de travail. Voici la procédure à suivre :
 
@@ -35,7 +35,7 @@ Vous pouvez également sélectionner une charge de travail et cliquer sur *plus 
 ====
 
 
-== Attribuez des règles à plusieurs workloads de stockage
+== Attribuer des politiques à plusieurs charges de travail de stockage
 
 Vous pouvez affecter un PSL ou un SEP à plusieurs charges de travail de stockage ensemble. Voici la procédure à suivre :
 
@@ -53,7 +53,7 @@ L'application de règles à des charges de travail en bloc peut prendre un certa
 
 
 
-== Attribution des SLS recommandées par le système aux charges de travail
+== Attribuer des PSL recommandés par le système aux charges de travail
 
 Vous pouvez affecter des SLR recommandés par le système à ces charges de travail de stockage dans un centre de données ne disposant pas de SLP, ou les SLS attribuées ne correspondent pas aux recommandations du système. Pour utiliser cette fonctionnalité, cliquez sur le bouton *affecter les PSLs* recommandés par le système. Vous n'avez pas besoin de sélectionner des workloads spécifiques.
 

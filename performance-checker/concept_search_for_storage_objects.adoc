@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: search, storage, objects 
 summary: 'Pour accéder rapidement à un objet spécifique, vous pouvez utiliser le champ Rechercher tous les objets de stockage en haut de la barre de menus. Cette méthode de recherche globale sur tous les objets vous permet de localiser rapidement des objets spécifiques par type. Les résultats de la recherche sont classés par type d"objet de stockage et vous pouvez les filtrer dans le menu déroulant. Une recherche valide doit contenir au moins trois caractères.' 
 ---
-= Recherche d'objets de stockage
+= Rechercher des objets de stockage
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

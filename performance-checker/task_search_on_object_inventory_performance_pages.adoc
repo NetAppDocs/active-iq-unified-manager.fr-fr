@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: object, inventory, performance, pages 
 summary: 'Vous pouvez rechercher des chaînes dans les pages performances de l"inventaire des objets. Utilisez le champ de recherche situé en haut à droite de la page pour localiser rapidement des données en fonction du nom d"objet ou du nom de stratégie. Vous pouvez ainsi localiser rapidement des objets spécifiques et leurs données associées, ou consulter rapidement les règles et les données d"objets de stratégie associés.' 
 ---
-= Recherche sur les pages performances de l'inventaire des objets
+= Rechercher sur les pages de performances de l'inventaire des objets
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

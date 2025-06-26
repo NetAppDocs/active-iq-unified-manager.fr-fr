@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, unified manager, send, alert, notifications 
 summary: 'Vous pouvez configurer Unified Manager pour qu"il envoie des notifications vous informant des événements de votre environnement. Avant d"envoyer des notifications, vous devez configurer plusieurs autres options Unified Manager.' 
 ---
-= Configuration de Unified Manager pour envoyer des notifications d'alerte
+= Configurer Unified Manager pour envoyer des notifications d'alerte
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

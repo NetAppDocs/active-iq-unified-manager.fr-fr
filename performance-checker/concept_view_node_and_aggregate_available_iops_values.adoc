@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, node, aggregate, available, iops, values 
 summary: 'Vous pouvez contrôler les valeurs d"IOPS disponibles pour tous les nœuds ou pour tous les agrégats d"un cluster, ou afficher les détails d"un seul nœud ou agrégat.' 
 ---
-= Affichage des valeurs d'IOPS disponibles du nœud et de l'agrégat
+= Afficher les valeurs IOPS disponibles pour les nœuds et les agrégats
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -17,7 +17,7 @@ Les valeurs d'IOPS disponibles apparaissent sur les pages Performance Inventory 
 
 image::../media/available_iops_zoom.gif[Capture d'écran de l'interface utilisateur montrant comment afficher un nœud sur la page Explorateur de nœuds/performances et sélectionner « Available IOPS » dans la liste.]
 
-La surveillance du compteur IOPS disponible vous permet d'identifier :
+Surveiller le compteur IOPS disponible vous permet d'identifier :
 
 * Les nœuds ou les agrégats qui disposent des valeurs d'IOPS les plus élevées pour déterminer l'emplacement où les futurs workloads peuvent être déployés.
 * Pour identifier les ressources dont vous devez contrôler les problèmes de performance futurs, les nœuds ou les agrégats disposant des valeurs d'IOPS les plus faibles.

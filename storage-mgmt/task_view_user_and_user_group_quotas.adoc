@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, user, user, group, quotas 
 summary: 'La page d"informations Storage VM / Health affiche des informations sur les quotas d"utilisateur et de groupe d"utilisateurs configurés sur la SVM. Vous pouvez afficher le nom de l"utilisateur ou du groupe d"utilisateurs, les limites définies sur les disques et les fichiers, l"espace disque et fichier utilisés et l"adresse e-mail de notification.' 
 ---
-= Affichage des quotas d'utilisateurs et de groupes d'utilisateurs
+= Afficher les quotas des utilisateurs et des groupes d'utilisateurs
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

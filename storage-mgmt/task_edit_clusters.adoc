@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, clusters 
 summary: 'Vous pouvez modifier les paramètres d"un cluster existant, comme le nom d"hôte ou l"adresse IP, le nom d"utilisateur, le mot de passe et le port, à l"aide de la boîte de dialogue Modifier le cluster.' 
 ---
-= Modification des clusters
+= Modifier les clusters
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: change, counter, charts, focus, shorter, period, time 
 summary: 'Vous pouvez utiliser la souris pour réduire la plage de temps pour vous concentrer sur une période spécifique dans le volet Tableau des compteurs ou dans la fenêtre vue Zoom des diagrammes des compteurs. Cela vous permet d"obtenir une vue plus granulaire et microscopique de n"importe quelle partie de la chronologie des données de performances, des événements et des seuils.' 
 ---
-= Modification de la mise au point des compteurs sur une période de temps plus courte
+= Modifiez la focalisation des graphiques de compteur sur une période de temps plus courte
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: customize, volume, performance, reports 
 summary: Ces exemples de rapports personnalisés sont utilisés pour vous aider à identifier les problèmes potentiels liés aux performances des volumes et à y répondre. 
 ---
-= Personnalisation des rapports de performances des volumes
+= Personnaliser les rapports de performances de volume
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

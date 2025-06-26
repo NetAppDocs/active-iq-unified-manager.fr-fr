@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: change, unified manager, host name, linux systems 
 summary: 'À un moment donné, vous pouvez modifier le nom d"hôte de la machine Red Hat Enterprise Linux sur laquelle vous avez installé Unified Manager. Par exemple, vous pouvez renommer l"hôte pour identifier plus facilement vos serveurs Unified Manager par type, groupe de travail ou groupe de clusters surveillé lorsque vous répertoriez vos machines Linux.' 
 ---
-= Modification du nom d'hôte Unified Manager sur les systèmes Linux
+= Modifier le nom d'hôte d'Unified Manager sur les systèmes Linux
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

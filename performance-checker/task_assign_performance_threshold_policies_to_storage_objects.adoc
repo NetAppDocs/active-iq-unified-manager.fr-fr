@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: assign, performance, threshold, policies, storage, objects 
 summary: 'Vous affectez une règle de seuil de performances définie par l"utilisateur à un objet de stockage. Unified Manager signale ainsi un événement si la valeur du compteur de performances dépasse le paramètre de règle.' 
 ---
-= Assignation de règles de seuil de performances aux objets de stockage
+= Attribuer des politiques de seuil de performance aux objets de stockage
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

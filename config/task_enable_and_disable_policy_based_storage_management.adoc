@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: provisioning, performance service levels, storage management, enable, disable, policy-based 
 summary: 'Depuis la version 9.7 de Unified Manager, vous pouvez provisionner les charges de travail de stockage (volumes et LUN) sur vos clusters ONTAP, et gérer ces charges de travail en fonction de niveaux de service de performances attribués. Cette fonctionnalité est similaire à la création des charges de travail dans ONTAP System Manager et à l"ajout de règles de QoS. Toutefois, lorsqu"elle est appliquée à l"aide de Unified Manager, vous pouvez provisionner et gérer les charges de travail sur l"ensemble des clusters qui surveillent votre instance Unified Manager.' 
 ---
-= Activation et désactivation de la gestion du stockage basée sur des règles
+= Activer et désactiver la gestion du stockage basée sur des politiques
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

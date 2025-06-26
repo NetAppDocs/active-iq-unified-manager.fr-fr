@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, aggregate list, details 
 summary: 'Depuis la vue Santé : tous les agrégats, vous pouvez surveiller votre inventaire des agrégats. La vue capacité : tous les agrégats vous permet d"afficher des informations sur la capacité et l"utilisation des agrégats de tous les clusters.' 
 ---
-= Affichage de la liste des agrégats et des détails
+= Voir la liste globale et les détails
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: perform, administrative, tasks 
 summary: 'Vous pouvez utiliser les API dans la catégorie d"administration pour modifier les paramètres de sauvegarde, vérifier les informations sur le fichier de sauvegarde et les certificats de cluster, ainsi que gérer les clusters ONTAP en tant que sources de données Active IQ Unified Manager.' 
 ---
-= Exécution des tâches administratives à l'aide d'API
+= Effectuer des tâches administratives à l'aide d'API
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

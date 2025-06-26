@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, identify, volumes, full capacity, snapshot, autodelete, turned off 
 summary: 'Vous pouvez créer un rapport contenant la liste des volumes dont la capacité est proche de celle maximale avec la fonction de suppression automatique de l"instantané désactivée. Les résultats peuvent vous aider à identifier les volumes dans lesquels vous souhaitez configurer la suppression automatique des snapshots.' 
 ---
-= Création d'un rapport pour identifier les volumes dont la suppression automatique de l'instantané est désactivée sur la capacité maximale
+= Créez un rapport pour identifier les volumes proches de leur pleine capacité pour lesquels la suppression automatique des instantanés est désactivée.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

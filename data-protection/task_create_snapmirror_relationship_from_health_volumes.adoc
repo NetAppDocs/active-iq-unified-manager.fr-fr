@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapmirror, protection, relationship, health, volumes view 
 summary: 'A partir de la vue Santé : tous les volumes, vous pouvez créer plusieurs relations de protection SnapMirror simultanément en sélectionnant plusieurs volumes sur la même VM de stockage.' 
 ---
-= Création d'une relation de protection SnapMirror depuis la vue Santé : tous les volumes
+= Créer une relation de protection SnapMirror à partir de la vue Santé : Tous les volumes
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

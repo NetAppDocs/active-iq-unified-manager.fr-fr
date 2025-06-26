@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: customize, aggregate, capacity, reports 
 summary: Ces exemples de rapports personnalisés sont utilisés pour vous aider à identifier les problèmes potentiels liés à la capacité de stockage des agrégats et à y répondre. 
 ---
-= Personnalisation des rapports de capacité d'agrégats
+= Personnaliser les rapports de capacité globale
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

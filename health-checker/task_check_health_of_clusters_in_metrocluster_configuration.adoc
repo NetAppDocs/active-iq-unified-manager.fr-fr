@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: check, health, clusters, metrocluster, configuration 
 summary: 'Vous pouvez utiliser Unified Manager pour vérifier l"état de santé opérationnel des clusters et de leurs composants dans une configuration MetroCluster. Si les clusters étaient impliqués dans un événement de performances détecté par Unified Manager, l"état de santé peut vous aider à déterminer si un problème matériel ou logiciel a contribué à l"événement.' 
 ---
-= Vérification de l'état de santé des clusters dans une configuration MetroCluster
+= Vérifier la santé des clusters dans une configuration MetroCluster
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -21,7 +21,7 @@ Vous pouvez utiliser Active IQ Unified Manager (Unified Manager) pour vérifier 
 
 
 
-== Détermination de l'état du cluster dans la configuration MetroCluster sur FC
+== Déterminer l'état du cluster dans MetroCluster via la configuration FC
 
 Suivez ces étapes pour déterminer l'état du cluster dans une configuration MetroCluster sur FC.
 
@@ -59,7 +59,7 @@ Dans cet exemple, si l'icône NVRAM du cluster local ou partenaire est jaune ou 
 
 
 
-== Détermination de l'état du cluster dans la configuration MetroCluster sur IP
+== Déterminer l'état du cluster dans la configuration MetroCluster sur IP
 
 Procédez comme suit pour déterminer l'intégrité du cluster dans une configuration MetroCluster sur IP.
 

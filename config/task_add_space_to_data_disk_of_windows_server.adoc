@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, space, logical, drive, microsoft windows server 
 summary: 'Si vous devez augmenter la quantité d"espace disque pour la base de données Unified Manager, vous pouvez ajouter de la capacité au lecteur logique sur lequel Unified Manager est installé.' 
 ---
-= Ajout d'espace au lecteur logique du serveur Microsoft Windows
+= Ajouter de l'espace au lecteur logique du serveur Microsoft Windows
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: specify, time range, zoom view 
 summary: 'La commande Plage de temps de la fenêtre vue Zoom des diagrammes de compteur vous permet de spécifier une plage de date et d"heure pour le graphique sélectionné. Cela vous permet de localiser rapidement des données spécifiques en fonction d"une plage horaire prédéfinie ou de votre propre plage horaire personnalisée.' 
 ---
-= Spécification de la plage de temps dans la vue Zoom
+= Spécifiez la plage horaire dans la vue Zoom
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

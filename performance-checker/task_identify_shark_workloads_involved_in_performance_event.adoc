@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: identify, shark workloads, involved, dynamic, performance, event 
 summary: 'Dans Unified Manager, vous pouvez identifier les charges de travail présentant la déviation la plus élevée d"utilisation pour un composant de stockage en conflit. L"identification de ces charges de travail vous permet de déterminer si ces charges de travail doivent être déplacées vers un cluster moins utilisé.' 
 ---
-= Identification des charges de travail Shark impliquées dans un événement de performance dynamique
+= Identifier les charges de travail des requins impliquées dans un événement de performance dynamique
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

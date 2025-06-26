@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resolve, lag, issues 
 summary: 'Ce flux de travail fournit un exemple de résolution d"un problème de décalage. Dans ce scénario, vous êtes administrateur ou opérateur qui accède à la page de tableau de bord d"Unified Manager pour voir s"il y a des problèmes avec vos relations de protection et, le cas échéant, pour trouver des solutions.' 
 ---
-= Résolution des problèmes de décalage
+= Résoudre les problèmes de décalage
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

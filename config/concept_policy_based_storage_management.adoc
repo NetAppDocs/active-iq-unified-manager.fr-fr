@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: slo, storage efficiency policy, storage workloads 
 summary: 'L"option de gestion du stockage basée sur des règles permet la gestion du stockage en fonction des objectifs de niveau de service. Cette option est activée par défaut.' 
 ---
-= Permettre la gestion du stockage basée sur des règles
+= Mettez en œuvre la gestion du stockage basée sur des règles
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

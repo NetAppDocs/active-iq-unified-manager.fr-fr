@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: reverse, protection, relationships volume, health details page 
 summary: 'Lorsqu"un incident désactive le volume source de votre relation de protection, vous pouvez utiliser le volume de destination pour transmettre des données en les convertissant en lecture/écriture pendant que vous réparez ou remplacez la source. Lorsque la source est de nouveau disponible pour recevoir des données, vous pouvez utiliser l"opération de resynchronisation inverse pour établir la relation dans le sens inverse, en synchronisant les données de la source avec celles de la destination de lecture/écriture.' 
 ---
-= Inversion des relations de protection à partir de la page Détails du volume/intégrité
+= Relations de protection inverse à partir de la page Détails Volume/Santé
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

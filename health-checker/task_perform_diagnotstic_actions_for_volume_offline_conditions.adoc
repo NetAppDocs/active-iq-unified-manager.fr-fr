@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: perform, diagnostic actions, volume, offline, conditions 
 summary: 'Après avoir accédé à la page des détails du volume/de l"état d"intégrité d"un volume signalé comme étant hors ligne, vous pouvez rechercher des informations supplémentaires utiles pour diagnostiquer la condition hors ligne du volume.' 
 ---
-= Exécution d'actions de diagnostic pour des conditions hors ligne de volume
+= Effectuer des actions de diagnostic pour les conditions de volume hors ligne
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

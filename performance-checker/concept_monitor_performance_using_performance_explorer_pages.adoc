@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitoring, performance, explorer, pages 
 summary: 'Les pages de l"explorateur d"performances affichent des informations détaillées sur les performances de chaque objet d"un cluster. Cette page offre une vue détaillée des performances de tous les objets du cluster, ce qui vous permet de sélectionner et de comparer les données de performances d"objets spécifiques sur différentes périodes.' 
 ---
-= Contrôle des performances à l'aide des pages de l'explorateur de performances
+= Surveiller les performances à l'aide des pages de l'Explorateur de performances
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

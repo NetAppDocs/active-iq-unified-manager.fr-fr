@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: select, performance, thresholds, counter, charts, zoom, view 
 summary: 'Application de seuils dans la vue Zoom des diagrammes de compteur fournit une vue détaillée des occurrences d"événements de seuil de performance. Cela vous permet d"appliquer ou de supprimer des seuils, et d"afficher immédiatement les résultats, ce qui peut être utile tout en déterminant si le dépannage doit être votre prochaine étape.' 
 ---
-= Sélection des seuils de performance dans la vue Zoom des diagrammes de compteur
+= Sélectionner les seuils de performance dans la vue Zoom des graphiques de compteur
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

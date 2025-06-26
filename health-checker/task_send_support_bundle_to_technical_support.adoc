@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: support bundle, technical support 
 summary: 'Pour obtenir des informations plus détaillées sur le diagnostic et le dépannage d"un problème que ne fournit un message AutoSupport, vous pouvez envoyer un pack d"assistance au support technique.' 
 ---
-= Envoi d'un pack support au support technique
+= Envoyer un dossier d'assistance au support technique
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

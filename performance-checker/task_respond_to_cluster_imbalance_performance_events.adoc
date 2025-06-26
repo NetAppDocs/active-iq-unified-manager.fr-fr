@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: cluster, imbalance, performance, events 
 summary: 'Unified Manager génère un avertissement de déséquilibre de cluster lorsqu"un nœud d"un cluster fonctionne à une charge bien plus élevée que les autres nœuds et peut donc affecter la latence des charges de travail. Ces événements définis par le système permettent de corriger les problèmes de performance potentiels avant que de nombreuses charges de travail ne soient affectées par la latence.' 
 ---
-= Répondre aux événements de performances du déséquilibre des clusters
+= Répondre aux événements de déséquilibre des performances du cluster
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

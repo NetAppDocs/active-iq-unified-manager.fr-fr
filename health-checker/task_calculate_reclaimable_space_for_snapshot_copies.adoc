@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: calculate, reclaimable space, snapshot copies 
 summary: 'Vous pouvez calculer la quantité d"espace disque qui peut être récupérée si une ou plusieurs copies Snapshot sont supprimées.' 
 ---
-= Calcul de l'espace récupérable pour les copies Snapshot
+= Calculer l'espace récupérable pour les copies Snapshot
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

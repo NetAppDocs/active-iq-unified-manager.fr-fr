@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, group actions 
 summary: 'Vous pouvez supprimer une action de groupe de Unified Manager lorsque l"action de groupe n"est plus nécessaire.' 
 ---
-= Suppression des actions de groupe
+= Supprimer les actions de groupe
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: node, resources, overutilized, performance, events 
 summary: 'Unified Manager génère des événements d"avertissement surexploités lorsqu"un nœud se trouve au-dessus des limites de son efficacité opérationnelle, et risque par conséquent d"affecter la latence des charges de travail. Ces événements définis par le système permettent de corriger les problèmes de performance potentiels avant que de nombreuses charges de travail ne soient affectées par la latence.' 
 ---
-= Réponse aux événements de performance surexploités relatifs aux ressources des nœuds
+= Répondre aux événements de performances surutilisés des ressources des nœuds
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

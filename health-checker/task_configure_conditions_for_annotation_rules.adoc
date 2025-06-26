@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, configure, conditions, annotation rules 
 summary: 'Vous pouvez configurer une ou plusieurs conditions pour créer des règles d"annotation qui s"appliquent aux objets de stockage par Unified Manager. Les objets de stockage correspondant à la règle d"annotation sont annotés avec la valeur spécifiée dans la règle.' 
 ---
-= Configuration des conditions pour les règles d'annotation
+= Configurer les conditions des règles d'annotation
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, alerts, security events 
 summary: Vous pouvez configurer les alertes pour les événements de sécurité individuels comme pour tous les autres événements reçus par Unified Manager. En outre, si vous souhaitez traiter tous les événements de sécurité, et que vous avez envoyé un e-mail à la même personne, vous pouvez créer une alerte unique pour vous avertir lorsque des événements de sécurité sont déclenchés. 
 ---
-= Ajout d'alertes pour les événements de sécurité
+= Ajouter des alertes pour les événements de sécurité
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

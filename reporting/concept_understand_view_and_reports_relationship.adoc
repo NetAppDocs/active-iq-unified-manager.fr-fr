@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, view, report, relationship 
 summary: 'Les pages d"affichage et d"inventaire deviennent des rapports lorsque vous les téléchargez ou les planifiez.' 
 ---
-= Comprendre la relation de vue et de rapport
+= Comprendre la relation entre la vue et le rapport
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

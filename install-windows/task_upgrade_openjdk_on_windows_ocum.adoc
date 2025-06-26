@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: openjdk, jre, upgrade 
 summary: 'Vous pouvez mettre à niveau vers une version plus récente d"OpenJDK sur le serveur Windows sur lequel Unified Manager est installé pour obtenir des correctifs pour les vulnérabilités de sécurité.' 
 ---
-= Mise à niveau d'OpenJDK
+= Mettre à niveau OpenJDK
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

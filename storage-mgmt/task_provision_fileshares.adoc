@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: provision, file, share, volumes 
 summary: 'Vous pouvez créer des volumes de partage de fichiers qui prennent en charge les protocoles CIFS/SMB et NFS, sur un cluster existant et sur Storage Virtual machine (VM de stockage) à partir de la page provisionner les workloads.' 
 ---
-= Provisionnement des volumes de partage de fichiers
+= Provisionner les volumes de partage de fichiers
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

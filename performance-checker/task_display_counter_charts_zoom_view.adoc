@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: display, counter charts, zoom, view 
 summary: 'La vue Zoom des diagrammes de compteur fournit un niveau de détail plus fin pour le compteur sélectionné et son chronogramme associé. Cela amplifie les données du compteur, ce qui vous permet d"obtenir une vue plus précise des événements de performance et de leurs causes sous-jacentes.' 
 ---
-= Affichage de la vue Zoom des diagrammes de compteur
+= Afficher les graphiques de compteurs Vue Zoom
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

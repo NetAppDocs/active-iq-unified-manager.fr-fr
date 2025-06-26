@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: enable, remote, logging, audit, logs 
 summary: 'Vous pouvez cocher la case Activer la journalisation à distance dans la boîte de dialogue configurer les journaux d"audit pour activer la journalisation d"audit à distance. Vous pouvez utiliser cette fonction pour transférer les journaux d"audit vers un serveur Syslog distant. Cela vous permettra de gérer vos journaux d"audit lorsqu"il existe des contraintes d"espace.' 
 ---
-= Activation de la journalisation à distance des journaux d'audit
+= Activer la journalisation à distance des journaux d'audit
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

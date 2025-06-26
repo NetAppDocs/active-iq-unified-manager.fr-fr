@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, monitor, protection, relationships 
 summary: 'Active IQ Unified Manager vous permet de créer des relations de protection, de surveiller et de dépanner les relations SnapMirror et SnapVault sur les clusters gérés, et de restaurer les données lorsqu"elles sont écrasées ou perdues.' 
 ---
-= Gestion et surveillance des relations de protection
+= Gérer et surveiller les relations de protection
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: analyze, performance, events 
 summary: 'Vous pouvez analyser les événements de performances afin d"identifier quand ils ont été détectés, qu"ils soient actifs (nouveaux ou confirmés) ou obsolètes, les charges de travail et les composants du cluster impliqués, ainsi que les options de résolution des événements par vos propres moyens.' 
 ---
-= Analyse des événements de performances
+= Analyser les événements de performance
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

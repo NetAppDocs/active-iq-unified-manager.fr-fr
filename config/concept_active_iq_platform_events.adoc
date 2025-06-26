@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: feature settings, active iq, portal, events 
 summary: 'Vous pouvez indiquer si vous souhaitez activer ou désactiver les événements du portail Active IQ. Ce paramètre permet au portail Active IQ de détecter et d"afficher d"autres événements relatifs à la configuration du système, au câblage, etc. Cette option est activée par défaut.' 
 ---
-= Activation des événements du portail Active IQ
+= Activer les événements du portail Active IQ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

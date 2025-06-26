@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: restore, data, volume, health details page 
 summary: 'Vous pouvez restaurer des fichiers, des répertoires ou un volume entier à partir d"une copie Snapshot remplacés ou supprimés. Pour ce faire, utilisez la fonctionnalité de restauration de la page Détails du volume/intégrité.' 
 ---
-= Restauration des données à l'aide des pages de détails Volume et Volume/intégrité
+= Restaurer les données à l'aide des pages de détails Volume et Volume/Santé
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

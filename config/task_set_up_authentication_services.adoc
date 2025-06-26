@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: set up, authentication, services 
 summary: 'Les services d"authentification permettent l"authentification d"utilisateurs distants ou de groupes distants sur un serveur d"authentification avant de leur donner accès à Unified Manager. Vous pouvez authentifier les utilisateurs en utilisant des services d"authentification prédéfinis (tels qu"Active Directory ou OpenLDAP) ou en configurant votre propre mécanisme d"authentification.' 
 ---
-= Configuration des services d'authentification
+= Configurer les services d'authentification
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

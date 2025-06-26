@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, monitor, groups 
 summary: La création de groupes dans Unified Manager permet de gérer les objets de stockage. 
 ---
-= Gestion et suivi des groupes
+= Gérer et surveiller les groupes
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: upgrade events, view, security events, software, firmware updates 
 summary: 'Certains événements de sécurité ont une zone d"impact de « mise à niveau ». Ces événements sont signalés sur la plateforme Active IQ et ils identifient les problèmes liés à la résolution lorsque vous devez mettre à niveau le logiciel ONTAP, le firmware des nœuds ou le logiciel du système d"exploitation (pour les conseils de sécurité).' 
 ---
-= Affichage des événements de sécurité qui peuvent nécessiter des mises à jour logicielles ou micrologicielles
+= Afficher les événements de sécurité qui peuvent nécessiter des mises à jour de logiciels ou de micrologiciels
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

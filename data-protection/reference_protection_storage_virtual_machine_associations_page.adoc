@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: svm, association, page 
 summary: 'La page d"association des VM de stockage vous permet d"afficher les associations de VM de stockage existantes entre les VM de stockage source et cible.' 
 ---
-= Présentation des associations d'ordinateurs virtuels de stockage
+= Comprendre les associations de machines virtuelles de stockage
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

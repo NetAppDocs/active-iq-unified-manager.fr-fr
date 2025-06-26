@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: quiesce, protection, relationship, volume, relationships page 
 summary: 'À partir de la page relations de volume, vous pouvez suspendre une relation de protection afin d"empêcher temporairement les transferts de données. Vous pouvez suspendre une relation lorsque vous souhaitez créer une copie Snapshot d"un volume de destination SnapMirror qui contient une base de données. Vous devez également vous assurer que son contenu est stable pendant l"opération de copie Snapshot.' 
 ---
-= Mise en veille d'une relation de protection à partir de la page relations de volume
+= Suspendre une relation de protection à partir de la page Relations de volume
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

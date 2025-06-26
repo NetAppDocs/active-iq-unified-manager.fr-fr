@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, group rules 
 summary: 'Vous pouvez modifier des règles de groupe pour modifier les groupes de condition et les conditions d"un groupe de conditions afin d"ajouter ou de supprimer des objets de stockage dans ou d"un groupe spécifique.' 
 ---
-= Modification des règles de groupe
+= Modifier les règles du groupe
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: use, unified manager, help 
 summary: 'L"aide contient des informations sur toutes les fonctions incluses dans Active IQ Unified Manager. Vous pouvez utiliser la table des matières, l"index ou l"outil de recherche pour trouver des informations sur les fonctions et leur utilisation.' 
 ---
-= Utilisation de l'aide de Unified Manager
+= Utiliser l'aide du gestionnaire unifié
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

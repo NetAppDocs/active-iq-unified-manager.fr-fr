@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, node list, details 
 summary: 'Vous pouvez utiliser la vue Santé : tous les nœuds pour afficher la liste des nœuds des clusters. Vous pouvez utiliser la page de détails Cluster / Health pour afficher des informations détaillées sur les nœuds faisant partie du cluster surveillé.' 
 ---
-= Affichage de la liste des nœuds et des détails
+= Afficher la liste des nœuds et les détails
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

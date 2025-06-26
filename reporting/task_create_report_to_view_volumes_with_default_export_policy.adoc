@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, volumes, default, export, policy 
 summary: 'Vous pouvez créer un rapport pour rechercher les volumes qui utilisent la stratégie d"exportation par défaut.' 
 ---
-= Création d'un rapport pour afficher les volumes qui utilisent l'export policy par défaut
+= Créer un rapport pour afficher les volumes qui utilisent la politique d'exportation par défaut
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

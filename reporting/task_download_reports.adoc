@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: download, reports 
 summary: 'Vous pouvez télécharger des rapports et enregistrer les données sur un lecteur local ou réseau sous la forme d"un fichier CSV (valeurs séparées par des virgules), d"un fichier Microsoft Excel (.XLSX) ou d"un fichier PDF. Vous pouvez ouvrir des fichiers CSV et XLSX avec des applications de tableur, telles que Microsoft Excel, et des fichiers PDF avec des lecteurs comme Adobe Acrobat.' 
 ---
-= Téléchargement de rapports
+= Télécharger des rapports
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

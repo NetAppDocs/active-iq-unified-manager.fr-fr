@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: scan, resolve, storage, failover, interconnect link, conditions 
 summary: 'Ce workflow fournit un exemple de numérisation, d"évaluation et de résolution des problèmes de liaison d"interconnexion de basculement du stockage arrêté. Dans ce scénario, vous êtes administrateur à l"aide de Unified Manager pour rechercher les risques de basculement du stockage avant de lancer la mise à niveau d"une version de ONTAP sur vos nœuds.' 
 ---
-= Recherche et résolution des problèmes de liaison d'interconnexion de basculement de stockage
+= Rechercher et résoudre les conditions de défaillance de la liaison d'interconnexion de basculement de stockage
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

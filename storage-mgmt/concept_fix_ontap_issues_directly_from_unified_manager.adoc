@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fix, ontap, issues, directly, unified manager, fix it, fix-it, remediation 
 summary: 'Vous pouvez corriger certains problèmes ONTAP directement dans l"interface utilisateur d"Unified Manager au lieu d"utiliser ONTAP System Manager ou l"interface de ligne de commandes d"ONTAP. L"option « actions de gestion » fournit des correctifs à un certain nombre de problèmes ONTAP ayant déclenché des événements Unified Manager.' 
 ---
-= Gestion des problèmes ou des fonctionnalités d'ONTAP directement à partir d'Unified Manager
+= Gérez les problèmes ou les fonctionnalités ONTAP directement depuis Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: download, Unified Manager 
 summary: 'Vous devez télécharger Unified Manager `.zip` Fichier depuis le site de support NetApp pour installer Unified Manager.' 
 ---
-= Téléchargement d'Unified Manager
+= Télécharger Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

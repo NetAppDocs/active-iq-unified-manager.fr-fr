@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: customize, columns 
 summary: 'Utilisez Afficher/Masquer pour choisir les colonnes que vous souhaitez utiliser dans votre rapport. Faites glisser les colonnes de la page d"inventaire pour les réorganiser.' 
 ---
-= Personnalisation des colonnes
+= Personnaliser les colonnes
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

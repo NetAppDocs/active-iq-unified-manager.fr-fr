@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, stopped, storage VMs 
 summary: Vous pouvez créer un rapport pour afficher la liste de tous les SVM arrêtés. 
 ---
-= Création d'un rapport pour afficher les machines virtuelles de stockage arrêtées
+= Créer un rapport pour afficher les machines virtuelles de stockage arrêtées
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

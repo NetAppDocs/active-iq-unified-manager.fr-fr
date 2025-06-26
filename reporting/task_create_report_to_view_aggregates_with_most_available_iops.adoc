@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, aggregates, available, IOPS 
 summary: 'Ce rapport indique les agrégats qui disposent des IOPS par type d"agrégat les plus disponibles, sur lesquels vous pouvez provisionner de nouvelles charges de travail.' 
 ---
-= Créez un rapport pour afficher les agrégats dont les IOPS sont les plus disponibles
+= Créer un rapport pour afficher les agrégats qui ont le plus d'IOPS disponibles
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

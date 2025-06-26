@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: customize, volume, capacity reports 
 summary: Ces exemples de rapports personnalisés sont utilisés pour vous aider à identifier et à résoudre les problèmes potentiels liés à la capacité de volume et aux performances. 
 ---
-= Personnalisation des rapports de capacité de volume
+= Personnaliser les rapports de capacité de volume
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

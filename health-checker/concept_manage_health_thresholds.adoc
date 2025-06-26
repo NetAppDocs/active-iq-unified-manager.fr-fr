@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, health, thresholds 
 summary: Vous pouvez configurer les valeurs des seuils de santé globaux de tous les agrégats, volumes et qtrees pour assurer le suivi des violations de seuils de santé. 
 ---
-= Gestion des seuils de santé
+= Gérer les seuils de santé
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

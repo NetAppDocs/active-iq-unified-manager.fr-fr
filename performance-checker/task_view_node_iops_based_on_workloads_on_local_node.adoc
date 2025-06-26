@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, node, iops, workloads, reside, only, local node 
 summary: 'Le tableau des compteurs d"IOPS du nœud peut indiquer où les opérations ne passent que par le nœud local à l"aide d"une LIF réseau pour effectuer des opérations de lecture/écriture sur des volumes d"un nœud distant. Les diagrammes IOPS - “Total (local)” et “analyse (locale)” affichent les valeurs IOPS pour les données résidant dans des volumes locaux uniquement sur le nœud actuel.' 
 ---
-= Affichage des IOPS du nœud en fonction des workloads qui ne résident que sur le nœud local
+= Afficher les IOPS du nœud en fonction des charges de travail qui résident uniquement sur le nœud local
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

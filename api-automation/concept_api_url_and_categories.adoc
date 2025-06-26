@@ -29,7 +29,7 @@ Le port par défaut est 443. Vous pouvez configurer le port selon les besoins de
 ====
 
 
-== Accès à la page de documentation en ligne de l'API
+== Accéder à la page de documentation de l'API en ligne
 
 Vous pouvez accéder à la page de contenu _API Documentation_ Reference fournie avec le produit pour afficher la documentation de l'API, ainsi que pour émettre manuellement un appel d'API (sur l'interface, par exemple, swagger). Vous pouvez accéder à cette documentation en cliquant sur *barre de menus* > *bouton aide* > *Documentation API*
 

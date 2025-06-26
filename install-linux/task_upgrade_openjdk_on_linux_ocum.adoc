@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: openjdk, jre, linux, upgrade 
 summary: 'Vous pouvez mettre à niveau vers une version plus récente d"OpenJDK sur le serveur Linux sur lequel Unified Manager est installé pour obtenir des correctifs pour les vulnérabilités de sécurité.' 
 ---
-= Mise à niveau d'OpenJDK sous Linux
+= Mettre à niveau OpenJDK sur Linux
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

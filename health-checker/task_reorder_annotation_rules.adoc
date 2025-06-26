@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: reorder, annotation rules 
 summary: 'Vous pouvez modifier l"ordre dans lequel Unified Manager applique des règles d"annotation aux objets de stockage. Les règles d"annotation sont appliquées de façon séquentielle aux objets de stockage en fonction de leur rang. Lorsque vous configurez une règle d"annotation, le rang est le moins. Toutefois, vous pouvez modifier le rang de la règle d"annotation en fonction de vos besoins.' 
 ---
-= Réorganisation des règles d'annotation
+= Réorganiser les règles d'annotation
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

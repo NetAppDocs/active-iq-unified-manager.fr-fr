@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: break, snapmirror, relationship, volume, health details 
 summary: 'Vous pouvez interrompre une relation de protection à partir de la page des détails de volume/intégrité et arrêter les transferts de données entre un volume source et un volume cible dans une relation SnapMirror. Vous pouvez briser une relation lorsque vous souhaitez migrer des données, pour la reprise d"activité ou pour le test d"application. Le volume de destination est modifié en volume de lecture-écriture. Vous ne pouvez pas interrompre une relation SnapVault.' 
 ---
-= Briser une relation SnapMirror depuis la page des détails du volume / intégrité
+= Rompre une relation SnapMirror à partir de la page de détails Volume/Santé
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

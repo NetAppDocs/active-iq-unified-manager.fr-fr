@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, alerts 
 summary: 'Vous pouvez modifier les propriétés d"alerte, telles que la ressource à laquelle l"alerte est associée, les événements, les destinataires, les options de notification, la fréquence de notification, et les scripts associés.' 
 ---
-= Modification des alertes
+= Modifier les alertes
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

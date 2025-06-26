@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, authentication servers 
 summary: 'Vous pouvez modifier le port utilisé par le serveur Unified Manager pour communiquer avec votre serveur d"authentification.' 
 ---
-= Modification des serveurs d'authentification
+= Modifier les serveurs d'authentification
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

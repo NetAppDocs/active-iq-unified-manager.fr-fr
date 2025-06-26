@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: install, ca signed, returned, https, certificate 
 summary: 'Vous pouvez télécharger et installer un certificat de sécurité une fois qu"une autorité de certification l"a signé et l"a renvoyé. Le fichier que vous téléchargez et installez doit être une version signée du certificat auto-signé existant. Un certificat signé par une autorité de certification contribue à prévenir les attaques de l"homme au milieu et offre une meilleure protection contre la sécurité qu"un certificat auto-signé.' 
 ---
-= L'installation d'une autorité de certification a signé et renvoyé un certificat HTTPS
+= Installer un certificat HTTPS signé et renvoyé par une autorité de certification
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

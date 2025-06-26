@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: specify, time range, correlated objects 
 summary: 'Le sélecteur de plage horaire de la page Explorateur de performances vous permet de spécifier la plage horaire de la comparaison des données d"objet. La spécification d"une plage horaire permet de raffine le contenu des pages de l"Explorateur de performances pour n"afficher que les données d"objet dans la plage horaire spécifiée.' 
 ---
-= Spécification d'une plage de temps pour les objets corrélés
+= Spécifier une plage de temps pour les objets corrélés
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

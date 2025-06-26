@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, space, data directory, linux host 
 summary: 'Si vous avez alloué un espace disque insuffisant à l" `/opt/netapp/data` Répertoire pour prendre en charge Unified Manager lorsque vous configurez l"hôte Linux à l"origine, puis que Unified Manager a été installé, vous pouvez ajouter de l"espace disque après l"installation en augmentant l"espace disque sur le `/opt/netapp/data` répertoire.' 
 ---
-= Ajout d'espace au répertoire de données de l'hôte Linux
+= Ajouter de l'espace au répertoire de données de l'hôte Linux
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

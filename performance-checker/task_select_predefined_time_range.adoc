@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: select, predefined, time, range 
 summary: 'La sélection d"une plage de temps prédéfinie est un moyen rapide et efficace de personnaliser et de concentrer la sortie de données lors de l"affichage des données de performance d"objet du cluster. Lorsque vous sélectionnez une plage horaire prédéfinie, des données pouvant atteindre 13 mois sont disponibles.' 
 ---
-= Sélection d'une plage de temps prédéfinie
+= Sélectionnez une plage horaire prédéfinie
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

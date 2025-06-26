@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, storage, efficiency, policy 
 summary: 'Vous pouvez afficher, créer, modifier et supprimer les règles d"efficacité du stockage en utilisant les API du fournisseur de stockage.' 
 ---
-= Gestion des règles d'efficacité du stockage à l'aide d'API
+= Gérer les politiques d'efficacité du stockage à l'aide d'API
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

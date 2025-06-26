@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: relationships page, monitor, storage, vm 
 summary: 'Vous pouvez surveiller vos relations de reprise après incident de machine virtuelle de stockage depuis la page relations de la section PROTECTION de l"INVENTAIRE. Par défaut, la page relations répertorie uniquement les relations de premier niveau lorsque le filtre de relations composant est appliqué.' 
 ---
-= Surveillance des VM de stockage à l'aide de la page relations
+= Surveiller les machines virtuelles de stockage à l'aide de la page Relations
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

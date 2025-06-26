@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: provision, manage, workloads 
 summary: 'La fonction de gestion active de Active IQ Unified Manager offre les niveaux de service en matière de performance, les règles d"efficacité du stockage et les API des fournisseurs de stockage pour le provisionnement, la surveillance et la gestion des charges de travail de stockage dans un data Center.' 
 ---
-= Provisionner et gérer les workloads
+= Provisionner et gérer les charges de travail
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

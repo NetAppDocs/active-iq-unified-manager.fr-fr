@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: smb, cifs, view, shares, details 
 summary: 'Vous pouvez afficher les détails de tous les partages SMB/CIFS, notamment le nom du partage, le chemin de jonction, l"contenant les objets, les paramètres de sécurité et les règles d"exportation définies pour le partage. Utilisez la vue Santé : tous les partages SMB pour voir tous les partages SMB sur tous les clusters surveillés et utilisez la page Storage VM / Health details pour afficher tous les partages SMB sur un SVM spécifique.' 
 ---
-= Affichage des détails sur les partages SMB/CIFS
+= Afficher les détails des actions SMB/CIFS
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resolve, volume, offline issues 
 summary: 'Ce flux de travail fournit un exemple de l"évaluation et de la résolution d"un événement hors ligne qu"Unified Manager peut afficher sur la page d"inventaire Event Management. Dans ce scénario, vous êtes administrateur qui utilise Unified Manager pour résoudre un ou plusieurs événements de mise hors ligne des volumes.' 
 ---
-= Résolution des problèmes de mise hors ligne des volumes
+= Résoudre les problèmes de volume hors ligne
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

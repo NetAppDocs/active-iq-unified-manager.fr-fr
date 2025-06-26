@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, volumes, inaccessible, mount, path 
 summary: Vous pouvez créer un rapport pour rechercher des volumes dont le chemin de montage est inaccessible. 
 ---
-= Création d'un rapport pour afficher les volumes dont le chemin de montage est inaccessible
+= Créer un rapport pour afficher les volumes dont le chemin de montage est inaccessible
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

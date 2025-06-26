@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, performance, panels, dashboard 
 summary: 'Le tableau de bord Unified Manager propose quelques panneaux présentant l"état de performance générale des clusters contrôlés dans votre environnement. Vous pouvez choisir d"afficher l"état de tous les clusters ou d"un cluster individuel.' 
 ---
-= Comprendre les panneaux de performances du tableau de bord
+= Comprendre les panneaux de performances sur le tableau de bord
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

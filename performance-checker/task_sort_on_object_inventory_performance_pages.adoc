@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: sort, object, inventory, performance, pages 
 summary: 'Vous pouvez trier toutes les données sur les pages performances de l"inventaire des objets par colonne dans l"ordre croissant ou décroissant. Cela vous permet de localiser rapidement les données d"inventaire des objets, ce qui est utile lors de l"examen des performances ou du début d"un processus de dépannage.' 
 ---
-= Tri sur les pages performances de l'inventaire des objets
+= Trier sur les pages Performances de l'inventaire des objets
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

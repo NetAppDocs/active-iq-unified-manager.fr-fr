@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, storage pool, details 
 summary: 'Vous pouvez afficher les détails du pool de stockage afin de surveiller l"état du pool de stockage, le cache total et disponible, ainsi que les allocations utilisées et disponibles.' 
 ---
-= Affichage des détails du pool de stockage
+= Afficher les détails du pool de stockage
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

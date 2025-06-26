@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, event, details, timeline 
 summary: 'Vous pouvez afficher tous les événements et leurs détails dans le volet Calendrier des événements de l"Explorateur de performances. Cette méthode permet de visualiser rapidement et efficacement tous les événements d"état et de performances de l"objet racine dans une plage de temps spécifiée, ce qui peut être utile pour résoudre les problèmes de performances.' 
 ---
-= Affichage des détails d'un événement dans la chronologie des événements
+= Afficher les détails de l'événement dans la chronologie des événements
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

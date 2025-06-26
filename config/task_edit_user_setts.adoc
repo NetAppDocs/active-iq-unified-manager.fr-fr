@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, user, settings 
 summary: 'Vous pouvez modifier les paramètres utilisateur, tels que l"adresse e-mail et le rôle, qui sont spécifiés par chaque utilisateur. Par exemple, vous pouvez modifier le rôle d"un utilisateur qui est un opérateur de stockage et attribuer des privilèges d"administrateur de stockage à cet utilisateur.' 
 ---
-= Modification des paramètres utilisateur
+= Modifier les paramètres utilisateur
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, global, aggregate, health, threshold values 
 summary: 'Vous pouvez configurer les valeurs des seuils de santé globaux de tous les agrégats pour suivre tout seuil d"atteinte. Les événements appropriés sont générés pour les violations de seuil et vous pouvez prendre des mesures préventives basées sur ces événements. Vous pouvez configurer les valeurs globales en fonction des paramètres de bonnes pratiques pour les seuils applicables à tous les agrégats surveillés.' 
 ---
-= Configuration des valeurs des seuils de santé globaux des agrégats
+= Configurer les valeurs de seuil de santé globales agrégées
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

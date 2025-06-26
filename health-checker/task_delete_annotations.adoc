@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, annotations 
 summary: 'Vous pouvez supprimer des annotations personnalisées et leurs valeurs lorsqu"elles ne sont plus nécessaires.' 
 ---
-= Suppression d'annotations
+= Supprimer les annotations
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

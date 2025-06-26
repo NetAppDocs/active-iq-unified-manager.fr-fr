@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, disk, space, unified manager, database, directory 
 summary: 'Le répertoire de base de données Unified Manager contient toutes les données d"intégrité et de performances collectées à partir des systèmes ONTAP. Dans certaines circonstances, vous devrez peut-être augmenter la taille du répertoire de base de données.' 
 ---
-= Ajout d'espace disque au répertoire de base de données Unified Manager
+= Ajouter de l'espace disque au répertoire de la base de données Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

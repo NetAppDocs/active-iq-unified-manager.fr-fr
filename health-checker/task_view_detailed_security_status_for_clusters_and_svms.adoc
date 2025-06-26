@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, cluster security status, svm security status, volume encryption status, compliance, security hardening, encryption, anti-ransomware, certificate expiry, clusters page, storage VMs page, System Manager 
 summary: 'La page sécurité affiche l"état de sécurité général pour tous les clusters et machines virtuelles de stockage. L"état détaillé du cluster inclut la conformité du cluster, la conformité des SVM et la conformité au chiffrement de volume.' 
 ---
-= Affichage de l'état de sécurité pour les clusters et les VM de stockage
+= Afficher l'état de sécurité des clusters et des machines virtuelles de stockage
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

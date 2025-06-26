@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: restart, unified manager, virtual, machine 
 summary: 'Vous pouvez redémarrer le serveur virtuel à partir de la console de maintenance d"Unified Manager. Vous devez redémarrer après avoir généré un nouveau certificat de sécurité ou en cas de problème avec la machine virtuelle.' 
 ---
-= Redémarrage de la machine virtuelle Unified Manager
+= Redémarrez la machine virtuelle Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

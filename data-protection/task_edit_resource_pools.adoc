@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, resource, pools 
 summary: Vous pouvez modifier un pool de ressources existant lorsque vous souhaitez modifier le nom du pool de ressources et sa description. 
 ---
-= Modification de pools de ressources
+= Modifier les pools de ressources
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, individual, aggregate, health, threshold, settings 
 summary: 'Vous pouvez modifier les paramètres du seuil de santé pour la capacité globale, la croissance et les copies Snapshot d"un ou plusieurs agrégats. Lorsqu"un seuil est franchi, des alertes sont générées et vous recevez des notifications. Ces notifications vous aident à prendre des mesures préventives en fonction de l"événement généré.' 
 ---
-= Modification des paramètres de seuil d'intégrité des agrégats individuels
+= Modifier les paramètres de seuil de santé agrégés individuels
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

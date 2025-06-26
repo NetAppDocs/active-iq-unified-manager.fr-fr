@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, unassigned, events 
 summary: Vous pouvez afficher les événements non attribués, puis les affecter à un utilisateur qui peut les résoudre. 
 ---
-= Affichage des événements non assignés
+= Afficher les événements non attribués
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

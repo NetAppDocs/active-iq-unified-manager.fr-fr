@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: qos, policy, group, performance, events 
 summary: 'Unified Manager génère des événements d"avertissement de stratégie de qualité de service lorsque le débit de la charge de travail (IOPS, IOPS/To ou Mbit/s) a dépassé le paramètre de règle de qualité de service ONTAP défini et que la latence des workloads est en train de devenir affectée. Ces événements définis par le système permettent de corriger les problèmes de performance potentiels avant que de nombreuses charges de travail ne soient affectées par la latence.' 
 ---
-= Réponse aux événements de performance du groupe de règles de QoS
+= Répondre aux événements de performance du groupe de politiques QoS
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

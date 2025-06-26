@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: customize, reports 
 summary: Vous pouvez personnaliser les vues de différentes manières afin de créer un rapport contenant toutes les informations nécessaires à la gestion de vos clusters ONTAP. 
 ---
-= Personnalisation des rapports
+= Personnaliser les rapports
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

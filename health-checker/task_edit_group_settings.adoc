@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, groups 
 summary: 'Vous pouvez modifier le nom et la description d"un groupe créé dans Unified Manager.' 
 ---
-= Modification de groupes
+= Modifier les groupes
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

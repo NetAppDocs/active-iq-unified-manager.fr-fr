@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, node, aggregate, performance, capacity, used, values 
 summary: 'Vous pouvez contrôler les valeurs de performance de la capacité utilisée pour tous les nœuds ou pour tous les agrégats d"un cluster, ou afficher les détails d"un nœud ou agrégat unique.' 
 ---
-= Affichage des valeurs de capacité des nœuds et des performances des agrégats utilisées
+= Afficher les valeurs utilisées de la capacité de performance des nœuds et des agrégats
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -17,7 +17,7 @@ Les valeurs utilisées relatives à la capacité de performance apparaissent dan
 
 image::../media/node_inventory_used_headroom.gif[Une capture d'écran de l'interface utilisateur de la page performances : tous les agrégats]
 
-Le contrôle du compteur de performances utilisé vous permet d'identifier ce qui suit :
+Le compteur de capacité de performance utilisé vous permet d'identifier les éléments suivants :
 
 * Que les nœuds ou les agrégats de n'importe quel cluster disposent d'une capacité haute performance utilisée
 * Que des nœuds ou des agrégats de tous les clusters disposent d'événements de capacité de performances active

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, global health, threshold settings 
 summary: 'Vous pouvez configurer des conditions seuils de santé globaux pour la capacité, la croissance, la réserve Snapshot, les quotas et les inodes afin de surveiller de façon efficace la taille de l"agrégat, du volume et du qtree. Vous pouvez également modifier les paramètres de génération d"événements pour des seuils de décalage supérieurs.' 
 ---
-= Configuration des paramètres de seuil de santé global
+= Configurer les paramètres de seuil de santé globale
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

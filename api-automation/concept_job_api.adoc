@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: jobs, view 
 summary: 'Vous pouvez utiliser l"API des travaux dans la catégorie serveur de gestion pour afficher les détails d"exécution des opérations asynchrones.' 
 ---
-= Affichage des travaux et des détails du système
+= Afficher les tâches et les détails du système
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -15,7 +15,7 @@ Vous pouvez utiliser le `jobs` API sous `management-server` catégorie pour affi
 
 
 
-== Affichage des travaux
+== Voir les offres d'emploi
 
 Dans Active IQ Unified Manager, des opérations, telles que l'ajout et la modification de ressources sont réalisées par des invocations API synchrones et asynchrones. Les invocations planifiées pour une exécution asynchrone peuvent être suivies par un objet Job créé pour cette invocation. Chaque objet Job possède une clé unique d'identification. Chaque objet travail renvoie l'URI de l'objet travail pour vous permettre d'accéder à et de suivre la progression du travail. Vous pouvez utiliser cette API pour récupérer les détails de chaque exécution.
 
@@ -51,7 +51,7 @@ Affiche les détails de l'objet Job spécifique.
 |===
 
 
-== Affichage des détails du système
+== Afficher les détails du système
 
 À l'aide du `/management-server/system` API, vous pouvez interroger les informations spécifiques aux instances de votre environnement Unified Manager. L'API renvoie des informations sur le produit et les services, telles que la version de Unified Manager installée sur votre système, votre UUID, le nom du fournisseur, le système d'exploitation hôte et le nom, Description et état des services exécutés sur l'instance Unified Manager.
 

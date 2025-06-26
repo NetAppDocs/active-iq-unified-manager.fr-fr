@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, root, object 
 summary: 'L"objet racine est la référence par rapport à laquelle d"autres comparaisons d"objets sont effectuées. Vous pouvez ainsi afficher et comparer les données d"autres objets avec l"objet racine, pour une analyse des données de performances permettant de résoudre et d"améliorer les performances de vos objets.' 
 ---
-= Présentation de l'objet racine
+= Comprendre l'objet racine
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

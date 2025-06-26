@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: retry, failed, protection job 
 summary: 'Une fois que vous avez pris des mesures pour corriger un échec de la tâche de protection, vous pouvez utiliser Réessayer pour exécuter à nouveau le travail. La nouvelle tentative d"un travail crée un nouveau travail à l"aide de l"ID de travail d"origine.' 
 ---
-= Nouvelle tentative d'échec d'une tâche de protection
+= Réessayer une tâche de protection ayant échoué
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

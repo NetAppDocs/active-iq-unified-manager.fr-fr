@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, resource, pools 
 summary: 'Vous pouvez supprimer des pools de ressources lorsqu"ils ne sont plus nécessaires. Par exemple, vous pouvez vouloir redistribuer les agrégats membres d"un pool de ressources vers plusieurs autres pools de ressources, ce qui rend le pool de ressources d"origine obsolète.' 
 ---
-= Suppression de pools de ressources
+= Supprimer les pools de ressources
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

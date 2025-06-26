@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, events, occurred, maintenance, window 
 summary: 'Si nécessaire, vous pouvez afficher les événements générés pour tous les objets de stockage au cours d"une fenêtre de maintenance Unified Manager. La plupart des événements apparaissent à l"état Obsolète une fois la fenêtre de maintenance terminée et toutes les ressources système sont sauvegardées et en cours d"exécution.' 
 ---
-= Affichage des événements qui se sont produits lors d'une fenêtre de maintenance
+= Afficher les événements survenus pendant une fenêtre de maintenance
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

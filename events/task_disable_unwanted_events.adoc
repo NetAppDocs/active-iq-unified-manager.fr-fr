@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: disable, unwanted, events 
 summary: Tous les événements sont activés par défaut. Vous pouvez désactiver globalement les événements pour empêcher la génération de notifications pour les événements qui ne sont pas importants dans votre environnement. Vous pouvez activer les événements désactivés lorsque vous souhaitez reprendre la réception de notifications pour eux. 
 ---
-= Désactivation des événements indésirables
+= Désactiver les événements indésirables
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

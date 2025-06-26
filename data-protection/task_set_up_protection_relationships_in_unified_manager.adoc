@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: set, protection, relationships, unified manager 
 summary: Il existe plusieurs étapes à effectuer pour utiliser Unified Manager et OnCommand Workflow Automation afin de configurer les relations SnapMirror et SnapVault afin de protéger vos données. 
 ---
-= Configuration des relations de protection dans Unified Manager
+= Configurer les relations de protection dans Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

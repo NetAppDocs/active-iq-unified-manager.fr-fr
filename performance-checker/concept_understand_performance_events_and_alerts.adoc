@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, performance, events, alerts 
 summary: 'Les événements de performance sont des notifications qu"Unified Manager génère automatiquement lorsqu"une condition prédéfinie se produit ou lorsqu"une valeur de compteur de performances franchit un seuil. Les événements vous aident à identifier les problèmes de performance dans les clusters surveillés.' 
 ---
-= Présentation des événements de performances et des alertes
+= Comprendre les événements et les alertes de performance
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

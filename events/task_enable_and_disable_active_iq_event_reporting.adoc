@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: enable, disable, active iq, event, report 
 summary: 'Les événements liés à la plateforme Active IQ sont générés et affichés par défaut dans l"interface utilisateur Unified Manager. Si vous constatez que ces événements sont trop « bruyants » ou que vous ne souhaitez pas afficher ces événements dans Unified Manager, vous pouvez désactiver la génération de ces événements. Vous pouvez les activer ultérieurement si vous souhaitez reprendre la réception de ces notifications.' 
 ---
-= Activation et désactivation du reporting des événements Active IQ
+= Activer et désactiver les rapports d'événements Active IQ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

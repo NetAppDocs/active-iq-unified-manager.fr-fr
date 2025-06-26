@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: retrieve, support bundle, unix, linux, client 
 summary: 'Si vous êtes un utilisateur UNIX ou Linux, vous pouvez récupérer le bundle de support de votre vApp à l"aide de l"interface de ligne de commande (CLI) sur votre serveur client Linux. Vous pouvez utiliser SCP ou SFTP pour récupérer le bundle de support.' 
 ---
-= Récupération du bundle de support à l'aide d'un client UNIX ou Linux
+= Récupérer le pack de support à l'aide d'un client UNIX ou Linux
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

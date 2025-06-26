@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: abort, active, data protection, transfer, volume health details page 
 summary: 'Vous pouvez annuler le transfert actif de protection des données lorsque vous souhaitez arrêter une réplication SnapMirror en cours. Vous pouvez également effacer le point de contrôle de redémarrage pour un transfert s"il ne s"agit pas d"un transfert de base. Vous pouvez annuler un transfert en cas de conflit avec une autre opération, par exemple un déplacement de volume.' 
 ---
-= Abandon d'un transfert actif de protection des données à partir de la page Détails du volume/intégrité
+= Annuler un transfert de protection des données actif à partir de la page Détails du volume/de la santé
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

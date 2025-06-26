@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: perform, protection, relationship, failover, failback 
 summary: 'Lorsqu"un volume source de votre relation de protection est désactivé en raison d"une panne matérielle ou d"un incident, vous pouvez utiliser les fonctions de relation de protection de Unified Manager pour rendre les données de destination de protection accessibles en lecture/écriture et basculer vers le volume jusqu"à ce que la source soit à nouveau en ligne. vous pouvez ensuite revenir à la source d"origine lorsqu"il est disponible pour transmettre les données.' 
 ---
-= Effectuer un basculement et un retour arrière de la relation de protection
+= Effectuer un basculement et une restauration de la relation de protection
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

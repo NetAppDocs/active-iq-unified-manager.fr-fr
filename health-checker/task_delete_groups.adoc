@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, groups 
 summary: 'Vous pouvez supprimer un groupe depuis Unified Manager lorsque ce dernier n"est plus nécessaire.' 
 ---
-= Suppression de groupes
+= Supprimer des groupes
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

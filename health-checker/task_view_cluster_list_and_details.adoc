@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, cluster list, details 
 summary: 'Vous pouvez utiliser la vue Santé : tous les clusters pour afficher votre inventaire des clusters. Le vue capacité : tous les clusters permet d"afficher des informations résumées sur la capacité de stockage et l"utilisation de tous les clusters.' 
 ---
-= Affichage de la liste et des détails des clusters
+= Afficher la liste et les détails des clusters
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

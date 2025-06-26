@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: set up, required, software, repositories 
 summary: 'Le système doit avoir accès à certains référentiels afin que le programme d"installation puisse accéder à toutes les dépendances logicielles requises et les installer.' 
 ---
-= Configuration des référentiels logiciels requis
+= Configurer les référentiels de logiciels requis
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

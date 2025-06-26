@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, workload, qos, minimum, maximum, settings, performance, explorer 
 summary: 'Vous pouvez afficher les paramètres de règles de qualité de service (QoS) définies par ONTAP sur un volume ou une LUN dans les graphiques de l"explorateur de performances. La définition maximale du débit limite l"impact des workloads concurrents sur les ressources système. La valeur minimale du débit permet de s"assurer qu"une charge de travail critique satisfait aux objectifs de débit minimaux, indépendamment de la demande des charges de travail concurrentes.' 
 ---
-= Affichage des paramètres minimal et maximal de QoS des charges de travail dans l'explorateur de performances
+= Afficher les paramètres minimum et maximum de qualité de service de la charge de travail dans l'Explorateur de performances
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

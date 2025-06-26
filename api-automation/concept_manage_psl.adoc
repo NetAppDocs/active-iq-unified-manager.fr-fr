@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, performance, service, level 
 summary: 'Vous pouvez afficher, créer, modifier et supprimer les niveaux de services de performances à l"aide des API du fournisseur de stockage pour votre Active IQ Unified Manager.' 
 ---
-= Gestion des niveaux de service en matière de performances à l'aide d'API
+= Gérer les niveaux de service de performance à l'aide d'API
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -93,7 +93,7 @@ CORRECTIF
 |===
 
 
-== Affichage des fonctionnalités d'agrégats en fonction des niveaux de service de performances
+== Afficher les capacités globales en fonction des niveaux de service de performance
 
 Vous pouvez utiliser la méthode suivante pour interroger les capacités d'agrégat en fonction des niveaux de service de performances. Cette API renvoie la liste des agrégats disponibles dans votre data Center et indique les fonctionnalités en termes de niveaux de service de performances que ces agrégats peuvent prendre en charge. Lors du provisionnement des charges de travail sur un volume, il est possible de voir la capacité d'un agrégat pour prendre en charge un niveau de Service Performance spécifique et de provisionner les charges de travail selon cette fonctionnalité. Votre capacité à spécifier l'agrégat n'est disponible que lorsque vous provisionnez une charge de travail à l'aide d'API. Cette fonctionnalité n'est pas disponible dans l'interface utilisateur Web de Unified Manager.
 

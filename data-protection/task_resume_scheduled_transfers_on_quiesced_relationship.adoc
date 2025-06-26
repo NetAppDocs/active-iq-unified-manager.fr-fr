@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resume, schedule, transfers, quiesce, relationship, volume relationships page 
 summary: 'Une fois que vous avez suspendu une relation pour arrêter l"exécution de transferts programmés, vous pouvez utiliser Resume pour réactiver les transferts programmés afin que les données du volume source ou principal soient protégées. Les transferts reprennent à partir d"un point de contrôle, le cas échéant, à l"intervalle de transfert planifié suivant.' 
 ---
-= Reprise des transferts programmés sur une relation mise en veille à partir de la page de relations de volume
+= Reprendre les transferts programmés sur une relation suspendue à partir de la page Relations de volume
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

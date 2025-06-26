@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: restore, windows, mysql, database, backup 
 summary: 'En cas de perte ou de corruption des données, la fonctionnalité de restauration permet de restaurer l"état stable précédent de Unified Manager avec une perte minimale. Vous pouvez restaurer la base de données MySQL Unified Manager sur un système Windows local ou un système Windows distant en utilisant la console de maintenance Unified Manager.' 
 ---
-= Restauration d'une sauvegarde de base de données MySQL sous Windows
+= Restaurer une sauvegarde de base de données MySQL sous Windows
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, user-defined, performance, threshold, policies 
 summary: 'Vous pouvez modifier les paramètres de seuil des règles de seuils de performances existantes. Cela peut être utile si vous constatez que vous recevez trop ou trop peu d"alertes pour certaines conditions de seuil.' 
 ---
-= Modification des règles de seuils de performances définies par l'utilisateur
+= Modifier les politiques de seuil de performance définies par l'utilisateur
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

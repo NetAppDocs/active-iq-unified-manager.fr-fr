@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: backup, restore, windows, netapp, snapshot copy, copies, configure, backup 
 summary: 'Active IQ Unified Manager prend en charge les sauvegardes et les restaurations à l"aide de snapshots NetApp sur le système d"exploitation Windows à l"aide du protocole iSCSI.' 
 ---
-= Configuration de la sauvegarde sous Windows
+= Configurer la sauvegarde sous Windows
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

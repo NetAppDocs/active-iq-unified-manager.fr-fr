@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: abort, jobs 
 summary: 'Vous pouvez utiliser la page travaux pour abandonner un travail s"il prend trop de temps à terminer, qu"il rencontre trop d"erreurs ou qu"il n"est plus nécessaire. Vous ne pouvez abandonner un travail que si son état et son type l"autorisent. Vous pouvez abandonner tout travail en cours d"exécution.' 
 ---
-= Abandon des travaux
+= Abandonner les travaux
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

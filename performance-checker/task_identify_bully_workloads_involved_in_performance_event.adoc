@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: identify, bully workloads, dynamic, performance, event 
 summary: 'Dans Unified Manager, vous pouvez identifier les workloads qui présentent la déviation la plus élevée de l"utilisation d"un composant de cluster en conflit. L"identification de ces workloads vous permet de comprendre pourquoi certains volumes du cluster ont des temps de réponse lents (latence).' 
 ---
-= Identification des workloads dominants impliqués dans un événement de performance dynamique
+= Identifier les charges de travail des intimidateurs impliquées dans un événement de performance dynamique
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

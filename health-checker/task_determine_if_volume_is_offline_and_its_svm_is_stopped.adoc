@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: determine, volume, offline, svm, node 
 summary: 'Vous pouvez utiliser l"interface utilisateur Web Unified Manager pour confirmer ou éliminer tout risque qu"un volume soit hors ligne, car sa machine virtuelle de stockage hôte (SVM) est arrêtée du fait du nœud hébergeant le volume racine de ce SVM.' 
 ---
-= Détermination d'un volume hors ligne et de son SVM arrêté, car un nœud est arrêté
+= Déterminer si un volume est hors ligne et si son SVM est arrêté parce qu'un nœud est en panne
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

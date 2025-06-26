@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: sort, data 
 summary: 'Pour trier les résultats, cliquez sur une colonne et indiquez l"ordre croissant ou décroissant. Le tri des données classe les informations dont vous avez besoin pour le rapport.' 
 ---
-= Tri des données
+= Trier les données
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

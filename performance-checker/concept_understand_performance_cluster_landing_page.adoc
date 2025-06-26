@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, performance, cluster, landing page 
 summary: 'La page d"accueil Performance Cluster fournit une vue d"ensemble des performances de haut niveau d"un cluster sélectionné, en insistant sur l"état des performances des 10 objets les plus importants du cluster. Les problèmes de performances s"affichent en haut de la page, dans le panneau tous les événements de ce cluster.' 
 ---
-= Comprendre la page d'accueil de Performance Cluster
+= Comprendre la page de destination du cluster de performances
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

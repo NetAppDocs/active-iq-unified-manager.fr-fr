@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: specify, custom, time range 
 summary: 'La page Explorateur de performances vous permet de spécifier la plage de date et d"heure de vos données de performances. La spécification d"une plage de temps personnalisée offre une plus grande flexibilité que l"utilisation de plages de temps prédéfinies lors du raffinage des données d"objet de cluster.' 
 ---
-= Spécification d'une plage horaire personnalisée
+= Spécifier une plage horaire personnalisée
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

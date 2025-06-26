@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: move, workloads, different, node 
 summary: 'Grâce à Unified Manager, vous pouvez identifier un agrégat sur un autre nœud moins occupé que le nœud sur lequel vos charges de travail sont en cours d"exécution, puis déplacer les volumes sélectionnés vers cet agrégat. Le déplacement de charges de travail hautes performances vers un agrégat sur un nœud moins occupé permet aux workloads sur les deux nœuds de gagner en efficacité.' 
 ---
-= Déplacement des workloads vers un nœud différent
+= Déplacer les charges de travail vers un autre nœud
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

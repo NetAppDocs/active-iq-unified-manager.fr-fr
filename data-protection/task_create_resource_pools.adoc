@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: creating, resource, pools 
 summary: Vous pouvez utiliser la boîte de dialogue Créer un pool de ressources pour regrouper les agrégats à des fins de provisionnement. 
 ---
-= Création de pools de ressources
+= Créer des pools de ressources
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

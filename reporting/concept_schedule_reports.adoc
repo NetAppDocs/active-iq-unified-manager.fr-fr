@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: scheduling, reports 
 summary: 'Après avoir une vue que vous souhaitez réutiliser et partager comme rapport, vous pouvez la planifier à l"aide de Active IQ Unified Manager. Vous pouvez gérer les rapports programmés, modifier les destinataires et la fréquence de distribution de chaque planning de rapport.' 
 ---
-= Planification des rapports
+= Planifier des rapports
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, HA pairs, available, capacity 
 summary: Vous pouvez créer un rapport pour trouver les paires haute disponibilité avec la plus grande capacité de provisionnement de nouveaux volumes et de nouvelles LUN. 
 ---
-= Création d'un rapport pour afficher les paires haute disponibilité avec la capacité la plus disponible
+= Créer un rapport pour afficher les paires HA avec la capacité la plus disponible
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

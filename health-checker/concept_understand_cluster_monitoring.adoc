@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, cluster, monitor 
 summary: 'Vous pouvez ajouter des clusters à la base de données Unified Manager afin de surveiller la disponibilité, la capacité et d"autres informations, notamment sur l"utilisation du CPU, les statistiques d"interface, l"espace disque libre, l"utilisation des qtrees et l"environnement du châssis.' 
 ---
-= Présentation du contrôle des clusters
+= Comprendre la surveillance des clusters
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

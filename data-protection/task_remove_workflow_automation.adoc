@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: remove, oncommand, workflow, automation, setup, unified manager 
 summary: 'Vous pouvez supprimer la configuration OnCommand Workflow Automation d"Unified Manager si vous ne souhaitez plus utiliser Workflow Automation.' 
 ---
-= Suppression de la configuration OnCommand Workflow Automation depuis Unified Manager
+= Supprimer la configuration d'OnCommand Workflow Automation d'Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

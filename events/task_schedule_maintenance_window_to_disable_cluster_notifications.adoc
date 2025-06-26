@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: schedule, maintenance, window, disable, cluster, event, notifications 
 summary: 'Si vous avez un temps d"indisponibilité planifié pour un cluster, par exemple pour mettre à niveau le cluster ou pour déplacer l"un des nœuds, vous pouvez supprimer les événements et les alertes qui seraient normalement générés pendant ce délai en planifiant une fenêtre de maintenance Unified Manager.' 
 ---
-= Planification d'une fenêtre de maintenance pour désactiver les notifications d'événements du cluster
+= Planifier une fenêtre de maintenance pour désactiver les notifications d'événements de cluster
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

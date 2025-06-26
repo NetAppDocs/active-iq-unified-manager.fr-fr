@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: api gateway 
 summary: 'La fonctionnalité de passerelle d"API permet à Active IQ Unified Manager de devenir un plan de contrôle unique depuis lequel vous pouvez gérer plusieurs clusters ONTAP sans se connecter individuellement.' 
 ---
-= Activation de la passerelle API
+= Activer la passerelle API
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

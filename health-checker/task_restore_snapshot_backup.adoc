@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: restore, unified manager, snapshot copy, copies, 
 summary: 'En cas de perte ou de corruption des données, Unified Manager peut être restauré vers l"état stable précédent avec un minimum de perte de données. Vous pouvez restaurer la base de données Snapshot Unified Manager sur un système d"exploitation local ou distant via la console de maintenance Unified Manager.' 
 ---
-= Restauration de Unified Manager à l'aide des copies Snapshot
+= Restaurer Unified Manager à l'aide de copies instantanées
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

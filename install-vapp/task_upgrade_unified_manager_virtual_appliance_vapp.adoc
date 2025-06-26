@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: upgrade, unified manager, virtual, appliance 
 summary: 'Vous pouvez mettre à niveau l"appliance virtuelle Unified Manager' 
 ---
-= Mise à niveau de l'appliance virtuelle Unified Manager
+= Mettre à niveau l'appliance virtuelle Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: customize, qtree, capacity, reports 
 summary: Ces exemples de rapports personnalisés sont utilisés pour vous aider à identifier les problèmes potentiels liés à la capacité de qtree et à y répondre. 
 ---
-= Personnalisation des rapports de capacité qtree
+= Personnaliser les rapports de capacité Qtree
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

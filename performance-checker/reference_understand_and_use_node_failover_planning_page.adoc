@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understanding, node, failover, planning page 
 summary: 'La page Performance/Node Failover Planning (planification du basculement de nœud/nœud) évalue l"impact sur les performances d"un nœud en cas de défaillance du nœud partenaire haute disponibilité (HA) du nœud. Unified Manager établit les estimations sur les performances historiques des nœuds de la paire HA.' 
 ---
-= Présentation et utilisation de la page planification du basculement de nœud
+= Comprendre et utiliser la page Planification du basculement des nœuds
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

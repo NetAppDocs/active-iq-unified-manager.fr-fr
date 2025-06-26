@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapmirror, policy, maximize, transfer, efficiency 
 summary: 'Vous pouvez créer une règle SnapMirror pour spécifier la priorité de transfert SnapMirror pour les relations de protection. Les règles SnapMirror vous permettent d"optimiser l"efficacité du transfert entre la source et la destination en définissant des priorités. De cette manière, les transferts avec priorité inférieure doivent être programmés pour s"exécuter après les transferts prioritaires.' 
 ---
-= Création d'une règle SnapMirror pour optimiser l'efficacité du transfert
+= Créez une politique SnapMirror pour maximiser l'efficacité du transfert
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: change, identity, provider, used, saml, authentication 
 summary: 'Vous pouvez modifier le fournisseur d"identités utilisé par Unified Manager pour authentifier les utilisateurs distants.' 
 ---
-= Modification du fournisseur d'identités utilisé pour l'authentification SAML
+= Modifier le fournisseur d'identité utilisé pour l'authentification SAML
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

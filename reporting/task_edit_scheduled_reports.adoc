@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: editing, schedule, reports 
 summary: Une fois les rapports planifiés, vous pouvez les modifier sur la page Rapports programmes. 
 ---
-= Modification des rapports planifiés
+= Modifier les rapports planifiés
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

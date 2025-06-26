@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, storage, workloads 
 summary: 'Les API répertoriées ici vous permettent d"afficher une liste consolidée des charges de travail de stockage pour tous les clusters ONTAP de votre data Center. Ces API fournissent également une vue synthétique du nombre de charges de travail de stockage provisionnées dans votre environnement Active IQ Unified Manager et de leurs statistiques de capacité et de performance (IOPS).' 
 ---
-= Affichage des charges de travail de stockage à l'aide d'API
+= Afficher les charges de travail de stockage à l'aide des API
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

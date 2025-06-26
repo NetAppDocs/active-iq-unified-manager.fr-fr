@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, users, groups 
 summary: 'Vous pouvez supprimer un ou plusieurs utilisateurs de la base de données du serveur de gestion pour empêcher certains utilisateurs d"accéder à Unified Manager. Vous pouvez également supprimer des groupes de sorte que tous les utilisateurs du groupe ne puissent plus accéder au serveur de gestion.' 
 ---
-= Suppression d'utilisateurs ou de groupes
+= Supprimer des utilisateurs ou des groupes
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

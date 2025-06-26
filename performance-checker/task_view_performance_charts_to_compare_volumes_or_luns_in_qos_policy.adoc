@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, performance, charts, compare, volumes, luns, same, qos, policy, group 
 summary: 'Vous pouvez afficher les volumes et les LUN qui se trouvent dans les mêmes groupes de règles de QoS, puis comparer les performances d"un seul graphique Op E/S par sec, B./s ou Op E/S par sec ou par sec pour identifier tout problème.' 
 ---
-= Affichage des graphiques de performances pour comparer les volumes ou les LUN qui se trouvent dans le même groupe de règles de QoS
+= Afficher les graphiques de performances pour comparer les volumes ou les LUN qui se trouvent dans le même groupe de stratégies QoS
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

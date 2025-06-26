@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: move, workloads, another, node, different, ha pair 
 summary: 'Grâce à Unified Manager, vous pouvez identifier un agrégat sur un nœud d"une autre paire haute disponibilité moins occupée que la paire haute disponibilité sur laquelle vos charges de travail sont actuellement exécutées. Vous pouvez ensuite déplacer les volumes sélectionnés vers des agrégats sur la nouvelle paire haute disponibilité. Le déplacement de charges de travail hautes performances vers un agrégat sur un nœud moins occupé permet aux charges de travail des deux nœuds de gagner en efficacité.' 
 ---
-= Déplacement des workloads vers un autre nœud dans une paire haute disponibilité différente
+= Déplacer les charges de travail vers un autre nœud dans une autre paire HA
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

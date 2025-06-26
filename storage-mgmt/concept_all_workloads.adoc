@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, workloads, add, provision, storage, filter, analyze, performance, capacity, criteria 
 summary: La vue toutes les charges de travail affiche la liste de toutes les charges de travail disponibles sur les clusters du data Center. 
 ---
-= Affichage des charges de travail
+= Afficher les charges de travail
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

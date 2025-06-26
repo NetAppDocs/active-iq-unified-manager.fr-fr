@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, protection, relationships, volume, health details page 
 summary: Vous pouvez modifier les relations de protection existantes pour modifier le taux de transfert maximal actuel, la stratégie de protection ou la planification de protection. Vous pouvez modifier une relation pour diminuer la bande passante utilisée pour les transferts ou pour augmenter la fréquence des transferts programmés car les données changent souvent. 
 ---
-= Modification des relations de protection à partir de la page Détails du volume/intégrité
+= Modifier les relations de protection à partir de la page Détails du volume/de la santé
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

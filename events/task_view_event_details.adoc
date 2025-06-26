@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, events, details 
 summary: 'Vous pouvez afficher les détails d"un événement déclenché par Unified Manager pour effectuer une action corrective. Par exemple, si un événement de santé est hors ligne, vous pouvez cliquer sur cet événement pour afficher les détails et effectuer les actions correctives nécessaires.' 
 ---
-= Affichage des événements et des détails des événements
+= Afficher les événements et les détails de l'événement
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

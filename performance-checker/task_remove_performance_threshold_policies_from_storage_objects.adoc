@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: remove, performance, threshold, policies, storage, objects 
 summary: 'Vous pouvez supprimer une règle de seuil de performance définie par l"utilisateur d"un objet de stockage lorsque vous ne souhaitez plus que Unified Manager contrôle la valeur du compteur de performances.' 
 ---
-= Suppression des règles de seuil de performances des objets de stockage
+= Supprimer les politiques de seuil de performance des objets de stockage
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: modify, storage, workloads 
 summary: La modification des charges de travail de stockage consiste à mettre à jour les LUN ou les partages de fichiers dont les paramètres sont manquants ou à modifier les paramètres existants. 
 ---
-= Modification des charges de travail de stockage à l'aide d'API
+= Modifier les charges de travail de stockage à l'aide d'API
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -22,7 +22,7 @@ Le flux de travail suppose que le partage de fichiers ou de LUN a été provisio
 ====
 
 
-== Modification des partages de fichiers
+== Modifier les partages de fichiers
 
 Lors de la modification d'un partage de fichiers, vous pouvez mettre à jour les paramètres suivants :
 
@@ -191,7 +191,7 @@ Affichez les détails du partage de fichiers dans la sortie.
 
 
 
-== Mise à jour des LUN
+== Mettre à jour les LUN
 
 Lors de la mise à jour d'une LUN, vous pouvez modifier les paramètres suivants :
 

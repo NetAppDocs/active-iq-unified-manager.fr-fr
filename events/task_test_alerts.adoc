@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: test, alerts 
 summary: 'Vous pouvez tester une alerte pour vérifier que vous l"avez correctement configurée. Lorsqu"un événement est déclenché, une alerte est générée et un e-mail d"alerte est envoyé aux destinataires configurés. Vous pouvez vérifier si la notification est envoyée et si votre script est exécuté à l"aide de l"alerte test.' 
 ---
-= Test des alertes
+= Testez les alertes
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

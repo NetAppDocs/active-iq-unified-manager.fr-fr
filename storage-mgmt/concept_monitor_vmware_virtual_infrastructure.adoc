@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, vmware, virtual, infrastructure, not, supported 
 summary: 'Active IQ Unified Manager offre une visibilité sur les machines virtuelles (VM) de votre infrastructure virtuelle et permet d"effectuer la surveillance et la résolution des problèmes de stockage et de performances dans votre environnement virtuel. Vous pouvez l"utiliser pour déterminer tout problème de latence dans votre environnement de stockage ou lorsqu"un événement de performances est signalé sur votre serveur vCenter.' 
 ---
-= Surveillance de l'infrastructure virtuelle VMware
+= Surveiller l'infrastructure virtuelle VMware
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

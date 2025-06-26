@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: volume relationship, protection status, dashboard protection card, protection widget, lag, relationship health, healthy relationship, lag threshold, relationship event, source cluster, snapmirror, snapshot 
 summary: La page protection des données présente une vue globale des informations de protection pour tous les volumes protégés de votre data Center. 
 ---
-= Affichage de l'état de protection du volume
+= Afficher l'état de protection du volume
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

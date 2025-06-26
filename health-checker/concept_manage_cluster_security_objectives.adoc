@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: cluster, security, manage, objectives 
 summary: Unified Manager fournit un tableau de bord identifiant la sécurité des clusters ONTAP, des machines virtuelles de stockage et des volumes, selon les recommandations définies dans le guide NetApp sur le renforcement de la sécurité des environnements ONTAP 9. 
 ---
-= Gestion des objectifs de sécurité des clusters
+= Gérer les objectifs de sécurité du cluster
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

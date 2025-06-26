@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: threshold, policy, node, failover, planning page 
 summary: 'Vous pouvez créer une règle de seuil de nœud afin d"être averti dans la page Performance/Node Failover Planning lorsqu"un basculement potentiel dégrade les performances du nœud de basculement.' 
 ---
-= Utilisation d'une stratégie de seuil avec la page planification du basculement de nœud
+= Utiliser une politique de seuil avec la page Planification du basculement de nœud
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

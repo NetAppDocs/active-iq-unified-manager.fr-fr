@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, authentication, servers 
 summary: 'Vous pouvez supprimer un serveur d"authentification si vous souhaitez empêcher le serveur Unified Manager de communiquer avec le serveur d"authentification. Par exemple, si vous souhaitez modifier un serveur d"authentification avec lequel le serveur de gestion communique, vous pouvez supprimer le serveur d"authentification et ajouter un nouveau serveur d"authentification.' 
 ---
-= Suppression des serveurs d'authentification
+= Supprimer les serveurs d'authentification
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, rules, generate, email, addresses 
 summary: 'Vous pouvez créer des règles pour spécifier l"adresse e-mail en fonction du quota d"utilisateur associé aux clusters, aux SVM (Storage Virtual machine), aux volumes, aux qtrees, aux utilisateurs ou aux groupes d"utilisateurs. Une notification est envoyée à l"adresse e-mail spécifiée lorsqu"une violation de quota est constatée.' 
 ---
-= Création de règles pour générer des adresses e-mail
+= Créer des règles pour générer des adresses e-mail
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

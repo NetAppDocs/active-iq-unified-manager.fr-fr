@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: remove, aggregates, resource pools 
 summary: 'Vous pouvez supprimer des agrégats d"un pool de ressources existant : par exemple, si vous souhaitez utiliser un agrégat à d"autres fins.' 
 ---
-= Suppression d'agrégats des pools de ressources
+= Supprimer les agrégats des pools de ressources
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, svm, iops, traffic, protocol 
 summary: 'Vous pouvez afficher des informations détaillées d"IOPS pour un SVM à partir de la page de l"explorateur des performances/SVM. Le graphique Op E/S par sec - total indique l"utilisation totale en IOPS sur la SVM, et le graphique compteurs d"IOPS - détail est utile pour déterminer l"impact des opérations de lecture, d"écriture et autres IOPS sur la SVM.' 
 ---
-= Affichage du trafic des IOPS du SVM par protocole
+= Afficher le trafic IOPS SVM par protocole
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

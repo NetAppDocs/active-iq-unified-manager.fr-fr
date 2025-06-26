@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, events, adaptive, qos, policies, defined, block, size 
 summary: 'Les groupes de règles de QoS adaptative ajustent automatiquement un plafond ou un sol de débit en fonction de la taille du volume. Ainsi, ils maintiennent le rapport IOPS/To en fonction de la taille du volume. Depuis la version ONTAP 9.5, vous pouvez spécifier la taille de bloc dans la règle de QoS afin d"appliquer efficacement un seuil Mo/s en même temps.' 
 ---
-= Présentation des événements des règles de QoS adaptative qui ont une taille de bloc définie
+= Comprendre les événements des politiques QoS adaptatives qui ont une taille de bloc définie
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

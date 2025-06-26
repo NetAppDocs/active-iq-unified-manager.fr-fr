@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, alerts 
 summary: 'Vous pouvez configurer des alertes pour qu"elles envoient automatiquement des notifications lorsque des événements ou événements spécifiques de certains types de sévérité se produisent. Vous pouvez également associer une alerte à un script exécuté lorsqu"une alerte est déclenchée.' 
 ---
-= Gestion des alertes
+= Gérer les alertes
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

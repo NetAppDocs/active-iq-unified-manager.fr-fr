@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, events, system, details 
 summary: 'L"API Events vous permet de récupérer les événements générés pour les clusters surveillés de votre data Center.' 
 ---
-= Gestion des événements et des alertes à l'aide d'API
+= Gérer les événements et les alertes à l'aide des API
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -15,7 +15,7 @@ Le `events`, `alerts`, et `scripts` API sous `management-server` Cette catégori
 
 
 
-== Affichage et modification des événements
+== Afficher et modifier les événements
 
 Unified Manager reçoit les événements générés sur ONTAP pour les clusters contrôlés et gérés par Unified Manager. Grâce à ces API, vous pouvez afficher les événements générés pour les clusters, puis les résoudre et les mettre à jour.
 
@@ -23,7 +23,7 @@ En exécutant le `GET` méthode pour le `/management-server/events` API : vous p
 
 En exécutant l'opération DE CORRECTIF pour cette API, vous pouvez activer le workflow de résolution pour l'événement. Vous pouvez attribuer un événement à vous-même ou à un autre utilisateur et accuser réception de l'événement. Lors de l'exécution des étapes sur les ressources pour résoudre le problème qui a déclenché l'événement, vous pouvez utiliser cette API pour marquer l'événement comme résolu.
 
-Pour plus d'informations sur les événements, reportez-vous à la section link:../events/concept_manage_events.html["Gestion des événements"].
+Pour plus d'informations sur les événements, reportez-vous link:../events/concept_manage_events.html["Gérer les événements"]à la section .
 
 [cols="4*"]
 |===
@@ -54,11 +54,11 @@ Exécutez cette API pour attribuer un événement ou modifier l'état sur valid�
 |===
 
 
-== Gestion des alertes
+== Gérer les alertes
 
 Les événements sont générés automatiquement et en continu. Unified Manager génère une alerte uniquement lorsqu'un événement répond à certains critères de filtre. Vous pouvez sélectionner les événements pour lesquels des alertes doivent être générées. À l'aide du `/management-server/alerts` API, vous pouvez configurer des alertes pour envoyer automatiquement des notifications en cas d'événements ou d'événements spécifiques de certains types de sévérité.
 
-Pour plus d'informations sur les alertes, reportez-vous à la section link:../events/concept_manage_alerts.html["Gestion des alertes"].
+Pour plus d'informations sur les alertes, reportez-vous link:../events/concept_manage_alerts.html["Gérer les alertes"]à la section .
 
 [cols="4*"]
 |===
@@ -103,11 +103,11 @@ NOTE: Lors de la sélection d'une ressource pour l'ajout d'une alerte, notez que
 
 
 
-== Gestion des scripts
+== Gérer les scripts
 
 À l'aide du `/management-server/scripts` API, vous pouvez également associer une alerte à un script exécuté lorsqu'une alerte est déclenchée. Vous pouvez utiliser des scripts pour modifier ou mettre à jour automatiquement plusieurs objets de stockage dans Unified Manager. Le script est associé à une alerte. Lorsqu'un événement déclenche une alerte, le script est exécuté. Vous pouvez télécharger des scripts personnalisés et tester leur exécution lorsqu'une alerte est générée. Vous pouvez associer une alerte à votre script afin que le script soit exécuté lorsqu'une alerte est générée pour un événement dans Unified Manager.
 
-Pour plus d'informations sur les scripts, reportez-vous à la section link:../events/concept_manage_scripts.html["Gestion des scripts"].
+Pour plus d'informations sur les scripts, reportez-vous link:../events/concept_manage_scripts.html["Gérer les scripts"]à la section .
 
 [cols="4*"]
 |===

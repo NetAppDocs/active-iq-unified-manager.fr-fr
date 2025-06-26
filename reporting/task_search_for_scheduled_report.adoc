@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: search, schedule, report 
 summary: 'Vous pouvez rechercher des rapports programmés par nom, nom d"affichage, type d"objet ou destinataires.' 
 ---
-= Recherche d'un rapport planifié
+= Rechercher un rapport planifié
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

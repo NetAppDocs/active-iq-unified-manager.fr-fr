@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: perform, corrective action, storage failover, interconnect links 
 summary: 'Lorsque vous affichez la page Détails de l"événement d"un événement lié au basculement de stockage, vous pouvez consulter les informations récapitulatives de la page pour déterminer l"urgence de l"événement, la cause possible du problème et la résolution éventuelle du problème.' 
 ---
-= Effectuer une action corrective pour les liaisons d'interconnexion de basculement du stockage en panne
+= Effectuer une action corrective pour les liaisons d'interconnexion de basculement de stockage en panne
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

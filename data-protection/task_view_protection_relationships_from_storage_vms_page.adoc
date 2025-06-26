@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage vm, viewing protection relationships 
 summary: 'La page Storage VM permet d"afficher l"état des relations de reprise après sinistre des machines virtuelles de stockage existantes.' 
 ---
-= Affichage des relations de protection à partir de la page Storage VM
+= Afficher les relations de protection à partir de la page Machines virtuelles de stockage
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

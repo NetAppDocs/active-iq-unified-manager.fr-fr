@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: confirm, latency, within, expected, range 
 summary: 'Lorsqu"un composant de cluster conflit, des workloads de volume qui l"utilisent peuvent avoir réduit le temps de réponse (latence). Vous pouvez examiner la latence de chaque charge de travail victime dans le composant en conflit pour confirmer que sa latence réelle se situe dans la plage prévue. Vous pouvez également cliquer sur le nom d"un volume pour afficher les données historiques du volume.' 
 ---
-= Confirmation que la latence se trouve dans la plage prévue
+= Confirmez que la latence est dans la plage attendue
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

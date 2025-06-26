@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: upgrade, unified manager 
 summary: 'Vous pouvez mettre à niveau Unified Manager en téléchargeant et en exécutant le fichier d"installation sur la plateforme Windows.' 
 ---
-= Mise à niveau d'Unified Manager
+= Mettez à niveau Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

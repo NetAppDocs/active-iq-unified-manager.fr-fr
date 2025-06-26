@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manually, configure, epel repository 
 summary: 'Si le système sur lequel vous installez Unified Manager n"a pas accès au référentiel progiciels supplémentaires pour Enterprise Linux (EPEL), vous devez télécharger et configurer manuellement le référentiel pour une installation réussie.' 
 ---
-= Configuration manuelle du référentiel EPEL
+= Configurer manuellement le référentiel EPEL
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

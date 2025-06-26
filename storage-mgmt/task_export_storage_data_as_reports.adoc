@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: export, storage, data, reports 
 summary: 'Vous pouvez exporter des données de stockage dans divers formats de sortie, puis utiliser les données exportées pour créer des rapports. Par exemple, si 10 événements critiques n"ont pas été résolus, vous pouvez exporter les données depuis la page d"inventaire Event Management pour créer un rapport, puis envoyer le rapport aux administrateurs capables de résoudre les problèmes.' 
 ---
-= Exportation des données de stockage sous forme de rapports
+= Exporter les données de stockage sous forme de rapports
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

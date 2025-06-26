@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: complete, worksheet, installation, information, unified manager 
 summary: 'Avant d"installer et de configurer Unified Manager, vous devez disposer facilement d"informations spécifiques sur votre environnement. Vous pouvez enregistrer les informations dans la fiche.' 
 ---
-= Remplir la fiche
+= Remplissez la feuille de travail
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

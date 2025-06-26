@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: identify, problem, perform, corrective actions, failed, protection job 
 summary: 'Vous examinez le message d"erreur d"échec du travail dans le champ cause de la page Détails de l"événement et déterminez que le travail a échoué en raison d"une erreur de copie Snapshot. Vous allez ensuite à la page Volume / Health details pour recueillir plus d"informations.' 
 ---
-= Identification du problème et exécution d'actions correctives pour une tâche de protection ayant échoué
+= Identifier le problème et effectuer des actions correctives en cas d'échec d'une tâche de protection
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

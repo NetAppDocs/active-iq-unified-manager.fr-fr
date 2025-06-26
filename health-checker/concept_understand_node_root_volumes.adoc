@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, node, root, volumes 
 summary: 'Vous pouvez surveiller le volume racine du nœud à l"aide de Unified Manager. Il est recommandé que la capacité du volume racine du nœud soit suffisante pour éviter que le nœud ne cesse de tomber en panne.' 
 ---
-= Présentation des volumes root du nœud
+= Comprendre les volumes racine des nœuds
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

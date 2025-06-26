@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: customize, nfs, share, reports 
 summary: 'Vous pouvez personnaliser des rapports de partage NFS pour analyser des informations sur les règles d"exportation NFS et les volumes de vos systèmes de stockage. Vous pouvez par exemple personnaliser les rapports pour afficher les volumes dont les volumes et les chemins de montage sont inaccessibles avec l"export policy par défaut.' 
 ---
-= Personnalisation des rapports de partage NFS
+= Personnaliser les rapports de partage NFS
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, manage, clusters, dashboard 
 summary: 'Le tableau de bord fournit des informations cumulées d"un coup d"œil sur l"état actuel de vos systèmes ONTAP surveillés. Le tableau de bord fournit des « panneaux » qui vous permettent d"évaluer la capacité globale, les performances et la sécurité des clusters que vous surveillez.' 
 ---
-= Contrôle et gestion des clusters depuis le tableau de bord
+= Surveiller et gérer les clusters depuis le tableau de bord
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

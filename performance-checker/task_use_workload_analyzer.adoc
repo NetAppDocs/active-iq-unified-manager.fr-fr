@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: workload analyzer 
 summary: 'Il existe de nombreuses façons de démarrer l"analyseur de charge de travail à partir de l"interface utilisateur. Ici, nous décrivons le lancement de l"outil à partir du volet de navigation de gauche.' 
 ---
-= Utilisation de l'analyseur de flux de production
+= Utiliser l'analyseur de charge de travail
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

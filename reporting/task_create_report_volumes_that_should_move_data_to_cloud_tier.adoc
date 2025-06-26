@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, identify, volumes, FabricPool, aggregates, data, cloud tier 
 summary: Vous pouvez créer un rapport contenant la liste des volumes résidant sur des agrégats FabricPool, dont les recommandations pour le cloud sont nombreuses et dont les données inactives sont importantes. Ce rapport vous aidera à décider si vous devez modifier la règle de Tiering de certains volumes en « automatique » ou « tous » pour décharger les données plus inactives vers le Tier cloud. 
 ---
-= Création d'un rapport pour identifier les volumes de données stockées dans les agrégats FabricPool qui doivent être déplacées vers le Tier cloud
+= Créer un rapport pour identifier les volumes sur les agrégats FabricPool qui doivent déplacer les données vers le niveau cloud
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

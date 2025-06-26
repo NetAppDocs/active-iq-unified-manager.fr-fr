@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, capacity, used, breakdown, chart, failover, planning 
 summary: Le graphique détaillé capacité en performances utilisée - détail indique la capacité en performances utilisée pour le nœud principal et le nœud partenaire. Il affiche également la capacité de performances disponibles sur le nœud de basculement estimé. Ces informations vous permettent de déterminer si vous rencontrez un problème de performances en cas de panne du nœud partenaire. 
 ---
-= Utilisation du tableau d'analyse de la capacité sur les performances utilisée pour la planification du basculement
+= Utilisez le tableau de répartition de la capacité de performance utilisée pour la planification du basculement
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, annotations, dynamically 
 summary: 'Lorsque vous créez des annotations personnalisées, Unified Manager associe de façon dynamique les clusters, les machines virtuelles de stockage et les volumes avec les annotations à l"aide de règles. Ces règles affectent automatiquement les annotations aux objets de stockage.' 
 ---
-= Ajout dynamique d'annotations
+= Ajouter des annotations de manière dynamique
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

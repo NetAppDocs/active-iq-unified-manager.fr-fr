@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: install, upgrade, remove, unified manager software 
 summary: Sur les systèmes Linux, vous pouvez installer le logiciel Unified Manager, effectuer une mise à niveau vers une version plus récente ou supprimer Unified Manager. 
 ---
-= Installation, mise à niveau et suppression du logiciel Unified Manager
+= Installer, mettre à niveau et supprimer le logiciel Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

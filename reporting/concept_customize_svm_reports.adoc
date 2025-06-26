@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: customize, storage, vm reports 
 summary: 'Vous pouvez créer des rapports sur les VM de stockage afin d"analyser les informations sur les volumes et de consulter l"état global et la disponibilité du stockage. Par exemple, vous pouvez créer des rapports pour afficher les SVM atteignant le nombre maximal de volumes et pour analyser les SVM arrêtés.' 
 ---
-= Personnalisation des rapports sur les machines virtuelles de stockage
+= Personnaliser les rapports de VM de stockage
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

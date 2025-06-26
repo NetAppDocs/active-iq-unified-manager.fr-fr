@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, user-defined, performance, threshold, policies 
 summary: 'Vous créez des règles de seuil de performances pour les objets de stockage, de sorte que des notifications soient envoyées lorsqu"un compteur de performances dépasse une valeur spécifique. La notification d"événement identifie que le cluster rencontre un problème de performances.' 
 ---
-= Création de règles de seuils de performance définies par l'utilisateur
+= Créer des politiques de seuil de performance définies par l'utilisateur
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

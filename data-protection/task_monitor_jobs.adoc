@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, jobs 
 summary: 'Vous pouvez utiliser la page travaux pour contrôler l"état des travaux et afficher les propriétés des travaux, telles que le type de service de stockage, l"état, l"heure de soumission et l"heure de fin pour déterminer si un travail s"est terminé avec succès ou non.' 
 ---
-= Surveillance des tâches
+= Surveiller les tâches
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: node, failover, planning page, determine, corrective, actions 
 summary: 'En fonction des informations affichées sur la page Performance/Node Failover Planning, vous pouvez effectuer des actions pour vérifier qu"un basculement ne provoque pas de chute des performances d"une paire haute disponibilité en dessous d"un niveau acceptable.' 
 ---
-= Utilisation de la page planification de basculement de nœud pour déterminer les actions correctives
+= Utilisez la page Planification du basculement des nœuds pour déterminer les mesures correctives
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

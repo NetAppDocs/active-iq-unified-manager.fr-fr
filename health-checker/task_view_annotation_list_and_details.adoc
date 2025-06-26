@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, annotation list, details 
 summary: 'Vous pouvez afficher la liste des annotations dynamiquement associées aux clusters, aux volumes et aux machines virtuelles de stockage (SVM). Vous pouvez également afficher des détails tels que la description, créée par, créée par, valeurs, règles, et les objets associés à l"annotation.' 
 ---
-= Affichage de la liste d'annotations et des détails
+= Afficher la liste des annotations et les détails
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

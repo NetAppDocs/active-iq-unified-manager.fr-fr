@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, virtual, infrastructure, disaster, recovery, setup, datastores, metrocluster configuration 
 summary: 'Vous pouvez afficher les mesures de configuration et de performances des datastores hébergés dans une configuration MetroCluster ou une configuration de reprise après incident de SVM (Storage Virtual machine).' 
 ---
-= Visualisation d'une infrastructure virtuelle dans une configuration de reprise après incident
+= Afficher l'infrastructure virtuelle dans une configuration de reprise après sinistre
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -19,7 +19,7 @@ Vous pouvez également afficher les volumes NAS ou les LUN dans une configuratio
 
 
 
-== Affichage des datastores dans la configuration MetroCluster
+== Afficher les banques de données dans la configuration MetroCluster
 
 Notez les prérequis suivants avant de afficher les datastores dans une configuration MetroCluster :
 
@@ -40,7 +40,7 @@ Pour afficher les datastores, procédez comme suit :
 
 
 
-== Affichage des datastores dans la configuration de reprise d'activité des machines virtuelles de stockage
+== Afficher les banques de données dans la configuration de reprise après sinistre de la machine virtuelle de stockage
 
 Notez les prérequis suivants avant de visualiser les datastores dans une configuration de reprise d'activité de VM de stockage :
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: disaster recovery, monitor, storage vm protection, relationships 
 summary: 'Active IQ Unified Manager prend en charge la surveillance des relations de reprise après incident des VM de stockage, qui assure la reprise après incident au niveau de la granularité d"une VM de stockage. La reprise après incident de l"ordinateur virtuel de stockage permet de récupérer les données présentes dans les volumes constitutifs du serveur virtuel de stockage et la restauration de la configuration de cette machine virtuelle de stockage.' 
 ---
-= Surveiller les relations de protection contre les reprises après incident des machines virtuelles de stockage
+= Surveiller les relations de protection de reprise après sinistre des machines virtuelles de stockage
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

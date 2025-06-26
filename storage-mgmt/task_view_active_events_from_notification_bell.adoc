@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, active, events, notification, bell 
 summary: 'Le signal sonore des notifications dans la barre de menus permet d"afficher rapidement les événements actifs les plus importants suivis par Unified Manager.' 
 ---
-= Affichage des événements actifs à partir du signal sonore de notification
+= Afficher les événements actifs depuis la cloche de notification
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

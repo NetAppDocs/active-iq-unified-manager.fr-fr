@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: change, unified manager, virtual, appliance, host name 
 summary: 'Un nom est attribué à l"hôte réseau lors du premier déploiement de l"appliance virtuelle Unified Manager. Vous pouvez modifier le nom d"hôte après le déploiement. Si vous modifiez le nom d"hôte, vous devez également régénérer le certificat HTTPS.' 
 ---
-= Modification du nom d'hôte de l'appliance virtuelle Unified Manager
+= Modifier le nom d'hôte de l'appliance virtuelle Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

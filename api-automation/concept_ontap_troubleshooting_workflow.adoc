@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: troubleshoot, ontap, volumes, gateway, api 
 summary: Les API de passerelle servent de passerelle pour appeler les API ONTAP pour interroger les informations sur vos objets de stockage ONTAP et prendre les mesures correctives nécessaires pour résoudre les problèmes signalés. 
 ---
-= Dépannage des volumes ONTAP à l'aide d'API de passerelle
+= Dépanner les volumes ONTAP à l'aide des API de passerelle
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

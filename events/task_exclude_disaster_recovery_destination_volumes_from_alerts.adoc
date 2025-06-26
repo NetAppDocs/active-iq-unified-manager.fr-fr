@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: exclude, disaster, recovery, destination, volumes, generate, alerts 
 summary: Lors de la configuration des alertes de volume, vous pouvez spécifier une chaîne dans la boîte de dialogue alerte qui identifie un volume ou un groupe de volumes. Si vous avez configuré la reprise sur incident pour les SVM, toutefois, les volumes source et de destination ont le même nom, vous recevez des alertes pour les deux volumes. 
 ---
-= Exclusion de volumes de destination de reprise après incident de la génération des alertes
+= Exclure les volumes de destination de reprise après sinistre de la génération d'alertes
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

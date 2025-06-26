@@ -21,54 +21,54 @@ entries:
     url: "/install-linux/concept_browser_and_platform_requirements.html"
   - title: Exigences en matière de protocoles et de ports
     url: "/install-linux/reference_protocol_and_port_requirements.html"
-  - title: Remplir la fiche
+  - title: Remplissez la feuille de travail
     url: "/install-linux/reference_complete_worksheet_um.html"
-- title: Installation, mise à niveau et suppression du logiciel Unified Manager
+- title: Installer, mettre à niveau et supprimer le logiciel Unified Manager
   url: "/install-linux/concept_install_upgrade_and_remove_unified_manager_software.html"
   entries:
   - title: Présentation du processus d'installation
     url: "/install-linux/concept_overview_of_installation_process_on_red_hat.html"
-  - title: Configuration des référentiels logiciels requis
+  - title: Configurer les référentiels de logiciels requis
     url: "/install-linux/concept_set_up_required_software_repositories_um.html"
     entries:
-    - title: Configuration manuelle du référentiel EPEL
+    - title: Configurer manuellement le référentiel EPEL
       url: "/install-linux/task_manually_configure_epel_repository.html"
-    - title: Configuration manuelle du référentiel MySQL
+    - title: Configurer manuellement le référentiel MySQL
       url: "/install-linux/task_manually_configure_mysql_repository.html"
   - title: Configuration SELinux requise sur le partage NFS ou CIFS
     url: "/install-linux/task_selinux_requirements_for_mounting_opt_netapp.html"
-  - title: Installation de Unified Manager sur des systèmes Linux
+  - title: Installez Unified Manager sur les systèmes Linux
     url: "/install-linux/concept_install_unified_manager_on_rhel.html"
     entries:
-    - title: Création d'un répertoire personnel utilisateur personnalisé et d'un mot
-        de passe umadmin avant l'installation
+    - title: Créez un répertoire personnel utilisateur et un mot de passe umadmin
+        personnalisés avant l'installation
       url: "/install-linux/task_create_custom_user_home_directory_and_umadmin.html"
-    - title: Téléchargement d'Unified Manager
+    - title: Télécharger Unified Manager
       url: "/install-linux/task_download_unified_manager.html"
-    - title: Installation de Unified Manager
+    - title: Installez Unified Manager
       url: "/install-linux/task_install_unified_manager_linux.html"
     - title: Utilisateurs créés lors de l'installation de Unified Manager
       url: "/install-linux/reference_users_created_in_unified_manager.html"
-    - title: Modification du mot de passe JBoss
+    - title: Changer le mot de passe JBoss
       url: "/install-linux/task_change_jboss_password.html"
-  - title: Mise à niveau d'Unified Manager sur Red Hat Enterprise Linux
+  - title: Mettre à niveau Unified Manager sur Red Hat Enterprise Linux
     url: "/install-linux/concept_upgrade_unified_manager_on_rhel.html"
     entries:
     - title: Chemin de mise à niveau pris en charge pour les versions de Unified Manager
       url: "/include/upgrade-path.html"
-    - title: Mise à niveau d'Unified Manager
+    - title: Mettez à niveau Unified Manager
       url: "/install-linux/task_upgrade_unified_manager.html"
-    - title: Mise à niveau du système d'exploitation hôte de Red Hat Enterprise Linux
-        7.x vers 8.x.
+    - title: Mettre à niveau le système d'exploitation hôte de Red Hat Enterprise
+        Linux 7.x vers 8.x
       url: "/install-linux/task_upgrade_host_os.html"
-  - title: Mise à niveau de produits tiers après l'installation de Unified Manager
+  - title: Mettre à niveau les produits tiers après l'installation d'Unified Manager
     url: "/install-linux/concept_upgrade_third_party_products_on_linux_um.html"
     entries:
-    - title: Mise à niveau d'OpenJDK sous Linux
+    - title: Mettre à niveau OpenJDK sur Linux
       url: "/install-linux/task_upgrade_openjdk_on_linux_ocum.html"
-  - title: Redémarrage de Unified Manager
+  - title: Redémarrer Unified Manager
     url: "/install-linux/task_restart_unified_manager.html"
-  - title: Suppression de Unified Manager
+  - title: Supprimer Unified Manager
     url: "/install-linux/task_remove_unified_manager.html"
-  - title: Suppression de l'utilisateur umadmin personnalisé et du groupe de maintenance
+  - title: Supprimer l'utilisateur umadmin personnalisé et le groupe de maintenance
     url: "/install-linux/task_remove_custom_umadmin_user_and_maintenance_group.html"

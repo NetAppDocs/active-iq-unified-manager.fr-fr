@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, active iq unified manager 
 summary: 'Une fois Active IQ Unified Manager installé (anciennement OnCommand Unified Manager), vous devez effectuer la configuration initiale (également appelée premier assistant d"expérience) pour accéder à l"interface utilisateur Web. Vous pouvez ensuite effectuer des tâches de configuration supplémentaires, comme l"ajout de clusters, la configuration de l"authentification à distance, l"ajout d"utilisateurs et l"ajout d"alertes.' 
 ---
-= Configuration d'Active IQ Unified Manager en cours
+= Configurer Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: determine, volume, offline, host, node 
 summary: 'Vous pouvez utiliser l"interface utilisateur Web d"Unified Manager pour confirmer ou supprimer la possibilité qu"un volume soit hors ligne, car le nœud hôte est en panne et que le basculement du stockage vers son partenaire de paire haute disponibilité n"a pas réussi.' 
 ---
-= Détermination d'un volume hors ligne parce que son nœud hôte est arrêté
+= Déterminer si un volume est hors ligne parce que son nœud hôte est en panne
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

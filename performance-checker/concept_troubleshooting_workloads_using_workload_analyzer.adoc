@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: workload analyzer, troubleshoot 
 summary: 'L"analyseur de charge de travail permet d"afficher des critères importants d"intégrité et de performance pour une charge de travail unique sur une seule page pour faciliter le dépannage. La visualisation des événements actuels et précédents d"une charge de travail vous permet de mieux comprendre pourquoi la charge de travail rencontre peut-être un problème de performances ou de capacité.' 
 ---
-= Dépannage des charges de travail à l'aide de l'analyseur de workloads
+= Dépanner les charges de travail à l'aide de l'analyseur de charge de travail
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: customize, cluster, storage, reports 
 summary: Les exemples de rapports sur le stockage en cluster présentés dans cette section ne sont que des exemples pour vous aider à comprendre comment créer des rapports sur la capacité du cluster afin de vous aider à surveiller les ressources du système de stockage. 
 ---
-= Personnalisation des rapports de stockage de cluster
+= Personnaliser les rapports de stockage en cluster
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

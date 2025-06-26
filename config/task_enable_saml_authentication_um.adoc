@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: enable, saml, authentication 
 summary: 'Vous pouvez activer l"authentification SAML (Security assertion Markup Language) pour que les utilisateurs distants soient authentifiés par un fournisseur d"identités sécurisé avant d"accéder à l"interface utilisateur Web d"Unified Manager.' 
 ---
-= Activation de l'authentification SAML
+= Activez l'authentification SAML
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

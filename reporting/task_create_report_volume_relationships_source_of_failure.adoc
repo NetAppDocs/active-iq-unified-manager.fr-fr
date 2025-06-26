@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, group, volume, relationships, source, failure 
 summary: Vous pouvez créer un rapport qui regroupe des volumes en raison de la mauvaise santé de la relation. 
 ---
-= Création d'un rapport pour regrouper les relations de volume par source d'échec
+= Créer un rapport pour regrouper les relations de volume par source de défaillance
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

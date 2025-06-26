@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: disable, nested groups, remote, authentication 
 summary: 'Si l"authentification à distance est activée, vous pouvez désactiver l"authentification des groupes imbriqués de sorte que seuls les utilisateurs individuels, et non les membres du groupe, puissent s"authentifier à distance à Unified Manager. Vous pouvez désactiver les groupes imbriqués si vous souhaitez améliorer le temps de réponse de l"authentification Active Directory.' 
 ---
-= Désactivation des groupes imbriqués à partir de l'authentification à distance
+= Désactiver les groupes imbriqués de l'authentification à distance
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

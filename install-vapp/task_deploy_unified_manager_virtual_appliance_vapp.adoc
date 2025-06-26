@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: deploy, unified manager, virtual appliance 
 summary: 'Après avoir téléchargé le fichier d"installation, vous déployez Unified Manager en tant qu"appliance virtuelle. Utilisez le client Web vSphere pour déployer l"appliance virtuelle sur un serveur ESXi. Lorsque vous déployez l"appliance virtuelle, une machine virtuelle est créée.' 
 ---
-= Déploiement de l'appliance virtuelle Unified Manager
+= Déployez l'appliance virtuelle Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

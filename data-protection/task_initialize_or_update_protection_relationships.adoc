@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: initialize, update, protection, relationships, volume, page 
 summary: À partir de la page Volume relations, vous pouvez effectuer un transfert de base pour la première fois sur une nouvelle relation de protection, ou mettre à jour une relation si elle est déjà initialisée et que vous souhaitez effectuer une mise à jour incrémentielle manuelle et non planifiée pour le transfert immédiatement. 
 ---
-= Initialisation ou mise à jour des relations de protection à partir de la page relations de volume
+= Initialiser ou mettre à jour les relations de protection à partir de la page Relations de volume
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

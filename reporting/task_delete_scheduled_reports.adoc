@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, reports 
 summary: Une fois les rapports programmés, vous pouvez les supprimer de la page Rapports programmes. 
 ---
-= Suppression de rapports planifiés
+= Supprimer les rapports planifiés
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

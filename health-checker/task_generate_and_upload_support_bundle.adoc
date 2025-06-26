@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: generate, upload, support bundle 
 summary: 'Vous pouvez générer un pack contenant les informations de diagnostic, de manière à pouvoir l"envoyer au support technique pour obtenir de l"aide au dépannage. Vous pouvez également télécharger le pack de support sur NetApp à partir de la console de maintenance.' 
 ---
-= Génération et téléchargement d'un bundle de support
+= Générer et télécharger un pack de support
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

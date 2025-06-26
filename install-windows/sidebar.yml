@@ -21,34 +21,34 @@ entries:
     url: "/install-windows/concept_browser_and_platform_requirements.html"
   - title: Exigences en matière de protocoles et de ports
     url: "/install-windows/reference_protocol_and_port_requirements.html"
-  - title: Remplir la fiche
+  - title: Remplissez la feuille de travail
     url: "/install-windows/reference_complete_worksheet_um.html"
-- title: Installation, mise à niveau et suppression du logiciel Unified Manager
+- title: Installer, mettre à niveau et supprimer le logiciel Unified Manager
   url: "/install-windows/concept_install_upgrade_and_remove_unified_manager_software.html"
   entries:
   - title: Présentation du processus d'installation
     url: "/install-windows/concept_overview_of_installation_process_on_windows.html"
-  - title: Installation de Unified Manager sous Windows
+  - title: Installer Unified Manager sur Windows
     url: "/install-windows/concept_install_unified_manager_windows.html"
     entries:
-    - title: Installation de Unified Manager
+    - title: Installez Unified Manager
       url: "/install-windows/task_install_unified_manager_on_windows.html"
-    - title: Exécution d'une installation sans assistance de Unified Manager
+    - title: Effectuer une installation sans assistance d'Unified Manager
       url: "/install-windows/task_unattended_installation_of_unified_manager.html"
-  - title: Modification du mot de passe JBoss
+  - title: Changer le mot de passe JBoss
     url: "/install-windows/task_change_jboss_password_on_windows.html"
   - title: Chemin de mise à niveau pris en charge pour les versions de Unified Manager
     url: "/include/upgrade-path.html"
-  - title: Mise à niveau d'Unified Manager
+  - title: Mettez à niveau Unified Manager
     url: "/install-windows/task_upgrade_to_unified_manager_on_microsoft_windows.html"
-  - title: Mise à niveau de produits tiers
+  - title: Mettre à niveau les produits tiers
     url: "/install-windows/concept_upgrade_third_party_products_on_windows_um.html"
     entries:
-    - title: Mise à niveau d'OpenJDK
+    - title: Mettre à niveau OpenJDK
       url: "/install-windows/task_upgrade_openjdk_on_windows_ocum.html"
-  - title: Désinstallation de produits tiers
+  - title: Désinstaller les produits tiers
     url: "/install-windows/task_uninstall_third_party_products.html"
-  - title: Redémarrage de Unified Manager
+  - title: Redémarrer Unified Manager
     url: "/install-windows/task_restart_unified_manager_win.html"
-  - title: Désinstallation d'Unified Manager
+  - title: Désinstaller Unified Manager
     url: "/install-windows/task_uninstall_unified_manager_win.html"

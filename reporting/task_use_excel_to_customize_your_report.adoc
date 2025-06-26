@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: excel, customize, report 
 summary: 'Une fois la vue enregistrée, vous pouvez la télécharger au format classeur Excel (.xlsx). Lorsque vous ouvrez le fichier Excel, vous pouvez utiliser des fonctions Excel avancées pour personnaliser votre rapport.' 
 ---
-= Utilisation d'Excel pour personnaliser votre rapport
+= Utilisez Excel pour personnaliser votre rapport
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, volume, transfers, day 
 summary: Vous pouvez créer un rapport pour afficher les transferts de volumes regroupés par jour. 
 ---
-= Création d'un rapport pour afficher les transferts de volumes regroupés par jour
+= Créer un rapport pour afficher les transferts de volume regroupés par jour
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

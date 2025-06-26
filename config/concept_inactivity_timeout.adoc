@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: inactivity timeout, feature settings 
 summary: 'Vous pouvez indiquer la valeur du délai d"inactivité pour Active IQ Unified Manager. Après une inactivité du temps spécifié, l"application est automatiquement déconnectée. Cette option est activée par défaut.' 
 ---
-= Spécification du délai d'inactivité
+= Spécifier le délai d'inactivité
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

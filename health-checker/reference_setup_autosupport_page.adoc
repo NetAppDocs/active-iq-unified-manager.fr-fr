@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: autosupport, messages, support bundles, technical support 
 summary: 'La page AutoSupport vous permet d"envoyer des messages AutoSupport prédéfinis et à la demande à votre équipe de support technique pour assurer le bon fonctionnement de votre environnement et vous aider à préserver l"intégrité de votre environnement. AutoSupport est activé par défaut et ne doit pas être désactivé pour bénéficier des avantages de NetAppActive IQ.' 
 ---
-= Envoi des messages AutoSupport et des packs de support au support technique
+= Envoyer des messages AutoSupport et des packages d'assistance au support technique
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -22,7 +22,7 @@ Un utilisateur doté d'un rôle d'administrateur de stockage peut générer et e
 ====
 
 
-== Envoi de messages AutoSupport à la demande
+== Envoyer des messages AutoSupport à la demande
 
 Vous pouvez générer et envoyer un message à la demande au support technique, à un destinataire d'e-mail spécifié, ou aux deux.
 
@@ -36,7 +36,7 @@ Vous pouvez générer et envoyer un message à la demande au support technique, 
 
 
 
-== Activation du AutoSupport périodique
+== Activer l'AutoSupport périodique
 
 Vous pouvez envoyer régulièrement des messages spécifiques et prédéfinis au support technique pour le diagnostic et la résolution des problèmes. Cette fonctionnalité est activée par défaut. S'il est désactivé, un administrateur ou un utilisateur de maintenance peut activer les paramètres.
 
@@ -49,7 +49,7 @@ Vous pouvez envoyer régulièrement des messages spécifiques et prédéfinis au
 
 
 
-== Téléchargement de l'offre d'assistance à la demande
+== Télécharger le pack d'assistance à la demande
 
 Vous pouvez générer et envoyer un bundle de support au support technique en fonction des exigences de résolution de problèmes. Unified Manager ne stocke que les deux derniers packs de support générés. Les anciens packs de support sont supprimés du système.
 
@@ -72,7 +72,7 @@ Même si vous ne sélectionnez aucun type de données, le bundle de support est 
 
 
 
-== Configuration du serveur proxy HTTP
+== Configurer un serveur proxy HTTP
 
 Vous pouvez désigner un proxy qui fournit l'accès Internet afin d'envoyer du contenu AutoSupport à l'assistance si votre environnement ne fournit pas un accès direct depuis le serveur Unified Manager. Cette section est disponible uniquement pour les utilisateurs de maintenance et d'administrateur.
 

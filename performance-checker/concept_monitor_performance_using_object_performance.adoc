@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitoring, performance, inventory, pages 
 summary: 'Les pages de performances de l"inventaire des objets affichent des informations de performances, des événements de performance et l"état de santé de tous les objets d"une catégorie de type objet. Vous bénéficiez ainsi d"un aperçu complet de l"état de performance de chaque objet d"un cluster, par exemple pour tous les nœuds ou tous les volumes.' 
 ---
-= Surveillance des performances à l'aide des pages d'inventaire des performances
+= Surveiller les performances à l'aide des pages d'inventaire des performances
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

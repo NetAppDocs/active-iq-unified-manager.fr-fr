@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, edit, performance, service, Levels 
 summary: Lorsque les niveaux de services de performances définis par le système ne correspondent pas aux exigences de vos workloads, vous pouvez créer vos propres niveaux de services de performance optimisés pour vos charges de travail. 
 ---
-= Création et modification de niveaux de service Performance
+= Créer et modifier les niveaux de service de performance
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

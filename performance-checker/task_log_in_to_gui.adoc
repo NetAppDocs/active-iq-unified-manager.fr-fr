@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: log in, ui, unified manager 
 summary: 'Vous pouvez vous connecter à l"interface utilisateur de Unified Manager à l"aide d"un navigateur Web pris en charge.' 
 ---
-= Connexion à l'interface utilisateur
+= Connectez-vous à l'interface utilisateur
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

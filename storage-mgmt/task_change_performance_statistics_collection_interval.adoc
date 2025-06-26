@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: change, performance, statistics, collection, interval 
 summary: 'L"intervalle de collecte par défaut des statistiques de performances est de 5 minutes. Vous pouvez modifier cet intervalle à 10 ou 15 minutes si vous constatez que les collections des grands groupes ne se termine pas dans l"heure par défaut. Ce paramètre a un impact sur la collecte des statistiques de tous les clusters contrôlant cette instance de Unified Manager.' 
 ---
-= Modification de l'intervalle de collecte des statistiques de performances
+= Modifier l'intervalle de collecte des statistiques de performances
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

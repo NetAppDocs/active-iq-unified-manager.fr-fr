@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, counter, charts 
 summary: 'Les graphiques du volet compteurs permettent d"afficher et de comparer les données de performances de l"objet racine et des objets ajoutés à partir de la grille d"objets corrélés. Cela peut vous aider à comprendre les tendances en matière de performances, ainsi qu"à isoler et résoudre les problèmes de performances.' 
 ---
-= Présentation des graphiques des compteurs
+= Comprendre les graphiques de compteurs
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

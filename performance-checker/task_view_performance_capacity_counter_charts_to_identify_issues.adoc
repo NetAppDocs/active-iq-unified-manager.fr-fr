@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, performance, capacity, counter charts, identify, issues 
 summary: 'Vous pouvez consulter les diagrammes de capacité des performances utilisés pour les nœuds et les agrégats sur la page de l"explorateur de performances. Vous pouvez ainsi consulter des données détaillées sur la capacité de performances pour les nœuds et les agrégats sélectionnés pendant un délai spécifique.' 
 ---
-= Affichage des graphiques des compteurs de capacité de performances pour identifier les problèmes
+= Consultez les graphiques des compteurs de capacité de performance pour identifier les problèmes
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

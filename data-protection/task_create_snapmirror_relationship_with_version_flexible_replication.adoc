@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapmirror, relationship, version-flexible, replication 
 summary: 'Vous pouvez créer une relation SnapMirror avec la réplication flexible de la version. La réplication flexible de la version vous permet d"implémenter la protection SnapMirror, même si les volumes source et de destination s"exécutent sous différentes versions d"ONTAP.' 
 ---
-= Création d'une relation SnapMirror avec la réplication flexible de la version
+= Créer une relation SnapMirror avec une réplication flexible en fonction des versions
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

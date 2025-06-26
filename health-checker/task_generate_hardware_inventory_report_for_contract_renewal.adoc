@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: contract, renewal, cluster, inventory report, hardware, generate 
 summary: 'Vous pouvez générer un rapport contenant une liste complète des informations sur le cluster et le nœud, notamment les numéros de modèle du matériel et les numéros de série, les types et nombres de disques, les licences installées. Ce rapport est utile pour le renouvellement de contrats dans des sites sécurisés (sites « sombres ») qui ne sont pas connectés à la plateforme NetAppActive IQ.' 
 ---
-= Génération d'un rapport d'inventaire du matériel pour le renouvellement du contrat
+= Générer un rapport d'inventaire matériel pour le renouvellement du contrat
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

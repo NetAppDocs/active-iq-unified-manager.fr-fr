@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapvault, protection, relationship, health, volumes view 
 summary: 'Vous pouvez utiliser la vue Santé : tous les volumes pour créer des relations SnapVault pour un ou plusieurs volumes sur une même VM de stockage afin de permettre la sauvegarde des données à des fins de protection.' 
 ---
-= Création d'une relation de protection SnapVault depuis la vue Santé : tous les volumes
+= Créer une relation de protection SnapVault à partir de la vue Santé : Tous les volumes
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

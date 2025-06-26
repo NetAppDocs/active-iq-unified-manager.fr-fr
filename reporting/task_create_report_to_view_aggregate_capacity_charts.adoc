@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, show, aggregate, total, available, capacity, charts 
 summary: Vous pouvez créer un rapport pour analyser le total du stockage et la capacité engagée au format Excel. 
 ---
-= Création d'un rapport pour afficher le total des agrégats par rapport aux graphiques de capacité disponible
+= Créer un rapport pour afficher les graphiques de capacité totale agrégée par rapport à la capacité disponible
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

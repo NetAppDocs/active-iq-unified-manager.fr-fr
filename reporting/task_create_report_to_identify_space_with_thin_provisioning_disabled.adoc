@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: volume, provision, disk, volume, thin-provisioning 
 summary: 'Lorsqu"un volume n"est pas à provisionnement fin, il occupe la totalité de l"espace sur le disque, comme défini lors de la création du volume. L"identification des volumes dont le provisionnement fin est désactivé vous permet de décider si vous souhaitez activer le provisionnement fin sur certains volumes.' 
 ---
-= Création d'un rapport permettant d'identifier l'espace utilisé par les volumes dont l'allocation dynamique est désactivée
+= Créer un rapport pour identifier l'espace utilisé par les volumes avec le provisionnement léger désactivé
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

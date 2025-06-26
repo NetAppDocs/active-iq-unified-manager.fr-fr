@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, clusters 
 summary: 'Vous pouvez gérer les clusters ONTAP à l"aide d"Unified Manager afin de surveiller, d"ajouter, de modifier et de supprimer des clusters.' 
 ---
-= Gestion des clusters
+= Gérer les clusters
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

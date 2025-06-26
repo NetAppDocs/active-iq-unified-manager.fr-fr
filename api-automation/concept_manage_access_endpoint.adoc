@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, endpoints, access 
 summary: 'Vous devez créer des terminaux d"accès ou des interfaces logiques (LIF) nécessaires pour le provisionnement des SVM, des LUN et des partages de fichiers. Vous pouvez afficher, créer, modifier et supprimer les terminaux d"accès des SVM, des LUN ou des partages de fichiers dans votre environnement Active IQ Unified Manager.' 
 ---
-= Gestion des terminaux d'accès à l'aide d'API
+= Gérer les points de terminaison d'accès à l'aide d'API
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: LUN, SnapMirror active sync, Consistency Group, CG 
 summary: Vue unifiée des LUN protégées par la synchronisation active SnapMirror. 
 ---
-= Contrôle des LUN dans une relation de groupe de cohérence
+= Surveiller les LUN dans une relation de groupe de cohérence
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
