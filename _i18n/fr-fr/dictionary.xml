@@ -12065,4 +12065,5 @@ Protégez les applications avec des LUN ; vous pouvez afficher et contrôler ces
   <block id="ed97ebceba7070144972b95aa06b0982" category="sidebar">Utilisez la recherche pour affiner votre vue</block>
   <block id="3ffec53aa0a5fd71bd60b00ba2df8977" category="sidebar">Créer un rapport pour afficher les agrégats presque pleins</block>
   <block id="b4ee4946f5a0d9d41aa0bd6a3d717e4b" category="sidebar">Corrigez ou gérez les problèmes ONTAP directement depuis Unified Manager</block>
+  <block id="545d96f4f0d0b5202dd1df85c81c6d09" category="paragraph">Permet d'écouter sur ce port les messages reçus de ONTAP (agent cloud). La communication sur ce port prend en charge le cryptage fourni par TLS ou SSL.</block>
 </blocks>
