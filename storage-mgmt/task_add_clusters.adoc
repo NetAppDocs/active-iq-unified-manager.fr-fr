@@ -27,7 +27,7 @@ Lorsque vous utilisez le nom d'hôte, il doit résoudre l'adresse IP de gestion 
 Ce compte doit avoir le rôle _admin_ avec accès à l'application défini sur _ontapi_, _console_ et _http_.
 
 ** Vous devez connaître le numéro de port à connecter au cluster à l'aide du protocole HTTPS (généralement le port 443).
-** Le cluster doit exécuter la version 9.1 du logiciel ONTAP ou une version ultérieure.
+** Le cluster doit exécuter le logiciel ONTAP version 9.9 ou supérieure.
 ** L'espace requis doit être adéquat sur le serveur Unified Manager. Vous n'avez pas besoin d'ajouter un cluster au serveur lorsque plus de 90 % de l'espace est déjà utilisé.
 ** Vous disposez des certificats requis :
 +

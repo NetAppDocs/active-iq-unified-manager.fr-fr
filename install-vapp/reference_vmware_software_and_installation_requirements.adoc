@@ -2,7 +2,7 @@
 permalink: install-vapp/reference_vmware_software_and_installation_requirements.html 
 sidebar: sidebar 
 keywords: vmware, software, installation, requirements 
-summary: 'Le système VMware vSphere sur lequel vous installez Unified Manager nécessite des versions spécifiques du système d"exploitation et des logiciels de prise en charge.' 
+summary: 'Le système VMware vSphere sur lequel vous installez Unified Manager nécessite une version spécifique du système d"exploitation et des versions spécifiques du logiciel de support.' 
 ---
 = Conditions requises pour le logiciel VMware et son installation
 :allow-uri-read: 
@@ -11,16 +11,13 @@ summary: 'Le système VMware vSphere sur lequel vous installez Unified Manager n
 
 
 [role="lead"]
-Le système VMware vSphere sur lequel vous installez Unified Manager nécessite des versions spécifiques du système d'exploitation et des logiciels de prise en charge.
+Le système VMware vSphere sur lequel vous installez Unified Manager nécessite une version spécifique du système d'exploitation et des versions spécifiques du logiciel de support.
 
 
 
 == Logiciel de système d'exploitation
 
-Les versions suivantes de VMware ESXi sont prises en charge :
-
-* ESXi 7.0 et 8.0
-
+Le système d'exploitation pris en charge est VMware ESXi 8.0.
 
 [NOTE]
 ====
