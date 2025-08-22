@@ -78,7 +78,9 @@ Une fois que tous les objets d'un nouveau cluster sont découverts, Unified Mana
 
 [NOTE]
 ====
-Étant donné que la collecte de données de performances sur 15 jours consomme beaucoup de ressources CPU, il est conseillé d'échelonner l'ajout de nouveaux clusters pour que les sondages de collecte de la continuité des données ne s'exécutent pas simultanément sur un trop grand nombre de clusters. En outre, si vous redémarrez Unified Manager pendant la période de collecte de la continuité des données, la collecte sera interrompue et vous verrez des écarts dans les graphiques de performances pour les périodes manquantes.
+* La collecte de 15 jours de données de performances est gourmande en ressources CPU.  NetApp vous recommande d'échelonner l'ajout de nouveaux clusters afin que les interrogations de collecte de continuité des données ne s'exécutent pas sur trop de clusters en même temps.  De plus, si vous redémarrez Unified Manager pendant la période de collecte de continuité des données, la collecte est interrompue et vous verrez des écarts dans les graphiques de performances pour la période manquante.
+* Lorsque vous ajoutez un cluster ONTAP avec la version 9.14.1 ou ultérieure, la communication s'effectue via la fonctionnalité d'agent cloud.  ONTAP crée automatiquement un utilisateur de compte de service interne avec des privilèges en lecture seule (par exemple, clus-agent-xxxx).  Unified Manager arrête de collecter les données de ces clusters si le `clus-agent` l'utilisateur est supprimé.
+
 
 ====
 [TIP]
