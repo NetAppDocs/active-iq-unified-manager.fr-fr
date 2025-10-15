@@ -37,7 +37,7 @@ Pour la version 9, téléchargez-la à l'adresse suivante :
 
 
 
-Pour le système Red Hat Enterprise Linux 8, si vous disposez de référentiels internes avec Java-11-openjdk, p7zip et d'autres progiciels fournis par le référentiel AppStream, vous devez désactiver votre référentiel AppStream et installer MySQL Community Server. Exécutez la commande suivante :
+Pour un système Red Hat Enterprise Linux 8, si vous disposez de référentiels internes avec java-17-openjdk, p7zip et d'autres packages logiciels fournis par le référentiel AppStream, vous devez désactiver votre référentiel AppStream et installer MySQL Community Server. Exécutez la commande suivante :
 
 [listing]
 ----

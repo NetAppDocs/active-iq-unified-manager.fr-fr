@@ -11,7 +11,7 @@ summary: 'Vous pouvez mettre à niveau Unified Manager en téléchargeant et en 
 
 
 [role="lead"]
-Vous pouvez mettre à niveau Unified Manager 9.13 ou 9.14 vers 9.16 en téléchargeant et en exécutant le fichier d'installation sur la plate-forme Windows.
+Vous pouvez mettre à niveau Unified Manager 9.14 ou 9.16 vers 9.18 en téléchargeant et en exécutant le fichier d'installation sur la plate-forme Windows.
 
 .Avant de commencer
 * Le système sur lequel vous mettez à niveau Unified Manager doit répondre à la configuration système et logicielle requise.

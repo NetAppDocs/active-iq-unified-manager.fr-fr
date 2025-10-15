@@ -11,7 +11,7 @@ summary: 'Vous pouvez mettre à niveau l"appliance virtuelle Unified Manager'
 
 
 [role="lead"]
-Vous pouvez mettre à niveau l'appliance virtuelle Active IQ Unified Manager des versions 9.13 ou 9.14 vers la version 9.16.
+Vous pouvez mettre à niveau l'appliance virtuelle Active IQ Unified Manager des versions 9.14 ou 9.16 vers la version 9.18.
 
 .Avant de commencer
 Vérifiez les points suivants :

@@ -22,7 +22,7 @@ Vous pouvez mettre à jour les versions OpenJDK dans les familles de versions. P
 . Connectez-vous en tant qu'utilisateur administrateur sur la machine hôte Unified Manager.
 . Téléchargez la version appropriée d'OpenJDK (64 bits) du site OpenJDK vers le système cible.
 +
-Par exemple, télécharger `jdk-11.0.18_windows-x64_bin.zip from https://www.oracle.com/in/java/technologies/javase/jdk11-archive-downloads.html`.
+Par exemple, téléchargez le `jdk-17.0.15_windows-x64_bin.zip` fichier delink:https://www.oracle.com/java/technologies/javase/jdk17-0-13-later-archive-downloads.html["la page de téléchargement des archives Oracle Java SE 17"^] .
 
 +
 

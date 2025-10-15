@@ -1,0 +1,23 @@
+---
+permalink: config/task_regenerate_client_certificate.html 
+sidebar: sidebar 
+keywords: client certificate, regenerate, validity, maintenance console 
+summary: Vous pouvez utiliser la console de maintenance pour régénérer votre certificat client Unified Manager. 
+---
+= Régénérer le certificat client
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez utiliser la console de maintenance pour régénérer votre certificat client Unified Manager.  Votre certificat a une durée de validité prolongée de cinq ans.
+
+.Étapes
+. Connectez-vous en tant qu'utilisateur de maintenance.
+. Sélectionnez *Régénérer le certificat client* et appuyez sur *Entrée*.
+. Si le système vous demande une authentification, saisissez les informations d’identification requises.
+. Sélectionnez *Confirmer la régénération* et appuyez sur *Entrée*.
+. Une fois le certificat régénéré, redémarrez le service Unified Manager pour appliquer les modifications.
+. Pour vérifier le certificat mis à jour, connectez-vous à ONTAP.  Afficher l’état du certificat client et l’état de validité.
+
