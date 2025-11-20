@@ -22,8 +22,8 @@ Selon le système d'exploitation sur lequel Unified Manager est installé, la co
 .. Support/Diagnostics
 .. Réinitialiser le certificat du serveur
 .. Régénérer le certificat client
-.. Fournisseur de données externes
 .. Sauvegarde Restauration
+.. Fournisseur de données externes
 .. Configuration de l'intervalle d'interrogation des performances
 .. Désactivez l'authentification SAML
 .. Afficher/modifier les ports d'application
