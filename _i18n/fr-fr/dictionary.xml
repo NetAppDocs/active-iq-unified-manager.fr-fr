@@ -4159,7 +4159,6 @@
   <block id="a80f40a4cf172e4461c613d2afc0bade" category="cell">Configuration matérielle</block>
   <block id="2e8526cbe762cb1b8393d935a3b0bf16" category="cell">Paramètres recommandés</block>
   <block id="e53619c1fe611a51eeeb8d148ba6e532" category="paragraph">RAM</block>
-  <block id="1ae7a40629a0ba722477f8f6efb3adec" category="paragraph">12 Go (minimum requis : 8 Go)</block>
   <block id="5eef2922bee262fba019bc051ab7de8c" category="paragraph">Processeurs</block>
   <block id="fd7f01f6e4333c9d37efa65b264ff2a2" category="paragraph">4 processeurs</block>
   <block id="8a12c61ecf12a4ae8fd07c6eb8345828" category="paragraph">Capacité du cycle du processeur</block>
@@ -9378,8 +9377,6 @@
   <block id="9ebb8846f0675f7ddf78acdbafbcd5d8" category="paragraph">150 Go, où la capacité est allouée comme suit :</block>
   <block id="9a30e35d319f7a5e040049aab8ce3563" category="list-text">100 Go d'espace disque pour le répertoire d'installation</block>
   <block id="8717a81d4dc90139130ed5a3e6d56b94" category="list-text">50 Go d'espace disque pour le répertoire de données MySQL</block>
-  <block id="118be0e1a3c862556b2a6426bdcd24de" category="paragraph">De plus, le nombre de nœuds qu'une seule instance de Unified Manager peut contrôler avant d'installer une deuxième instance de Unified Manager est limité. Pour plus d'informations, consultez le _Guide des meilleures pratiques_.</block>
-  <block id="9650789293045a87cc14a47729b5ebfc" category="inline-link">Rapport technique 4621 : Guide des meilleures pratiques de Unified Manager</block>
   <block id="f4d5e78b085b0eab90a0158473fd3527" category="summary">Vous pouvez installer Unified Manager sans l'intervention de l'utilisateur à l'aide de l'interface de ligne de commandes. Vous pouvez effectuer l'installation sans assistance en transmettant les paramètres par paires de valeurs de clé.</block>
   <block id="1bdb2ecd542504154bcdfdb77f35dfb9" category="list-text">Connectez-vous à l'interface de ligne de commande Windows en utilisant le compte d'administrateur local par défaut.</block>
   <block id="5c6660f829598966933477d40408d080" category="list-text">Accédez à l'emplacement où vous souhaitez installer Unified Manager, puis choisissez l'une des options suivantes :</block>
@@ -11359,8 +11356,6 @@ Protégez les applications avec des LUN ; vous pouvez afficher et contrôler ces
   <block id="a5c178ca0adb1a0269f3bd998293dd38" category="paragraph">Consultez le<block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block> (TR-4569) pour des recommandations et résolutions détaillées.</block>
   <block id="672333e5623d0406e27edefd4a600c08" category="paragraph">Reportez-vous aux rubriques relatives aux catégories de conformité et<block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block> pour obtenir des informations détaillées.</block>
   <block id="20dbca6ffc2afb63243f7244b8d18e68" category="paragraph">Pour connaître les recommandations de sécurité, reportez-vous au<block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block></block>
-  <block id="ee26087a8b7ec790988603a3298c45f3" category="paragraph"><block ref="ee26087a8b7ec790988603a3298c45f3" category="inline-link-rx"></block></block>
-  <block id="b1ef1e646481ec8adc66cc5d2b2018ba" category="paragraph">De plus, le nombre de nœuds qu'une seule instance de Unified Manager peut contrôler avant d'installer une deuxième instance de Unified Manager est limité. Pour plus d'informations, voir <block ref="30a299cd9b89fb73ae0b956f3afc43ad" category="inline-link-macro-rx"></block>.</block>
   <block id="06c70b026e4d10bfcd7be2ebfa770d1c" category="paragraph"><block ref="06c70b026e4d10bfcd7be2ebfa770d1c" category="inline-link-rx"></block></block>
   <block id="796f4a9be8e525f7e4d64c24bac529c9" category="paragraph"><block ref="796f4a9be8e525f7e4d64c24bac529c9" category="inline-link-rx"></block></block>
   <block id="03d53e406aee01a758a051ceaf737e76" category="paragraph">La conformité est basée sur le<block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block>. Cliquez sur la flèche droite en haut du panneau pour afficher les détails de sécurité de tous les clusters sur la page sécurité. Pour plus d'informations, voir <block ref="c1debbda1f6c52f8ae88dec67250c58d" category="inline-link-macro-rx"></block>.</block>
@@ -12077,4 +12072,10 @@ Protégez les applications avec des LUN ; vous pouvez afficher et contrôler ces
   <block id="87d04c66d3151ccf32f27e7b5929e83f" category="sidebar">Documentation Active IQ Unified Manager 9.18</block>
   <block id="76851a5fa412a2e834b5c4b3b3fd04c5" category="inline-link-macro">page de connexion au compte Oracle</block>
   <block id="85f96417c9ffad8261e8a1065c0612b0" category="admonition">Un compte Oracle est requis pour télécharger le fichier. Si vous ne possédez pas de compte Oracle, rendez-vous sur <block ref="8a9d737434e1792055aa606e96405bae" category="inline-link-macro-rx"></block> en créer un.</block>
+  <block id="469228004487fcc667bf369582833cc1" category="paragraph">12 Go</block>
+  <block id="1ddb0349940e2d0ed836e2e7c09c0d8a" category="paragraph">De plus, il existe une limite au nombre de nœuds qu'une seule instance d'Unified Manager peut surveiller avant d'installer une deuxième instance d'Unified Manager. Pour connaître les limites des nœuds, les recommandations concernant le processeur et la mémoire, consultez la documentation.<block ref="45d0c11c521f01e1d7ecf7777aba0774" category="inline-link-rx"></block>.</block>
+  <block id="7cf49a8cab90d5b1dc8bb6168b8e25f4" category="inline-link-macro">Guide des meilleures pratiques pour Unified Manager</block>
+  <block id="8cf21208b286d8f7b61877ce31cfeacd" category="paragraph">De plus, il existe une limite au nombre de nœuds qu'une seule instance d'Unified Manager peut surveiller avant d'installer une deuxième instance d'Unified Manager. Pour connaître les limites de nœuds, les recommandations concernant le processeur et la mémoire, consultez <block ref="2eee8552956d66b159af233732000339" category="inline-link-macro-rx"></block>.</block>
+  <block id="72473e7783768c475b1bae8307882647" category="paragraph">De plus, il existe une limite au nombre de nœuds qu'une seule instance d'Unified Manager peut surveiller avant d'installer une deuxième instance d'Unified Manager. Pour connaître les limites de nœuds, les recommandations concernant le processeur et la mémoire, consultez<block ref="8175e2f559de1060f0bed41c5845504d" category="inline-link-rx"></block>.</block>
+  <block id="89b5277f8d4fd00ec520a15062f36ee4" category="list-text">Veuillez noter que si vous ajoutez une machine virtuelle de stockage (SVM) ou un cluster aux ressources d'une alerte, les objets enfants ne sont pas ajoutés automatiquement. Par exemple, si vous ajoutez un cluster aux ressources d'une alerte, l'alerte n'ajoute pas automatiquement les nœuds ou les LUN.</block>
 </blocks>
