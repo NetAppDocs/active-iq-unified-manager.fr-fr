@@ -27,11 +27,11 @@ Vous pouvez arrêter et désinstaller Unified Manager à partir de l'hôte Red H
 `rpm -e netapp-um`
 
 +
-Cette étape supprime tous les packages RPM NetApp associés. Il ne supprime pas les modules logiciels prérequis, tels que Java, MySQL et p7zip.
+Cette étape supprime tous les packages NetApp RPM associés. Il ne supprime pas les modules logiciels prérequis, tels que Java, MySQL et 7zip.
 
-. *Facultatif :* si nécessaire, supprimez les modules logiciels compatibles, tels que Java, MySQL et p7zip :
+. *Facultatif :* si nécessaire, supprimez les modules logiciels de support, tels que Java, MySQL et 7zip :
 +
-`rpm -e p7zip mysql-community-client mysql-community-server mysql-community-common mysql-community-libs java-x.y`
+`rpm -e mysql-community-client mysql-community-server mysql-community-common mysql-community-libs java-x.y`
 
 
 

@@ -46,19 +46,19 @@ Version OpenJDK 17.0.14+6
 
 
  a| 
-MySQL 8.4.4 Community Edition
+MySQL 8.4.7 Édition communautaire
  a| 
 `rpm -qa | grep -i mysql`
 
 
 
  a| 
-p7zip 16.02
+7-zip
  a| 
-`rpm -qa | grep p7zip`
+`7zz -version`
 
 |===
-. Si la version installée de MySQL est antérieure à MySQL 8.4.4 Community Edition, entrez la commande suivante pour la désinstaller :
+. Si la version installée de MySQL est antérieure à MySQL 8.4.7 Community Edition, entrez la commande suivante pour la désinstaller :
 +
 `rpm -e <mysql_package_name>`
 
@@ -87,7 +87,7 @@ Le requis `.rpm` Les modules pour Unified Manager sont décompressés dans le r�
 Le script de pré-installation vérifie que le système dispose d'un abonnement Red Hat Enterprise Linux valide et qu'il a accès aux référentiels logiciels requis. Si le script identifie des problèmes, vous devez les résoudre avant d'installer Unified Manager.
 
 +
-Pour un système Red Hat Enterprise Linux 8, si vous disposez de référentiels internes avec JDK 17 - OpenJDK, p7zip et d'autres packages logiciels fournis par le référentiel AppStream, vous devez désactiver votre référentiel AppStream et installer MySQL Community Server. Exécutez la commande suivante :
+Pour un système Red Hat Enterprise Linux 8, si vous avez des dépôts internes avec JDK 17 - OpenJDK, 7-zip et d'autres packages logiciels fournis par le dépôt AppStream, vous devez désactiver votre dépôt AppStream et installer MySQL Community Server. Exécutez la commande suivante :
 
 +
 [listing]

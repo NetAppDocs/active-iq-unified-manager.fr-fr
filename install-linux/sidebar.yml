@@ -28,13 +28,15 @@ entries:
   entries:
   - title: Présentation du processus d'installation
     url: "/install-linux/concept_overview_of_installation_process_on_red_hat.html"
-  - title: Configurer les référentiels de logiciels requis
+  - title: Configurer le logiciel requis
     url: "/install-linux/concept_set_up_required_software_repositories_um.html"
     entries:
     - title: Configurer manuellement le référentiel EPEL
       url: "/install-linux/task_manually_configure_epel_repository.html"
     - title: Configurer manuellement le référentiel MySQL
       url: "/install-linux/task_manually_configure_mysql_repository.html"
+    - title: Configurer le logiciel 7-Zip
+      url: "/install-linux/task_configure_7zip_package.html"
   - title: Configuration SELinux requise sur le partage NFS ou CIFS
     url: "/install-linux/task_selinux_requirements_for_mounting_opt_netapp.html"
   - title: Installez Unified Manager sur les systèmes Linux
