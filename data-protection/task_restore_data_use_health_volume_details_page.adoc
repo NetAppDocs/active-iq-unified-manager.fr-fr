@@ -19,7 +19,19 @@ Vous devez avoir le rôle Administrateur d'applications ou Administrateur de sto
 
 NOTE: Notez les points suivants :
 
-* Vous ne pouvez pas restaurer les flux de fichiers NTFS.
+* Vous ne pouvez pas restaurer un répertoire ou un volume à partir d'un instantané dans l'un des scénarios suivants :
++
+** L’option *Oui, conserver toutes les copies d’instantané* est sélectionnée.
+** Vous utilisez un compte LDAP pour surveiller le cluster.
+** Vous êtes connecté en tant qu'utilisateur du domaine.
+** Votre compte est configuré pour l'authentification SAML.
+** Vous utilisez le protocole NDMP.
++
+Pour plus de détails, consultez l'article de la base de connaissances https://kb.netapp.com/on-prem/ontap/DP/NDMP/NDMP-KBs/How_to_configure_NDMP_authentication_in_the_SVM-scope_previously_known_as_Vserver-scope_mode["Comment configurer l'authentification NDMP en mode 'SVM-scope'"^].
+
+
+
+* Il est impossible de restaurer les flux de fichiers NTFS.
 * L'option de restauration n'est pas disponible lorsque :
 +
 ** L'ID du volume est inconnu : par exemple, lorsque vous disposez d'une relation intercluster et que le cluster destination n'a pas encore été découvert.
