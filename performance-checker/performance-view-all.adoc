@@ -91,7 +91,7 @@ Voici quelques champs importants dans la vue Performance : tous les agrégats.
 ** HDD (FabricPool). Combinaison de disques durs et d'un Tier cloud
 ** VMDisk (SDS). Disques virtuels au sein d'une machine virtuelle
 ** Disque VMware (FabricPool). Combinaison de disques virtuels et d'un niveau cloud
-** LUN (FlexArray)
+** LUN
 
 
 * Reporting des données inactives : si la fonctionnalité de reporting des données inactives est activée ou désactivée sur cet agrégat. Lorsque cette option est activée, les volumes de cet agrégat affichent la quantité de données inactives dans la vue Performance : tous les volumes. La valeur de ce champ est « N/A » lorsque la version de ONTAP ne prend pas en charge le reporting de données inactives.
