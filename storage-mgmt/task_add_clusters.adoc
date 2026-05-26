@@ -24,7 +24,7 @@ Lorsque vous utilisez le nom d'hôte, il doit résoudre l'adresse IP de gestion 
 
 ** Vous devez disposer du nom d'utilisateur et du mot de passe pour accéder au cluster.
 +
-Ce compte doit avoir le rôle _admin_ avec accès à l'application défini sur _ontapi_, _console_ et _http_.
+Ce compte doit avoir le rôle _admin_ avec un accès à l'application défini sur _ontapi_, _amqp_, _console_ et _http_.
 
 ** Vous devez connaître le numéro de port à connecter au cluster à l'aide du protocole HTTPS (généralement le port 443).
 ** Le cluster doit exécuter le logiciel ONTAP version 9.9 ou supérieure.

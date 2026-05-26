@@ -21,7 +21,7 @@ Le système d'exploitation pris en charge est VMware ESXi 8.0.
 
 [NOTE]
 ====
-Unified Manager OVA sur les systèmes VMware vSphere exécute Debian OS 12 (bookworm) en interne. Pour plus d'informations sur les versions du matériel de la machine virtuelle prises en charge par les versions des serveurs VMware ESXi, reportez-vous à la documentation VMware.
+L'OVA Unified Manager sur les systèmes VMware vSphere exécute Debian OS 13 (Trixie) en interne. Pour des informations sur les versions du matériel de la machine virtuelle que les versions prises en charge des serveurs ESXi peuvent supporter, consultez la documentation VMware.
 
 ====
 Les versions suivantes de vSphere sont prises en charge :

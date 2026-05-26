@@ -463,7 +463,6 @@
   <block id="2cd66e4cb1059caf02b4b6194a8ee5dd" category="paragraph">L'adresse IP de gestion du cluster doit être la LIF de gestion du cluster du serveur virtuel de stockage administratif (SVM). Si vous utilisez une LIF node-management, l'opération échoue.</block>
   <block id="81bd0e8291ca755124cc9a7da825fd2f" category="list-text">Le cluster doit exécuter la version 9.1 du logiciel ONTAP ou une version ultérieure.</block>
   <block id="ef449751178f433197590c3c5074c337" category="list-text">Nom d'utilisateur et mot de passe de l'administrateur ONTAP</block>
-  <block id="6bb4bacb8a95b59b89d6baf47ca57e37" category="paragraph">Ce compte doit avoir le rôle _admin_ avec accès à l'application défini sur _ontapi_, _console_ et _http_.</block>
   <block id="a76dce9421f54828d6c4fec13fc1a2e1" category="list-text">Le numéro de port à connecter au cluster via le protocole HTTPS (en général le port 443)</block>
   <block id="0f6a90196aeb078d6e39cee51dd32bde" category="inline-link-macro">Génération d'un certificat de sécurité HTTPS</block>
   <block id="311a59e5248a2e51a6267bb49a15ab0e" category="paragraph">*Certificats de communication mutuelle TLS* : utilisés pendant la communication mutuelle TLS entre Unified Manager et ONTAP. L'authentification basée sur le certificat est activée pour un cluster, sur la version ONTAP utilisée. Si le cluster exécutant la version ONTAP est inférieur au 9.5, l'authentification basée sur certificat n'est pas activée.</block>
@@ -11441,7 +11440,6 @@ Protégez les applications avec des LUN ; vous pouvez afficher et contrôler ces
   <block id="7364abf9a3cfe2b121a7cea83050498f" category="paragraph"><block ref="e4721391d8c98496e77286760a370cbd" prefix="" category="inline-code"></block></block>
   <block id="a241a6b1d78a908e027ae227ba4afac8" category="paragraph"><block ref="ab96ce67a2bc362f79a7dc9a5d898d60" prefix="" category="inline-code"></block></block>
   <block id="ae96596167d0d8d8e2ef4039fbef6053" category="paragraph"><block ref="2cc661b5745d2b0218deba4ff43b2854" prefix="" category="inline-code"></block></block>
-  <block id="8cfa73f7b5a63cd662382021f2aaef95" category="paragraph">Unified Manager OVA sur les systèmes VMware vSphere exécute Debian OS 12 (bookworm) en interne. Pour plus d'informations sur les versions du matériel de la machine virtuelle prises en charge par les versions des serveurs VMware ESXi, reportez-vous à la documentation VMware.</block>
   <block id="0d36f8c0424fdbfdd6f9a12cbba4ee8d" category="summary">Dépannage : suivez ces étapes pour résoudre le problème de rotation des journaux</block>
   <block id="a8bfd2afda4e15a2a1e73c27bdc332e8" category="doc">Problème de rotation des journaux du SDK NetApp Manageability sur les systèmes Windows</block>
   <block id="5aeab31ef19d5a368133d1cbd8bd66be" category="paragraph">Après avoir ajouté un cluster basé sur l'API ONTAPI à Unified Manager sur un système d'exploitation Windows, le <block ref="dbc60675af8648f05c2a3d903b31f558" prefix=" " category="inline-code"></block> la taille du fichier augmente et dépasse la limite de 10 Mo.</block>
@@ -12112,4 +12110,6 @@ Protégez les applications avec des LUN ; vous pouvez afficher et contrôler ces
   <block id="af050e52c447cd52b4b2f1ffdc032f19" category="inline-link">Téléchargement WFA</block>
   <block id="94d13f29f9fba88b1b0d477b50fbcb23" category="paragraph">Le « pack WFA pour la gestion de Clustered Data ONTAP » est inclus dans WFA 5.1.1P6, il n’est donc plus nécessaire de télécharger ce pack depuis le NetAppStorage Automation Store et de l’installer séparément sur votre serveur WFA comme c’était le cas auparavant.<block ref="205df40c4c09810da80912824982d64d" category="inline-link-rx"></block></block>
   <block id="b51ca7d8abeeddcb10f579ebf26d482d" category="paragraph"><block ref="b51ca7d8abeeddcb10f579ebf26d482d" category="inline-link-rx"></block></block>
+  <block id="59c721a4f6c44ca8cb60ecf288219ca8" category="paragraph">Ce compte doit avoir le rôle _admin_ avec un accès à l'application défini sur _ontapi_, _amqp_, _console_ et _http_.</block>
+  <block id="42448273f40a0cdbd38a68c84477f81c" category="paragraph">L'OVA Unified Manager sur les systèmes VMware vSphere exécute Debian OS 13 (Trixie) en interne. Pour des informations sur les versions du matériel de la machine virtuelle que les versions prises en charge des serveurs ESXi peuvent supporter, consultez la documentation VMware.</block>
 </blocks>
