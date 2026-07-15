@@ -56,6 +56,7 @@ Vous pouvez également choisir de notifier les utilisateurs via les interruption
 
 
 
+[[example-of-adding-an-alert]]
 == Exemple d'ajout d'une alerte
 
 Dans cet exemple, vous apprendrez à créer une alerte conforme aux exigences suivantes :

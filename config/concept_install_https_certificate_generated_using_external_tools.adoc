@@ -22,6 +22,7 @@ Vous devez charger la clé privée avec la chaîne de certificats car ces certif
 
 
 
+[[format-for-loading-a-certificate-with-an-ec-key-pair]]
 == Format de chargement d'un certificat avec une paire de clés EC
 
 Les courbes autorisées sont « prime256v1 » et « sept-4r1 ». Exemple de certificat avec une paire EC générée en externe :
@@ -49,6 +50,7 @@ Les courbes autorisées sont « prime256v1 » et « sept-4r1 ». Exemple de cert
 ----
 
 
+[[format-for-loading-a-certificate-with-an-rsa-key-pair]]
 == Format de chargement d'un certificat avec une paire de clés RSA
 
 Les tailles de clé autorisées pour la paire de clés RSA appartenant au certificat hôte sont 2048, 3072 et 4096. Certificat avec une paire de clés *RSA générée en externe* :
@@ -75,6 +77,7 @@ Une fois le certificat téléchargé, vous devez redémarrer l'instance Active I
 
 
 
+[[checks-while-uploading-externally-generated-certificates]]
 == Vérifie lors du téléchargement de certificats générés en externe
 
 Le système effectue des vérifications pendant le chargement d'un certificat généré à l'aide d'outils externes. Si l'une des vérifications échoue, le certificat est rejeté. Il existe également une validation pour les certificats générés à partir de la RSC dans le produit et pour les certificats générés à l'aide d'outils externes.

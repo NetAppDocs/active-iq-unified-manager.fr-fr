@@ -17,6 +17,7 @@ Vous ne pouvez accéder à cette page que si vous avez le rôle Administrateur d
 
 
 
+[[command-buttons]]
 == Boutons de commande
 
 Les boutons de commande permettent d'effectuer les tâches suivantes pour les événements sélectionnés :
@@ -41,6 +42,7 @@ Lance la boîte de dialogue s'abonner aux événements EMS, qui vous permet de v
 
 
 
+[[list-view]]
 == Vue liste
 
 La vue liste affiche (sous forme de tableau) des informations sur les événements désactivés. Vous pouvez utiliser les filtres de colonne pour personnaliser les données affichées.

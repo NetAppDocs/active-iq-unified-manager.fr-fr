@@ -15,6 +15,7 @@ Les événements des services de stockage vous fournissent des informations sur 
 
 
 
+[[impact-area-configuration]]
 == Zone d'impact : configuration
 
 |===
@@ -55,6 +56,7 @@ Informations
 |===
 
 
+[[impact-area-protection]]
 == Zone d'impact : protection
 
 |===

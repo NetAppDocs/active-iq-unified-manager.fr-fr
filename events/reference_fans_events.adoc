@@ -15,6 +15,7 @@ Les événements ventilateurs fournissent des informations sur l'état des venti
 
 
 
+[[impact-area-availability]]
 == Domaine d'impact : disponibilité
 
 |===

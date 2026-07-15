@@ -42,6 +42,7 @@ Les paramètres d'IOPS des charges de travail sont générés de façon dynamiqu
 
 
 
+[[manage-workloads-by-assigning-psls]]
 == Gérer les charges de travail en attribuant des PSL
 
 Vous pouvez accéder aux PSLs à partir de la page *Policies* > *Performance Service Levels* et à l'aide des API du fournisseur de stockage. Il est très pratique de gérer les charges de travail de stockage en leur affectant des PSLs, car il n'est pas nécessaire de gérer individuellement les charges de travail de stockage. Toutes les modifications peuvent également être gérées en réaffectant un autre PSL plutôt que de les gérer individuellement. Unified Manager vous aide à attribuer des SLP à vos charges de travail en fonction de l'évaluation interne et des recommandations.
@@ -136,6 +137,7 @@ Pour plus d'informations sur la manière dont les pics d'IOPS et les IOPS attend
 
 
 
+[[events-generated-for-workloads-breaching-the-threshold-defined-by-psls]]
 === Les événements générés pour les charges de travail enfreindre le seuil défini par les SLS
 
 Si des charges de travail dépassent la valeur de latence prévue pour 30 % de la durée de l'heure précédente, Unified Manager génère l'un des événements suivants pour vous informer d'un problème de performance potentiel :
@@ -156,6 +158,7 @@ Pour plus d'informations, consultez les liens suivants :
 
 
 
+[[system-defined-psls]]
 === SLS définies par le système
 
 Le tableau suivant fournit des informations sur les SLS définies par le système :

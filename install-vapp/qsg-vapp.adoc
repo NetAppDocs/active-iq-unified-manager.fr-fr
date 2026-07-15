@@ -15,6 +15,7 @@ Vous pouvez télécharger le `.tar` fichier contenant un certificat racine, a `R
 
 
 
+[[system-requirements]]
 == Configuration minimale requise
 
 * Système d'exploitation : VMware ESXi 8.0
@@ -27,10 +28,12 @@ Pour plus de détails sur la configuration requise, reportez-vous à la section 
 
 
 
+[[install-active-iq-unified-manager]]
 == Installez Active IQ Unified Manager
 
 
 
+[[download-the-installer]]
 === Téléchargez le programme d'installation
 
 . Téléchargez le `.tar` fichier contenant un certificat racine, a `README` fichier et un `OVA` fichier.
@@ -40,12 +43,14 @@ Pour plus de détails sur la configuration requise, reportez-vous à la section 
 
 
 
+[[verify-integrity]]
 === Vérification de l'intégrité
 
 Vous pouvez vérifier l'intégrité du `OVA` classez-les en suivant les étapes indiquées dans le `README` fichier.
 
 
 
+[[install-unified-manager]]
 === Installez Unified Manager
 
 . Dans vSphere client, cliquez sur *fichier > déployer le modèle OVF*.

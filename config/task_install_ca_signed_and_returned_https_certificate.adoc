@@ -41,6 +41,7 @@ Pour plus d'informations, reportez-vous à la section link:concept_install_https
 
 
 
+[[example-certificate-chain]]
 == Exemple de chaîne de certificat
 
 L'exemple suivant montre comment le fichier de chaîne de certificats peut s'afficher :

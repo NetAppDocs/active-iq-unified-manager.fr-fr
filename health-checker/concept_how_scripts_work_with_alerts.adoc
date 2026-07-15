@@ -36,6 +36,7 @@ Vous pouvez utiliser les arguments de vos scripts et recueillir des informations
 
 
 
+[[example-for-obtaining-arguments-from-scripts]]
 == Exemple pour obtenir des arguments à partir de scripts
 
 [listing]

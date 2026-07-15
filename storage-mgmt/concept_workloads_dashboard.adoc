@@ -28,6 +28,7 @@ La page workloads contient les deux sections suivantes :
 
 
 
+[[workloads-overview-section]]
 == Les charges de travail
 
 La section vue d'ensemble des charges de travail fournit des informations cumulées d'un coup d'œil sur les charges de travail de stockage. L'état des charges de travail de stockage s'affiche en fonction des niveaux de service de performances affectés et non attribués.
@@ -54,6 +55,7 @@ La sous-section Conformance by Performance Service Levels affiche le nombre tota
 
 
 
+[[data-center-overview-section]]
 == Présentation du data Center
 
 La section présentation du data Center représente sous forme graphique la capacité disponible et utilisée et les IOPS de tous les clusters du data Center. Ces données vous permettront de gérer la capacité et les IOPS des charges de travail de stockage. Cette section affiche également les informations suivantes pour les charges de travail de stockage sur tous les clusters :

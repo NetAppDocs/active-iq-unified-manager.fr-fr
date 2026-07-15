@@ -15,6 +15,7 @@ Vous pouvez utiliser la boîte de dialogue Créer un pool de ressources pour nom
 
 
 
+[[resource-pool-name]]
 == Nom du pool de ressources
 
 Les zones de texte permettent d'ajouter les informations suivantes pour créer un pool de ressources :
@@ -23,18 +24,21 @@ Permet de spécifier un nom de pool de ressources.
 
 
 
+[[description]]
 == Description
 
 Vous permet de décrire un pool de ressources.
 
 
 
+[[members]]
 == Membres
 
 Affiche les membres du pool de ressources. Vous pouvez également ajouter et supprimer des membres.
 
 
 
+[[command-buttons]]
 == Boutons de commande
 
 Les boutons de commande permettent d'effectuer les tâches suivantes :

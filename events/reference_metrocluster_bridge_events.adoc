@@ -15,6 +15,7 @@ Les événements Bridge MetroCluster fournissent des informations sur l'état de
 
 
 
+[[impact-area-availability]]
 == Domaine d'impact : disponibilité
 
 |===

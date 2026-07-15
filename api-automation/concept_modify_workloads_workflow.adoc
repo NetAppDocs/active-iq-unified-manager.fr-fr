@@ -22,6 +22,7 @@ Le flux de travail suppose que le partage de fichiers ou de LUN a été provisio
 ====
 
 
+[[modify-file-shares]]
 == Modifier les partages de fichiers
 
 Lors de la modification d'un partage de fichiers, vous pouvez mettre à jour les paramètres suivants :
@@ -191,6 +192,7 @@ Affichez les détails du partage de fichiers dans la sortie.
 
 
 
+[[update-luns]]
 == Mettre à jour les LUN
 
 Lors de la mise à jour d'une LUN, vous pouvez modifier les paramètres suivants :

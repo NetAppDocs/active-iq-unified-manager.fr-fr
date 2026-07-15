@@ -15,6 +15,7 @@ Les événements du tiroir de stockage vous indiquent si votre tiroir de stockag
 
 
 
+[[impact-area-availability]]
 == Domaine d'impact : disponibilité
 
 |===

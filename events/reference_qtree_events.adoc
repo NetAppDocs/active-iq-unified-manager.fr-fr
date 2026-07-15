@@ -15,6 +15,7 @@ Les événements qtree fournissent des informations sur la capacité qtree, sur 
 
 
 
+[[impact-area-capacity]]
 == Zone d'impact : capacité
 
 |===

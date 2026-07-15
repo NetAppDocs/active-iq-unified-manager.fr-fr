@@ -17,6 +17,7 @@ Un astérisque (*) identifie les événements EMS qui ont été convertis en év
 
 
 
+[[impact-area-availability]]
 == Domaine d'impact : disponibilité
 
 |===
@@ -255,6 +256,7 @@ Erreur
 |===
 
 
+[[impact-area-configuration]]
 == Zone d'impact : configuration
 
 |===
@@ -295,6 +297,7 @@ Informations
 |===
 
 
+[[impact-area-performance]]
 == Zone d'impact : performances
 
 |===
@@ -368,6 +371,7 @@ Avertissement
 |===
 
 
+[[impact-area-security]]
 == Zone d'impact : sécurité
 
 |===

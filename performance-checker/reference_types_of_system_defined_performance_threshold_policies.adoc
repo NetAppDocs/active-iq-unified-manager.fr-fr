@@ -22,6 +22,7 @@ Si vous recevez des événements inutiles provenant de règles de seuils de perf
 
 
 
+[[cluster-threshold-policies]]
 == Règles de seuil du cluster
 
 Les règles de seuil des performances du cluster définies par le système sont attribuées, par défaut, à chaque cluster contrôlé par Unified Manager :
@@ -44,6 +45,7 @@ Pour ce faire, elle compare la valeur de capacité utilisée de tous les agréga
 
 
 
+[[node-threshold-policies]]
 == Règles de seuil des nœuds
 
 Les règles de seuil de performance des nœuds définies par le système sont attribuées par défaut à chaque nœud des clusters contrôlé par Unified Manager :
@@ -79,6 +81,7 @@ La règle de « fragmentation des disques des nœuds » analyse les agrégats un
 
 
 
+[[aggregate-threshold-policies]]
 == Règles de seuil agrégées
 
 La règle de seuil de performance des agrégats définis par le système est attribuée par défaut à chaque agrégat des clusters contrôlé par Unified Manager :
@@ -105,6 +108,7 @@ La politique « d'agrégation de disques sur-utilisés » analyse les agrégats 
 ====
 
 
+[[workload-latency-threshold-policies]]
 == Règles de seuil de latence des workloads
 
 Les règles de seuil de latence de la charge de travail définies par le système sont attribuées à toute charge de travail dont la règle de niveau de service de performance est configurée et dont la valeur de « latence attendue » est définie :
@@ -120,6 +124,7 @@ Pour ce faire, il recherche des charges de travail qui ont dépassé la valeur d
 
 
 
+[[qos-threshold-policies]]
 == Règles de seuil de QoS
 
 Les règles de seuil de performances de QoS définies par le système sont attribuées à toute charge de travail dont la règle de débit maximal est la QoS ONTAP configurée (IOPS, IOPS/To ou Mo/s). Unified Manager déclenche un événement lorsque la valeur du débit des workloads est inférieure de 15 % à la valeur de la QoS configurée :

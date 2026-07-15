@@ -15,6 +15,7 @@ Le volet événements de performance du cluster affiche les statistiques de perf
 
 
 
+[[all-events-on-this-cluster-pane]]
 == Tous les événements de ce volet Cluster
 
 Le volet tous les événements de ce cluster affiche tous les événements de performance du cluster actifs pendant les 72 heures précédentes. Le total des événements actifs s'affiche à l'extrême gauche ; ce nombre représente le total de tous les événements nouveaux et acquittés pour tous les objets de stockage de ce cluster. Vous pouvez cliquer sur le lien Total des événements actifs pour accéder à la page Inventaire des événements, qui est filtrée pour afficher ces événements.
@@ -37,6 +38,7 @@ Vous pouvez afficher ou masquer les événements critiques et d'avertissement da
 
 
 
+[[counter-panels]]
 == Panneaux de comptoir
 
 Les panneaux de compteur affichent les événements d'activité et de performances du cluster pour les 72 heures précédentes et comprennent les compteurs suivants :

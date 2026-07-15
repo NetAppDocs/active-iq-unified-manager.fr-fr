@@ -17,6 +17,7 @@ Vous devez avoir le rôle Administrateur d'applications ou Administrateur de sto
 
 
 
+[[event-properties-area]]
 == Zone Propriétés de l'événement
 
 La zone Propriétés de l'événement spécifie les propriétés d'événement suivantes :
@@ -44,6 +45,7 @@ La gravité de l'événement s'affiche également avec le nom de l'événement.
 
 
 
+[[command-buttons]]
 == Boutons de commande
 
 Les boutons de commande permettent d'effectuer les tâches suivantes pour les événements sélectionnés :

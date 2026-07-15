@@ -25,6 +25,7 @@ Notez les points suivants :
 ====
 
 
+[[view-storage-efficiency-policies]]
 == Consultez les règles d'efficacité du stockage
 
 Utilisez la méthode suivante pour afficher les règles d'efficacité du stockage avant de les attribuer aux charges de travail de stockage. Cette API répertorie l'ensemble des règles d'efficacité du stockage définies par le système et créées par l'utilisateur, et récupère les attributs de toutes les politiques d'efficacité du stockage. Si vous souhaitez interroger une règle Storage Efficiency spécifique, vous devez entrer l'ID unique de la règle pour en récupérer les détails.
@@ -46,6 +47,7 @@ OBTENEZ
 |===
 
 
+[[add-storage-efficiency-policies]]
 == Ajoutez des règles relatives à l'efficacité du stockage
 
 Vous pouvez utiliser la méthode suivante pour créer des règles personnalisées d'efficacité du stockage et les attribuer à vos charges de travail de stockage si les règles définies par le système ne répondent pas aux besoins de provisionnement de vos charges de travail de stockage. Entrez les détails de la règle d'efficacité du stockage que vous souhaitez créer, en tant que paramètres d'entrée.
@@ -65,6 +67,7 @@ POST
 |===
 
 
+[[delete-storage-efficiency-policies]]
 == Supprimez les règles d'efficacité du stockage
 
 Vous pouvez utiliser la méthode suivante pour supprimer une stratégie d'efficacité du stockage spécifique. Vous ne pouvez pas supprimer une stratégie d'efficacité du stockage s'il est affecté à une charge de travail ou s'il s'agit de la seule stratégie d'efficacité du stockage disponible. Vous devez fournir l'ID unique de la règle d'efficacité du stockage sous forme de paramètre d'entrée pour supprimer une règle d'efficacité du stockage en particulier.
@@ -84,6 +87,7 @@ SUPPRIMER
 |===
 
 
+[[modify-storage-efficiency-policies]]
 == Modification des stratégies d'efficacité du stockage
 
 Vous pouvez utiliser la méthode suivante pour modifier une stratégie d'efficacité du stockage et mettre à jour ses propriétés. Vous ne pouvez pas modifier une règle d'efficacité du stockage définie par le système ou affectée à une charge de travail. Vous devez fournir l'ID unique de la politique d'efficacité du stockage pour modifier une politique d'efficacité de stockage en particulier. En outre, vous devez fournir la propriété que vous voulez mettre à jour, ainsi que sa valeur.

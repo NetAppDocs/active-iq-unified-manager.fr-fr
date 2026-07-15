@@ -26,6 +26,7 @@ Vous pouvez associer des SVM de trois manières :
 
 
 
+[[create-storage-vm-associations]]
 == Créer des associations de machines virtuelles de stockage
 
 L'assistant Create Storage Virtual machine associations permet aux applications de protection partenaires d'associer une machine virtuelle de stockage source à une machine virtuelle de stockage de destination pour les relations SnapMirror et SnapVault. Les applications partenaires utilisent ces associations au moment du provisionnement initial des volumes de destination pour déterminer les ressources à sélectionner.DD
@@ -74,6 +75,7 @@ Sélectionnez cette option lorsque vous souhaitez créer une association entre u
 
 
 
+[[delete-storage-vm-associations]]
 == Supprimez les associations de VM de stockage
 
 Vous pouvez supprimer les associations de machines virtuelles de stockage des applications partenaires afin de supprimer la relation de provisionnement secondaire entre la machine virtuelle de stockage source et celle de destination. Par exemple, lorsque la machine virtuelle de stockage de destination est saturée, vous souhaitez créer de nouvelles associations de protection des machines virtuelles de stockage.

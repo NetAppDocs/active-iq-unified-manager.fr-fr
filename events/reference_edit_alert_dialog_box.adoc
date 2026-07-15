@@ -15,6 +15,7 @@ Vous pouvez modifier les propriétés des alertes, telles que la ressource avec 
 
 
 
+[[name]]
 == Nom
 
 Cette zone vous permet de modifier le nom et la description de l'alerte.
@@ -35,6 +36,7 @@ Vous permet d'activer ou de désactiver l'alerte.
 
 
 
+[[resources]]
 == Ressources
 
 Cette zone vous permet de sélectionner une ressource individuelle ou de regrouper les ressources en fonction d'une règle dynamique pour laquelle vous souhaitez déclencher l'alerte. Vous pouvez rechercher des ressources en sélectionnant un type de ressource dans la liste déroulante ou vous pouvez spécifier le nom exact de la ressource pour afficher une ressource spécifique.
@@ -57,6 +59,7 @@ L'onglet exclure s'affiche uniquement lorsque vous sélectionnez toutes les ress
 
 
 
+[[events]]
 == Événements
 
 Cette zone vous permet de sélectionner les événements pour lesquels vous souhaitez déclencher les alertes. Vous pouvez déclencher une alerte pour des événements basés sur une gravité spécifique ou pour un ensemble d'événements.
@@ -73,6 +76,7 @@ Permet de sélectionner des événements dont le nom contient les caractères sp
 
 
 
+[[actions]]
 == Actions
 
 Cette zone vous permet de spécifier la méthode de notification et la fréquence de notification.
@@ -106,6 +110,7 @@ Vous permet d'associer un script à l'alerte. Ce script est exécuté lorsqu'une
 
 
 
+[[command-buttons]]
 == Boutons de commande
 
 * *Enregistrer*

@@ -15,6 +15,7 @@ La boîte de dialogue Select source Snapshot Copy permet de sélectionner une co
 
 
 
+[[default]]
 == Valeur par défaut
 
 Vous permet de sélectionner le comportement par défaut pour déterminer la copie Snapshot utilisée pour initialiser, mettre à jour et resynchroniser les transferts pour les relations SnapVault et SnapMirror.
@@ -87,6 +88,7 @@ Transfère toutes les copies Snapshot du volume secondaire vers le volume tertia
 |===
 
 
+[[existing-snapshot-copy]]
 == Copie Snapshot existante
 
 Vous permet de sélectionner une copie Snapshot existante dans la liste si la sélection de copie Snapshot est autorisée pour cette opération.
@@ -169,6 +171,7 @@ La sélection de copie Snapshot source n'est pas prise en charge pour les volume
 |===
 
 
+[[command-buttons]]
 == Boutons de commande
 
 Les boutons de commande permettent d'effectuer les tâches suivantes :

@@ -15,6 +15,7 @@ Les événements d'état de déplacement de volume vous indiquent l'état de dé
 
 
 
+[[impact-area-capacity]]
 == Zone d'impact : capacité
 
 |===

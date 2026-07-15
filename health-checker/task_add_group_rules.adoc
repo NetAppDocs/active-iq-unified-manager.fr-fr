@@ -57,6 +57,7 @@ Un groupe de conditions
 
 
 
+[[example-for-creating-a-group-rule]]
 == Exemple de création d'une règle de groupe
 
 Procédez comme suit dans la boîte de dialogue Ajouter une règle de groupe pour créer une règle de groupe, y compris la configuration d'une condition et l'ajout d'un groupe de conditions :

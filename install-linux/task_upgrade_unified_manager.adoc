@@ -90,6 +90,7 @@ Entrez l'adresse IP ou l'URL spécifiée dans une nouvelle fenêtre d'un navigat
 
 
 
+[[additional-steps-to-perform-for-missing-packages]]
 == Étapes supplémentaires à effectuer pour les packages manquants
 
 Si des packages manquants sont détectés sur votre site lors de la mise à niveau ou si votre système n'est pas connecté à Internet ou si vous n'utilisez pas les référentiels Red Hat Enterprise Linux, procédez comme suit pour déterminer si vous ne disposez pas des packages requis et les télécharger.

@@ -39,6 +39,7 @@ Affiche les noms des dossiers disponibles pour le volume sélectionné. Si vous 
 
 
 
+[[command-buttons]]
 == Boutons de commande
 
 Les boutons de commande permettent d'effectuer les tâches suivantes :

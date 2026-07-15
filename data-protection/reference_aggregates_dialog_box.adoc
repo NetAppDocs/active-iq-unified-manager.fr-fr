@@ -15,6 +15,7 @@ Vous pouvez utiliser la boîte de dialogue Aggregates pour sélectionner les agr
 
 
 
+[[command-buttons]]
 == Boutons de commande
 
 Les boutons de commande permettent d'effectuer les tâches suivantes :
@@ -31,6 +32,7 @@ Supprime les modifications et ferme la boîte de dialogue agrégats.
 
 
 
+[[aggregates-list]]
 == Liste d'agrégats
 
 La liste Aggregates affiche (au format tabulaire) les noms et propriétés des agrégats surveillés.

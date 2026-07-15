@@ -17,6 +17,7 @@ Les informations de cette page sont automatiquement actualisées toutes les 5 mi
 
 
 
+[[filter-components]]
 == Composants du filtre
 
 Permet de personnaliser les informations affichées dans la liste des événements. Vous pouvez affiner la liste des événements affichés à l'aide des composants suivants :
@@ -31,6 +32,7 @@ Cela inclut des éléments tels que tous les événements actifs (nouveaux et ac
 
 
 
+[[command-buttons]]
 == Boutons de commande
 
 Les boutons de commande permettent d'effectuer les tâches suivantes :
@@ -86,6 +88,7 @@ Vous permet de choisir les colonnes qui s'affichent sur la page et de sélection
 
 
 
+[[events-list]]
 == Liste des événements
 
 Affiche les détails de tous les événements commandés par heure déclenchée.

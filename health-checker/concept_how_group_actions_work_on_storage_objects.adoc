@@ -17,6 +17,7 @@ Les groupes prennent en charge des types d'action de groupe uniques. Vous pouvez
 
 
 
+[[example-of-unique-group-actions]]
 == Exemple d'actions de groupe uniques
 
 Considérez un volume A qui appartient aux groupes G1 et G2, et les actions de groupe de seuils de contrôle de volume suivantes sont configurées pour ces groupes :

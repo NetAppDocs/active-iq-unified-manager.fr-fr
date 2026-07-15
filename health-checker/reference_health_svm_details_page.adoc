@@ -20,6 +20,7 @@ Vous pouvez surveiller uniquement les machines virtuelles de stockage des donné
 ====
 
 
+[[command-buttons]]
 == Boutons de commande
 
 Les boutons de commande permettent d'effectuer les tâches suivantes pour la VM de stockage sélectionnée :
@@ -48,6 +49,7 @@ Permet de naviguer vers la vue intégrité : toutes les machines virtuelles de s
 
 
 
+[[health-tab]]
 == Onglet Santé
 
 L'onglet Santé affiche des informations détaillées sur la disponibilité des données, la capacité des données et les problèmes de protection liés à divers objets tels que les volumes, les agrégats, les LIF NAS, les LIF SAN, les LUN, Protocoles, services, partages NFS et partages CIFS.
@@ -73,6 +75,7 @@ Fournit un aperçu rapide de l'état de protection de ces machines virtuelles en
 
 
 
+[[capacity-tab]]
 == Onglet capacité
 
 L'onglet capacité affiche des informations détaillées sur la capacité de données du SVM sélectionné.
@@ -152,6 +155,7 @@ Pour les volumes FlexVol, affiche le nom de l'agrégat qui contient le volume. P
 
 
 
+[[configuration-tab]]
 == Onglet Configuration
 
 L'onglet Configuration affiche des détails de configuration sur la machine virtuelle de stockage sélectionnée, tels que son cluster, son volume root, le type de volumes qu'elle contient (volumes FlexVol), les règles et la protection créée sur le VM de stockage :
@@ -252,6 +256,7 @@ Affiche les adresses IP du serveur DNS ou NIS. Lorsque le serveur NIS est activ�
 
 
 
+[[network-interfaces-tab]]
 == Onglet interfaces réseau
 
 L'onglet Network interfaces (interfaces réseau) affiche des détails sur les interfaces de réseau de données créées sur la machine virtuelle de stockage sélectionnée :
@@ -311,6 +316,7 @@ Affiche le nom du groupe de basculement.
 
 
 
+[[qtrees-tab]]
 == Onglet qtrees
 
 L'onglet qtrees affiche des informations détaillées sur les qtrees et leurs quotas. Vous pouvez cliquer sur le bouton *Modifier les seuils* si vous souhaitez modifier les paramètres de seuil de santé de la capacité qtree d'un ou plusieurs qtrees.
@@ -399,6 +405,7 @@ Affiche la limite soft pour le nombre de fichiers autorisés sur les qtrees. La 
 
 
 
+[[user-and-group-quotas-tab]]
 == Onglet quotas d'utilisateur et de groupe
 
 Affiche des détails sur les quotas d'utilisateur et de groupe d'utilisateurs pour la machine virtuelle de stockage sélectionnée. Vous pouvez afficher des informations telles que l'état du quota, le nom de l'utilisateur ou du groupe d'utilisateurs, les limites logicielles et matérielles définies sur les disques et les fichiers, la quantité d'espace disque et le nombre de fichiers utilisés, ainsi que la valeur de seuil du disque. Vous pouvez également modifier l'adresse e-mail associée à un utilisateur ou à un groupe d'utilisateurs.
@@ -487,6 +494,7 @@ Affiche l'adresse e-mail de l'utilisateur ou du groupe d'utilisateurs auquel les
 
 
 
+[[nfs-shares-tab]]
 == Onglet partages NFS
 
 L'onglet NFS Shares affiche des informations sur les partages NFS, telles que son état, le chemin associé au volume (volumes FlexGroup ou volumes FlexVol), les niveaux d'accès des clients aux partages NFS et l'export policy définie pour les volumes exportés. Les partages NFS ne seront pas affichés dans les conditions suivantes : si le volume n'est pas monté ou si les protocoles associés à l'export policy pour le volume ne contiennent pas de partages NFS.
@@ -568,6 +576,7 @@ Affiche les règles qui définissent l'autorisation d'accès pour les volumes qu
 
 
 
+[[smb-shares-tab]]
 == Onglet SMB Shares
 
 Affiche des informations sur les partages SMB sur la machine virtuelle de stockage sélectionnée. Vous pouvez afficher des informations telles que l'état du partage SMB, le nom de partage, le chemin associé à la VM de stockage, l'état de la Junction path du partage, l'état du volume contenant, les données de sécurité du partage et les règles d'exportation définies pour le partage. Vous pouvez également déterminer s'il existe un chemin NFS équivalent pour le partage SMB.
@@ -675,6 +684,7 @@ Indique s'il existe un équivalent NFS pour le partage.
 
 
 
+[[san-tab]]
 == Onglet SAN
 
 Affiche des informations détaillées sur les LUN, les groupes initiateurs et les initiateurs de la machine virtuelle de stockage sélectionnée. Par défaut, la vue LUN est affichée. Dans l'onglet groupes initiateurs, vous pouvez afficher des informations détaillées sur les groupes initiateurs dans l'onglet initiateurs.
@@ -721,12 +731,14 @@ Affiche le nom et le type de l'initiateur et le nombre total de groupes d'initia
 
 
 
+[[related-annotations-pane]]
 == Volet Annotations associées
 
 Le volet Annotations associées vous permet d'afficher les détails d'annotation associés à la machine virtuelle de stockage sélectionnée. Elle comprend également le nom de l'annotation et les valeurs d'annotation qui sont appliquées à la machine virtuelle de stockage. Vous pouvez également supprimer des annotations manuelles du volet Annotations associées.
 
 
 
+[[related-devices-pane]]
 == Panneau périphériques associés
 
 Le volet périphériques associés vous permet d'afficher le cluster, les agrégats et les volumes associés à la machine virtuelle de stockage :
@@ -751,12 +763,14 @@ Affiche le nombre et la capacité des volumes appartenant à la machine virtuell
 
 
 
+[[related-groups-pane]]
 == Volet groupes associés
 
 Le volet groupes associés permet d'afficher la liste des groupes associés à la machine virtuelle de stockage sélectionnée.
 
 
 
+[[related-alerts-pane]]
 == Volet alertes associées
 
 Le volet alertes associées vous permet d'afficher la liste des alertes créées pour la machine virtuelle de stockage sélectionnée. Vous pouvez également ajouter une alerte en cliquant sur le lien *Ajouter une alerte* ou en modifiant une alerte existante en cliquant sur le nom de l'alerte.

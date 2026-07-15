@@ -15,6 +15,7 @@ Les événements des commutateurs MetroCluster pour les configurations MetroClus
 
 
 
+[[impact-area-availability]]
 == Domaine d'impact : disponibilité
 
 |===

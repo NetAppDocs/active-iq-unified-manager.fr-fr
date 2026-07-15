@@ -17,6 +17,7 @@ Vous devez avoir le rôle Administrateur d'applications ou Administrateur de sto
 
 
 
+[[email]]
 == E-mail
 
 Cette zone vous permet de configurer les paramètres d'e-mail suivants pour la notification d'alerte :
@@ -29,6 +30,7 @@ Spécifie l'adresse e-mail à partir de laquelle la notification d'alerte est en
 
 
 
+[[smtp-server]]
 == Serveur SMTP
 
 Cette zone permet de configurer les paramètres suivants du serveur SMTP :
@@ -64,6 +66,7 @@ Cette case permet une communication sécurisée entre le serveur SMTP et le serv
 
 
 
+[[snmp]]
 == SNMP
 
 Cette zone vous permet de configurer les paramètres d'interruption SNMP suivants :

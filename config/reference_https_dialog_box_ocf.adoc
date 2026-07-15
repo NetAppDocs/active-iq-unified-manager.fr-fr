@@ -17,6 +17,7 @@ Si vous n'avez pas généré de nouveau certificat HTTPS auto-signé, le certifi
 
 
 
+[[command-buttons]]
 == Boutons de commande
 
 Les boutons de commande permettent d'effectuer les opérations suivantes :

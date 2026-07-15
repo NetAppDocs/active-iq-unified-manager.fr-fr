@@ -17,6 +17,7 @@ Vous devez entrer l'URI Unified Manager et les métadonnées dans le serveur IDP
 
 
 
+[[supported-encryption-standards]]
 == Normes de chiffrement prises en charge
 
 * Advanced Encryption Standard (AES) : AES-128 et AES-256
@@ -25,6 +26,7 @@ Vous devez entrer l'URI Unified Manager et les métadonnées dans le serveur IDP
 
 
 
+[[validated-identity-providers]]
 == Des fournisseurs d'identité validés
 
 * Hurlent
@@ -33,6 +35,7 @@ Vous devez entrer l'URI Unified Manager et les métadonnées dans le serveur IDP
 
 
 
+[[adfs-configuration-requirements]]
 == Configuration requise pour ADFS
 
 * Vous devez définir trois règles de sinistre dans l'ordre suivant qui sont nécessaires à Unified Manager pour analyser les réponses SAML ADFS pour cette entrée de confiance de tiers de confiance.
@@ -83,6 +86,7 @@ http://www.torivar.com/2016/03/22/adfs-3-0-disable-revocation-check-windows-2012
 
 
 
+[[other-configuration-requirements]]
 == Autres exigences de configuration
 
 * L'inclinaison de l'horloge de Unified Manager est définie sur 5 minutes, la différence de temps entre le serveur IDP et le serveur Unified Manager ne peut pas dépasser 5 minutes, sinon l'authentification échouera.

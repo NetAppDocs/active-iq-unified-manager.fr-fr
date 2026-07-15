@@ -26,6 +26,7 @@ Si vous déplacez un objet vers un autre cluster, la règle de seuil définie pa
 ====
 
 
+[[threshold-policy-functionality-during-ha-takeover-and-giveback]]
 == Fonctionnalité de seuil de règle lors du basculement et du rétablissement haute disponibilité
 
 Lorsqu'une opération de basculement ou de rétablissement se produit dans une configuration haute disponibilité, les objets déplacés d'un nœud vers un autre nœud conservent leur règle de seuil de la même manière que dans les opérations de déplacement manuel. Unified Manager vérifie que la configuration du cluster change toutes les 15 minutes. L'impact du basculement vers le nouveau nœud n'est donc pas identifié avant l'interrogation suivante de la configuration du cluster.
@@ -37,12 +38,14 @@ Si une opération de basculement et de rétablissement se produit au cours de la
 ====
 
 
+[[threshold-policy-functionality-during-aggregate-relocation]]
 == Fonctionnalité de règle de seuil pendant le transfert d'agrégats
 
 Si vous déplacez un agrégat d'un nœud vers un autre à l'aide du `aggregate relocation start` de la commande, des règles de seuil unique et de combinaison sont conservées sur tous les objets, et la partie nœud de la règle de seuil est appliquée au nouveau nœud.
 
 
 
+[[threshold-policy-functionality-during-metrocluster-switchover]]
 == Fonctionnalité de règle de seuil lors du basculement de MetroCluster
 
 Les objets qui se déplacent d'un cluster vers un autre cluster d'une configuration MetroCluster ne conservent pas leurs paramètres de règle de seuil définis par l'utilisateur. Si nécessaire, vous pouvez appliquer des politiques de seuil aux volumes et aux LUN qui ont été déplacés vers le cluster partenaire. Une fois qu'un objet est replacé dans son cluster d'origine, la règle de seuil définie par l'utilisateur est réappliquée automatiquement.

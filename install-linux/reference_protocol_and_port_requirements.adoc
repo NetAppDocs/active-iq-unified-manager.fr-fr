@@ -15,6 +15,7 @@ Les ports et protocoles requis permettent la communication entre le serveur Unif
 
 
 
+[[connections-to-the-unified-manager-server]]
 == Connexions au serveur Unified Manager
 
 Dans les installations courantes, il n'est pas nécessaire de spécifier les numéros de port lors de la connexion à l'interface utilisateur Web d'Unified Manager, car les ports par défaut sont toujours utilisés. Par exemple, car Unified Manager tente toujours d's'exécuter sur son port par défaut, vous pouvez entrer `+https://<host>+` au lieu de `+https://<host>:443+`.
@@ -153,6 +154,7 @@ Le port par défaut pour MySQL, 3306, est limité à localhost uniquement lors d
 ====
 
 
+[[connections-from-the-unified-manager-server]]
 == Connexions à partir du serveur Unified Manager
 
 Vous devez configurer votre pare-feu sur des ports ouverts qui activent la communication entre le serveur Unified Manager et les systèmes de stockage, serveurs et autres composants gérés. Si un port n'est pas ouvert, la communication échoue.

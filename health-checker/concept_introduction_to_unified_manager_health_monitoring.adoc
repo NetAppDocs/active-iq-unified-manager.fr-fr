@@ -23,6 +23,7 @@ Vous pouvez également planifier les besoins de stockage de vos objets de cluste
 
 
 
+[[physical-and-logical-capacity]]
 == Capacité physique et logique
 
 Unified Manager utilise les concepts d'espace physique et logique utilisés pour les objets de stockage ONTAP.
@@ -33,6 +34,7 @@ Unified Manager utilise les concepts d'espace physique et logique utilisés pour
 
 
 
+[[capacity-measurement-units]]
 == Unités de mesure de la capacité
 
 Unified Manager calcule la capacité de stockage en fonction des unités binaires de 1024 (2^10^) octets. Dans ONTAP 9.10.0 et versions antérieures, ces unités étaient affichées sous la forme Ko, Mo, Go, To et PB. À partir de ONTAP 9.10.1, ces objets sont affichés dans Unified Manager comme Kio, Mio, Gio, Tio et Pio.

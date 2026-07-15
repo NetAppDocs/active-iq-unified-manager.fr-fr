@@ -15,12 +15,14 @@ Les événements de connectivité fournissent des informations sur la connectivi
 
 
 
+[[events-common-in-both-configurations]]
 == Événements communs dans les deux configurations
 
 Ces événements de connectivité sont courants à la fois pour les configurations MetroCluster over FC et MetroCluster over IP.
 
 
 
+[[impact-area-availability]]
 === Domaine d'impact : disponibilité
 
 |===
@@ -72,12 +74,14 @@ Avertissement
 |===
 
 
+[[metrocluster-over-fc-configuration]]
 == Configuration MetroCluster over FC
 
 Ces événements sont en rapport avec les configurations MetroCluster sur FC.
 
 
 
+[[impact-area-availability]]
 === Domaine d'impact : disponibilité
 
 |===
@@ -217,12 +221,14 @@ Avertissement
 |===
 
 
+[[metrocluster-over-ip-configuration]]
 == Configuration MetroCluster sur IP
 
 Ces événements sont en rapport avec les configurations MetroCluster sur IP.
 
 
 
+[[impact-area-availability]]
 === Domaine d'impact : disponibilité
 
 |===

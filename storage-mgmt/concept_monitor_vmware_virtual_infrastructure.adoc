@@ -43,6 +43,7 @@ image::../media/vm_workflow.gif[flux de production de machine virtuelle]
 
 
 
+[[what-is-not-supported]]
 == Ce qui n'est pas pris en charge
 
 * Les datastores hors ONTAP et mappés vers les instances de vCenter Server ne sont pas pris en charge par Unified Manager. Les machines virtuelles contenant des disques virtuels sur ces datastores ne sont pas non plus prises en charge.

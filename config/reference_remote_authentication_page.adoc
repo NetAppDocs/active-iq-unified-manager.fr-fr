@@ -134,6 +134,7 @@ Si vous souhaitez modifier le service d'authentification, assurez-vous de suppri
 
 
 
+[[authentication-servers-area]]
 == Zone serveurs d'authentification
 
 La zone serveurs d'authentification affiche les serveurs d'authentification avec lesquels le serveur de gestion communique pour trouver et authentifier les utilisateurs distants. Les informations d'identification des utilisateurs ou groupes distants sont gérées par le serveur d'authentification.

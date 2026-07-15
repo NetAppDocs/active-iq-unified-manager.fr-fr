@@ -15,6 +15,7 @@ La boîte de dialogue Restaurer permet de restaurer les données sur un volume �
 
 
 
+[[restore-from]]
 == Source de restauration
 
 La zone Restaurer à partir de vous permet de spécifier l'emplacement de restauration des données.
@@ -35,6 +36,7 @@ Par défaut, un maximum de 995 objets sont affichés dans la liste. Vous pouvez 
 
 
 
+[[select-items-to-restore]]
 == Sélectionnez les éléments à restaurer
 
 La zone Sélectionner les éléments à restaurer vous permet de sélectionner le volume entier ou les fichiers et dossiers spécifiques que vous souhaitez restaurer. Vous pouvez sélectionner un maximum de 10 fichiers, dossiers ou une combinaison des deux. Lorsque le nombre maximum d'éléments est sélectionné, les cases à cocher de sélection d'élément sont désactivées.
@@ -65,6 +67,7 @@ Vous ne pouvez pas restaurer les flux de fichiers NTFS.
 ====
 
 
+[[restore-to]]
 == Cible de restauration
 
 La zone Restaurer à vous permet de spécifier l'emplacement où vous souhaitez restaurer les données.
@@ -92,6 +95,7 @@ Lorsque cette case est cochée, conserve la structure du fichier ou du répertoi
 
 
 
+[[command-buttons]]
 == Boutons de commande
 
 Les boutons de commande permettent d'effectuer les tâches suivantes :

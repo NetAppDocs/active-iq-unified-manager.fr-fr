@@ -22,6 +22,7 @@ Une règle de groupe est un critère que vous définissez pour activer l'inclure
 
 
 
+[[conditions]]
 == Conditions
 
 Vous pouvez créer plusieurs groupes de condition et chaque groupe de condition peut avoir une ou plusieurs conditions. Vous pouvez appliquer tous les groupes de conditions définis dans une règle de groupe aux groupes afin de spécifier les objets de stockage inclus dans le groupe.
@@ -93,6 +94,7 @@ Le champ valeur change en fonction de l'opérande sélectionné.
 
 
 
+[[example-of-a-group-rule-with-conditions]]
 == Exemple de règle de groupe avec conditions
 
 Considérons un groupe de conditions pour un volume avec les deux conditions suivantes :
@@ -105,12 +107,14 @@ Ce groupe de condition sélectionne tous les volumes qui incluent « vol » dans
 
 
 
+[[condition-groups]]
 == Groupes de condition
 
 Les groupes de condition sont exécutés à l'aide D'UN OU logique, puis appliqués aux objets de stockage. Les objets de stockage doivent satisfaire l'un des groupes de condition à inclure dans un groupe. Les objets de stockage de tous les groupes de condition sont combinés. Vous pouvez utiliser des groupes de conditions pour augmenter la portée des objets de stockage à inclure dans un groupe.
 
 
 
+[[example-of-a-group-rule-with-condition-groups]]
 == Exemple de règle de groupe avec groupes de condition
 
 Considérons deux groupes de condition pour un volume, chaque groupe contenant les deux conditions suivantes :

@@ -17,6 +17,7 @@ Vous devez avoir le rôle Administrateur d'applications ou Administrateur de sto
 
 
 
+[[command-buttons]]
 == Boutons de commande
 
 * *Ajouter*
@@ -51,6 +52,7 @@ Permet d'activer ou de désactiver l'envoi d'alertes lorsque des événements so
 
 
 
+[[list-view]]
 == Vue liste
 
 La vue liste affiche, au format tabulaire, des informations sur les alertes créées. Vous pouvez utiliser les filtres de colonne pour personnaliser les données affichées. Vous pouvez également sélectionner une alerte pour afficher plus d'informations à ce sujet dans la zone de détails.
@@ -79,6 +81,7 @@ Spécifie la fréquence (en minutes) à laquelle le serveur de gestion continue 
 
 
 
+[[details-area]]
 == Zone de détails
 
 La zone de détails fournit des informations supplémentaires sur l'alerte sélectionnée.

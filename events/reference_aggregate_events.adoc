@@ -15,6 +15,7 @@ Les événements d'agrégat fournissent des informations sur l'état des agréga
 
 
 
+[[impact-area-availability]]
 == Domaine d'impact : disponibilité
 
 Un astérisque (*) identifie les événements EMS qui ont été convertis en événements Unified Manager.
@@ -145,6 +146,7 @@ Erreur
 |===
 
 
+[[impact-area-capacity]]
 == Zone d'impact : capacité
 
 |===
@@ -229,6 +231,7 @@ Avertissement
 |===
 
 
+[[impact-area-configuration]]
 == Zone d'impact : configuration
 
 |===
@@ -269,6 +272,7 @@ Informations
 |===
 
 
+[[impact-area-performance]]
 == Zone d'impact : performances
 
 |===

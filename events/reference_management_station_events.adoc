@@ -15,6 +15,7 @@ Les événements de Management Station vous fournissent des informations sur l'�
 
 
 
+[[impact-area-configuration]]
 == Zone d'impact : configuration
 
 |===
@@ -154,6 +155,7 @@ Avertissement
 |===
 
 
+[[impact-area-performance]]
 == Zone d'impact : performances
 
 |===

@@ -15,6 +15,7 @@ Les événements de LUN fournissent des informations sur l'état de vos LUN, ce 
 
 
 
+[[impact-area-availability]]
 == Domaine d'impact : disponibilité
 
 Un astérisque (*) identifie les événements EMS qui ont été convertis en événements Unified Manager.
@@ -112,6 +113,7 @@ Erreur
 |===
 
 
+[[impact-area-capacity]]
 == Zone d'impact : capacité
 
 |===
@@ -130,6 +132,7 @@ Avertissement
 |===
 
 
+[[impact-area-configuration]]
 == Zone d'impact : configuration
 
 |===
@@ -148,6 +151,7 @@ Avertissement
 |===
 
 
+[[impact-area-performance]]
 == Zone d'impact : performances
 
 |===

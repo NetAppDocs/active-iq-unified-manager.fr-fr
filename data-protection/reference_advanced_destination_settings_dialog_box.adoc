@@ -15,6 +15,7 @@ Vous pouvez utiliser la boîte de dialogue Paramètres de destination avancés p
 
 
 
+[[space-guarantee]]
 == Garantie d'espace
 
 L'espace disponible est alloué au volume de destination, ce qui garantit le succès continu des transferts de données. Le paramètre de garantie d'espace peut être l'un des suivants :

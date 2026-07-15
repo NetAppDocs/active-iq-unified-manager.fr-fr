@@ -16,6 +16,7 @@ Avec les API Active IQ Unified Manager, vous pouvez gérer et provisionner les o
 
 
 
+[[construct-a-url-to-directly-access-rest-apis]]
 == Construire une URL pour accéder directement aux API REST
 
 Vous pouvez accéder directement aux API REST via un langage de programmation comme Python, C#, C{pp}, JavaScript, et ainsi de suite. Entrez le nom d'hôte ou l'adresse IP et l'URL pour accéder aux API REST au format
@@ -29,6 +30,7 @@ Le port par défaut est 443. Vous pouvez configurer le port selon les besoins de
 ====
 
 
+[[access-the-online-api-documentation-page]]
 == Accéder à la page de documentation de l'API en ligne
 
 Vous pouvez accéder à la page de contenu _API Documentation_ Reference fournie avec le produit pour afficher la documentation de l'API, ainsi que pour émettre manuellement un appel d'API (sur l'interface, par exemple, swagger). Vous pouvez accéder à cette documentation en cliquant sur *barre de menus* > *bouton aide* > *Documentation API*
@@ -39,6 +41,7 @@ Vous pouvez également entrer le nom d'hôte ou l'adresse IP et l'URL pour accé
 
 
 
+[[categories]]
 == Catégories
 
 Les appels API sont organisés en fonction des domaines ou des catégories. Pour localiser une API spécifique, cliquez sur la catégorie API applicable.

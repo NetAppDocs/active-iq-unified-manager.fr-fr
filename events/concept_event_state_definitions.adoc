@@ -41,6 +41,7 @@ Vous ne pouvez pas accepter ou résoudre un événement obsolète.
 
 
 
+[[example-of-different-states-of-an-event]]
 == Exemple de différents États d'un événement
 
 Les exemples suivants illustrent les modifications manuelles et automatiques de l'état des événements.

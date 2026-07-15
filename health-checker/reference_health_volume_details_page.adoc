@@ -17,6 +17,7 @@ Vous devez avoir le rôle Administrateur d'applications ou Administrateur de sto
 
 
 
+[[command-buttons]]
 == Boutons de commande
 
 Les boutons de commande permettent d'effectuer les tâches suivantes pour le volume sélectionné :
@@ -106,6 +107,7 @@ Permet de naviguer vers la vue Santé : tous les volumes.
 
 
 
+[[capacity-tab]]
 == Onglet capacité
 
 L'onglet capacité affiche des détails sur le volume sélectionné, tels que sa capacité physique, sa capacité logique, ses paramètres de seuil, sa capacité de quota et des informations sur toute opération de déplacement de volume :
@@ -308,6 +310,7 @@ Affiche également le nombre d'opérations de déplacement de volume effectuées
 
 
 
+[[configuration-tab]]
 == Onglet Configuration
 
 L'onglet Configuration affiche des informations détaillées sur le volume sélectionné, telles que la stratégie d'exportation, le type RAID, les fonctions liées à la capacité et à l'efficacité du stockage du volume :
@@ -422,6 +425,7 @@ Indique si les copies Snapshot automatiques sont activées ou désactivées.
 
 
 
+[[protection-tab]]
 == Onglet de protection
 
 L'onglet protection affiche des détails de protection sur le volume sélectionné, tels que les informations de décalage, le type de relation et la topologie de la relation.
@@ -659,6 +663,7 @@ Ce graphique n'est pas disponible pour les volumes qui se trouvent dans des rela
 
 
 
+[[history-area]]
 == Zone historique
 
 La zone Historique affiche des graphiques qui fournissent des informations sur la capacité et les réservations d'espace du volume sélectionné. En outre, vous pouvez cliquer sur le bouton *Exporter* pour créer un rapport au format CSV pour le graphique que vous consultez.
@@ -689,6 +694,7 @@ Affiche le seuil d'avertissement de la réserve Snapshot et des snapshots sous f
 
 
 
+[[events-list]]
 == Liste des événements
 
 La liste Evénements affiche des détails sur les événements nouveaux et acquittés :
@@ -709,12 +715,14 @@ Affiche le temps écoulé depuis la génération de l'événement. Si le temps �
 
 
 
+[[related-annotations-pane]]
 == Volet Annotations associées
 
 Le volet Annotations associées permet d'afficher les détails d'annotation associés au volume sélectionné. Les détails incluent le nom de l'annotation et les valeurs d'annotation qui sont appliquées au volume. Vous pouvez également supprimer des annotations manuelles du volet Annotations associées.
 
 
 
+[[related-devices-pane]]
 == Panneau périphériques associés
 
 Le volet périphériques associés vous permet d'afficher et de naviguer vers les SVM, les agrégats, les qtrees, les LUN et les copies Snapshot liés au volume :
@@ -763,12 +771,14 @@ Affiche le nom et la capacité du volume parent d'un volume FlexClone sélection
 
 
 
+[[related-groups-pane]]
 == Volet groupes associés
 
 Le volet groupes associés permet d'afficher la liste des groupes associés au volume sélectionné.
 
 
 
+[[related-alerts-pane]]
 == Volet alertes associées
 
 Le volet alertes associées vous permet d'afficher la liste des alertes créées pour le volume sélectionné. Vous pouvez également ajouter une alerte en cliquant sur le lien Ajouter une alerte ou en modifiant une alerte existante en cliquant sur le nom de l'alerte.

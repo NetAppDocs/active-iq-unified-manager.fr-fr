@@ -20,6 +20,7 @@ Pour plus d'informations sur les différents États de lutte contre les ransomwa
 
 
 
+[[view-security-details-of-all-volumes-with-anti-ransomware-detection]]
 == Afficher les informations de sécurité de tous les volumes avec la détection anti-ransomware
 
 .Étapes
@@ -33,6 +34,7 @@ NOTE: Une protection contre les ransomwares n'est pas prise en charge pour les v
 
 
 
+[[view-security-details-of-all-storage-vms-with-anti-ransomware-detection]]
 == Affichez les informations de sécurité de toutes les machines virtuelles de stockage avec la détection anti-ransomwares
 
 .Étapes

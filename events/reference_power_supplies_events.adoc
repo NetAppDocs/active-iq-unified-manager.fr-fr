@@ -15,6 +15,7 @@ Les événements des blocs d'alimentation fournissent des informations sur l'ét
 
 
 
+[[impact-area-availability]]
 == Domaine d'impact : disponibilité
 
 |===

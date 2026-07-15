@@ -15,6 +15,7 @@ Les composants de la page Performance/Node Failover Planning s'affichent dans un
 
 
 
+[[performance-statistics-grid]]
 == Grille des statistiques de performances
 
 La page Performance/Node Failover Planning affiche une grille contenant des statistiques de latence, d'IOPS, d'utilisation et de capacité de performances utilisées.
@@ -49,6 +50,7 @@ Vous pouvez cliquer sur le nom du nœud partenaire si vous souhaitez qu'il devie
 
 
 
+[[comparing-pane]]
 == Panneau de comparaison
 
 La liste ci-dessous décrit les composants affichés dans le volet comparaison par défaut :

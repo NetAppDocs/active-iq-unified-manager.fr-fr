@@ -49,6 +49,7 @@ Le nom du pack de support vous est fourni lorsque vous le générez à l'aide de
 
 
 
+[[examples]]
 == Exemples
 
 L'exemple suivant utilise SCP pour récupérer le bundle de support :

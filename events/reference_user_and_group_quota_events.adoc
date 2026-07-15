@@ -15,6 +15,7 @@ Les événements de quota d'utilisateur et de groupe vous fournissent des inform
 
 
 
+[[impact-area-capacity]]
 == Zone d'impact : capacité
 
 |===

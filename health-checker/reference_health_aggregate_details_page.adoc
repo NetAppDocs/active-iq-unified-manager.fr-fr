@@ -15,6 +15,7 @@ Vous pouvez utiliser la page des détails agrégat/intégrité pour afficher des
 
 
 
+[[command-buttons]]
 == Boutons de commande
 
 [NOTE]
@@ -48,6 +49,7 @@ Permet de naviguer vers la vue Santé : tous les agrégats.
 
 
 
+[[capacity-tab]]
 == Onglet capacité
 
 L'onglet capacité affiche des informations détaillées sur l'agrégat sélectionné, telles que sa capacité, ses seuils et son taux de croissance quotidien.
@@ -204,6 +206,7 @@ Vous pouvez sélectionner le graphique à afficher dans les listes déroulantes.
 
 
 
+[[disk-information-tab]]
 == Onglet informations sur le disque
 
 Affiche des informations détaillées sur les disques de l'agrégat sélectionné, y compris le type et la taille RAID, et le type de disques utilisés dans l'agrégat. L'onglet affiche également sous forme graphique les groupes RAID et les types de disques utilisés (SAS, ATA, FCAL, SSD ou VMDISK, par exemple). Pour plus d'informations, telles que la baie, le tiroir et la vitesse de rotation des disques, vous pouvez positionner votre curseur sur les disques de parité et de données.
@@ -385,6 +388,7 @@ Affiche le nom du Tier cloud si vous avez configuré un agrégat compatible Fabr
 
 
 
+[[configuration-tab]]
 == Onglet Configuration
 
 L'onglet Configuration affiche des détails sur l'agrégat sélectionné, tels que son nœud de cluster, son type de bloc, son type RAID, sa taille RAID et le nombre de groupes RAID :
@@ -456,6 +460,7 @@ Indique si le chiffrement SSL est activé pour le niveau cloud.
 
 
 
+[[history-area]]
 == Zone historique
 
 La zone Historique affiche des graphiques fournissant des informations sur la capacité de l'agrégat sélectionné. En outre, vous pouvez cliquer sur le bouton *Exporter* pour créer un rapport au format CSV pour le graphique que vous consultez.
@@ -480,6 +485,7 @@ Affiche la tendance dans la façon dont la capacité d'agrégat est utilisée en
 
 
 
+[[events-list]]
 == Liste des événements
 
 La liste Evénements affiche des détails sur les événements nouveaux et acquittés :
@@ -500,6 +506,7 @@ Affiche le temps écoulé depuis la génération de l'événement. Si le temps �
 
 
 
+[[related-devices-pane]]
 == Panneau périphériques associés
 
 Le volet périphériques associés permet d'afficher le nœud de cluster, les volumes et les disques associés à l'agrégat :
@@ -528,6 +535,7 @@ Affiche le nombre de disques de l'agrégat sélectionné.
 
 
 
+[[related-alerts-pane]]
 == Volet alertes associées
 
 Le volet alertes associées vous permet d'afficher la liste des alertes créées pour l'agrégat sélectionné. Vous pouvez également ajouter une alerte en cliquant sur le lien Ajouter une alerte ou en modifiant une alerte existante en cliquant sur le nom de l'alerte.

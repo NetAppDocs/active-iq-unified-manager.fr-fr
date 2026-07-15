@@ -15,6 +15,7 @@ Les événements relatifs à la batterie NVRAM fournissent des informations sur 
 
 
 
+[[impact-area-availability]]
 == Domaine d'impact : disponibilité
 
 |===

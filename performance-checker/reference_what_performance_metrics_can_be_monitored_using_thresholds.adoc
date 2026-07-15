@@ -15,6 +15,7 @@ Certains compteurs de performances courants, tels que les IOPS et les Mo/s, peuv
 
 
 
+[[available-performance-counters]]
 == Compteurs de performances disponibles
 
 |===

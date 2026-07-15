@@ -26,6 +26,7 @@ Vous pouvez déterminer le chemin d'E/S et les latences au niveau des composants
 
 
 
+[[view-summary-topology]]
 == Afficher la topologie récapitulative
 
 Pour déterminer les problèmes de performances, consultez les VM dans une topologie récapitulative :
@@ -53,6 +54,7 @@ Les serveurs vCenter autorisent des caractères spéciaux (tels que %, &, *, $, 
 
 
 
+[[view-expanded-topology]]
 == Afficher la topologie développée
 
 Vous pouvez explorer chaque composant séparément en visualisant la topologie étendue de la machine virtuelle.

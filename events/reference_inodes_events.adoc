@@ -15,6 +15,7 @@ Les événements d'inode fournissent des informations lorsque l'inode est plein 
 
 
 
+[[impact-area-capacity]]
 == Zone d'impact : capacité
 
 |===

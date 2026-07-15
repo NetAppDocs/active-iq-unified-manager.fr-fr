@@ -27,6 +27,7 @@ Vous devez avoir le rôle Administrateur d'applications ou Administrateur de sto
 
 
 
+[[example-of-configuring-a-condition-for-an-annotation-rule]]
 == Exemple de configuration d'une condition pour une règle d'annotation
 
 Prenons l'exemple d'une condition du SVM de type objet, où le nom d'objet contient "svm_data".

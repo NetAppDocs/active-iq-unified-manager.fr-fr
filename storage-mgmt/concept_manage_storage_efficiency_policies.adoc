@@ -78,6 +78,7 @@ Nombre de charges de travail de stockage attribuées au SEP
 |===
 
 
+[[guidelines-for-creating-a-custom-storage-efficiency-policy]]
 == Instructions de création d'une stratégie d'efficacité du stockage personnalisée
 
 Si les PPE existantes ne répondent pas aux exigences de la politique pour vos charges de travail de stockage, vous pouvez créer une SEP personnalisée. Toutefois, il est recommandé d'utiliser les PPE définies par le système pour vos charges de travail de stockage et de créer uniquement des PPE personnalisées si nécessaire.

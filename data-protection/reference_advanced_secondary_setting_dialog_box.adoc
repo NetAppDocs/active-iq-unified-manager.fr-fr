@@ -72,6 +72,7 @@ La garantie d'espace est définie par défaut sur Volume.
 
 
 
+[[command-buttons]]
 == Boutons de commande
 
 Les boutons de commande permettent d'effectuer les tâches suivantes :

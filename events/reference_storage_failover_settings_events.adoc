@@ -15,6 +15,7 @@ Les événements de basculement du stockage (SFO) vous fournissent des informati
 
 
 
+[[impact-area-availability]]
 == Domaine d'impact : disponibilité
 
 |===

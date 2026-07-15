@@ -15,6 +15,7 @@ Vous pouvez utiliser la boîte de dialogue Modifier le pool de ressources pour m
 
 
 
+[[text-boxes]]
 == Zones de texte
 
 Les zones de texte permettent de modifier les informations suivantes pour le pool de ressources sélectionné :
@@ -31,6 +32,7 @@ Permet de saisir une nouvelle description.
 
 
 
+[[command-buttons]]
 == Boutons de commande
 
 Les boutons de commande permettent d'effectuer les tâches suivantes :

@@ -15,6 +15,7 @@ Les événements de disque fournissent des informations sur l'état des disques 
 
 
 
+[[impact-area-availability]]
 == Domaine d'impact : disponibilité
 
 |===

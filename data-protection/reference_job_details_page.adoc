@@ -15,6 +15,7 @@ La page Détails du travail vous permet d'afficher l'état et d'autres informati
 
 
 
+[[job-summary]]
 == Récapitulatif du travail
 
 Le récapitulatif des tâches affiche les informations suivantes :
@@ -29,6 +30,7 @@ Le récapitulatif des tâches affiche les informations suivantes :
 
 
 
+[[command-buttons]]
 == Boutons de commande
 
 Les boutons de commande permettent d'effectuer les tâches suivantes :
@@ -45,6 +47,7 @@ Vous renvoie à la page travaux.
 
 
 
+[[job-tasks-list]]
 == Liste des tâches du travail
 
 La liste tâches du travail affiche dans une table toutes les tâches associées à un travail spécifique et les propriétés associées à chaque tâche.

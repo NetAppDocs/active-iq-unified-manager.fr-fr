@@ -68,6 +68,7 @@ Spécifie le nom de l'utilisateur ou du groupe d'utilisateurs.
 
 
 
+[[command-buttons]]
 == Boutons de commande
 
 Les boutons de commande vous permettent d'afficher un aperçu, d'enregistrer ou d'annuler les modifications apportées au format de notification par e-mail :

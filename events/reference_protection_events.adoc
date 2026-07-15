@@ -15,6 +15,7 @@ Les événements de protection vous indiquent si un travail a échoué ou a ét�
 
 
 
+[[impact-area-protection]]
 == Zone d'impact : protection
 
 |===

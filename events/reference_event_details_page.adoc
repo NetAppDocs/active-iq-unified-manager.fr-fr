@@ -40,6 +40,7 @@ Les sections informations sur les événements, diagnostic du système et action
 
 
 
+[[command-buttons]]
 == Boutons de commande
 
 Les boutons de commande permettent d'effectuer les tâches suivantes :

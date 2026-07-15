@@ -15,6 +15,7 @@ La boîte de dialogue initialiser/mettre à jour vous permet d'effectuer un tran
 
 
 
+[[transfer-options-tab]]
 == Options de transfert
 
 L'onglet Options de transfert vous permet de modifier la priorité d'initialisation d'un transfert et de modifier la bande passante utilisée pendant les transferts.
@@ -46,6 +47,7 @@ Lorsque cette option est sélectionnée, la bande passante réseau est limitée 
 
 
 
+[[source-snapshot-copies-tab]]
 == Onglet copies Snapshot source
 
 L'onglet copies Snapshot source affiche les informations suivantes sur la copie Snapshot source utilisée pour le transfert de base :
@@ -70,6 +72,7 @@ Affiche la copie Snapshot utilisée pour le transfert de données. Si vous cliqu
 
 
 
+[[command-buttons]]
 == Boutons de commande
 
 Les boutons de commande permettent d'effectuer les tâches suivantes :

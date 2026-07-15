@@ -15,6 +15,7 @@ Les armoires fournissent des informations sur l'état des armoires de tiroirs di
 
 
 
+[[impact-area-availability]]
 == Domaine d'impact : disponibilité
 
 |===
@@ -72,6 +73,7 @@ Avertissement
 |===
 
 
+[[impact-area-configuration]]
 == Zone d'impact : configuration
 
 |===

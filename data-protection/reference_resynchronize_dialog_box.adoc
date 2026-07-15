@@ -15,6 +15,7 @@ La boîte de dialogue Resynchroniser vous permet de resynchroniser les données 
 
 
 
+[[resynchronization-options-tab]]
 == Onglet Options de resynchronisation
 
 L'onglet Resynchronisation Options vous permet de définir la priorité de transfert et la vitesse de transfert maximale pour la relation de protection que vous êtes en cours de resynchronisation.
@@ -31,6 +32,7 @@ Spécifie la vitesse maximale à laquelle les données sont transférées entre 
 
 
 
+[[source-snapshot-copies-tab]]
 == Onglet copies Snapshot source
 
 L'onglet copies Snapshot source affiche les informations suivantes sur la copie Snapshot source utilisée pour le transfert de base :
@@ -55,6 +57,7 @@ Affiche la copie Snapshot utilisée pour le transfert de données. Si vous cliqu
 
 
 
+[[command-buttons]]
 == Boutons de commande
 
 * *Soumettre*

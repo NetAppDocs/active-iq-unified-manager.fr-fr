@@ -19,6 +19,7 @@ Les volumes FlexGroup et ses composants sont exclus.
 
 
 
+[[workloads-overview]]
 == Présentation des charges de travail
 
 La page vue d'ensemble des charges de travail présente les charges de travail du data Center, ainsi que le résumé de l'espace et des performances du data Center.
@@ -29,6 +30,7 @@ La page vue d'ensemble des charges de travail présente les charges de travail d
 
 
 
+[[all-workloads-view]]
 == Toutes les charges de travail
 
 La page *stockage > charges de travail > toutes les charges de travail* répertorie les charges de travail de stockage associées aux clusters ONTAP gérés par Unified Manager.
@@ -46,6 +48,7 @@ La page vous permet également d'attribuer des politiques d'efficacité du stock
 
 
 
+[[adding-or-provisioning-storage-workloads]]
 === Ajout ou provisionnement de charges de travail de stockage
 
 Vous pouvez ajouter ou provisionner les charges de travail de stockage aux LUN prises en charge (prise en charge des protocoles iSCSI et FCP), aux partages de fichiers NFS et aux partages SMB.
@@ -57,6 +60,7 @@ Vous pouvez ajouter ou provisionner les charges de travail de stockage aux LUN p
 
 
 
+[[viewing-and-filtering-workloads]]
 === Afficher et filtrer les workloads
 
 Sur l'écran toutes les charges de travail, vous pouvez afficher toutes les charges de travail de votre data Center ou rechercher des charges de travail de stockage spécifiques en fonction de leurs PSLs ou de leurs noms. Vous pouvez utiliser l'icône de filtre pour entrer des conditions spécifiques à votre recherche. Vous pouvez effectuer une recherche selon différentes conditions de filtre, par exemple par le cluster hôte ou la machine virtuelle de stockage. L'option *Capacity Total* permet de filtrer en fonction de la capacité totale des charges de travail (par Mo). Toutefois, le nombre de workloads renvoyés peut varier car la capacité totale est comparée à un niveau d'octet.
@@ -67,6 +71,7 @@ Cette page vous permet également d'afficher les performances détaillées d'une
 
 
 
+[[analyzing-performance-and-capacity-criteria-for-a-workload]]
 === L'analyse des critères de performances et de capacité d'une charge de travail
 
 Le bouton *analyser charge de travail* de la fenêtre contextuelle *analyse d'IOPS* vous permet d'accéder à la page analyse de charge de travail, où vous pouvez sélectionner une plage de temps et afficher les tendances de latence, de débit et de capacité pour la charge de travail sélectionnée. Pour plus d'informations sur l'analyseur de charge de travail, voir link:..//performance-checker/concept_troubleshooting_workloads_using_workload_analyzer.html["Dépannage des charges de travail à l'aide de l'analyseur de workloads"].

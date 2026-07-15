@@ -21,6 +21,7 @@ Sur plusieurs jours, l'augmentation et la diminution de l'activité de la charge
 
 
 
+[[how-the-latency-forecast-is-formed]]
 == Mode de création de la prévision de latence
 
 Unified Manager doit collecter au moins 3 jours d'activité de la charge de travail avant de commencer son analyse. Il est alors possible avant que la prévision de latence pour le temps de réponse d'E/S ne soit affichée dans l'interface graphique. La collecte de données minimale requise ne tient pas compte de toutes les modifications apportées à l'activité de la charge de travail. Après la collecte des 3 premiers jours d'activité, Unified Manager ajuste la latence prévue toutes les 24 heures à 12:00 afin de refléter les modifications apportées à l'activité des charges de travail et d'établir un seuil de performances dynamique plus précis.

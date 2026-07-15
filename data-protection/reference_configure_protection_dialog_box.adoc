@@ -15,6 +15,7 @@ Vous pouvez utiliser la boîte de dialogue configurer la protection pour créer 
 
 
 
+[[source-tab]]
 == Onglet Source
 
 * *Vue topologie*
@@ -65,6 +66,7 @@ Affiche la copie Snapshot utilisée pour le transfert de base. Si le volume sour
 
 
 
+[[snapmirror-tab]]
 == Onglet SnapMirror
 
 Permet de spécifier un cluster de destination, un SVM (Storage Virtual machine) et un agrégat pour une relation de protection, ainsi qu'une convention de nom pour les destinations lors de la création d'une relation SnapMirror. Vous pouvez également spécifier une règle et une planification SnapMirror.
@@ -157,6 +159,7 @@ Lance la boîte de dialogue Créer un calendrier, qui vous permet de créer une 
 
 
 
+[[snapvault-tab]]
 == Onglet SnapVault
 
 Permet de spécifier un cluster secondaire, un SVM et un agrégat dans le cadre d'une relation de protection, ainsi qu'une convention de nom pour les volumes secondaires lors de la création d'une relation SnapVault. Vous pouvez également spécifier une règle et une planification SnapVault.
@@ -249,6 +252,7 @@ Lance la boîte de dialogue Créer un programme qui vous permet de créer un pro
 
 
 
+[[command-buttons]]
 == Boutons de commande
 
 Les boutons de commande permettent d'effectuer les tâches suivantes :

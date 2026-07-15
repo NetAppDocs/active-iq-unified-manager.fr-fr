@@ -15,6 +15,7 @@ Les événements de relation SnapMirro et Vault vous fournissent des information
 
 
 
+[[impact-area-protection]]
 == Zone d'impact : protection
 
 [NOTE]

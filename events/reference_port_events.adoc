@@ -15,6 +15,7 @@ Les événements de port fournissent le statut des ports du cluster, de sorte qu
 
 
 
+[[impact-area-availability]]
 == Domaine d'impact : disponibilité
 
 |===
@@ -33,6 +34,7 @@ Primordial
 |===
 
 
+[[impact-area-performance]]
 == Zone d'impact : performances
 
 |===

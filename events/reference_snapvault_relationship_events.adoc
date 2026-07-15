@@ -15,6 +15,7 @@ Les événements de relation SnapVault fournissent des informations sur l'état 
 
 
 
+[[impact-area-protection]]
 == Zone d'impact : protection
 
 |===

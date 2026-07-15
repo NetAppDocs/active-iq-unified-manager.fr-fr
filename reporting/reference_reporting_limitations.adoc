@@ -15,6 +15,7 @@ La nouvelle fonctionnalité de reporting Active IQ Unified Manager est limitée.
 
 
 
+[[existing-reports-from-previous-versions-of-unified-manager]]
 == Rapports existants issus des versions précédentes de Unified Manager
 
 Vous pouvez uniquement modifier le planning et les destinataires des rapports existants créés et importés (en tant que fichiers .rptdesign) dans Unified Manager 9.5 et versions antérieures. Si vous avez personnalisé les rapports standard fournis avec Unified Manager 9.5 ou une version antérieure, ces rapports personnalisés ne sont pas importés dans le nouvel outil de création de rapport.
@@ -29,24 +30,28 @@ Les vues par défaut peuvent être générées sous forme de rapports sans qu'au
 
 
 
+[[schedule-and-report-relationship]]
 == Planification et rapport
 
 Vous pouvez créer plusieurs planifications différentes avec n'importe quelle combinaison de destinataires pour chaque rapport enregistré. Cependant, vous ne pouvez pas réutiliser le planning pour plusieurs rapports.
 
 
 
+[[report-protection]]
 == Protection des rapports
 
 Tout utilisateur disposant des autorisations appropriées peut modifier ou supprimer des rapports. Il n'existe aucun moyen d'empêcher les autres utilisateurs de supprimer ou d'apporter des modifications aux vues ou aux plannings enregistrés.
 
 
 
+[[event-reports]]
 == Rapports d'événements
 
 Bien que vous puissiez personnaliser la vue d'événements et télécharger le rapport résultant au format CSV, vous ne pouvez pas planifier de rapports d'événements récurrents pour la génération et la distribution.
 
 
 
+[[report-attachments]]
 == Pièces jointes du rapport
 
 Les rapports ne peuvent pas être envoyés dans le corps d'un e-mail. Au lieu de cela, les rapports sont envoyés uniquement sous forme de pièces jointes PDF, Excel ou CSV.

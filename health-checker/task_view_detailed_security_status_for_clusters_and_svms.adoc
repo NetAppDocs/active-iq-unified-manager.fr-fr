@@ -17,6 +17,7 @@ Pour connaître les recommandations de sécurité, reportez-vous au https://www.
 
 
 
+[[view-object-level-security-status-on-security-page]]
 == Afficher l'état de sécurité au niveau de l'objet sur la page sécurité
 
 En tant qu'administrateur système, vous pouvez utiliser la page *sécurité* pour accéder à l'efficacité de sécurité de vos clusters ONTAP et de vos machines virtuelles de stockage au niveau du centre de données et du site. Les objets pris en charge sont le cluster, les VM de stockage et les volumes. Voici la procédure à suivre :
@@ -40,6 +41,7 @@ La page sécurité affiche les panneaux suivants :
 
 
 
+[[view-security-details-of-all-clusters-on-the-clusters-page]]
 == Afficher les détails de sécurité de tous les clusters sur la page clusters
 
 La page de détails *clusters / sécurité* vous permet d'afficher l'état de conformité de sécurité au niveau du cluster.
@@ -58,6 +60,7 @@ NOTE: Si un cluster a un certificat expiré, vous pouvez cliquer sur `expired` S
 
 
 
+[[view-security-details-of-all-clusters-from-the-storage-vms-page]]
 == Afficher les détails de sécurité de tous les clusters à partir de la page VM de stockage
 
 La page de détails *Storage VM / Security* vous permet d'afficher l'état de conformité de sécurité au niveau d'une machine virtuelle de stockage.

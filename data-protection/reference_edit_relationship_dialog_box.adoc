@@ -15,6 +15,7 @@ Vous pouvez modifier une relation de protection existante pour modifier le taux 
 
 
 
+[[destination-information]]
 == Informations de destination
 
 * *Cluster de destination*
@@ -56,6 +57,7 @@ Lance la boîte de dialogue Créer un calendrier, qui vous permet de créer une 
 
 
 
+[[command-buttons]]
 == Boutons de commande
 
 Les boutons de commande permettent d'effectuer les tâches suivantes :

@@ -15,6 +15,7 @@ Les événements de carte Flash fournissent des informations sur l'état des car
 
 
 
+[[impact-area-availability]]
 == Domaine d'impact : disponibilité
 
 |===

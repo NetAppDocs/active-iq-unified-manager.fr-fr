@@ -89,6 +89,7 @@ Au-dessus de 72 heures. La durée de calcul de cet échantillon est représenté
 |===
 
 
+[[output-sample-for-metrics-apis]]
 == Exemple de résultat pour les API de metrics
 
 Par exemple, le `/datacenter/cluster/nodes/\{key}/metrics` L'API récupère les détails suivants (entre autres) pour un nœud :
@@ -166,6 +167,7 @@ NOTE: Les 95 percentiles de la valeur sommaire indiquent que 95 % des échantill
 ----
 
 
+[[output-sample-for-analytics-apis]]
 == Exemple de résultat pour les API d'analytique
 
 Par exemple, le `/datacenter/cluster/nodes/analytics` L'API récupère les valeurs suivantes (entre autres) pour l'ensemble des nœuds :
@@ -208,6 +210,7 @@ Par exemple, le `/datacenter/cluster/nodes/analytics` L'API récupère les valeu
 ----
 
 
+[[list-of-the-available-apis]]
 == Liste des API disponibles
 
 Le tableau suivant décrit le `/metrics` et `/analytics` API dans les détails

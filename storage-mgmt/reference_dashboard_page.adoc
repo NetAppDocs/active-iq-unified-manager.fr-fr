@@ -24,12 +24,14 @@ Certains panneaux répertoriés ci-dessous apparaissent sur le tableau de bord e
 ====
 
 
+[[management-actions-panel]]
 == Panneau actions de gestion
 
 Unified Manager effectue un diagnostic approfondi et permet sa résolution unique. Lorsqu'elles sont disponibles, ces résolutions sont affichées dans ce panneau avec un bouton *Fix it* ou *Fix All*. Vous pouvez corriger ces problèmes immédiatement à partir d'Unified Manager au lieu d'utiliser ONTAP System Manager ou l'interface de ligne de commande de ONTAP. Pour afficher tous les problèmes, cliquez sur Voir link:concept_fix_ontap_issues_directly_from_unified_manager.html["Résoudre les problèmes ONTAP directement depuis Unified Manager"] pour plus d'informations.
 
 
 
+[[capacity-panel]]
 == Panneau de capacité
 
 Lors de l'affichage de tous les clusters, ce panneau affiche la capacité physique utilisée (après application des économies d'efficacité du stockage) et la capacité physique disponible (sans tenir compte des économies potentielles en termes d'efficacité du stockage) pour chaque cluster, le nombre de jours avant que les disques ne soient pleins, Et le taux de réduction des données (sans copies Snapshot) basé sur les paramètres d'efficacité du stockage ONTAP configurés. Elle répertorie également la capacité utilisée pour tous les niveaux cloud configurés. Cliquez sur le graphique à barres pour accéder à la page d'inventaire des agrégats correspondant à ce cluster. Lorsque vous cliquez sur le texte « jours avant complets », un message s'affiche, indiquant l'agrégat dont il reste le nombre de jours de capacité minimum. Cliquez sur le nom de l'agrégat pour en savoir plus.
@@ -38,6 +40,7 @@ Lorsque vous affichez un seul cluster, ce panneau affiche la capacité physique 
 
 
 
+[[performance-capacity-panel]]
 == Panneau Performance Capacity
 
 Lorsque vous affichez tous les clusters, ce panneau affiche la valeur de capacité des performances pour chaque cluster (moyenne sur l'heure précédente) et le nombre de jours jusqu'à ce que la capacité des performances atteigne la limite supérieure (basée sur le taux de croissance quotidien). Cliquez sur le graphique à barres pour accéder à la page d'inventaire des nœuds de ce cluster. Notez que la page d'inventaire des nœuds affiche la capacité de performance moyenne sur les 72 heures précédentes. Lorsque vous cliquez sur le texte « jours avant complets », un message indiquant le nœud correspondant au moins au nombre de jours de capacité en performance restants s'affiche. Cliquez sur le nom du nœud pour en savoir plus.
@@ -46,18 +49,21 @@ Lorsque vous affichez un seul cluster, ce panneau affiche les valeurs relatives 
 
 
 
+[[workload-iops-panel]]
 == Panneau des IOPS des workloads
 
 Lorsque vous affichez un seul cluster, ce volet affiche le nombre total de charges de travail actuellement exécutées dans une certaine plage d'opérations d'E/S par seconde. Il indique le nombre de chaque type de disque lorsque vous positionnez le curseur de votre souris sur le graphique.
 
 
 
+[[workload-performance-panel]]
 == Panneau Performance des workloads
 
 Ce volet affiche le nombre total de charges de travail conformes et non conformes affectées à chaque politique de niveau de service de performance (PSL). Elle affiche également le nombre de charges de travail qui ne sont pas affectées à un PSL. Dans un graphique à barres, vous accédez aux charges de travail conformes attribuées à cette règle sur la page des charges de travail. Cliquez sur le nombre qui suit le graphique à barres pour accéder aux charges de travail conformes et non conformes attribuées à cette règle.
 
 
 
+[[security-panel]]
 == Panneau de sécurité
 
 Le panneau sécurité présente l'état de sécurité de haut niveau pour tous les clusters ou un seul cluster, selon votre vue actuelle. Ce panneau affiche :
@@ -75,6 +81,7 @@ La conformité est basée sur le https://www.netapp.com/pdf.html?item=/media/106
 
 
 
+[[data-protection-panel]]
 == Panneau protection des données
 
 Ce panneau affiche le récapitulatif de la protection des données pour un seul ou l'ensemble des clusters d'un data Center. Il affiche le nombre total d'événements liés à la protection des données, les événements MetroCluster et le nombre d'événements actifs soulevés au cours des dernières 24 heures dans ONTAP. Cliquez sur le lien de chacun de ces événements pour accéder à la page Détails de l'événement. Vous pouvez cliquer sur le lien *Afficher tout* pour afficher tous les événements de protection actifs dans la page d'inventaire gestion des événements. Le panneau affiche :
@@ -96,6 +103,7 @@ Pour plus d'informations, voir link:../data-protection/view-protection-status.ht
 
 
 
+[[usage-overview-panel]]
 == Panneau vue d'ensemble de l'utilisation
 
 Lorsque vous affichez tous les clusters, vous pouvez choisir d'afficher les clusters triés par ordre d'IOPS, de débit le plus élevé (Mbit/s) ou de capacité physique la plus élevée utilisée.

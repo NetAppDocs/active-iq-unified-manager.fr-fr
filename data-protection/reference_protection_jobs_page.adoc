@@ -15,6 +15,7 @@ La page travaux vous permet d'afficher l'état actuel et d'autres informations s
 
 
 
+[[command-buttons]]
 == Boutons de commande
 
 Les boutons de commande permettent d'effectuer les tâches suivantes :
@@ -35,6 +36,7 @@ Actualise la liste des travaux et les informations qui leur sont associées.
 
 
 
+[[jobs-list]]
 == Liste des travaux
 
 La liste travaux affiche, au format tabulaire, la liste des travaux en cours. Par défaut, la liste affiche uniquement les travaux générés au cours de la semaine passée. Vous pouvez utiliser le tri et le filtrage des colonnes pour personnaliser les travaux affichés.

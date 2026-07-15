@@ -17,6 +17,7 @@ Vous devez avoir le rôle Administrateur d'applications ou Administrateur de sto
 
 
 
+[[name]]
 == Nom
 
 Cette zone vous permet de spécifier un nom et une description pour l'alerte :
@@ -33,6 +34,7 @@ Vous permet de spécifier une description de l'alerte.
 
 
 
+[[resources]]
 == Ressources
 
 Cette zone vous permet de sélectionner une ressource individuelle ou de regrouper les ressources en fonction d'une règle dynamique pour laquelle vous souhaitez déclencher l'alerte. Une règle _dynamique_ est l'ensemble des ressources filtrées en fonction de la chaîne de texte que vous spécifiez. Vous pouvez rechercher des ressources en sélectionnant un type de ressource dans la liste déroulante ou vous pouvez spécifier le nom exact de la ressource pour afficher une ressource spécifique.
@@ -57,6 +59,7 @@ Si une ressource est conforme à la fois aux règles inclure et exclure que vous
 
 
 
+[[events]]
 == Événements
 
 Cette zone vous permet de sélectionner les événements pour lesquels vous souhaitez créer les alertes. Vous pouvez créer des alertes pour les événements selon une gravité spécifique ou pour un ensemble d'événements.
@@ -75,6 +78,7 @@ Permet de sélectionner des événements dont le nom contient des caractères sp
 
 
 
+[[actions]]
 == Actions
 
 Cette zone vous permet de spécifier les utilisateurs que vous souhaitez notifier lorsqu'une alerte est déclenchée. Vous pouvez également spécifier la méthode de notification et la fréquence de notification.
@@ -117,6 +121,7 @@ Si vous ne voyez pas cette fonctionnalité disponible dans l'interface utilisate
 
 
 
+[[command-buttons]]
 == Boutons de commande
 
 * *Enregistrer*

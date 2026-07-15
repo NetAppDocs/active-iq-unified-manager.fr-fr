@@ -15,6 +15,7 @@ Vous pouvez télécharger le package d'installation et installer Unified Manager
 
 
 
+[[system-requirements]]
 == Configuration minimale requise
 
 * Système d'exploitation : Red Hat Enterprise Linux versions 8.x et 9.4, basé sur l'architecture x86_64, installé à l'aide de l'environnement de base « serveur avec interface utilisateur graphique » à partir de l'option *Software Selection* du programme d'installation du système d'exploitation
@@ -26,10 +27,12 @@ Pour obtenir des informations détaillées sur la configuration système requise
 
 
 
+[[install-active-iq-unified-manager]]
 == Installez Active IQ Unified Manager
 
 
 
+[[download-the-installer]]
 === Téléchargez le programme d'installation
 
 . Téléchargez le `ActiveIQUnifiedManager-<version>.zip` package d'installation avec certificat de signature de code (`.pem`) et signature numérique (`.sig`) .
@@ -41,6 +44,7 @@ Pour obtenir des informations détaillées sur la configuration système requise
 
 
 
+[[verify-integrity]]
 === Vérification de l'intégrité
 
 Exécutez les commandes suivantes pour vérifier l'intégrité du package d'installation :
@@ -51,6 +55,7 @@ Exécutez les commandes suivantes pour vérifier l'intégrité du package d'inst
 
 
 
+[[verify-repository-configuration]]
 === Vérifiez la configuration du référentiel
 
 Les procédures de configuration d'un référentiel Red Hat Enterprise Linux sont spécifiques au site. Vous pouvez utiliser le `pre_install_check.sh` script inclus dans le package d'installation pour vérifier la configuration de votre système d'exploitation. Si votre système est connecté à Internet, vous recevez automatiquement les instructions de configuration du référentiel Red Hat Enterprise Linux.
@@ -59,6 +64,7 @@ Les procédures de configuration d'un référentiel Red Hat Enterprise Linux son
 
 
 
+[[install-unified-manager]]
 === Installez Unified Manager
 
 Unified Manager utilise l' `yum`utilitaire pour installer le logiciel et les logiciels qui en dépendent. Étant donné qu'il existe différentes images de Red Hat Enterprise Linux, les packages installés dépendent du logiciel présent dans les images.  `yum`L'utilitaire détermine les progiciels dépendants à installer. Si vous avez besoin de plus d'informations sur les progiciels dépendants, consultez le link:../install-linux/reference_red_hat_software_and_installation_requirements.html["Conditions requises pour l'installation et le logiciel Linux"].

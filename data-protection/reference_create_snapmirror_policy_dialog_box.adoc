@@ -52,6 +52,7 @@ Spécifie que les transferts interrompus ne sont jamais redémarrés.
 
 
 
+[[command-buttons]]
 == Boutons de commande
 
 Les boutons de commande permettent d'effectuer les tâches suivantes :

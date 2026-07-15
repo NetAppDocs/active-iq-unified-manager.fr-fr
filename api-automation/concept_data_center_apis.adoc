@@ -28,6 +28,7 @@ Les commandes CURL, exemples, requêtes et réponses aux API sont disponibles su
 ====
 
 
+[[apis-for-storage-objects-in-your-data-center]]
 == Des API pour les objets de stockage dans votre data Center
 
 [cols="3*"]
@@ -203,6 +204,7 @@ Si vous avez activé le provisionnement des charges de travail basées sur les o
 
 
 
+[[apis-for-network-elements-in-your-data-center]]
 == Des API pour les éléments réseau de votre data Center
 
 Les API suivantes de la catégorie Datacenter récupèrent les informations sur les ports et les interfaces réseau de votre environnement, en particulier les ports FC, les interfaces FC, les ports ethernet et les interfaces IP.

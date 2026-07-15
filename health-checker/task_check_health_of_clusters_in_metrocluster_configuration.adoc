@@ -21,6 +21,7 @@ Vous pouvez utiliser Active IQ Unified Manager (Unified Manager) pour vérifier 
 
 
 
+[[determine-cluster-health-in-metrocluster-over-fc-configuration]]
 == Déterminer l'état du cluster dans MetroCluster via la configuration FC
 
 Suivez ces étapes pour déterminer l'état du cluster dans une configuration MetroCluster sur FC.
@@ -59,6 +60,7 @@ Dans cet exemple, si l'icône NVRAM du cluster local ou partenaire est jaune ou 
 
 
 
+[[determine-cluster-health-in-metrocluster-over-ip-configuration]]
 == Déterminer l'état du cluster dans la configuration MetroCluster sur IP
 
 Procédez comme suit pour déterminer l'intégrité du cluster dans une configuration MetroCluster sur IP.

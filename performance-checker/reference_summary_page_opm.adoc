@@ -15,6 +15,7 @@ La page Récapitulatif affiche les graphiques compteurs qui contiennent des info
 
 
 
+[[charts-and-counter-statistics]]
 == Graphiques et statistiques des compteurs
 
 Les tableaux récapitulatifs offrent un aperçu rapide et général de la dernière période de 72 heures et vous aident à identifier les problèmes possibles nécessitant une enquête plus approfondie.
@@ -135,6 +136,7 @@ Le graphique du compteur d'utilisation affiche le pourcentage d'utilisation de l
 
 
 
+[[events]]
 == Événements
 
 Le tableau Historique des événements, le cas échéant, répertorie les événements les plus récents survenus sur cet objet. Cliquez sur le nom de l'événement pour afficher les détails de l'événement sur la page Détails de l'événement.

@@ -15,6 +15,7 @@ Les événements du processeur de service fournissent des informations sur l'ét
 
 
 
+[[impact-area-availability]]
 == Domaine d'impact : disponibilité
 
 |===

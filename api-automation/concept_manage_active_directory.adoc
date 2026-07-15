@@ -15,6 +15,7 @@ Vous pouvez utiliser les API répertoriées ici pour gérer les mappages Active 
 
 
 
+[[view-active-directory-mappings]]
 == Afficher les mappages d'Active Directory
 
 Vous pouvez afficher les détails de configuration des mappages Active Directory d'un SVM en utilisant la méthode suivante. Pour afficher les mappages d'Active Directory sur un SVM, vous devez saisir la clé SVM. Pour interroger les détails d'un mappage particulier, vous devez entrer la clé de mappage.
@@ -36,6 +37,7 @@ OBTENEZ
 |===
 
 
+[[add-active-directory-mapping]]
 == Ajouter un mappage Active Directory
 
 Vous pouvez créer des mappages Active Directory sur un SVM en utilisant la méthode suivante. Vous devez entrer les détails de mappage comme paramètres d'entrée.

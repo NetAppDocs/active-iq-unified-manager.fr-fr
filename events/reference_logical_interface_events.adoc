@@ -15,6 +15,7 @@ Les événements de l'interface réseau fournissent des informations sur l'état
 
 
 
+[[impact-area-availability]]
 == Domaine d'impact : disponibilité
 
 |===
@@ -66,6 +67,7 @@ Avertissement
 |===
 
 
+[[impact-area-configuration]]
 == Zone d'impact : configuration
 
 |===
@@ -84,6 +86,7 @@ Informations
 |===
 
 
+[[impact-area-performance]]
 == Zone d'impact : performances
 
 |===

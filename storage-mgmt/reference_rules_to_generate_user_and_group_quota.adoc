@@ -15,12 +15,14 @@ La page règles de génération des adresses e-mail de quota d'utilisateur et de
 
 
 
+[[rules-area]]
 == Domaine règles
 
 Vous devez définir les règles pour une adresse e-mail de quota. Vous pouvez également ajouter des commentaires pour expliquer les règles.
 
 
 
+[[how-you-define-rules]]
 == Comment définir des règles
 
 Vous devez entrer les règles dans l'ordre dans lequel vous souhaitez les exécuter. Si le critère de la première règle est rempli, l'adresse e-mail est générée en fonction de cette règle. Si le critère n'est pas satisfait, alors le critère de la règle suivante est pris en compte, et ainsi de suite. Chaque ligne liste une règle distincte. La règle par défaut est la dernière règle de la liste. Vous pouvez modifier l'ordre de priorité des règles. Cependant, vous ne pouvez pas modifier l'ordre de la règle par défaut.
@@ -39,12 +41,14 @@ Si plusieurs utilisateurs ont le même quota, les noms des utilisateurs sont aff
 
 
 
+[[how-you-add-comments]]
 == Comment ajouter des commentaires
 
 Vous pouvez ajouter des commentaires pour expliquer les règles. Vous devez utiliser # au début de chaque commentaire et chaque ligne liste un commentaire distinct.
 
 
 
+[[rules-syntax]]
 == Syntaxe des règles
 
 La syntaxe de la règle doit être l'une des suivantes :
@@ -61,6 +65,7 @@ si est un mot-clé et est en minuscules. L'opérateur peut contenir ou ==. L'ID 
 
 
 
+[[command-buttons]]
 == Boutons de commande
 
 Les boutons de commande permettent d'enregistrer, de valider ou d'annuler les règles créées :

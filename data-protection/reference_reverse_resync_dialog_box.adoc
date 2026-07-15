@@ -17,6 +17,7 @@ Lorsqu'un incident désactive le volume source de votre relation de protection, 
 
 
 
+[[before-reverse-resync]]
 == Avant la resynchronisation inverse
 
 Affiche la source et la destination d'une relation avant une opération de resynchronisation inverse.
@@ -33,6 +34,7 @@ Nom et emplacement du volume de destination avant une opération de resynchronis
 
 
 
+[[after-reverse-resync]]
 == Après resynchronisation inverse
 
 Affiche la source et la destination d'une relation après une opération de resynchronisation de réserve.
@@ -49,6 +51,7 @@ Nom et emplacement du volume de destination après une opération de resynchroni
 
 
 
+[[command-buttons]]
 == Boutons de commande
 
 Les boutons de commande permettent d'effectuer les opérations suivantes :

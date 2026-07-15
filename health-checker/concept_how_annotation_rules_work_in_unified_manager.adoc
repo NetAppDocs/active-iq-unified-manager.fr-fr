@@ -22,6 +22,7 @@ Une règle d'annotation est un critère que vous définissez pour annoter les ob
 
 
 
+[[conditions]]
 == Conditions
 
 Vous pouvez créer plusieurs groupes de condition et chaque groupe de condition peut avoir une ou plusieurs conditions. Vous pouvez appliquer tous les groupes de condition définis dans une règle d'annotation d'une annotation afin d'annoter les objets de stockage.
@@ -72,6 +73,7 @@ Lorsque vous sélectionnez annotation comme opérande pour un objet de stockage,
 
 
 
+[[example-of-an-annotation-rule-with-conditions]]
 == Exemple de règle d'annotation avec des conditions
 
 Envisagez une règle d'annotation avec un groupe de conditions pour un volume avec les deux conditions suivantes :
@@ -84,12 +86,14 @@ Cette règle d'annotation annote tous les volumes qui incluent « vol » dans le
 
 
 
+[[condition-groups]]
 == Groupes de condition
 
 Les groupes de condition sont exécutés à l'aide D'UN OU logique, puis appliqués aux objets de stockage. Les objets de stockage doivent répondre aux exigences de l'un des groupes de condition à annoter. Les objets de stockage qui répondent aux conditions de tous les groupes de condition sont annotés. Vous pouvez utiliser des groupes de conditions pour augmenter la portée des objets de stockage à annoter.
 
 
 
+[[example-of-an-annotation-rule-with-condition-groups]]
 == Exemple de règle d'annotation avec groupes de condition
 
 Considérons une règle d'annotation avec deux groupes de condition pour un volume ; chaque groupe contient les deux conditions suivantes :
