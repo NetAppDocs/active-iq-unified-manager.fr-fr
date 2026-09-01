@@ -48,11 +48,11 @@ Le serveur doit être dédié à l'exécution de Unified Manager. Aucune autre a
 
 Les packs tiers suivants sont inclus avec Unified Manager. Si ces modules tiers ne sont pas installés sur votre système, Unified Manager les installe dans le cadre de l'installation.
 
-* Microsoft Visual C&#43;&#43; Redistributable Packages pour Visual Studio 2015 version 14.26.28720.3
-* MySQL Community Edition version 8.4.7
+* Packages redistribuables Microsoft Visual C++ pour Visual Studio 2015 version 14.29.30133.0
+* MySQL Community Edition version 8.4.10
 * Python 3.13.3
-* Version OpenJDK 17.0.14+6
-* 7-zip version 24.09 ou ultérieure
+* OpenJDK version 17.0.15+6
+* 7-zip version 25.01 ou ultérieure
 
 
 [NOTE]
@@ -67,7 +67,7 @@ Si MySQL est préinstallé, assurez-vous que :
 * Le nom du service est « `MYSQL84` ».
 
 
-Unified Manager est déployé sur un serveur Web WildFly. WildFly 26.1.3 est fourni et configuré avec Unified Manager.
+Unified Manager est déployé sur un serveur web WildFly. WildFly 27.0.1.Final est intégré et configuré avec Unified Manager.
 
 [NOTE]
 ====

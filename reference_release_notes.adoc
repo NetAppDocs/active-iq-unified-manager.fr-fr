@@ -7,7 +7,7 @@ summary: Fournit un résumé des nouvelles fonctionnalités, des limitations et 
 = Notes de mise à jour
 :allow-uri-read: 
 :icons: font
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 
 [role="lead"]

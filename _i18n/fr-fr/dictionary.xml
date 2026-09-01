@@ -11242,7 +11242,6 @@
   <block id="ed2b47ce4d6fcfacbe77e96d5e7bf8fb" category="list-text">Dans la boîte de dialogue *Supprimer vCenter*, cliquez sur *OK* pour confirmer la demande de suppression.</block>
   <block id="863843d0337c17ec7301aee27dad4298" category="paragraph">Vous pouvez mettre à jour les versions OpenJDK dans les familles de versions. Par exemple, vous pouvez mettre à niveau OpenJDK 11.0.16 vers OpenJDK 11.0.18, mais vous ne pouvez pas mettre directement à jour OpenJDK 11 vers OpenJDK 12.</block>
   <block id="aa2b11ad1dd4cd77a6434da6fa1398a2" category="list-text">Copiez les répertoires et les fichiers à partir du résultat<block ref="30c81266c64bb09194fbb76d80c99fc1" prefix=" " category="inline-code"></block> répertoire (par exemple,<block ref="20ea71c4664ee137228518ed973e20e3" prefix=" " category="inline-code"></block> À l'emplacement où Java est installé. Exemple :<block ref="b7373e296aa12e5caf1e84edf230028c" prefix=" " category="inline-code"></block></block>
-  <block id="b39eb8b293aab19c862c53f0897b4ab2" category="paragraph">Unified Manager est déployé sur un serveur Web WildFly. WildFly 26.1.3 est fourni et configuré avec Unified Manager.</block>
   <block id="3a44bb5359e8b73237753f7fe7d14cc2" category="paragraph">Par exemple, si la version installée est Unified Manager 9.9 et que vous souhaitez effectuer une mise à niveau vers Unified Manager 9.14, vous suivez une séquence de mises à niveau.</block>
   <block id="1e2075a18224b2ccd4cd9feb5cb36456" category="list-text">Mise à niveau 9.11 -&gt; 9.13</block>
   <block id="de77bda92bea07bb345ff4c0d56146c5" category="list-text">Mise à niveau 9.13 -&gt; 9.14</block>
@@ -11404,7 +11403,6 @@ Protégez les applications avec des LUN ; vous pouvez afficher et contrôler ces
   <block id="33e8b626195d8e65e8a07472d5254939" category="list-text">Tous les clusters sont pris en charge, à l'exception des systèmes ASA r2.</block>
   <block id="d2dc935b8c37a6fe50f8b17f0fb9d07d" category="list-text">Téléchargez le fichier d'installation ou le fichier zip d'Unified Manager Windows dans un répertoire cible du système Windows. Extrayez le fichier zip, si nécessaire, et naviguez jusqu'au répertoire où se trouve le fichier d'installation. Cliquez avec le bouton droit de la souris et exécutez le fichier exécutable du programme d'installation de Unified Manager (.exe) en tant qu'administrateur.</block>
   <block id="9d8f72b258db1905ee26b8543db626af" category="paragraph">Les étapes requises pour ajouter de la capacité au répertoire de données sont différentes selon que Unified Manager s'exécute sur un serveur VMware ESXi, sur un serveur Red Hat Linux ou sur un serveur Microsoft Windows.</block>
-  <block id="54ff3f05b478604e2dbd1f521328559d" category="list-text">Microsoft Visual C&amp;#43;&amp;#43; Redistributable Packages pour Visual Studio 2015 version 14.26.28720.3</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">Avant de commencer</block>
   <block id="403384bc7be1a7f4e22bd05d0f8b3ec8" category="paragraph">*Quoi .avant de commencer</block>
   <block id="1b377a56a4ae0b95c40511aa64336c41" category="list-text">La version installée de Workflow Automation doit être 5.1.1P6 ou supérieure.</block>
@@ -12028,7 +12026,6 @@ Protégez les applications avec des LUN ; vous pouvez afficher et contrôler ces
   <block id="21965413ff0ccad2726549ebe4781cf5" category="paragraph">Vous pouvez mettre à niveau Active IQ Unified Manager vers la version 9.18 à partir de la version 9.14 ou 9.16 uniquement.</block>
   <block id="7e473733141d48a79308def35ea0692d" category="paragraph">Vous pouvez mettre à niveau l'appliance virtuelle Active IQ Unified Manager des versions 9.14 ou 9.16 vers la version 9.18.</block>
   <block id="8cd86d5cc1d7f96f096a4fd291bb6b49" category="list-text">Python 3.13.3</block>
-  <block id="bf5c4735a7e8e52a987541b7e8480ae8" category="list-text">7-zip version 24.09 ou ultérieure</block>
   <block id="9326ef08a2cce5f24e4147815b8da2ec" category="list-text">Sélectionnez *Désinstaller ce programme*.  Désinstallez toutes les versions de Python à l'exception de la 3.13.3.  Assurez-vous de conserver la version Python 3.13.3.</block>
   <block id="b81c3af237acc4744b6e92fee57771e0" category="inline-link-macro">la page de téléchargement des archives Oracle Java SE 17</block>
   <block id="885b083e37169e9e86b9244a1e9616e4" category="paragraph">Par exemple, téléchargez le<block ref="e8f39d9e2a4ab6624a21e71fb252a9a9" prefix=" " category="inline-code"></block> fichier de<block ref="d88dbe6bf412b9681e16c6a0a4b735ac" category="inline-link-macro-rx"></block> .</block>
@@ -12053,7 +12050,6 @@ Protégez les applications avec des LUN ; vous pouvez afficher et contrôler ces
   <block id="e8c80cc36155ada87dc563a78796b92f" category="image-alt">installer Flow sur RHEL 2026</block>
   <block id="8645dca85b8ac5fc844aa6c266477f4d" category="summary">Le système doit avoir accès à certains dépôts et paquets afin que le programme d'installation puisse accéder à et installer toutes les dépendances logicielles requises.</block>
   <block id="f0041b2df6c7d0abc50865b06c257260" category="doc">Configurer le logiciel requis pour Unified Manager</block>
-  <block id="9ca50ce4ceb954680a475273fb837226" category="list-text">MySQL Community Edition version 8.4.7 (à partir du référentiel MySQL)</block>
   <block id="2ddfe6c502a2b94b370ca3c37f5b35cc" category="list-text">Python 3.13.3 (provenant du dépôt Red Hat Extra Enterprise Linux Server)</block>
   <block id="bff93131b836db7dbfe3c0ef47a3bdfb" category="inline-link-macro">Configurer le logiciel 7-Zip</block>
   <block id="461c8ff1de784c3f512e2bab8a2bb39d" category="list-text">7zip version 7z2301-linux-x64. Pour plus d'informations, consultez <block ref="aa6b1d720b802c9e7e893bb0ea66ac63" category="inline-link-macro-rx"></block>.</block>
@@ -12076,19 +12072,14 @@ Protégez les applications avec des LUN ; vous pouvez afficher et contrôler ces
   <block id="f36c9656dfe6d8b4341b27eee5cba4cd" category="list-text">Définir les permissions d'exécution :</block>
   <block id="9c0f95d6de9186b24cce94c1c19ad0bb" category="section-title">Vérifiez l'installation</block>
   <block id="d0eba9fa9af1130797e7b097e86e1cf9" category="paragraph">Vérifiez que le package 7-zip a bien été installé sur votre système :</block>
-  <block id="3d96d3e1fe880ce5fb91ceb1a04daf8f" category="paragraph">MySQL 8.4.7 Édition communautaire</block>
   <block id="7942c3cbff858fefeeae13af0754ce91" category="paragraph">7-zip</block>
   <block id="bd4785a5ccc39256a5803dad4bd14553" category="paragraph"><block ref="e3b6ff30090579304f8b0ef931234002" prefix="" category="inline-code"></block></block>
-  <block id="230ac9fdbbe8b31d21322b2382325f25" category="list-text">Si la version installée de MySQL est antérieure à MySQL 8.4.7 Community Edition, entrez la commande suivante pour la désinstaller :</block>
   <block id="9e8e56b6decd77cb1c6c67922d0ea568" category="paragraph">Pour un système Red Hat Enterprise Linux 8, si vous avez des dépôts internes avec JDK 17 - OpenJDK, 7-zip et d'autres packages logiciels fournis par le dépôt AppStream, vous devez désactiver votre dépôt AppStream et installer MySQL Community Server. Exécutez la commande suivante :</block>
   <block id="dc2549c9552cf4727398a4c12030d976" category="paragraph">Pour un système Red Hat Enterprise Linux 8, si vous avez des dépôts internes avec java-17-openjdk, 7-zip et d'autres packages logiciels fournis par le dépôt AppStream, vous devez désactiver votre dépôt AppStream et installer MySQL Community Server. Exécutez la commande suivante :</block>
   <block id="85a7833c7b3c47e46293fd6b5df674cf" category="paragraph">Cette étape supprime tous les packages NetApp RPM associés. Il ne supprime pas les modules logiciels prérequis, tels que Java, MySQL et 7zip.</block>
   <block id="95570f21954a110ac5842214143555f2" category="list-text">*Facultatif :* si nécessaire, supprimez les modules logiciels de support, tels que Java, MySQL et 7zip :</block>
   <block id="9be3489c55784ee9bb690eb74a862d91" category="paragraph"><block ref="4b4071a6e6d8cc80744e78638c7ce679" prefix="" category="inline-code"></block></block>
   <block id="54b48a732c6188d2bcadf3f1d35f5767" category="list-text">Vous devez installer ou mettre à niveau vers la version correcte de 7-zip avant de mettre à niveau Unified Manager. Voir <block ref="aa6b1d720b802c9e7e893bb0ea66ac63" category="inline-link-macro-rx"></block>.</block>
-  <block id="7efa98bf218af7d91336f05884607943" category="list-text">MySQL Community Edition est automatiquement mis à niveau lors de la mise à niveau d'Unified Manager. Si la version installée de MySQL sur votre système est antérieure à 8.4.7, le processus de mise à niveau d'Unified Manager met automatiquement à niveau MySQL vers 8.4.7.</block>
-  <block id="1e4ae16efa77dcf7b5345478d2ccb141" category="list-text">MySQL Community Edition version 8.4.7</block>
-  <block id="7e32873dbcea7d787665ade5210a7e5e" category="list-text">MySQL Community Edition est automatiquement mis à niveau lors de la mise à niveau d'Unified Manager. Si la version installée de MySQL sur votre système est antérieure à 8.4.7, le processus de mise à niveau d'Unified Manager met automatiquement à niveau MySQL vers 8.4.7. Vous ne devez pas exécuter une mise à niveau autonome d'une version antérieure de MySQL vers 8.4.7.</block>
   <block id="3fdc1149ca052bb0caeb62195f6366e2" category="sidebar">Configurer le logiciel requis</block>
   <block id="ef7e8c761b3774b5f1be9fac2702eee1" category="list-text">Vous ne pouvez pas restaurer un répertoire ou un volume à partir d'un instantané dans l'un des scénarios suivants :</block>
   <block id="1682df86d53dde8a42b648d552487863" category="list-text">L’option *Oui, conserver toutes les copies d’instantané* est sélectionnée.</block>
@@ -12113,4 +12104,14 @@ Protégez les applications avec des LUN ; vous pouvez afficher et contrôler ces
   <block id="a6824bb8a91547b80941460f296740e6" category="paragraph">De plus, il existe une limite au nombre de nœuds qu'une seule instance d'Unified Manager peut surveiller avant que vous n'installiez une seconde instance d'Unified Manager. Pour connaître les limites de nœuds, les recommandations concernant le processeur et la mémoire, consultez la <block ref="d981367ba2af9a1ad0ffd7e97f42a3c3" category="inline-link-rx"></block>.</block>
   <block id="10fcd7df2705cd02d708b0d542e4de06" category="paragraph">De plus, il existe une limite au nombre de nœuds qu'une seule instance d'Unified Manager peut surveiller avant que vous n'installiez une seconde instance d'Unified Manager. Pour connaître les limites de nœuds, ainsi que les recommandations concernant le CPU et la mémoire, consultez <block ref="104d951f677faee57cc0f1a91faece05" category="inline-link-macro-rx"></block>.</block>
   <block id="0cfb3eeec6906f18db7d4afb307803d7" category="paragraph">De plus, il existe une limite au nombre de nœuds qu'une seule instance d'Unified Manager peut surveiller avant que vous n'installiez une seconde instance d'Unified Manager. Pour connaître les limites de nœuds, les recommandations concernant le processeur et la mémoire, consultez <block ref="6876c7da67397aff652dc3a6ccdbcf26" category="inline-link-rx"></block>.</block>
+  <block id="18fbc72e34f6db6cc2a91021a22f6685" category="paragraph">Unified Manager est déployé sur un serveur web WildFly. WildFly 27.0.1.Final est intégré et configuré avec Unified Manager.</block>
+  <block id="b4f0bab6ced5839d1e92ed79131b11a2" category="list-text">MySQL Community Edition version 8.4.10 (provenant du dépôt MySQL)</block>
+  <block id="b615c4e0b0d7c85d2dee3a6fd975b521" category="paragraph">MySQL 8.4.10 Community Edition</block>
+  <block id="97393a61ddf5f5207980a27b12ed3e8a" category="list-text">Si la version de MySQL installée est antérieure à MySQL 8.4.10 Community Edition, saisissez la commande suivante pour la désinstaller :</block>
+  <block id="bcdcfd5bc4aef222651ee23de0c085ab" category="list-text">MySQL Community Edition est automatiquement mis à niveau lors de la mise à niveau d'Unified Manager. Si la version de MySQL installée sur votre système est antérieure à 8.4.10, le processus de mise à niveau d'Unified Manager met automatiquement MySQL à niveau vers 8.4.10.</block>
+  <block id="c76f3bc063be89828b42e514a84a8002" category="list-text">Packages redistribuables Microsoft Visual C++ pour Visual Studio 2015 version 14.29.30133.0</block>
+  <block id="1e908f9a2431bb5d3c2c424f38255dfb" category="list-text">MySQL Community Edition version 8.4.10</block>
+  <block id="6c400d4faf41f7de8a4c911b51918555" category="list-text">OpenJDK version 17.0.15+6</block>
+  <block id="d99d6f4a4a2deff3d04c76cf2a1ab80a" category="list-text">7-zip version 25.01 ou ultérieure</block>
+  <block id="0906e47b7d8a1a05c090ca9c48a976c3" category="list-text">MySQL Community Edition est automatiquement mis à niveau lors de la mise à niveau de Unified Manager. Si la version de MySQL installée sur votre système est antérieure à 8.4.10, le processus de mise à niveau de Unified Manager met automatiquement MySQL à niveau vers 8.4.10. Vous ne devez pas effectuer de mise à niveau autonome d'une version antérieure de MySQL vers 8.4.10.</block>
 </blocks>
