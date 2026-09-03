@@ -13,4 +13,4 @@ summary: 'Le workflow d"installation décrit les tâches que vous devez effectue
 [role="lead"]
 Le workflow d'installation décrit les tâches que vous devez effectuer avant d'utiliser Unified Manager.
 
-image::../media/install_flow_on_windows.gif[installer le débit sur les vitres]
+image::../media/install_flow_on_windows.gif[Un diagramme illustrant les prérequis, l'installation d'Unified Manager et les étapes du flux de travail de configuration initiale]

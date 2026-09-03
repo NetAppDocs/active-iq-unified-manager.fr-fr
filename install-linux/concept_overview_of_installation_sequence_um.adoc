@@ -15,4 +15,4 @@ Le workflow d'installation décrit les tâches que vous devez effectuer avant d'
 
 Ces sections décrivent chacun des éléments indiqués dans le flux de travail ci-dessous.
 
-image::../media/overall_um_install_flow.png[débit d'installation global u]
+image::../media/overall_um_install_flow.png[Un diagramme qui montre les flux de travail d'installation, de configuration initiale et de paramètres administratifs d'Unified Manager]

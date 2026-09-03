@@ -28,7 +28,7 @@ Avant d'exécuter les étapes du workflow, assurez-vous que :
 ====
 Le schéma suivant illustre chaque étape du workflow pour le dépannage des problèmes liés à l'utilisation de la capacité des volumes ONTAP.
 
-image::../media/api_gateway_ontap_workflow.gif[workflow ONTAP de la passerelle d'api]
+image::../media/api_gateway_ontap_workflow.gif[Un diagramme qui montre les étapes de l'API Unified Manager et ONTAP pour le dépannage des alertes de capacité de volume]
 
 Ce workflow couvre les points d'invocation des API REST Unified Manager et ONTAP.
 

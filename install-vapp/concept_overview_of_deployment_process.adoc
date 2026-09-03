@@ -13,4 +13,4 @@ summary: 'Le workflow de déploiement décrit les tâches à effectuer avant d"u
 [role="lead"]
 Le workflow de déploiement décrit les tâches à effectuer avant d'utiliser Unified Manager.
 
-image::../media/deployment_sequence_oc_6_0.gif[séquence de déploiement oc 6 0]
+image::../media/deployment_sequence_oc_6_0.gif[Un diagramme illustrant les prérequis de déploiement d'Unified Manager, le déploiement de l'appliance et les étapes de configuration initiales]

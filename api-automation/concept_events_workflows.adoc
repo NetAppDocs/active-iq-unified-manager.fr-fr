@@ -15,7 +15,7 @@ Lorsqu'un objet de stockage de votre data Center franchit un seuil, vous obtenez
 
 Ce flux de travail utilise l'exemple d'un volume en tant qu'objet de ressource. Vous pouvez utiliser le `events` API pour récupérer la liste d'événements liés à un volume, analyser les problèmes critiques pour ce volume, puis prendre des mesures correctives pour résoudre le problème.
 
-image::../media/handling_event_related_issues_of_a_storage_object_flowchart.gif[gestion des problèmes liés aux événements d'un organigramme d'objet de stockage]
+image::../media/handling_event_related_issues_of_a_storage_object_flowchart.gif[Un organigramme illustrant l'analyse des événements de volume, depuis la liste des événements jusqu'à la mise en œuvre des mesures correctives et la fin.]
 
 Procédez comme suit afin de déterminer les problèmes rencontrés sur votre volume avant de prendre les mesures correctives qui s'imposent.
 

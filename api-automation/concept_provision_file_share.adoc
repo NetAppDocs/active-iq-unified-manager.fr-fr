@@ -15,7 +15,7 @@ Vous pouvez provisionner les partages CIFS et les partages de fichiers NFS sur v
 
 Le schéma suivant illustre chaque étape d'un workflow de provisionnement de partage de fichiers. Il inclut le provisionnement des partages CIFS et des partages de fichiers NFS.
 
-image::../media/create_fileshares.gif[créer des partages de fichiers]
+image::../media/create_fileshares.gif[Un diagramme illustrant le flux de travail de provisionnement des partages de fichiers CIFS et NFS, de la configuration du SVM à la création du partage]
 
 [NOTE]
 ====

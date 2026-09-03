@@ -25,4 +25,4 @@ En fonction de la configuration des paramètres dans la page Configuration des a
 
 Ce flux de travail est présenté dans le schéma suivant.
 
-image::../media/um_perf_threshold_event_flow.gif[flux d'événement seuil perf. um]
+image::../media/um_perf_threshold_event_flow.gif[Un diagramme illustrant le traitement des événements de seuil, de la collecte des compteurs à la notification par e-mail]

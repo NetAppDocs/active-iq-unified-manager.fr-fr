@@ -22,7 +22,7 @@ Une sauvegarde de vidage de base de données consiste en un seul fichier dans le
 
 La première fois que vous générez une sauvegarde de base de données, un seul fichier est créé dans le répertoire de sauvegarde et un fichier de sauvegarde complet est créé dans le répertoire du référentiel de base de données. La prochaine fois que vous générez une sauvegarde, un seul fichier est créé dans le répertoire de sauvegarde et un fichier de sauvegarde incrémentielle est créé dans le répertoire de référentiel de base de données qui contient les différences du fichier de sauvegarde complet. Ce processus se poursuit au fur et à mesure que vous créez des sauvegardes supplémentaires, jusqu'au paramètre de rétention maximum, comme indiqué dans la figure suivante.
 
-image::../media/database_backup.gif[sauvegarde des bases de données]
+image::../media/database_backup.gif[Un diagramme illustrant trois fichiers de répertoire de sauvegarde pointant vers des fichiers complets et incrémentiels dans le référentiel de base de données]
 
 [NOTE]
 ====

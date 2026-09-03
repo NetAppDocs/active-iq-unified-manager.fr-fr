@@ -13,4 +13,4 @@ summary: 'Le workflow de configuration décrit les tâches que vous devez effect
 [role="lead"]
 Le workflow de configuration décrit les tâches que vous devez effectuer avant d'utiliser Unified Manager.
 
-image::../media/post_install_flow.png[débit post-installation]
+image::../media/post_install_flow.png[Un diagramme illustrant le flux de travail de configuration initiale d'Unified Manager et les tâches de configuration administrative]

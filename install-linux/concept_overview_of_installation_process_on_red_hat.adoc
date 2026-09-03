@@ -13,4 +13,4 @@ summary: 'Le workflow d"installation décrit les tâches que vous devez effectue
 [role="lead"]
 Le workflow d'installation décrit les tâches que vous devez effectuer avant d'utiliser Unified Manager.
 
-image::../media/install_flow_on_rhel_2026.png[installer Flow sur RHEL 2026]
+image::../media/install_flow_on_rhel_2026.png[Un diagramme qui montre les prérequis, l'installation d'Unified Manager et les flux de travail de configuration initiale sur Red Hat Linux]

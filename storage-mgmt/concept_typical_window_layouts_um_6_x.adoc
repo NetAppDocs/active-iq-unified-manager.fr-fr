@@ -20,11 +20,11 @@ Toutes les fenêtres ne contiennent pas tous les éléments des schémas suivant
 [[object-list-window-layout]]
 == Disposition de la fenêtre de liste d'objets
 
-image::../media/object_list.png[liste d'objets]
+image::../media/object_list.png[Capture d'écran de la fenêtre de liste d'objets Active IQ Unified Manager avec les commandes de navigation, de recherche, de filtrage et de rapport clairement identifiées]
 
 
 
 [[object-details-window-layout]]
 == Disposition de la fenêtre Détails de l'objet
 
-image::../media/object_details.gif[détails de l'objet]
+image::../media/object_details.gif[Capture d'écran montrant une fenêtre de détails de volume Active IQ Unified Manager avec des onglets, des informations sur la capacité, des objets associés, l'historique et les événements]

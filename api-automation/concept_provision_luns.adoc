@@ -15,7 +15,7 @@ Vous pouvez provisionner des LUN sur vos SVM (Storage Virtual machines) en utili
 
 Le schéma suivant illustre les étapes d'un workflow de provisionnement de LUN.
 
-image::../media/create_luns.gif[créer des lun]
+image::../media/create_luns.gif[Un diagramme illustrant le flux de travail de création d'un LUN, incluant les étapes relatives à la Storage VM, au niveau de service et à l'igroup.]
 
 [NOTE]
 ====

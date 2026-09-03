@@ -19,7 +19,7 @@ L'une des méthodes permettant de déterminer le manque d'espace de vos agrégat
 
 L'organigramme suivant illustre le processus de récupération des informations sur les volumes dont le mode autotaille est activé :
 
-image::../media/space_utilization.gif[utilisation de l'espace]
+image::../media/space_utilization.gif[Organigramme permettant d'identifier les volumes surutilisés en mode de dimensionnement automatique dans les agrégats de clusters]
 
 Ce flux suppose que les clusters ont déjà été créés dans ONTAP et ajoutés à Unified Manager.
 

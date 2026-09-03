@@ -13,4 +13,4 @@ summary: Arbre de décision décrivant le flux de travail du rapport.
 [role="lead"]
 Arbre de décision décrivant le flux de travail du rapport.
 
-image::../media/reports_view_workflow.png[flux de travail de la vue des rapports]
+image::../media/reports_view_workflow.png[Un diagramme illustrant le flux de travail d'un arbre de décision pour la consultation, la personnalisation, le chargement et le téléchargement de rapports]
