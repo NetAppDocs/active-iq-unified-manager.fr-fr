@@ -20,6 +20,11 @@ Cette tâche supprime le cluster sélectionné de Unified Manager. Après le ret
 
 La suppression d'un cluster supprime également tous ses objets de stockage, ses données historiques, les services de stockage et tous les événements associés à partir d'Unified Manager. Ces changements sont reflétés sur les pages d'inventaire et les pages de détails après le prochain cycle de collecte des données.
 
+[NOTE]
+====
+Vous devez supprimer un cluster de Unified Manager avant de le mettre hors service. Si le cluster est déjà hors ligne ou inaccessible lorsque vous tentez de le supprimer, Unified Manager ne peut pas communiquer avec le cluster pour supprimer l'enregistrement de l'application et les abonnements Event Management System (EMS) configurés. Cela entraînera l'échec du processus de suppression ou le rendra non réactif avant son achèvement.
+
+====
 .Étapes
 . Dans le volet de navigation de gauche, cliquez sur *Storage Management* > *Cluster Setup*.
 . Sur la page Cluster Setup (Configuration du cluster), sélectionnez le cluster à supprimer et cliquez sur *Remove* (Supprimer*).
