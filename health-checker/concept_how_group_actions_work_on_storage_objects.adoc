@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: group actions, work, storage, objects 
 summary: 'Une action de groupe est une opération effectuée sur tous les objets de stockage d"un groupe. Par exemple, vous pouvez configurer l"action de groupe de seuils de volume pour modifier simultanément les valeurs de seuil de volume de tous les volumes d"un groupe.' 
 ---
-= Fonctionnement des actions de groupe sur les objets de stockage
+= Comprendre le fonctionnement des actions de groupe sur les objets de stockage dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

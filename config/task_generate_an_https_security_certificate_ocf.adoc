@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: generate, https, security, certificate 
 summary: Lors de la première installation de Active IQ Unified Manager, un certificat HTTPS par défaut est installé. Vous pouvez générer un nouveau certificat de sécurité HTTPS qui remplace le certificat existant. 
 ---
-= Générer un certificat de sécurité HTTPS
+= Générez un certificat de sécurité HTTPS dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: virtual, infrastructure, hardware, system, requirements, virtual appliance 
 summary: 'L"installation de Unified Manager sur une infrastructure virtuelle ou un système physique doit satisfaire aux exigences minimales en matière de mémoire, de processeur et d"espace disque.' 
 ---
-= Configuration minimale requise pour l'infrastructure virtuelle et le système matériel
+= Découvrez les exigences en matière d'infrastructure virtuelle et de matériel pour Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

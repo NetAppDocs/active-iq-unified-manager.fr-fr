@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: options, improving, workload, performance, client-side 
 summary: 'Vous pouvez vérifier les charges de travail de vos clients, par exemple les applications ou les bases de données, qui envoient des E/S aux volumes concernés par un événement de performances afin de déterminer si une modification côté client peut corriger l"événement.' 
 ---
-= Possibilité d'améliorer les performances des charges de travail côté client
+= Améliorez les performances de la charge de travail en ajustant les paramètres côté client dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

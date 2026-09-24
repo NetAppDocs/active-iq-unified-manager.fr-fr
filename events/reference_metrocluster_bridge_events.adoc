@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: metrocluster, bridge, events, impact area, availability 
 summary: 'Les événements du pont MetroCluster fournissent des informations sur l"état des ponts afin que vous puissiez surveiller les problèmes potentiels. Les événements sont regroupés par zone d"impact et incluent le nom de l"événement et de l"interruption, le niveau d"impact, le type de source et la gravité.' 
 ---
-= Événements du pont MetroCluster
+= Découvrez les événements Bridge MetroCluster dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

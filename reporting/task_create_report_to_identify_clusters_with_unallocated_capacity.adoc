@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: clusters, unallocated, LUN, capacity, indentify, additional, workloads 
 summary: 'Vous pouvez créer un rapport pour trouver les clusters dont la capacité LUN n"est pas allouée est la plus élevée et où 5 To, afin de faciliter l"identification des emplacements où ajouter des workloads supplémentaires.' 
 ---
-= Créer un rapport pour identifier les clusters avec la plus grande capacité LUN non allouée
+= Identifiez les clusters disposant d'une capacité LUN non allouée dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

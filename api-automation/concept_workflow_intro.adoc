@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: common, workflows, storage, management 
 summary: 'Les workflows courants fournissent aux développeurs d"applications client des exemples de la façon dont une application client peut appeler les API Active IQ Unified Manager pour exécuter des fonctions courantes de gestion du stockage. Cette section contient certains de ces exemples de flux de travail.' 
 ---
-= Workflows API communs pour la gestion du stockage
+= Comprendre les flux de travail API courants pour la gestion du stockage dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

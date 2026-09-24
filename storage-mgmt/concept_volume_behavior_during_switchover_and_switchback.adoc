@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: volume, behavior, switchover, switchback 
 summary: 'Les événements qui déclenchent un basculement ou un rétablissement entraînent le déplacement des volumes actifs d"un cluster vers l"autre cluster du groupe de reprise sur incident. Les volumes du cluster qui étaient actifs et devaient transmettre des données aux clients sont arrêtés, et les volumes de l"autre cluster sont activés et commencent à transmettre les données. Unified Manager surveille uniquement les volumes actifs et en cours d"exécution.' 
 ---
-= Comportement des volumes lors du basculement et du rétablissement
+= Découvrez le comportement du volume lors des basculements et des retours en arrière dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

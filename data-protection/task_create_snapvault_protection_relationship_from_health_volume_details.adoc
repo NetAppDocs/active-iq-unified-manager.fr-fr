@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapvault, protection, relationship, volume, health details page 
 summary: 'Vous pouvez créer une relation SnapVault à l"aide de la page des détails de volume/intégrité, de sorte que les sauvegardes de données soient activées à des fins de protection sur des volumes.' 
 ---
-= Créer une relation de protection SnapVault à partir de la page Détails du volume/de l'état de santé
+= Créez une relation de protection SnapVault à partir de la page Détails du volume/de l'état dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

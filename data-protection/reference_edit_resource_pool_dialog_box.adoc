@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, resource pool, dialog box 
 summary: 'Vous pouvez utiliser la boîte de dialogue Modifier le pool de ressources pour modifier le nom et la description d"un pool de ressources existant. Par exemple, si le nom et la description d"origine sont inexacts ou incorrects, vous pouvez les modifier afin qu"ils soient plus précis.' 
 ---
-= Boîte de dialogue Modifier le pool de ressources
+= Utilisez la boîte de dialogue Modifier le pool de ressources dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

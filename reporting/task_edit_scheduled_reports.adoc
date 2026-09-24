@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: editing, schedule, reports 
 summary: Une fois les rapports planifiés, vous pouvez les modifier sur la page Rapports programmes. 
 ---
-= Modifier les rapports planifiés
+= Modifier les rapports planifiés dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

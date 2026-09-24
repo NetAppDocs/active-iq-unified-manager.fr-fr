@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage, qos, control, workload, throughput 
 summary: 'Vous pouvez créer un groupe de règles de qualité de services (QoS) pour contrôler la limite des E/S par seconde (IOPS) ou du débit (Mbit/s) pour les workloads qu"il contient. Si les charges de travail font partie d"un groupe de règles sans limite définie, telles que le groupe de règles par défaut ou la limite définie ne répond pas à vos besoins, vous pouvez augmenter la limite ou déplacer les charges de travail vers un nouveau groupe de règles ou un groupe existant présentant la limite souhaitée.' 
 ---
-= Comment la QoS du stockage peut contrôler le débit des workloads
+= Contrôlez le débit des charges de travail grâce à la QoS de stockage dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

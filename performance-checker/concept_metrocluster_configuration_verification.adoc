@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: metrocluster, configuration, verification 
 summary: Vous pouvez éviter les problèmes de performances des charges de travail en miroir dans une configuration MetroCluster en vous assurant que la configuration MetroCluster est correctement configurée. Vous pouvez également améliorer les performances des charges de travail en modifiant la configuration ou en mettant à niveau des composants logiciels ou matériels. 
 ---
-= Vérification de la configuration MetroCluster
+= Vérifiez les configurations MetroCluster dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

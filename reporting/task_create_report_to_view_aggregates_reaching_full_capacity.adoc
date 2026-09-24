@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, aggregates, reaching, full capacity 
 summary: 'Vous pouvez créer un rapport pour localiser les agrégats arrivant à pleine capacité, afin de pouvoir ajouter de la capacité ou déplacer les charges de travail vers d"autres agrégats.' 
 ---
-= Créer un rapport pour afficher les agrégats atteignant leur pleine capacité
+= Créez un rapport pour visualiser les agrégats atteignant leur pleine capacité dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

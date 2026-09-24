@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: objects, counters, combination, threshold, policies 
 summary: 'Seuls certains compteurs de performances peuvent être utilisés ensemble dans le cadre de stratégies mixtes. Lorsque des compteurs de performances primaires et secondaires sont spécifiés, les deux compteurs de performances doivent dépasser leurs limites maximales avant la génération d"un événement.' 
 ---
-= Quels objets et compteurs peuvent être utilisés dans les stratégies de seuils de combinaison
+= Comprendre les objets de stratégie de seuil combinés et les compteurs dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

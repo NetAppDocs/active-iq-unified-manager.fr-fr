@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, volume, health, thresholds, groups 
 summary: 'Vous pouvez configurer des seuils d"état du volume au niveau du groupe pour la capacité, les copies Snapshot, les quotas qtree, la croissance et les inodes.' 
 ---
-= Configurer les seuils de santé du volume pour les groupes
+= Configurez les seuils de santé des volumes pour les groupes dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

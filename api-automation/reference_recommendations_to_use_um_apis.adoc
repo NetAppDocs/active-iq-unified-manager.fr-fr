@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: recommendations, apis, active iq, unified, manager 
 summary: Lorsque vous utilisez des API dans Active IQ Unified Manager, vous devez respecter certaines pratiques recommandées. 
 ---
-= Recommandations pour l'utilisation des API pour Active IQ Unified Manager
+= Suivez les pratiques recommandées pour l'utilisation des API Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

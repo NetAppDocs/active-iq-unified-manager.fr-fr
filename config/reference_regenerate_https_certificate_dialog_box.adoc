@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: regenerate, https certificate, dialog, box 
 summary: La boîte de dialogue régénérer le certificat HTTPS vous permet de personnaliser les informations de sécurité, puis de générer un nouveau certificat HTTPS avec ces informations. 
 ---
-= Boîte de dialogue régénérer le certificat HTTPS
+= Boîte de dialogue « Régénérer un certificat HTTPS » dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

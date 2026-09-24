@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: metrocluster, switch, events, impact area, availability 
 summary: 'Les événements du commutateur MetroCluster fournissent des informations sur l"état des commutateurs MetroCluster, ce qui vous permet de surveiller l"éventualité de problèmes. Les événements sont regroupés par zone d"impact et incluent le nom de l"événement et de l"interruption, le niveau d"impact, le type de source et la gravité.' 
 ---
-= Événements des commutateurs MetroCluster
+= Découvrez les événements de commutation MetroCluster dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

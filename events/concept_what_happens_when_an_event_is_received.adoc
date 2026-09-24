@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: happens, when, event, received 
 summary: 'Lorsqu"Unified Manager reçoit un événement, celui-ci s"affiche sur la page Tableau de bord, dans la page d"inventaire de la gestion des événements, dans les onglets Summary et Explorer de la page Cluster/Performance, ainsi que dans la page d"inventaire spécifique à chaque objet (par exemple, la page d"inventaire volumes/Health).' 
 ---
-= Que se passe-t-il lorsqu'un événement est reçu
+= Comprendre comment Active IQ Unified Manager gère un événement reçu
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

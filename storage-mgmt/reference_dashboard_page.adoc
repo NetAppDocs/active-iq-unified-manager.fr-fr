@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: dashboard page, 
 summary: La page Tableau de bord comporte des « panneaux » qui indiquent le niveau élevé de capacité, de performances et de sécurité des clusters que vous surveillez. Cette page fournit également un panneau actions de gestion qui répertorie les correctifs que Unified Manager peut apporter pour résoudre certains événements. 
 ---
-= Page de tableau de bord
+= Découvrez la page du tableau de bord Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

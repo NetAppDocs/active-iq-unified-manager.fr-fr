@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage, services, events, impact area, configuration, protection 
 summary: 'Les événements des services de stockage vous fournissent des informations sur la création et l"abonnement des services de stockage, ce qui vous permet de surveiller les problèmes potentiels. Les événements sont regroupés par zone d"impact et incluent le nom de l"événement et de l"interruption, le niveau d"impact, le type de source et la gravité.' 
 ---
-= Événements des services de stockage
+= Découvrez les événements liés aux services de stockage dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

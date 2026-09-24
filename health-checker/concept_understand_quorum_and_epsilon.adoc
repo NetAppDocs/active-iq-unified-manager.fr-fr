@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, quorum, epsilon 
 summary: 'Le quorum et l"epsilon sont des mesures importantes de l"état de santé du cluster et des fonctions qui indiquent ensemble que les clusters répondent aux problèmes potentiels de communication et de connectivité.' 
 ---
-= Comprendre le quorum et l'epsilon
+= Comprendre le quorum et l'epsilon dans les clusters ONTAP dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

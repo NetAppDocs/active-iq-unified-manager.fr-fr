@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: service, processor, events, impact area, availability 
 summary: 'Les événements du processeur de service fournissent des informations sur l"état de votre processeur de service, ce qui vous permet de contrôler l"éventualité d"un problème. Les événements sont regroupés par zone d"impact et incluent le nom de l"événement et de l"interruption, le niveau d"impact, le type de source et la gravité.' 
 ---
-= Événements du processeur de service
+= Découvrez les événements du Service Processor dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: role-based, access, control 
 summary: 'Le contrôle d"accès basé sur des rôles (RBAC) permet aux administrateurs de gérer des groupes d"utilisateurs en définissant des rôles. Si vous devez restreindre l"accès à des fonctionnalités spécifiques aux administrateurs sélectionnés, vous devez configurer des comptes d"administrateur pour eux. Si vous souhaitez limiter les informations que les administrateurs peuvent afficher et les opérations qu"ils peuvent effectuer, vous devez appliquer des rôles aux comptes d"administrateur que vous créez.' 
 ---
-= Rôle du contrôle d'accès basé sur des rôles
+= Découvrez le contrôle d'accès basé sur les rôles dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-Le contrôle d'accès basé sur des rôles (RBAC) permet aux administrateurs de gérer des groupes d'utilisateurs en définissant des rôles. Si vous devez restreindre l'accès à des fonctionnalités spécifiques aux administrateurs sélectionnés, vous devez configurer des comptes d'administrateur pour eux. Si vous souhaitez limiter les informations que les administrateurs peuvent afficher et les opérations qu'ils peuvent effectuer, vous devez appliquer des rôles aux comptes d'administrateur que vous créez.
+Le RBAC (contrôle d'accès basé sur les rôles) offre la possibilité de contrôler qui a accès aux différentes fonctionnalités et ressources sur le serveur Active IQ Unified Manager. Le RBAC permet aux administrateurs de gérer des groupes d'utilisateurs en définissant des rôles. Si vous devez restreindre l'accès à certaines fonctionnalités à des administrateurs spécifiques, vous devez créer des comptes d'administrateur pour eux. Si vous souhaitez limiter les informations que les administrateurs peuvent consulter et les opérations qu'ils peuvent effectuer, vous devez appliquer des rôles aux comptes d'administrateur que vous créez.
 
 Le serveur de gestion utilise le contrôle d'accès basé sur les rôles pour les autorisations de connexion utilisateur et de rôle. Si vous n'avez pas modifié les paramètres par défaut du serveur de gestion pour l'accès administrateur utilisateur, vous n'avez pas besoin de vous connecter pour les afficher.
 

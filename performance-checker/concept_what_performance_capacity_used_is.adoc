@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, capacity, used 
 summary: 'Le compteur de performances utilisé vous permet de déterminer si les performances d"un nœud ou d"un agrégat atteignent un point où les performances peuvent se dégrader si les charges de travail augmentent. Il peut également vous indiquer si un nœud ou un agrégat est actuellement utilisé pendant des périodes spécifiques. Les performances utilisées sont similaires aux taux d"utilisation, mais la première fournit des informations supplémentaires sur les capacités de performances disponibles dans une ressource physique pour une charge de travail spécifique.' 
 ---
-= Quelle est la capacité des performances utilisée
+= Comprendre le compteur de capacité de performance utilisée dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

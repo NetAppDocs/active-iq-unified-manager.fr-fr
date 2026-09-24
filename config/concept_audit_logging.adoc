@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: audit, logging 
 summary: 'Vous pouvez détecter si les journaux d"audit ont été compromis avec l"utilisation des journaux d"audit. Toutes les activités effectuées par un utilisateur sont surveillées et consignées dans les journaux d"audit. Les audits sont effectués pour toutes les interfaces utilisateur et les fonctionnalités des API exposées publiquement de Active IQ Unified Manager.' 
 ---
-= Consignation d'audits
+= Découvrez les journaux d'audit dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

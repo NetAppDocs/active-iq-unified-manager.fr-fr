@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, anti-ransomware status, volumes, storage VMs, SVMs 
 summary: Vous pouvez afficher la liste de tous les volumes et machines virtuelles de stockage, ainsi que leur état actuel anti-ransomware afin de déterminer si les données de vos volumes sont correctement protégées contre les attaques par ransomware. 
 ---
-= Affichage de l'état anti-ransomware de tous les volumes et machines virtuelles de stockage
+= Consultez l'état de protection anti-ransomware de tous les volumes et machines virtuelles de stockage dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

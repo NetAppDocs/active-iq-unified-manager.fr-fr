@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: security criteria, evaluated 
 summary: De manière générale, les critères de sécurité des clusters ONTAP, des machines virtuelles de stockage et des volumes sont évalués sur la base des recommandations définies dans le guide NetApp de renforcement de la sécurité des environnements ONTAP 9. 
 ---
-= Quels sont les critères de sécurité évalués
+= Comprendre comment Active IQ Unified Manager évalue les critères de sécurité
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

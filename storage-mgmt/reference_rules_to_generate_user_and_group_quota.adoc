@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: rules, generate, user, group, quota, email, address, page, area, define, add comments, syntax, command buttons 
 summary: 'La page règles de génération des adresses e-mail de quota d"utilisateur et de groupe vous permet de créer des règles pour spécifier des adresses e-mail en fonction des quotas d"utilisateur associés aux clusters, SVM, volumes, qtrees, utilisateurs, ou groupes d"utilisateurs. Une notification est envoyée à l"adresse e-mail spécifiée lorsqu"un quota est dépassé.' 
 ---
-= Règles de génération de la page adresse e-mail de quota d'utilisateur et de groupe
+= Découvrez les règles relatives aux adresses e-mail de quota dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, aggregate, health details page 
 summary: 'Vous pouvez utiliser la page des détails agrégat/intégrité pour afficher des informations détaillées sur l"agrégat sélectionné, telles que la capacité, des informations sur le disque, les détails de la configuration et les événements générés. Vous pouvez également afficher des informations sur les objets associés et les alertes associées pour cet agrégat.' 
 ---
-= Page Détails de l'agrégat/de l'intégrité
+= Affichez la page Détails de l’agrégat / Santé dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

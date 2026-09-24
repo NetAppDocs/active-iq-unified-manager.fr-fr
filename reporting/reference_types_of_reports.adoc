@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: types, reports 
 summary: 'Ce tableau fournit une liste complète des vues et des pages d"inventaire disponibles sous forme de rapports que vous pouvez personnaliser, télécharger et planifier.' 
 ---
-= Types de rapports
+= Découvrez les différents types de rapports dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

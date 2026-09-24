@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: modify, storage, workloads 
 summary: La modification des charges de travail de stockage consiste à mettre à jour les LUN ou les partages de fichiers dont les paramètres sont manquants ou à modifier les paramètres existants. 
 ---
-= Modifier les charges de travail de stockage à l'aide d'API
+= Modifiez les charges de travail de stockage à l'aide des API dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

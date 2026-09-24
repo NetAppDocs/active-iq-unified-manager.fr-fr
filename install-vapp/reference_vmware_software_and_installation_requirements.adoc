@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: vmware, software, installation, requirements 
 summary: 'Le système VMware vSphere sur lequel vous installez Unified Manager nécessite une version spécifique du système d"exploitation et des versions spécifiques du logiciel de support.' 
 ---
-= Conditions requises pour le logiciel VMware et son installation
+= Découvrez les logiciels VMware et les exigences d'installation d'Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

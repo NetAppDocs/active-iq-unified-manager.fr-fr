@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: review, impact, configuration, changes, workload, performance 
 summary: 'Les modifications de configuration sur le cluster, telles qu"une défaillance de disque, un basculement haute disponibilité ou un volume déplacé, peuvent avoir un impact négatif sur la performance du volume et entraîner une augmentation de la latence.' 
 ---
-= Examinez l'impact des modifications de configuration sur les performances des charges de travail
+= Évaluez comment les modifications de configuration affectent les performances de la charge de travail dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

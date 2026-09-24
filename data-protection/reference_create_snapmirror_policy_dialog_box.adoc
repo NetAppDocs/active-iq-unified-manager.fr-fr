@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapmirror, policy, dialog box 
 summary: 'La boîte de dialogue Créer une règle SnapMirror vous permet de créer une règle afin de définir la priorité des transferts SnapMirror. Les règles vous permettent d"optimiser l"efficacité des transferts entre la source et la destination.' 
 ---
-= Boîte de dialogue Créer une règle SnapMirror
+= Utilisez la boîte de dialogue Créer une stratégie SnapMirror dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: top, performers, page 
 summary: 'La page Top Performers affiche les objets de stockage dont les performances sont les plus élevées ou les performances les plus faibles, en fonction du compteur de performances sélectionné. Par exemple, dans la catégorie Storage VM, vous pouvez afficher les SVM qui possèdent les IOPS les plus élevées, ou la latence la plus élevée, ou les Mo/s. Cette page indique également si l"un des meilleurs collaborateurs a des événements de performance actifs (nouveaux ou reconnus).' 
 ---
-= Haut de la page artistes interprètes ou exécutants
+= Affichez la page Top Performers dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

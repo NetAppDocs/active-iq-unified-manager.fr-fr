@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: logs, troubleshooting 
 summary: 'Les journaux système vous permettent d"analyser les causes des défaillances et de résoudre les problèmes susceptibles de survenir lors de l"exécution des API.' 
 ---
-= Journaux pour le dépannage
+= Dépannez à l'aide des journaux système dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

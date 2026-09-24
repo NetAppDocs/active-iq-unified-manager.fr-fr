@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: reverse, resync, dialog box 
 summary: 'Lorsque la relation de protection est rompue car le volume source est désactivé et la destination est créée un volume en lecture/écriture, la resynchronisation inverse vous permet d"inverser la direction de la relation. La destination devient ainsi la nouvelle source et la nouvelle destination devient la nouvelle destination.' 
 ---
-= Boîte de dialogue Reverse Resync
+= Inversion de la resynchronisation dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resource, pools, page 
 summary: La page pools de ressources affiche les pools de ressources existants et leurs membres, et vous permet de créer, contrôler et gérer des pools de ressources à des fins de provisionnement. 
 ---
-= Page pools de ressources
+= Découvrez la page relative aux pools de ressources dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, maintenance, window 
 summary: 'Vous définissez une fenêtre de maintenance Unified Manager afin de supprimer les événements et les alertes d"une période spécifique lorsque vous avez planifié la maintenance du cluster et que vous ne souhaitez pas recevoir un grand nombre de notifications non souhaitées.' 
 ---
-= Qu'est-ce qu'une fenêtre de maintenance Unified Manager
+= Découvrez les fenêtres de maintenance d'Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

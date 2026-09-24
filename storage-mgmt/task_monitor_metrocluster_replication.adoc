@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, metrocluster, replication 
 summary: 'Vous pouvez contrôler et diagnostiquer l"état de santé général des connexions logiques tout en symétrisant les données. Vous pouvez identifier les problèmes ou tout risque qui interrompt la mise en miroir des composants de cluster, tels que les agrégats, les nœuds et les machines virtuelles de stockage.' 
 ---
-= Surveiller la réplication de MetroCluster
+= Surveillez la réplication MetroCluster dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resolve, protection, job failure 
 summary: 'Ce flux de travail fournit un exemple d"identification et de résolution d"une défaillance de tâche de protection à partir du tableau de bord Unified Manager.' 
 ---
-= Résoudre l'échec d'une tâche de protection
+= Résoudre un échec de tâche de protection dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

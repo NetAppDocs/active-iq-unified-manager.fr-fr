@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: window, layout, customization 
 summary: 'Active IQ Unified Manager vous permet de personnaliser la disposition des informations sur les pages d"objets réseau et de stockage. En personnalisant les fenêtres, vous pouvez contrôler les données qui sont affichées et la façon dont elles sont affichées.' 
 ---
-= Personnalisation de la disposition des fenêtres
+= Personnalisation de la disposition des fenêtres dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

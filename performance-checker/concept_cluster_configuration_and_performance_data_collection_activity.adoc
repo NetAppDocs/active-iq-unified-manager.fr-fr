@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: cluster, configuration, performance, data, collection, activity 
 summary: 'L"intervalle de collecte des données de configuration du cluster est de 15 minutes. Par exemple, une fois que vous avez ajouté un cluster, il faut 15 minutes pour afficher les informations relatives au cluster dans l"interface utilisateur Unified Manager. Cet intervalle s"applique lorsque vous apportez également des modifications à un cluster.' 
 ---
-= Activité de collecte des données sur la configuration et les performances du cluster
+= Consultez la configuration du cluster et les données de performance dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

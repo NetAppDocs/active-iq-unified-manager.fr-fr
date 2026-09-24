@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, counters, tracked, thresholds 
 summary: 'Certains compteurs de performances courants, tels que les IOPS et les Mo/s, peuvent comporter des seuils pour tous les objets de stockage. D"autres compteurs peuvent avoir des seuils définis pour certains objets de stockage uniquement.' 
 ---
-= Quels compteurs de performances peuvent être suivis à l'aide de seuils
+= Comprendre les compteurs de performance suivis à l'aide de seuils dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

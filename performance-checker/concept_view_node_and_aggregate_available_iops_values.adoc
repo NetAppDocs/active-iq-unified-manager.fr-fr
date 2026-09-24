@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, node, aggregate, available, iops, values 
 summary: 'Vous pouvez contrôler les valeurs d"IOPS disponibles pour tous les nœuds ou pour tous les agrégats d"un cluster, ou afficher les détails d"un seul nœud ou agrégat.' 
 ---
-= Afficher les valeurs IOPS disponibles pour les nœuds et les agrégats
+= Consultez les valeurs IOPS disponibles pour les nœuds et les agrégats dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

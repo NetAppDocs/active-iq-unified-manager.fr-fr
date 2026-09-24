@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: expand, counter, charts, pane 
 summary: Vous pouvez développer le volet diagrammes de compteur afin que les graphiques soient plus grands et plus lisibles. 
 ---
-= Développer le volet Graphiques de compteur
+= Développez le volet Graphiques de compteurs dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

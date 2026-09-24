@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: volume, encryption, compliance, categories 
 summary: Ce tableau décrit les paramètres de chiffrement de volume que Unified Manager évalue pour déterminer si les données de vos volumes sont correctement protégées contre tout accès par des utilisateurs non autorisés. 
 ---
-= Catégories de conformité des volumes
+= Comprendre les catégories de conformité des volumes dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

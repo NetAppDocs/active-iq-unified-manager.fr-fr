@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aggregates, dialog box 
 summary: Vous pouvez utiliser la boîte de dialogue Aggregates pour sélectionner les agrégats que vous souhaitez ajouter à votre pool de ressources. 
 ---
-= Boîte de dialogue Aggregates
+= Utilisez la boîte de dialogue des agrégats dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

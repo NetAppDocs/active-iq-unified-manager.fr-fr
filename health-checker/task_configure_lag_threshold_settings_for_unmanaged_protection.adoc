@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, lag, threshold settings, unmanaged, protection, relationships 
 summary: 'Vous pouvez modifier les paramètres de seuil d"avertissement de décalage global par défaut et d"intégrité des erreurs pour les relations de protection non gérées afin que les événements soient générés à des intervalles adaptés à vos besoins.' 
 ---
-= Configurer les paramètres de seuil de décalage pour les relations de protection non gérées
+= Configurez les seuils de latence pour les relations de protection non gérées dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

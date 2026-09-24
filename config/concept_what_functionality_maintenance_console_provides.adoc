@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: functionality, maintenance, console 
 summary: 'La console de maintenance Unified Manager vous permet de conserver les paramètres de votre système Unified Manager et d"effectuer les modifications nécessaires afin d"éviter tout problème.' 
 ---
-= Fonctionnalités offertes par la console de maintenance
+= Découvrez la console de maintenance dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

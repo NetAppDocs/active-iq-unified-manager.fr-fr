@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, available, volume, capacity, charts 
 summary: Vous pouvez créer un rapport pour analyser la capacité de volume disponible dans un graphique Excel. 
 ---
-= Créer un rapport pour afficher les graphiques de capacité de volume disponibles
+= Créez un rapport pour afficher les graphiques de capacité de volume disponibles dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

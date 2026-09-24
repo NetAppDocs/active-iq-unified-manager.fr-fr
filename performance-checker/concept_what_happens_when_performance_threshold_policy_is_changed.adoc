@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: happens, performance, threshold, policy, changed 
 summary: 'Si vous ajustez la valeur de compteur ou la durée d"une règle de seuil de performances existante, la modification de règle s"applique à tous les objets de stockage qui utilisent la règle. Le nouveau paramètre a lieu immédiatement et Unified Manager commence à comparer les valeurs des compteurs de performances avec les nouveaux paramètres seuils pour toutes les données de performance nouvellement collectées.' 
 ---
-= Que se passe-t-il lorsqu'une règle de seuil de performances est modifiée
+= Comprendre les modifications apportées aux politiques de seuil de performance dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

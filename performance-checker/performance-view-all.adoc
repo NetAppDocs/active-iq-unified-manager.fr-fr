@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance view 
 summary: toutes les informations de performance des objets de stockage 
 ---
-= Afficher les pages d'inventaire des performances pour tous les objets de stockage
+= Consultez les pages d'inventaire des performances pour tous les objets de stockage dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

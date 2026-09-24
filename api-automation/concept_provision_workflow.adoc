@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: workflow, workload, management 
 summary: 'Active IQ Unified Manager permet de provisionner et de modifier les charges de travail de stockage (LUN, partages de fichiers NFS et partages CIFS). Le provisionnement s"effectue en plusieurs étapes, de la création des SVM (Storage Virtual machine) à l"application des règles de niveau de service en matière de performances et d"efficacité du stockage aux charges de travail du stockage. La modification des charges de travail consiste en des étapes de modification de paramètres spécifiques et d"activation de fonctionnalités supplémentaires.' 
 ---
-= Des workflows API pour la gestion des workloads
+= Provisionnez et modifiez les charges de travail de stockage dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

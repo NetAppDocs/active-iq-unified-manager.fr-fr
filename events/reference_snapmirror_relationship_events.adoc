@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: snapmirror, relationship, events, impact area, protection 
 summary: 'Les événements de relation SnapMirror fournissent des informations sur l"état de vos relations SnapMirror asynchrones et synchrones qui vous permettent de surveiller l"incident. Des événements de relation SnapMirror asynchrone sont générés à la fois pour les machines virtuelles de stockage et les volumes, mais les événements de relation SnapMirror synchrone sont générés uniquement pour les relations de volume. Aucun événement n"est généré pour les volumes composants faisant partie des relations de reprise sur incident des machines virtuelles de stockage. Les événements sont regroupés par zone d"impact et incluent le nom de l"événement et de l"interruption, le niveau d"impact, le type de source et la gravité.' 
 ---
-= Événements liés à la relation SnapMirror
+= Découvrez les événements de relation SnapMirror dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: move, workloads, different, aggregate 
 summary: 'Unified Manager vous permet d"identifier un agrégat moins occupé que l"agrégat dans lequel résident vos charges de travail, puis de déplacer les volumes ou les LUN sélectionnés vers cet agrégat. Le déplacement de charges de travail hautes performances vers un agrégat moins occupé, ou un agrégat sur lequel le stockage Flash est activé, permet à la charge de travail de réaliser davantage d"efficacité.' 
 ---
-= Déplacer les charges de travail vers un autre agrégat
+= Déplacez les charges de travail vers un autre agrégat dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

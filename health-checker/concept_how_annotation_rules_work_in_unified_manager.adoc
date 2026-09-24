@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: annotation rules, work, unified manager 
 summary: 'Une règle d"annotation est un critère que vous définissez pour annoter les objets de stockage (volumes, clusters ou SVM). Vous pouvez utiliser des groupes de condition ou des conditions pour définir des règles d"annotation.' 
 ---
-= Fonctionnement des règles d'annotation dans Unified Manager
+= Comprendre le fonctionnement des règles d'annotation dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

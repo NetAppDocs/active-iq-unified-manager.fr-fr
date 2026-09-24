@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: select, performance, charts, display 
 summary: La liste déroulante choisir les graphiques vous permet de sélectionner les types de diagrammes de performance à afficher dans le volet compteurs. Vous pouvez ainsi afficher des données et des compteurs spécifiques en fonction de vos besoins de performances. 
 ---
-= Sélectionnez les graphiques de performances à afficher
+= Sélectionnez les graphiques de performance à afficher dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

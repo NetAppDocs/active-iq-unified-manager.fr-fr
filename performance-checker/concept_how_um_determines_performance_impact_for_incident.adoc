@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, determines, performance, impact, event 
 summary: 'Unified Manager utilise l"écart d"activité, d"utilisation, de débit d"écriture, de l"utilisation d"un composant du cluster ou de latence d"E/S (temps de réponse) pour une charge de travail afin de déterminer le niveau d"impact sur les performances d"une charge de travail. Ces informations déterminent le rôle de chaque charge de travail dans l"événement et leur classement sur la page Détails de l"événement.' 
 ---
-= Comment Unified Manager détermine l'impact sur les performances d'un événement
+= Comprendre comment Active IQ Unified Manager détermine l'impact sur les performances d'un événement
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

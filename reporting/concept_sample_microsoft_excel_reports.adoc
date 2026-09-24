@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: sample, microsoft, excel, reports 
 summary: 'Ces exemples de rapports Microsoft Excel sont destinés à présenter les options de reporting disponibles à l"aide des fonctions avancées d"Excel.' 
 ---
-= Exemples de rapports Microsoft Excel
+= Comprendre des exemples de rapports Microsoft Excel dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

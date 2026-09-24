@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: jobs, view 
 summary: 'Vous pouvez utiliser l"API des travaux dans la catégorie serveur de gestion pour afficher les détails d"exécution des opérations asynchrones.' 
 ---
-= Afficher les tâches et les détails du système
+= Affichez les tâches et les détails du système à l'aide des API dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

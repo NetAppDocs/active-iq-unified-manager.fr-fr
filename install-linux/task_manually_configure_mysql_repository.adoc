@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manually configure mysql repository, mysql key, keys update 
 summary: 'Si le système sur lequel vous installez Unified Manager n"a pas accès au référentiel MySQL Community Edition, vous devez télécharger et configurer manuellement le référentiel pour une installation réussie.' 
 ---
-= Configurer manuellement le référentiel MySQL
+= Configurez le référentiel MySQL pour Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

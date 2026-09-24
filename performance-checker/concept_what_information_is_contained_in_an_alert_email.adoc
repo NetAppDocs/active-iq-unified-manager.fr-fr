@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: information, contained, alert, email 
 summary: 'Dans les e-mails d"alerte Unified Manager, vous indiquez le type d"événement, la gravité de l"événement, le nom de la règle ou le seuil non respecté pour provoquer l"événement et la description de l"événement. L"e-mail fournit également un lien hypertexte pour chaque événement qui vous permet d"afficher la page de détails de l"événement dans l"interface utilisateur.' 
 ---
-= Les informations contenues dans un e-mail d'alerte
+= Consultez les informations contenues dans un e-mail d'alerte dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

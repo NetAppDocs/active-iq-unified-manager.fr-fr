@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: access, maintenance console 
 summary: 'Si l"interface utilisateur Unified Manager n"est pas en cours de fonctionnement ou si vous devez effectuer des fonctions qui ne sont pas disponibles dans l"interface utilisateur, vous pouvez accéder à la console de maintenance pour gérer votre système Unified Manager.' 
 ---
-= Accéder à la console de maintenance
+= Accédez à la console de maintenance dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

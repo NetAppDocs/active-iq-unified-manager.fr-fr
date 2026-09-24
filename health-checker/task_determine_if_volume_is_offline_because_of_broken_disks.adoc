@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: determine, volume, offline, broken disks, aggregate 
 summary: 'L"interface utilisateur Web de Unified Manager vous permet de confirmer ou d"éliminer toute possibilité qu"un volume soit hors ligne, car les problèmes de disque RAID ont mis hors ligne son agrégat hôte.' 
 ---
-= Déterminer si un volume est hors ligne en raison de disques défectueux dans un ensemble
+= Déterminez si un volume est hors ligne en raison de disques défectueux dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

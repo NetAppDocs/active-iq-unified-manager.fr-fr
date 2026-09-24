@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: support and diagnostics, menu 
 summary: 'Le menu support and Diagnostics vous permet de générer un bundle de support que vous pouvez envoyer au support technique pour obtenir de l"aide au dépannage.' 
 ---
-= Menu support and Diagnostics
+= Utilisez le menu Support et Diagnostics dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

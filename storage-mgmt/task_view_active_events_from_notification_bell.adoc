@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, active, events, notification, bell 
 summary: 'Le signal sonore des notifications dans la barre de menus permet d"afficher rapidement les événements actifs les plus importants suivis par Unified Manager.' 
 ---
-= Afficher les événements actifs depuis la cloche de notification
+= Consultez les événements actifs à partir de la cloche de notification dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

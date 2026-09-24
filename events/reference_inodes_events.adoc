@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: inodes, events, impact area, capacity 
 summary: 'Les événements d"inode fournissent des informations lorsque l"inode est plein ou presque plein afin que vous puissiez surveiller tout problème potentiel. Les événements sont regroupés par zone d"impact et incluent le nom de l"événement et de l"interruption, le niveau d"impact, le type de source et la gravité.' 
 ---
-= Inode événements
+= Découvrez les événements liés aux inodes dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

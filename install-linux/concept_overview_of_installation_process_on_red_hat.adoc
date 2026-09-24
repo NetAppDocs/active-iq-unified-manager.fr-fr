@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: overview, installation process 
 summary: 'Le workflow d"installation décrit les tâches que vous devez effectuer avant d"utiliser Unified Manager.' 
 ---
-= Présentation du processus d'installation
+= Comprendre la séquence d'installation d'Active IQ Unified Manager sur Red Hat Enterprise Linux
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

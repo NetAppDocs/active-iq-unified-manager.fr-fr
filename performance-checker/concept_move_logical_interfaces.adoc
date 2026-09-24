@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: move, logical, interfaces, lifs 
 summary: 'Le transfert des interfaces logiques (LIF) vers un port moins occupé peut aider à améliorer l"équilibrage de la charge, à faciliter les opérations de maintenance et l"ajustement des performances, et à réduire l"accès indirect.' 
 ---
-= Déplacement des interfaces logiques
+= Déplacez les LIF pour améliorer les performances dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

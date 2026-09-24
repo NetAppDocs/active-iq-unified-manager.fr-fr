@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: port, events, impact area, availability, performance 
 summary: Les événements de port fournissent le statut des ports du cluster, de sorte que vous puissiez surveiller les modifications ou les problèmes sur le port, comme si le port est en panne. 
 ---
-= Événements de port
+= Découvrez les événements de port dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

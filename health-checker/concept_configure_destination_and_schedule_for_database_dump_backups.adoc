@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, destination, schedule, database dump, backups, snapshot copy, copies 
 summary: Vous pouvez configurer les paramètres de sauvegarde de vidage de la base de données Unified Manager pour définir le chemin de sauvegarde de la base de données, le nombre de rétention et la planification des sauvegardes. Vous pouvez activer des sauvegardes planifiées quotidiennement ou hebdomadaires. Par défaut, les sauvegardes planifiées sont désactivées, mais vous devez définir un planning de sauvegarde. 
 ---
-= Configurer la destination et la planification des sauvegardes de vidage de base de données
+= Configurez les paramètres de sauvegarde de la base de données dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

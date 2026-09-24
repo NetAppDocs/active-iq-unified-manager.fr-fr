@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: user-defined, performance, threshold, events 
 summary: 'Vous pouvez utiliser Unified Manager pour analyser les événements de performance provoqués par un compteur de performances qui franchissement d"un seuil critique ou d"avertissement défini par l"utilisateur. Vous pouvez également utiliser Unified Manager pour vérifier l"état de santé du composant de cluster afin de déterminer si les événements d"état récemment détectés sur le composant ont contribué à l"événement de performances.' 
 ---
-= Répondre aux événements de seuil de performance définis par l'utilisateur
+= Répondez aux événements de seuil de performance définis par l'utilisateur dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

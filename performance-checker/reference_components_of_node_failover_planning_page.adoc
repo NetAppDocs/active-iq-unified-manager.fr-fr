@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: components, node, failover, planning page, performance, statistics, grid 
 summary: 'Les composants de la page Performance/Node Failover Planning s"affichent dans une grille et dans le volet de comparaison. Vous pouvez ainsi évaluer l"impact d"un basculement de nœud sur les performances du nœud qui Takeover.' 
 ---
-= Composants de la page planification de basculement de nœud
+= Examinez les composants de la page Planification du basculement des performances/nœuds dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: job, objects, asynchronous, processes 
 summary: 'Active IQ Unified Manager fournit l"API des travaux qui récupère des informations sur les travaux effectués lors de l"exécution d"autres API. Vous devez savoir comment le traitement asynchrone fonctionne à l"aide de l"objet travail.' 
 ---
-= Processus asynchrones des objets de travail
+= Comprenez comment Active IQ Unified Manager utilise les objets Job pour le traitement asynchrone
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

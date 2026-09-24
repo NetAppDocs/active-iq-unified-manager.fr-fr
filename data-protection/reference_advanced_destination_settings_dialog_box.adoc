@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: advanced, destination, settings, dialog box 
 summary: 'Vous pouvez utiliser la boîte de dialogue Paramètres de destination avancés pour activer les paramètres de garantie d"espace sur un volume de destination. Vous pouvez sélectionner des paramètres avancés lorsque la garantie d"espace est désactivée sur la source, mais vous souhaitez qu"elle soit activée sur la destination. Les paramètres de déduplication, de compression et de croissance automatique dans une relation SnapMirror sont hérités du volume source et ne peuvent pas être modifiés.' 
 ---
-= Boîte de dialogue Paramètres de destination avancés
+= Utilisez la boîte de dialogue Paramètres de destination avancés dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

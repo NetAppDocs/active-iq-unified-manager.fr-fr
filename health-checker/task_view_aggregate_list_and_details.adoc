@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, aggregate list, details 
 summary: 'Depuis la vue Santé : tous les agrégats, vous pouvez surveiller votre inventaire des agrégats. La vue capacité : tous les agrégats vous permet d"afficher des informations sur la capacité et l"utilisation des agrégats de tous les clusters.' 
 ---
-= Voir la liste globale et les détails
+= Affichez la liste des agrégats et les détails dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

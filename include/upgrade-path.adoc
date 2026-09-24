@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: supported upgrade path, upgrade path, n-2, which versions can be upgraded 
 summary: Chemin de mise à niveau pris en charge 
 ---
-= Chemin de mise à niveau pris en charge pour les versions de Unified Manager
+= Utilisez la voie de mise à niveau prise en charge pour les versions de Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

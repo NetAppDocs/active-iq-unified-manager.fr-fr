@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, show, aggregate, total, available, capacity, charts 
 summary: Vous pouvez créer un rapport pour analyser le total du stockage et la capacité engagée au format Excel. 
 ---
-= Créer un rapport pour afficher les graphiques de capacité totale agrégée par rapport à la capacité disponible
+= Afficher les graphiques comparant la capacité totale agrégée à la capacité disponible dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

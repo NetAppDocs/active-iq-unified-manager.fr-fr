@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, aggregates, available, IOPS 
 summary: 'Ce rapport indique les agrégats qui disposent des IOPS par type d"agrégat les plus disponibles, sur lesquels vous pouvez provisionner de nouvelles charges de travail.' 
 ---
-= Créer un rapport pour afficher les agrégats qui ont le plus d'IOPS disponibles
+= Créez un rapport pour afficher les agrégats présentant le plus grand nombre d'IOPS disponibles dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

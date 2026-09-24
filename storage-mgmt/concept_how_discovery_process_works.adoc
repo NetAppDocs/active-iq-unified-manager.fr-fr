@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: cluster, discovery, process, works 
 summary: Une fois que vous avez ajouté un cluster à Unified Manager, le serveur détecte les objets du cluster et les ajoute à sa base de données. La compréhension du fonctionnement du processus de découverte vous aide à gérer les clusters de votre organisation et leurs objets. 
 ---
-= Fonctionnement du processus de détection du cluster
+= Découvrez comment fonctionne le processus de découverte de clusters dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

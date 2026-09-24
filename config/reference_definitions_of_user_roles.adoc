@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: definitions, user roles 
 summary: 'L"utilisateur de maintenance ou l"administrateur d"applications attribue un rôle à chaque utilisateur. Chaque rôle contient certains privilèges. L"étendue des activités que vous pouvez effectuer dans Unified Manager dépend du rôle que vous avez attribué et des privilèges qu"il contient.' 
 ---
-= Définitions des rôles utilisateur
+= Découvrez les rôles des utilisateurs dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

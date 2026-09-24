@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: backup, restore, unified manager, virtual, appliance, snapshot copy, copies 
 summary: 'Le modèle de sauvegarde et de restauration d"Unified Manager, installé sur une appliance virtuelle, consiste à capturer et à restaurer une image de l"application virtuelle complète.' 
 ---
-= Sauvegarde et restauration de Unified Manager sur l'appliance virtuelle
+= Sauvegarde et restauration d'Active IQ Unified Manager sur une appliance virtuelle
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

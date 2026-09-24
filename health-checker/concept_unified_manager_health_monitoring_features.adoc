@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, health, monitor, features 
 summary: Unified Manager repose sur une infrastructure de serveurs qui offre évolutivité, compatibilité et fonctionnalités avancées de surveillance et de notification. Unified Manager prend en charge la surveillance des systèmes exécutant le logiciel ONTAP. 
 ---
-= Fonctionnalités de contrôle de l'état de santé de Unified Manager
+= Comprendre les fonctionnalités de surveillance de l'état de santé d'Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

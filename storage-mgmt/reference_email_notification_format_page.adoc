@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: email, notification, format, page 
 summary: 'La page format de notification par e-mail affiche les règles de l"e-mail envoyé à un utilisateur ou à un groupe d"utilisateurs lorsqu"il existe un problème lié à un quota (limite souple dépassée ou limite stricte atteinte).' 
 ---
-= Format de notification par e-mail
+= Découvrez la page Format des notifications par e-mail dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

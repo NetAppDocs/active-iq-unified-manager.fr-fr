@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: select, source, snapshot, copy, dialog box 
 summary: 'La boîte de dialogue Select source Snapshot Copy permet de sélectionner une copie Snapshot afin de transférer des données entre les relations de protection, ou de sélectionner le comportement par défaut. Cette opération varie selon que vous êtes en cours d"initialisation, de mise à jour ou de resynchronisation d"une relation, et que la relation est une SnapMirror ou SnapVault.' 
 ---
-= Sélectionnez la boîte de dialogue copie Snapshot source
+= Utilisez la boîte de dialogue Sélectionner la copie d'instantané source dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

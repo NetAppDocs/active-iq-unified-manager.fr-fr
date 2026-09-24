@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: rediscover clusters, 
 summary: 'Vous pouvez redécouvrir manuellement un cluster à partir de la page de configuration des clusters afin d"obtenir les dernières informations sur l"état de santé, la surveillance de l"état et les performances du cluster.' 
 ---
-= Redécouvrir les clusters
+= Redécouvrez les clusters dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

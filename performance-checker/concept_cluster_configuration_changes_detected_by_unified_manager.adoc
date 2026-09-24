@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, configuration, changes, detected 
 summary: 'Unified Manager surveille vos clusters pour modifier la configuration, ce qui vous permet de déterminer si une modification a pu être causée ou contribué à un événement de performances. Les pages de l"Explorateur de performances affichent une icône d"événement de changement () pour indiquer la date et l"heure de détection de la modification.' 
 ---
-= Modifications de configuration détectées par Unified Manager
+= Surveillez les modifications de configuration détectées par Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

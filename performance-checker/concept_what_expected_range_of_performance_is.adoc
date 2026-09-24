@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: expected, range, performance, latency, forecast, formed 
 summary: La prévision de latence est une prévision des valeurs de performance supérieure et inférieure attendues. Pour la latence des workloads, les valeurs supérieures constituent le seuil de performance. Lorsque la valeur réelle franchit le seuil de performances, Unified Manager déclenche un événement de performance dynamique. 
 ---
-= Parmi les performances attendues
+= Comprendre comment Active IQ Unified Manager calcule la plage de performances attendue
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

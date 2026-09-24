@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: workload analyzer, charts, display, data 
 summary: 'La page de l"analyseur de charge de travail affiche des informations sur les événements actuels susceptibles d"affecter la charge de travail, des recommandations pour résoudre le problème à l"origine de l"événement et des graphiques pour analyser les performances et l"historique des capacités.' 
 ---
-= Données affichées par l'analyseur de flux de travail
+= Comprendre les données de l'analyseur de charge de travail dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

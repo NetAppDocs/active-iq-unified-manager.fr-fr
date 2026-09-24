@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: volume, move, status, events, impact area, capacity 
 summary: 'Les événements d"état de déplacement de volume vous indiquent l"état de déplacement de volume afin de pouvoir surveiller les problèmes potentiels. Les événements sont regroupés par zone d"impact et incluent le nom de l"événement et de l"interruption, le niveau d"impact, le type de source et la gravité.' 
 ---
-= Événements d'état de déplacement de volumes
+= Découvrez les événements liés à l'état des transferts de volume dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: Common, unified, manager, health, workflows, tasks 
 summary: 'Parmi les workflows et tâches d"administration courants associés à Unified Manager figurent la sélection des clusters de stockage à contrôler, le diagnostic des conditions qui affectent négativement la disponibilité des données, la capacité et la protection, la restauration des données perdues, la configuration et la gestion des volumes, le regroupement et l"envoi de données de diagnostic au support technique (si nécessaire).' 
 ---
-= Tâches et workflows d'état de Unified Manager communs
+= Comprendre les flux de travail et les tâches de santé courants d'Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: initialize, update, protection, relationships, volume, health details page 
 summary: Vous pouvez effectuer un transfert de base initial sur une nouvelle relation de protection, ou mettre à jour une relation si elle est déjà initialisée et si vous souhaitez effectuer une mise à jour incrémentielle manuelle et non planifiée pour transférer immédiatement les données. 
 ---
-= Initialiser ou mettre à jour les relations de protection à partir de la page Détails du volume/de la santé
+= Initialisez ou mettez à jour les relations de protection à partir de la page Détails du volume/de l’état dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

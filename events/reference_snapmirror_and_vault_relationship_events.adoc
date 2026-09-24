@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asynchronous, mirror, vault, relationship, events, impact area, protection 
 summary: 'Les événements de relation SnapMirro et Vault vous fournissent des informations sur l"état de vos relations SnapMirror et Vault asynchrones, qui vous permettent de surveiller et contrôler les éventuels problèmes. Les événements de relation de mise en miroir asynchrone et de copie en miroir sont pris en charge pour les relations de protection des volumes et des machines virtuelles de stockage. Mais seules les relations de coffre-fort ne sont pas prises en charge pour la reprise sur incident de la machine virtuelle de stockage. Les événements sont regroupés par zone d"impact et incluent le nom de l"événement et de l"interruption, le niveau d"impact, le type de source et la gravité.' 
 ---
-= Événements de relation de mise en miroir asynchrone et de coffre-fort
+= Découvrez les événements liés à la relation Asynchronous Mirror and Vault dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

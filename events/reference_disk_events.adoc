@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: disks, events, impact area, availability 
 summary: 'Les événements de disque fournissent des informations sur l"état des disques afin que vous puissiez surveiller les problèmes potentiels. Les événements sont regroupés par zone d"impact et incluent le nom de l"événement et de l"interruption, le niveau d"impact, le type de source et la gravité.' 
 ---
-= Événements des disques
+= Découvrez les événements de disque dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

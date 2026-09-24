@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, interfaces, manage, storage system, health 
 summary: 'Cette section contient des informations sur les deux interfaces utilisateur fournies par Active IQ Unified Manager pour la résolution des problèmes de capacité de stockage, de disponibilité et de protection des données. Les deux interfaces utilisateur sont l"interface utilisateur Web de Unified Manager et la console de maintenance.' 
 ---
-= Les interfaces Unified Manager utilisées pour gérer l'état du système de stockage
+= Utilisez les interfaces d'Active IQ Unified Manager pour gérer l'état du système de stockage
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

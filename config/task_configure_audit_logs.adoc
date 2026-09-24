@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, audit logs 
 summary: 'Vous pouvez utiliser le bouton configurer de la section journaux d"audit pour configurer la stratégie de roulement des fichiers journaux d"audit et activer la journalisation à distance des journaux d"audit.' 
 ---
-= Configurer les journaux d'audit d'Unified Manager
+= Configurer les journaux d'audit d'Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

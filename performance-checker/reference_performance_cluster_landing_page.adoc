@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, cluster, landing page 
 summary: 'La page d"accueil Performance Cluster affiche l"état des performances de haut niveau d"un cluster sélectionné. Cette page vous permet d"accéder aux détails complets de chaque compteur de performances des objets de stockage du cluster sélectionné.' 
 ---
-= Page d'accueil Performance Cluster
+= Consultez la page d'accueil du cluster de performance dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

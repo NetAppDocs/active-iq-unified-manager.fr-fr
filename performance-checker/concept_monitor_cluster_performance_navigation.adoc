@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, cluster, performance, navigation 
 summary: 'Vous pouvez contrôler les performances de tous les clusters gérés par Unified Manager. La surveillance des clusters offre une vue d"ensemble des performances du cluster et des objets, et inclut la surveillance des événements de performance. Vous pouvez afficher les performances et les événements de haut niveau. Vous pouvez également étudier plus en détail les événements de performance et de performance du cluster et des objets.' 
 ---
-= Contrôle la navigation sur les performances du cluster
+= Surveillez la navigation des performances du cluster dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

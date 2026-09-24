@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: happens, performance, threshold, policy, breached 
 summary: 'Lorsqu"une valeur de compteur dépasse sa valeur de seuil de performances définie pour la durée spécifiée, le seuil est dépassé et un événement est signalé.' 
 ---
-= Que se passe-t-il lorsqu'une règle de seuil de performances est enfreinte
+= Répondez aux politiques de seuils de performance dépassés dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

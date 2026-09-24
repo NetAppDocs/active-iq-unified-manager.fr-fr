@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: remove, inactive, volumes, luns 
 summary: 'Une fois l"espace libre de l"agrégat identifié comme un problème, vous pouvez rechercher les volumes et les LUN inutilisés et les supprimer de l"agrégat. Cela peut aider à réduire le problème de peu d"espace disque.' 
 ---
-= Supprimez les volumes et les LUN inactifs
+= Supprimez les volumes et les LUN inactifs dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

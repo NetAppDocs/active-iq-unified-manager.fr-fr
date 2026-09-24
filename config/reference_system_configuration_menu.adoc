@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: system, configuration, menu 
 summary: 'Le menu Configuration du système vous permet de gérer votre appliance virtuelle en fournissant diverses options, telles que l"affichage de l"état du serveur, le redémarrage et l"arrêt de la machine virtuelle.' 
 ---
-= Menu Configuration du système
+= Utilisez le menu Configuration système dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

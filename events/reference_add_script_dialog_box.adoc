@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, script, dialog, box 
 summary: 'La boîte de dialogue Ajouter un script vous permet d"ajouter des scripts à Unified Manager. Vous pouvez configurer des alertes avec vos scripts pour résoudre automatiquement les événements générés pour les objets de stockage.' 
 ---
-= Boîte de dialogue Ajouter un script
+= Boîte de dialogue Ajouter un script dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

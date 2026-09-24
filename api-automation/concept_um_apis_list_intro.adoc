@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified, manager, rest, api 
 summary: Les API REST pour Active IQ Unified Manager sont répertoriées dans cette section, en fonction de leurs catégories. 
 ---
-= API REST Unified Manager
+= Comprendre les catégories des API REST d'Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

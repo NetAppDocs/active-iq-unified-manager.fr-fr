@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: security events 
 summary: 'Les événements de sécurité vous fournissent des informations sur l"état de sécurité des clusters ONTAP, des serveurs virtuels de stockage et des volumes, basées sur des paramètres définis dans le guide NetApp de renforcement de la sécurité de la solution ONTAP 9. Ces événements vous avertissent des problèmes potentiels afin que vous puissiez évaluer leur gravité et corriger le problème si nécessaire.' 
 ---
-= Événements de sécurité
+= Consultez les événements de sécurité dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

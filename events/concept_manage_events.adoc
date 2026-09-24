@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, events 
 summary: Les événements vous aident à identifier les problèmes qui se produisent dans les clusters surveillés. 
 ---
-= Gérer les événements
+= Gérer les événements dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

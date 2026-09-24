@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: work, reports 
 summary: 'Découvrez comment rechercher et personnaliser les vues de pages d"inventaire dans des rapports planifiés partageables.' 
 ---
-= Travailler avec des rapports
+= Utilisez les rapports dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: report, workflow 
 summary: Arbre de décision décrivant le flux de travail du rapport. 
 ---
-= Flux de travail des rapports
+= Comprendre les flux de travail des rapports dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

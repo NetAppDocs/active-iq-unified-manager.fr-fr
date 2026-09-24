@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, resource pool, dialog box 
 summary: Vous pouvez utiliser la boîte de dialogue Créer un pool de ressources pour nommer et décrire un nouveau pool de ressources, ainsi que pour ajouter des agrégats à et supprimer des agrégats de ce pool de ressources. 
 ---
-= Boîte de dialogue Créer un pool de ressources
+= Utilisez la boîte de dialogue Créer un pool de ressources dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

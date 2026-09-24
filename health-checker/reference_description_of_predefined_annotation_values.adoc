@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: description, predefined, annotation values 
 summary: 'La priorité des données est une annotation prédéfinie qui a les valeurs Mission Critical, High et Low. Ces valeurs vous permettent d"annoter les objets de stockage en fonction de la priorité des données qu"ils contiennent. Vous ne pouvez ni modifier ni supprimer les valeurs d"annotation prédéfinies.' 
 ---
-= Description des valeurs d'annotation prédéfinies
+= Comprendre les valeurs d'annotation prédéfinies dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

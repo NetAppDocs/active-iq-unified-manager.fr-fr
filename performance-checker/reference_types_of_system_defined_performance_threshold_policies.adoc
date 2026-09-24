@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: system-defined, performance, threshold, policies, cluster, node. aggregate, qos 
 summary: 'Unified Manager fournit des règles de seuil standard qui contrôlent les performances du cluster et génèrent automatiquement des événements. Ces règles sont activées par défaut et génèrent des événements d"avertissement ou d"information lorsque les seuils de performances surveillés sont enfreintes.' 
 ---
-= Types de règles de seuils de performance définies par le système
+= Comprendre les politiques de seuil de performance définies par le système dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

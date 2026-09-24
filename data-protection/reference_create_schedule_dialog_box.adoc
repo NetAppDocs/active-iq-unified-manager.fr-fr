@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, schedule, dialog box 
 summary: La boîte de dialogue Créer un planning de protection permet de créer une planification de base ou avancée pour les transferts de relations SnapMirror et SnapVault. Vous pouvez créer un nouveau programme pour augmenter la fréquence des transferts de données en raison de mises à jour fréquentes de données, ou vous pouvez créer un programme moins fréquent lorsque les données changent rarement. 
 ---
-= Créer un programme
+= Utilisez la boîte de dialogue Créer une planification dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

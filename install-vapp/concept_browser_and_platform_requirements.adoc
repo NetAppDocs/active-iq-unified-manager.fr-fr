@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: supported browsers 
 summary: 'Pour accéder à l"interface utilisateur Web de Unified Manager, utilisez un navigateur pris en charge.' 
 ---
-= Navigateurs pris en charge
+= Utilisez les navigateurs compatibles dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

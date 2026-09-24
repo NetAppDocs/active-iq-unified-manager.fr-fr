@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords:  
 summary: Vous pouvez gérer vos planifications de rapports à partir de la page programmes de rapports. Vous pouvez afficher, modifier ou supprimer des planifications existantes. 
 ---
-= Gérer les calendriers de rapports
+= Gérer les calendriers de rapports dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

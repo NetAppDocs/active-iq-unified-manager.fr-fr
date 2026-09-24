@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: prioritize, storage, object, events, annotations 
 summary: 'Vous pouvez créer et appliquer des règles d"annotation aux objets de stockage afin d"identifier et de filtrer ces objets en fonction du type d"annotation appliqué et de sa priorité.' 
 ---
-= Prioriser les événements des objets de stockage à l'aide d'annotations
+= Priorisez les objets de stockage à l'aide d'annotations dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

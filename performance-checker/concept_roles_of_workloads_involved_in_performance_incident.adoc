@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: roles, workloads, involved, performance, event 
 summary: 'Unified Manager utilise des rôles pour identifier la participation d"une charge de travail en cas de performance. Les rôles sont les victimes, les taureaux et les requins. Une charge de travail définie par l"utilisateur peut être une victime, un tyran et un requin en même temps.' 
 ---
-= Rôles des charges de travail impliquées dans un événement de performance
+= Identifier les rôles de la charge de travail dans les événements de performance dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

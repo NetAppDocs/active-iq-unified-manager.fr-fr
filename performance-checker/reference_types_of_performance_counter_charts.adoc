@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: types, performance, counter, charts 
 summary: 'Des graphiques de performances standard affichent les valeurs des compteurs de l"objet de stockage sélectionné. Chacun des tableaux de compteurs de décomposition affiche les valeurs totales séparées en lecture, écriture et autres catégories. De plus, certains graphiques de compteur de décomposition affichent des détails supplémentaires lorsque le graphique est affiché en vue Zoom.' 
 ---
-= Types de graphiques de compteur de performances
+= Comprendre les types de graphiques de compteurs de performance dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

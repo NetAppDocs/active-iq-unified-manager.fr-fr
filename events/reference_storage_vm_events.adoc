@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage, vm events, impact area, availability, configuration, performance, security 
 summary: 'Les événements des serveurs virtuels de stockage vous fournissent des informations sur l"état de vos serveurs virtuels de stockage (SVM), ce qui vous permet de surveiller les problèmes potentiels. Les événements sont regroupés par zone d"impact et incluent le nom de l"événement et de l"interruption, le niveau d"impact, le type de source et la gravité.' 
 ---
-= Événements des VM de stockage
+= Découvrez les événements liés aux machines virtuelles de stockage dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

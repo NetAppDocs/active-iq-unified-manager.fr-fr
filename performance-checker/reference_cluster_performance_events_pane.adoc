@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: cluster, performance, events, pane, counter 
 summary: Le volet événements de performance du cluster affiche les statistiques de performances et tous les événements actifs du cluster. Ceci est particulièrement utile pour le contrôle des clusters ainsi que de tous les événements et performances liés au cluster. 
 ---
-= Volet des événements de performance du cluster
+= Consultez le volet des événements de performance du cluster dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: data, continuity, collection, cycle 
 summary: 'Un cycle de collecte de la continuité des données récupère les données de performances en dehors du cycle de collecte en temps réel des performances du cluster qui s"exécute, par défaut, toutes les cinq minutes. Les collections de continuité des données permettent à Unified Manager de combler les lacunes des données statistiques qui se produisent lorsqu"il n"est pas en mesure de collecter des données en temps réel.' 
 ---
-= Qu'est-ce qu'un cycle de collecte de continuité des données
+= Comprendre les cycles de collecte de continuité des données dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

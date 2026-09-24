@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: different, types, qos, policies, display, throughput, charts 
 summary: 'Vous pouvez afficher les paramètres de règles de qualité de service (QoS) définis par ONTAP et appliqués à un volume ou à une LUN dans les tableaux de bord Performance Explorer et Workload Analysis Op E/S par sec, IOPS/To et MB/s. Les informations affichées dans les graphiques diffèrent selon le type de règle de QoS appliquée à la charge de travail.' 
 ---
-= Affichage des différents types de règles de QoS dans les graphiques de débit
+= Affichez les politiques QoS dans les graphiques de débit avec Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

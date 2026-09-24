@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: disable, events, dialog box, properties, area, command buttons 
 summary: 'La boîte de dialogue Désactiver les événements affiche la liste des types d"événements pour lesquels vous pouvez désactiver les événements. Vous pouvez désactiver les événements pour un type d"événement en fonction d"une gravité spécifique ou pour un ensemble d"événements.' 
 ---
-= Désactiver la boîte de dialogue événements
+= Désactivez la boîte de dialogue Événements dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

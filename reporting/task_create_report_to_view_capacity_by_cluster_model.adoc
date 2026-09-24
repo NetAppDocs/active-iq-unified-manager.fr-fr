@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, capacity, cluster, model 
 summary: 'Vous pouvez créer un rapport pour analyser la capacité de stockage et l"utilisation des clusters en fonction du modèle de système de stockage.' 
 ---
-= Créer un rapport pour afficher la capacité par modèle de cluster
+= Créez un rapport pour visualiser la capacité par modèle de cluster dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

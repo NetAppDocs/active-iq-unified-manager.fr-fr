@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, cluster, object, navigation 
 summary: Vous pouvez contrôler les performances de tous les objets de tout cluster géré par Unified Manager. La surveillance des objets de stockage vous fournit des informations sur la performance du cluster et des objets, et inclut le contrôle des événements de performance. Vous pouvez afficher les performances et les événements de manière générale, ou étudier plus en détail les événements de performances et de performance des objets. 
 ---
-= Contrôle de la navigation sur les objets du cluster
+= Surveiller la navigation des objets du cluster dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: deploy, unified manager 
 summary: 'Le déploiement de Unified Manager inclut le téléchargement de logiciels, le déploiement de l"appliance virtuelle, la création d"un nom d"utilisateur et d"un mot de passe pour la maintenance, ainsi que la configuration initiale dans l"interface utilisateur Web.' 
 ---
-= Déployer Unified Manager
+= Déployer Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

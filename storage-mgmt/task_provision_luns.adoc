@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: provision, luns 
 summary: 'Vous pouvez créer des LUN qui prennent en charge les protocoles CIFS/SMB et NFS, sur un cluster existant et sur une machine virtuelle de stockage (VM de stockage) à partir de la page provisionner les charges de travail.' 
 ---
-= Provisionner les LUN
+= Provisionnez des LUN dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

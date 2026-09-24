@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: use, quotas 
 summary: 'Vous pouvez utiliser les quotas pour limiter l"utilisation des ressources dans les volumes FlexVol, fournir des notifications lorsque l"utilisation des ressources atteint des niveaux spécifiques ou suivre l"utilisation des ressources.' 
 ---
-= Pourquoi utilisez des quotas
+= Découvrez les quotas dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

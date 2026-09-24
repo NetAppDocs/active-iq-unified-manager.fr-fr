@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: data mirror, status, definitions 
 summary: 'Les configurations MetroCluster permettent la mise en miroir des données et offrent la possibilité supplémentaire de lancer un basculement en cas d"indisponibilité de l"ensemble d"un site. L"état de la mise en miroir des données entre les clusters d"une configuration MetroCluster peut être Normal ou mise en miroir indisponible. La compréhension de cet état permet de gérer efficacement les configurations MetroCluster.' 
 ---
-= Définitions de l'état de la mise en miroir des données pour MetroCluster sur FC
+= Découvrez la mise en miroir des données MetroCluster sur FC dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

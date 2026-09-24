@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: guidelines, adding, alerts 
 summary: 'Vous pouvez ajouter des alertes en fonction d"une ressource, par exemple un cluster, un nœud, un agrégat ou un volume, ainsi que les événements d"un type de sévérité spécifique. Pour bénéficier de cette meilleure pratique, vous pouvez ajouter une alerte à l"un de vos objets stratégiques après avoir ajouté le cluster auquel cet objet appartient.' 
 ---
-= Instructions d'ajout d'alertes
+= Instructions pour l'ajout d'alertes dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

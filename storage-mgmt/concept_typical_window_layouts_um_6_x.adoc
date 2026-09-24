@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: typical, window, layouts, object, list, details 
 summary: 'La compréhension des dispositions de fenêtre types vous permet de naviguer et d"utiliser Active IQ Unified Manager efficacement. La plupart des fenêtres Unified Manager sont similaires à l"une des deux présentations générales : liste d"objets ou détails. Le paramètre d"affichage recommandé est d"au moins 1280 x 1024 pixels.' 
 ---
-= Dispositions de fenêtre types
+= Agencements de fenêtres typiques dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: initialize, update, protection, relationships, volume, page 
 summary: À partir de la page Volume relations, vous pouvez effectuer un transfert de base pour la première fois sur une nouvelle relation de protection, ou mettre à jour une relation si elle est déjà initialisée et que vous souhaitez effectuer une mise à jour incrémentielle manuelle et non planifiée pour le transfert immédiatement. 
 ---
-= Initialiser ou mettre à jour les relations de protection à partir de la page Relations de volume
+= Initialisez ou mettez à jour les relations de protection à partir de la page Relations de volumes dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

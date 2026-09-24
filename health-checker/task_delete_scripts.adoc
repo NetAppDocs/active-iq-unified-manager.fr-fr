@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, scripts 
 summary: 'Vous pouvez supprimer un script d"Unified Manager lorsque le script n"est plus nécessaire ou valide.' 
 ---
-= Supprimer les scripts
+= Supprimer les scripts dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

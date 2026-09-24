@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: run, storage, efficiency, operations, less, busy, times 
 summary: 'Vous pouvez modifier la règle ou la planification qui gère les opérations d"efficacité du stockage pour s"exécuter lorsque les charges de travail des volumes concernés sont moins occupées.' 
 ---
-= Exécutez les opérations d'efficacité du stockage à un moment moins occupé
+= Planifiez les opérations d'efficacité du stockage pendant les périodes de moindre activité dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

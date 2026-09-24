@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: initialize, update, dialog box 
 summary: 'La boîte de dialogue initialiser/mettre à jour vous permet d"effectuer un transfert de base de première fois sur une nouvelle relation de protection, ou de mettre à jour une relation si elle est déjà initialisée et que vous souhaitez effectuer une mise à jour manuelle, non programmée et incrémentielle.' 
 ---
-= Boîte de dialogue initialiser/mettre à jour
+= Utilisez la boîte de dialogue Initialiser/Mettre à jour dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

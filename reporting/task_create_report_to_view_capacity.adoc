@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, show, aggregate, capacity, table, chart 
 summary: Vous pouvez créer un rapport pour analyser la capacité dans un fichier Excel en utilisant les totaux additionnés et le format de graphique de colonnes en cluster. 
 ---
-= Créer un rapport pour afficher un tableau et un graphique de capacité globale
+= Créez un rapport pour afficher un tableau et un graphique de capacité agrégée dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

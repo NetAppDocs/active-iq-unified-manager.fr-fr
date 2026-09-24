@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, list, monitored, clusters 
 summary: 'Vous pouvez utiliser la page Cluster Setup pour afficher l"inventaire de vos clusters. Vous pouvez afficher des détails sur les clusters, tels que leur nom ou leur adresse IP et l"état de la communication.' 
 ---
-= Afficher la liste des clusters surveillés
+= Consultez la liste des clusters surveillés par Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

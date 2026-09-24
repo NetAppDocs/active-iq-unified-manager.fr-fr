@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: users, created, unified manager, installation 
 summary: 'Lorsque vous installez Unified Manager sur Red Hat Enterprise Linux, les utilisateurs suivants sont créés par Unified Manager et des utilitaires tiers : umadmin, jboss et mysql.' 
 ---
-= Utilisateurs créés lors de l'installation de Unified Manager
+= Découvrez les utilisateurs créés lors de l'installation d'Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

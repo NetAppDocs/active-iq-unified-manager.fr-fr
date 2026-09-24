@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, alert, dialog box, name, resources, events, actions 
 summary: 'Vous pouvez modifier les propriétés des alertes, telles que la ressource avec laquelle l"alerte est associée, les événements, le script et les options de notification.' 
 ---
-= Boîte de dialogue Modifier l'alerte
+= Modifier les propriétés des alertes dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

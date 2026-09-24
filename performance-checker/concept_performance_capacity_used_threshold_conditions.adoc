@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, capacity, threshold, conditions 
 summary: 'Vous pouvez créer des règles de seuils de performances définies par l"utilisateur, de sorte que les événements se déclenchent lorsque la capacité de performance utilisée pour un nœud ou un agrégat dépasse le seuil de capacité de performance défini défini.' 
 ---
-= Conditions du seuil de performance utilisé par la capacité de performance
+= Configurez les seuils de capacité de performance utilisés dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

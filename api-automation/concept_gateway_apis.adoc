@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: access, ONTAP, APIs, proxy, access 
 summary: 'Les API de passerelle permettent d"utiliser les identifiants Active IQ Unified Manager pour exécuter les API REST ONTAP et gérer les objets de stockage. Ces API sont disponibles lorsque la fonctionnalité de passerelle d"API est activée depuis l"interface utilisateur Web d"Unified Manager.' 
 ---
-= Accéder aux API ONTAP via un accès proxy
+= Accédez aux API ONTAP via un accès proxy dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

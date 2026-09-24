@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, volumes, default, export, policy 
 summary: 'Vous pouvez créer un rapport pour rechercher les volumes qui utilisent la stratégie d"exportation par défaut.' 
 ---
-= Créer un rapport pour afficher les volumes qui utilisent la politique d'exportation par défaut
+= Créez un rapport pour visualiser les volumes en utilisant la règle d'export par défaut dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

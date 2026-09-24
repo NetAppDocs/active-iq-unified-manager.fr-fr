@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, annotations 
 summary: La compréhension des concepts liés aux annotations vous aide à gérer les événements liés aux objets de stockage de votre environnement. 
 ---
-= En savoir plus sur les annotations
+= Comprendre les annotations dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

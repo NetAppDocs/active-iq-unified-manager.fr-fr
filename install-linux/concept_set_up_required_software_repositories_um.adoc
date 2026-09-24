@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: set up, required, software, repositories 
 summary: 'Le système doit avoir accès à certains dépôts et paquets afin que le programme d"installation puisse accéder à et installer toutes les dépendances logicielles requises.' 
 ---
-= Configurer le logiciel requis pour Unified Manager
+= Configurer le logiciel requis pour Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

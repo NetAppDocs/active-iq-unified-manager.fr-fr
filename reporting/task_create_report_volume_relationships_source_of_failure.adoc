@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, group, volume, relationships, source, failure 
 summary: Vous pouvez créer un rapport qui regroupe des volumes en raison de la mauvaise santé de la relation. 
 ---
-= Créer un rapport pour regrouper les relations de volume par source de défaillance
+= Créez un rapport pour regrouper les relations de volume par source de défaillance dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: jobs 
 summary: 'Un travail est une série de tâches que vous pouvez contrôler à l"aide d"Unified Manager. L"affichage des travaux et de leurs tâches associées vous permet de déterminer s"ils ont réussi.' 
 ---
-= Quels sont les emplois
+= Découvrez les tâches dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

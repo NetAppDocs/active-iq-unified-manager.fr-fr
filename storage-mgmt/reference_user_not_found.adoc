@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: user, not, found 
 summary: 'Dépannage : utilisateur introuvable' 
 ---
-= Utilisateur introuvable
+= Résoudre l'erreur « Utilisateur introuvable » dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

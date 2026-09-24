@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: happens, performance, threshold, policies, object, moved 
 summary: 'Étant donné que des règles de seuils de performances sont attribuées aux objets de stockage, si vous déplacez un objet, toutes les règles de seuil attribuées restent liées à l"objet une fois le déplacement terminé. Par exemple, si vous déplacez un volume ou une LUN vers un autre agrégat, les règles de seuil sont toujours actives pour le volume ou la LUN du nouvel agrégat.' 
 ---
-= Que se passe-t-il aux règles de seuils de performances lorsqu'un objet est déplacé
+= Gérez les politiques de seuil lors du déplacement d'objets dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: windows, log rotation issue, Netapp Manageability SDK 
 summary: 'Dépannage : suivez ces étapes pour résoudre le problème de rotation des journaux' 
 ---
-= Problème de rotation des journaux du SDK NetApp Manageability sur les systèmes Windows
+= Résolvez un problème de rotation des journaux du SDK de gestion NetApp dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

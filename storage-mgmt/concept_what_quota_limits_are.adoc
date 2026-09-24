@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: quota, limits 
 summary: 'Les limites de quota utilisateur sont des valeurs que le serveur Unified Manager utilise pour évaluer si la consommation d"espace par un utilisateur atteint la limite ou a atteint la limite définie par le quota de l"utilisateur. Si la limite soft est traversée ou si la limite hard est atteinte, le serveur Unified Manager génère des événements de quotas d"utilisateurs.' 
 ---
-= Quelles sont les limites des quotas
+= Découvrez les limites de quota dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: user-defined, performance, threshold, policies, work 
 summary: 'Vous définissez des règles de seuil de performances sur les objets de stockage (sur les agrégats et les volumes, par exemple). Un événement peut ainsi être envoyé à l"administrateur du stockage pour informer l"administrateur que le cluster rencontre un problème de performances.' 
 ---
-= Fonctionnement des règles de seuil de performances définies par l'utilisateur
+= Utilisez des politiques de seuil de performance définies par l'utilisateur dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

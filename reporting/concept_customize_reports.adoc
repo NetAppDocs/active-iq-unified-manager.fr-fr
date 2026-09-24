@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: customize, reports 
 summary: Vous pouvez personnaliser les vues de différentes manières afin de créer un rapport contenant toutes les informations nécessaires à la gestion de vos clusters ONTAP. 
 ---
-= Personnaliser les rapports
+= Personnalisez les rapports dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

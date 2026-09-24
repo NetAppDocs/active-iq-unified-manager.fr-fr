@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understanding, reports 
 summary: 'Des rapports affichent des informations détaillées sur le stockage, le réseau, la qualité de service et les relations de protection, vous permettant d"identifier et de résoudre les problèmes potentiels avant qu"ils ne se produisent.' 
 ---
-= Comprendre les rapports
+= Comprendre les rapports dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

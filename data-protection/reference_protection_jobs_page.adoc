@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: jobs, page 
 summary: 'La page travaux vous permet d"afficher l"état actuel et d"autres informations sur toutes les tâches de protection des applications partenaires en cours d"exécution, ainsi que les tâches terminées. Vous pouvez utiliser ces informations pour voir quels travaux sont toujours en cours d"exécution et si un travail a réussi ou échoué.' 
 ---
-= Page travaux
+= Découvrez la page des tâches dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

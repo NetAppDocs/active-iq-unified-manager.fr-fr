@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, disks, reallocate, data 
 summary: 'Vous pouvez ajouter des disques à un agrégat pour augmenter la capacité de stockage et les performances de cet agrégat. Après l"ajout de disques, vous constaterez une amélioration des performances de lecture uniquement après avoir rélocalisé les données sur les disques que vous avez ajoutés.' 
 ---
-= Ajouter des disques et réaffecter des données
+= Comprendre comment l'ajout de disques affecte la réallocation des données dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: node, events, impact area, availability, capacity, configuration, performance, security 
 summary: 'Les événements du nœud vous fournissent des informations sur l"état du nœud, ce qui vous permet de contrôler l"éventualité d"un problème. Les événements sont regroupés par zone d"impact et incluent le nom de l"événement et de l"interruption, le niveau d"impact, le type de source et la gravité.' 
 ---
-= Événements du nœud
+= Découvrez les événements de nœud dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

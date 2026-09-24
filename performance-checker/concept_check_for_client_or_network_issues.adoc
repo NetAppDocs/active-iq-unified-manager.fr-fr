@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: check, client, network, issues 
 summary: 'Lorsque les clients connectés aux volumes d"un cluster augmentent leurs demandes d"E/S, le cluster doit travailler plus fort pour répondre à la demande. La demande accrue sur le cluster peut créer des conflits entre les composants, augmenter la latence des charges de travail qui l"utilisent et déclencher un événement dans Unified Manager.' 
 ---
-= Vérifiez si le client ou le réseau ne présentent pas de problème
+= Comprendre comment les problèmes liés aux clients ou au réseau affectent les performances d'Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

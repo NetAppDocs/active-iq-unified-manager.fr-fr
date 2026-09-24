@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: job, details, page 
 summary: 'La page Détails du travail vous permet d"afficher l"état et d"autres informations sur des tâches de protection spécifiques en cours d"exécution, en file d"attente ou terminées. Vous pouvez utiliser ces informations pour surveiller la progression des tâches de protection et résoudre les échecs de tâches.' 
 ---
-= Page des détails du travail
+= Découvrez la page des détails du travail dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

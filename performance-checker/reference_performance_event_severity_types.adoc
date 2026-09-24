@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, event, severity, types 
 summary: Chaque événement de performance est associé à un type de gravité pour vous aider à hiérarchiser les événements nécessitant une action corrective immédiate. 
 ---
-= Types de sévérité des événements de performance
+= Priorisez les événements de performance par niveau de gravité dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, edit, storage, efficiency, policies 
 summary: 'Lorsque les règles d"efficacité du stockage définies par le système ne répondent pas aux exigences de vos workloads, vous pouvez créer vos propres règles d"efficacité du stockage optimisées pour vos charges de travail.' 
 ---
-= Créer et modifier des politiques d'efficacité du stockage
+= Créez et modifiez des stratégies d'efficacité du stockage dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

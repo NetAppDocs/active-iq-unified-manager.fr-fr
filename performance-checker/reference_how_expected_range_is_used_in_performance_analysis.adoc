@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: latency, forecast, performance, analysis 
 summary: 'Unified Manager utilise les prévisions de latence pour représenter l"activité d"E/S type (temps de réponse) typique de vos charges de travail surveillées. Il vous alerte lorsque la latence réelle d"une charge de travail se situe au-dessus des limites supérieures de la prévision de latence, ce qui déclenche un événement de performance dynamique. Vous pouvez ainsi analyser le problème de performance et prendre des mesures correctives pour le résoudre.' 
 ---
-= Mode d'utilisation de la prévision de latence dans l'analyse des performances
+= Utilisez les prévisions de latence pour l'analyse des performances dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

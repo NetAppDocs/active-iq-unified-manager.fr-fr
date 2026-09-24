@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapvault, policy, dialog box 
 summary: 'La boîte de dialogue Créer une stratégie de SnapVault vous permet de créer une règle afin de définir la priorité des transferts SnapVault. Vous utilisez les règles pour optimiser l"efficacité des transferts du volume primaire vers le volume secondaire.' 
 ---
-= Boîte de dialogue Créer une stratégie SnapVault
+= Utilisez la boîte de dialogue Créer une stratégie SnapVault dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: workload analyzer, use 
 summary: 'Vous utilisez généralement l"analyseur de charge de travail pour résoudre un problème de latence signalé par un utilisateur, analyser plus précisément un événement ou une alerte signalé ou explorer une charge de travail qui fonctionne normalement.' 
 ---
-= Quand utiliser l'analyseur de charge de travail
+= Comprendre quand utiliser l'analyseur de charge de travail dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, HA pairs, available, capacity 
 summary: Vous pouvez créer un rapport pour trouver les paires haute disponibilité avec la plus grande capacité de provisionnement de nouveaux volumes et de nouvelles LUN. 
 ---
-= Créer un rapport pour afficher les paires HA avec la capacité la plus disponible
+= Créez un rapport pour afficher les paires haute disponibilité avec la capacité disponible la plus élevée dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

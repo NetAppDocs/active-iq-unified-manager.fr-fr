@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, node, aggregate, performance, capacity, used, values 
 summary: 'Vous pouvez contrôler les valeurs de performance de la capacité utilisée pour tous les nœuds ou pour tous les agrégats d"un cluster, ou afficher les détails d"un nœud ou agrégat unique.' 
 ---
-= Afficher les valeurs utilisées de la capacité de performance des nœuds et des agrégats
+= Afficher les valeurs de capacité de performance utilisées des nœuds et des agrégats dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

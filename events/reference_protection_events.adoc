@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: protection, events, impact area, protection 
 summary: 'Les événements de protection vous indiquent si un travail a échoué ou a été abandonné pour que vous puissiez surveiller les problèmes. Les événements sont regroupés par zone d"impact et incluent le nom de l"événement et de l"interruption, le niveau d"impact, le type de source et la gravité.' 
 ---
-= Événements de protection
+= Découvrez les événements de protection dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

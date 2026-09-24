@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: scripts, work, alerts 
 summary: 'Vous pouvez associer une alerte à votre script afin que le script soit exécuté lorsqu"une alerte est générée pour un événement dans Unified Manager. Vous pouvez utiliser ces scripts pour résoudre les problèmes liés aux objets de stockage ou identifier les objets de stockage qui génèrent les événements.' 
 ---
-= Fonctionnement des scripts avec les alertes
+= Comprendre le fonctionnement des scripts avec les alertes dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

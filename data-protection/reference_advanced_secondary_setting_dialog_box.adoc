@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: advanced, secondary, settings, dialog box 
 summary: 'Vous pouvez utiliser la boîte de dialogue Paramètres secondaires avancés pour activer la réplication flexible de la version, la sauvegarde de plusieurs copies et les paramètres d"espace sur un volume secondaire. Vous pouvez utiliser la boîte de dialogue Paramètres secondaires avancés pour modifier ou désactiver les paramètres actuels.' 
 ---
-= Boîte de dialogue Paramètres secondaires avancés
+= Utilisez la boîte de dialogue Paramètres secondaires avancés dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

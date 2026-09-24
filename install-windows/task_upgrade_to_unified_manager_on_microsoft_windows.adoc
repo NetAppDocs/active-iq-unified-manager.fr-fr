@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: upgrade, unified manager 
 summary: 'Vous pouvez mettre à niveau Unified Manager en téléchargeant et en exécutant le fichier d"installation sur la plateforme Windows.' 
 ---
-= Mettez à niveau Unified Manager
+= Mettez à niveau Active IQ Unified Manager sous Windows
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, capacity, value, means 
 summary: 'La valeur de performance utilisée permet d"identifier les nœuds et les agrégats actuellement sur-utilisés ou sous-utilisés. Vous pouvez ainsi redistribuer les charges de travail afin d"améliorer l"efficacité de vos ressources de stockage.' 
 ---
-= Signification de la capacité en termes de performances utilisée
+= Utilisez la valeur de capacité de performance utilisée dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

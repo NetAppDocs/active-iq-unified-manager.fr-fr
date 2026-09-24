@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, group, actions 
 summary: 'Vous pouvez configurer les actions de groupe que vous souhaitez appliquer aux objets de stockage d"un groupe. La configuration des actions pour un groupe vous permet de gagner du temps, car vous n"avez pas besoin d"ajouter ces actions individuellement à chaque objet.' 
 ---
-= Ajouter des actions de groupe
+= Ajouter des actions de groupe dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

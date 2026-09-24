@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: volume, events, impact area, availability, capacity, configuration, performance 
 summary: 'Les événements de volume fournissent des informations sur l"état des volumes qui vous permettent de surveiller les problèmes potentiels. Les événements sont regroupés par zone d"impact et incluent le nom de l"événement, le nom de l"interruption, le niveau d"impact, le type de source et la gravité.' 
 ---
-= Événements de volume
+= Découvrez les événements de volume dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

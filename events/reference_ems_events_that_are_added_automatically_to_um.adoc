@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: ems events, added, automatically, unified manager 
 summary: 'Les événements ONTAP EMS suivants sont ajoutés automatiquement à Unified Manager. Ces événements sont générés lorsqu"ils sont déclenchés sur un cluster que Unified Manager surveille.' 
 ---
-= Événements EMS ajoutés automatiquement à Unified Manager
+= Événements EMS ajoutés automatiquement à Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

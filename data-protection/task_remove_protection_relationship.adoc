@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: remove, protection, relationship, volume, relationships page 
 summary: 'Dans la page relations de volume, vous pouvez supprimer une relation de protection pour supprimer définitivement une relation existante entre la source et la destination sélectionnées : par exemple, lorsque vous souhaitez créer une relation à l"aide d"une destination différente. Cette opération supprime toutes les métadonnées et ne peut pas être annulée.' 
 ---
-= Supprimer une relation de protection de la page Relations de volume
+= Supprimez une relation de protection depuis la page Volume Relationships dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

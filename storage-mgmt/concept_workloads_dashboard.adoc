@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: workloads, overview, data center, sections 
 summary: 'Une charge de travail (workload) représente les opérations d"entrée/sortie (I/O) d"un objet de stockage, telles qu"un volume ou une LUN. La méthode de provisionnement du stockage repose sur les exigences des charges de travail attendues. Les statistiques de charge de travail sont uniquement suivies par Active IQ Unified Manager après le trafic vers et depuis l"objet de stockage. Par exemple, les valeurs d"IOPS et de latence de la charge de travail sont disponibles lorsque les utilisateurs ont commencé à utiliser une application de base de données ou de messagerie.' 
 ---
-= Présentation des charges de travail
+= Découvrez le tableau de bord des charges de travail dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

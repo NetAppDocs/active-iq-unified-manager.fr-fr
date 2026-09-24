@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, backup, snapshot copy, copies maintenance console 
 summary: 'Pour sauvegarder Active IQ Unified Manager à l"aide de la copie Snapshot, vous devez effectuer quelques étapes de configuration à partir de la console de maintenance.' 
 ---
-= Configurer la sauvegarde par copie instantanée à partir de la console de maintenance
+= Configurez une sauvegarde par instantané depuis la console de maintenance dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

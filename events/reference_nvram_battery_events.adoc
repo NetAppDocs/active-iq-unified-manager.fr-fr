@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: nvram, battery, events, impact area, availability 
 summary: 'Les événements relatifs à la batterie NVRAM fournissent des informations sur l"état des batteries afin que vous puissiez surveiller les problèmes potentiels. Les événements sont regroupés par zone d"impact et incluent le nom de l"événement et de l"interruption, le niveau d"impact, le type de source et la gravité.' 
 ---
-= Événements de la batterie NVRAM
+= Découvrez les événements liés à la batterie NVRAM dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

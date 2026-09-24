@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: access, points, generating, reports 
 summary: 'Vous pouvez regrouper dans Unified Manager des informations sur les clusters pour créer des rapports à partir de l"interface utilisateur, des requêtes de base de données MySQL et des API REST.' 
 ---
-= Points d'accès pour générer des rapports
+= Découvrez trois façons d'accéder aux fonctionnalités de reporting dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

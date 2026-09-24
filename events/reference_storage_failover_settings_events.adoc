@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage, failover, settings, events, impact area, availability 
 summary: 'Les événements de basculement du stockage (SFO) vous fournissent des informations sur la désactivation ou l"absence de configuration de votre basculement du stockage, afin de pouvoir surveiller l"éventuelle des problèmes. Les événements sont regroupés par zone d"impact et incluent le nom de l"événement et de l"interruption, le niveau d"impact, le type de source et la gravité.' 
 ---
-= Événements relatifs aux paramètres de basculement du stockage
+= Découvrez les événements liés aux paramètres de basculement du stockage dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: authentication, active directory, openldap 
 summary: 'Vous pouvez activer l"authentification à distance sur le serveur de gestion et configurer le serveur de gestion pour qu"il communique avec vos serveurs d"authentification afin que les utilisateurs des serveurs d"authentification puissent accéder à Unified Manager.' 
 ---
-= Authentification avec Active Directory ou OpenLDAP
+= Authentifiez-vous avec Active Directory ou OpenLDAP dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

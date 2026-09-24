@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: group rules, work, groups 
 summary: 'Une règle de groupe est un critère que vous définissez pour activer l"inclure dans un groupe spécifique des objets de stockage (volumes, clusters ou SVM). Vous pouvez utiliser des groupes de condition ou des conditions pour définir une règle de groupe pour un groupe.' 
 ---
-= Fonctionnement des règles de groupe pour les groupes
+= Comprendre le fonctionnement des règles de groupe dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

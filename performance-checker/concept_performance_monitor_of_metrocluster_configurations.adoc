@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, monitor, metrocluster, throughput 
 summary: 'Unified Manager vous permet de contrôler le débit d"écriture entre les clusters d"une configuration MetroCluster afin d"identifier les workloads dont le débit d"écriture est élevé. Si ces charges de travail hautes performances provoquent d"autres volumes du cluster local des temps de réponse d"E/S élevés, Unified Manager déclenche des événements de performance qui vous avertissent.' 
 ---
-= Contrôle des performances des configurations MetroCluster
+= Surveillez les performances de MetroCluster avec Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: description, event, impact, areas 
 summary: 'Les événements sont classés en six catégories d"impact (disponibilité, capacité, configuration, performances, protection, et sécurité) pour vous permettre de vous concentrer sur les types d"événements dont vous êtes responsable.' 
 ---
-= Description des zones d'impact de l'événement
+= Découvrez les zones d'impact des événements dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

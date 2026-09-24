@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: search, schedule, report 
 summary: 'Vous pouvez rechercher des rapports programmés par nom, nom d"affichage, type d"objet ou destinataires.' 
 ---
-= Rechercher un rapport planifié
+= Recherchez un rapport planifié dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, workload, latency, identify, performance, issues 
 summary: 'La latence (temps de réponse) correspond au temps nécessaire pour qu"un volume d"un cluster réponde aux demandes d"E/S des applications client. Unified Manager utilise la latence pour détecter les événements de performance et vous alerter.' 
 ---
-= Comment Unified Manager utilise une latence de charge de travail pour identifier les problèmes de performance
+= Utilisez la latence de la charge de travail pour identifier les problèmes de performance dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, disks, perform, aggregate, layout, reconstruction 
 summary: 'Vous pouvez ajouter des disques à un agrégat pour augmenter la capacité de stockage et les performances de cet agrégat. Après l"ajout de disques, vous constatez uniquement une amélioration des performances après la reconstruction de l"agrégat.' 
 ---
-= Ajout de disques et reconstruction des agrégats
+= Comprendre comment l'ajout de disques affecte la disposition des agrégats dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

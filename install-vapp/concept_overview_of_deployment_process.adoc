@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: overview, deployment, process 
 summary: 'Le workflow de déploiement décrit les tâches à effectuer avant d"utiliser Unified Manager.' 
 ---
-= Présentation du processus de déploiement
+= Découvrez le processus de déploiement d’Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

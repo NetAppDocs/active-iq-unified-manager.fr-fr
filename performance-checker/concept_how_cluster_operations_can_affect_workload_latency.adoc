@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: cluster, operations, affect, workload, latency 
 summary: 'Les opérations (IOPS) représentent l"activité de tous les workloads définis par le système et l"utilisateur sur un cluster. Les statistiques Op E/S par sec vous aident à déterminer si les processus du cluster, tels que réaliser des sauvegardes ou exécuter la déduplication, ont un impact sur la latence (temps de réponse) d"une charge de travail ou s"ils ont pu être responsables d"un événement de performances.' 
 ---
-= Comment les opérations d'un cluster peuvent affecter la latence des charges de travail
+= Évaluez comment les opérations de cluster peuvent affecter la latence des charges de travail dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

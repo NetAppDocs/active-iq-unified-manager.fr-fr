@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, cluster, performance, performance, cluster, landing, page 
 summary: 'La page d"accueil Performance Cluster affiche l"état des performances générales d"un cluster sélectionné contrôlé par une instance de Unified Manager. Cette page vous permet d"évaluer les performances globales d"un cluster spécifique et de noter, localiser ou attribuer rapidement la résolution de tout événement spécifique au cluster identifié.' 
 ---
-= Surveiller les performances du cluster à partir de la page de destination du cluster de performances
+= Surveillez les performances du cluster depuis la page d'accueil « Performances du cluster » dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

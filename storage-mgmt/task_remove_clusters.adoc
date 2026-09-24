@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: remove, cluster 
 summary: 'Vous pouvez supprimer un cluster de Unified Manager en utilisant la page Cluster Setup. Par exemple, vous pouvez supprimer un cluster si la détection d"un cluster échoue ou si vous souhaitez désaffecter un système de stockage.' 
 ---
-= Supprimer les clusters
+= Supprimez les clusters d'Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

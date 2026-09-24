@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resolve, capacity issues 
 summary: 'Ce flux de travail fournit un exemple de résolution d"un problème de capacité. Dans ce scénario, vous êtes administrateur ou opérateur et accédez à la page de tableau de bord Unified Manager pour voir si certains des objets de stockage surveillés ont des problèmes de capacité. Vous voulez déterminer la cause possible du problème et la résolution de celui-ci.' 
 ---
-= Résoudre les problèmes de capacité
+= Résoudre les problèmes de capacité dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

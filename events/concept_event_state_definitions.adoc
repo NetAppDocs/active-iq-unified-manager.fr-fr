@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: event, state, definitions 
 summary: 'L"état d"un événement vous aide à déterminer si une action corrective appropriée est nécessaire. Un événement peut être Nouveau, accusé de réception, résolu ou Obsolète. Notez que les événements nouveaux et acquittés sont considérés comme des événements actifs.' 
 ---
-= Définitions d'état d'événement
+= États des événements dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, aggregates, overcommitted 
 summary: 'Vous pouvez créer un rapport pour analyser la capacité de stockage et l"utilisation des agrégats, et pour afficher les agrégats dont la surallocation est de l"exploitation.' 
 ---
-= Créer un rapport pour afficher les agrégats surengagés
+= Créez un rapport pour afficher les agrégats surengagés dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

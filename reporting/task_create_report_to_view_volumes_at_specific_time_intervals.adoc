@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, volume, transfer, trends, specific, time intervals 
 summary: Vous pouvez créer un rapport qui affiche les tendances de transfert de volume à des intervalles de temps spécifiques. 
 ---
-= Créer un rapport pour afficher les tendances de transfert de volume à des intervalles de temps spécifiques
+= Créez un rapport pour visualiser les tendances des transferts de volume à intervalles réguliers dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

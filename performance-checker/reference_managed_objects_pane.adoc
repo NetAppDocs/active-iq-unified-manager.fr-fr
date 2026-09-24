@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: managed, objects, pane 
 summary: 'Le volet objets gérés de l"onglet Résumé des performances fournit une vue d"ensemble de haut niveau des types et nombres d"objets de stockage pour le cluster. Ce volet vous permet de suivre l"état des objets de chaque cluster.' 
 ---
-= Volet objets gérés
+= Consultez le volet Objets gérés dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

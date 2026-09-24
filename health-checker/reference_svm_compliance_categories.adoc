@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage vm, compliance, svm compliance, categories 
 summary: 'Ce tableau décrit les critères de conformité de sécurité de la machine virtuelle de stockage (SVM) que Unified Manager évalue, la recommandation de NetApp et si le paramètre affecte la détermination globale de la plainte ou non de la SVM.' 
 ---
-= Catégories de conformité des VM de stockage
+= Comprendre les catégories de conformité des machines virtuelles de stockage dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: search, refine, view 
 summary: 'Une fois la vue souhaitée disponible, vous pouvez affiner les résultats à l"aide du champ de recherche pour mettre l"accent sur les résultats que vous souhaitez inclure dans le rapport.' 
 ---
-= Utilisation de la fonction de recherche pour affiner votre vue
+= Recherchez pour affiner votre affichage dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

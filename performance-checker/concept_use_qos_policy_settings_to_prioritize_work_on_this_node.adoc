@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: qos, policy, settings, prioritize, work, node 
 summary: 'Vous pouvez définir une limite au groupe de règles de QoS pour contrôler la limite d"E/S par seconde (IOPS) ou de débit en Mbit/s pour les workloads qu"il contient. Si des charges de travail se trouvent dans un groupe de règles sans limite définie, telles que le groupe de règles par défaut ou la limite définie ne répond pas à vos besoins, vous pouvez augmenter la limite définie ou déplacer les charges de travail vers un nouveau groupe de règles ou un groupe existant présentant la limite souhaitée.' 
 ---
-= Utilisez les paramètres de règles de QoS pour hiérarchiser le travail sur ce nœud
+= Utilisez les paramètres de stratégie QoS pour prioriser les charges de travail des nœuds dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

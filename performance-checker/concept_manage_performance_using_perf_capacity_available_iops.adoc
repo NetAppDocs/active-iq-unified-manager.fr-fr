@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: managing, performance, performance, capacity, available, iops, information 
 summary: 'La capacité de performance indique le débit dont vous pouvez bénéficier sans compromettre les performances de cette ressource. Lorsqu"il est utilisé des compteurs de performances existants, la capacité de performances est le point où l"utilisation maximale est atteint depuis un nœud ou un agrégat avant que la latence ne devienne un problème.' 
 ---
-= Gérez les performances à l'aide de la capacité de performance et des informations IOPS disponibles
+= Gérez la capacité de performance et les IOPS disponibles dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

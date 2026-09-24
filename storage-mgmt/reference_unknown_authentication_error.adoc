@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unknown, authentication, error 
 summary: 'Dépannage : erreur d"authentification inconnue' 
 ---
-= Erreur d'authentification inconnue
+= Résoudre une erreur d'authentification inconnue dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

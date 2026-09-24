@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: types, workloads, monitored, unified manager 
 summary: 'Unified Manager permet de surveiller les performances de deux types de charges de travail : définies par l"utilisateur et défini par le système.' 
 ---
-= Types de charges de travail surveillés par Unified Manager
+= Surveillez les types de charges de travail avec Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

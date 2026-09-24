@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: restore, dialog box 
 summary: 'La boîte de dialogue Restaurer permet de restaurer les données sur un volume à partir d"une copie Snapshot spécifique.' 
 ---
-= Restaurer la boîte de dialogue
+= Utilisez la boîte de dialogue Restaurer dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

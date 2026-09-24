@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: components, object, landing pages 
 summary: 'Les pages d"arrivée d"objet fournissent des détails sur tous les événements critiques, d"avertissement et d"information. Elles offrent une vue détaillée des performances de tous les objets du cluster. Vous pouvez ainsi sélectionner et comparer des objets individuels sur différentes périodes.' 
 ---
-= Composants des pages d'arrivée d'objet
+= Examinez les composants des pages de destination des objets dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

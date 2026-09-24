@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: remote authentication, page 
 summary: 'Vous pouvez utiliser la page authentification à distance pour configurer Unified Manager pour communiquer avec votre serveur d"authentification afin d"authentifier les utilisateurs distants qui tentent de se connecter à l"interface utilisateur Web Unified Manager.' 
 ---
-= Page authentification à distance
+= Utilisez la page d'authentification à distance dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

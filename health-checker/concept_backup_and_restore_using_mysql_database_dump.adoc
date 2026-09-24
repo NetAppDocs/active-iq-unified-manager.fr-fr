@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: backup, restore, using, mysql, database, dump, snapshot copy, copies 
 summary: 'Une sauvegarde de vidage de la base de données MySQL est une copie de la base de données Active IQ Unified Manager et des fichiers de configuration que vous pouvez utiliser en cas de défaillance ou de perte de données du système. Vous pouvez planifier l"écriture d"une sauvegarde vers une destination locale ou distante. Il est fortement recommandé de définir un emplacement distant externe au système hôte Active IQ Unified Manager.' 
 ---
-= Sauvegarde et restauration à l'aide d'un vidage de base de données MySQL
+= Sauvegarde et restauration à l'aide d'un dump de base de données MySQL dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

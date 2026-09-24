@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: sample, custom, reports 
 summary: 'Ces exemples de rapports personnalisés sont généralement utilisés pour vous aider à identifier les problèmes potentiels et à résoudre les problèmes potentiels avant qu"ils ne surviennent.' 
 ---
-= Exemples de rapports personnalisés
+= Comprendre des exemples de rapports personnalisés dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

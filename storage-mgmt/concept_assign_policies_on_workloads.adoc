@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: assign, policies, workloads, single, multiple, storage, system-recommended, psls 
 summary: 'Vous pouvez affecter des politiques d"efficacité du stockage (PPE) et des niveaux de service de performance aux charges de travail de stockage à partir de la page toutes les charges de travail en utilisant les différentes options de navigation.' 
 ---
-= Attribuer des politiques aux charges de travail
+= Attribuez des stratégies aux charges de travail dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: summary page, charts, counter, statistics 
 summary: La page Récapitulatif affiche les graphiques compteurs qui contiennent des informations détaillées sur les événements et les performances par objet pour la période de 72 heures précédente. Ces données ne sont pas automatiquement actualisées, mais sont en cours à compter du dernier chargement de page. Les tableaux de la page Sommaire répondent à la question dois-je regarder plus loin? 
 ---
-= Page récapitulative
+= Consultez la page Résumé des performances dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

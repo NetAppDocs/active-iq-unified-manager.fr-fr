@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, banner, messages, descriptions 
 summary: 'Unified Manager peut afficher des bannières sur la page Notifications (depuis le signal sonore de notification) pour vous alerter des problèmes liés à un cluster particulier.' 
 ---
-= Messages de bannière et descriptions de performances
+= Interpréter les messages de bannière de performance dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

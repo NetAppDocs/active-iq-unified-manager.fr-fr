@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: counter, charts, zoom, view 
 summary: 'Les diagrammes de compteur offrent une vue Zoom qui vous permet d"effectuer un zoom avant sur les détails de performance au cours de la période spécifiée. Vous pouvez ainsi consulter les informations de performances et les événements avec une granularité bien plus élevée, ce qui est avantageux lors du dépannage des problèmes de performances.' 
 ---
-= Vue Zoom des diagrammes de compteur
+= Découvrez la vue zoom dans les graphiques de compteurs dans Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
