@@ -2,7 +2,7 @@
 permalink: performance-checker/concept_verify_qos_policy_group.html 
 sidebar: sidebar 
 keywords: verify, volumes, qos, policy, group, unusually, high, activity 
-summary: 'Vous pouvez examiner les charges de travail du groupe de règles de qualité de service \(QoS\) ayant le plus grand changement d"activité pour déterminer si plusieurs charges de travail ont provoqué l"événement. Vous savez également si d"autres charges de travail dépassent la limite de débit définie ou si elles restent dans la plage d"activité attendue.' 
+summary: 'Examinez les charges de travail dans un groupe de stratégie de qualité de service (QoS) présentant la plus grande variation d"activité afin de déterminer quelle charge de travail a provoqué l"événement.' 
 ---
 = Analysez les volumes à forte activité au sein d'un groupe de politiques QoS dans Active IQ Unified Manager
 :allow-uri-read: 

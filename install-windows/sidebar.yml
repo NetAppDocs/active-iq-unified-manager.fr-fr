@@ -3,15 +3,17 @@ section: install-windows
 title: Installation de Unified Manager sur les systèmes Windows
 entries:
 - title: Introduction à Active IQ Unified Manager
-  url: "/install-windows/concept_introduction_to_unified_manager.html"
   entries:
+  - title: Découvrez Active IQ Unified Manager
+    url: "/install-windows/concept_introduction_to_unified_manager.html"
   - title: Rôle du serveur Unified Manager
     url: "/install-windows/concept_what_unified_manager_server_does.html"
   - title: Présentation de la séquence d'installation
     url: "/install-windows/concept_overview_of_installation_sequence_um.html"
 - title: Conditions requises pour l'installation de Unified Manager
-  url: "/install-windows/concept_requirements_for_installing_unified_manager.html"
   entries:
+  - title: Comprendre les exigences relatives à l’installation de Unified Manager
+    url: "/install-windows/concept_requirements_for_installing_unified_manager.html"
   - title: Configuration minimale requise pour l'infrastructure virtuelle et le système
       matériel
     url: "/install-windows/concept_virtual_infrastructure_or_hardware_system_requirements.html"
@@ -24,12 +26,10 @@ entries:
   - title: Remplissez la feuille de travail
     url: "/install-windows/reference_complete_worksheet_um.html"
 - title: Installer, mettre à niveau et supprimer le logiciel Unified Manager
-  url: "/install-windows/concept_install_upgrade_and_remove_unified_manager_software.html"
   entries:
   - title: Présentation du processus d'installation
     url: "/install-windows/concept_overview_of_installation_process_on_windows.html"
   - title: Installer Unified Manager sur Windows
-    url: "/install-windows/concept_install_unified_manager_windows.html"
     entries:
     - title: Installez Unified Manager
       url: "/install-windows/task_install_unified_manager_on_windows.html"
@@ -42,8 +42,9 @@ entries:
   - title: Mettez à niveau Unified Manager
     url: "/install-windows/task_upgrade_to_unified_manager_on_microsoft_windows.html"
   - title: Mettre à niveau les produits tiers
-    url: "/install-windows/concept_upgrade_third_party_products_on_windows_um.html"
     entries:
+    - title: Découvrez comment mettre à niveau les produits tiers
+      url: "/install-windows/concept_upgrade_third_party_products_on_windows_um.html"
     - title: Mettre à niveau OpenJDK
       url: "/install-windows/task_upgrade_openjdk_on_windows_ocum.html"
   - title: Désinstaller les produits tiers

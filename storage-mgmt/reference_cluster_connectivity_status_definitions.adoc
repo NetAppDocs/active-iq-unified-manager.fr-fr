@@ -2,7 +2,7 @@
 permalink: storage-mgmt/reference_cluster_connectivity_status_definitions.html 
 sidebar: sidebar 
 keywords: cluster, connectivity, status, definitions 
-summary: 'La connectivité entre les clusters d"une configuration MetroCluster peut être l"un des États suivants : optimal, impacté ou arrêté. La présentation des États de connectivité vous permet de gérer efficacement vos configurations MetroCluster.' 
+summary: Comprendre les états de connectivité entre les clusters dans une configuration MetroCluster, tels que Optimal, Impacté ou Hors service. 
 ---
 = Comprendre la connectivité des clusters dans une configuration MetroCluster sur FC dans Active IQ Unified Manager
 :allow-uri-read: 

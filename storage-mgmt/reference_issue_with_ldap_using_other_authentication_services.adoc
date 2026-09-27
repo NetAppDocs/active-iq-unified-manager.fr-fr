@@ -2,7 +2,7 @@
 permalink: storage-mgmt/reference_issue_with_ldap_using_other_authentication_services.html 
 sidebar: sidebar 
 keywords: issue, addi, ldap, use, other, authentication, services 
-summary: 'Dépannage : problème d"ajout de LDAP à l"aide d"autres services d"authentification' 
+summary: 'Résoudre un problème lié à l"ajout de LDAP à l"aide d"autres services d"authentification.' 
 ---
 = Résolvez le problème causé par l'ajout de LDAP à l'aide d'Other authentication service dans Active IQ Unified Manager
 :allow-uri-read: 

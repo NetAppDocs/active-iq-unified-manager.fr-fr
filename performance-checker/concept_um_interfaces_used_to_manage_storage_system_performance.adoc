@@ -2,7 +2,7 @@
 permalink: performance-checker/concept_um_interfaces_used_to_manage_storage_system_performance.html 
 sidebar: sidebar 
 keywords: unified manager, interfaces, used, manage, storage, system, performance, web ui, maintenance, console 
-summary: 'Active IQ Unified Manager fournit deux interfaces utilisateur pour le contrôle et la résolution des problèmes de performances du stockage des données : l"interface utilisateur Web et la console de maintenance.' 
+summary: 'Active IQ Unified Manager propose deux interfaces, l"interface utilisateur Web et la console de maintenance, pour surveiller et dépanner les performances du stockage.' 
 ---
 = Utilisez les interfaces d'Active IQ Unified Manager pour gérer les performances du système de stockage
 :allow-uri-read: 

@@ -83,7 +83,7 @@ Restaure les données sélectionnées à un nouvel emplacement :
 +
 ** Chemin de restauration
 +
-Spécifie un chemin alternatif pour restaurer les données sélectionnées. Le chemin doit déjà exister. Vous pouvez utiliser le bouton *Browse* pour naviguer jusqu'à l'emplacement où vous souhaitez restaurer les données, ou vous pouvez entrer le chemin manuellement à l'aide du format cluster://svm/volume/path.
+Spécifie un autre chemin pour restaurer les données sélectionnées. Le chemin doit déjà exister. Vous pouvez utiliser le bouton *Browse* pour accéder à l’emplacement où vous souhaitez restaurer les données, ou vous pouvez saisir le chemin manuellement au format  `cluster://svm/volume/path`.
 
 ** Conserver la hiérarchie du répertoire
 +

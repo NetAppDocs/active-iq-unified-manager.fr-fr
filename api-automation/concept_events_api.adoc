@@ -24,7 +24,7 @@ En exécutant le `GET` méthode pour le `/management-server/events` API : vous p
 
 En exécutant l'opération DE CORRECTIF pour cette API, vous pouvez activer le workflow de résolution pour l'événement. Vous pouvez attribuer un événement à vous-même ou à un autre utilisateur et accuser réception de l'événement. Lors de l'exécution des étapes sur les ressources pour résoudre le problème qui a déclenché l'événement, vous pouvez utiliser cette API pour marquer l'événement comme résolu.
 
-Pour plus d'informations sur les événements, reportez-vous link:../events/concept_manage_events.html["Gérer les événements"]à la section .
+Pour plus d'informations sur les événements, voir link:../events/concept_what_active_iq_platform_events_are.html["Découvrez les événements de la plateforme Active IQ"].
 
 [cols="4*"]
 |===
@@ -60,7 +60,7 @@ Exécutez cette API pour attribuer un événement ou modifier l'état sur valid�
 
 Les événements sont générés automatiquement et en continu. Unified Manager génère une alerte uniquement lorsqu'un événement répond à certains critères de filtre. Vous pouvez sélectionner les événements pour lesquels des alertes doivent être générées. À l'aide du `/management-server/alerts` API, vous pouvez configurer des alertes pour envoyer automatiquement des notifications en cas d'événements ou d'événements spécifiques de certains types de sévérité.
 
-Pour plus d'informations sur les alertes, reportez-vous link:../events/concept_manage_alerts.html["Gérer les alertes"]à la section .
+Pour plus d'informations sur les alertes, consultez link:../events/concept_what_alerts_are.html["Découvrez les alertes"].
 
 [cols="4*"]
 |===

@@ -2,7 +2,7 @@
 permalink: health-checker/task_view_aggregate_list_and_details.html 
 sidebar: sidebar 
 keywords: view, aggregate list, details 
-summary: 'Depuis la vue Santé : tous les agrégats, vous pouvez surveiller votre inventaire des agrégats. La vue capacité : tous les agrégats vous permet d"afficher des informations sur la capacité et l"utilisation des agrégats de tous les clusters.' 
+summary: 'Utilisez la vue « Tous les agrégats » de la page « Santé » pour surveiller votre inventaire d"agrégats, et la vue « Tous les agrégats » de la page « Capacité » pour obtenir des détails sur la capacité et l"utilisation.' 
 ---
 = Affichez la liste des agrégats et les détails dans Active IQ Unified Manager
 :allow-uri-read: 
@@ -37,5 +37,5 @@ Vous pouvez également afficher les détails complets en cliquant sur *Afficher 
 
 * link:../health-checker/reference_health_aggregate_details_page.html["Page Détails de l'agrégat/de l'intégrité"]
 * link:../performance-checker/performance-view-all.html#performance-all-aggregates-view["Performance : vue de tous les agrégats"]
-* link:../reporting/concept_customize_aggregate_capacity_reports.html["Personnalisation des rapports de capacité d'agrégats"]
+* link:../reporting/task_create_report_to_view_aggregates_reaching_full_capacity.html["Créez un rapport pour visualiser les agrégats atteignant leur pleine capacité dans Active IQ Unified Manager"]
 

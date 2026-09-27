@@ -2,7 +2,7 @@
 permalink: storage-mgmt/reference_user_not_found.html 
 sidebar: sidebar 
 keywords: user, not, found 
-summary: 'Dépannage : utilisateur introuvable' 
+summary: 'Résoudre l"erreur « utilisateur introuvable ».' 
 ---
 = Résoudre l'erreur « Utilisateur introuvable » dans Active IQ Unified Manager
 :allow-uri-read: 

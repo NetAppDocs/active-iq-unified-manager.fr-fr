@@ -2,7 +2,7 @@
 permalink: events/reference_supported_unified_manager_cli_commands.html 
 sidebar: sidebar 
 keywords: supported, unified manager, cli, commands, cmd, um cli, um run, 
-summary: 'En tant qu"administrateur du stockage, vous pouvez utiliser les commandes de l"interface de ligne de commande pour effectuer des requêtes sur les objets de stockage (par exemple, sur les clusters, les agrégats, les volumes). Qtrees et LUN.' 
+summary: Utilisez les commandes CLI pour effectuer des requêtes sur des objets de stockage tels que des clusters, des agrégats, des volumes, des qtrees et des LUN. 
 ---
 = Découvrez les commandes CLI prises en charge par Active IQ Unified Manager
 :allow-uri-read: 

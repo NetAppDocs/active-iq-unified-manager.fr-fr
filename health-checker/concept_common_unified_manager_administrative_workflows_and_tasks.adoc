@@ -2,7 +2,7 @@
 permalink: health-checker/concept_common_unified_manager_administrative_workflows_and_tasks.html 
 sidebar: sidebar 
 keywords: Common, unified, manager, health, workflows, tasks 
-summary: 'Parmi les workflows et tâches d"administration courants associés à Unified Manager figurent la sélection des clusters de stockage à contrôler, le diagnostic des conditions qui affectent négativement la disponibilité des données, la capacité et la protection, la restauration des données perdues, la configuration et la gestion des volumes, le regroupement et l"envoi de données de diagnostic au support technique (si nécessaire).' 
+summary: 'Découvrez les flux de travail administratifs courants, notamment la surveillance des clusters, le diagnostic des problèmes de disponibilité et de capacité, et l"envoi des données de diagnostic au support.' 
 ---
 = Comprendre les flux de travail et les tâches de santé courants d'Active IQ Unified Manager
 :allow-uri-read: 
@@ -35,7 +35,7 @@ Si des problèmes de capacité de stockage de volume s'affichent sur la page Tab
 
 * Configuration, contrôle et diagnostic des problèmes de relation au niveau de la protection
 +
-Après avoir créé et configuré des relations de protection, les administrateurs du stockage peuvent voir les problèmes potentiels liés aux relations de protection, l'état actuel des relations de protection, les informations de réussite de la tâche de protection actuelle et historique concernant les relations affectées, ainsi que des conseils de résolution de problèmes. Voir la link:../data-protection/concept_create_and_monitor_protection_relationships.html["Création, surveillance et résolution des problèmes de relations de protection"] pour en savoir plus.
+Après avoir créé et configuré les relations de protection, les administrateurs du stockage peuvent consulter les problèmes potentiels liés aux relations de protection, l'état actuel des relations de protection, les informations actuelles et historiques sur la réussite des tâches de protection concernant les relations affectées, ainsi que des conseils de dépannage. Consultez la documentation link:../data-protection/concept_manage_and_monitor_protection_relationships.html["Découvrez comment gérer et surveiller les relations de protection"] pour plus d'informations.
 
 * Création de fichiers de sauvegarde et restauration de données à partir de fichiers de sauvegarde.
 * Association d'objets de stockage avec des annotations

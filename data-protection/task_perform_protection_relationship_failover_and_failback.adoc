@@ -2,7 +2,7 @@
 permalink: data-protection/task_perform_protection_relationship_failover_and_failback.html 
 sidebar: sidebar 
 keywords: perform, protection, relationship, failover, failback 
-summary: 'Lorsqu"un volume source de votre relation de protection est désactivé en raison d"une panne matérielle ou d"un incident, vous pouvez utiliser les fonctions de relation de protection de Unified Manager pour rendre les données de destination de protection accessibles en lecture/écriture et basculer vers le volume jusqu"à ce que la source soit à nouveau en ligne. vous pouvez ensuite revenir à la source d"origine lorsqu"il est disponible pour transmettre les données.' 
+summary: 'Basculez vers une destination de protection lorsqu"un volume source devient indisponible, puis revenez à la source d"origine une fois qu"elle est de nouveau disponible.' 
 ---
 = Effectuez un basculement et un retour en arrière d'une relation de protection dans Active IQ Unified Manager
 :allow-uri-read: 

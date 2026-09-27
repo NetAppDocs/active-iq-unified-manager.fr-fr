@@ -2,7 +2,7 @@
 permalink: data-protection/task_remove_protection_relationship_voldtls.html 
 sidebar: sidebar 
 keywords: remove, protection, relationship,  volume, health details page 
-summary: 'Vous pouvez supprimer une relation de protection pour supprimer définitivement une relation existante entre la source et la destination sélectionnées, par exemple lorsque vous souhaitez créer une relation à l"aide d"une destination différente. Cette opération supprime toutes les métadonnées et ne peut pas être annulée.' 
+summary: Supprime définitivement la relation de protection entre une source et une destination sélectionnées. Cette action supprime toutes les métadonnées et est irréversible. 
 ---
 = Supprimez une relation de protection depuis la page Détails du volume/de l’état dans Active IQ Unified Manager
 :allow-uri-read: 

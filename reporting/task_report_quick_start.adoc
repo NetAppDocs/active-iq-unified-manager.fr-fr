@@ -2,7 +2,7 @@
 permalink: reporting/task_report_quick_start.html 
 sidebar: sidebar 
 keywords: reporting, quick, start 
-summary: 'Créez un modèle de rapport personnalisé afin de découvrir les vues et les rapports de planification. Ce rapport de démarrage rapide trouve une liste de volumes que vous pouvez déplacer vers le Tier cloud, car il existe une quantité équitable de données inactives. Vous ouvrez la vue Performance: Tous les volumes, personnalisez la vue à l"aide de filtres et de colonnes, enregistrez la vue personnalisée en tant que rapport et planifiez le partage du rapport une fois par semaine.' 
+summary: 'Créez un exemple de rapport qui identifie les volumes à déplacer vers le niveau cloud, personnalisez l"affichage, enregistrez-le en tant que rapport et programmez son partage chaque semaine.' 
 ---
 = Commencez à créer des rapports dans Active IQ Unified Manager
 :allow-uri-read: 

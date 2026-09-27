@@ -3,15 +3,17 @@ section: install-linux
 title: Installez Unified Manager sur les systèmes Linux
 entries:
 - title: Introduction à Active IQ Unified Manager
-  url: "/install-linux/concept_introduction_to_unified_manager.html"
   entries:
+  - title: Découvrez Active IQ Unified Manager
+    url: "/install-linux/concept_introduction_to_unified_manager.html"
   - title: Rôle du serveur Unified Manager
     url: "/install-linux/concept_what_unified_manager_server_does.html"
   - title: Présentation de la séquence d'installation
     url: "/install-linux/concept_overview_of_installation_sequence_um.html"
 - title: Conditions requises pour l'installation de Unified Manager
-  url: "/install-linux/concept_requirements_for_install_unified_manager.html"
   entries:
+  - title: Comprendre les exigences relatives à l’installation de Unified Manager
+    url: "/install-linux/concept_requirements_for_install_unified_manager.html"
   - title: Configuration minimale requise pour l'infrastructure virtuelle et le système
       matériel
     url: "/install-linux/concept_virtual_infrastructure_or_hardware_system_requirements.html"
@@ -24,12 +26,13 @@ entries:
   - title: Remplissez la feuille de travail
     url: "/install-linux/reference_complete_worksheet_um.html"
 - title: Installer, mettre à niveau et supprimer le logiciel Unified Manager
-  url: "/install-linux/concept_install_upgrade_and_remove_unified_manager_software.html"
   entries:
+  - title: Présentation de l'installation, de la mise à niveau et de la suppression
+      du logiciel Unified Manager
+    url: "/install-linux/concept_install_upgrade_and_remove_unified_manager_software.html"
   - title: Présentation du processus d'installation
     url: "/install-linux/concept_overview_of_installation_process_on_red_hat.html"
   - title: Configurer le logiciel requis
-    url: "/install-linux/concept_set_up_required_software_repositories_um.html"
     entries:
     - title: Configurer manuellement le référentiel EPEL
       url: "/install-linux/task_manually_configure_epel_repository.html"
@@ -40,7 +43,6 @@ entries:
   - title: Configuration SELinux requise sur le partage NFS ou CIFS
     url: "/install-linux/task_selinux_requirements_for_mounting_opt_netapp.html"
   - title: Installez Unified Manager sur les systèmes Linux
-    url: "/install-linux/concept_install_unified_manager_on_rhel.html"
     entries:
     - title: Créez un répertoire personnel utilisateur et un mot de passe umadmin
         personnalisés avant l'installation
@@ -54,8 +56,10 @@ entries:
     - title: Changer le mot de passe JBoss
       url: "/install-linux/task_change_jboss_password.html"
   - title: Mettre à niveau Unified Manager sur Red Hat Enterprise Linux
-    url: "/install-linux/concept_upgrade_unified_manager_on_rhel.html"
     entries:
+    - title: Comprendre la mise à niveau de Unified Manager sur Red Hat Enterprise
+        Linux
+      url: "/install-linux/concept_upgrade_unified_manager_on_rhel.html"
     - title: Chemin de mise à niveau pris en charge pour les versions de Unified Manager
       url: "/include/upgrade-path.html"
     - title: Mettez à niveau Unified Manager
@@ -64,8 +68,9 @@ entries:
         Linux 7.x vers 8.x
       url: "/install-linux/task_upgrade_host_os.html"
   - title: Mettre à niveau les produits tiers après l'installation d'Unified Manager
-    url: "/install-linux/concept_upgrade_third_party_products_on_linux_um.html"
     entries:
+    - title: Découvrez comment mettre à niveau les produits tiers
+      url: "/install-linux/concept_upgrade_third_party_products_on_linux_um.html"
     - title: Mettre à niveau OpenJDK sur Linux
       url: "/install-linux/task_upgrade_openjdk_on_linux_ocum.html"
   - title: Redémarrer Unified Manager

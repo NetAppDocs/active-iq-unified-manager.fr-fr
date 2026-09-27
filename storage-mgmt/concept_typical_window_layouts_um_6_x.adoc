@@ -2,7 +2,7 @@
 permalink: storage-mgmt/concept_typical_window_layouts_um_6_x.html 
 sidebar: sidebar 
 keywords: typical, window, layouts, object, list, details 
-summary: 'La compréhension des dispositions de fenêtre types vous permet de naviguer et d"utiliser Active IQ Unified Manager efficacement. La plupart des fenêtres Unified Manager sont similaires à l"une des deux présentations générales : liste d"objets ou détails. Le paramètre d"affichage recommandé est d"au moins 1280 x 1024 pixels.' 
+summary: 'Familiarisez-vous avec la disposition typique des fenêtres de Unified Manager, la liste des objets ou les détails des objets, ainsi qu"avec le paramètre d"affichage recommandé pour une navigation efficace.' 
 ---
 = Agencements de fenêtres typiques dans Active IQ Unified Manager
 :allow-uri-read: 

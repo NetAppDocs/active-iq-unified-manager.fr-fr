@@ -2,7 +2,7 @@
 permalink: data-protection/concept_storage_virtual_machine_and_resource_pool_requirements.html 
 sidebar: sidebar 
 keywords: svm, resource pool requirements, support, storage services 
-summary: 'Vous pouvez mieux assurer la conformité aux applications partenaires en respectant certaines exigences en matière d"association des SVM et de pool de ressources spécifiques aux services de stockage : Par exemple, lorsque vous associez SVM et que vous créez des pools de ressources dans Unified Manager pour prendre en charge une topologie de protection dans un service de stockage fourni par une application partenaire.' 
+summary: 'Examinez les exigences relatives à l"association du SVM et au pool de ressources nécessaires pour prendre en charge une topologie de protection dans un service de stockage partenaire.' 
 ---
 = Exigences relatives aux SVM et aux pools de ressources pour la prise en charge des services de stockage dans Active IQ Unified Manager
 :allow-uri-read: 

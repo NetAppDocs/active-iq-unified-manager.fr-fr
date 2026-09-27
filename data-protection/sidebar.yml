@@ -3,13 +3,13 @@ section: data-protection
 title: Protégez et restaurez les données
 entries:
 - title: Créer et dépanner les relations de protection
-  url: "/data-protection/concept_create_and_monitor_protection_relationships.html"
   entries:
   - title: Types de protection SnapMirror
     url: "/data-protection/concept_types_of_snapmirror_protection.html"
   - title: Configurer les relations de protection dans Unified Manager
-    url: "/data-protection/task_set_up_protection_relationships_in_unified_manager.html"
     entries:
+    - title: Découvrez comment configurer des relations de protection
+      url: "/data-protection/task_set_up_protection_relationships_in_unified_manager.html"
     - title: Configurer une connexion entre Workflow Automation et Unified Manager
       url: "/data-protection/task_configure_connection_between_workflow_automation_um.html"
     - title: Vérifier la mise en cache des sources de données d'Unified Manager dans
@@ -22,8 +22,9 @@ entries:
         Manager
       url: "/data-protection/task_remove_workflow_automation.html"
   - title: Effectuer un basculement et une restauration de la relation de protection
-    url: "/data-protection/task_perform_protection_relationship_failover_and_failback.html"
     entries:
+    - title: Découvrez les mécanismes de basculement et de rétablissement
+      url: "/data-protection/task_perform_protection_relationship_failover_and_failback.html"
     - title: Rompre une relation SnapMirror à partir de la page des détails de l'état
         du volume
       url: "/data-protection/task_break_snapmirror_relationship_from_health_volume_details.html"
@@ -37,16 +38,18 @@ entries:
         de l'état du volume
       url: "/data-protection/task_resynchronize_protection_relationships_voldtls.html"
   - title: Résoudre l'échec d'une tâche de protection
-    url: "/data-protection/task_resolve_protection_job_failure.html"
     entries:
+    - title: Découvrez comment résoudre un échec de tâche de protection
+      url: "/data-protection/task_resolve_protection_job_failure.html"
     - title: Identifier le problème et effectuer des actions correctives en cas d'échec
         d'une tâche de protection
       url: "/data-protection/task_identify_problem_for_failed_protection_job.html"
   - title: Résoudre les problèmes de décalage
     url: "/data-protection/task_resolve_lag_issues.html"
 - title: Gérer et surveiller les relations de protection
-  url: "/data-protection/concept_manage_and_monitor_protection_relationships.html"
   entries:
+  - title: Découvrez comment gérer et surveiller les relations de protection
+    url: "/data-protection/concept_manage_and_monitor_protection_relationships.html"
   - title: Afficher l'état de protection du volume
     url: "/data-protection/view-protection-status.html"
   - title: Afficher les relations de protection du volume
@@ -137,8 +140,10 @@ entries:
     url: "/data-protection/task_delete_resource_pools.html"
   - title: Surveiller les relations de protection de reprise après sinistre des machines
       virtuelles de stockage
-    url: "/data-protection/concept_monitor_storage_vm_disaster_recovery_relationships.html"
     entries:
+    - title: Découvrez les relations de reprise d’activité après sinistre des machines
+        virtuelles de stockage
+      url: "/data-protection/concept_monitor_storage_vm_disaster_recovery_relationships.html"
     - title: Surveiller les machines virtuelles de stockage à l'aide de la page Relations
       url: "/data-protection/task_monitor_storage_vms_using_relationships_page.html"
     - title: Afficher les relations de protection à partir de la page Machines virtuelles
@@ -163,7 +168,6 @@ entries:
   - title: Réessayer une tâche de protection ayant échoué
     url: "/data-protection/task_retry_failed_protection_job.html"
   - title: Description des fenêtres et boîtes de dialogue protection relations
-    url: "/data-protection/reference_description_of_protection_relationships_window.html"
     entries:
     - title: Page pools de ressources
       url: "/data-protection/reference_resource_pools_page.html"

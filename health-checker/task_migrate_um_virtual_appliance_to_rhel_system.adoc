@@ -22,7 +22,7 @@ Vous pouvez restaurer une sauvegarde de vidage de base de données MySQL d'Unifi
 
 * Sur le système Linux :
 +
-** Vous devez avoir installé Unified Manager sur un serveur Linux en suivant les instructions de la section link:../install-linux/concept_install_unified_manager_on_rhel.html["Installation de Unified Manager sur des systèmes Linux"].
+** Vous devez avoir installé Unified Manager sur un serveur Linux en suivant les instructions figurant dans link:../install-linux/task_install_unified_manager_linux.html["Installation de Unified Manager sur des systèmes Linux"].
 ** La version d'Unified Manager sur ce serveur doit être identique à celle de l'appliance virtuelle à partir de laquelle vous utilisez le fichier de sauvegarde.
 ** Ne lancez pas l'interface utilisateur et ne configurez aucun cluster, utilisateur ou paramètre d'authentification sur le système Linux après l'installation. Le fichier de sauvegarde remplit ces informations lors du processus de restauration.
 ** Vous devez disposer des informations d'identification utilisateur root pour l'hôte Linux.

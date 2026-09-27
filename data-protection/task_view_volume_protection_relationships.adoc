@@ -2,7 +2,7 @@
 permalink: data-protection/task_view_volume_protection_relationships.html 
 sidebar: sidebar 
 keywords: view, volume, protection relationships 
-summary: 'Depuis la vue relation : toutes les relations, et depuis la page Volume relations, vous pouvez afficher l"état des relations SnapMirror volume et SnapVault existantes. Vous pouvez également examiner des détails sur les relations de protection, notamment le statut de transfert et de décalage, les informations sur la source et la destination, les informations de planification et de stratégie, etc.' 
+summary: 'Consultez l"état des relations de volume SnapMirror et SnapVault, y compris l"état du transfert et du décalage, la source et la destination, ainsi que les détails de la planification.' 
 ---
 = Afficher les relations de protection des volumes dans Active IQ Unified Manager
 :allow-uri-read: 
